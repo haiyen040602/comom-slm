@@ -5,44 +5,32 @@ from data_utils import read_data_file
 from dataset import CausalLMDataset
 from training import train
 from inference import infer
+from config import args, data_paths, result_dir, inference_dir, MODEL_NAME, TRAIN_BATCH_SIZE, EVAL_BATCH_SIZE, MAX_SEQ_LENGTH, NUM_EPOCHS, LEARNING_RATE
 
 if __name__ == "__main__":
-    # Configuration
-    model_name = "Qwen/Qwen2-0.5B"
-    data_dir = "t5-camera-coqe-data"
-    train_file = "train.txt"
-    dev_file = "dev.txt"
-    test_file = "test.txt"
-    
-    train_batch_size = 8
-    eval_batch_size = 16
-    max_seq_length = 256
-    num_epochs = 3
-    learning_rate = 5e-5
-
     # Load tokenizer and model
     print("Loading model and tokenizer...")
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModelForCausalLM.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
     tokenizer.pad_token = tokenizer.eos_token
 
     # Load data
     print("Loading data...")
-    train_inputs, train_labels = read_data_file(os.path.join(data_dir, train_file))
-    dev_inputs, dev_labels = read_data_file(os.path.join(data_dir, dev_file))
+    train_inputs, train_labels = read_data_file(data_paths["train_file"])
+    dev_inputs, dev_labels = read_data_file(data_paths["dev_file"])
 
-    train_dataset = CausalLMDataset(tokenizer, train_inputs, train_labels, max_len=max_seq_length)
-    dev_dataset = CausalLMDataset(tokenizer, dev_inputs, dev_labels, max_len=max_seq_length)
+    train_dataset = CausalLMDataset(tokenizer, train_inputs, train_labels, max_len=MAX_SEQ_LENGTH)
+    dev_dataset = CausalLMDataset(tokenizer, dev_inputs, dev_labels, max_len=MAX_SEQ_LENGTH)
 
     # Train the model
     print("Starting training...")
     train(
         model, tokenizer, train_dataset, dev_dataset,
-        epochs=num_epochs, lr=learning_rate,
-        train_batch_size=train_batch_size, eval_batch_size=eval_batch_size
+        epochs=NUM_EPOCHS, lr=LEARNING_RATE,
+        train_batch_size=TRAIN_BATCH_SIZE, eval_batch_size=EVAL_BATCH_SIZE
     )
 
     # Evaluate the model
     print("Evaluating the model...")
-    eval_loss, _, _, _ = infer(dev_dataset, model, tokenizer, batch_size=eval_batch_size, name="eval")
+    eval_loss, _, _, _ = infer(dev_dataset, model, tokenizer, batch_size=EVAL_BATCH_SIZE, name="eval")
     print(f"Evaluation Loss: {eval_loss}")

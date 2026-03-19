@@ -12,6 +12,9 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
     model.gradient_checkpointing_enable()
     print("✓ Gradient checkpointing enabled")
     
+    # Print sample data for verification
+    print_sample_data(train_data, tokenizer)
+    
     # Set model to training mode
     model.train()
     
@@ -59,3 +62,14 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
         print(f"Epoch {epoch+1} Loss: {total_loss / len(train_loader)}")
 
     print("#" * 20 + " FINISH TRAINING " + "#" * 20)
+
+def print_sample_data(dataset, tokenizer, num_samples=5):
+    """Print sample input-output pairs from the dataset."""
+    print("\nSample Input-Output Pairs:")
+    for i in range(min(num_samples, len(dataset))):
+        sample = dataset[i]
+        input_text = tokenizer.decode(sample['input_ids'], skip_special_tokens=True)
+        label_text = tokenizer.decode(sample['labels'], skip_special_tokens=True)
+        print(f"Sample {i+1}:")
+        print(f"  Input: {input_text}")
+        print(f"  Label: {label_text}\n")
