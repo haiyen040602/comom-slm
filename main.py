@@ -18,7 +18,7 @@ if __name__ == "__main__":
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
         trust_remote_code=True,
-        torch_dtype=torch.float16 if USE_MIXED_PRECISION else torch.float32,
+        torch_dtype=torch.bfloat16 if USE_MIXED_PRECISION else torch.float32,
         device_map="auto",
         use_cache=False
     )

@@ -37,7 +37,8 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
 
     num_training_steps = len(train_loader) * epochs
     scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=num_training_steps)
-    scaler = GradScaler()
+    scaler = GradScaler(enabled=False)  # bfloat16 không cần GradScaler
+    dtype = torch.bfloat16
 
     best_eval_loss = float('inf')
     train_losses, eval_losses = [], []
@@ -53,7 +54,7 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
             attention_mask = batch['attention_mask'].to(model.device)
             labels = batch['labels'].to(model.device)
 
-            with autocast('cuda'):
+            with autocast('cuda', dtype=torch.bfloat16):
                 outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
                 loss = outputs.loss / acc_step
 
@@ -85,7 +86,7 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
                 input_ids = batch['input_ids'].to(model.device)
                 attention_mask = batch['attention_mask'].to(model.device)
                 labels = batch['labels'].to(model.device)
-                with autocast('cuda'):
+                with autocast('cuda', dtype=torch.bfloat16):
                     outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
                 eval_total_loss += outputs.loss.item()
 
