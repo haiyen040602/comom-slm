@@ -16,8 +16,16 @@ if __name__ == "__main__":
 
     # Load data
     print("Loading data...")
+
+    print(f"Train file path: {data_paths['train_file']}")
+    print(f"Train file exists: {os.path.exists(data_paths['train_file'])}")
+        
     train_inputs, train_labels = read_data_file(data_paths["train_file"])
     dev_inputs, dev_labels = read_data_file(data_paths["dev_file"])
+
+    print(f"Number of training samples: {len(train_inputs)}")
+    print(f"Sample training input: {train_inputs[:2]}")
+    print(f"Sample training labels: {train_labels[:2]}")
 
     train_dataset = CausalLMDataset(tokenizer, train_inputs, train_labels, max_len=MAX_SEQ_LENGTH)
     dev_dataset = CausalLMDataset(tokenizer, dev_inputs, dev_labels, max_len=MAX_SEQ_LENGTH)
