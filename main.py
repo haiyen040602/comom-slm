@@ -4,7 +4,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from data_utils import read_data_file
 from dataset import CausalLMDataset
 from training import train
-from inference import infer
+from inference import infer, generate_dev_predictions, compute_coqe_metrics, print_metrics_table
+from logger import TrainingLogger
 from config import (args, data_paths, result_dir, inference_dir,
                     MODEL_NAME, TRAIN_BATCH_SIZE, EVAL_BATCH_SIZE, MAX_SEQ_LENGTH,
                     NUM_EPOCHS, LEARNING_RATE, GRADIENT_ACCUMULATION_STEPS,
@@ -14,7 +15,7 @@ from config import (args, data_paths, result_dir, inference_dir,
 if __name__ == "__main__":
     # Load tokenizer and model
     print("Loading model and tokenizer...")
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, padding_side='left')
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
         trust_remote_code=True,
@@ -23,6 +24,7 @@ if __name__ == "__main__":
         use_cache=False
     )
     tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = 'left'  # Đảm bảo left-padding cho generation
 
     # Load data
     print("Loading data...")
@@ -42,14 +44,28 @@ if __name__ == "__main__":
 
     # Train the model
     print("Starting training...")
+    logger = TrainingLogger(log_dir=inference_dir, model_name=MODEL_NAME)
     train(
         model, tokenizer, train_dataset, dev_dataset,
         epochs=NUM_EPOCHS, lr=LEARNING_RATE,
         train_batch_size=TRAIN_BATCH_SIZE, eval_batch_size=EVAL_BATCH_SIZE,
-        acc_step=GRADIENT_ACCUMULATION_STEPS
+        acc_step=GRADIENT_ACCUMULATION_STEPS,
+        logger=logger
     )
 
-    # Evaluate the model
-    print("Evaluating the model...")
-    eval_loss, _, _, _ = infer(dev_dataset, model, tokenizer, batch_size=EVAL_BATCH_SIZE, name="eval")
-    print(f"Evaluation Loss: {eval_loss}")
+    # Evaluate và log kết quả trên tập test
+    print("\nRunning inference on test set...")
+    test_inputs, test_labels = read_data_file(data_paths["test_file"])
+    test_dataset = CausalLMDataset(tokenizer, test_inputs, test_labels, max_len=MAX_SEQ_LENGTH)
+    test_predictions, test_gold = generate_dev_predictions(
+        model, tokenizer, test_dataset, batch_size=EVAL_BATCH_SIZE
+    )
+    test_metrics = compute_coqe_metrics(test_predictions, test_gold)
+    print_metrics_table(test_metrics, epoch=None)
+    logger.log_predictions(
+        inputs=test_inputs,
+        predictions=test_predictions,
+        gold_labels=test_gold,
+        metrics=test_metrics,
+        split="test"
+    )

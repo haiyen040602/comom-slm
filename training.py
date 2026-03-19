@@ -5,7 +5,7 @@ from transformers import get_linear_schedule_with_warmup
 from torch.amp import GradScaler, autocast
 from inference import generate_dev_predictions, compute_coqe_metrics, print_metrics_table
 
-def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, eval_batch_size, acc_step=4):
+def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, eval_batch_size, acc_step=4, logger=None):
     """Training function for Causal LM with memory optimization"""
     print("#" * 20 + " BEGIN TRAINING " + "#" * 20)
     
@@ -112,22 +112,60 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
         print(f"{'='*60}")
         print_metrics_table(metrics, epoch=epoch+1)
 
+        # Log epoch kết quả
+        if logger:
+            logger.log_train_epoch(
+                epoch=epoch+1,
+                train_loss=avg_train_loss,
+                eval_loss=avg_eval_loss,
+                lr=scheduler.get_last_lr()[0],
+                metrics=metrics
+            )
+            logger.log_predictions(
+                inputs=val_data.inputs,
+                predictions=predictions,
+                gold_labels=gold_labels,
+                metrics=metrics,
+                split="dev"
+            )
+
     print("#" * 20 + " FINISH TRAINING " + "#" * 20)
     print(f"\nBest Eval Loss: {best_eval_loss:.5f}")
     print(f"Train Losses: {[f'{l:.5f}' for l in train_losses]}")
     print(f"Eval  Losses: {[f'{l:.5f}' for l in eval_losses]}")
 
+    if logger:
+        logger.save_summary()
+
 def print_sample_data(dataset, tokenizer, num_samples=5):
     """In ra các mẫu input-output từ dataset để kiểm tra dữ liệu."""
     print("\nSample Input-Output Pairs:")
+    print("-" * 80)
     for i in range(min(num_samples, len(dataset))):
-        sample = dataset[i]
-        input_text = tokenizer.decode(sample['input_ids'], skip_special_tokens=True)
-        
-        # Thay thế -100 bằng pad_token_id trước khi decode
-        labels = sample['labels'].clone()
-        labels[labels == -100] = tokenizer.pad_token_id
-        label_text = tokenizer.decode(labels, skip_special_tokens=True)
-        
-        print(f"  Input: {input_text}")
-        print(f"  Label: {label_text}")
+        raw_input  = dataset.inputs[i]
+        raw_target = dataset.targets[i]
+
+        full_ids  = dataset[i]['input_ids']
+        labels    = dataset[i]['labels']
+
+        # Tách phần được train (labels != -100) để decode
+        trained_ids = full_ids.clone()
+        trained_ids[labels == -100] = tokenizer.pad_token_id
+
+        full_text    = tokenizer.decode(full_ids,    skip_special_tokens=False)
+        trained_text = tokenizer.decode(trained_ids, skip_special_tokens=True).strip()
+
+        num_output_tokens = (labels != -100).sum().item()
+        num_input_tokens  = (labels == -100).sum().item()
+        num_pad_tokens    = (full_ids == tokenizer.pad_token_id).sum().item()
+
+        # Kiểm tra leakage: trained_text phải bằng raw_target
+        is_correct = raw_target.strip() in trained_text or trained_text in raw_target.strip()
+
+        print(f"[Sample {i+1}]")
+        print(f"  Raw Input     : {raw_input[:90]}{'...' if len(raw_input)>90 else ''}")
+        print(f"  Raw Target    : {raw_target}")
+        print(f"  Trained tokens: {trained_text[:90]}{'...' if len(trained_text)>90 else ''}")
+        print(f"  Token counts  : {num_input_tokens} masked | {num_output_tokens} trained | {num_pad_tokens} pad")
+        print(f"  Label check   : {'✅ OK' if is_correct and num_output_tokens > 0 else '❌ MISMATCH - check mask boundary!'}")
+        print("-" * 80)
