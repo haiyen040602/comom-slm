@@ -11,7 +11,13 @@ if __name__ == "__main__":
     # Load tokenizer and model
     print("Loading model and tokenizer...")
     tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-    model = AutoModelForCausalLM.from_pretrained(MODEL_NAME)
+    model = AutoModelForCausalLM.from_pretrained(
+        MODEL_NAME,
+        trust_remote_code=True,
+        torch_dtype=torch.float16 if use_mixed_precision else torch.float32,
+        device_map="auto",
+        use_cache=False  # Ensure compatibility with gradient checkpointing
+    )
     tokenizer.pad_token = tokenizer.eos_token
 
     # Load data

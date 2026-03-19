@@ -4,23 +4,25 @@ from tqdm import tqdm
 from sklearn.metrics import precision_recall_fscore_support
 import re
 
-def extract_elements(input_string):
-    """Extract structured elements from prediction."""
-    input_list = input_string.split(';')
-    pattern = re.compile(r'<sub>(.*?)<obj>(.*?)<asp>(.*?)<pred>(.*?)<lab>(.*?)$')
-    result = []
-    for i in input_list:
-        i = i.strip()
-        match = re.match(pattern, i[1:-1].strip())
-        
-        if match:
-            items = match.groups()
-            new_items = [item.strip() for item in items]
-            result.append(new_items)
-        else:
-            result.append(None)
-    
-    return result
+ELEM_NAMES = ['S', 'O', 'A', 'P', 'L']
+
+def parse_tuple(text):
+    """Parse a single tuple from format: ([S] val [O] val [A] val [P] val [L] val)"""
+    text = text.strip().strip('()')
+    pattern = re.compile(r'\[S\](.*?)\[O\](.*?)\[A\](.*?)\[P\](.*?)\[L\](.*?)$')
+    match = pattern.match(text.strip())
+    if match:
+        return tuple(item.strip() for item in match.groups())
+    return None
+
+def parse_output(text):
+    """Parse output string with multiple tuples separated by ;"""
+    tuples = []
+    for part in text.split(';'):
+        t = parse_tuple(part.strip())
+        if t:
+            tuples.append(t)
+    return tuples
 
 def infer(dataset, model, tokenizer, batch_size, max_seq_length=256, name="eval", verbose=False):
     """Inference for causal LM - generates predictions"""
@@ -83,61 +85,123 @@ def infer(dataset, model, tokenizer, batch_size, max_seq_length=256, name="eval"
     
     return average_loss, inputs, outputs, targets
 
-def compute_metrics(predicted_list, gold_list):
-    """Compute precision, recall, F1 scores for individual entities and groups."""
-    predicted_positions = list(map(list, zip(*predicted_list)))
-    gold_positions = list(map(list, zip(*gold_list)))
+def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_tokens=128):
+    """Generate predictions for the dev/test set using the model"""
+    model.eval()
+    all_predictions = []
+    inputs_raw  = dataset.inputs
+    targets_raw = dataset.targets
 
-    precision_scores = []
-    recall_scores = []
-    f1_scores = []
+    with torch.no_grad():
+        for i in tqdm(range(0, len(inputs_raw), batch_size), desc="  Generating", leave=False):
+            batch_inputs  = inputs_raw[i:i+batch_size]
+            batch_targets = targets_raw[i:i+batch_size]
 
-    for predicted, gold in zip(predicted_positions, gold_positions):
-        precision, recall, f1, _ = precision_recall_fscore_support(gold, predicted, average='micro')
-        precision_scores.append(precision)
-        recall_scores.append(recall)
-        f1_scores.append(f1)
+            # Encode only the input prompt (no output) for generation
+            prompts = [f"Input: {inp}\nOutput:" for inp in batch_inputs]
+            encoded = tokenizer(
+                prompts, padding=True, truncation=True,
+                max_length=256, return_tensors="pt"
+            ).to(model.device)
 
-    # Compute metrics for the entire tuple (S, O, A, P, L)
-    precision, recall, f1, _ = precision_recall_fscore_support(gold_list, predicted_list, average='micro')
-    overall_metrics = {
-        "Precision": precision,
-        "Recall": recall,
-        "F1": f1
-    }
+            generated = model.generate(
+                input_ids=encoded['input_ids'],
+                attention_mask=encoded['attention_mask'],
+                max_new_tokens=max_new_tokens,
+                num_beams=1, do_sample=False,
+                pad_token_id=tokenizer.pad_token_id
+            )
 
-    return precision_scores, recall_scores, f1_scores, overall_metrics
+            for j, gen_ids in enumerate(generated):
+                input_len = encoded['input_ids'].shape[1]
+                new_tokens = gen_ids[input_len:]
+                pred_text = tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
+                all_predictions.append(pred_text)
 
-def evaluate_predictions(predicted_list, gold_list, elem_dict):
-    """Evaluate predictions against gold labels."""
-    assert len(predicted_list) == len(gold_list)
+    return all_predictions, targets_raw
 
-    all_labels, all_predictions = [], []
-    for pred, gold in zip(predicted_list, gold_list):
-        pred_elements = extract_elements(pred)
-        gold_elements = extract_elements(gold)
 
-        for pred_elem, gold_elem in zip(pred_elements, gold_elements):
-            if pred_elem and gold_elem:
-                all_labels.append(gold_elem)
-                all_predictions.append(pred_elem)
+def _prf(tp, pred, gold):
+    p  = tp / pred if pred > 0 else 0.0
+    r  = tp / gold if gold > 0 else 0.0
+    f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+    return p, r, f1
 
-    precision_scores, recall_scores, f1_scores, overall_metrics = compute_metrics(all_predictions, all_labels)
 
-    # Print metrics for each entity
-    scores_dict = {}
-    for i, elem in enumerate(elem_dict):
-        scores_dict[elem] = {
-            "Precision": precision_scores[i],
-            "Recall": recall_scores[i],
-            "F1": f1_scores[i]
-        }
+def compute_coqe_metrics(predictions, gold_labels):
+    """Compute P, R, F1 for each element (S,O,A,P,L), 4-tuple and 5-tuple.
 
-    print("Entity-wise Metrics:")
-    for entity, metrics in scores_dict.items():
-        print(f"{entity}: {metrics}")
+    Matching strategy: greedy set-based matching per sample.
+    """
+    elem_tp   = {e: 0 for e in ELEM_NAMES}
+    elem_pred = {e: 0 for e in ELEM_NAMES}
+    elem_gold = {e: 0 for e in ELEM_NAMES}
+    tp_4, pred_4, gold_4 = 0, 0, 0
+    tp_5, pred_5, gold_5 = 0, 0, 0
 
-    print("\nOverall Metrics (S, O, A, P, L):")
-    print(overall_metrics)
+    for pred_str, gold_str in zip(predictions, gold_labels):
+        pred_tuples = parse_output(pred_str)
+        gold_tuples = parse_output(gold_str)
 
-    return scores_dict, overall_metrics
+        gold_set_4 = [t[:4] for t in gold_tuples if len(t) >= 4]
+        gold_set_5 = list(gold_tuples)
+        pred_set_4 = [t[:4] for t in pred_tuples if len(t) >= 4]
+        pred_set_5 = list(pred_tuples)
+
+        gold_4 += len(gold_set_4)
+        gold_5 += len(gold_set_5)
+        pred_4 += len(pred_set_4)
+        pred_5 += len(pred_set_5)
+
+        # Greedy 4-tuple match
+        used = set()
+        for pt4 in pred_set_4:
+            for gi, gt4 in enumerate(gold_set_4):
+                if gi not in used and pt4 == gt4:
+                    tp_4 += 1
+                    used.add(gi)
+                    break
+
+        # Greedy 5-tuple match
+        used = set()
+        for pt5 in pred_set_5:
+            for gi, gt5 in enumerate(gold_set_5):
+                if gi not in used and pt5 == gt5:
+                    tp_5 += 1
+                    used.add(gi)
+                    break
+
+        # Per-element: greedy match per position
+        for idx, e in enumerate(ELEM_NAMES):
+            g_vals = [gt[idx] for gt in gold_tuples if len(gt) > idx]
+            p_vals = [pt[idx] for pt in pred_tuples if len(pt) > idx]
+            elem_gold[e] += len(g_vals)
+            elem_pred[e] += len(p_vals)
+            used = set()
+            for pv in p_vals:
+                for gi, gv in enumerate(g_vals):
+                    if gi not in used and pv == gv:
+                        elem_tp[e] += 1
+                        used.add(gi)
+                        break
+
+    results = {}
+    for e in ELEM_NAMES:
+        results[e] = dict(zip(['P','R','F1'], _prf(elem_tp[e], elem_pred[e], elem_gold[e])))
+    results['4-tuple (S,O,A,P)'] = dict(zip(['P','R','F1'], _prf(tp_4, pred_4, gold_4)))
+    results['5-tuple (S,O,A,P,L)'] = dict(zip(['P','R','F1'], _prf(tp_5, pred_5, gold_5)))
+    return results
+
+
+def print_metrics_table(metrics, epoch=None):
+    """Print metrics in a formatted table"""
+    title = "Dev Metrics" if epoch is None else f"Dev Metrics — Epoch {epoch}"
+    print(f"\n{'─'*58}")
+    print(f"  {title}")
+    print(f"{'─'*58}")
+    print(f"  {'Element':<20} {'Precision':>9} {'Recall':>9} {'F1':>9}")
+    print(f"  {'─'*50}")
+    for name, s in metrics.items():
+        marker = ' ◀' if 'tuple' in name else ''
+        print(f"  {name:<20} {s['P']:>9.4f} {s['R']:>9.4f} {s['F1']:>9.4f}{marker}")
+    print(f"{'─'*58}\n")
