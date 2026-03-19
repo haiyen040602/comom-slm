@@ -15,10 +15,12 @@ DEFAULT_NUM_WARMUP_STEPS = 0
 DEFAULT_USE_MIXED_PRECISION = True
 DEFAULT_USE_GRADIENT_CHECKPOINTING = True
 DEFAULT_SPECIAL_TOKENS = ['[S]', '[O]', '[A]', '[P]', '[L]', '[UNK]', '(', ')', ';', ':', 'Better', 'Worse', 'Equal', 'Different']
+DEFAULT_DATA_DIR = "/kaggle/working/datasets"
 
 # Parse command-line arguments
 def parse_args():
     parser = argparse.ArgumentParser(description="Configuration for training and evaluation")
+    parser.add_argument('--dataset_name', type=str, required=True, help="Name of the dataset folder inside the data directory")
     parser.add_argument('--model_name', type=str, default=DEFAULT_MODEL_NAME, help="Model name or path")
     parser.add_argument('--train_batch_size', type=int, default=DEFAULT_TRAIN_BATCH_SIZE, help="Training batch size")
     parser.add_argument('--eval_batch_size', type=int, default=DEFAULT_EVAL_BATCH_SIZE, help="Evaluation batch size")
@@ -31,7 +33,7 @@ def parse_args():
     parser.add_argument('--num_warmup_steps', type=int, default=DEFAULT_NUM_WARMUP_STEPS, help="Number of warmup steps for learning rate scheduler")
     parser.add_argument('--use_mixed_precision', type=bool, default=DEFAULT_USE_MIXED_PRECISION, help="Use mixed precision training")
     parser.add_argument('--use_gradient_checkpointing', type=bool, default=DEFAULT_USE_GRADIENT_CHECKPOINTING, help="Use gradient checkpointing")
-    parser.add_argument('--data_dir', type=str, required=True, help="Path to the dataset directory")
+    parser.add_argument('--data_dir', type=str, default=DEFAULT_DATA_DIR, help="Base directory for datasets")
     parser.add_argument('--output_dir', type=str, required=True, help="Path to the output directory")
     return parser.parse_args()
 
@@ -55,9 +57,9 @@ SPECIAL_TOKENS = DEFAULT_SPECIAL_TOKENS
 
 # Data paths and output directories
 data_paths = {
-    "train_file": os.path.join(args.data_dir, "train.txt"),
-    "dev_file": os.path.join(args.data_dir, "dev.txt"),
-    "test_file": os.path.join(args.data_dir, "test.txt")
+    "train_file": os.path.join(args.data_dir, args.dataset_name, "train.txt"),
+    "dev_file": os.path.join(args.data_dir, args.dataset_name, "dev.txt"),
+    "test_file": os.path.join(args.data_dir, args.dataset_name, "test.txt")
 }
 
 result_dir = os.path.join(args.output_dir, f"result/model-{MODEL_NAME}")

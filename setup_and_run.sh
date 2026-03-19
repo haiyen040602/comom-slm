@@ -1,10 +1,19 @@
 #!/bin/bash
 
+# Check if dataset name is provided
+if [ -z "$1" ]; then
+  echo "Error: No dataset name provided. Usage: ./setup_and_run.sh <dataset_name>"
+  exit 1
+fi
+
+DATASET_NAME=$1
+
 # Update and install required packages
 pip install -r requirements.txt
 
 # Run the main training and evaluation script
-python main.py --data_dir /kaggle/input/datasets/lynss462/t5-camera-coqe-data \
+python main.py --data_dir /kaggle/working/datasets \
+               --dataset_name $DATASET_NAME \
                --output_dir /kaggle/working \
                --model_name Qwen/Qwen2-0.5B \
                --train_batch_size 8 \
