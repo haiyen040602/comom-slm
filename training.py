@@ -64,12 +64,16 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
     print("#" * 20 + " FINISH TRAINING " + "#" * 20)
 
 def print_sample_data(dataset, tokenizer, num_samples=5):
-    """Print sample input-output pairs from the dataset."""
+    """In ra các mẫu input-output từ dataset để kiểm tra dữ liệu."""
     print("\nSample Input-Output Pairs:")
     for i in range(min(num_samples, len(dataset))):
         sample = dataset[i]
         input_text = tokenizer.decode(sample['input_ids'], skip_special_tokens=True)
-        label_text = tokenizer.decode(sample['labels'], skip_special_tokens=True)
-        print(f"Sample {i+1}:")
+        
+        # Thay thế -100 bằng pad_token_id trước khi decode
+        labels = sample['labels'].clone()
+        labels[labels == -100] = tokenizer.pad_token_id
+        label_text = tokenizer.decode(labels, skip_special_tokens=True)
+        
         print(f"  Input: {input_text}")
-        print(f"  Label: {label_text}\n")
+        print(f"  Label: {label_text}")
