@@ -15,7 +15,7 @@ DEFAULT_NUM_WARMUP_STEPS = 0
 DEFAULT_USE_MIXED_PRECISION = True
 DEFAULT_USE_GRADIENT_CHECKPOINTING = True
 DEFAULT_SPECIAL_TOKENS = ['[S]', '[O]', '[A]', '[P]', '[L]', '[UNK]', '(', ')', ';', ':', 'Better', 'Worse', 'Equal', 'Different']
-DEFAULT_DATA_DIR = "/kaggle/working/datasets"
+DEFAULT_DATA_DIR = "/kaggle/working/comom-slm/datasets"
 
 # Parse command-line arguments
 def parse_args():
