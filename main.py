@@ -5,7 +5,11 @@ from data_utils import read_data_file
 from dataset import CausalLMDataset
 from training import train
 from inference import infer
-from config import args, data_paths, result_dir, inference_dir, MODEL_NAME, TRAIN_BATCH_SIZE, EVAL_BATCH_SIZE, MAX_SEQ_LENGTH, NUM_EPOCHS, LEARNING_RATE
+from config import (args, data_paths, result_dir, inference_dir,
+                    MODEL_NAME, TRAIN_BATCH_SIZE, EVAL_BATCH_SIZE, MAX_SEQ_LENGTH,
+                    NUM_EPOCHS, LEARNING_RATE, GRADIENT_ACCUMULATION_STEPS,
+                    WEIGHT_DECAY, ADAM_EPSILON, NUM_WARMUP_STEPS,
+                    USE_MIXED_PRECISION, USE_GRADIENT_CHECKPOINTING)
 
 if __name__ == "__main__":
     # Load tokenizer and model
@@ -14,9 +18,9 @@ if __name__ == "__main__":
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
         trust_remote_code=True,
-        torch_dtype=torch.float16 if use_mixed_precision else torch.float32,
+        torch_dtype=torch.float16 if USE_MIXED_PRECISION else torch.float32,
         device_map="auto",
-        use_cache=False  # Ensure compatibility with gradient checkpointing
+        use_cache=False
     )
     tokenizer.pad_token = tokenizer.eos_token
 
@@ -41,7 +45,8 @@ if __name__ == "__main__":
     train(
         model, tokenizer, train_dataset, dev_dataset,
         epochs=NUM_EPOCHS, lr=LEARNING_RATE,
-        train_batch_size=TRAIN_BATCH_SIZE, eval_batch_size=EVAL_BATCH_SIZE
+        train_batch_size=TRAIN_BATCH_SIZE, eval_batch_size=EVAL_BATCH_SIZE,
+        acc_step=GRADIENT_ACCUMULATION_STEPS
     )
 
     # Evaluate the model
