@@ -3,14 +3,18 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from sklearn.metrics import precision_recall_fscore_support
 import re
+from dataset import OUTPUT_END_MARKER
 
 ELEM_NAMES = ['S', 'O', 'A', 'P', 'L']
+TUPLE_INLINE_PATTERN = re.compile(
+    r'\[S\]\s*(.*?)\s*\[O\]\s*(.*?)\s*\[A\]\s*(.*?)\s*\[P\]\s*(.*?)\s*\[L\]\s*(.*?)(?=\)|\n|;|$)',
+    re.DOTALL,
+)
 
 def parse_tuple(text):
     """Parse a single tuple from format: ([S] val [O] val [A] val [P] val [L] val)"""
     text = text.strip().strip('()')
-    pattern = re.compile(r'\[S\](.*?)\[O\](.*?)\[A\](.*?)\[P\](.*?)\[L\](.*?)$')
-    match = pattern.match(text.strip())
+    match = TUPLE_INLINE_PATTERN.search(text)
     if match:
         return tuple(item.strip() for item in match.groups())
     return None
@@ -95,6 +99,9 @@ def _get_stop_token_ids(tokenizer):
         tid = tokenizer.convert_tokens_to_ids(token)
         if tid is not None and tid != tokenizer.unk_token_id:
             stop_ids.add(tid)
+    marker_id = tokenizer.convert_tokens_to_ids(OUTPUT_END_MARKER)
+    if marker_id is not None and marker_id != tokenizer.unk_token_id:
+        stop_ids.add(marker_id)
     return list(stop_ids)
 
 
@@ -126,7 +133,8 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
                 do_sample=False,
                 pad_token_id=tokenizer.pad_token_id,
                 eos_token_id=stop_token_ids,
-                repetition_penalty=1.3,   # Phạt token lặp lại
+                repetition_penalty=1.35,  # phat token lap lai
+                no_repeat_ngram_size=4,
             )
 
             for j, gen_ids in enumerate(generated):
@@ -142,20 +150,26 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
 
 
 def _trim_prediction(text):
-    """Giữ lại các tuple hợp lệ ([S]...[L]...) và bỏ phần nhiễu phía sau."""
-    # Thu thập tất cả các tuple hợp lệ
-    parts = text.split(';')
-    valid_parts = []
-    for part in parts:
-        part = part.strip()
-        # Dừng ngay khi gặp phần không phải tuple hợp lệ
-        if re.search(r'\[S\].*\[O\].*\[A\].*\[P\].*\[L\]', part):
-            valid_parts.append(part)
-        elif not part:
-            continue
-        else:
-            break  # Phần nhiễu bắt đầu, dừng lại
-    return ' ; '.join(valid_parts) if valid_parts else text.split('\n')[0].strip()
+    """Chi giu cac tuple hop le va cat bo phan sinh du thua."""
+    if not text:
+        return text
+
+    # Cat nhanh theo cac marker hay gap trong output chat.
+    for marker in ["<|im_end|>", "<|endoftext|>", OUTPUT_END_MARKER]:
+        if marker in text:
+            text = text.split(marker, 1)[0].strip()
+
+    # Trich xuat cac tuple hop le duoi dang nhan [S][O][A][P][L] va chuan hoa lai.
+    tuples = []
+    for m in TUPLE_INLINE_PATTERN.finditer(text):
+        s, o, a, p, l = (x.strip() for x in m.groups())
+        tuples.append(f"([S] {s} [O] {o} [A] {a} [P] {p} [L] {l})")
+
+    if tuples:
+        return ' ; '.join(tuples)
+
+    # Fallback: neu khong tim thay tuple day du, chi giu dong dau tien.
+    return text.split('\n', 1)[0].strip()
 
 
 def _prf(tp, pred, gold):

@@ -2,7 +2,7 @@ import os
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from data_utils import read_data_file
-from dataset import CausalLMDataset
+from dataset import CausalLMDataset, OUTPUT_END_MARKER
 from training import train
 from inference import infer, generate_dev_predictions, compute_coqe_metrics, print_metrics_table
 from logger import TrainingLogger
@@ -25,6 +25,11 @@ if __name__ == "__main__":
     )
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = 'left'  # Đảm bảo left-padding cho generation
+
+    # Teach a dedicated output-end marker to improve generation stopping.
+    num_added = tokenizer.add_special_tokens({"additional_special_tokens": [OUTPUT_END_MARKER]})
+    if num_added > 0:
+        model.resize_token_embeddings(len(tokenizer))
 
     # Load data
     print("Loading data...")

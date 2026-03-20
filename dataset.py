@@ -1,6 +1,8 @@
 import torch
 from torch.utils.data import Dataset
 
+OUTPUT_END_MARKER = "<|tuple_end|>"
+
 class CausalLMDataset(Dataset):
     """Dataset for Causal Language Models (Phi, Qwen)
     
@@ -31,6 +33,9 @@ class CausalLMDataset(Dataset):
         for i in range(len(inputs)):
             input_text = ' '.join(inputs[i]) if isinstance(inputs[i], list) else inputs[i]
             target_text = ' '.join(targets[i]) if isinstance(targets[i], list) else targets[i]
+            if target_text:
+                # Add an explicit end marker so the model learns where to stop.
+                target_text = f"{target_text} {OUTPUT_END_MARKER}"
             
             # Handle both training (non-empty) and test (empty) data
             combined_text = f"Input: {input_text}\nOutput: {target_text}"
