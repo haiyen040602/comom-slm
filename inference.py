@@ -85,17 +85,31 @@ def infer(dataset, model, tokenizer, batch_size, max_seq_length=256, name="eval"
     
     return average_loss, inputs, outputs, targets
 
-def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_tokens=128):
+def _get_stop_token_ids(tokenizer):
+    """Lấy danh sách token IDs dùng để dừng generation (EOS + chat end tokens)."""
+    stop_ids = set()
+    if tokenizer.eos_token_id is not None:
+        stop_ids.add(tokenizer.eos_token_id)
+    # Qwen chat end-of-turn token
+    for token in ["<|im_end|>", "<|endoftext|>", "<eos>"]:
+        tid = tokenizer.convert_tokens_to_ids(token)
+        if tid is not None and tid != tokenizer.unk_token_id:
+            stop_ids.add(tid)
+    return list(stop_ids)
+
+
+def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_tokens=80):
     """Generate predictions for the dev/test set using the model"""
     model.eval()
     all_predictions = []
     inputs_raw  = dataset.inputs
     targets_raw = dataset.targets
 
+    stop_token_ids = _get_stop_token_ids(tokenizer)
+
     with torch.no_grad():
         for i in tqdm(range(0, len(inputs_raw), batch_size), desc="  Generating", leave=False):
             batch_inputs  = inputs_raw[i:i+batch_size]
-            batch_targets = targets_raw[i:i+batch_size]
 
             # Encode only the input prompt (no output) for generation
             prompts = [f"Input: {inp}\nOutput:" for inp in batch_inputs]
@@ -108,17 +122,40 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
                 input_ids=encoded['input_ids'],
                 attention_mask=encoded['attention_mask'],
                 max_new_tokens=max_new_tokens,
-                num_beams=1, do_sample=False,
-                pad_token_id=tokenizer.pad_token_id
+                num_beams=1,
+                do_sample=False,
+                pad_token_id=tokenizer.pad_token_id,
+                eos_token_id=stop_token_ids,
+                repetition_penalty=1.3,   # Phạt token lặp lại
             )
 
             for j, gen_ids in enumerate(generated):
                 input_len = encoded['input_ids'].shape[1]
                 new_tokens = gen_ids[input_len:]
                 pred_text = tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
+
+                # Cắt bỏ phần lặp lại sau tuple đầu tiên hợp lệ
+                pred_text = _trim_prediction(pred_text)
                 all_predictions.append(pred_text)
 
     return all_predictions, targets_raw
+
+
+def _trim_prediction(text):
+    """Giữ lại các tuple hợp lệ ([S]...[L]...) và bỏ phần nhiễu phía sau."""
+    # Thu thập tất cả các tuple hợp lệ
+    parts = text.split(';')
+    valid_parts = []
+    for part in parts:
+        part = part.strip()
+        # Dừng ngay khi gặp phần không phải tuple hợp lệ
+        if re.search(r'\[S\].*\[O\].*\[A\].*\[P\].*\[L\]', part):
+            valid_parts.append(part)
+        elif not part:
+            continue
+        else:
+            break  # Phần nhiễu bắt đầu, dừng lại
+    return ' ; '.join(valid_parts) if valid_parts else text.split('\n')[0].strip()
 
 
 def _prf(tp, pred, gold):
