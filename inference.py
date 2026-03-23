@@ -3,13 +3,21 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from sklearn.metrics import precision_recall_fscore_support
 import re
-from dataset import OUTPUT_END_MARKER
+from dataset import OUTPUT_END_MARKER, build_prompt
 
 ELEM_NAMES = ['S', 'O', 'A', 'P', 'L']
+ALLOWED_LABELS = {
+    'better': 'Better',
+    'worse': 'Worse',
+    'equal': 'Equal',
+    'different': 'Different',
+    '[unk]': '[UNK]',
+}
 TUPLE_INLINE_PATTERN = re.compile(
     r'\[S\]\s*(.*?)\s*\[O\]\s*(.*?)\s*\[A\]\s*(.*?)\s*\[P\]\s*(.*?)\s*\[L\]\s*(.*?)(?=\)|\n|;|$)',
     re.DOTALL,
 )
+SLOT_PATTERN = re.compile(r'\[(S|O|A|P|L)\]\s*([^\[]*)')
 
 def parse_tuple(text):
     """Parse a single tuple from format: ([S] val [O] val [A] val [P] val [L] val)"""
@@ -119,7 +127,7 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
             batch_inputs  = inputs_raw[i:i+batch_size]
 
             # Encode only the input prompt (no output) for generation
-            prompts = [f"Input: {inp}\nOutput:" for inp in batch_inputs]
+            prompts = [build_prompt(inp) for inp in batch_inputs]
             encoded = tokenizer(
                 prompts, padding=True, truncation=True,
                 max_length=256, return_tensors="pt"
@@ -163,13 +171,63 @@ def _trim_prediction(text):
     tuples = []
     for m in TUPLE_INLINE_PATTERN.finditer(text):
         s, o, a, p, l = (x.strip() for x in m.groups())
+        l = _normalize_label(l, p)
         tuples.append(f"([S] {s} [O] {o} [A] {a} [P] {p} [L] {l})")
 
     if tuples:
         return ' ; '.join(tuples)
 
+    repaired = _repair_partial_tuple(text)
+    if repaired is not None:
+        return repaired
+
     # Fallback: neu khong tim thay tuple day du, chi giu dong dau tien.
     return text.split('\n', 1)[0].strip()
+
+
+def _repair_partial_tuple(text):
+    """Convert partial slot outputs into a canonical 5-slot tuple when possible."""
+    slots = {name: '[UNK]' for name in ELEM_NAMES}
+    found_any = False
+
+    for slot_name, slot_value in SLOT_PATTERN.findall(text):
+        cleaned = slot_value.strip().strip('() ;')
+        cleaned = re.split(r'\n|<\|', cleaned, maxsplit=1)[0].strip()
+        if cleaned:
+            slots[slot_name] = cleaned
+            found_any = True
+
+    if not found_any:
+        return None
+
+    slots['L'] = _normalize_label(slots['L'], slots['P'])
+
+    return (
+        f"([S] {slots['S']} [O] {slots['O']} [A] {slots['A']} "
+        f"[P] {slots['P']} [L] {slots['L']})"
+    )
+
+
+def _normalize_label(label_text, predicate_text=''):
+    """Restrict labels to Better/Worse/Equal/Different/[UNK]."""
+    label = (label_text or '').strip().strip('()[]').lower()
+    predicate = (predicate_text or '').strip().lower()
+
+    if label in ALLOWED_LABELS:
+        return ALLOWED_LABELS[label]
+
+    combined = f"{label} {predicate}".strip()
+
+    if any(phrase in combined for phrase in ['no difference', 'same', 'similar', 'equal', 'consistent', 'on par']):
+        return 'Equal'
+    if any(phrase in combined for phrase in ['different', 'differs', 'larger', 'smaller', 'higher', 'lower']):
+        return 'Different'
+    if any(phrase in combined for phrase in ['better', 'best', 'faster', 'greater', 'more accessible', 'sharper', 'improved', 'excellent', 'lighter', 'longer']):
+        return 'Better'
+    if any(phrase in combined for phrase in ['worse', 'slower', 'less portable', 'falls short', 'not as good', 'poor', 'bad', 'heavier', 'dim', 'not quite']):
+        return 'Worse'
+
+    return '[UNK]'
 
 
 def _prf(tp, pred, gold):

@@ -2,6 +2,16 @@ import torch
 from torch.utils.data import Dataset
 
 OUTPUT_END_MARKER = "<|tuple_end|>"
+TASK_INSTRUCTION = (
+    "Extract all comparative opinion tuples from the sentence. "
+    "Return only tuples in this exact format: "
+    "([S] subject [O] object [A] aspect [P] predicate [L] label). "
+    "Use [UNK] for missing fields. Separate multiple tuples with ' ; '."
+)
+
+
+def build_prompt(input_text):
+    return f"Instruction: {TASK_INSTRUCTION}\nInput: {input_text}\nOutput:"
 
 class CausalLMDataset(Dataset):
     """Dataset for Causal Language Models (Phi, Qwen)
@@ -38,7 +48,7 @@ class CausalLMDataset(Dataset):
                 target_text = f"{target_text} {OUTPUT_END_MARKER}"
             
             # Handle both training (non-empty) and test (empty) data
-            combined_text = f"Input: {input_text}\nOutput: {target_text}"
+            combined_text = f"{build_prompt(input_text)} {target_text}"
             
             # Tokenize combined text
             encoded = self.tokenizer(
@@ -54,7 +64,7 @@ class CausalLMDataset(Dataset):
             
             # Create labels: -100 for input part, token_ids for output part
             # For test data with empty output, mark input as -100
-            input_part = f"Input: {input_text}\nOutput:"
+            input_part = build_prompt(input_text)
             input_encoded = self.tokenizer(input_part, return_tensors="pt")
             input_ids_len = input_encoded['input_ids'].shape[-1]
             
