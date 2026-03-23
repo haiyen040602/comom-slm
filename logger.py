@@ -22,6 +22,8 @@ class TrainingLogger:
         self.metrics_path    = os.path.join(log_dir, "metrics_summary.json")
         self.test_pred_path  = os.path.join(log_dir, "test_predictions.txt")
         self.dev_pred_path   = os.path.join(log_dir, "dev_predictions.txt")
+        self.dev_full_gen_path = os.path.join(log_dir, "dev_full_generations.txt")
+        self.test_full_gen_path = os.path.join(log_dir, "test_full_generations.txt")
 
         os.makedirs(log_dir, exist_ok=True)
 
@@ -73,6 +75,29 @@ class TrainingLogger:
                 f.write(f"  {name:<22} P={s['P']:.4f}  R={s['R']:.4f}  F1={s['F1']:.4f}\n")
 
         print(f"✅ {split.upper()} predictions saved → {path}")
+
+    def log_full_generations(self, traces, gold_labels, split="dev", epoch=None):
+        """Save full prompt/raw generation text for debugging model behavior."""
+        path = self.dev_full_gen_path if split == "dev" else self.test_full_gen_path
+        title = f"# Run: {self.run_id}  |  Split: {split}"
+        if epoch is not None:
+            title += f"  |  Epoch: {epoch}"
+
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(title + "\n")
+            f.write("# Format: input + prompt + raw_generated + normalized_prediction + gold\n")
+            f.write("=" * 100 + "\n")
+
+            for i, (trace, gold) in enumerate(zip(traces, gold_labels), start=1):
+                f.write(f"[{i}] INPUT\n{trace.get('input', '')}\n")
+                f.write(f"[{i}] PROMPT\n{trace.get('prompt', '')}\n")
+                f.write(f"[{i}] RAW_GENERATED\n{trace.get('raw_generated', '')}\n")
+                f.write(f"[{i}] FULL_DECODED\n{trace.get('full_decoded', '')}\n")
+                f.write(f"[{i}] NORMALIZED_PREDICTION\n{trace.get('normalized_prediction', '')}\n")
+                f.write(f"[{i}] GOLD\n{gold}\n")
+                f.write("-" * 100 + "\n")
+
+        print(f"✅ {split.upper()} full generations saved → {path}")
 
     # ------------------------------------------------------------------
     # Final summary

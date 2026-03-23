@@ -113,12 +113,13 @@ def _get_stop_token_ids(tokenizer):
     return list(stop_ids)
 
 
-def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_tokens=80):
-    """Generate predictions for the dev/test set using the model"""
+def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_tokens=80, return_traces=False):
+    """Generate predictions for the dev/test set using the model."""
     model.eval()
     all_predictions = []
     inputs_raw  = dataset.inputs
     targets_raw = dataset.targets
+    traces = []
 
     stop_token_ids = _get_stop_token_ids(tokenizer)
 
@@ -148,12 +149,26 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
             for j, gen_ids in enumerate(generated):
                 input_len = encoded['input_ids'].shape[1]
                 new_tokens = gen_ids[input_len:]
+                raw_generated_text = tokenizer.decode(new_tokens, skip_special_tokens=False).strip()
                 pred_text = tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
 
                 # Cắt bỏ phần lặp lại sau tuple đầu tiên hợp lệ
                 pred_text = _trim_prediction(pred_text)
                 all_predictions.append(pred_text)
 
+                if return_traces:
+                    prompt_text = prompts[j]
+                    full_text = tokenizer.decode(gen_ids, skip_special_tokens=False).strip()
+                    traces.append({
+                        "input": batch_inputs[j],
+                        "prompt": prompt_text,
+                        "raw_generated": raw_generated_text,
+                        "full_decoded": full_text,
+                        "normalized_prediction": pred_text,
+                    })
+
+    if return_traces:
+        return all_predictions, targets_raw, traces
     return all_predictions, targets_raw
 
 

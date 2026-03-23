@@ -94,8 +94,8 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
         eval_losses.append(avg_eval_loss)
 
         # Generate predictions và tính P/R/F1 trên dev set
-        predictions, gold_labels = generate_dev_predictions(
-            model, tokenizer, val_data, batch_size=eval_batch_size
+        predictions, gold_labels, dev_traces = generate_dev_predictions(
+            model, tokenizer, val_data, batch_size=eval_batch_size, return_traces=True
         )
         metrics = compute_coqe_metrics(predictions, gold_labels)
 
@@ -127,6 +127,12 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
                 gold_labels=gold_labels,
                 metrics=metrics,
                 split="dev"
+            )
+            logger.log_full_generations(
+                traces=dev_traces,
+                gold_labels=gold_labels,
+                split="dev",
+                epoch=epoch+1
             )
 
     print("#" * 20 + " FINISH TRAINING " + "#" * 20)

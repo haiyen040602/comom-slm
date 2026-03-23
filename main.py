@@ -62,8 +62,8 @@ if __name__ == "__main__":
     print("\nRunning inference on test set...")
     test_inputs, test_labels = read_data_file(data_paths["test_file"])
     test_dataset = CausalLMDataset(tokenizer, test_inputs, test_labels, max_len=MAX_SEQ_LENGTH)
-    test_predictions, test_gold = generate_dev_predictions(
-        model, tokenizer, test_dataset, batch_size=EVAL_BATCH_SIZE
+    test_predictions, test_gold, test_traces = generate_dev_predictions(
+        model, tokenizer, test_dataset, batch_size=EVAL_BATCH_SIZE, return_traces=True
     )
     test_metrics = compute_coqe_metrics(test_predictions, test_gold)
     print_metrics_table(test_metrics, epoch=None)
@@ -72,5 +72,10 @@ if __name__ == "__main__":
         predictions=test_predictions,
         gold_labels=test_gold,
         metrics=test_metrics,
+        split="test"
+    )
+    logger.log_full_generations(
+        traces=test_traces,
+        gold_labels=test_gold,
         split="test"
     )
