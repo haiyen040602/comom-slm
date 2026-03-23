@@ -158,7 +158,10 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
 
                 if return_traces:
                     prompt_text = prompts[j]
-                    full_text = tokenizer.decode(gen_ids, skip_special_tokens=False).strip()
+                    mask_row = encoded['attention_mask'][j]
+                    non_pad_idx = (mask_row == 1).nonzero(as_tuple=True)[0]
+                    start_idx = int(non_pad_idx[0].item()) if len(non_pad_idx) > 0 else 0
+                    full_text = tokenizer.decode(gen_ids[start_idx:], skip_special_tokens=False).strip()
                     traces.append({
                         "input": batch_inputs[j],
                         "prompt": prompt_text,
@@ -228,19 +231,27 @@ def _normalize_label(label_text, predicate_text=''):
     label = (label_text or '').strip().strip('()[]').lower()
     predicate = (predicate_text or '').strip().lower()
 
+    # Prefer explicit label tokens if they appear in generated text.
+    explicit = re.search(r'\b(better|worse|equal|different|unk)\b', label)
+    if explicit:
+        token = explicit.group(1)
+        if token == 'unk':
+            return '[UNK]'
+        return token.capitalize()
+
     if label in ALLOWED_LABELS:
         return ALLOWED_LABELS[label]
 
     combined = f"{label} {predicate}".strip()
 
-    if any(phrase in combined for phrase in ['no difference', 'same', 'similar', 'equal', 'consistent', 'on par']):
-        return 'Equal'
-    if any(phrase in combined for phrase in ['different', 'differs', 'larger', 'smaller', 'higher', 'lower']):
-        return 'Different'
     if any(phrase in combined for phrase in ['better', 'best', 'faster', 'greater', 'more accessible', 'sharper', 'improved', 'excellent', 'lighter', 'longer']):
         return 'Better'
     if any(phrase in combined for phrase in ['worse', 'slower', 'less portable', 'falls short', 'not as good', 'poor', 'bad', 'heavier', 'dim', 'not quite']):
         return 'Worse'
+    if any(phrase in combined for phrase in ['different', 'differs', 'larger', 'smaller', 'higher', 'lower']):
+        return 'Different'
+    if any(phrase in combined for phrase in ['no difference', 'same', 'similar', 'equal', 'consistent', 'on par']):
+        return 'Equal'
 
     return '[UNK]'
 
@@ -249,7 +260,7 @@ def _prf(tp, pred, gold):
     p  = tp / pred if pred > 0 else 0.0
     r  = tp / gold if gold > 0 else 0.0
     f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
-    return p, r, f1
+    return p, r, f1, gold
 
 
 def compute_coqe_metrics(predictions, gold_labels):
@@ -311,21 +322,25 @@ def compute_coqe_metrics(predictions, gold_labels):
 
     results = {}
     for e in ELEM_NAMES:
-        results[e] = dict(zip(['P','R','F1'], _prf(elem_tp[e], elem_pred[e], elem_gold[e])))
-    results['4-tuple (S,O,A,P)'] = dict(zip(['P','R','F1'], _prf(tp_4, pred_4, gold_4)))
-    results['5-tuple (S,O,A,P,L)'] = dict(zip(['P','R','F1'], _prf(tp_5, pred_5, gold_5)))
+        p, r, f1, support = _prf(elem_tp[e], elem_pred[e], elem_gold[e])
+        results[e] = {'P': p, 'R': r, 'F1': f1, 'support': support}
+
+    p4, r4, f14, support4 = _prf(tp_4, pred_4, gold_4)
+    p5, r5, f15, support5 = _prf(tp_5, pred_5, gold_5)
+    results['4-tuple (S,O,A,P)'] = {'P': p4, 'R': r4, 'F1': f14, 'support': support4}
+    results['5-tuple (S,O,A,P,L)'] = {'P': p5, 'R': r5, 'F1': f15, 'support': support5}
     return results
 
 
 def print_metrics_table(metrics, epoch=None):
     """Print metrics in a formatted table"""
-    title = "Dev Metrics" if epoch is None else f"Dev Metrics — Epoch {epoch}"
-    print(f"\n{'─'*58}")
+    title = "Dev Metrics" if epoch is None else f"Dev Metrics - Epoch {epoch}"
+    print(f"\n{'-'*72}")
     print(f"  {title}")
-    print(f"{'─'*58}")
-    print(f"  {'Element':<20} {'Precision':>9} {'Recall':>9} {'F1':>9}")
-    print(f"  {'─'*50}")
+    print(f"{'-'*72}")
+    print(f"  {'Element':<20} {'Precision':>9} {'Recall':>9} {'F1':>9} {'Support':>8}")
+    print(f"  {'-'*64}")
     for name, s in metrics.items():
         marker = ' ◀' if 'tuple' in name else ''
-        print(f"  {name:<20} {s['P']:>9.4f} {s['R']:>9.4f} {s['F1']:>9.4f}{marker}")
-    print(f"{'─'*58}\n")
+        print(f"  {name:<20} {s['P']:>9.4f} {s['R']:>9.4f} {s['F1']:>9.4f} {s.get('support', 0):>8d}{marker}")
+    print(f"{'-'*72}\n")

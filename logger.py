@@ -72,7 +72,11 @@ class TrainingLogger:
             f.write("\n" + "=" * 100 + "\n")
             f.write("# METRICS\n")
             for name, s in metrics.items():
-                f.write(f"  {name:<22} P={s['P']:.4f}  R={s['R']:.4f}  F1={s['F1']:.4f}\n")
+                support = int(s.get('support', 0))
+                f.write(
+                    f"  {name:<22} P={s['P']:.4f}  R={s['R']:.4f}  "
+                    f"F1={s['F1']:.4f}  support={support}\n"
+                )
 
         print(f"✅ {split.upper()} predictions saved → {path}")
 
