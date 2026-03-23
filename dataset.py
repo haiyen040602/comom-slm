@@ -61,6 +61,7 @@ class CausalLMDataset(Dataset):
             labels = input_ids.clone()
             # Only compute loss on output tokens
             labels[:input_ids_len] = -100
+            labels[attention_mask == 0] = -100
             
             # Handle scalar tensor shape
             if input_ids.dim() == 0:
