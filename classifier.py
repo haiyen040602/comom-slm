@@ -131,23 +131,38 @@ def train_comparison_classifier(train_texts, train_label_texts, dev_texts, dev_l
     model.to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=cfg.learning_rate)
 
+    total_steps = len(train_loader) * cfg.epochs
+    warmup_steps = max(1, int(0.1 * total_steps))
+    scheduler = torch.optim.lr_scheduler.LinearLR(
+        optimizer, start_factor=0.1, end_factor=1.0, total_iters=warmup_steps
+    )
+
     print("\n[Stage 1] Training comparison classifier (DeBERTa backbone)...")
     for epoch in range(cfg.epochs):
         model.train()
         total_loss = 0.0
+        valid_batches = 0
         for batch in train_loader:
             input_ids = batch['input_ids'].to(device)
             attention_mask = batch['attention_mask'].to(device)
             labels = batch['labels'].to(device)
 
+            optimizer.zero_grad()
             outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
             loss = outputs.loss
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
-            total_loss += loss.item()
 
-        avg_loss = total_loss / max(len(train_loader), 1)
+            if torch.isnan(loss) or torch.isinf(loss):
+                continue
+
+            loss.backward()
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+            optimizer.step()
+            if epoch == 0 and valid_batches < warmup_steps:
+                scheduler.step()
+            total_loss += loss.item()
+            valid_batches += 1
+
+        avg_loss = total_loss / max(valid_batches, 1)
         print(f"  Epoch {epoch + 1}/{cfg.epochs} - Train loss: {avg_loss:.4f}")
 
         dev_preds = predict_comparison_labels(model, tokenizer, dev_texts, batch_size=cfg.batch_size, max_length=cfg.max_length)
