@@ -11,7 +11,7 @@ def _ensure_dir(path):
 
 
 class TrainingLogger:
-    def __init__(self, log_dir, model_name):
+    def __init__(self, log_dir, model_name, extra_config=None):
         self.log_dir   = log_dir
         self.model_name = model_name
         timestamp      = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -24,14 +24,17 @@ class TrainingLogger:
         self.dev_pred_path   = os.path.join(log_dir, "dev_predictions.txt")
         self.dev_full_gen_path = os.path.join(log_dir, "dev_full_generations.txt")
         self.test_full_gen_path = os.path.join(log_dir, "test_full_generations.txt")
+        self.train_prompt_path = os.path.join(log_dir, "train_prompts_sample.txt")
 
         os.makedirs(log_dir, exist_ok=True)
 
         # Ghi header config
         config_path = os.path.join(log_dir, "run_config.json")
+        config_payload = {"run_id": self.run_id, "model": model_name, "started_at": timestamp}
+        if extra_config:
+            config_payload.update(extra_config)
         with open(config_path, "w", encoding="utf-8") as f:
-            json.dump({"run_id": self.run_id, "model": model_name,
-                       "started_at": timestamp}, f, indent=2, ensure_ascii=False)
+            json.dump(config_payload, f, indent=2, ensure_ascii=False)
 
         self.all_train_epochs = []
         self.all_dev_epochs   = []
@@ -102,6 +105,29 @@ class TrainingLogger:
                 f.write("-" * 100 + "\n")
 
         print(f"✅ {split.upper()} full generations saved → {path}")
+
+    def log_training_prompts(self, inputs, gold_labels, prompts, formatted_targets=None, output_end_marker="", max_samples=100):
+        """Save a sample of the exact prompts and gold outputs used during training."""
+        with open(self.train_prompt_path, "w", encoding="utf-8") as f:
+            f.write(f"# Run: {self.run_id}  |  Split: train\n")
+            f.write(f"# Format: input + prompt + gold + full_train_text  |  Samples: {min(len(inputs), max_samples)}\n")
+            f.write("=" * 100 + "\n")
+
+            for i, (inp, gold, prompt) in enumerate(zip(inputs[:max_samples], gold_labels[:max_samples], prompts[:max_samples]), start=1):
+                target_for_model = formatted_targets[i-1] if formatted_targets is not None else gold
+                full_train_text = f"{prompt} {target_for_model}".strip()
+                if output_end_marker:
+                    full_train_text = f"{full_train_text} {output_end_marker}".strip()
+
+                f.write(f"[{i}] INPUT\n{inp}\n")
+                f.write(f"[{i}] PROMPT\n{prompt}\n")
+                f.write(f"[{i}] GOLD\n{gold}\n")
+                if formatted_targets is not None:
+                    f.write(f"[{i}] TARGET_FOR_MODEL\n{target_for_model}\n")
+                f.write(f"[{i}] FULL_TRAIN_TEXT\n{full_train_text}\n")
+                f.write("-" * 100 + "\n")
+
+        print(f"✅ TRAIN prompts saved → {self.train_prompt_path}")
 
     # ------------------------------------------------------------------
     # Final summary

@@ -3,7 +3,8 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from sklearn.metrics import precision_recall_fscore_support
 import re
-from dataset import OUTPUT_END_MARKER, build_prompt
+from dataset import OUTPUT_END_MARKER, build_prompt, CausalLMDataset
+from classifier import predict_comparison_labels
 
 ELEM_NAMES = ['S', 'O', 'A', 'P', 'L']
 ALLOWED_LABELS = {
@@ -120,6 +121,7 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
     inputs_raw  = dataset.inputs
     targets_raw = dataset.targets
     traces = []
+    prompt_style = getattr(dataset, 'prompt_style', 'direct')
 
     stop_token_ids = _get_stop_token_ids(tokenizer)
 
@@ -128,7 +130,7 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
             batch_inputs  = inputs_raw[i:i+batch_size]
 
             # Encode only the input prompt (no output) for generation
-            prompts = [build_prompt(inp) for inp in batch_inputs]
+            prompts = [build_prompt(inp, prompt_style=prompt_style) for inp in batch_inputs]
             encoded = tokenizer(
                 prompts, padding=True, truncation=True,
                 max_length=256, return_tensors="pt"
@@ -175,6 +177,78 @@ def generate_dev_predictions(model, tokenizer, dataset, batch_size=16, max_new_t
     return all_predictions, targets_raw
 
 
+def generate_predictions_with_comparison_gate(
+    model,
+    tokenizer,
+    inputs,
+    gold_labels,
+    max_len=256,
+    prompt_style='direct',
+    eval_batch_size=16,
+    max_new_tokens=80,
+    comparison_model=None,
+    comparison_tokenizer=None,
+    comparison_batch_size=16,
+):
+    """Run classifier-gated generation.
+
+    - Comparative sentence (pred=1): run causal generation.
+    - Non-comparative sentence (pred=0): default prediction is empty string.
+    """
+    num_samples = len(inputs)
+    predictions = [""] * num_samples
+    traces = [None] * num_samples
+
+    if comparison_model is not None and comparison_tokenizer is not None:
+        comp_preds = predict_comparison_labels(
+            comparison_model,
+            comparison_tokenizer,
+            inputs,
+            batch_size=comparison_batch_size,
+            max_length=max_len,
+        )
+    else:
+        comp_preds = [1] * num_samples
+
+    comparative_indices = [i for i, pred in enumerate(comp_preds) if pred == 1]
+
+    if comparative_indices:
+        comp_inputs = [inputs[i] for i in comparative_indices]
+        comp_golds = [gold_labels[i] for i in comparative_indices]
+        comp_dataset = CausalLMDataset(
+            tokenizer,
+            comp_inputs,
+            comp_golds,
+            max_len=max_len,
+            prompt_style=prompt_style,
+        )
+        comp_predictions, _, comp_traces = generate_dev_predictions(
+            model,
+            tokenizer,
+            comp_dataset,
+            batch_size=eval_batch_size,
+            max_new_tokens=max_new_tokens,
+            return_traces=True,
+        )
+
+        for local_idx, global_idx in enumerate(comparative_indices):
+            predictions[global_idx] = comp_predictions[local_idx]
+            traces[global_idx] = comp_traces[local_idx]
+
+    # Fill traces for non-comparative sentences.
+    for i in range(num_samples):
+        if traces[i] is None:
+            traces[i] = {
+                "input": inputs[i],
+                "prompt": build_prompt(inputs[i], prompt_style=prompt_style),
+                "raw_generated": "",
+                "full_decoded": "",
+                "normalized_prediction": "",
+            }
+
+    return predictions, gold_labels, traces, comp_preds
+
+
 def _trim_prediction(text):
     """Chi giu cac tuple hop le va cat bo phan sinh du thua."""
     if not text:
@@ -184,6 +258,8 @@ def _trim_prediction(text):
     for marker in ["<|im_end|>", "<|endoftext|>", OUTPUT_END_MARKER]:
         if marker in text:
             text = text.split(marker, 1)[0].strip()
+
+    text = _extract_result_section(text)
 
     # Trich xuat cac tuple hop le duoi dang nhan [S][O][A][P][L] va chuan hoa lai.
     tuples = []
@@ -201,6 +277,19 @@ def _trim_prediction(text):
 
     # Fallback: neu khong tim thay tuple day du, chi giu dong dau tien.
     return text.split('\n', 1)[0].strip()
+
+
+def _extract_result_section(text):
+    """Prefer the content after the final Result/Ket qua marker for CoT-style outputs."""
+    markers = [r'Result\s*:', r'K[eé]t\s*qu[ảa]\s*:']
+    last_match = None
+    for pattern in markers:
+        for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+            last_match = match
+
+    if last_match is not None:
+        return text[last_match.end():].strip()
+    return text
 
 
 def _repair_partial_tuple(text):
@@ -263,6 +352,13 @@ def _prf(tp, pred, gold):
     return p, r, f1, gold
 
 
+def _is_all_unk_tuple(t):
+    """Return True if all 5 slots in tuple are [UNK]."""
+    if len(t) < 5:
+        return False
+    return all((x or '').strip() == '[UNK]' for x in t[:5])
+
+
 def compute_coqe_metrics(predictions, gold_labels):
     """Compute P, R, F1 for each element (S,O,A,P,L), 4-tuple and 5-tuple.
 
@@ -278,10 +374,15 @@ def compute_coqe_metrics(predictions, gold_labels):
         pred_tuples = parse_output(pred_str)
         gold_tuples = parse_output(gold_str)
 
-        gold_set_4 = [t[:4] for t in gold_tuples if len(t) >= 4]
-        gold_set_5 = list(gold_tuples)
-        pred_set_4 = [t[:4] for t in pred_tuples if len(t) >= 4]
-        pred_set_5 = list(pred_tuples)
+        # Exclude all-UNK tuples from tuple-level evaluation because
+        # they represent non-comparative sentences.
+        gold_cmp_tuples = [t for t in gold_tuples if not _is_all_unk_tuple(t)]
+        pred_cmp_tuples = [t for t in pred_tuples if not _is_all_unk_tuple(t)]
+
+        gold_set_4 = [t[:4] for t in gold_cmp_tuples if len(t) >= 4]
+        gold_set_5 = list(gold_cmp_tuples)
+        pred_set_4 = [t[:4] for t in pred_cmp_tuples if len(t) >= 4]
+        pred_set_5 = list(pred_cmp_tuples)
 
         gold_4 += len(gold_set_4)
         gold_5 += len(gold_set_5)
@@ -306,10 +407,11 @@ def compute_coqe_metrics(predictions, gold_labels):
                     used.add(gi)
                     break
 
-        # Per-element: greedy match per position
+        # Per-element: evaluate only comparative tuples.
+        # Non-comparative (all-UNK) gold/pred should not become TP.
         for idx, e in enumerate(ELEM_NAMES):
-            g_vals = [gt[idx] for gt in gold_tuples if len(gt) > idx]
-            p_vals = [pt[idx] for pt in pred_tuples if len(pt) > idx]
+            g_vals = [gt[idx] for gt in gold_cmp_tuples if len(gt) > idx]
+            p_vals = [pt[idx] for pt in pred_cmp_tuples if len(pt) > idx]
             elem_gold[e] += len(g_vals)
             elem_pred[e] += len(p_vals)
             used = set()
@@ -341,6 +443,6 @@ def print_metrics_table(metrics, epoch=None):
     print(f"  {'Element':<20} {'Precision':>9} {'Recall':>9} {'F1':>9} {'Support':>8}")
     print(f"  {'-'*64}")
     for name, s in metrics.items():
-        marker = ' ◀' if 'tuple' in name else ''
+        marker = ''
         print(f"  {name:<20} {s['P']:>9.4f} {s['R']:>9.4f} {s['F1']:>9.4f} {s.get('support', 0):>8d}{marker}")
     print(f"{'-'*72}\n")

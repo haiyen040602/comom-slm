@@ -16,6 +16,12 @@ DEFAULT_USE_MIXED_PRECISION = True
 DEFAULT_USE_GRADIENT_CHECKPOINTING = True
 DEFAULT_SPECIAL_TOKENS = ['[S]', '[O]', '[A]', '[P]', '[L]', '[UNK]', '(', ')', ';', ':', 'Better', 'Worse', 'Equal', 'Different']
 DEFAULT_DATA_DIR = "/kaggle/working/comom-slm/datasets"
+DEFAULT_PROMPT_STYLE = "direct"
+DEFAULT_USE_COMPARISON_CLASSIFIER = True
+DEFAULT_COMPARISON_MODEL_NAME = "microsoft/deberta-v3-small"
+DEFAULT_COMPARISON_NUM_EPOCHS = 1
+DEFAULT_COMPARISON_BATCH_SIZE = 16
+DEFAULT_COMPARISON_LEARNING_RATE = 2e-5
 
 # Parse command-line arguments
 def parse_args():
@@ -35,6 +41,12 @@ def parse_args():
     parser.add_argument('--use_gradient_checkpointing', type=bool, default=DEFAULT_USE_GRADIENT_CHECKPOINTING, help="Use gradient checkpointing")
     parser.add_argument('--data_dir', type=str, default=DEFAULT_DATA_DIR, help="Base directory for datasets")
     parser.add_argument('--output_dir', type=str, required=True, help="Path to the output directory")
+    parser.add_argument('--prompt_style', type=str, default=DEFAULT_PROMPT_STYLE, choices=['direct', 'cot'], help="Prompting style: direct tuple extraction or chain-of-thought style")
+    parser.add_argument('--use_comparison_classifier', type=bool, default=DEFAULT_USE_COMPARISON_CLASSIFIER, help="Enable DeBERTa comparison classification stage")
+    parser.add_argument('--comparison_model_name', type=str, default=DEFAULT_COMPARISON_MODEL_NAME, help="Backbone model for comparison classifier")
+    parser.add_argument('--comparison_num_epochs', type=int, default=DEFAULT_COMPARISON_NUM_EPOCHS, help="Epochs for comparison classifier")
+    parser.add_argument('--comparison_batch_size', type=int, default=DEFAULT_COMPARISON_BATCH_SIZE, help="Batch size for comparison classifier")
+    parser.add_argument('--comparison_learning_rate', type=float, default=DEFAULT_COMPARISON_LEARNING_RATE, help="Learning rate for comparison classifier")
     return parser.parse_args()
 
 # Get configuration from command-line arguments
@@ -54,6 +66,12 @@ NUM_WARMUP_STEPS = args.num_warmup_steps
 USE_MIXED_PRECISION = args.use_mixed_precision
 USE_GRADIENT_CHECKPOINTING = args.use_gradient_checkpointing
 SPECIAL_TOKENS = DEFAULT_SPECIAL_TOKENS
+PROMPT_STYLE = args.prompt_style
+USE_COMPARISON_CLASSIFIER = args.use_comparison_classifier
+COMPARISON_MODEL_NAME = args.comparison_model_name
+COMPARISON_NUM_EPOCHS = args.comparison_num_epochs
+COMPARISON_BATCH_SIZE = args.comparison_batch_size
+COMPARISON_LEARNING_RATE = args.comparison_learning_rate
 
 # Data paths and output directories
 data_paths = {

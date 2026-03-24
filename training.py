@@ -3,9 +3,24 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm, trange
 from transformers import get_linear_schedule_with_warmup
 from torch.amp import GradScaler, autocast
-from inference import generate_dev_predictions, compute_coqe_metrics, print_metrics_table
+from inference import generate_predictions_with_comparison_gate, compute_coqe_metrics, print_metrics_table
+from classifier import build_comparison_labels, compute_binary_metrics, print_binary_metrics
 
-def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, eval_batch_size, acc_step=4, logger=None):
+def train(
+    model,
+    tokenizer,
+    train_data,
+    val_data,
+    epochs,
+    lr,
+    train_batch_size,
+    eval_batch_size,
+    acc_step=4,
+    logger=None,
+    comparison_model=None,
+    comparison_tokenizer=None,
+    comparison_batch_size=16,
+):
     """Training function for Causal LM with memory optimization"""
     print("#" * 20 + " BEGIN TRAINING " + "#" * 20)
     
@@ -94,10 +109,24 @@ def train(model, tokenizer, train_data, val_data, epochs, lr, train_batch_size, 
         eval_losses.append(avg_eval_loss)
 
         # Generate predictions và tính P/R/F1 trên dev set
-        predictions, gold_labels, dev_traces = generate_dev_predictions(
-            model, tokenizer, val_data, batch_size=eval_batch_size, return_traces=True
+        predictions, gold_labels, dev_traces, dev_comp_preds = generate_predictions_with_comparison_gate(
+            model=model,
+            tokenizer=tokenizer,
+            inputs=val_data.inputs,
+            gold_labels=val_data.targets,
+            max_len=val_data.max_len,
+            prompt_style=getattr(val_data, 'prompt_style', 'direct'),
+            eval_batch_size=eval_batch_size,
+            comparison_model=comparison_model,
+            comparison_tokenizer=comparison_tokenizer,
+            comparison_batch_size=comparison_batch_size,
         )
         metrics = compute_coqe_metrics(predictions, gold_labels)
+
+        if comparison_model is not None and comparison_tokenizer is not None:
+            dev_gold_comp = build_comparison_labels(gold_labels)
+            comp_metrics = compute_binary_metrics(dev_comp_preds, dev_gold_comp)
+            print_binary_metrics(comp_metrics, title=f"Comparison Classifier - Dev Gate (Epoch {epoch+1})")
 
         # In kết quả epoch
         is_best = avg_eval_loss < best_eval_loss
@@ -150,6 +179,7 @@ def print_sample_data(dataset, tokenizer, num_samples=5):
     for i in range(min(num_samples, len(dataset))):
         raw_input  = dataset.inputs[i]
         raw_target = dataset.targets[i]
+        formatted_target = dataset.formatted_targets[i] if hasattr(dataset, 'formatted_targets') else raw_target
 
         full_ids  = dataset[i]['input_ids']
         labels    = dataset[i]['labels']
@@ -165,12 +195,14 @@ def print_sample_data(dataset, tokenizer, num_samples=5):
         num_input_tokens  = (labels == -100).sum().item()
         num_pad_tokens    = (full_ids == tokenizer.pad_token_id).sum().item()
 
-        # Kiểm tra leakage: trained_text phải bằng raw_target
-        is_correct = raw_target.strip() in trained_text or trained_text in raw_target.strip()
+        # Kiểm tra leakage: trained_text phải chứa target thực tế được dùng để train.
+        is_correct = formatted_target.strip() in trained_text or trained_text in formatted_target.strip()
 
         print(f"[Sample {i+1}]")
         print(f"  Raw Input     : {raw_input[:90]}{'...' if len(raw_input)>90 else ''}")
         print(f"  Raw Target    : {raw_target}")
+        if formatted_target != raw_target:
+            print(f"  Train Target  : {formatted_target[:90]}{'...' if len(formatted_target)>90 else ''}")
         print(f"  Trained tokens: {trained_text[:90]}{'...' if len(trained_text)>90 else ''}")
         print(f"  Token counts  : {num_input_tokens} masked | {num_output_tokens} trained | {num_pad_tokens} pad")
         print(f"  Label check   : {'✅ OK' if is_correct and num_output_tokens > 0 else '❌ MISMATCH - check mask boundary!'}")
