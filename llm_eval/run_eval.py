@@ -15,11 +15,184 @@ from tqdm import tqdm
 
 from client import OpenAICompatibleClient
 from data_loader import load_dataset
-from metrics import compute_coqe_metrics, metrics_to_lines
-from prompts import build_messages
-
 from metrics import compute_coqe_metrics, leaderboard_row, metrics_to_lines
 from prompts import build_messages
+
+
+_PRED_TUPLE_RE = re.compile(
+    r"\[S\]\s*(.*?)\s*\[O\]\s*(.*?)\s*\[A\]\s*(.*?)\s*\[P\]\s*(.*?)\s*\[L\]\s*(.*?)(?=\)|\n|;|$)",
+    re.DOTALL,
+)
+
+_WORD_RE = re.compile(r"\w+|[^\w\s]", re.UNICODE)
+
+
+def _parse_pred_tuples(text: str) -> List[Dict[str, str]]:
+    tuples: List[Dict[str, str]] = []
+    for part in (text or "").split(";"):
+        m = _PRED_TUPLE_RE.search(part.strip().strip("()"))
+        if not m:
+            continue
+        s, o, a, p, l = (x.strip() for x in m.groups())
+        tuples.append({"S": s, "O": o, "A": a, "P": p, "L": l})
+    return tuples
+
+
+def _is_unk_or_empty(text: str) -> bool:
+    t = (text or "").strip()
+    return t == "" or t == "[UNK]"
+
+
+def _tokenize_with_offsets(text: str) -> List[Dict[str, object]]:
+    out: List[Dict[str, object]] = []
+    for m in _WORD_RE.finditer(text):
+        tok = m.group(0)
+        out.append({
+            "raw": tok,
+            "norm": tok.lower(),
+            "start": m.start(),
+            "end": m.end(),
+        })
+    return out
+
+
+def _span_token_positions(sentence: str, span_text: str) -> List[int]:
+    span_text = (span_text or "").strip()
+    if _is_unk_or_empty(span_text):
+        return []
+
+    sent_tokens = _tokenize_with_offsets(sentence)
+    span_tokens = _tokenize_with_offsets(span_text)
+    if not sent_tokens or not span_tokens:
+        return []
+
+    sent_norm = [t["norm"] for t in sent_tokens]
+    span_norm = [t["norm"] for t in span_tokens]
+    m = len(span_norm)
+
+    # 1) exact contiguous token match
+    for i in range(0, len(sent_norm) - m + 1):
+        if sent_norm[i : i + m] == span_norm:
+            return list(range(i + 1, i + m + 1))
+
+    # 2) character-level fallback then project to token range
+    idx = sentence.lower().find(span_text.lower())
+    if idx >= 0:
+        end = idx + len(span_text)
+        positions = []
+        for i, tok in enumerate(sent_tokens, start=1):
+            if not (tok["end"] <= idx or tok["start"] >= end):
+                positions.append(i)
+        if positions:
+            return positions
+
+    # 3) non-contiguous greedy fallback
+    positions = []
+    cursor = 0
+    for w in span_norm:
+        found = -1
+        for j in range(cursor, len(sent_norm)):
+            if sent_norm[j] == w:
+                found = j
+                break
+        if found < 0:
+            for j in range(0, len(sent_norm)):
+                if sent_norm[j] == w:
+                    found = j
+                    break
+        if found < 0:
+            return []
+        positions.append(found + 1)
+        cursor = found + 1
+    return positions
+
+
+def _to_indexed_slot(slot_value: str, sentence: str) -> str:
+    if _is_unk_or_empty(slot_value):
+        return ""
+    positions = _span_token_positions(sentence, slot_value)
+    if not positions:
+        return ""
+    slot_tokens = _tokenize_with_offsets(slot_value)
+    if len(slot_tokens) != len(positions):
+        # Keep alignment stable by trimming to the shorter side.
+        n = min(len(slot_tokens), len(positions))
+        slot_tokens = slot_tokens[:n]
+        positions = positions[:n]
+    return " ".join(f"{pos}&&{tok['raw']}" for pos, tok in zip(positions, slot_tokens))
+
+
+def _map_label_for_camera(label: str) -> str:
+    # camera-coqe raw labels: -1(worse), 0(equal), 1(better), 2(different)
+    m = {
+        "Worse": "-1",
+        "Equal": "0",
+        "Better": "1",
+        "Different": "2",
+        "[UNK]": "",
+        "": "",
+    }
+    return m.get((label or "").strip(), "")
+
+
+def _save_predictions_raw_camera(file_path: str, rows: List[Dict]) -> None:
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w", encoding="utf-8") as fp:
+        for row in rows:
+            sent = row["input"]
+            pred = row["prediction"]
+            tuples = _parse_pred_tuples(pred)
+
+            valid = []
+            for t in tuples:
+                if all(_is_unk_or_empty(t[k]) for k in ("S", "O", "A", "P", "L")):
+                    continue
+                valid.append(t)
+
+            flag = "1" if valid else "0"
+            fp.write(f"{sent}\t{flag}\n")
+
+            if not valid:
+                fp.write("[[];[];[];[];[]]\n")
+                continue
+
+            for t in valid:
+                s = _to_indexed_slot(t["S"], sent)
+                o = _to_indexed_slot(t["O"], sent)
+                a = _to_indexed_slot(t["A"], sent)
+                p = _to_indexed_slot(t["P"], sent)
+                l = _map_label_for_camera(t["L"])
+                fp.write(f"[[{s}];[{o}];[{a}];[{p}];[{l}]]\n")
+
+
+def _save_predictions_raw_vcom(file_path: str, rows: List[Dict]) -> None:
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w", encoding="utf-8") as fp:
+        for row in rows:
+            sent = row["input"]
+            pred = row["prediction"]
+            tuples = _parse_pred_tuples(pred)
+
+            fp.write(f"{sent}\t{sent}\n")
+
+            for t in tuples:
+                if all(_is_unk_or_empty(t[k]) for k in ("S", "O", "A", "P", "L")):
+                    continue
+                subj_slot = _to_indexed_slot(t["S"], sent)
+                obj_slot = _to_indexed_slot(t["O"], sent)
+                asp_slot = _to_indexed_slot(t["A"], sent)
+                pre_slot = _to_indexed_slot(t["P"], sent)
+
+                obj = {
+                    "subject": subj_slot.split() if subj_slot else [],
+                    "object": obj_slot.split() if obj_slot else [],
+                    "aspect": asp_slot.split() if asp_slot else [],
+                    "predicate": pre_slot.split() if pre_slot else [],
+                    "label": (t["L"] if not _is_unk_or_empty(t["L"]) else "[UNK]"),
+                }
+                fp.write(json.dumps(obj, ensure_ascii=False) + "\n")
+
+            fp.write("\n")
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate popular LLMs on COQE datasets")
@@ -45,6 +218,13 @@ def parse_args():
     parser.add_argument("--datasets-root", type=str, default="")
     parser.add_argument("--output-dir", type=str, default="")
     parser.add_argument("--cache-dir", type=str, default="")
+    parser.add_argument(
+        "--prompt-strategy",
+        type=str,
+        default="zero-shot",
+        choices=["zero-shot", "few-shot", "cot"],
+        help="Prompting strategy: zero-shot, few-shot, or cot",
+    )
     return parser.parse_args()
 
 
@@ -95,6 +275,22 @@ def _save_predictions(file_path: str, rows: List[Dict]) -> None:
     with open(file_path, "w", encoding="utf-8") as fp:
         for row in rows:
             fp.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def _save_predictions_raw(file_path: str, rows: List[Dict]) -> None:
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w", encoding="utf-8") as fp:
+        for row in rows:
+            fp.write(f"{row['input']}===>{row['prediction']}\n")
+
+
+def _save_predictions_raw_by_dataset(dataset_name: str, file_path: str, rows: List[Dict]) -> None:
+    if dataset_name == "camera-coqe":
+        _save_predictions_raw_camera(file_path, rows)
+    elif dataset_name == "vcom-data":
+        _save_predictions_raw_vcom(file_path, rows)
+    else:
+        _save_predictions_raw(file_path, rows)
 
 
 def _save_metrics(file_path: str, metrics: Dict[str, Dict[str, float]]) -> None:
@@ -154,7 +350,12 @@ def main():
                 if sentence in cache:
                     pred = cache[sentence]
                 else:
-                        messages = build_messages(sentence, language=language, dataset=dataset_name)
+                        messages = build_messages(
+                            sentence,
+                            language=language,
+                            dataset=dataset_name,
+                            strategy=args.prompt_strategy,
+                        )
                         pred = client.generate(messages)
                         _append_cache(cache_file, sentence, pred)
 
@@ -177,10 +378,12 @@ def main():
             metrics = compute_coqe_metrics(predictions, gold_labels)
 
             pred_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.jsonl")
+            pred_raw_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.txt")
             metrics_json = os.path.join(output_dir, dataset_name, args.split, f"metrics__{model_slug}.json")
             metrics_csv = os.path.join(output_dir, dataset_name, args.split, f"metrics__{model_slug}.csv")
 
             _save_predictions(pred_file, prediction_rows)
+            _save_predictions_raw_by_dataset(dataset_name, pred_raw_file, prediction_rows)
             _save_metrics(metrics_json, metrics)
             _save_metrics_csv(metrics_csv, metrics)
 
