@@ -13,7 +13,7 @@ if _HERE not in sys.path:
 
 from tqdm import tqdm
 
-from client import OpenAICompatibleClient
+from client import HuggingFaceLocalClient, OpenAICompatibleClient
 from data_loader import load_dataset
 from metrics import compute_coqe_metrics, leaderboard_row, metrics_to_lines
 from prompts import build_messages
@@ -211,6 +211,15 @@ def parse_args():
     )
     parser.add_argument("--base-url", type=str, default="https://openrouter.ai/api/v1")
     parser.add_argument("--api-key-env", type=str, default="OPENROUTER_API_KEY")
+    parser.add_argument(
+        "--provider",
+        type=str,
+        default="openrouter",
+        choices=["openrouter", "hf-local"],
+        help="Inference backend provider",
+    )
+    parser.add_argument("--hf-dtype", type=str, default="auto", choices=["auto", "float16", "bfloat16"])
+    parser.add_argument("--hf-load-in-4bit", action="store_true")
     parser.add_argument("--temperature", type=float, default=0.0)
     parser.add_argument("--max-output-tokens", type=int, default=256)
     parser.add_argument("--sleep-seconds", type=float, default=0.0)
@@ -330,13 +339,22 @@ def main():
             cache_file = os.path.join(cache_dir, dataset_name, args.split, f"{model_slug}.jsonl")
             cache = _load_cache(cache_file)
 
-            client = OpenAICompatibleClient(
-                model=model_name,
-                base_url=args.base_url,
-                api_key_env=args.api_key_env,
-                temperature=args.temperature,
-                max_output_tokens=args.max_output_tokens,
-            )
+            if args.provider == "openrouter":
+                client = OpenAICompatibleClient(
+                    model=model_name,
+                    base_url=args.base_url,
+                    api_key_env=args.api_key_env,
+                    temperature=args.temperature,
+                    max_output_tokens=args.max_output_tokens,
+                )
+            else:
+                client = HuggingFaceLocalClient(
+                    model=model_name,
+                    temperature=args.temperature,
+                    max_output_tokens=args.max_output_tokens,
+                    dtype=args.hf_dtype,
+                    load_in_4bit=args.hf_load_in_4bit,
+                )
 
             predictions = []
             gold_labels = []
@@ -350,14 +368,14 @@ def main():
                 if sentence in cache:
                     pred = cache[sentence]
                 else:
-                        messages = build_messages(
-                            sentence,
-                            language=language,
-                            dataset=dataset_name,
-                            strategy=args.prompt_strategy,
-                        )
-                        pred = client.generate(messages)
-                        _append_cache(cache_file, sentence, pred)
+                    messages = build_messages(
+                        sentence,
+                        language=language,
+                        dataset=dataset_name,
+                        strategy=args.prompt_strategy,
+                    )
+                    pred = client.generate(messages)
+                    _append_cache(cache_file, sentence, pred)
 
                 predictions.append(pred)
                 gold_labels.append(gold)
