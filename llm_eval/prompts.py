@@ -17,15 +17,16 @@ _BASE_INSTRUCTION_EN = (
 
 _BASE_INSTRUCTION_VI = (
     "Bạn là một mô hình trích xuất thông tin cho bài toán khai thác quan điểm so sánh. "
-    "Cho một câu, hãy trích xuất tất cả comparative opinion quintuple. "
+    "Cho một câu, hãy trích xuất tất cả bộ năm thành phần so sánh trong câu (comparative quintuples). "
     "Mỗi quintuple có 5 thành phần: "
-    "[S] chủ thể, [O] đối tượng so sánh, [A] thuộc tính/khía cạnh, [P] từ/cụm từ so sánh, [L] nhãn quan hệ so sánh. "
-    "Chỉ được xuất tuple đúng định dạng: ([S] ... [O] ... [A] ... [P] ... [L] ...). "
-    "Nếu có nhiều tuple, ngăn cách bằng ' ; '. "
+    "[S] là chủ thể (subject), [O] là đối tượng so sánh (object), [A] là một thuộc tính được so sánh (aspect), [P] là từ/cụm từ so sánh (comparative predicate), [L] là nhãn quan hệ so sánh (comparative label). "
+    "Bạn chỉ được sinh kết quả theo đúng định dạng là ([S] ... [O] ... [A] ... [P] ... [L] ...). "
+    "Nếu câu có nhiều có nhiều quan hệ so sánh, hãy sinh các quintuple được ngăn cách bằng ' ; '. "
     "Mọi cụm từ được trích xuất cho [S], [O], [A], [P] phải là nguyên văn xuất hiện trong câu gốc. "
+    "Nếu đối tượng so sánh bị ẩn nhưng có thể suy luận rõ ràng từ ngữ cảnh trong câu, hãy sử dụng từ ngữ của đối tượng đó đã xuất hiện ở phần trước của câu. "
     "Không được diễn giải lại, chuẩn hóa lại, dịch, tóm tắt hay tự bịa thêm cụm từ. "
-    "Nếu thiếu thành phần, điền [UNK]. "
-    "Nếu câu không có ý nghĩa so sánh, trả đúng: "
+    "Nếu thành phần nào không có giá trị, điền [UNK]. "
+    "Nếu câu không có quan hệ so sánh, trả về kết quả đúng như sau: "
     "([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]). "
     "Không được thêm giải thích hay văn bản nào khác."
 )
@@ -57,14 +58,14 @@ _T5_LABEL_NOTE_VI = (
 
 _VCOM_LABEL_NOTE_VI = (
     "Giá trị hợp lệ của [L]: COM+, COM-, COM, SUP+, SUP-, SUP, EQL, DIF. "
-    "COM+ = so sánh dương, chủ thể tốt hơn đối tượng. "
-    "COM- = so sánh âm, chủ thể kém hơn đối tượng. "
-    "COM = có quan hệ so sánh nhưng không rõ hướng. "
-    "SUP+ = so sánh bậc nhất theo hướng tích cực. "
-    "SUP- = so sánh bậc nhất theo hướng tiêu cực. "
-    "SUP = so sánh bậc nhất nhưng không rõ cực tính. "
-    "EQL = tương đương, không khác biệt đáng kể. "
-    "DIF = khác biệt nhưng không thể hiện rõ tốt hơn hay kém hơn. "
+    "COM+ là so sánh tích cực, chủ thể tốt hơn đối tượng. "
+    "COM- là so sánh tiêu cực, chủ thể kém hơn đối tượng. "
+    "COM là có quan hệ so sánh hơn nhưng không rõ hướng cảm xúc. "
+    "SUP+ là so sánh bậc nhất theo hướng tích cực. "
+    "SUP- là so sánh bậc nhất theo hướng tiêu cực. "
+    "SUP là so sánh bậc nhất nhưng không rõ cực tính. "
+    "EQL là so sánh tương đương, không khác biệt đáng kể. "
+    "DIF là khác biệt nhưng không thể hiện rõ tốt hơn hay kém hơn. "
     "Chỉ dùng [UNK] khi câu không có quan hệ so sánh."
 )
 
@@ -81,15 +82,15 @@ _USER_CONTRACT_EN = (
 )
 
 _USER_CONTRACT_VI = (
-    "Nhiệm vụ: Trích xuất tất cả quintuple quan điểm so sánh từ câu đầu vào.\n\n"
-    "Ràng buộc đầu ra:\n"
+    "Nhiệm vụ: Trích xuất tất cả quintuple quan điểm so sánh từ câu đầu vào và đảm bảo các ràng buộc sau:\n"
     "- Chỉ xuất tuple theo đúng định dạng: ([S] ... [O] ... [A] ... [P] ... [L] ...).\n"
-    "- Nếu có nhiều tuple, ngăn cách bằng ' ; '.\n"
+    "- Nếu câu có nhiều comparative tuple, ngăn cách bằng ' ; '.\n"
     "- Mọi cụm từ ở [S], [O], [A], [P] phải xuất hiện nguyên văn trong câu gốc.\n"
+    "- Nếu đối tượng so sánh bị ẩn nhưng có thể suy luận rõ ràng từ ngữ cảnh trong câu, hãy sử dụng từ ngữ của đối tượng đó đã xuất hiện ở phần trước của câu.\n"
     "- Không được diễn giải lại, viết lại, dịch, chuẩn hóa hay tự thêm cụm từ.\n"
-    "- Nếu thiếu thành phần, dùng [UNK].\n"
-    "- Nếu câu không có ý nghĩa so sánh, trả đúng: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]).\n"
-    "- Không được in giải thích, lập luận, gạch đầu dòng hay markdown trong câu trả lời."
+    "- Nếu một thành phần bị thiếu, dùng [UNK].\n"
+    "- Nếu câu không có quan hệ so sánh, chỉ được trả về kết quả: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]).\n"
+    "- Không được in giải thích, lập luận, hay văn bản khác trong câu trả lời."
 )
 
 
@@ -128,8 +129,8 @@ def _user_contract(is_vi: bool) -> str:
 def _zero_shot_user_en(sentence: str) -> str:
     return (
         f"{_user_contract(False)}\n\n"
-        "Strategy: Zero-shot. Follow the instruction and infer the tuple(s) directly from the sentence.\n\n"
-        f"Sentence: {sentence}\n"
+        "Follow the instruction and infer the tuple(s) directly from the sentence.\n\n"
+        f"Input sentence: {sentence}\n"
         "Output:"
     )
 
@@ -137,8 +138,8 @@ def _zero_shot_user_en(sentence: str) -> str:
 def _zero_shot_user_vi(sentence: str) -> str:
     return (
         f"{_user_contract(True)}\n\n"
-        "Chiến lược: Zero-shot. Hãy bám đúng hướng dẫn và suy ra tuple trực tiếp từ câu.\n\n"
-        f"Câu: {sentence}\n"
+        "Hãy bám đúng hướng dẫn và suy ra tuple trực tiếp từ câu: "
+        f"{sentence}\n"
         "Kết quả:"
     )
 
@@ -147,7 +148,7 @@ def _few_shot_user_en(sentence: str) -> str:
     # 3 examples: one tuple, multiple tuples, and no tuple.
     return (
         f"{_user_contract(False)}\n\n"
-        "Strategy: Few-shot. Learn the output style from the examples, then solve the final sentence.\n\n"
+        "Learn the output style from the examples, then solve the final sentence.\n\n"
         "Example 1 (one quintuple)\n"
         "Sentence: The file-size gets even bigger if you shoot in RAW format instead of JPEG format.\n"
         "Output: ([S] RAW format [O] JPEG format [A] file-size [P] bigger [L] Better)\n\n"
@@ -166,7 +167,7 @@ def _few_shot_user_vi(sentence: str) -> str:
     # 3 examples: one tuple, multiple tuples, and no tuple.
     return (
         f"{_user_contract(True)}\n\n"
-        "Chiến lược: Few-shot. Hãy học cách xuất kết quả từ các ví dụ rồi xử lý câu cuối cùng.\n\n"
+        "Hãy học cách xuất kết quả từ các ví dụ rồi xử lý câu cuối cùng.\n\n"
         "Ví dụ 1 (1 quintuple)\n"
         "Câu: Tương tự, thì ống kính góc rộng không có quá nhiều sự khác biệt so với ống kính chính.\n"
         "Kết quả: ([S] ống kính góc rộng [O] ống kính chính [A] [UNK] [P] không có quá nhiều sự khác biệt [L] EQL)\n\n"
@@ -176,7 +177,7 @@ def _few_shot_user_vi(sentence: str) -> str:
         "Ví dụ 3 (không có quintuple)\n"
         "Câu: Bạn có thể selfie và sử dụng ở bể bơi mà không hề sợ bị hỏng máy.\n"
         "Kết quả: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK])\n\n"
-        f"Câu cần xử lý: {sentence}\n"
+        f"Câu: {sentence}\n"
         "Kết quả:"
     )
 
@@ -184,9 +185,9 @@ def _few_shot_user_vi(sentence: str) -> str:
 def _cot_user_en(sentence: str) -> str:
     return (
         f"{_user_contract(False)}\n\n"
-        "Strategy: Chain-of-thought. Reason internally using this order: identify entities, identify aspect, identify comparative predicate and polarity, then form final tuple(s).\n"
+        "Reason internally using this order: identify comparative subject, identify comparative object, identify aspect, identify comparative predicate and polarity, then form final tuple(s).\n"
         "Do not reveal the reasoning. Only output the final tuple(s).\n\n"
-        f"Sentence: {sentence}\n"
+        f"Input sentence: {sentence}\n"
         "Output:"
     )
 
@@ -194,9 +195,9 @@ def _cot_user_en(sentence: str) -> str:
 def _cot_user_vi(sentence: str) -> str:
     return (
         f"{_user_contract(True)}\n\n"
-        "Chiến lược: Chain-of-thought. Hãy suy luận nội bộ theo thứ tự: xác định thực thể, xác định thuộc tính, xác định từ/cụm từ so sánh và cực tính, rồi tạo tuple cuối cùng.\n"
+        "Hãy suy luận nội bộ theo thứ tự: xác định chủ thể so sánh, xác định đối tượng so sánh, xác định thuộc tính, xác định từ/cụm từ so sánh và cực tính, rồi tạo tuple cuối cùng.\n"
         "Không được in ra lập luận. Chỉ xuất tuple cuối cùng.\n\n"
-        f"Câu văn: {sentence}\n"
+        f"Câu văn cần xử lý: {sentence}\n"
         "Kết quả:"
     )
 
