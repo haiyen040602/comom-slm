@@ -224,6 +224,7 @@ def parse_args():
     parser.add_argument("--max-output-tokens", type=int, default=256)
     parser.add_argument("--sleep-seconds", type=float, default=0.0)
     parser.add_argument("--limit", type=int, default=0, help="Set >0 for quick smoke tests")
+    parser.add_argument("--debug-samples", type=int, default=0, help="Print prompt+output for first N samples per model")
     parser.add_argument("--datasets-root", type=str, default="")
     parser.add_argument("--output-dir", type=str, default="")
     parser.add_argument("--cache-dir", type=str, default="")
@@ -331,10 +332,10 @@ def main():
         if args.limit > 0:
             samples = samples[: args.limit]
 
-        print(f"Dataset={dataset_name} split={args.split} samples={len(samples)}")
+        print(f"Dataset={dataset_name} split={args.split} samples={len(samples)}", flush=True)
 
         for model_name in args.models:
-            print(f"  Evaluating model: {model_name}")
+            print(f"  Evaluating model: {model_name}", flush=True)
             model_slug = _slugify(model_name)
             cache_file = os.path.join(cache_dir, dataset_name, args.split, f"{model_slug}.jsonl")
             cache = _load_cache(cache_file)
@@ -360,22 +361,31 @@ def main():
             gold_labels = []
             prediction_rows = []
 
-            for sample in tqdm(samples, desc=f"{dataset_name} | {model_slug}"):
+            for sample_idx, sample in enumerate(tqdm(samples, desc=f"{dataset_name} | {model_slug}")):
                 sentence = sample["input"]
                 gold = sample["output"]
                 language = sample.get("language", "auto")
 
+                messages = build_messages(
+                    sentence,
+                    language=language,
+                    dataset=dataset_name,
+                    strategy=args.prompt_strategy,
+                )
                 if sentence in cache:
                     pred = cache[sentence]
                 else:
-                    messages = build_messages(
-                        sentence,
-                        language=language,
-                        dataset=dataset_name,
-                        strategy=args.prompt_strategy,
-                    )
                     pred = client.generate(messages)
                     _append_cache(cache_file, sentence, pred)
+
+                if args.debug_samples > 0 and sample_idx < args.debug_samples:
+                    sep = "-" * 60
+                    prompt_text = "\n".join(f"[{m['role'].upper()}] {m['content']}" for m in messages)
+                    print(f"\n{sep}", flush=True)
+                    print(f"[DEBUG sample {sample_idx + 1}/{args.debug_samples}]", flush=True)
+                    print(prompt_text, flush=True)
+                    print(f"[OUTPUT] {pred}", flush=True)
+                    print(sep, flush=True)
 
                 predictions.append(pred)
                 gold_labels.append(gold)
@@ -425,14 +435,15 @@ def main():
             print(
                 f"    E-T5-MACRO-F1={ranking_f1:.4f}  "
                 f"E-T4-F1={e_t4_f1:.4f}  "
-                f"E-CEE-MICRO-F1={e_cee_micro_f1:.4f}"
+                f"E-CEE-MICRO-F1={e_cee_micro_f1:.4f}",
+                flush=True,
             )
 
     summary_file = os.path.join(output_dir, f"summary__{args.split}.json")
     with open(summary_file, "w", encoding="utf-8") as fp:
         json.dump(summary_rows, fp, ensure_ascii=False, indent=2)
 
-    print("Done. Summary:", summary_file)
+    print("Done. Summary:", summary_file, flush=True)
 
 
 if __name__ == "__main__":
