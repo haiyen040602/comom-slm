@@ -2,22 +2,26 @@ from typing import Dict, List
 
 _BASE_INSTRUCTION_EN = (
     "You are an information extraction model for comparative opinion mining. "
-    "Given one sentence, extract all comparative opinion quintuples. "
+    "Your task is to identify and extract comparative opinions from sentences. "
+    "Given one sentence, if it contains no comparison, "
+    "output exactly: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]). "
+    "If it contains a comparison, extract all comparative opinion quintuples. "
     "Each quintuple has five slots: "
-    "[S] subject, [O] object, [A] aspect, [P] predicate, [L] comparison label. "
+    "[S] is comparative subject, [O] is comparative object, [A] is comparative aspect, [P] is comparative predicate, [L] is comparative label. "
     "Output ONLY tuples in this exact format: ([S] ... [O] ... [A] ... [P] ... [L] ...). "
-    "If there are multiple tuples, separate them with ' ; '. "
+    "If there are multiple comparisons, separate them with ' ; '. "
     "Every extracted span for [S], [O], [A], and [P] must be copied verbatim from the original sentence. "
     "Do not paraphrase, normalize, translate, summarize, or invent any span. "
     "If a slot has no value, write [UNK] for it. "
-    "If the sentence contains no comparison at all, output exactly: "
-    "([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]). "
     "Do not output any explanation or extra text."
 )
 
 _BASE_INSTRUCTION_VI = (
     "Bạn là một mô hình trích xuất thông tin cho bài toán khai thác quan điểm so sánh. "
-    "Cho một câu, hãy trích xuất tất cả bộ năm thành phần so sánh trong câu (comparative quintuples). "
+    "Nhiệm vụ của bạn là phát hiện và trích xuất các quan điểm so sánh từ câu văn. "
+    "Cho một câu văn, nếu trong câu không có quan hệ so sánh, hãy trả về kết quả đúng như sau: "
+    "([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]). "
+    "Nếu trong câu có quan hệ so sánh, hãy trích xuất tất cả bộ năm thành phần so sánh trong câu (comparative quintuples). "
     "Mỗi quintuple có 5 thành phần: "
     "[S] là chủ thể (subject), [O] là đối tượng so sánh (object), [A] là một thuộc tính được so sánh (aspect), [P] là từ/cụm từ so sánh (comparative predicate), [L] là nhãn quan hệ so sánh (comparative label). "
     "Bạn chỉ được sinh kết quả theo đúng định dạng là ([S] ... [O] ... [A] ... [P] ... [L] ...). "
@@ -26,15 +30,17 @@ _BASE_INSTRUCTION_VI = (
     "Nếu đối tượng so sánh bị ẩn nhưng có thể suy luận rõ ràng từ ngữ cảnh trong câu, hãy sử dụng từ ngữ của đối tượng đó đã xuất hiện ở phần trước của câu. "
     "Không được diễn giải lại, chuẩn hóa lại, dịch, tóm tắt hay tự bịa thêm cụm từ. "
     "Nếu thành phần nào không có giá trị, điền [UNK]. "
-    "Nếu câu không có quan hệ so sánh, trả về kết quả đúng như sau: "
-    "([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]). "
     "Không được thêm giải thích hay văn bản nào khác."
 )
 
 # English dataset: 4-class labels
 _T5_LABEL_NOTE = (
-    "Allowed values for [L]: Better, Worse, Equal, Different. "
-    "Use [UNK] only when no comparison is present."
+    "Allowed values for [L]: Better, Worse, Equal, Different. " \
+    "Better = the comparative subject is better than the comparative object. " \
+    "Worse = the comparative subject is worse than the comparative object. " \
+    "Equal = the comparative subject and comparative object are equal or have no significant difference. " \
+    "Different = the comparative subject and comparative object are different but it's unclear which one is better. " \
+    "Use [UNK] only if the sentence is a simple description with no comparative or superlative intent."
 )
 
 # Vietnamese dataset: 8-class labels
@@ -73,23 +79,23 @@ _USER_CONTRACT_EN = (
     "Task: Extract all comparative opinion quintuple(s) from the input sentence.\n\n"
     "Output contract:\n"
     "- Output only tuple(s) in this exact format: ([S] ... [O] ... [A] ... [P] ... [L] ...).\n"
+    "- If the sentence has no comparative meaning, output exactly: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]).\n"
     "- If there are multiple tuples, separate them with ' ; '.\n"
     "- Every span in [S], [O], [A], and [P] must appear verbatim in the original sentence.\n"
     "- Do not paraphrase, rewrite, translate, normalize, or invent spans.\n"
     "- If a slot is missing, use [UNK].\n"
-    "- If the sentence has no comparative meaning, output exactly: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]).\n"
     "- Do not output explanations, reasoning, bullets, or markdown."
 )
 
 _USER_CONTRACT_VI = (
     "Nhiệm vụ: Trích xuất tất cả quintuple quan điểm so sánh từ câu đầu vào và đảm bảo các ràng buộc sau:\n"
     "- Chỉ xuất tuple theo đúng định dạng: ([S] ... [O] ... [A] ... [P] ... [L] ...).\n"
+    "- Nếu câu không có quan hệ so sánh, chỉ được trả về kết quả: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]).\n"
     "- Nếu câu có nhiều comparative tuple, ngăn cách bằng ' ; '.\n"
     "- Mọi cụm từ ở [S], [O], [A], [P] phải xuất hiện nguyên văn trong câu gốc.\n"
     "- Nếu đối tượng so sánh bị ẩn nhưng có thể suy luận rõ ràng từ ngữ cảnh trong câu, hãy sử dụng từ ngữ của đối tượng đó đã xuất hiện ở phần trước của câu.\n"
     "- Không được diễn giải lại, viết lại, dịch, chuẩn hóa hay tự thêm cụm từ.\n"
     "- Nếu một thành phần bị thiếu, dùng [UNK].\n"
-    "- Nếu câu không có quan hệ so sánh, chỉ được trả về kết quả: ([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK]).\n"
     "- Không được in giải thích, lập luận, hay văn bản khác trong câu trả lời."
 )
 

@@ -15,7 +15,7 @@ from tqdm import tqdm
 
 from client import HuggingFaceLocalClient, OpenAICompatibleClient
 from data_loader import load_dataset
-from metrics import compute_coqe_metrics, leaderboard_row, metrics_to_lines
+from metrics import compute_coqe_metrics, leaderboard_row, metrics_to_lines, CAMERA_COQE_LABEL_ORDER, VCOM_LABEL_ORDER
 from prompts import build_messages
 
 
@@ -403,7 +403,13 @@ def main():
                 if args.sleep_seconds > 0:
                     time.sleep(args.sleep_seconds)
 
-            metrics = compute_coqe_metrics(predictions, gold_labels)
+            _DATASET_LABEL_ORDER = {
+                "camera-coqe": CAMERA_COQE_LABEL_ORDER,
+                "t5-camera-coqe-data": CAMERA_COQE_LABEL_ORDER,
+                "vcom-data": VCOM_LABEL_ORDER,
+            }
+            label_order = _DATASET_LABEL_ORDER.get(dataset_name)
+            metrics = compute_coqe_metrics(predictions, gold_labels, label_order=label_order)
 
             pred_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.jsonl")
             pred_raw_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.txt")

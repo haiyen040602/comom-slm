@@ -12,8 +12,12 @@ _TUPLE_RE = re.compile(
 _S, _O, _A, _P, _L = 0, 1, 2, 3, 4
 CEE_ELEMS = ("S", "O", "A", "P")
 
-# For T5 reporting, enforce a fixed label order for macro averaging and stable output.
-T5_LABEL_ORDER = ("EQL", "DIF", "COM", "COM+", "COM-", "SUP", "SUP+", "SUP-")
+# Label orders for T5 macro averaging — must match the dataset's label convention.
+VCOM_LABEL_ORDER = ("EQL", "DIF", "COM", "COM+", "COM-", "SUP", "SUP+", "SUP-")
+CAMERA_COQE_LABEL_ORDER = ("Better", "Worse", "Equal", "Different")
+
+# Backward-compat alias (default when no label_order is passed).
+T5_LABEL_ORDER = VCOM_LABEL_ORDER
 
 
 class _Acc:
@@ -84,12 +88,21 @@ def _macro_avg(scores: List[Dict[str, float]]) -> Dict[str, float]:
     }
 
 
-def compute_coqe_metrics(predictions: List[str], gold_labels: List[str]) -> Dict[str, Dict[str, float]]:
+def compute_coqe_metrics(
+    predictions: List[str],
+    gold_labels: List[str],
+    label_order: Optional[Tuple[str, ...]] = None,
+) -> Dict[str, Dict[str, float]]:
     """Compute all metrics following the naming convention:
 
     {Matching Strategy}-{Level of Evaluation}-{Indication}
 
     where each dict value contains P/R/F1/support.
+
+    Args:
+        label_order: Fixed label sequence for T5 macro averaging.  Pass
+            VCOM_LABEL_ORDER or CAMERA_COQE_LABEL_ORDER explicitly, or
+            leave as None to auto-detect from the gold data.
     """
     # CEE: E/P/B x (S,O,A,P)
     cee: Dict[str, Dict[str, _Acc]] = {
@@ -101,6 +114,10 @@ def compute_coqe_metrics(predictions: List[str], gold_labels: List[str]) -> Dict
 
     # T5: E/B x label
     t5: Dict[str, Dict[str, _Acc]] = {s: defaultdict(_Acc) for s in ("E", "B")}
+
+    # Collect gold labels in first-seen order for auto-detection.
+    _seen_labels: List[str] = []
+    _seen_labels_set: Set[str] = set()
 
     for pred_str, gold_str in zip(predictions, gold_labels):
         pred_tuples = [t for t in _parse_tuples(pred_str) if not _is_all_unk(t)]
@@ -163,6 +180,9 @@ def compute_coqe_metrics(predictions: List[str], gold_labels: List[str]) -> Dict
             # T5 by label (from gold label space only)
             gold_labels_present = {gt[_L] for gt in gold_tuples}
             for lbl in gold_labels_present:
+                if lbl and lbl not in _seen_labels_set:
+                    _seen_labels.append(lbl)
+                    _seen_labels_set.add(lbl)
                 acc5 = t5[strat][lbl]
                 g5 = [gt for gt in gold_tuples if gt[_L] == lbl]
                 p5 = [pt for pt in pred_tuples if pt[_L] == lbl]
@@ -176,6 +196,12 @@ def compute_coqe_metrics(predictions: List[str], gold_labels: List[str]) -> Dict
                             acc5.tp += 1
                             used5.add(gi)
                             break
+
+    # Resolve label order for T5 output.
+    _resolved_labels: Tuple[str, ...] = (
+        label_order if label_order is not None
+        else (tuple(_seen_labels) if _seen_labels else T5_LABEL_ORDER)
+    )
 
     out: Dict[str, Dict[str, float]] = {}
 
@@ -201,26 +227,26 @@ def compute_coqe_metrics(predictions: List[str], gold_labels: List[str]) -> Dict
     for strat in ("E", "B"):
         out[f"{strat}-T4"] = t4[strat].prf("exact")
 
-    # T5 output with fixed indication set (8 classes)
+    # T5 output using the resolved label order.
     for strat in ("E", "B"):
         per_label_scores: List[Dict[str, float]] = []
 
-        for lbl in T5_LABEL_ORDER:
+        for lbl in _resolved_labels:
             a = t5[strat].get(lbl, _Acc())
             s = a.prf("exact")
             out[f"{strat}-T5-{lbl}"] = s
             per_label_scores.append(s)
 
-        # Micro over the 8 labels
+        # Micro over resolved labels
         micro5 = _Acc()
-        for lbl in T5_LABEL_ORDER:
+        for lbl in _resolved_labels:
             a = t5[strat].get(lbl, _Acc())
             micro5.tp += a.tp
             micro5.pred += a.pred
             micro5.gold += a.gold
         out[f"{strat}-T5-MICRO"] = micro5.prf("exact")
 
-        # Macro over exactly 8 labels
+        # Macro over resolved labels
         out[f"{strat}-T5-MACRO"] = _macro_avg(per_label_scores)
 
     return out

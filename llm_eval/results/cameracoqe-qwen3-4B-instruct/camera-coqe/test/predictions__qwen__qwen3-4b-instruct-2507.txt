@@ -1,0 +1,1659 @@
+My 10 year old Fuji film camera , which was a piece of crap , was much better than that .	1
+[[5&&Fuji 6&&film 7&&camera];[20&&that];[];[18&&better];[1]]
+After taking close to 300 and the battery meter is showing all the bars on my XT !	1
+[[5&&300];[];[8&&battery 9&&meter];[11&&showing];[1]]
+As for comparisions with other Canon Powershot cameras , the Powershot SD630 does n't have a view finder , but has a larger LCD monitor in its place .	1
+[[11&&Powershot 12&&SD630];[5&&other 6&&Canon 7&&Powershot 8&&cameras];[19&&view 20&&finder];[];[-1]]
+[[11&&Powershot 12&&SD630];[5&&other 6&&Canon 7&&Powershot 8&&cameras];[26&&LCD 27&&monitor];[23&&has];[1]]
+Viewfinder/LCD The LCD gives you 99-100 % framing while the optical viewfinder gives you about 85 % framing .	1
+[[3&&LCD];[15&&optical 16&&viewfinder];[12&&framing];[6&&gives 7&&you 8&&99 9&&- 10&&100 11&&% 13&&while];[1]]
+[[15&&optical 16&&viewfinder];[3&&LCD];[12&&framing];[17&&gives 18&&you 19&&about 20&&85 21&&%];[-1]]
+Outdoors the clarity is outstanding .	1
+[[1&&Outdoors];[];[3&&clarity];[5&&outstanding];[1]]
+Better digital DSRL I ever had !	1
+[[1&&Better];[];[2&&digital 3&&DSRL];[6&&had];[1]]
+Like the rest of the digital Elph line , there are only limited manual controls .	1
+[[2&&the 3&&rest 4&&of 5&&the 6&&digital 7&&Elph 8&&line];[];[14&&manual 15&&controls];[13&&limited];[-1]]
+It even can handle the output to a fairly massive 2.5 '' LCD with decent luminosity so you can see it in bright light , and you can tweak the power savings feature to whatever setting you want to conserve juice .	1
+[[11&&2 12&&. 13&&5 14&&' 15&&' 16&&LCD];[];[19&&luminosity];[18&&decent];[1]]
+[[34&&power 35&&savings 36&&feature];[];[44&&juice];[43&&conserve];[1]]
+I got a 70-300mm lens with the image stabilization that does an awesome job .	1
+[[4&&70 5&&- 6&&300mm 7&&lens];[];[10&&image 11&&stabilization];[13&&does];[1]]
+It 's pretty small , though bright , so if you do a lot of manual focus you may have difficulty .	1
+[[17&&manual 18&&focus];[];[22&&difficulty];[21&&have];[-1]]
+The Bottom Line If you 've been wondering if you should have one , GET IT !	0
+[[];[];[];[];[]]
+On paper , both Canons have a much bigger buffer for continuous shooting , faster AF , better white balance adjustments , lower ISO noise and sharper images .	1
+[[5&&Canons];[5&&Canons];[10&&buffer 11&&for 12&&continuous 13&&shooting];[9&&bigger];[1]]
+[[5&&Canons];[5&&Canons];[16&&AF];[15&&faster];[1]]
+[[5&&Canons];[5&&Canons];[19&&white 20&&balance 21&&adjustments];[18&&better];[1]]
+[[5&&Canons];[5&&Canons];[24&&ISO 25&&noise];[23&&lower];[1]]
+[[5&&Canons];[5&&Canons];[28&&images];[27&&sharper];[1]]
+The Sony Alpha is definitely an outstanding camera for the new DSLR users .	1
+[[2&&Sony 3&&Alpha];[];[8&&camera];[7&&outstanding];[1]]
+And of course the build quality is on a completely different level .	1
+[[5&&build 6&&quality];[];[5&&build 6&&quality];[11&&different];[2]]
+Memory and Storage The SD800 IS uses SD ( Secure Digital ) , MMC ( MultiMedia Card ) , and SDHC ( High capacity SD ) cards for storage .	1
+[[5&&SD800 6&&IS];[];[1&&Memory];[7&&uses];[0]]
+[[5&&SD800 6&&IS];[];[3&&Storage];[7&&uses];[0]]
+It 's reliable , controls and buttons work easily and it 's just a joy to use .	1
+[[1&&It];[];[4&&reliable];[9&&work 10&&easily];[1]]
+[[1&&It];[];[6&&controls];[9&&work 10&&easily];[1]]
+[[1&&It];[];[8&&buttons];[9&&work 10&&easily];[1]]
+[[1&&It];[];[];[15&&just 16&&a 17&&joy 18&&to 19&&use];[1]]
+However , focus accuracy was not as impressive .	1
+[[3&&focus 4&&accuracy];[];[3&&focus 4&&accuracy];[6&&not 7&&as 8&&impressive];[-1]]
+Recommended : Yes Amount Paid ( US$ ) : 600 This Camera is a Good Choice if You Want Something ... Flexible Enough for Enthusiasts	1
+[[12&&This 13&&Camera];[];[25&&Flexible 26&&Enough 27&&for 28&&Enthusiasts];[16&&Good 17&&Choice];[1]]
+What I am very displeased with is the dim L.E.D. , the slow autofocus and the slow frames per second .	1
+[[9&&dim 10&&L 11&&. 12&&E 13&&. 14&&D 15&&.];[];[9&&dim 10&&L 11&&. 12&&E 13&&. 14&&D 15&&.];[];[-1]]
+[[18&&slow 19&&autofocus];[];[18&&slow 19&&autofocus];[];[-1]]
+[[22&&slow 23&&frames 24&&per 25&&second];[];[22&&slow 23&&frames 24&&per 25&&second];[];[-1]]
+It 's not weather proof , but it has a metal chassis and an outer shell of plastic .	1
+[[1&&It];[1&&it];[5&&weather 6&&proof];[4&&not];[-1]]
+[[12&&metal 13&&chassis];[];[];[10&&has];[0]]
+[[16&&outer 17&&shell 18&&of 19&&plastic];[];[];[10&&has];[0]]
+Weight and Size - Much lighter than the old rebel , but also much smaller .	1
+[[5&&Much 6&&lighter];[8&&the 9&&old 10&&rebel];[1&&Weight];[6&&lighter];[1]]
+[[14&&Much 15&&smaller];[8&&the 9&&old 10&&rebel];[3&&Size];[15&&smaller];[]]
+Canon 5D The only Canon camera I considered was the Canon 5D .	1
+[[1&&Canon 2&&5D];[];[];[];[]]
+Shutter Lag/Timing The G7 is noticeably faster ( 1.5 seconds ) at start-up than its predecessor , easily the fastest `` G '' to date .	1
+[[6&&G7];[21&&its 22&&predecessor];[1&&Shutter 2&&Lag 3&&/ 4&&Timing];[9&&faster];[1]]
+I mean for how much there is to it , it is quite light .	1
+[[4&&how 5&&much];[6&&there 7&&is 8&&to 9&&it];[14&&light];[14&&light];[1]]
+The SD800 can evaluate scenes quicker , focus faster , and adapt its settings faster than the SD700 can as per Canon .	1
+[[2&&SD800];[18&&SD700];[4&&evaluate 5&&scenes 6&&quicker];[6&&quicker];[1]]
+[[2&&SD800];[18&&SD700];[8&&focus];[9&&faster];[1]]
+[[2&&SD800];[18&&SD700];[12&&adapt 13&&its 14&&settings 15&&faster];[9&&faster];[1]]
+Either get the package lenses , or plan on getting used KM lenses .	1
+[[4&&package 5&&lenses];[12&&KM 13&&lenses];[];[];[2]]
+It has a better more solid build , the controls are more accessible , the viewfinder is bright and clear , it has professional grade features such as mirror lock up , and of course the image quality is noticeably better .	1
+[[4&&better 5&&more 6&&solid 7&&build];[];[7&&build];[4&&Better];[1]]
+[[12&&more 13&&accessible];[];[10&&controls];[4&&Better];[1]]
+[[18&&bright 19&&and 20&&clear];[];[16&&viewfinder];[4&&Better];[1]]
+[[24&&professional 25&&grade 26&&features 27&&such 28&&as 29&&mirror 30&&lock 31&&up];[];[26&&features];[4&&Better];[1]]
+[[37&&image 38&&quality];[];[37&&image 38&&quality];[4&&better];[1]]
+If you are on a limited budget consider also the Nikon Coolpix L5 ( 7.1 M , 5X zoom ) or the Kodak EasyShare Z710 ( 7.1 M , 10X zoom ) , both cost half the price of the G7 ( $ 250 at Best Buy ) , or the Canon Powershot A640 ( 10M , 4X zoom , $ 299 at Best Buy ) .	1
+[[11&&Nikon 12&&Coolpix 13&&L5];[45&&G7];[42&&price];[40&&half 41&&the 42&&price];[1]]
+[[25&&Kodak 26&&EasyShare 27&&Z710];[45&&G7];[42&&price];[40&&half 41&&the 42&&price];[1]]
+[[56&&Canon 57&&Powershot 58&&A640];[45&&G7];[42&&price];[40&&half 41&&the 42&&price];[1]]
+I should also mention here that the D50/D70/D70s did not have this capability either .	1
+[[8&&D50];[10&&D70];[17&&capability];[13&&did 14&&not 15&&have];[-1]]
+[[8&&D50];[12&&D70s];[17&&capability];[13&&did 14&&not 15&&have];[-1]]
+[[10&&D70];[12&&D70s];[17&&capability];[13&&did 14&&not 15&&have];[-1]]
+The unit is slightly larger then the D50 and slightly smaller then the D70 .	1
+[[2&&unit];[8&&D50];[];[5&&larger];[1]]
+[[2&&unit];[14&&D70];[];[11&&smaller];[-1]]
+However , they are sometimes not as good as the images obtained by my F100 ( which costs about half as much ) when I 'm shooting ISO 100 slide film , and when the slides are scanned with a drum scanner .	1
+[[3&&they];[10&&the 11&&images 12&&obtained 13&&by 14&&my 15&&F100];[8&&good];[6&&not 7&&as 8&&good];[-1]]
+The iSAPS technology used in Canon 's digital cameras has also improved every year .	1
+[[2&&iSAPS 3&&technology];[];[9&&digital 10&&cameras];[13&&improved];[1]]
+It bridges the gap between the D50 and the D200 perfectly .	1
+[[7&&D50];[10&&D200];[4&&gap];[2&&bridges];[1]]
+With an SLR , you never miss the perfect shot .	1
+[[3&&SLR];[];[];[6&&never 7&&miss 8&&the 9&&perfect 10&&shot];[1]]
+If just want take a point a shot picture the camara do it for you or if i want take a more complex profesional picture the camara just do it too , work excelent to every one .	1
+[[6&&point 7&&a 8&&shot 9&&picture];[22&&more 23&&complex 24&&profesional 25&&picture];[11&&camara];[12&&do 13&&it];[1]]
+[[22&&more 23&&complex 24&&profesional 25&&picture];[];[33&&work];[34&&excelent];[1]]
+There are plenty of features to play around with and which will make your pictures come out perfect .	1
+[[];[];[5&&features];[];[1]]
+[[];[];[15&&pictures];[];[1]]
+* Compact size * The above-mentioned review , very in favor of this camera * Everybody I talked to , including a few camera-experts/friends , seemed to think that Canon made the best products .	1
+[[36&&Canon];[38&&the 39&&best 40&&products];[40&&products];[37&&made];[1]]
+The latter may not be the best in that category .	1
+[[2&&latter];[7&&best];[9&&that 10&&category];[4&&not];[-1]]
+The top of the camera is quite different from the SD700 and holds the zoom ring with the shutter button in the center of the ring as well as the holes for the built-in microphone , monoaural speaker , and the power button ( which is flush with the casing ) .	1
+[[2&&top 3&&of 4&&the 5&&camera];[11&&SD700];[];[8&&different];[2]]
+( dust particles while snapping photos in dusty areas or ORBS while snapping in ghostly or haunted areas , ha ha Those who r crying over poor night photos , try this setting 2 get the true night pic better than its competitors like Sony , Casio , Olympus , etc. .	1
+[[27&&poor 28&&night 29&&photos];[42&&its 43&&competitors];[38&&night 39&&pic];[40&&better];[1]]
+[[45&&Sony];[];[];[];[]]
+[[47&&Casio];[];[];[];[]]
+[[49&&Olympus];[];[];[];[]]
+I have n't had a chance to photograph anything worth blowing up big yet but I did run around the house and garden snapping away then transferring the JPEG images into ` Photoshop ' .	0
+[[];[];[];[];[]]
+Viewfinder The view finder shows 95 % of the image at a magnification of 0.94 X . It is clear and bright , and considerably better than the rather pokey D70 viewfinder .	1
+[[3&&view 4&&finder];[33&&D70 34&&viewfinder];[];[28&&better];[1]]
+[[3&&view 4&&finder];[33&&D70 34&&viewfinder];[];[28&&better];[1]]
+[[3&&view 4&&finder];[33&&D70 34&&viewfinder];[13&&magnification];[28&&better];[1]]
+Realistically there will be no difference in your photos .	0
+[[];[];[];[];[]]
+Often when I shot picture of sports there was a slight delay between when I pushed the shutter release and actual image capture .	1
+[[3&&I];[];[12&&delay];[11&&slight];[2]]
+This lens is worth every dollar and well worth the wait , as a matter of fact I recieved the lens before the camera .	1
+[[1&&This 2&&lens];[];[];[4&&worth];[1]]
+[[1&&This 2&&lens];[];[11&&wait];[4&&worth];[1]]
+* Not a Professional Camera - I know of 1 professional photographer who shoots professionally with the Rebel XT , 1 `` prosumer '' that uses it for weddings and a 3rd retired professional who is getting back into photography who will purchase it .	1
+[[18&&Rebel 19&&XT];[11&&professional 12&&photographer];[];[15&&professionally];[0]]
+[[18&&Rebel 19&&XT];[24&&prosumer];[];[30&&for 31&&weddings];[0]]
+[[18&&Rebel 19&&XT];[35&&retired 36&&professional];[42&&photography];[];[0]]
+Perhaps I 'm an idiot , but I just assume it 's due to the fact that this is a pocket camera , not a spy camera with a telephoto lens .	1
+[[23&&pocket 24&&camera];[28&&spy 29&&camera];[33&&lens];[];[2]]
+Very compact and light for a DSLR .	0
+[[];[];[];[];[]]
+All I can say is try it for yourself like I did , I bought mine at Costco thinking I will be bringing it back in a week , but after using it for 3 weeks I would not even think about returning the Camera .	1
+[[18&&Costco];[];[45&&Camera];[];[-1]]
+[[35&&3 36&&weeks];[];[45&&Camera];[];[-1]]
+Battery Life The SD800 utilizes the same NB-5L battery as the SD700 which is a 3.7 V 1120mAh Lithium Ion rechargable battery pack .	1
+[[4&&SD800];[14&&SD700];[1&&Battery 2&&Life];[7&&same];[0]]
+For the price of the Rebel XT , you will not find a better SLR camera .	1
+[[6&&Rebel 7&&XT];[];[15&&SLR 16&&camera];[14&&better];[1]]
+, the D80 is more camera than they 'll ever need and then some .	1
+[[3&&D80];[8&&they];[6&&camera];[5&&more];[1]]
+I would not recommend this camera to the professional shooter .	0
+[[];[];[];[];[]]
+The next thing I thought was if I chose one of these cameras , should I get the body only or get the `` kit '' lens with it ?	1
+[[19&&body 20&&only];[26&&kit 29&&lens];[];[];[]]
+& # 149 In-camera Image Editing and Effects Creative in-camera effects and editing functions are available under the Retouch menu , and provide greater creative freedom without the need of a computer .	1
+[[23&&Retouch 24&&menu];[];[29&&creative 30&&freedom];[28&&greater];[1]]
+The less apparent difference is performance .	1
+[[2&&less 3&&apparent 4&&difference];[];[6&&performance];[];[2]]
+The `` kit '' lens that is supplied with the camera is a very light 18-55mm zoom lens .	1
+[[4&&kit 7&&lens];[];[];[17&&light];[1]]
+I have used Nikon cameras since 1994 ( N90 , N70 , F-100 , Coolpix 990 ) .	1
+[[4&&Nikon 5&&cameras];[];[];[];[]]
+The only thing I think canon did wrong on this camera is using the DigitII not the DigitIII software , but I guess if they had , the EOS 400 would have been in direct competition with their $ 3000 camera 's .	1
+[[15&&DigitII];[18&&DigitIII];[19&&software];[8&&wrong];[-1]]
+[[29&&EOS 30&&400];[39&&$ 40&&3000 41&&camera 42&&' 43&&s];[36&&competition];[34&&in 35&&direct];[1]]
+This camera allows better custom white balance and it has the Kelvin stepping that professionals used from a setting of 2800-100000 at a stepping of 100K .	1
+[[4&&better];[];[5&&custom 6&&white 7&&balance];[4&&better];[1]]
+[[12&&Kelvin 13&&stepping];[15&&professionals];[12&&Kelvin 13&&stepping];[10&&has];[0]]
+( Note : I got all the prices from ebay 's buy-now prices which are more or less the same with the prices from online stores ) .	1
+[[10&&ebay 11&&' 12&&s 13&&buy 14&&- 15&&now 16&&prices];[28&&online 29&&stores];[8&&prices];[23&&same];[]]
+It 's a little lighter and smaller than the D70 and I do n't miss the few features the D70s has that this camera does n't .	1
+[[6&&lighter];[10&&the 11&&D70];[];[8&&smaller];[1]]
+[[8&&smaller];[10&&the 11&&D70];[];[8&&smaller];[1]]
+[[23&&D70s];[26&&this 27&&camera];[21&&features];[24&&has];[2]]
+This happened even though I clearly said it was a bit of a teaser until I could give a more comprehensive review .	0
+[[];[];[];[];[]]
+What I really would like to see : Spot metering , high speed flash sync , the above mentioned lenses .	1
+[[9&&Spot 10&&metering];[];[];[];[]]
+[[12&&high 13&&speed 14&&flash 15&&sync];[];[];[];[]]
+[[17&&the 18&&above 19&&mentioned 20&&lenses];[];[];[];[]]
+The Bottom Line If you want the larger 2.5 '' LCD , then by all means buy this camera , otherwise , wait until the 40D to come out next year with a bigger optical sensor .	1
+[[9&&2 10&&. 11&&5 12&&' 13&&' 14&&LCD];[29&&40D];[14&&LCD];[37&&bigger];[1]]
+[[29&&40D];[];[38&&optical 39&&sensor];[37&&bigger];[1]]
+( I knew I should have spend the extra dough on the Canon ! )	1
+[[2&&I];[];[];[];[]]
+My 7 year old took picture of my wife and I with no training and no problem .	0
+[[];[];[];[];[]]
+I did not like the kit lense it came with , so save some money and buy the body only in my opinion .	1
+[[6&&kit 7&&lense];[19&&body 20&&only];[4&&like];[3&&not 4&&like];[-1]]
+Clearly the D80 is designed to be an upgrade path for users of older models .	1
+[[3&&D80];[14&&older 15&&models];[5&&design];[];[1]]
+After bought at last Xmas , I took it to a three weeks trip last months .	0
+[[];[];[];[];[]]
+After having used the Canon Rebel XT for a couple of days , I 'm left with the question `` what is all the fuss about ? '' .	0
+[[];[];[];[];[]]
+This camera does not come without faults , though .	1
+[[1&&This 2&&camera];[];[];[];[]]
+They make tripods so portable and light now that serious photographers should have one with them ( regardless of the camera body , but then again SSS helps a lot on those days you forgot your tripod ! ) .	1
+[[3&&tripods];[];[5&&portable];[];[1]]
+[[3&&tripods];[];[7&&light];[];[1]]
+[[27&&SSS];[];[28&&help];[];[1]]
+Only the S3 has a potentially better movie record mode ( the S3 can record in stereo sound but file size is limited to 1 GB max .	1
+[[3&&S3];[];[8&&movie 9&&record 10&&mode];[7&&better];[1]]
+[[3&&S3];[];[17&&stereo 18&&sound];[7&&better];[1]]
+[[3&&S3];[];[20&&file 21&&size];[23&&limited];[-1]]
+The higher 16 megapixel canon produces fine images but is the worse camera i have ever seen in using .	1
+[[3&&16 4&&megapixel 5&&canon];[14&&i 15&&have 16&&ever 17&&seen];[13&&camera];[12&&worse];[-1]]
+I also realized I would n't be able to use the Kodak 's images for enlargements to place in a gallery , and that no one would buy them if I did .	1
+[[14&&Kodak 15&&' 16&&s 17&&images];[];[];[];[-1]]
+[[];[];[];[];[-1]]
+Ending : Do n't get me wrong , I do like the XTi , it 's just not with the upgrade from the XT .	1
+[[15&&XTi];[27&&XT];[24&&upgrade];[21&&not];[-1]]
+The writing speed is blazing fast , especially on my Extreme III card .	1
+[[11&&Extreme 12&&III 13&&card];[];[2&&writing 3&&speed];[];[1]]
+I chose the Canon Rebel XT for several reasons .	0
+[[];[];[];[];[]]
+It seems to me that anything over a 5 megapixel camera is more than enough pixels for ordinary use .	1
+[[6&&anything 7&&over 8&&a 9&&5 10&&megapixel 11&&camera];[];[16&&pixels];[13&&more 14&&than 15&&enough];[1]]
+* Made of Cheap Plastic - Actually it is made of polycarbonate .	1
+[[4&&Cheap 5&&Plastic];[12&&polycarbonate];[];[];[1]]
+The lens used was Canon 's 24mm T/S lens .	0
+[[];[];[];[];[]]
+It 's got some weight to it , but not as heavy as the film slr cameras I 'm used to .	1
+[[1&&it];[15&&the 16&&film 17&&slr 18&&cameras 19&&I 20&&' 21&&m 22&&used 23&&to];[6&&weight];[13&&heavy];[-1]]
+Someone coming from a D50/D70/D70s will be up and running as the layout of the D80 is very similar to the D50/D70/D70s cameras .	1
+[[20&&D80];[5&&D50 6&&/ 7&&D70 8&&/ 9&&D70s];[17&&layout];[23&&similar];[0]]
+* The LCD and View Finder are Small - Small is subjective , but I do think they are on the small side .	1
+[[3&&LCD 4&&and 5&&View 6&&Finder];[];[8&&Small];[8&&Small];[0]]
+This is all beyond the scope of this review , and needless to say , Google or Wiki can explain this much better than I . But damn , the 5D cost over $ 1000 more than the D200 .	1
+[[16&&Google];[25&&I];[20&&explain 21&&this 22&&much];[23&&better];[1]]
+[[31&&5D];[39&&D200];[32&&cost];[33&&over 34&&$ 35&&1000];[1]]
+SD700/S3 ISO 800 shots were more consistent from shot to shot versus SD800 ) .	1
+[[1&&SD700 2&&/ 3&&S3 4&&ISO 5&&800];[15&&SD800];[];[8&&more 9&&consistent];[1]]
+Overall , it 's a great camera , although the optical viewfinder could have been better placed to avoid smudging the screen as well as bigger .	1
+[[12&&optical 13&&viewfinder];[];[];[17&&better];[1]]
+[[];[27&&bigger];[23&&screen];[27&&bigger];[-1]]
+Main reason for the mixed feelings is the invasion of the low cost SLR which provide better performance at a similar price but of course in a bigger package .	1
+[[12&&low 13&&cost 14&&SLR];[];[18&&performance];[17&&better];[1]]
+[[12&&low 13&&cost 14&&SLR];[];[22&&price];[21&&similar];[0]]
+[[12&&low 13&&cost 14&&SLR];[];[29&&package];[28&&bigger];[-1]]
+However , in perfect light condition G7 's pictures are just slightly better than competitors .	1
+[[7&&G7 8&&' 9&&s 10&&pictures];[16&&competitors];[10&&pictures];[14&&better];[1]]
+In lowlight at ISO 1600 noise is much better then its bigger brother the D200 .	1
+[[4&&ISO 5&&1600];[15&&D200];[6&&noise];[9&&better];[1]]
+It 's still a great SLR ... 20D is much better , but expensive magnesium alloy body and usb2 .0 port .	1
+[[11&&20D];[];[20&&body];[14&&better];[1]]
+[[11&&20D];[];[22&&usb2 23&&. 24&&0 25&&port];[14&&better];[1]]
+The A630 has 4 AA 's , not 2 like the 710 and 570 .	1
+[[2&&A630];[13&&710];[5&&AA 6&&' 7&&s];[];[1]]
+[[2&&A630];[15&&570];[5&&AA 6&&' 7&&s];[];[1]]
+When I later held the Canon 20D at Fry 's Electronics , it felt exactly like the Nikon D70 .	1
+[[6&&Canon 7&&20D];[19&&Nikon 20&&D70];[];[16&&exactly 17&&like];[0]]
+It is only about 22mm wide .	0
+[[];[];[];[];[]]
+When starting in display mode or powered down mode , the lens retracts fully into the body of the camera .	1
+[[4&&display 5&&mode];[7&&powered 8&&down 9&&mode];[12&&lens];[13&&retracts];[0]]
+ISO 800 images are very noisy , but a bit better than expected - it is important to note here that my expectations were n't very high .	1
+[[1&&ISO 2&&800 3&&images];[13&&expected];[6&&noisy];[11&&better];[1]]
+I 'm not entirely sure about the faster part as that is n't easy to evaluate .	1
+[[];[];[9&&faster];[];[]]
+I am also comparing it to my canon 30D ( sold the XT to buy the 30D ) which it can not keep up with in any situation .	1
+[[5&&it];[8&&canon 9&&30D];[];[];[-1]]
+I 'm a 6 foot male and I 'm able to grip this camera comfortably with no problems , and have not pressed any buttons accidentally so far .	1
+[[5&&6 6&&foot 7&&male];[];[14&&grip];[17&&comfortably];[1]]
+[[5&&6 6&&foot 7&&male];[];[];[24&&not 25&&pressed];[1]]
+It is easier to turn than in the SD700 and does not feel as delicate .	1
+[[1&&It];[7&&in 8&&the 9&&SD700];[];[3&&easier];[1]]
+[[1&&It];[];[];[11&&does 12&&not 13&&feel];[-1]]
+I 'm wrong : red-eye problem on G7 seem to be slightly worse than average .	1
+[[11&&G7];[18&&average];[6&&red 7&&- 8&&eye 9&&problem];[16&&worse];[]]
+This is my third canon , and they keep getting better .	1
+[[5&&canon];[];[];[11&&better];[1]]
+Without it , the camera will recompute the exposure settings for each individual image .	1
+[[1&&Without 2&&it];[4&&the 5&&camera];[9&&exposure 10&&settings];[7&&recompute];[-1]]
+I thought this was an interesting choice of presets .	1
+[[3&&this];[];[7&&choice 8&&of 9&&presets];[6&&interesting];[1]]
+It takes fantastic pictures of kids , even the ones that move really fast and hate to have their pictures taken .	1
+[[1&&It];[9&&the 10&&ones 11&&that 12&&move 13&&really 14&&fast];[4&&pictures];[3&&fantastic];[1]]
+[[1&&It];[6&&kids];[4&&pictures];[3&&fantastic];[1]]
+[[1&&It];[9&&the 10&&ones 11&&that 12&&move 13&&really 14&&fast];[4&&pictures];[3&&fantastic];[1]]
+[[1&&It];[6&&kids];[4&&pictures];[3&&fantastic];[1]]
+If you need to have pictures come out well that have the subject backlit , this is sort of necessary .	1
+[[16&&this];[];[6&&pictures];[7&&come 8&&out 9&&well];[1]]
+The button layout on the D80 is superb - everything is in easy reach .	1
+[[6&&D80];[];[2&&button 3&&layout];[8&&superb];[1]]
+It even has built-in features that can mimick Photoshop auto-levels if you want .	1
+[[4&&built 5&&- 6&&in 7&&features];[11&&Photoshop 12&&auto 13&&- 14&&levels];[7&&features];[10&&mimick];[1]]
+The LCD is the best I 've seen to date on any camera .	1
+[[2&&LCD];[13&&any 14&&camera];[2&&LCD];[5&&best];[1]]
+The 300D was far more comfortable and the D70 was the most comfortable when holding it .	1
+[[2&&300D];[9&&D70];[6&&comfort];[5&&more 6&&comfortable];[1]]
+[[9&&D70];[];[6&&comfort];[12&&most 13&&comfortable];[1]]
+So if you 're trying to justify spending the money on a D200 by saying you 're going to get better image quality - in a pure sense - no .	1
+[[14&&D200];[];[24&&image 25&&quality];[23&&better];[1]]
+Let 's go back a few years , and compare the D200 and the F100 in terms of value for the money .	1
+[[13&&D200];[16&&F100];[20&&value 21&&for 22&&the 23&&money];[];[1]]
+It seems to get less light to the sensors than my old 4MP A80 .	1
+[[1&&It];[11&&my 12&&old 13&&4MP 14&&A80];[6&&light 7&&to 8&&the 9&&sensors];[5&&less];[-1]]
+It is small and light weight and you can hold it for a long period of time .	0
+[[];[];[];[];[]]
+The flash must be pretty well placed on this camera because I have n't noticed much red eye .	1
+[[2&&flash];[];[];[6&&well 7&&placed];[1]]
+[[2&&flash];[];[19&&red 20&&eye];[17&&noticed];[-1]]
+The SD800 has some obvious improvements over the SD700 .	1
+[[2&&SD800];[9&&SD700];[6&&improvements];[];[1]]
+Lori is beating down the new Rebel for silly reasons .	1
+[[1&&Lori];[6&&new 7&&Rebel];[];[3&&beating 4&&down];[1]]
+Maximum shutterspeed was 1/4000 s , and maximum ISO 1600 .	1
+[[4&&1 5&&/ 6&&4000 7&&s];[12&&1600];[1&&Maximum 2&&shutterspeed];[];[1]]
+[[12&&1600];[4&&1 5&&/ 6&&4000 7&&s];[10&&Maximum 11&&ISO];[];[1]]
+The 18-200 softens-up a little above 100 mm focal length compared to the very good sharpness below 100 mm but still remains usable .	1
+[[2&&18 3&&- 4&&200];[18&&very 19&&good 20&&sharpness];[5&&softens 6&&- 7&&up];[8&&a 9&&little];[-1]]
+[[2&&18 3&&- 4&&200];[20&&sharpness];[20&&sharpness];[];[1]]
+I have just started to use the complete Manual mode , setting all the values myself .	0
+[[];[];[];[];[]]
+This is one fabulous Digital SLR .	0
+[[];[];[];[];[]]
+Using the Sony name will probably give it an `` entry level '' status .	1
+[[3&&Sony 4&&name];[];[16&&status];[12&&entry 13&&level];[-1]]
+Just play with the camera for a while and you will learn so much .	0
+[[];[];[];[];[]]
+I was blown away by the focus , detail , and colour of every shot .	1
+[[7&&focus];[];[7&&focus];[];[1]]
+[[9&&detail];[];[9&&detail];[];[1]]
+[[12&&colour];[];[12&&colour];[];[1]]
+Kit lens = Garbage : Do yourself a favor and do n't get the Kit version .	1
+[[17&&Kit 18&&version];[];[];[4&&garbage];[-1]]
+A real value for the Money .	0
+[[];[];[];[];[]]
+I am getting the battery grip which should negate this problem , but the old rebel was definatly more comfortable to grip .	1
+[[15&&old 16&&rebel];[5&&battery 6&&grip];[];[19&&more 20&&comfortable];[1]]
+It can work as a P/S camera but you will want to learn the creative modes or go full manual .	1
+[[17&&creative 18&&modes];[21&&full 22&&manual];[3&&work];[13&&want];[1]]
+If I do n't mention it that means that it works without problems and does not need mentioning .	0
+[[];[];[];[];[]]
+I am more than a beginner , but not close to being professional .	1
+[[6&&beginner];[13&&professional];[];[];[1]]
+The next thing that I noticed is that the viewfinder , swivel LCD screen , and wrist-strap eyelet are all somewhat angular in comparison to the main body of the camera , which takes away from the nicely streamlined appearance of previous generation A-model cameras .	1
+[[10&&viewfinder];[29&&main 30&&body 31&&of 32&&the 33&&camera];[];[23&&somewhat 24&&angular 25&&in 26&&comparison 27&&to];[2]]
+[[12&&swivel 13&&LCD 14&&screen];[29&&main 30&&body 31&&of 32&&the 33&&camera];[];[23&&somewhat 24&&angular 25&&in 26&&comparison 27&&to];[2]]
+[[17&&wrist 18&&- 19&&strap 20&&eyelet];[29&&main 30&&body 31&&of 32&&the 33&&camera];[];[23&&somewhat 24&&angular 25&&in 26&&comparison 27&&to];[2]]
+Recommended : Yes Amount Paid ( US$ ) : 733.00 This Camera is a Good Choice if You Want Something ... Flexible Enough for Enthusiasts	1
+[[14&&This 15&&Camera];[];[];[18&&Good];[1]]
+I find the zoom surprisingly easy to use , much more so than the D70 version .	1
+[[4&&zoom];[15&&D70 16&&version];[];[];[1]]
+As mentioned earlier , I had the SD400 for over 1 and a half years and the SD600 contains almost exactly the same functions and features as the SD400 except for the different screen size and higher megapixels at 2816 x 2112 .	1
+[[18&&SD600];[8&&SD400];[24&&functions];[23&&same];[0]]
+[[18&&SD600];[8&&SD400];[26&&features];[23&&same];[0]]
+[[18&&SD600];[8&&SD400];[34&&screen 35&&size];[33&&different];[2]]
+[[18&&SD600];[];[38&&megapixels];[37&&higher];[1]]
+I considered a number of cameras : Canon SD4xx/5xx/6xx , Sony 's T series , Casio 's Z series , and Panasonic 's FX01 .	1
+[[8&&Canon 9&&SD4xx 10&&/ 11&&5xx 12&&/ 13&&6xx];[15&&Sony 16&&' 17&&s 18&&T 19&&series];[];[];[]]
+[[8&&Canon 9&&SD4xx 10&&/ 11&&5xx 12&&/ 13&&6xx];[21&&Casio 22&&' 23&&s 24&&Z 25&&series];[];[];[]]
+[[8&&Canon 9&&SD4xx 10&&/ 11&&5xx 12&&/ 13&&6xx];[28&&Panasonic 29&&' 30&&s 31&&FX01];[];[];[]]
+[[15&&Sony 16&&' 17&&s 18&&T 19&&series];[21&&Casio 22&&' 23&&s 24&&Z 25&&series];[];[];[]]
+[[15&&Sony 16&&' 17&&s 18&&T 19&&series];[28&&Panasonic 29&&' 30&&s 31&&FX01];[];[];[]]
+[[21&&Casio 22&&' 23&&s 24&&Z 25&&series];[28&&Panasonic 29&&' 30&&s 31&&FX01];[];[];[]]
+The larger camera does n't allow that .	1
+[[2&&larger 3&&camera];[];[];[];[-1]]
+Selling points - In which I explain why I bought the 5D My main reason for me upgrading from 350D to 5D ( and skipping the 30D ) was the full-frame sensor .	1
+[[12&&5D];[20&&350D];[31&&full 32&&- 33&&frame 34&&sensor];[];[1]]
+[[12&&5D];[27&&30D];[31&&full 32&&- 33&&frame 34&&sensor];[];[1]]
+Since IS ( image stabilization ) is built into the camera , ALL your lenses are IS .	1
+[[2&&IS];[13&&ALL 14&&your 15&&lenses];[4&&image 5&&stabilization];[8&&built 9&&into];[1]]
+I am very impressed by the ease of use of my Nikon D80 .	1
+[[12&&Nikon 13&&D80];[];[7&&ease 8&&of 9&&use];[4&&impressed];[1]]
+The images are sharp and the colors look realistic .	1
+[[];[];[4&&sharp];[8&&look];[1]]
+[[];[];[7&&colors];[8&&look];[1]]
+Save those ebay fees for your previous camera .	0
+[[];[];[];[];[]]
+I have upgraded from the original Digital Rebel , to the XT to now the XTi .	1
+[[6&&original 7&&Digital 8&&Rebel];[12&&XT];[];[];[1]]
+[[12&&XT];[16&&XTi];[];[];[1]]
+I really love this camera .	0
+[[];[];[];[];[]]
+Recommended : Yes Amount Paid ( US$ ) : 969.99 This Camera is a Good Choice if You Want Something ... Solid Enough for a Professional	1
+[[14&&This 15&&Camera];[];[];[18&&Good 19&&Choice];[1]]
+The quality of this lens must be high , seeing as the quality is visible in the picture .	1
+[[4&&this 5&&lens];[1&&the 2&&quality];[2&&quality];[8&&high];[1]]
+[[1&&the 2&&quality];[17&&the 18&&picture];[2&&quality];[15&&visible];[1]]
+The S45 I had previously was actually thicker , but shorter , so it felt more compact .	1
+[[2&&S45 3&&I 4&&had 5&&previously];[];[];[8&&thicker];[-1]]
+[[2&&S45 3&&I 4&&had 5&&previously];[];[];[11&&shorter];[-1]]
+They have the best product on the market as far as I 'm concerned .	1
+[[1&&They];[7&&the 8&&market];[5&&product];[4&&best];[1]]
+This 2.5 inch screen on the 5D really has given this camera a very effective advantage over the 20D , which also sports the 1.8 inch screen .	1
+[[2&&2 3&&. 4&&5 5&&inch 6&&screen];[21&&20D];[];[];[1]]
+[[9&&5D];[21&&20D];[];[];[1]]
+In all tho these are very minor drawbacks .	0
+[[];[];[];[];[]]
+But unlike other cameras , at least this camera 's problems can be fixed with more money .	1
+[[8&&this 9&&camera];[3&&other 4&&cameras];[12&&problems];[13&&can 14&&be 15&&fixed];[1]]
+They show up easily at ISO 400 and can be spotted on a print if the area is dark .	1
+[[1&&They];[];[2&&show 3&&up];[4&&easily];[1]]
+[[1&&They];[];[9&&can 10&&be 11&&spotted];[12&&on 13&&a 14&&print];[1]]
+This was supposed to be the step up from the fantastic FZ30 , but it is not , in fact the extra 2MP are wasted because of the terrible sledge hammer Noise reduction by the Venus III engine .	1
+[[1&&This];[10&&the 11&&fantastic 12&&FZ30];[7&&step 8&&up];[17&&not];[-1]]
+[[21&&the 22&&extra 23&&2MP];[];[30&&sledge 31&&hammer 32&&Noise 33&&reduction];[25&&wasted];[-1]]
+[[30&&sledge 31&&hammer 32&&Noise 33&&reduction];[];[36&&Venus 37&&III 38&&engine];[29&&terrible];[-1]]
+Also , the LCD does NOT allow you to preview the shot ( unlike the G2 which allows you to compose the shot ) - you only see the shot AFTER the shot is taken .	1
+[[4&&LCD];[16&&G2];[10&&preview];[18&&allows];[-1]]
+[[4&&LCD];[16&&G2];[21&&compose];[18&&allows];[-1]]
+The SD800 has quite a bit going for it .	0
+[[];[];[];[];[]]
+For this price you can get a camera from another brand more reliable .	1
+[[10&&another 11&&brand];[8&&camera];[13&&reliable];[12&&more];[1]]
+I loaded the images on the computer I printed them , and it 's by far more impressive then I had hoped it would be .	1
+[[3&&the 4&&images];[21&&I 22&&had 23&&hoped 24&&it 25&&would 26&&be];[19&&impressive];[18&&more 19&&impressive];[1]]
+I went back to the store and picked up the camera with the kit lens .	0
+[[];[];[];[];[]]
+Manual focus seems to be fine and easy to use , there is a switch on the lens that allows you to toggle between manual and auto focus .	1
+[[1&&Manual 2&&focus];[27&&auto 28&&focus];[];[8&&easy 9&&to 10&&use];[1]]
+[[1&&Manual 2&&focus];[27&&auto 28&&focus];[6&&fine];[6&&fine];[0]]
+Recommended : Yes Amount Paid ( US$ ) : 385 This Camera is a Good Choice if You Want Something ... Solid Enough for a Professional	1
+[[12&&This 13&&Camera];[];[];[16&&Good 17&&Choice];[1]]
+Compared to NIKON D70 you are getting a much better deal as far as color processing .	1
+[[3&&NIKON 4&&D70];[];[15&&color 16&&processing];[10&&better];[1]]
+That said , I 'd rather have the Rebel XT in some situations , like and fishing or hiking trips .	1
+[[10&&Rebel 11&&XT];[];[];[];[1]]
+The kit lens also added a brownish tint to all my pictures , which I could not stand .	1
+[[2&&kit 3&&lens];[];[7&&brownish 8&&tint];[5&&added];[-1]]
+With newer , 5 megapixel cameras , a high-speed card can really make a noticeable difference in the amount of time it takes for your camera to recover between pictures or to transfer pictures to your computer .	1
+[[2&&newer 4&&5 5&&megapixel 6&&cameras];[];[21&&amount 22&&of 23&&time];[];[1]]
+[[2&&newer 4&&5 5&&megapixel 6&&cameras];[];[35&&transfer 36&&pictures 37&&to 38&&your 39&&computer];[];[1]]
+The Canon web site can provide all the details ; all I want to do is describe what it 's like to actually use this camera and help you make an intelligent choice in buying your next digital camera .	1
+[[2&&Canon 3&&web 4&&site];[];[9&&details];[6&&provide];[1]]
+[[];[];[];[17&&describe];[0]]
+[[];[];[36&&buying 37&&your 38&&next 39&&digital 40&&camera];[29&&help];[1]]
+It feels like a quality camera and performs like one .	1
+[[1&&It];[4&&a 5&&quality 6&&camera];[2&&feels];[3&&like];[0]]
+[[1&&It];[10&&one];[8&&performs];[3&&like];[0]]
+I have n't done either to its maximum so I ca n't comment on either of those right now .	0
+[[];[];[];[];[]]
+However , the 5D costs less than HALF what the 1Ds MkII will set you back .	1
+[[4&&5D];[11&&1Ds 12&&MkII];[5&&cost];[6&&less];[-1]]
+If you wo n't use the extra features , why spend the money on the 20D ?	1
+[[18&&20D];[];[15&&money];[13&&spend];[-1]]
+If you want an impressive digital , and you 're going to be changing lenses to do `` real '' photography with macro/telephoto/tripod , etc but you do n't want to shell out 1000 $ or more I highly recommend it .	1
+[[50&&it];[];[6&&digital];[];[1]]
+As a comparison to see what a huge difference the sensor size makes on file size ... my D70 can get 291 Fine JPEGS at maximum size on a 1 GB card .	1
+[[11&&sensor 12&&size];[15&&file 16&&size];[9&&difference];[13&&makes];[1]]
+But with the bigger screen , you get no viewfinder - and that was something that I wanted , because in certain shooting situations , a viewfinder is the better choice to use over the LCD .	1
+[[4&&bigger 5&&screen];[];[10&&viewfinder];[30&&better];[1]]
+[[36&&LCD];[];[10&&viewfinder];[30&&better];[1]]
+Though the 30D is basically a 20D with improvements , the improvements are noteworthy for those considering purchasing a mid-range DSLR .	1
+[[3&&30D];[7&&20D];[9&&improvements];[];[1]]
+[[9&&improvements];[];[9&&improvements];[14&&noteworthy];[1]]
+The larger size does make menu operation a little easier .	1
+[[2&&larger 3&&size];[];[6&&menu 7&&operation];[10&&easier];[1]]
+Full Review I bought the SD800 IS about 3 weeks ago and after taking a few sample pictures , I put the camera away for about 2 days .	1
+[[6&&SD800 7&&IS];[];[];[];[]]
+It 's certainly small enough for that .	0
+[[];[];[];[];[]]
+A low price boosts the Canon EOS Digital Rebel 's appeal for amateur film-SLR photographers going digital and high-end snapshooters who want to experiment Photo enthusiasts who want a relatively inexpensive interchangeable-lens SLR .	1
+[[2&&low 3&&price];[];[12&&appeal];[4&&boosts];[1]]
+[[6&&Canon 7&&EOS 8&&Digital 9&&Rebel];[14&&amateur 15&&film 16&&- 17&&SLR 18&&photographers];[12&&appeal];[4&&boosts];[1]]
+[[6&&Canon 7&&EOS 8&&Digital 9&&Rebel];[22&&high 23&&- 24&&end 25&&snapshooters];[12&&appeal];[4&&boosts];[1]]
+[[6&&Canon 7&&EOS 8&&Digital 9&&Rebel];[30&&Photo 31&&enthusiasts];[12&&appeal];[4&&boosts];[1]]
+The lens on this camera is great for close-ups , mid-range photos and maybe skyline shots , but if you wanted to try to get a decent photo of a particular object or person from a distance , even with the digital zoom disabled , you ca n't get it to illuminate or focus terribly well .	1
+[[2&&lens];[9&&close 10&&- 11&&ups];[];[7&&great];[1]]
+[[2&&lens];[13&&mid 14&&- 15&&range 16&&photos];[];[7&&great];[1]]
+[[2&&lens];[19&&skyline 20&&shots];[];[7&&great];[1]]
+[[2&&lens];[34&&a 35&&particular 36&&object 37&&or 38&&person 39&&from 40&&a 41&&distance];[];[61&&terribly 62&&well];[-1]]
+[[2&&lens];[34&&a 35&&particular 36&&object 37&&or 38&&person 39&&from 40&&a 41&&distance];[60&&focus];[61&&terribly 62&&well];[-1]]
+I am completely happy with this purchase .	0
+[[];[];[];[];[]]
+It consists of Canon 's A530 , A540 , A620 , A630 , A640 , and A710 these cameras all have similar features , but vary in size of Megapixels and zoom features .	1
+[[4&&Canon 5&&' 6&&s 7&&A530];[9&&A540];[24&&features];[23&&similar];[0]]
+[[4&&Canon 5&&' 6&&s 7&&A530];[11&&A620];[24&&features];[23&&similar];[0]]
+[[4&&Canon 5&&' 6&&s 7&&A530];[13&&A630];[24&&features];[23&&similar];[0]]
+[[4&&Canon 5&&' 6&&s 7&&A530];[15&&A640];[24&&features];[23&&similar];[0]]
+[[4&&Canon 5&&' 6&&s 7&&A530];[18&&A710];[24&&features];[23&&similar];[0]]
+[[7&&A530];[9&&A540];[29&&size 30&&of 31&&Megapixels];[27&&vary];[2]]
+[[7&&A530];[11&&A620];[29&&size 30&&of 31&&Megapixels];[27&&vary];[2]]
+[[7&&A530];[13&&A630];[29&&size 30&&of 31&&Megapixels];[27&&vary];[2]]
+Although Canon now makes a model ( SD-630 ) only slightly more expensive with a 3 '' LCD , that one lost the optical viewfinder for the privilege .	1
+[[8&&SD 9&&- 10&&630];[];[];[14&&more 15&&expensive];[1]]
+[[8&&SD 9&&- 10&&630];[];[21&&LCD];[];[1]]
+[[8&&SD 9&&- 10&&630];[];[27&&optical 28&&viewfinder];[25&&lost];[-1]]
+That extra groove in the handgrip feels great .	1
+[[2&&extra 3&&groove];[];[6&&handgrip];[7&&feels];[1]]
+I did notice a little bit of darkness in images taken in soft light .	1
+[[13&&soft 14&&light];[];[10&&images];[];[-1]]
+With the D80 you can set the amount of time you want the camera to be in IR mode and this is a HUGE improvement .	1
+[[3&&D80];[];[8&&amount 9&&of 10&&time 11&&you 12&&want 13&&the 14&&camera 15&&to 16&&be 17&&in 18&&IR 19&&mode];[25&&improvement];[1]]
+I definately recommend this camera .	0
+[[];[];[];[];[]]
+I did shop and compare but felt the Canon dependable name and the exchangeable lens that I already had were the the deciding factors .	1
+[[9&&Canon];[13&&the 14&&exchangeable 15&&lens];[10&&dependable 11&&name];[20&&were];[1]]
+[[13&&the 14&&exchangeable 15&&lens];[];[];[20&&were];[1]]
+Of course this camera does not nearly have the complexities like the 1Ds Mark II .	1
+[[3&&this 4&&camera];[13&&1Ds 14&&Mark 15&&II];[10&&complexities];[8&&have];[-1]]
+It 's not like the D200 , which I think is heavy , so I prefer the lightness it offers .	1
+[[7&&D200];[];[13&&heavy];[];[-1]]
+[[];[];[19&&lightness];[];[1]]
+Using the iTTL with Nikon 's SB flash series produces clear and correctly exposed pictures .	1
+[[3&&iTTL];[5&&Nikon 6&&' 7&&s 8&&SB 9&&flash 10&&series];[16&&pictures];[12&&clear 13&&and 14&&correctly 15&&exposed];[1]]
+Recommended : Yes Amount Paid ( US$ ) : 1000 This Camera is a Good Choice if You Want Something ... Flexible Enough for Enthusiasts	1
+[[12&&This 13&&Camera];[];[];[16&&Good];[1]]
+It is difficult to use in bright sunlight .	0
+[[];[];[];[];[]]
+There is extremely little shutter lag , on par with cameras more than twice it 's cost ( according to test data from Cnet and other places ) , which is perfect for night shots and action shots .	1
+[[5&&shutter 6&&lag];[11&&cameras 12&&more 13&&than 14&&twice 15&&it 16&&' 17&&s 18&&cost];[5&&shutter 6&&lag];[8&&on 9&&par 10&&with];[0]]
+Picture quality superior to anything I 've seen Full Review How should I start this ?	1
+[[1&&Picture 2&&quality];[5&&anything 6&&I 7&&' 8&&ve 9&&seen];[1&&Picture 2&&quality];[3&&superior];[1]]
+I also could find very nice one-handed and two-handed grips .	1
+[[7&&one 8&&- 9&&handed];[11&&two 12&&- 13&&handed];[14&&grips];[6&&nice];[1]]
+Despite the fact that other brands have better specs and performance than the Pentax , my pictures come out better because I feel more comfortable with it .	1
+[[5&&other 6&&brands];[14&&Pentax];[9&&specs];[8&&better];[1]]
+[[5&&other 6&&brands];[14&&Pentax];[11&&performance];[8&&better];[1]]
+[[];[];[17&&pictures];[8&&better];[1]]
+The whole camera is easy to use and one quickly becomes accustomed to the features .	1
+[[2&&whole 3&&camera];[];[];[5&&easy 6&&to 7&&use];[1]]
+[[9&&one];[];[15&&features];[];[1]]
+Unlike some cameras , which use expensive proprietary batteries , you can buy AA batteries virtually anywhere .	1
+[[2&&some 3&&cameras];[14&&AA 15&&batteries];[];[];[1]]
+The D80 is a complete success ergonomically .	1
+[[2&&D80];[];[7&&ergonomically];[6&&success];[1]]
+It is expensive , but it is also one of the best cameras in its class and really it has forged a new class .	1
+[[1&&It];[1&&it];[3&&expensive];[3&&expensive];[-1]]
+[[1&&it];[];[13&&camera];[12&&best];[1]]
+[[1&&it];[];[16&&class];[21&&forged];[2]]
+If I still had the Canon Rebel XT , I would need to get the EF-S 10-22mm f3.5-4 .5 USM lens for the Rebel XT to match the focal length of the 17-40mm f4 .0 L lens on the Canon 5D .	1
+[[6&&Canon 7&&Rebel 8&&XT];[52&&Canon 53&&5D];[38&&focal 39&&length];[36&&match];[0]]
+I feel that the D80 gives me results closer to MY expectations of exposure .	1
+[[5&&D80];[11&&MY 12&&expectations];[8&&results];[9&&closer];[1]]
+The G7 is a great camera , do n't get me wrong , but I could not justify keeping both cameras , especially for the cost of the G7 and considering that the G7 did not produce better quality photos than the A630 ( equal in some cases , but not better ) .	1
+[[2&&G7];[45&&A630];[41&&quality 42&&photos];[40&&better];[-1]]
+[[2&&G7];[45&&A630];[41&&quality 42&&photos];[47&&equal];[0]]
+I only played around with it for an hour or so before I put it back in the box .	1
+[[1&&I];[6&&it];[];[4&&around];[0]]
+[[1&&I];[6&&it];[];[16&&back];[0]]
+In addition I find that the meter is more accurate in odd lighting situations like night photography and side lighting .	1
+[[7&&meter];[12&&odd 13&&lighting 14&&situations];[];[9&&more 10&&accurate];[1]]
+[[7&&meter];[19&&side 20&&lighting];[];[9&&more 10&&accurate];[]]
+Canon 's third generation Rebel XTi/EOS400D has a larger LCD ...	1
+[[1&&Canon 2&&' 3&&s 4&&third 5&&generation 6&&Rebel 7&&XTi 8&&/ 9&&EOS400D];[];[13&&LCD];[12&&larger];[1]]
+really love my new camera .	0
+[[];[];[];[];[]]
+I feel like a giant with a toy camera in my hands .	0
+[[];[];[];[];[]]
+My complaints include the following .	0
+[[];[];[];[];[]]
+The mode dial is not partially obscured like in the SD700 ... going back to the design seen in the SD4xx , SD5xx , and SD6xx models .	1
+[[2&&mode 3&&dial];[11&&SD700];[];[5&&not 6&&partially 7&&obscured];[-1]]
+[[2&&mode 3&&dial];[23&&SD4xx];[];[5&&not 6&&partially 7&&obscured];[1]]
+[[2&&mode 3&&dial];[25&&SD5xx];[];[5&&not 6&&partially 7&&obscured];[1]]
+[[2&&mode 3&&dial];[28&&SD6xx];[];[5&&not 6&&partially 7&&obscured];[1]]
+I like sharp , vivid pictures , and the D80 delivers .	1
+[[3&&sharp];[];[6&&pictures];[2&&like];[1]]
+[[5&&vivid];[];[6&&pictures];[2&&like];[1]]
+[[10&&D80];[];[11&&delivers];[];[]]
+This is what helps you get that perfect sports shot .	0
+[[];[];[];[];[]]
+Dynamic Range ( UPDATED ) The dynamic range of the D200 is nearly identical to all other digital SLRs , which means it has poor dynamic range relative to film .	1
+[[11&&D200];[16&&all 17&&other 18&&digital 19&&SLRs];[1&&dynamic 2&&range];[13&&nearly 14&&identical];[0]]
+[[11&&D200];[30&&film];[1&&dynamic 2&&range];[25&&poor];[-1]]
+You also get a crappy 16MB SD card , NB-5L Li-Ion battery , portable battery charger unit , wrist strap , USB 2.0-to-miniUSB cable , mono A/V output cable , and CD-ROM with Canon 's Digital Camera Solutions software .	0
+[[];[];[];[];[]]
+Having been used to the older iXUS 40 , upgrading to a much larger screen felt unusual at first , but once using it after a while , I was shocked when I picked up the 40 again and almost squinted at the writing on the screen .	1
+[[13&&much 14&&larger 15&&screen];[6&&older 7&&iXUS 8&&40];[];[17&&unusual];[-1]]
+[[8&&40];[13&&much 14&&larger 15&&screen];[44&&writing 45&&on 46&&the 47&&screen];[41&&squinted 42&&at];[-1]]
+However , as with any digital camera , there will be a few quirks .	0
+[[];[];[];[];[]]
+They all suffer in the higher ISO ranges just like the Panasonic .	1
+[[1&&They];[11&&the 12&&Panasonic];[6&&higher 7&&ISO 8&&ranges];[3&&suffer];[-1]]
+If your jimmy from superman , this is not the camera for you .	1
+[[3&&jimmy 4&&from 5&&superman];[7&&this];[11&&camera];[9&&not 12&&for];[-1]]
+For now this is all I have .	0
+[[];[];[];[];[]]
+He says it 's the best gift he 's ever received !	1
+[[3&&it];[];[8&&gift];[];[1]]
+therefore , the second battery really does n't do much that it could n't do sitting in your bag .	1
+[[4&&second 5&&battery];[5&&battery 20&&sitting 21&&in 22&&your 23&&bag];[11&&do 12&&much];[11&&do 12&&much];[0]]
+I keep missing shots at hockey games because I get a picture of a net or fence , only because I ca n't manually select how far my target is .	1
+[[1&&I];[];[4&&shots];[3&&missing];[-1]]
+[[1&&I];[];[12&&picture];[10&&get];[-1]]
+This was n't unexpected but I tested it anyway to be sure .	0
+[[];[];[];[];[]]
+There is a definite learning curve to this , but my pictures are not nearly as yellowish and the quality is far superior than what I encountered with the Rebel XT in terms of white balance for tungsten lighting .	1
+[[11&&my 12&&pictures];[29&&the 30&&Rebel 31&&XT];[17&&yellowish];[14&&not 16&&as];[-1]]
+[[19&&the 20&&quality];[25&&what 26&&I 27&&encountered 28&&with 29&&the 30&&Rebel 31&&XT];[35&&white 36&&balance 37&&for 38&&tungsten 39&&lighting];[22&&far 23&&superior];[1]]
+I garantee you that you could not tell the difference between pictures taken with the Canon SD600 versus the Canon SD550 .	1
+[[16&&Canon 17&&SD600];[20&&Canon 21&&SD550];[12&&pictures];[];[2]]
+A camera that would fit into a pocket in the car interior or a glovebox etc. .	0
+[[];[];[];[];[]]
+Overall , low light and dark conditions were above average for a ultracompact digital camera and slightly better than the SD700 .	1
+[[3&&low 4&&light];[10&&average];[6&&dark 7&&conditions];[9&&above];[1]]
+[[6&&dark 7&&conditions];[21&&SD700];[6&&dark 7&&conditions];[18&&better];[1]]
+I always shot my 7D in raw as I was never really happy with the color or exposure with the 7D .	1
+[[7&&raw];[5&&7D];[16&&color];[13&&happy];[-1]]
+[[7&&raw];[5&&7D];[18&&exposure];[13&&happy];[-1]]
+This machine is not a weathersealed powerhorse and so it makes sense for it not to have a powergrip ( especially since you can shoot 700 + pics on one charge ) .	1
+[[1&&This 2&&machine];[5&&a 6&&weathersealed 7&&powerhorse];[];[15&&not 16&&to 17&&have];[-1]]
+[[1&&This 2&&machine];[5&&a 6&&weathersealed 7&&powerhorse];[19&&powergrip];[15&&not 16&&to 17&&have];[-1]]
+This also reduced the occurance of red eye .	1
+[[1&&This];[];[5&&occurance];[3&&reduced];[1]]
+Here there was a bit of purple fringing/chromatic aberration noted especially with brightly lit windows against the dark face of buildings ( like similar photos on my S3 ) .	1
+[[7&&purple 8&&fringing 9&&/ 10&&chromatic 11&&aberration];[26&&similar 27&&photos 28&&on 29&&my 30&&S3];[8&&fringing 9&&/ 10&&chromatic 11&&aberration];[12&&noted];[2]]
+It seems that Nikon just took the Matrix Metering off the F100 and did n't adjust for the significantly lower dynamic range of current digital sensors .	1
+[[4&&Nikon];[12&&F100];[8&&Matrix 9&&Metering];[6&&took 10&&off];[-1]]
+[[4&&Nikon];[26&&current 27&&digital 28&&sensors];[23&&dynamic 24&&range];[22&&lower];[-1]]
+For many of us , this is the best Nikon DSLR at any price and I absolutely prefer it to my now sold D200 .	1
+[[6&&this];[21&&my 22&&now 23&&sold 24&&D200];[10&&Nikon 11&&DSLR];[];[1]]
+It is pretty much a point and shoot camera for those that want to do that right out of the box .	0
+[[];[];[];[];[]]
+No damage done but quite scary .	0
+[[];[];[];[];[]]
+The 300D and XT are still cheaply made , whatever you say .	1
+[[2&&300D];[4&&XT];[8&&made];[7&&cheaply];[0]]
+It is like having the convenience of a P&S camera in a dSLR .	1
+[[9&&P 10&&& 11&&S 12&&camera];[15&&dSLR];[6&&convenience];[3&&like];[0]]
+You can utilize red-eye reduction ( in the uncommon instances when it occurs at all ) , and Nikon 's D-lighting is the digital equivalent of dodging and burning , and I love it .	1
+[[21&&Nikon 22&&' 23&&s 24&&D 25&&- 26&&lighting];[32&&dodging 33&&and 34&&burning];[29&&digital 30&&equivalent];[27&&is];[1]]
+The camera also has a long exposure mode , which I thought was really important for those photos you want to take in very low lighting .	1
+[[6&&long 7&&exposure 8&&mode];[];[];[15&&important];[1]]
+No , the sensors are not as , uh , sensitive as some of the other cameras on the market , and there may be fewer of them , too .	1
+[[4&&sensors];[13&&some 14&&of 15&&the 16&&other 17&&cameras 18&&on 19&&the 20&&market];[11&&sensitive];[7&&as];[-1]]
+[[4&&sensors];[13&&some 14&&of 15&&the 16&&other 17&&cameras 18&&on 19&&the 20&&market];[];[26&&fewer];[-1]]
+This is the first digital that I have owned that I really think matches up with my film SLRs ' over the past years .	1
+[[1&&This];[17&&my 18&&film 19&&SLRs];[14&&match];[14&&matches 15&&up];[0]]
+The camera was brand , spanking new with the manufacturer 's warranty when I got it .	0
+[[];[];[];[];[]]
+It provides plenty of room for any type of photography you want !	0
+[[];[];[];[];[]]
+Essentially , the D80 is two cameras in one .	1
+[[4&&D80];[];[];[];[2]]
+Basically a D200 w/out 5 frames per second , 1/8000 shutter speed , and weather proof body .	1
+[[3&&D200];[7&&5 8&&frames 9&&per 10&&second];[16&&speed];[];[-1]]
+[[3&&D200];[12&&1 13&&/ 14&&8000 15&&shutter 16&&speed];[15&&shutter 16&&speed];[];[-1]]
+[[3&&D200];[19&&weather 20&&proof 21&&body];[19&&weather 20&&proof 21&&body];[];[-1]]
+Form Factor and Size : The Rebel XT is lighter and more compact than its predecessor .	1
+[[7&&Rebel 8&&XT];[15&&its 16&&predecessor];[1&&Form 2&&Factor];[10&&lighter];[1]]
+[[7&&Rebel 8&&XT];[15&&its 16&&predecessor];[4&&Size];[12&&more 13&&compact];[]]
+Logically , that makes sense , but one of the cool things about Image Stabilization is the ability to take pictures in low light without a flash ( and absolutely no red eye as a bonus ) .	1
+[[14&&Image 15&&Stabilization];[];[18&&ability];[];[1]]
+Compared to my old Canon S1-IS , sharpness and purple fringing levels are similar .	1
+[[5&&Canon 6&&S1 7&&- 8&&IS];[];[10&&sharpness];[16&&similar];[0]]
+[[5&&Canon 6&&S1 7&&- 8&&IS];[];[12&&purple 13&&fringing 14&&levels];[16&&similar];[0]]
+At 10.2 megapixels , it delivers a lot of punch for ...	1
+[[2&&10 3&&. 4&&2 5&&megapixels];[];[12&&punch];[];[1]]
+I think the 12.5 mega of larger pixels makes the big difference .	1
+[[4&&12 5&&. 6&&5 7&&mega 8&&of 9&&larger 10&&pixels];[];[];[11&&makes];[1]]
+This is not a major issue for me because I have a 50mm f/1 .7 lens that does not require high ISO .	1
+[[13&&50mm 14&&f 15&&/ 16&&1 17&&. 18&&7 19&&lens];[24&&high 25&&ISO];[];[21&&does 22&&not 23&&require];[-1]]
+It feels just like my F100 .	1
+[[1&&It];[5&&my 6&&F100];[2&&feel];[3&&just 4&&like];[0]]
+I am not sure about the S3 but I believe the other cameras will take SDHC cards .	1
+[[12&&other 13&&cameras];[7&&S3];[15&&take 16&&SDHC 17&&cards];[14&&will];[1]]
+The camera is extremley easy to use and very intuitive .	0
+[[];[];[];[];[]]
+That is why Digital SLRs are so incredibly popular .	0
+[[];[];[];[];[]]
+However , If you have any Canon compatible accessories such as a lens or maybe a flash that does not say Canon .	0
+[[];[];[];[];[]]
+Yes , there are thinner camera and ones with 3 inch screens , but nowhere near the performance of the Canons .	1
+[[5&&thinner 6&&camera];[21&&Canons];[18&&performance];[];[1]]
+[[8&&ones 9&&with 10&&3 11&&inch 12&&screens];[21&&Canons];[18&&performance];[];[1]]
+The images are crisp and razor sharp .	0
+[[];[];[];[];[]]
+I looked at the Canon 20D , but it was not that much of an upgrade from the Rebel XT because it had pretty much the exact same settings as the Rebel XT .	1
+[[5&&Canon 6&&20D];[19&&Rebel 20&&XT];[29&&settings];[28&&same];[0]]
+With my naked eyes I do n't see any difference .	1
+[[2&&my 3&&naked 4&&eyes];[];[];[10&&see];[2]]
+Build quality of the body - not quite the EOS 20D , but very close .	1
+[[5&&body];[10&&EOS 11&&20D];[1&&build 2&&quality];[7&&not 8&&quite];[-1]]
+[[5&&body];[10&&EOS 11&&20D];[1&&build 2&&quality];[14&&very 15&&close];[0]]
+Therefore , M1 resolution does not appear to support lossless rotation .	1
+[[3&&M1 4&&resolution];[];[4&&resolution];[5&&does 6&&not 9&&support];[-1]]
+The Negative Aspects -- For the price , this camera should have come with a wireless remote .	1
+[[6&&For 7&&the 8&&price];[10&&this 11&&camera];[8&&price];[12&&should 13&&have 14&&come 15&&with];[1]]
+Yes from behind the wheel of a car . .	0
+[[];[];[];[];[]]
+I played with the Canon SpeedLite 420 EX and encountered similar problems , albeit at different distances .	1
+[[5&&Canon 6&&SpeedLite 7&&420 8&&EX];[];[12&&problems];[11&&similar];[0]]
+[[5&&Canon 6&&SpeedLite 7&&420 8&&EX];[];[17&&distances];[16&&different];[2]]
+The two A630s were basically identical , and equally flat in my opinion .	1
+[[3&&A630s];[3&&A630s];[10&&flat];[10&&flat];[0]]
+Not built quite like the solid little Powershot G1 ; But what the heck ... I 'm not going to be throwing it around !	1
+[[6&&solid 7&&little 8&&Powershot 9&&G1];[];[2&&built];[3&&quite];[2]]
+Highly recommended over Canon sub $ 1000 units ( 400 and 350 XTi ) .	1
+[[1&&Highly 2&&recommended];[4&&Canon 5&&sub 6&&$ 7&&1000 8&&units 9&&( 10&&400 11&&and 12&&350 13&&XTi 14&&)];[];[];[1]]
+I am purely an amateur photographer in the SLR industry , but the capabilities with this camera is ENDLESS !	1
+[[16&&this 17&&camera];[];[14&&capabilities];[19&&ENDLESS];[1]]
+Note same sensor as the S3 , same resolution option ... I would guess that the SD630 and SD600 have the same options .	1
+[[19&&SD630];[21&&SD600];[25&&options];[2&&same];[0]]
+I 'm not certain why Canon decided to go with a smaller size body on this one , perhaps the target market is domestic ( Japanese ) or women , but if you have larger fingers or hands you may not like it.I thought the original Rebels ' size was fine , but in any case I use the vertical battery grip much of the time anyway so it works for me .	1
+[[13&&smaller 14&&size 15&&body];[49&&original 50&&Rebels 51&&' 52&&size];[14&&size];[];[1]]
+[[36&&larger 37&&fingers 38&&or 39&&hands];[];[];[];[]]
+[[49&&original 50&&Rebels 51&&' 52&&size];[];[];[54&&fine];[0]]
+The 18-200 VR is almost as sharp in the center and has better corners .	1
+[[2&&18 3&&- 4&&200 5&&VR];[];[12&&center];[9&&sharp];[0]]
+[[2&&18 3&&- 4&&200 5&&VR];[];[16&&corners];[15&&better];[1]]
+Although most compact digital cameras come with great lenses they are no match for the interchangeable lenses of SLR .	1
+[[3&&compact 4&&digital 5&&cameras];[19&&SLR];[9&&lenses];[12&&no 13&&match];[-1]]
+Tech specs : The shutter range on the alpha is 30 - 1/4000 second .	1
+[[9&&alpha];[];[5&&shutter 6&&range];[11&&30 12&&- 13&&1 14&&/ 15&&4000 16&&second];[0]]
+OLD TIMERS TAKE NOTE : The D80 will not meter with manual lenses .	1
+[[7&&D80];[12&&manual 13&&lenses];[10&&meter];[9&&not];[-1]]
+This camera has been the GOLDEN experience compared to Many Many Many other digital 's .	1
+[[1&&This 2&&camera];[10&&Many 11&&Many 12&&Many 13&&other 14&&digital 15&&' 16&&s];[6&&GOLDEN 7&&experience];[];[1]]
+My Kodak was always low on battery power and I was concerned that with only the larger screen I would have problems .	1
+[[1&&My 2&&Kodak];[];[7&&battery 8&&power];[5&&low];[-1]]
+[[17&&larger 18&&screen];[];[22&&problems];[21&&have];[-1]]
+Start up fraction of a second .	0
+[[];[];[];[];[]]
+If you want a compact digital slr with full manual controls this would be a great choice .	1
+[[12&&this];[];[5&&compact 6&&digital 7&&slr 8&&with 9&&full 10&&manual 11&&controls];[];[1]]
+This is one of the finest digital SLR cameras on the market .	0
+[[];[];[];[];[]]
+- The 10MP models produce much better detail but you will see this only on prints above 11x14 or when cropping heavily .	1
+[[3&&10MP 4&&models];[];[8&&detail];[7&&better];[1]]
+[[3&&10MP 4&&models];[];[8&&detail];[7&&better];[1]]
+For the few extra dollars , this still remains my choice of all DSLR 's including Nikon 's D80 or even Canon 's upscale MARK line .	1
+[[3&&few 4&&extra 5&&dollars];[13&&all 14&&DSLR 15&&' 16&&s];[11&&choice];[9&&remains];[1]]
+[[3&&few 4&&extra 5&&dollars];[18&&Nikon 19&&' 20&&s 21&&D80];[11&&choice];[9&&remains];[1]]
+[[3&&few 4&&extra 5&&dollars];[24&&Canon 25&&' 26&&s 27&&upscale 28&&MARK 29&&line];[11&&choice];[9&&remains];[1]]
+( The Canon Digital Rebel with the Canon EF 28-105mm F/3 .5 -4.5 II USM .	0
+[[];[];[];[];[]]
+The 6x zoom lens is not the longest in the market , but optical quality is very good despite the slightly `` slower '' characteristics .	1
+[[2&&6x 3&&zoom 4&&lens];[7&&the 8&&longest 9&&in 10&&the 11&&market];[];[];[-1]]
+[[14&&optical 15&&quality];[];[14&&optical 15&&quality];[18&&good];[1]]
+[[20&&the 21&&slightly 22&&` 23&&` 24&&slower 25&&' 26&&' 27&&characteristics];[];[27&&characteristics];[24&&slower];[-1]]
+He has done some great work , he works with the D70 I 've been waiting to see what Nikon would bring out next I like that the LCD screen is gone from 2 '' to 2.5 '' I wish they could have kept the speed that the 70 had but sometimes you have to give a little to get alot .	1
+[[30&&LCD 31&&screen];[35&&2 36&&' 37&&'];[];[];[1]]
+[[51&&speed];[54&&70];[51&&speed];[];[-1]]
+Image quality is excellent on both .	1
+[[];[];[1&&Image 2&&quality];[4&&excellent];[0]]
+This is the first camera that I was able to get clear , focused pictures of concerts with high stage lighting , it 's a wonderful little camera and it 's video feature is one of the best I 've seen for this price .	1
+[[1&&This];[];[12&&clear];[];[1]]
+[[1&&This];[];[14&&focused 15&&pictures];[];[1]]
+[[1&&This];[];[34&&video 35&&feature];[];[1]]
+The G7 weighs a significant 140 g less than the S3 .	1
+[[2&&G7];[11&&S3];[];[8&&less];[1]]
+The G7 is better , but still lags too much for my taste .	1
+[[2&&G7];[];[];[4&&better];[1]]
+[[2&&G7];[];[];[8&&lags];[-1]]
+The Xti also introduces an ultrasonic self cleaning system to remove dust from the image sensor , a simple process that can be done completely automatically .	1
+[[2&&Xti];[];[6&&ultrasonic 7&&self 8&&cleaning 9&&system];[];[1]]
+[[2&&Xti];[];[19&&simple 20&&process];[22&&can 23&&be 24&&done];[1]]
+Mode dial for TV/AV etc : I prefer the 1 series layout .	1
+[[12&&1 13&&series 14&&layout];[];[1&&Mode 2&&dial 3&&for 4&&TV 5&&/ 6&&AV 7&&etc];[];[1]]
+Size : It 's quite small , smaller than most cameras available now , which is obviously why it weighs less .	1
+[[7&&small];[11&&most 12&&cameras 13&&available 14&&now];[1&&Size];[9&&smaller];[-1]]
+The model offers additional features such as image stabilization and a 4x optical zoom ( 1x higher than the 600 and 630 ) .	1
+[[4&&additional 5&&features];[20&&600 21&&and 22&&630];[8&&image 9&&stabilization];[17&&higher];[1]]
+[[4&&additional 5&&features];[20&&600 21&&and 22&&630];[12&&4x 13&&optical 14&&zoom];[17&&higher];[1]]
+I wish the camera had some environmental seals ... for rain .	1
+[[4&&camera];[];[7&&environmental 8&&seals];[5&&had];[1]]
+This single improvement is the BIGGEST reason to upgrade to a D80 or D200 as it allows for proper composition in all light and good manual focus .	1
+[[2&&single 3&&improvement];[];[7&&reason 8&&to 9&&upgrade 10&&to 11&&a 12&&D80 13&&or 14&&D200];[];[1]]
+Keep in mind that this is a DSLR so you can not get real-time viewing of the image before the image is taken ( the mirror is in the way prior to the shot ) , but that is what the through the lens viewfinder is for anyway .	1
+[[8&&DSLR];[];[14&&real 15&&- 16&&time 17&&viewing];[12&&not 13&&get];[-1]]
+[[44&&through 45&&the 46&&lens 47&&viewfinder];[];[14&&real 15&&- 16&&time 17&&viewing];[13&&get];[1]]
+User Friendly Settings for everyone .	0
+[[];[];[];[];[]]
+It is better than the powershot S50 flash .	1
+[[1&&It];[5&&the 6&&powershot 7&&S50 8&&flash];[];[3&&better];[1]]
+I 've taken up to a 1 '' handheld shot which came out clear ( usually a take three consecutive shots , delete two rule works quite well ) .	1
+[[8&&1 9&&' 10&&' 11&&handheld 12&&shot];[];[];[16&&clear];[1]]
+Prints from these cameras look just about the same .	1
+[[3&&these 4&&cameras];[];[1&&Prints];[9&&same];[0]]
+The D200 to a certain extent put the other Ds ( 50 , 70 , 100 ) to shame .	1
+[[2&&D200];[9&&other 10&&Ds];[];[18&&to 19&&shame];[-1]]
+The most obvious is the large , clear , high resolution LCD display ; the same display used in Canon 's $ 4000 pro equipment .	1
+[[6&&large];[];[12&&LCD 13&&display];[];[1]]
+[[8&&clear];[];[12&&LCD 13&&display];[];[1]]
+[[10&&high 11&&resolution];[];[12&&LCD 13&&display];[];[1]]
+Compared to the D70 Anyone moving from the D70 to the D200 will be taken aback by the huge improvement in all areas .	1
+[[12&&D200];[4&&D70];[22&&all 23&&areas];[];[1]]
+But in the end I finally paired it down to the Canon PS IS3 and the Panasonic fz50 and chose the fz50 as best camera for me .	1
+[[12&&Canon 13&&PS 14&&IS3];[17&&Panasonic 18&&fz50];[25&&camera];[24&&best];[1]]
+Amazing for a sub - $ 1,000 camera .	1
+[[1&&Amazing];[4&&sub 5&&- 6&&$ 7&&1 8&&, 9&&000 10&&camera];[];[];[1]]
+I used to own the Canon EOS 10S and Elan at one point in time and these are much more comfortable to hold than the 350D .	1
+[[6&&Canon 7&&EOS 8&&10S 9&&and 10&&Elan];[26&&350D];[21&&comfort];[20&&more 21&&comfortable];[1]]
+it nocks competition of the poll .	0
+[[];[];[];[];[]]
+Battery life could be better .	1
+[[1&&Battery 2&&life];[];[1&&battery 2&&life];[5&&better];[1]]
+The body is thicker than Minolta bodies , but it 's very comfortable to hold , and it 's extremely light , even with lens attached .	1
+[[2&&body];[6&&Minolta 7&&bodies];[];[4&&thicker];[1]]
+[[2&&body];[];[14&&comfort];[13&&very 14&&comfortable];[0]]
+[[2&&body];[];[];[22&&extremely 23&&light];[1]]
+I 've taken a few pictures with the feature on and off , and ca n't seem to see a real difference , but those were under good conditions , so I 've yet to come to a solid conclusion as to whether this is more gimmick than function .	1
+[[10&&feature 11&&on];[10&&feature 13&&off];[25&&difference];[];[2]]
+[[10&&feature 11&&on];[10&&feature 13&&off];[53&&function];[];[-1]]
+Do keep in mind though , that IS on a camera like this is not nearly as effective as they type you get on a real video camera , such as Super Steady Shot on a Sony camcorder .	1
+[[8&&IS 9&&on 10&&a 11&&camera 12&&like 13&&this];[20&&they 21&&type 22&&you 23&&get 24&&on 25&&a 26&&real 27&&video 28&&camera];[];[];[-1]]
+[[32&&Super 33&&Steady 34&&Shot 35&&on 36&&a 37&&Sony 38&&camcorder];[8&&IS 9&&on 10&&a 11&&camera 12&&like 13&&this];[];[];[1]]
+Speaking of the LCD Monitor , it is substantially larger than the Rebel XT 's which has a measly 1.8 inch screen that really did not conveyed quality .	1
+[[4&&LCD 5&&Monitor];[13&&Rebel 14&&XT 15&&' 16&&s];[];[10&&larger];[1]]
+[[21&&1 22&&. 23&&8 24&&inch 25&&screen];[];[31&&quality];[28&&did 29&&not 30&&conveyed];[-1]]
+The two models are almost identical , the SD600 sporting a few improvements .	1
+[[9&&SD600];[];[];[];[1]]
+[[9&&SD600];[];[];[];[1]]
+During my Museum visits with the D200 , the aircraft which I photographed had more detail and sense of realism than my D70s had , but amazingly the D70s was no slouch .	1
+[[7&&D200];[23&&D70s];[10&&aircraft];[15&&more 16&&detail 17&&and 18&&sense 19&&of 20&&realism];[1]]
+[[23&&D70s];[7&&D200];[10&&aircraft];[15&&more 16&&detail 17&&and 18&&sense 19&&of 20&&realism];[-1]]
+[[23&&D70s];[];[];[30&&was 31&&no 32&&slouch];[0]]
+It does not have a spot metering mode .	1
+[[];[];[6&&spot 7&&metering 8&&mode];[4&&have];[-1]]
+I recently lost one of my children .	0
+[[];[];[];[];[]]
+I have n't had any problems with the Nikon grip , even on this day of relentless rain , but it feels considerably more plasticy than the 5D 's vertical grip .	1
+[[11&&Nikon 12&&grip];[30&&5D 31&&' 32&&s 33&&vertical 34&&grip];[27&&plasticy];[26&&more 27&&plasticy];[-1]]
+Inside , outside , flash , no flash , Auto Mode , and Program Modes all come out dark .	1
+[[1&&Inside];[3&&outside];[19&&dark];[17&&come 18&&out];[-1]]
+[[5&&flash];[7&&no 8&&flash];[19&&dark];[17&&come 18&&out];[-1]]
+[[10&&Auto 11&&Mode];[];[19&&dark];[17&&come 18&&out];[-1]]
+[[14&&Program 15&&Modes];[];[19&&dark];[17&&come 18&&out];[]]
+This is because unlike Nikon with its standardized sensor size and a 1.5 lens conversion ratio ( that is , a 30 mm lens on a DX sensor will give an image roughly equivalent to a lens of 30 x 1.5 = 45 mm on a 35 mm camera ) , the Canon cameras have sensors of every different size from a 1.3 conversion ratio to 1.6 .	1
+[[57&&Canon 58&&cameras];[5&&Nikon];[9&&sensor 10&&size];[63&&different];[2]]
+[[57&&Canon 58&&cameras];[5&&Nikon];[16&&lens 17&&conversion 18&&ratio];[63&&different];[2]]
+Regardless of how much I tried to magnify the image , I was not able to get any decent pictures of it .	1
+[[5&&I];[5&&I];[];[14&&not 15&&able];[-1]]
+Oh well ... Compared to the D50 and D200 The D80 is about $ 400 more than the D50 and $ 700 less than the D200 .	1
+[[13&&D80];[9&&D50];[];[18&&more];[-1]]
+[[13&&D80];[11&&D200];[];[25&&less];[1]]
+Overall I am happy with the camera .	0
+[[];[];[];[];[]]
+Performance in the ranges from 100-400 ISO is almost identical with only slight degredation from 500-800 .	1
+[[6&&100 7&&- 8&&400 9&&ISO];[18&&500 19&&- 20&&800];[1&&Performance];[12&&identical];[0]]
+[[18&&500 19&&- 20&&800];[6&&100 7&&- 8&&400 9&&ISO];[1&&Performance];[];[-1]]
+The D70 does not have the benefit of an extension battery grip , but all the Canons do , so that pretty much solidified my choice in going with the Canon .	1
+[[2&&D70];[15&&all 16&&the 17&&Canons];[7&&benefit 8&&of 9&&an 10&&extension 11&&battery 12&&grip];[5&&have];[-1]]
+[[15&&all 16&&the 17&&Canons];[2&&D70];[7&&benefit 8&&of 9&&an 10&&extension 11&&battery 12&&grip];[5&&have];[1]]
+If this is you , then the 5D may work better for you than Nikon 's offerings .	1
+[[8&&5D];[15&&Nikon 16&&' 17&&s 18&&offerings];[10&&work];[11&&better];[1]]
+Hands down the best digital SLR for the money .	1
+[[5&&digital 6&&SLR];[];[];[4&&best];[1]]
+Whereas on a Nikon , one can control almost everything without taking the hand off the grip -- with index finger on shutter release , middle finger on front control wheel , and thump on secondary control wheel , the Canon controls seem to be thrown at which ever random location .	1
+[[4&&Nikon];[42&&Canon];[43&&controls];[47&&thrown];[-1]]
+Canon says the change is because the G7 's 10 megapixel sensor is the same size as the 7 megapixel sensor in the G6 .	1
+[[8&&G7 9&&' 10&&s 11&&10 12&&megapixel 13&&sensor];[20&&7 21&&megapixel 22&&sensor 23&&in 24&&the 25&&G6];[13&&sensor 17&&size];[16&&same];[0]]
+I 'll be using it too , especially when I do n't feel like carrying the DSLR around , but it really is for the `` Ease of Use '' crowd and perhaps a bit limited for the `` Enthusiast '' crowd ( unless used as a complement to a DSLR , in which case it can be very nice ) .	1
+[[31&&Ease 32&&of 33&&Use];[46&&Enthusiast];[31&&Ease 32&&of 33&&Use];[41&&limited];[-1]]
+[[46&&Enthusiast];[31&&Ease 32&&of 33&&Use];[31&&Ease 32&&of 33&&Use];[66&&very 67&&nice];[1]]
+Then I can crop it , if I want .	0
+[[];[];[];[];[]]
+I had to get the new high output rechargeable batteries to satisfy this tiny beast .	1
+[[6&&new 7&&high 8&&output 9&&rechargeable 10&&batteries];[14&&tiny 15&&beast];[8&&output];[];[1]]
+It has everything , image stabilizing , red eye reduction , up to 15 X zoom features , continuous shooting , post card mode , movie shooting , panoramic Images , 11 color changing options , sound memo attachments , and more that I have n't gotten to learn about yet .	1
+[[];[];[5&&image 6&&stabilizing];[];[]]
+[[];[];[8&&red 9&&eye 10&&reduction];[];[]]
+[[];[];[12&&up 13&&to 14&&15 15&&X 16&&zoom 17&&features];[];[]]
+[[];[];[19&&continuous 20&&shooting];[];[]]
+[[];[];[22&&post 23&&card 24&&mode];[];[]]
+[[];[];[26&&movie 27&&shooting];[];[]]
+[[];[];[29&&panoramic 30&&Images];[];[]]
+[[];[];[32&&11 33&&color 34&&changing 35&&options];[];[]]
+This lens ( if u get a good copy ) , makes the camera all the better .	1
+[[1&&This 2&&lens 3&&( 4&&if 5&&u 6&&get 7&&a 8&&good 9&&copy 10&&)];[];[14&&camera];[17&&better];[1]]
+The new Rebel XT has so many improvements over the old .	1
+[[2&&new 3&&Rebel 4&&XT];[11&&old];[8&&improvements];[];[1]]
+On paper , the Panasonic Lumix FZ-50 is without question the best-of-breed camera in its class , bar none .	1
+[[5&&Panasonic 6&&Lumix 7&&FZ 8&&- 9&&50];[];[19&&camera];[14&&best 15&&- 16&&of 17&&- 18&&breed];[1]]
+The lens options are outstanding and the upgrades are numerous .	1
+[[2&&lens 3&&options];[];[5&&outstanding];[5&&outstanding];[1]]
+[[8&&upgrades];[];[10&&numerous];[10&&numerous];[1]]
+I also wanted a camera that would allow me to grow as a photographer .	0
+[[];[];[];[];[]]
+Closing Notes : I was cycling between the 30D and regular Rebel XT for about 4 months , then the XTi answered my prayers .	1
+[[9&&30D];[11&&regular 12&&Rebel 13&&XT];[6&&cycling];[];[1]]
+You should keep a second high speed SD card for taking photos if you want to take advantage of the movie recording capabilities .	1
+[[5&&second 6&&high 7&&speed 8&&SD 9&&card];[];[21&&movie 22&&recording 23&&capabilities];[];[1]]
+Wide angle lenses are less dramatic , as the corners of the lens are not seen in the final image .	1
+[[1&&Wide 2&&angle 3&&lenses];[];[6&&dramatic];[5&&less];[-1]]
+But as far as the design goes , I feel that Canon is a clear winner .	1
+[[12&&Canon];[];[6&&design];[];[1]]
+For now , I have the lenses I need .	0
+[[];[];[];[];[]]
+Sony 's repertoire has now expanded to just about every consumer product category , including ( often to my dismay ) the manufacture of digital cameras .	1
+[[1&&Sony 2&&' 3&&s 4&&repertoire];[26&&digital 27&&cameras];[12&&consumer 13&&product 14&&category];[7&&expanded];[1]]
+Additional Features This camera also supports high capacity Secure Digital media above 2 gigabyte capacity , which really helps with storage and eliminates the need to dump your photos as frequently .	1
+[[7&&high 8&&capacity 9&&Secure 10&&Digital 11&&media];[13&&2 14&&gigabyte 15&&capacity];[8&&capacity];[];[1]]
+[[21&&storage];[];[21&&storage];[];[1]]
+[[25&&need 26&&to 27&&dump 28&&your 29&&photos];[];[25&&need 26&&to 27&&dump 28&&your 29&&photos];[];[1]]
+Compare the 20D , 5D 's Continuous speed is slow , also the syne speed .	1
+[[3&&20D];[5&&5D];[8&&Continuous 9&&speed];[11&&slow];[-1]]
+[[3&&20D];[5&&5D];[15&&syne 16&&speed];[11&&slow];[-1]]
+The XTi kit came with a Canon 18-35 zoom which feels like a cheap toy .	1
+[[2&&XTi 3&&kit];[7&&Canon 8&&18 9&&- 10&&35 11&&zoom];[13&&feel];[14&&like 15&&a 16&&cheap 17&&toy];[-1]]
+It was quite interesting to learn about all the advance features that my camera has to fully utilize it .	0
+[[];[];[];[];[]]
+I looked at the cold , hard facts and that was the Nikon D70 was at 6.3 Megapixels but with a much better , higher quality `` kit '' lens ( the Nikkor lens is $ 400 vs Canon 's $ 100 lens ) .	1
+[[13&&Nikon 14&&D70];[43&&Canon];[20&&Megapixels];[25&&better];[1]]
+[[13&&Nikon 14&&D70];[43&&Canon];[28&&quality];[25&&better];[1]]
+[[37&&Nikkor 38&&lens];[43&&Canon 44&&' 45&&s 46&&$ 47&&100 48&&lens];[];[27&&higher];[1]]
+My old Sony DSC-W1 compromised by having a replay button to get the last photo , but required the mode dial to get full playback mode .	1
+[[3&&Sony 4&&DSC 5&&- 6&&W1];[];[11&&replay 12&&button];[7&&compromised];[-1]]
+[[3&&Sony 4&&DSC 5&&- 6&&W1];[];[22&&mode 23&&dial];[20&&required];[-1]]
+If you are cropping heavily and then blowing them up to very large prints , then you might like the 10 MP of the A640 ( that 's really all you get for a hundred bucks more ) ... otherwise the A630 is the way to go .	1
+[[21&&10 22&&MP];[45&&A630];[25&&A640];[];[1]]
+[[45&&A630];[25&&A640];[21&&10 22&&MP];[];[1]]
+If you are looking for a digital SLR , and you look at the D80 , you will buy it .	1
+[[15&&D80];[];[];[19&&buy];[1]]
+Although I have no way of quantitatively measuring shutter lag , I can easily say that in my experience , this is the quickest firing digital camera I have used .	1
+[[21&&this];[23&&the 24&&quickest 25&&firing 26&&digital 27&&camera];[9&&shutter 10&&lag];[];[1]]
+But the digital display is one of the biggest out there and fun to review/show to others .	1
+[[3&&digital 4&&display];[];[4&&display];[];[1]]
+[[3&&digital 4&&display];[];[13&&fun];[13&&fun];[1]]
+This camera was the one I was directed to by a professional mentor , every pro seller , and numerous reviews both on and offline ( including this site ) .	1
+[[1&&This 2&&camera];[11&&a 12&&professional 13&&mentor];[];[];[]]
+[[1&&This 2&&camera];[15&&every 16&&pro 17&&seller];[];[];[]]
+[[1&&This 2&&camera];[20&&numerous 21&&reviews];[];[];[]]
+The camera connects via USB 2.0 to your home computer .	0
+[[];[];[];[];[]]
+Faster than my D100 , certainly faster than my old 5400 Coolpix , and nearly as fast as my F100 film camera .	1
+[[1&&Faster];[3&&my 4&&D100];[];[1&&faster];[1]]
+[[1&&Faster];[9&&my 10&&old 11&&5400 12&&Coolpix];[];[1&&faster];[1]]
+[[15&&nearly 16&&as 17&&fast];[19&&my 20&&F100 21&&film 22&&camera];[];[16&&as 17&&fast];[0]]
+I researched and researched and looked at Canons , Olympus , and Sony .	0
+[[];[];[];[];[]]
+This camera has the ability to go fully manual , fully auto , or anywhere in between you 're comfortable with .	1
+[[1&&This 2&&camera];[8&&fully 9&&manual];[5&&ability];[7&&go];[1]]
+[[1&&This 2&&camera];[11&&fully 12&&auto];[5&&ability];[7&&go];[1]]
+[[1&&This 2&&camera];[15&&anywhere 16&&in 17&&between 18&&you 19&&' 20&&re 21&&comfortable 22&&with];[5&&ability];[7&&go];[]]
+The 5D remote is larger than that of the 350D , and does not attach to the neck strap .	1
+[[2&&5D 3&&remote];[10&&350D];[];[5&&larger];[1]]
+[[2&&5D 3&&remote];[18&&neck 19&&strap];[];[13&&does 14&&not 15&&attach];[-1]]
+I have a Quantaray Zoom that I used to use with my Elan and the rebel wo n't take a photo with it .	1
+[[4&&Quantaray 5&&Zoom];[13&&Elan];[];[];[]]
+[[16&&rebel];[4&&Quantaray 5&&Zoom];[];[];[-1]]
+If not , then you can try checking out the Canon A-Series which I imagine would have a few more features , but slightly poorer picture quality .	1
+[[11&&Canon 12&&A 13&&- 14&&Series];[];[28&&picture 29&&quality];[27&&poorer];[-1]]
+After purchasing the kit , extra battery , memory card and carrying case you are going to spend around $ 1000 dollars .	1
+[[4&&kit];[];[];[];[]]
+[[6&&extra 7&&battery];[];[];[];[]]
+[[9&&memory 10&&card];[];[];[];[]]
+[[12&&carrying 13&&case];[];[];[];[]]
+SD800 records in mono only but can make longer VGA movies ) .	1
+[[1&&SD800];[];[];[4&&mono 5&&only];[-1]]
+[[1&&SD800];[];[];[9&&longer];[1]]
+Sometimes you can get away without doing exposure lock .	0
+[[];[];[];[];[]]
+I have n't used the macro yet , but the dealer said it has the best in the market .	1
+[[8&&macro];[];[];[18&&best];[1]]
+The ability to save and re-call two Custom WB settings makes it easier for users to move back and forth between scenes with fundamentally different lighting ( for example indoors and outdoors ) .	1
+[[2&&ability 3&&to 4&&save 5&&and 6&&re 7&&- 8&&call 9&&two 10&&Custom 11&&WB 12&&settings];[];[];[15&&easier];[1]]
+Lens Speaking of which , take the $ 700 you 'd save compared to the D200 and buy some decent lenses .	1
+[[8&&$ 9&&700];[17&&D200];[];[];[1]]
+I have n't seen any photos from the A710 IS but the pro reviews usually rate the quality a little short of the A630 or A640 which have more resolution ( A640 has slightly higher resolution than the A630 ) .	1
+[[11&&A710 12&&IS];[26&&A630];[20&&quality];[23&&short 24&&of];[-1]]
+[[11&&A710 12&&IS];[28&&A640];[20&&quality];[23&&short 24&&of];[-1]]
+[[28&&A640];[26&&A630];[32&&resolution];[37&&higher];[1]]
+Canon 's software is better , especially the panoramic stitch program .	1
+[[1&&Canon 2&&' 3&&s 4&&software];[];[10&&panoramic 11&&stitch 12&&program];[6&&better];[1]]
+Of course , the Nikon also costs twice as much .	1
+[[5&&Nikon];[];[7&&cost];[];[-1]]
+There is a built in speaker to listen to your playback but it remains a bit faint .	1
+[[4&&built 5&&in 6&&speaker];[];[];[17&&faint];[-1]]
+The only way you can see what you 're taking is through the massive screen , and being massive , probably uses up lots more battery than usual .	1
+[[15&&massive 16&&screen];[29&&usual];[];[26&&more];[-1]]
+I got the Canon 30D for my wife because she wanted a better camera .	1
+[[4&&Canon 5&&30D];[];[14&&camera];[13&&better];[1]]
+The flash synch for the D80 is 1/200th vs. the 1/500th of the D70 .	1
+[[6&&D80];[19&&D70];[2&&flash 3&&synch];[8&&1 9&&/ 10&&200th];[-1]]
+[[6&&D80];[19&&D70];[2&&flash 3&&synch];[14&&1 15&&/ 16&&500th];[1]]
+Full Review I 've had my 300d just one week now .	0
+[[];[];[];[];[]]
+You do have access to the My Color features in movie record mode and you can delete from the ends of the movie ( but not in the middle ) on the SD800 itself .	1
+[[7&&My 8&&Color 9&&features];[];[4&&access];[3&&have];[1]]
+[[17&&delete];[];[18&&from 19&&the 20&&ends 21&&of 22&&the 23&&movie];[16&&can];[1]]
+[[17&&delete];[];[27&&in 28&&the 29&&middle];[16&&can];[-1]]
+It does not matter to me , because I use Aperture and sometimes iPhoto .	0
+[[];[];[];[];[]]
+You 'll see a little bit more aggressive discounting of the SD700 but not by much .	1
+[[13&&SD700];[];[10&&discounting];[8&&more 9&&aggressive];[1]]
+( Highly recommended for action shots , though less convenient . )	1
+[[2&&Highly 3&&recommended];[9&&less 10&&convenient];[];[9&&less 10&&convenient];[-1]]
+The SD800 also retains many of the weaknesses of the SD700 and the digital Elph line .	1
+[[2&&SD800];[11&&SD700];[8&&weaknesses];[4&&retains];[-1]]
+[[2&&SD800];[14&&digital 15&&Elph 16&&line];[8&&weaknesses];[4&&retains];[-1]]
+The Nikon D70 goes from ISO 200 - 1600 .	1
+[[2&&Nikon 3&&D70];[];[6&&ISO 7&&200 8&&- 9&&1600];[4&&goes];[0]]
+I 'm a knowledgeable buyer of this great camera .	0
+[[];[];[];[];[]]
+There is a lot of light aberration , and the autofocus can not be relied on , especially in quick-shooting situations .	1
+[[6&&light 7&&aberration];[];[6&&light 7&&aberration];[13&&not 14&&be 15&&relied 16&&on];[-1]]
+[[11&&autofocus];[];[11&&autofocus];[13&&not 14&&be 15&&relied 16&&on];[-1]]
+The foot print is larger than either the D70 or D80 , although , not by much .	1
+[[2&&foot 3&&print];[9&&D70];[2&&foot 3&&print];[5&&larger];[1]]
+[[2&&foot 3&&print];[11&&D80];[2&&foot 3&&print];[5&&larger];[1]]
+But the D80 gives you the ability to get very smooth results right out of camera .	1
+[[3&&D80];[];[7&&ability];[];[1]]
+This might not be the best camera if you shoot at ISO1600 or higher and your budget is under $ 999 .	1
+[[1&&This];[5&&the 6&&best 7&&camera];[7&&camera];[3&&not];[-1]]
+Both offer more or less the same image quality on a bright sunny day .	1
+[[1&&Both];[6&&the 7&&same];[8&&image 9&&quality];[7&&same];[0]]
+It feels solid in your hands versus some other Ultra Compacts such as the Nikon Coolpix 5200 , whose outer covering is made out of chinsy plastic .	1
+[[1&&It];[8&&some 9&&other 10&&Ultra 11&&Compacts];[2&&feel];[3&&solid];[1]]
+[[15&&Nikon 16&&Coolpix 17&&5200];[];[20&&outer 21&&covering];[23&&made 24&&out 25&&of 26&&chinsy 27&&plastic];[-1]]
+Compare to my Canon 5D , I would still say 5D has better image quality at high ISO .	1
+[[4&&Canon 5&&5D];[5&&5D];[14&&image 15&&quality];[13&&better];[1]]
+I got the 18-55mm kit lens , thinking it would be nice to have to start out with .	1
+[[4&&18 5&&- 6&&55mm 7&&kit 8&&lens];[];[];[14&&nice];[1]]
+Love that bright LCD monitor which can be brightened 40 % more to be more easily seen in bright sunlight .	1
+[[3&&bright 4&&LCD 5&&monitor];[];[];[];[1]]
+Still it is the best superzoom being made today , since the FZ30 is no longer made .	1
+[[4&&the 5&&best 6&&superzoom];[12&&the 13&&FZ30];[7&&being 8&&made];[];[1]]
+Size and Weight ( much smaller and lighter than the Nikon D70 or Canon 20D ) 3 ) .	1
+[[1&&Size];[11&&Nikon 12&&D70];[1&&Size];[6&&smaller];[1]]
+[[3&&Weight];[11&&Nikon 12&&D70];[3&&Weight];[8&&lighter];[1]]
+[[1&&Size];[14&&Canon 15&&20D];[1&&Size];[6&&smaller];[1]]
+[[3&&Weight];[14&&Canon 15&&20D];[3&&Weight];[8&&lighter];[1]]
+First the L.E.D. viewfinder is not bright enough to be visible in bright sunlight and it is not adjustable .	1
+[[3&&L 4&&. 5&&E 6&&. 7&&D 8&&. 9&&viewfinder];[];[];[11&&not 12&&bright 13&&enough];[-1]]
+[[3&&L 4&&. 5&&E 6&&. 7&&D 8&&. 9&&viewfinder];[];[];[23&&not 24&&adjustable];[-1]]
+I wanted to have engraved a picture of him on his marble headstone .	0
+[[];[];[];[];[]]
+The D200 is similarly good in this respect though the D80 seems even better , subjectively .	1
+[[2&&D200];[11&&D80];[5&&good];[4&&similarly];[0]]
+[[11&&D80];[];[];[14&&better];[1]]
+Its settings also give me a wide range for color saturation , this versatility makes this camera suitable for both JPEG users and RAW editors .	1
+[[2&&settings];[];[10&&color 11&&saturation];[4&&give];[1]]
+[[14&&versatility];[];[17&&camera];[15&&makes];[1]]
+However , I 'm not going to test the limits just to add a data point to this review .	0
+[[];[];[];[];[]]
+Nikon was offering a $ 200 rebate on the D70 making it compatible with the $ 999 price tag on the Rebel XT .	1
+[[1&&Nikon];[22&&Rebel 23&&XT];[7&&rebate];[];[1]]
+[[1&&Nikon];[22&&Rebel 23&&XT];[18&&price 19&&tag];[];[1]]
+I have an eye for what will look good , so this camera allows me more access to backgrounds than on the cheaper , less wide lens cameras .	1
+[[12&&this 13&&camera];[23&&cheaper 24&&, 25&&less 26&&wide 27&&lens 28&&cameras];[17&&access 18&&to 19&&backgrounds];[16&&more];[1]]
+Makes it easier to focus manually and get more precise pictures and focus .	1
+[[];[];[5&&focus];[3&&easier];[1]]
+[[];[];[11&&pictures];[9&&more 10&&precise];[1]]
+Before I got the SD450 I had the S200 so even though the SD450 did n't get great battery life , it was already a hell of a lot better to me and it seemed endless !	1
+[[5&&SD450];[9&&S200];[21&&battery 22&&life];[32&&better];[1]]
+Video taking has also improved , where I was able to take the baby lions at the MGM Grand in Las Vegas with remarkable clarity , despite through the glass with glare ; something digital cameras usually are not famous for .	1
+[[1&&Video 2&&taking];[];[25&&clarity];[];[1]]
+[[35&&digital 36&&cameras];[];[25&&clarity];[];[-1]]
+Performance wise the D80 is stellar !	1
+[[4&&D80];[];[1&&Performance];[6&&stellar];[1]]
+Specs The SD800 retains nearly the same dimensions as the SD700 at 3.52 x 2.28 x 0.99 in .	1
+[[3&&SD800];[11&&SD700];[8&&dimensions];[7&&same];[]]
+XTi is able to achieve the same functions with fewer buttons , that are intuitive .	1
+[[1&&XTi];[];[8&&functions];[7&&same];[0]]
+[[1&&XTi];[];[11&&buttons];[10&&fewer];[1]]
+I played around with it a bit to see if I wanted one myself , and this is what I found .	0
+[[];[];[];[];[]]
+It is easy to use , especially in its `` Green '' zone which lets the camera do all the work for you .	1
+[[3&&easy 4&&to 5&&use];[];[];[];[1]]
+[[12&&Green 15&&zone];[];[];[];[1]]
+Two - The camera feels cheaply made .	1
+[[4&&camera];[];[5&&feel];[6&&cheaply 7&&made];[-1]]
+I have no doubt that the D200 image was a substantial improvement on the film one .	1
+[[7&&D200 8&&image];[15&&film 16&&one];[8&&image];[];[1]]
+It does have have a redish tint but its not extreme .	1
+[[6&&redish 7&&tint];[11&&extreme];[7&&tint];[10&&not];[-1]]
+Of course if take cost into account Canon 5D will still cost you over $ 1200 - $ 1500 more compare to $ 1500 street price of D200 .	1
+[[8&&Canon 9&&5D];[28&&D200];[5&&cost];[20&&more];[-1]]
+Personally I like using these modes but Im starting to learn to use the camera in full manual mode .	1
+[[5&&these 6&&modes];[17&&full 18&&manual 19&&mode];[3&&like];[];[1]]
+This makes taking pictures of people more fun and accurate .	1
+[[1&&This];[];[3&&taking 4&&pictures 5&&of 6&&people];[7&&more 8&&fun];[1]]
+[[1&&This];[];[3&&taking 4&&pictures 5&&of 6&&people];[10&&accurate];[1]]
+So you are not going to get a lot of details on camera features .	1
+[[];[];[11&&details];[];[]]
+It 's senseless to really even try to quantify it because the numbers ( less than 0.1 second to start up ) just do n't convey how instantaneous shooting with this camera is .	1
+[[14&&numbers];[15&&( 16&&less 17&&than 18&&0 19&&. 20&&1 21&&second 22&&to 23&&start 24&&up 25&&)];[];[27&&do 28&&n 29&&' 30&&t 31&&convey];[-1]]
+I tend to shoot to under expose and I have produced some very solid images .	0
+[[];[];[];[];[]]
+This gives the digital cameras equipped with it an extra boost .	1
+[[4&&digital 5&&cameras];[];[11&&boost];[10&&extra];[1]]
+The increased movie file size limit allows about a 35 minute VGA movie to be recorded if you were interested in the movie mode .	1
+[[2&&increased 3&&movie 4&&file 5&&size 6&&limit];[];[3&&movie 4&&file 5&&size 6&&limit];[7&&allows];[1]]
+This certainly would be an improvement point for the follow up of this camera .	1
+[[1&&This];[10&&follow 11&&up];[6&&improvement 7&&point];[];[1]]
+This one is of course more feature rich , but it is very difficult to use effectively .	1
+[[1&&This 2&&one];[];[7&&feature 8&&rich];[6&&more];[1]]
+[[1&&this 2&&one];[];[];[13&&very 14&&difficult];[-1]]
+Hence , performance is very similar in normal daylight ( good ) , indoors ( excellent ) and direct sunlight ( poor ) .	1
+[[8&&normal 9&&daylight];[14&&indoors];[3&&performance];[6&&similar];[0]]
+[[8&&normal 9&&daylight];[19&&direct 20&&sunlight];[3&&performance];[6&&similar];[0]]
+[[14&&indoors];[19&&direct 20&&sunlight];[3&&performance];[6&&similar];[]]
+18-135 is the worst , followed by 18-200 then the 18-70 and the 18-55 , which is the best in terms of distortion .	1
+[[1&&18 2&&- 3&&135];[10&&18 11&&- 12&&200];[];[];[-1]]
+[[10&&18 11&&- 12&&200];[15&&18 16&&- 17&&70];[];[];[-1]]
+[[15&&18 16&&- 17&&70];[20&&18 21&&- 22&&55];[31&&distortion];[];[1]]
+Firmware upgrades exactly as D70s , yet big deal 2 '' LCD , instead of 1.8 !	1
+[[1&&Firmware 2&&upgrades];[5&&D70s];[3&&exactly];[4&&as];[0]]
+[[10&&2 11&&' 12&&' 13&&LCD];[17&&1 18&&. 19&&8];[8&&big 9&&deal];[15&&instead 16&&of];[2]]
+The SD700 can also record at 160x120 at 15 fps up to 3 minutes in length .	1
+[[2&&SD700];[];[];[];[1]]
+I mean it doesnt matter how hard you argue that the camera was not taken apart they can say it was and your at fault .	0
+[[];[];[];[];[]]
+It makes me previous D50 look like a plastic toy with no magnification !	1
+[[1&&It];[4&&previous 5&&D50];[13&&magnification];[12&&no];[-1]]
+The only down side I could give it was the weight , although easy to handle , after 45 mins of running around after butterflies my wrists were starting to ache .	1
+[[11&&weight];[];[11&&weight];[];[-1]]
+The SD800 loses the primarily two tone color scheme of the SD700 and sticks strictly to a light silvery grey ... to tell the truth , the black and silver coloration of the SD700 made the camera look more appealing .	1
+[[2&&SD800];[12&&SD700];[6&&two 7&&tone 8&&color 9&&scheme];[3&&loses];[-1]]
+[[2&&SD800];[12&&SD700];[33&&coloration];[14&&sticks];[-1]]
+[[12&&SD700];[];[30&&black 31&&and 32&&silver 33&&coloration];[37&&made];[1]]
+The D200 does this at about one third the price of the D2X too .	1
+[[2&&D200];[13&&D2X];[10&&price];[];[1]]
+Well grip a little smaller but even then I have n't find any difficulty handling it .	1
+[[5&&smaller];[];[2&&grip];[5&&smaller];[1]]
+[[];[];[2&&grip];[];[-1]]
+I would only recommend not getting it if you plan on getting a higher quality wide-angle lens ( many users on forums who buy a nicer lens end up selling it on ebay or leaving it on their shelf ) .	1
+[[5&&not 6&&getting 7&&it];[12&&getting 13&&a 14&&higher 15&&quality 16&&wide 17&&- 18&&angle 19&&lens];[];[];[-1]]
+I was always a huge Canon fan , but this is the LAST Canon I will ever purchase !	1
+[[10&&this];[13&&LAST 14&&Canon];[18&&purchase];[];[-1]]
+Low light and macro pose a problem .	1
+[[1&&Low 2&&light];[4&&macro];[5&&pose 6&&a 7&&problem];[7&&problem];[-1]]
+Lots of features .	0
+[[];[];[];[];[]]
+D80 has more buttons and dials than Xti and yet most adjustments need two button operation .	1
+[[1&&D80];[8&&Xti];[4&&buttons];[3&&more];[1]]
+[[1&&D80];[8&&Xti];[6&&dials];[3&&more];[1]]
+get with the program and kill the flash will ya . ?	0
+[[];[];[];[];[]]
+Just worth mentioning since it 's a pretty significant difference in the menu .	1
+[[];[];[14&&menu];[];[2]]
+When you open the battery door it hinges open untill about 30 degrees is left .	1
+[[5&&battery 6&&door];[];[8&&hinge];[3&&open];[1]]
+Stolen features from Canon 30D : It has the same 9-point autofocus system as the 30D and can take almost the same amount of continuous burst JPEG shots ... coming in at 27 next to 30D 's 30 .	1
+[[7&&It];[17&&the 18&&30D];[11&&9 12&&- 13&&point 14&&autofocus 15&&system];[10&&same];[0]]
+[[7&&It];[17&&the 18&&30D];[27&&continuous 28&&burst 29&&JPEG 30&&shots];[10&&same];[0]]
+[[37&&27];[5&&30D];[27&&continuous 28&&burst 29&&JPEG 30&&shots];[10&&same];[0]]
+Canon 's on-board flashes have never had the same metering as the add-on external flashes , whereas with the D80 , the built-in flash gave absolutely perfect exposures .	1
+[[4&&on 5&&- 6&&board 7&&flashes];[16&&add 17&&- 18&&on 19&&external 20&&flashes];[13&&metering];[12&&same];[0]]
+[[28&&built 29&&- 30&&in 31&&flash];[];[35&&exposures];[34&&perfect];[1]]
+I would even say that the SD700 had less blurring taking such photos compared to my S70 ( 7.1 MP camera utilizing the DIGIC 1 processor ) .	1
+[[7&&SD700];[16&&my 17&&S70];[10&&blurring];[9&&less];[-1]]
+At $ 199 , Panasonic Lumix DMC-TZ1 is one of the cheapest 10x optical zoom digital cameras .	1
+[[5&&Panasonic 6&&Lumix 7&&DMC 8&&- 9&&TZ1];[];[];[];[1]]
+Also , diffraction-limited softness kicks-in sooner ( about 1 stop or so ) than with the 6MP models .	1
+[[3&&diffraction 4&&- 5&&limited 6&&softness];[21&&6MP 22&&models];[6&&softness];[7&&kicks 8&&- 9&&in 10&&sooner];[1]]
+The shutter lag seems great but it has a really cool burst mode that you can also use if you are wanting to take pictures back to back really fast .	1
+[[2&&shutter 3&&lag];[];[2&&shutter 3&&lag];[5&&great];[1]]
+[[12&&burst 13&&mode];[];[12&&burst 13&&mode];[11&&cool];[1]]
+I really could not find the difference !	0
+[[];[];[];[];[]]
+The one I chose was the Panasonic DMC-TZ1S .	0
+[[];[];[];[];[]]
+Something that always annoyed me about my point and shoot was shutter lag .	1
+[[8&&point 9&&and 10&&shoot];[];[12&&shutter 13&&lag];[4&&annoyed];[-1]]
+In general everything is laid out in a very traditional way just like the D70 but there have been a few tweaks on the outside that stand out .	1
+[[3&&everything];[15&&D70];[11&&way];[10&&traditional];[0]]
+[[22&&tweaks];[];[25&&outside];[27&&stand 28&&out];[1]]
+Does not have the feel that a professional camera should posses .	1
+[[];[];[5&&feel];[11&&posses];[-1]]
+That 's one of the changes I would have liked to have seen since older Elph models .	0
+[[];[];[];[];[]]
+What we really like is that at turn on it is ready to shoot in a nano second , and you wont miss anything unless you blink .	1
+[[7&&at 8&&turn 9&&on];[];[12&&ready 13&&to 14&&shoot];[12&&ready];[1]]
+[[];[];[];[23&&miss 24&&anything];[-1]]
+All photos have turned out great .	0
+[[];[];[];[];[]]
+Here , manual mode really means that you have full access to all the menu options .	1
+[[3&&manual 4&&mode];[];[11&&access];[10&&full];[1]]
+L-Glass is a huge difference .	1
+[[1&&L 2&&- 3&&Glass];[];[];[];[2]]
+That is the reason why I decided on getting the Canon PowerShot SD600 instead of the Canon PowerShot SD550 .	1
+[[11&&Canon 12&&PowerShot 13&&SD600];[17&&Canon 18&&PowerShot 19&&SD550];[];[];[1]]
+The front dial was lacking in the D50 and I 'm glad it 's on the D80 .	1
+[[2&&front 3&&dial];[8&&D50];[5&&lacking];[5&&lacking];[-1]]
+[[2&&front 3&&dial];[19&&D80];[5&&lacking];[5&&lacking];[1]]
+The Bottom Line Great to start learning SLR techniques on .	0
+[[];[];[];[];[]]
+What I do n't like is the layout of the controls - which I am getting used to but , I much prefer the layout of controls on the 1Ds compared to the 20D - the 5D seems to have more of the 20D 's design .	1
+[[27&&layout 28&&of 29&&controls];[27&&layout 28&&of 29&&controls 30&&on 31&&the 32&&1Ds];[10&&layout];[25&&prefer];[1]]
+[[39&&5D];[36&&20D];[49&&design];[42&&have];[2]]
+I 'm trying to shoot RAW but Nikon makes that difficult as the support is not yet avalable in Adobe or Bibble labs ... however , that 's soon to come .	1
+[[9&&Nikon];[21&&Adobe 22&&or 23&&Bibble 24&&labs];[15&&support];[17&&not 18&&yet 19&&avalable];[-1]]
+The `` warm '' color setting produces results I like much better , and looks closer to what other camera brands like Canon produce by default .	1
+[[4&&warm 7&&color 8&&setting];[20&&what 21&&other 22&&camera 23&&brands 24&&like 25&&Canon 26&&produce 27&&by 28&&default];[17&&looks];[18&&closer];[1]]
+The A630 is slightly larger than previous generation A-series cameras , and also larger than much of its competition .	1
+[[2&&A630];[7&&previous 8&&generation 9&&A 10&&- 11&&series 12&&cameras];[];[5&&larger];[1]]
+[[2&&A630];[18&&much 19&&of 20&&its 21&&competition];[];[5&&larger];[1]]
+I researched for while and decided to wait for the d80 and I am not dissapointed .	1
+[[11&&d80];[];[];[15&&not 16&&dissapointed];[1]]
+For those of you that do n't know , this mode takes pictures in quick succession , to allow you to select the shot that was at just the right moment to immortalize in your photo albums .	0
+[[];[];[];[];[]]
+Some compression artifacts are visible , but they are not as bad as many other digicams .	1
+[[1&&some 2&&compression 3&&artifacts];[14&&many 15&&other 16&&digicams];[12&&bad];[];[-1]]
+This is important in daylight fill-flash use where the 6MP models give significantly more latitude to use flash as fill light and still maintain high shutter speed to freeze motion .	1
+[[12&&6MP 13&&models];[];[17&&latitude];[16&&more];[1]]
+Better cameras easy to find at twice the price .	1
+[[1&&Better 2&&cameras];[];[];[];[1]]
+[[1&&Better 2&&cameras];[];[];[7&&twice 8&&the 9&&price];[-1]]
+The image stabilization helped greatly with night photos especially at the maximum telephoto range of the zoom at night without a tripod ( although using a tripod would be ideal ! ) .	1
+[[2&&image 3&&stabilization];[];[7&&night 8&&photos];[4&&helped];[1]]
+[[12&&maximum 13&&telephoto 14&&range 15&&of 16&&the 17&&zoom];[];[7&&night 8&&photos];[4&&helped];[1]]
+Picture motion browser for Sony ( version 1.1 for Windows ) , Image Data Converter SR Version 1.1 ( Windows and Macintosh ) , and the USB driver are all included software .	1
+[[1&&Picture 2&&motion 3&&browser 4&&for 5&&Sony 6&&( 7&&version 8&&1 9&&. 10&&1 11&&for 12&&Windows 13&&)];[];[];[];[]]
+[[15&&Image 16&&Data 17&&Converter 18&&SR 19&&Version 20&&1 21&&. 22&&1 23&&( 24&&Windows 25&&and 26&&Macintosh 27&&)];[];[];[];[]]
+[[30&&the 31&&USB 32&&driver];[];[];[];[]]
+... besides you only get a picture of the inside of the windsheild . .	0
+[[];[];[];[];[]]
+The SD600 does show noticeable improvement , but that improvement is still mild unless you put the two camera 's next to each other .	1
+[[2&&SD600];[18&&two 19&&camera 20&&' 21&&s];[6&&improvement];[5&&noticeable];[1]]
+[[6&&improvement];[13&&mild];[6&&improvement];[5&&noticeable];[-1]]
+Obviously I chose the XT and do n't regret it.There are may reasons why i love this camera .	1
+[[5&&XT];[];[];[];[1]]
+To address this problem , use the exposure lock .	0
+[[];[];[];[];[]]
+Plus after spending a whole day at the zoo it was nice to have a light camera and it was n't tiresome to lug around my shoulder and kneck .	1
+[[16&&light 17&&camera];[29&&shoulder 30&&and 31&&kneck];[24&&tiresome];[];[1]]
+The F100 was a $ 1000.00 camera that basically embarrassed the top of the line F4 , and made it obsolete .	1
+[[2&&F100];[18&&F4];[14&&top 15&&of 16&&the 17&&line];[12&&embarrassed];[-1]]
+The XT 's big brother , the 20D , is a fantastic camera but at a $ 600 premium I found I could do with a slower burst speed and fewer Auto Focus points .	1
+[[9&&20D];[2&&XT];[29&&burst 30&&speed];[28&&slower];[-1]]
+[[9&&20D];[2&&XT];[33&&Auto 34&&Focus 35&&points];[32&&fewer];[-1]]
+When I went to use it again , it would n't turn on at all , so I figured I accidentally left it turned or something and the battery accidentally drained .	1
+[[6&&it];[];[14&&turn 15&&on];[];[-1]]
+I did not receive it yet because it was out of stock .	0
+[[];[];[];[];[]]
+What made me choose the 30D over the 20D was because it was around the same price with the fall Canon double rebates .	1
+[[6&&30D];[9&&20D];[17&&price];[16&&same];[]]
+I would without doubt recommend this camera to anyone who is looking for an easy to use digital camera to take a look at this , it is awesome , and I 'm dead jealous cos I ca n't afford one .	1
+[[6&&this 7&&camera];[9&&anyone 10&&who 11&&is 12&&looking 13&&for 14&&an 15&&easy 16&&to 17&&use 18&&digital 19&&camera];[15&&easy 16&&to 17&&use];[];[1]]
+[[6&&this 7&&camera];[];[29&&awesome];[29&&awesome];[1]]
+[[1&&I];[];[43&&afford 44&&one];[36&&jealous];[-1]]
+In conclusion : a very worthwhile backup to a 1Ds and much better than a 10D .	1
+[[4&&a 5&&very 6&&worthwhile 7&&backup];[9&&a 10&&1Ds];[];[13&&better];[1]]
+[[4&&a 5&&very 6&&worthwhile 7&&backup];[15&&a 16&&10D];[];[13&&better];[1]]
+So the A630 is twice as fast .	1
+[[3&&A630];[];[];[];[1]]
+It does well in low light levels without the flash .	1
+[[1&&It];[8&&without 9&&the 10&&flash];[5&&low 6&&light 7&&levels];[3&&well];[1]]
+Not as small as the rebel , but more comfortable in my big hand , and MUCH MUCH longer battery life .	1
+[[5&&the 6&&rebel];[];[];[];[-1]]
+[[];[];[10&&comfort];[];[1]]
+[[];[];[20&&battery 21&&life];[19&&longer];[1]]
+Online prices are super low , by about $ 50 .	1
+[[1&&Online 2&&prices];[];[2&&price];[5&&low];[1]]
+D80 gave the option of adjusting ISO sensitivity in small increments as opposed to only doubling on XTi and I think that is a nice feature on D80 .	1
+[[1&&D80];[18&&XTi];[7&&ISO 8&&sensitivity];[6&&adjusting];[1]]
+super Weight - just heavy enough My husband bought me this camera for my birthday last year .	1
+[[1&&super 2&&Weight];[];[2&&Weight];[5&&heavy 6&&enough];[1]]
+The pictures are sharp and colors are extremely vivid .	1
+[[];[];[4&&sharp];[9&&vivid];[1]]
+I have used Panasonic FX07 and FX50 and was wandering if paying significantly more for the Canon SD800 IS is justified .	1
+[[4&&Panasonic 5&&FX07];[17&&Canon 18&&SD800 19&&IS];[];[13&&significantly 14&&more];[-1]]
+The Canon SD800 IS uses the optical element shift ( optical image stabilization ) and it works quite well ( although not really any better than the Casio 's CCD shift method ) .	1
+[[2&&Canon 3&&SD800 4&&IS];[28&&Casio 29&&' 30&&s 31&&CCD 32&&shift 33&&method];[7&&optical 8&&element 9&&shift 10&&( 11&&optical 12&&image 13&&stabilization 14&&)];[25&&better];[1]]
+iSAPS is a Canon developed scene-recognition technology .	0
+[[];[];[];[];[]]
+The user has as much or as little decision making control as he or she desires .	1
+[[2&&user];[13&&he 14&&or 15&&she];[9&&decision 10&&making 11&&control];[4&&as 5&&much 6&&or 7&&as 8&&little];[0]]
+The D200 also feels more solid compared to the D70 .	1
+[[2&&D200];[10&&D70];[4&&feel];[5&&more 6&&solid];[1]]
+Before I say anything about image quality , I 'd like to address the issue of professional vs. amateur cameras .	1
+[[18&&professional];[21&&amateur];[22&&cameras];[19&&vs 20&&.];[2]]
+We both tried with no flash to not make a scene , but my camera took an amazing picture , and his was just a blur .	1
+[[14&&my 15&&camera];[22&&his];[19&&picture];[18&&amazing];[1]]
+[[22&&his];[];[19&&picture];[24&&just 25&&a 26&&blur];[-1]]
+I have read some reviews on barrel and pincushion distortions associated with this lens but I have yet to come across these problems , given the type of pictures I tend to take .	1
+[[4&&some 5&&reviews];[22&&these 23&&problems];[7&&barrel 8&&and 9&&pincushion 10&&distortions];[11&&associated];[2]]
+[[26&&the 27&&type 28&&of 29&&pictures 30&&I 31&&tend 32&&to 33&&take];[];[];[];[1]]
+No more getting home and uploading only to notice on the big screen that the camera chose the wrong focal point .	0
+[[];[];[];[];[]]
+Of course , to really take advantage of this you 'll need one of the new high-capacity SDHC 4GB or even 8GB memory cards that are just now coming out .	1
+[[17&&new 18&&high 19&&- 20&&capacity 21&&SDHC 22&&4GB];[25&&8GB];[26&&memory 27&&cards];[];[1]]
+Conclusion I 'm as pleased with this choice as I 've been with my other Canon compact and ultra-compact digital cameras .	1
+[[8&&this 9&&choice];[16&&my 17&&other 18&&Canon 19&&compact 20&&and 21&&ultra 22&&- 23&&compact 24&&digital 25&&cameras];[];[5&&as 6&&pleased];[0]]
+The Bottomline : I had to compare this camera with the Nikon D80 , Canon Rebel XT ( 350D ) , and Canon 30D .	1
+[[8&&this 9&&camera];[12&&Nikon 13&&D80];[];[];[]]
+[[8&&this 9&&camera];[15&&Canon 16&&Rebel 17&&XT 18&&( 19&&350D 20&&)];[];[];[]]
+[[8&&this 9&&camera];[23&&Canon 24&&30D];[];[];[]]
+Users can either let the camera automatically choose the AF point or they can manually choose a specific point for a shot .	1
+[[7&&automatically];[15&&manually];[10&&AF 11&&point];[8&&choose];[1]]
+[[15&&manually];[7&&automatically];[10&&AF 11&&point];[8&&choose];[-1]]
+The D200 autofocus seems to perform similarly to the D80 , with some users reporting a stronger autofocus motor on the D200 , which is important if using `` screwdriven '' lenses without AF-S ( I have conclusion one way or another as I did not get a chance to compare too much for this ) .	1
+[[2&&D200 3&&autofocus];[10&&D80];[];[7&&similar];[0]]
+[[2&&D200];[10&&D80];[18&&autofocus 19&&motor];[17&&stronger];[1]]
+Full Review The Canon PowerShot SD630 is basically the exact same camera as the PowerShot SD600 , minus an optical viewfinder and plus a half-inch diagonally of LCD real-estate .	1
+[[4&&Canon 5&&PowerShot 6&&SD630];[15&&PowerShot 16&&SD600];[12&&camera];[11&&same];[0]]
+For another reason the noise at high ISO settings of this camera is less than the Canon 400D .	1
+[[11&&this 12&&camera];[17&&Canon 18&&400D];[5&&noise];[14&&less];[1]]
+Just messing around the house , playing with aperature , color temperature , and the metering basics .	1
+[[9&&aperature];[];[];[];[]]
+[[11&&color 12&&temperature];[];[];[];[]]
+[[15&&the 16&&metering 17&&basics];[];[];[];[]]
+Shutter Lag : This is the main reason as to why I bought the camera .	0
+[[];[];[];[];[]]
+If I were to do it all over again , I would have also considered the Olympus Stylus 600 , which is perhaps a better value than the SD600 .	1
+[[17&&Olympus 18&&Stylus 19&&600];[29&&SD600];[26&&value];[25&&better];[1]]
+I know the functionality of the 20 is better , especially being able to navigate through the settings better than the Rebel XT , but everything else the Rebel XT was able to compete nicely with it 's bigger , older brother .	1
+[[7&&20];[22&&Rebel 23&&XT];[4&&functionality];[9&&better];[1]]
+[[7&&20];[22&&Rebel 23&&XT];[];[9&&better];[1]]
+[[22&&Rebel 23&&XT];[7&&20];[26&&everything 27&&else];[34&&compete];[0]]
+I bought the 18 - 55mm lens and a 70-300 for when we go to Bosque del Apache .	1
+[[4&&18 5&&- 6&&55mm 7&&lens];[10&&70 11&&- 12&&300];[];[];[]]
+Write to card and shot to shot times ( 1.6 seconds ) are about the same as the G6 , conspicuously faster than average .	1
+[[1&&Write 2&&to 3&&card 4&&and 5&&shot 6&&to 7&&shot 8&&times 9&&( 10&&1 11&&. 12&&6 13&&seconds 14&&)];[21&&G6];[1&&Write 2&&to 3&&card 4&&and 5&&shot 6&&to 7&&shot 8&&times 9&&( 10&&1 11&&. 12&&6 13&&seconds 14&&)];[18&&same];[0]]
+[[1&&Write 2&&to 3&&card 4&&and 5&&shot 6&&to 7&&shot 8&&times 9&&( 10&&1 11&&. 12&&6 13&&seconds 14&&)];[26&&average];[1&&Write 2&&to 3&&card 4&&and 5&&shot 6&&to 7&&shot 8&&times 9&&( 10&&1 11&&. 12&&6 13&&seconds 14&&)];[24&&faster];[1]]
+The Bottom Line Photo geeks will nit-pick and get it 's older sibling the SD900 , real photojournalists will love it for the wide angle and features .	1
+[[2&&Bottom 3&&Line];[18&&SD900];[4&&photo 5&&geeks];[7&&nit 8&&- 9&&pick];[-1]]
+[[20&&real 21&&photojournalists];[];[27&&wide 28&&angle];[23&&love];[1]]
+[[20&&real 21&&photojournalists];[];[30&&features];[23&&love];[1]]
+The way in which it does match the higher end cameras though is in potential image quality .	1
+[[5&&it];[9&&higher 10&&end 11&&cameras];[15&&potential 16&&image 17&&quality];[7&&match];[1]]
+Too bad I did n't figure that out before I spent all that money .	0
+[[];[];[];[];[]]
+If you have young children , these cameras are a huge asset .	1
+[[4&&young 5&&children];[];[7&&these 8&&cameras];[10&&a 11&&huge 12&&asset];[1]]
+Then play around with the camera .	0
+[[];[];[];[];[]]
+Hard to believe a camera that is over a year newer and costs twice as much would have more shutter lag but if it does , Canon is having some design problems here .	1
+[[5&&camera 6&&that 7&&is 8&&over 9&&a 10&&year 11&&newer 12&&and 13&&costs 14&&twice 15&&as 16&&much];[];[20&&shutter 21&&lag];[18&&have 19&&more];[-1]]
+[[27&&Canon];[];[31&&design 32&&problems];[29&&having];[2]]
+Although it still is having slightly lower resolution than the 5D , i felt that the smaller chipsize has a very big advantage : most lenses show noticeable chromatic aberration when used with the 5D , this camera picks up the center of the image circle of the lenses , which is mainly free from this aberration .	1
+[[17&&smaller 18&&chipsize];[11&&5D];[29&&chromatic 30&&aberration];[];[1]]
+[[11&&5D];[37&&this 38&&camera];[42&&center 43&&of 44&&the 45&&image 46&&circle];[54&&free 55&&from];[1]]
+I hope they release a new model which does not have this issue .	0
+[[];[];[];[];[]]
+It will do a wider-angle shot , but does n't go quite a long as this one ( it 's a 28 mm to 105 mm , compared to the 35 to 104 mm of the 700IS ) .	1
+[[5&&wider 6&&- 7&&angle 8&&shot];[20&&this 21&&one];[8&&shot];[5&&wider];[1]]
+[[27&&28 28&&mm 29&&to 30&&105 31&&mm];[36&&35 37&&to 38&&104 39&&mm];[];[];[-1]]
+Having had 2 35mm SLRs , I knew what I was looking for , but no dSLR to date had it all .	1
+[[17&&dSLR];[3&&2 4&&35mm 5&&SLRs];[21&&it 22&&all];[2&&had];[-1]]
+High ISOs are faster , but image quality declines .	1
+[[1&&High 2&&ISOs];[];[];[4&&faster];[1]]
+[[1&&High 2&&ISOs];[];[7&&image 8&&quality];[9&&declines];[-1]]
+The Canon , because of the lens placement and protrusion , does not have that problem .	1
+[[2&&Canon];[];[7&&lens 8&&placement];[12&&does 13&&not 14&&have];[-1]]
+[[2&&Canon];[];[10&&protrusion];[12&&does 13&&not 14&&have];[-1]]
+This was not hard for me , as I usually used the view finder on my old camera anyway .	1
+[[1&&This];[6&&me];[4&&hard];[3&&not 4&&hard];[1]]
+Myself , I 'm ambivalent regarding design elegance .	1
+[[1&&myself];[];[8&&design 9&&elegance];[6&&ambivalent];[0]]
+( Quick to rush into the digital age , ... I quit taking film pictures several years back . )	0
+[[];[];[];[];[]]
+Pictures tended to have slightly greener shift , but the white balance adjustments on camera are phenominal .	1
+[[1&&Pictures];[];[6&&greener 7&&shift];[];[1]]
+[[11&&white 12&&balance 13&&adjustments 14&&on 15&&camera];[];[];[17&&phenominal];[1]]
+Probably since this one mechanism will be used quite a bit .	0
+[[];[];[];[];[]]
+AF lag is essentially non-existent in good lighting and shorter than average in lower light .	1
+[[1&&AF 2&&lag];[];[1&&AF 2&&lag];[12&&shorter];[-1]]
+[[1&&AF 2&&lag];[];[1&&AF 2&&lag];[5&&non 6&&- 7&&existent];[1]]
+Who in his or her right mind would expect a full frame sensor to shoot as fast as a 20D which , admittedly , would be `` nice '' ?	1
+[[11&&full 12&&frame 13&&sensor];[20&&20D];[];[];[-1]]
+It 's possible for you to blow out one or two of the color channels but the luminance ( computed as a weighted sum of the three color channels ) looks OK .	1
+[[10&&one 11&&or 12&&two 13&&of 14&&the 15&&color 16&&channels];[19&&luminance];[15&&color 16&&channels];[8&&blow 9&&out];[-1]]
+[[19&&luminance];[];[19&&luminance];[32&&looks];[0]]
+I read many reviews and looked at many sample pictures for other cameras , and the Leica lenses on Panasonic cameras really make a difference .	1
+[[17&&Leica 18&&lenses];[20&&Panasonic 21&&cameras];[23&&make];[24&&a 25&&difference];[2]]
+Image quality with a decent lens is exceptional .	1
+[[5&&decent 6&&lens];[];[1&&Image 2&&quality];[8&&exceptional];[1]]
+However I have often found their camera designs to be focused more on exterior presentation than image quality , with notoriously dark images .	1
+[[7&&camera 8&&designs];[17&&image 18&&quality];[11&&focus];[12&&more 13&&on];[2]]
+[[23&&images];[];[17&&image 18&&quality];[22&&dark];[-1]]
+I was able to use a long/macro lens I already owned ( from my Minolta film camera ) with no problem .	1
+[[7&&long 8&&/ 9&&macro 10&&lens];[];[];[];[]]
+[[17&&Minolta 18&&film 19&&camera];[];[];[];[]]
+This situation was a particular problem trying to photograph fish in an aquarium .	1
+[[1&&This 2&&situation];[7&&trying 8&&to 9&&photograph 10&&fish 11&&in 12&&an 13&&aquarium];[6&&problem];[5&&particular];[-1]]
+If you are using the G-type lenses with no aperture ring , the camera lets you adjust the aperture value of the lens by rotating the thumb wheel - the sam e system used on the film Nikon N55 camera .	1
+[[6&&G 7&&- 8&&type 9&&lenses];[39&&film 40&&Nikon 41&&N55 42&&camera];[21&&aperture 22&&value];[];[]]
+The D80 is an incredible camera with one of the easiest Digital menus in an SLR today .	1
+[[2&&D80];[];[12&&Digital 13&&menus];[];[1]]
+BUILD The 5D chassis is based on a magnesium alloy and stainless steel and is similar to the EOS 20D although it is a lot heavier and feels more solid in my hand .	1
+[[3&&5D 4&&chassis];[19&&EOS 20&&20D];[];[26&&heavier];[-1]]
+[[3&&5D 4&&chassis];[19&&EOS 20&&20D];[28&&feel];[29&&more 30&&solid];[1]]
+Both the Canons ( 300D & Rebel XT ) felt VERY plasticy .	1
+[[3&&Canons 4&&( 5&&300D 6&&& 7&&Rebel 8&&XT 9&&)];[];[10&&felt];[12&&plasticy];[-1]]
+I have also found the quality of the Carl Zeiss lens to be unequal in different models .	1
+[[9&&Carl 10&&Zeiss 11&&lens];[16&&different 17&&models];[6&&quality];[14&&unequal];[2]]
+Processor and sensor : The Rebel XT uses the second generation DIGIC II processor and has a 8 megapixel CMOS sensor ( vs. 6 megapixel of Rebel 300D . )	1
+[[10&&second 11&&generation 12&&DIGIC 13&&II 14&&processor];[28&&Rebel 29&&300D];[1&&processor];[];[1]]
+[[18&&8 19&&megapixel 20&&CMOS 21&&sensor];[25&&6 26&&megapixel];[3&&sensor];[];[1]]
+The MB-D200 is no exception ; besides doubling the battery power and therefore the number of shots between charges , the MB-D200 also greatly improves the overall handling characteristics of the D200 .	1
+[[2&&MB 3&&- 4&&D200];[4&&D200];[12&&battery 13&&power];[];[1]]
+[[2&&MB 3&&- 4&&D200];[4&&D200];[31&&overall 32&&handling 33&&characteristics];[29&&improves];[1]]
+I really like the layout of the controls over other cameras I have tested .	1
+[[5&&layout 6&&of 7&&the 8&&controls];[10&&other 11&&cameras];[5&&layout];[3&&like];[1]]
+The EOS 5D body is approximate in dimensions and weight to the EOS 20D while having a larger 2.5 '' LCD view screen .	1
+[[2&&EOS 3&&5D 4&&body];[13&&EOS 14&&20D];[8&&dimensions];[6&&approximate];[0]]
+[[2&&EOS 3&&5D 4&&body];[13&&EOS 14&&20D];[10&&weight];[6&&approximate];[0]]
+[[2&&EOS 3&&5D 4&&body];[];[19&&2 20&&. 21&&5 22&&' 23&&' 24&&LCD 25&&view 26&&screen];[18&&larger];[1]]
+The 4 way controller allows you to change ISO settings ( up ) , flash mode ( right ) , timer/continuous shot ( down ) , and focus mode ( left ) .	1
+[[2&&4 3&&way 4&&controller];[];[9&&ISO 10&&settings];[8&&change];[1]]
+[[2&&4 3&&way 4&&controller];[];[15&&flash 16&&mode];[8&&change];[1]]
+[[2&&4 3&&way 4&&controller];[];[21&&timer 22&&/ 23&&continuous 24&&shot];[8&&change];[1]]
+[[2&&4 3&&way 4&&controller];[];[30&&focus 31&&mode];[8&&change];[1]]
+Even though there is a significant price difference , just because of the larger screen , I seem to think it is well worth it .	1
+[[14&&larger 15&&screen];[];[7&&price];[];[2]]
+[[21&&it];[];[];[24&&worth];[1]]
+This camera uses 4 batteries instead of 2 ( as my old one did ) and it makes a huge difference .	1
+[[4&&4 5&&batteries];[8&&2];[];[];[1]]
+[[1&&this 2&&camera];[11&&my 12&&old 13&&one];[];[];[2]]
+I 'm not sure how important it is yet , but the self-clean feature seems pretty cool .	0
+[[];[];[];[];[]]
+- Focus speed : all three focus silently and quick .	1
+[[5&&all 6&&three 7&&focus];[];[2&&focus 3&&speed];[10&&quick];[1]]
+It feels very intuitive to both me and my wife .	0
+[[];[];[];[];[]]
+The camera is beautiful , the body is just awesome , I thought I was going to like the xti being a little smaller , but it felt like a cheap toy , I did n't feel right with it , the D80 's got to be the best purchase I 've in a while .	1
+[[20&&xti];[45&&D80];[];[24&&smaller];[1]]
+[[20&&xti];[45&&D80];[39&&feel];[];[-1]]
+[[20&&xti];[45&&D80];[53&&purchase];[];[1]]
+Nikon D40X is their entry level ) has 2 screens but it does not make any sense to have an extra screen just for the sake of it .	1
+[[1&&Nikon 2&&D40X];[];[];[13&&does 14&&not 15&&make 16&&any 17&&sense];[-1]]
+, a larger LCD so I can actually read the menu items without my glasses , and finally - it fits in my purse .	1
+[[3&&larger 4&&LCD];[];[];[21&&fits 22&&in 23&&my 24&&purse];[1]]
+The Bottom Line Good for people who need more than a point and shoot but do n't want to spend big bucks .	1
+[[2&&Bottom 3&&Line];[];[4&&Good];[4&&Good 5&&for];[1]]
+It will provide you with results that can be enlarged significantly and will easily compare to a D2x or Kodak Full Frame DSLR .	1
+[[6&&results];[18&&D2x 19&&or 20&&Kodak 21&&Full 22&&Frame 23&&DSLR];[];[14&&easily 15&&compare];[1]]
+The LCD is 1.8 inches and the view finder is about 10 % smaller than the 20D .	1
+[[10&&view 11&&finder];[19&&20D];[];[16&&smaller];[-1]]
+A definite step-up from the D50/D70/D70s which did not have an RGB histogram .	1
+[[8&&D50 9&&/ 10&&D70 11&&/ 12&&D70s];[];[18&&RGB 19&&histogram];[16&&have];[1]]
+The quality is better than those we had with less pixels .	1
+[[2&&quality];[6&&those];[2&&quality];[4&&better];[1]]
+It is a lot smaller to carry around .	0
+[[];[];[];[];[]]
+It 's one of my best purchases ever .	0
+[[];[];[];[];[]]
+However , you can do so much more with a RAW image than you can with a JPEG file .	1
+[[11&&RAW 12&&image];[18&&JPEG 19&&file];[];[8&&more];[1]]
+However , the 5D ( like the 20D ) has a very bright color LCD display ( by default ) which can give the user a false impression of how well the image is exposed .	1
+[[4&&5D];[8&&20D];[14&&color 15&&LCD 16&&display];[];[1]]
+Do an internet search for polycarbonate and you 'll probably be pleasantly surprised .	1
+[[6&&polycarbonate];[];[];[13&&pleasantly 14&&surprised];[1]]
+The LCD is nicer and more importantly offers 100 % zoom ( in fact more than that , but then things get pixellated ) .	1
+[[2&&LCD];[];[2&&LCD];[4&&nicer];[1]]
+[[2&&LCD];[];[2&&LCD];[8&&offers];[1]]
+There is nothing I 've touched yet that comes close to Canon 's 30D DSLR .	1
+[[];[13&&Canon 14&&' 15&&s 16&&30D 17&&DSLR];[];[11&&close];[-1]]
+The only difference is that canon adds a higher resolution sensor and a wider lens .	1
+[[6&&canon];[];[10&&resolution 11&&sensor];[9&&higher];[2]]
+[[6&&canon];[];[15&&lens];[14&&wider];[2]]
+After researching between the Nikon D50 , D70S , and Canon Rebel XT cameras I decided on the D50 because of its size , weight , and features .	1
+[[5&&Nikon 6&&D50];[8&&D70S];[23&&size];[];[1]]
+[[5&&Nikon 6&&D50];[11&&Canon 12&&Rebel 13&&XT];[25&&weight];[];[1]]
+[[5&&Nikon 6&&D50];[8&&D70S];[28&&features];[];[1]]
+[[5&&Nikon 6&&D50];[11&&Canon 12&&Rebel 13&&XT];[28&&features];[];[1]]
+Unfortunately , all of these digital cameras have a finite life span or this could be a classic .	1
+[[3&&all 4&&of 5&&these 6&&digital 7&&cameras];[14&&this 15&&could 16&&be 17&&a 18&&classic];[11&&life 12&&span];[10&&finite];[-1]]
+Maybe you can consider the Sigma flash which is supposed to be full compatible with CANON .	1
+[[6&&Sigma 7&&flash];[16&&CANON];[];[13&&full 14&&compatible];[1]]
+I wanted a camera that would perform as well as the sd700 but with a 28 mm wide angle lens which i have been waiting for ...	1
+[[12&&sd700];[];[];[8&&as 9&&well 10&&as];[0]]
+[[16&&28 17&&mm 18&&wide 19&&angle 20&&lens];[];[];[];[]]
+at around 250 dollars after getting a memory card it is much less expensive next to similar 6 megapixel cameras .	1
+[[3&&250 4&&dollars 5&&after 6&&getting 7&&a 8&&memory 9&&card];[17&&similar 18&&6 19&&megapixel 20&&cameras];[14&&expensive];[13&&less];[1]]
+But the Nikon D40 has a much shorter zoom , and I 'd miss the telephoto ability I 've gotten used to ( it is 18-55 , equal to 27-82 in standard measurements , and compared to the A630 's 35-140 ) .	1
+[[3&&Nikon 4&&D40];[45&&A630];[9&&zoom];[8&&shorter];[-1]]
+[[3&&Nikon 4&&D40];[45&&A630];[17&&telephoto 18&&ability];[15&&miss];[-1]]
+It even has some advantages over the 1Ds ( size , weight , batteries ) .	1
+[[1&&It];[7&&the 8&&1Ds];[10&&size];[];[1]]
+[[1&&It];[7&&the 8&&1Ds];[12&&weight];[];[1]]
+[[1&&It];[7&&the 8&&1Ds];[14&&batteries];[];[]]
+When I visited a friend 's house out in the country , I saw this amazingly beautiful hawk sitting on a fence post out in the distance .	1
+[[5&&friend 6&&' 7&&s 8&&house];[];[19&&hawk];[18&&beautiful];[1]]
+The E-TTL metering works pefectly , even better than my 350D .	1
+[[2&&E 3&&- 4&&TTL 5&&metering];[13&&350D];[6&&works];[10&&better];[1]]
+People also forget that Nikon etc uses Sony CCDs , so to say that the Sony machine is not outstanding or somehow made by a novice in the market is a mistake ( DSLR bodies are more CCD than anything else ) .	1
+[[5&&Nikon 6&&etc];[8&&Sony];[9&&CCDs];[19&&not 20&&outstanding];[-1]]
+[[16&&Sony 17&&machine];[];[];[23&&made 24&&by 25&&a 26&&novice];[-1]]
+It does show more softness in the corners than the SD700 that is likely due to the wide angle lens and is noted throughout the zoom range .	1
+[[1&&It];[10&&the 11&&SD700];[5&&softness 6&&in 7&&the 8&&corners];[4&&more];[1]]
+The LCD screen is a bit sharper , the 3-way mode selector switch feels more solid , and of course , it has an extra megapixel for improved image clarity .	1
+[[2&&LCD 3&&screen];[];[];[7&&sharper];[1]]
+[[10&&3 11&&- 12&&way 13&&mode 14&&selector 15&&switch];[];[];[17&&more 18&&solid];[1]]
+[[];[];[28&&megapixel];[25&&has];[1]]
+The Cons I write below are really not a hurdle in buying the camera but improvements that makes it more pleasant ( cosmetics ) .	1
+[[2&&Cons 3&&I 4&&write 5&&below];[12&&buying 13&&the 14&&camera];[10&&hurdle];[8&&not];[-1]]
+[[16&&improvements];[];[21&&pleasant];[18&&makes];[1]]
+The Sony Alpha felt so cheap when I tried it , and the Canon XTi as well .	1
+[[2&&Sony 3&&Alpha];[14&&Canon 15&&XTi];[4&&felt];[6&&cheap];[-1]]
+When I held the D70 , it had a very nice feel to it .	1
+[[5&&D70];[];[12&&feel];[11&&nice];[1]]
+The buttons around the preview screen are flat and nice contrary to the D-80 where they are small and round .	1
+[[8&&flat 9&&and 10&&nice];[20&&small 21&&and 22&&round];[2&&buttons 3&&around 4&&the 5&&preview 6&&screen];[11&&contrary 12&&to];[-1]]
+I 'd rather have the Rebel XT and a good lens than the 20D and a mediocre lens .	1
+[[7&&Rebel 8&&XT 9&&and 10&&a 11&&good 12&&lens];[15&&20D 16&&and 17&&a 18&&mediocre 19&&lens];[];[];[1]]
+It had a short range being an IR remote , but it worked well for hands-off tripod shooting .	1
+[[4&&short 5&&range];[16&&hands 17&&- 18&&off 19&&tripod 20&&shooting];[5&&range];[];[-1]]
+[[16&&hands 17&&- 18&&off 19&&tripod 20&&shooting];[4&&short 5&&range];[];[];[1]]
+Stick with your D70 , it is much better value .	1
+[[4&&D70];[];[10&&value];[9&&better];[1]]
+PROS : It 's lightweight , easy to operate in quick situations , incredible image for the money .	1
+[[6&&lightweight];[];[];[];[1]]
+[[8&&easy 9&&to 10&&operate 11&&in 12&&quick 13&&situations];[];[];[];[1]]
+[[15&&incredible 16&&image];[];[17&&for 18&&the 19&&money];[];[1]]
+Canon 's CMOS sensor has you convered giving you low noise pictures all the way up to 1600ISO .	1
+[[1&&Canon 2&&' 3&&s 4&&CMOS 5&&sensor];[7&&you];[11&&low 12&&noise 13&&pictures];[];[1]]
+There were 2 fingers left hanging on the bottom of the camera .	0
+[[];[];[];[];[]]
+Taking photos as part of my profession ( medical ) for over twenty five years I can assure this is one of the best cameras I have ever owned .	1
+[[19&&this];[26&&I 27&&have 28&&ever 29&&owned];[25&&camera];[];[1]]
+Overall , low light and dark conditions were above average for a ultracompact digital camera .	1
+[[3&&low 4&&light];[10&&average];[7&&conditions];[9&&above];[1]]
+[[6&&dark 7&&conditions];[10&&average];[7&&conditions];[9&&above];[1]]
+I think the Casio wins here .	1
+[[4&&Casio];[];[];[5&&wins];[1]]
+Recommended : Yes Amount Paid ( US$ ) : 900 This Camera is a Good Choice if You Want Something ... Flexible Enough for Enthusiasts	1
+[[12&&This 13&&Camera];[];[25&&Flexible 26&&Enough 27&&for 28&&Enthusiasts];[16&&Good 17&&Choice];[1]]
+I quickly started using the more advanced modes .	1
+[[7&&advanced 8&&modes];[];[];[];[1]]
+By the 6 month I was ready to move up to a unit with a bit more power .	1
+[[3&&6 4&&month];[13&&unit];[18&&power];[17&&more];[1]]
+Compact Flash : There 's nothing about it that makes the images worse quality than an SD or the likes , it 's just bigger and more expensive , which is never good .	1
+[[1&&Compact 2&&Flash];[18&&SD 19&&or 20&&the 21&&likes];[13&&images];[14&&worse];[-1]]
+[[1&&Compact 2&&Flash];[];[];[27&&bigger];[2]]
+[[1&&Compact 2&&Flash];[];[];[29&&more 30&&expensive];[-1]]
+One great thing that is seldom mentioned about the Sony is its processing speeds ( writing AND accessing ) .	1
+[[10&&Sony];[];[13&&processing 14&&speeds];[];[1]]
+The controls are situated differently including a switch located on top near the shutter button .	1
+[[2&&controls];[];[4&&situated];[5&&differently];[2]]
+You have to buy the EX series to get full E-TTL functionality .	1
+[[6&&EX 7&&series];[];[11&&E 12&&- 13&&TTL 14&&functionality];[9&&get];[1]]
+IT HAS A 2.5 '' LCD rewiew area , a 92 % increase over the 20D .	1
+[[4&&2 5&&. 6&&5 7&&' 8&&' 9&&LCD 10&&rewiew 11&&area];[19&&20D];[9&&LCD 10&&rewiew 11&&area];[];[1]]
+By far the best Canon I have ever owned , the EOS 30D significantly improves upon the 20D ( I have one of those also ) .	1
+[[12&&EOS 13&&30D];[18&&20D];[];[15&&improves];[1]]
+There is a problem with dust entering the camera when switching lenses .	1
+[[6&&dust];[9&&camera];[7&&entering];[4&&problem];[-1]]
+I was set to purchase the Canon XTI when an acquaintance I know said to her it did n't give the image quality she thought it should .	1
+[[7&&Canon 8&&XTI];[17&&it];[24&&image 25&&quality];[];[-1]]
+The picture quality this camera produces with just the `` point and click '' setting is amazing .	1
+[[12&&point 13&&and 14&&click];[];[2&&picture 3&&quality];[19&&amazing];[1]]
+I also found the slide switch to select playback , movie , or photo mode on previous models a little easier than the mode dial on this model , but I 've gotten used to it .	1
+[[5&&slide 6&&switch];[24&&mode 25&&dial];[];[21&&easier];[1]]
+[[24&&mode 25&&dial];[5&&slide 6&&switch];[];[21&&easier];[-1]]
+The battery has always been an issue with the DR , in my opinion .	1
+[[10&&DR];[];[2&&battery];[5&&been 6&&an 7&&issue];[-1]]
+I have a CANON EOS1 which I purchased in Germany in 1991 and I can use my lens with the Rebel .	1
+[[4&&CANON 5&&EOS1];[21&&Rebel];[16&&use];[19&&with];[0]]
+I have an SB-800 , and the camera can control it as a slave , no need to use an 800 as a master as the D80 does it !	1
+[[4&&SB 5&&- 6&&800];[29&&D80];[10&&camera];[12&&control];[1]]
+They called and said that it would cost me 647.00 to fix it . .	0
+[[];[];[];[];[]]
+Also , the SD slot supports the ` new ' SDHD standard ... basically , up to 32 gigs on a card .	1
+[[4&&SD 5&&slot];[];[6&&support];[6&&supports];[1]]
+[[4&&SD 5&&slot];[];[];[18&&up 19&&to 20&&32 21&&gigs];[1]]
+There is a learning curve of course , but with a camera like this I have found learning comes very easily and you make great photographs along the way !	1
+[[12&&camera 13&&like 14&&this];[];[4&&learning];[21&&easily];[1]]
+[[];[];[26&&photographs];[25&&great];[1]]
+The Canon battery grip can accomodate 2 extra rechargeable batteries or 6 AA batteries .	1
+[[2&&Canon 3&&battery 4&&grip];[7&&2 8&&extra 9&&rechargeable 10&&batteries];[5&&can 6&&accomodate];[];[1]]
+[[2&&Canon 3&&battery 4&&grip];[12&&6 13&&AA 14&&batteries];[5&&can 6&&accomodate];[];[1]]
+I 'd use as low as an Ultra II at minimum .	1
+[[9&&Ultra 10&&II];[];[];[];[1]]
+The Bottom Line I 'm getting the best pics in my many years of taking many thousands of pics .	1
+[[4&&I];[];[10&&pics];[];[1]]
+I find this camera to be of the highest quality .	1
+[[3&&this 4&&camera];[];[10&&quality];[9&&highest];[1]]
+I did everything I could to adjust the underexposure and nothing worked .	1
+[[1&&I];[11&&nothing];[];[12&&worked];[-1]]
+The command dials are perfect .	0
+[[];[];[];[];[]]
+It 's not as bulky as a SLR and it has a few more functions and nicer image quality you would expect from a small compact camera .	1
+[[1&&it];[8&&a 9&&SLR];[6&&bulky];[5&&as];[-1]]
+[[1&&it];[];[16&&functions];[15&&more];[1]]
+[[1&&it];[];[19&&image 20&&quality];[18&&nicer];[1]]
+I used a wide-angle adapter on my s500 so being the photojournalist I do love wide angle lenses .	1
+[[4&&wide 5&&- 6&&angle 7&&adapter];[10&&s500];[14&&photojournalist];[17&&love];[1]]
+I do n't recall if I mentioned this earlier but the menu buttons on the D200 are much larger than on the D1X .	1
+[[18&&D200];[25&&D1X];[14&&menu 15&&buttons];[21&&larger];[1]]
+You can not expect Sony to launch everything at once .	1
+[[5&&Sony];[];[];[];[]]
+A Few Concerns Six hundred bucks is a pretty stiff tariff , more expensive than the excellent Pentax K100D dSLR I tested last summer .	1
+[[4&&Six 5&&hundred 6&&bucks];[18&&Pentax 19&&K100D 20&&dSLR];[];[13&&more 14&&expensive];[-1]]
+Like the rest of the SD series cameras , there is no RAW format option .	1
+[[6&&SD 7&&series 8&&cameras];[];[13&&RAW 14&&format 15&&option];[12&&no];[-1]]
+I can , however give an unbiased impression of the Rebel XT because I have never owned a Canon lens nor a Nikon lens prior to this venture into Digital SLR .	0
+[[];[];[];[];[]]
+Especially the Focus ring ... MUCH more precise .	1
+[[3&&Focus 4&&ring];[];[];[9&&more 10&&precise];[1]]
+Image quality difference between the Rebel XT and the 20D is non-existent in my amateur eyes .	1
+[[6&&Rebel 7&&XT];[10&&20D];[1&&Image 2&&quality 3&&difference];[12&&non 13&&- 14&&existent];[0]]
+But I think it 's increased durability and weather sealing makes me comfortable about going for the shot .	1
+[[7&&increased 8&&durability];[];[8&&durability];[];[1]]
+[[10&&weather 11&&sealing];[];[10&&weather 11&&sealing];[];[1]]
+The zoom is a bit noisier than the other three cameras I tested .	1
+[[2&&zoom];[9&&other 10&&three 11&&cameras];[];[6&&noisier];[-1]]
+Yes the camera is bigger and bulky but that 's the price you pay for much better quality pictures !	1
+[[3&&camera];[];[];[5&&bigger];[-1]]
+[[3&&camera];[];[19&&quality];[18&&better];[1]]
+I had owned a Kodak Easy Share digital , but wanted something that would do more and we found it with the Canon Rebel .	1
+[[5&&Kodak 6&&Easy 7&&Share 8&&digital];[23&&Canon 24&&Rebel];[15&&do];[16&&more];[1]]
+For professionals , this camera makes a great backup D-SLR , and is easier to take around than the 20D , and still has the same image quality .	1
+[[4&&this 5&&camera];[21&&the 22&&20D];[];[16&&easier];[1]]
+[[4&&this 5&&camera];[21&&the 22&&20D];[29&&image 30&&quality];[28&&same];[0]]
+It is not too big like the 1DS Mark II , nor is it too small like the XT and XTi .	1
+[[8&&1DS 9&&Mark 10&&II];[19&&XT];[];[];[-1]]
+[[19&&XT];[21&&XTi];[];[];[-1]]
+The camera has focus lock , which is great if you can get the object in question in focus , but what about something behind a fence , net , gate , etc ?	1
+[[4&&focus 5&&lock];[];[4&&focus];[9&&great];[1]]
+[[24&&something 25&&behind 26&&a 27&&fence 28&&, 29&&net 30&&, 31&&gate 32&&, 33&&etc];[];[4&&focus];[];[-1]]
+This camera is easier to use than my first two ` point and shoots ' yet fully controllable now that I 've moved to SLR equipment .	1
+[[1&&This 2&&camera];[8&&my 9&&first 10&&two 12&&point 13&&and 14&&shoots];[];[4&&easier];[1]]
+Compared to the , the weight and substantiveness of this camera makes it feel more quality and professional .	1
+[[10&&this 11&&camera];[3&&the];[6&&weight];[15&&more];[1]]
+[[10&&this 11&&camera];[3&&the];[8&&substantiveness];[15&&more];[1]]
+[[10&&this 11&&camera];[3&&the];[16&&quality];[15&&more];[1]]
+[[10&&this 11&&camera];[3&&the];[18&&professional];[15&&more];[]]
+USB 2.0 is 57 times FASTER than the previous version of USB .	1
+[[1&&USB 2&&2 3&&. 4&&0];[10&&the 11&&previous 12&&version 13&&of 14&&USB];[];[8&&FASTER];[1]]
+Canon keeps putting the same old controls on every camera they make .	1
+[[1&&Canon];[9&&every 10&&camera 11&&they 12&&make];[7&&controls];[5&&same 6&&old];[]]
+All USB and charging cables , and expandable memory media is all the same ; so virtually it is just the camera that has changed .	1
+[[2&&USB 3&&and 4&&charging 5&&cables];[8&&expandable 9&&memory 10&&media];[12&&all 13&&the 14&&same];[14&&same];[0]]
+[[22&&camera];[];[];[25&&changed];[2]]
+Compared to a cheaper compact camera with half the amount of pixels there was nothing outstanding about the Canon EOS 350D in 6x4 print size .	1
+[[19&&Canon 20&&EOS 21&&350D];[4&&cheaper 5&&compact 6&&camera];[15&&nothing 16&&outstanding 17&&about];[];[-1]]
+I 'm not saying that the pictures were horrible , but in an 8 by 10 photo , you 'll notice the shake if you get close enough , although from 8 inches or farther away , it 's practically invisible .	1
+[[8&&pictures];[10&&horrible];[25&&shake];[];[-1]]
+[[25&&shake];[44&&invisible];[];[];[-1]]
+But you got ta love that wide angle lens .	0
+[[];[];[];[];[]]
+Another tidbit is that the D80 does n't have that slightly soft focus the D200 and previous models share .	1
+[[6&&D80];[17&&D200 18&&and 19&&previous 20&&models];[15&&focus];[14&&soft];[-1]]
+It also seems to me that when Canon rolled out the 400D they are quietly stating that they will eventually remove the XT from the lineup .	1
+[[8&&Canon];[23&&XT];[26&&lineup];[21&&remove];[-1]]
+But when compared to professional bodies such as the F5 , or the D2x , the D200 is compact , and light .	1
+[[17&&D200];[5&&professional 6&&bodies];[19&&compact];[];[1]]
+[[17&&D200];[5&&professional 6&&bodies];[22&&light];[];[]]
+Naturally , that improves setting speed greatly and allows to focus more on the picture .	1
+[[3&&that];[];[5&&setting 6&&speed];[4&&improves];[1]]
+[[3&&that];[];[15&&picture];[9&&allows 10&&to 11&&focus 12&&more 13&&on];[1]]
+I paid $ 20,000 for Canon 's digital camera with 6MP with inferior results .	1
+[[3&&$ 4&&20 5&&, 6&&000];[8&&Canon 9&&' 10&&s 11&&digital 12&&camera 13&&with 14&&6MP];[17&&results];[16&&inferior];[-1]]
+Previously owning a D50 and using a D200 for a month ( my Dad 's ) the D80 is closer to the D200 as far as functionality and overall picture quality , even though it 's almost $ 400 less than the D200 .	1
+[[19&&D80];[8&&D200];[28&&functionality];[21&&closer];[1]]
+[[19&&D80];[8&&D200];[30&&overall 31&&picture 32&&quality];[21&&closer];[1]]
+I am a photographic enthusiast .	0
+[[];[];[];[];[]]
+I found two acceptable choices .	0
+[[];[];[];[];[]]
+You can see your mistakes before paying for processing . .	0
+[[];[];[];[];[]]
+For the price of a Zeiss or G lens , you can buy a Canon Image Stabilized ( IS ) L-series lens or a Nikon VR ( vibration reduction ) G-series lens AND STILL KEEP SOME HEFTY CHANGE .	1
+[[6&&Zeiss 7&&or 8&&G 9&&lens];[15&&Canon 16&&Image 17&&Stabilized 18&&( 19&&IS 20&&) 21&&L 22&&- 23&&series 24&&lens];[3&&price];[];[1]]
+[[6&&Zeiss 7&&or 8&&G 9&&lens];[27&&Nikon 28&&VR 29&&( 30&&vibration 31&&reduction 32&&) 33&&G 34&&- 35&&series 36&&lens];[3&&price];[];[1]]
+[[15&&Canon 16&&Image 17&&Stabilized 18&&( 19&&IS 20&&) 21&&L 22&&- 23&&series 24&&lens];[27&&Nikon 28&&VR 29&&( 30&&vibration 31&&reduction 32&&) 33&&G 34&&- 35&&series 36&&lens];[3&&price];[];[1]]
+Although robust , the SD700 will not replace a camcorder anytime soon .	1
+[[5&&SD700];[10&&camcorder];[2&&robust];[7&&not 8&&replace];[-1]]
+I suspect that Canon decided not to do any noise reduction for the live preview ( possibly to not obscure details or possibly to reduce lag in the display ) .	1
+[[4&&Canon];[];[10&&noise 11&&reduction];[6&&not 8&&do];[-1]]
+[[4&&Canon];[];[14&&live 15&&preview];[19&&not 20&&obscure 21&&details];[1]]
+[[4&&Canon];[];[14&&live 15&&preview];[25&&reduce 26&&lag 27&&in 28&&the 29&&display];[1]]
+It 's less bulky , less heavy and at the same time feels very sturdy .	1
+[[4&&less 5&&bulky];[7&&less 8&&heavy];[5&&bulky];[4&&less];[-1]]
+[[4&&less 5&&bulky];[7&&less 8&&heavy];[8&&heavy];[4&&less];[-1]]
+[[4&&less 5&&bulky];[7&&less 8&&heavy];[16&&sturdy];[14&&feels];[1]]
+I wish mirror lock-up was easier to do .	1
+[[3&&mirror 4&&lock 5&&- 6&&up];[];[];[8&&easier];[1]]
+The viewfinder of the D200 may be the single most improved area at this price point .	1
+[[5&&D200];[];[2&&viewfinder];[11&&improved];[1]]
+The hot shoe in the G7 is useful for a more powerful flash and a better position to reduce red eye .	1
+[[6&&G7];[];[2&&hot 3&&shoe];[8&&useful];[1]]
+[[6&&G7];[];[13&&flash];[11&&more 12&&powerful];[1]]
+[[6&&G7];[];[17&&position];[16&&better];[1]]
+While trying to take pictures of my child , it became painfully obvious that I needed to replace these P&S digital cameras .	1
+[[19&&these 20&&P 21&&& 22&&S 23&&digital 24&&cameras];[];[];[12&&painfully 13&&obvious];[-1]]
+The integrated flash can be used to trigger remote slave flashes as well .	1
+[[2&&integrated 3&&flash];[9&&remote 10&&slave 11&&flashes];[6&&use];[5&&be 6&&used];[0]]
+I get better results off my much older Sony Cybershot DSP-70 .	1
+[[1&&I];[6&&my 7&&much 8&&older 9&&Sony 10&&Cybershot 11&&DSP 12&&- 13&&70];[4&&results];[3&&better];[1]]
+I recently gave up my Sony F-707 for this DSLR , my entry into SLR photograhy for this year .	1
+[[6&&Sony 7&&F 8&&- 9&&707];[11&&this 12&&DSLR];[15&&entry 16&&into 17&&SLR 18&&photograhy];[3&&gave 4&&up];[-1]]
+I use it right now for sport games and it works very well even in low light .	1
+[[3&&it];[];[11&&works];[13&&well];[1]]
+[[3&&it];[];[];[];[1]]
+Noise is not an issue until you get to ISO 400 but at ISO 400 , the noise is not really an issue .	1
+[[10&&ISO 11&&400];[];[1&&noise];[3&&not 4&&an 5&&issue];[-1]]
+[[10&&ISO 11&&400];[];[1&&noise];[20&&not 21&&really 22&&an 23&&issue];[1]]
