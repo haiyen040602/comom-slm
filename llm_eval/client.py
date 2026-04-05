@@ -1,4 +1,3 @@
-import copy
 import os
 import re
 import time
@@ -79,7 +78,9 @@ class HuggingFaceLocalClient(BaseLLMClient):
         self.model_name = model
 
         model_dtype = None
-        if dtype == "float16":
+        if dtype == "auto" and torch.cuda.is_available():
+            model_dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
+        elif dtype == "float16":
             model_dtype = torch.float16
         elif dtype == "bfloat16":
             model_dtype = torch.bfloat16
@@ -110,11 +111,23 @@ class HuggingFaceLocalClient(BaseLLMClient):
         self.model = AutoModelForCausalLM.from_pretrained(model, **model_kwargs)
         self.model.eval()
 
+        if torch.cuda.is_available():
+            torch.backends.cudnn.benchmark = True
+
         if hasattr(self.tokenizer, "padding_side"):
             self.tokenizer.padding_side = "left"
 
         if self.tokenizer.pad_token_id is None and self.tokenizer.eos_token_id is not None:
             self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
+
+        if hasattr(self.model, "generation_config"):
+            self.model.generation_config.do_sample = self.temperature > 0
+            if self.temperature > 0:
+                self.model.generation_config.temperature = self.temperature
+            else:
+                for attr in ("temperature", "top_p", "top_k", "typical_p", "min_p"):
+                    if hasattr(self.model.generation_config, attr):
+                        setattr(self.model.generation_config, attr, None)
 
     def _input_device(self):
         if hasattr(self.model, "device"):
@@ -133,20 +146,6 @@ class HuggingFaceLocalClient(BaseLLMClient):
 
         if do_sample:
             gen_kwargs["temperature"] = self.temperature
-            return gen_kwargs
-
-        generation_config = copy.deepcopy(self.model.generation_config)
-        generation_config.do_sample = False
-        for attr, value in (
-            ("temperature", 1.0),
-            ("top_p", 1.0),
-            ("top_k", 50),
-            ("typical_p", 1.0),
-            ("min_p", None),
-        ):
-            if hasattr(generation_config, attr):
-                setattr(generation_config, attr, value)
-        gen_kwargs["generation_config"] = generation_config
         return gen_kwargs
 
     def _messages_to_prompt(self, messages: List[Dict[str, str]]) -> str:
