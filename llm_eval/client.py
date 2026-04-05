@@ -1,5 +1,4 @@
 import os
-import re
 import time
 from typing import Dict, List
 
@@ -92,11 +91,6 @@ class HuggingFaceLocalClient(BaseLLMClient):
         if torch.cuda.is_available():
             model_kwargs["attn_implementation"] = "sdpa"
 
-            # Small models are often faster on a single T4 than when sharded across 2 GPUs.
-            match = re.search(r"(\d+(?:\.\d+)?)b", model.lower())
-            if match and float(match.group(1)) <= 4.5 and torch.cuda.device_count() > 1 and not load_in_4bit:
-                model_kwargs["device_map"] = {"": 0}
-
         if load_in_4bit:
             from transformers import BitsAndBytesConfig
             compute_dtype = model_dtype if model_dtype is not None else torch.float16
@@ -150,6 +144,19 @@ class HuggingFaceLocalClient(BaseLLMClient):
 
     def _messages_to_prompt(self, messages: List[Dict[str, str]]) -> str:
         if hasattr(self.tokenizer, "apply_chat_template"):
+            # Qwen3 and similar reasoning models support enable_thinking=False to
+            # skip the <think>...</think> chain-of-thought block, which is critical
+            # for extraction tasks where the thinking tokens waste most of the
+            # max_new_tokens budget while contributing nothing to the output.
+            try:
+                return self.tokenizer.apply_chat_template(
+                    messages,
+                    tokenize=False,
+                    add_generation_prompt=True,
+                    enable_thinking=False,
+                )
+            except TypeError:
+                pass
             return self.tokenizer.apply_chat_template(
                 messages,
                 tokenize=False,
