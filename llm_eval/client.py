@@ -170,13 +170,11 @@ class HuggingFaceLocalClient(BaseLLMClient):
 
         results: List[str] = []
         input_ids = encoded["input_ids"]
-        attention_mask = encoded.get("attention_mask")
+        # For decoder-only generation, generated tokens start after the padded input length
+        # (same for all rows in a batch), not after each row's non-pad token count.
+        prompt_len = input_ids.shape[1]
 
         for i in range(output_ids.shape[0]):
-            if attention_mask is not None:
-                prompt_len = int(attention_mask[i].sum().item())
-            else:
-                prompt_len = input_ids.shape[1]
             gen_ids = output_ids[i][prompt_len:]
             text = self.tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
             results.append(text)
