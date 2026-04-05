@@ -11,6 +11,8 @@ Vì vậy, bài viết sẽ giúp bạn so sánh iPhone và điện thoại Sams
 Thiết kế	Thiết kế
 
 Nếu bạn là người thường xuyên theo dõi thị trường điện thoại, bạn sẽ dễ dàng nhận ra cả Apple và Samsung đều có hướng phát triển khác nhau nên các sản phẩm sẽ có sự khác biệt, rõ rệt nhất là về thiết kế vẻ ngoài.	Nếu bạn là người thường xuyên theo dõi thị trường điện thoại , bạn sẽ dễ dàng nhận ra cả Apple và Samsung đều có hướng phát triển khác nhau nên các sản phẩm sẽ có sự khác biệt , rõ rệt nhất là về thiết kế vẻ ngoài .
+{"subject": ["32&&các", "33&&sản", "34&&phẩm"], "object": ["32&&các", "33&&sản", "34&&phẩm"], "aspect": ["46&&thiết", "47&&kế", "48&&vẻ", "49&&ngoài"], "predicate": ["38&&khác", "39&&biệt"], "label": "DIF"}
+{"subject": ["21&&Apple"], "object": ["23&&Samsung"], "aspect": ["26&&hướng", "27&&phát", "28&&triển"], "predicate": ["29&&khác", "30&&nhau"], "label": "DIF"}
 
 - Vẻ ngoài của iPhone được phát triển theo hướng  thiết kế nhôm nguyên khối , cứng cáp, các góc cạnh bo tròn cho người dùng phong cách tinh tế, thanh lịch tuy vô cùng đơn giản.	- Vẻ ngoài của iPhone được phát triển theo hướng thiết kế nhôm nguyên khối , cứng cáp , các góc cạnh bo tròn cho người dùng phong cách tinh tế , thanh lịch tuy vô cùng đơn giản .
 
@@ -21,12 +23,14 @@ alt: iPhone nổi bật với thiết kế nhôm nguyên khối cứng cáp	alt 
 des: iPhone nổi bật với thiết kế nhôm nguyên khối cứng cáp	des : iPhone nổi bật với thiết kế nhôm nguyên khối cứng cáp
 
 - Trái ngược với iPhone, thiết kế của điện thoại Samsung  thường xuyên được cập nhật  bởi lẽ hãng đặc biệt chú ý đến sự sáng tạo trong thiết kế, ưu tiên thay đổi mẫu mã qua từng sản phẩm nhằm tạo ra sự đa dạng, tối ưu hóa các lựa chọn cho người dùng.	- Trái ngược với iPhone , thiết kế của điện thoại Samsung thường xuyên được cập nhật bởi lẽ hãng đặc biệt chú ý đến sự sáng tạo trong thiết kế , ưu tiên thay đổi mẫu mã qua từng sản phẩm nhằm tạo ra sự đa dạng , tối ưu hóa các lựa chọn cho người dùng .
+{"subject": ["12&&Samsung"], "object": ["5&&iPhone"], "aspect": ["7&&thiết", "8&&kế"], "predicate": ["2&&Trái", "3&&ngược"], "label": "DIF"}
 
 alt: Thiết kế bóng bẩy là hướng phát triển trong thiết kế của điện thoại Samsung	alt : Thiết kế bóng bẩy là hướng phát triển trong thiết kế của điện thoại Samsung
 
 des: Thiết kế bóng bẩy là hướng phát triển trong thiết kế của điện thoại Samsung	des : Thiết kế bóng bẩy là hướng phát triển trong thiết kế của điện thoại Samsung
 
 Tóm lại, về thiết kế, cả hai hãng đều có hướng phát triển khác nhau ứng với phong cách riêng của mình, vì vậy phân khúc khách hàng của cả hai cũng không giống nhau.	Tóm lại , về thiết kế , cả hai hãng đều có hướng phát triển khác nhau ứng với phong cách riêng của mình , vì vậy phân khúc khách hàng của cả hai cũng không giống nhau .
+{"subject": ["33&&cả", "34&&hai"], "object": ["33&&cả", "34&&hai"], "aspect": ["28&&phân", "29&&khúc", "30&&khách", "31&&hàng"], "predicate": ["36&&không", "37&&giống", "38&&nhau"], "label": "DIF"}
 
 Bạn có thể lựa chọn điện thoại thông qua thiết kế tùy vào sở thích của bạn.	Bạn có thể lựa chọn điện thoại thông qua thiết kế tùy vào sở thích của bạn .
 
@@ -45,6 +49,10 @@ alt: Công nghệ màn hình IPS cho hình ảnh hiển thị chân thực	alt :
 des: Công nghệ màn hình IPS cho hình ảnh hiển thị chân thực	des : Công nghệ màn hình IPS cho hình ảnh hiển thị chân thực
 
 - Màn hình trên điện thoại Samsung được trang bị công nghệ  Super AMOLED , cho hình ảnh hiển thị màu đen sâu hơn,  tiết kiệm năng lượng hơn  khi hiển thị các chi tiết trên nền đen cùng màu sắc tươi tắn và  nịnh mắt .	- Màn hình trên điện thoại Samsung được trang bị công nghệ Super AMOLED , cho hình ảnh hiển thị màu đen sâu hơn , tiết kiệm năng lượng hơn khi hiển thị các chi tiết trên nền đen cùng màu sắc tươi tắn và nịnh mắt .
+{"subject": ["2&&Màn", "3&&hình", "4&&trên", "5&&điện", "6&&thoại", "7&&Samsung"], "object": [], "aspect": ["17&&hình", "18&&ảnh"], "predicate": ["19&&hiển", "20&&thị", "21&&màu", "22&&đen", "23&&sâu", "24&&hơn"], "label": "COM+"}
+{"subject": ["2&&Màn", "3&&hình", "4&&trên", "5&&điện", "6&&thoại", "7&&Samsung"], "object": [], "aspect": [], "predicate": ["26&&tiết", "27&&kiệm", "28&&năng", "29&&lượng", "30&&hơn"], "label": "COM+"}
+{"subject": ["7&&Samsung"], "object": [], "aspect": ["2&&Màn", "3&&hình"], "predicate": ["17&&hình", "18&&ảnh", "19&&hiển", "20&&thị", "21&&màu", "22&&đen", "23&&sâu", "24&&hơn"], "label": "COM+"}
+{"subject": ["7&&Samsung"], "object": [], "aspect": ["2&&Màn", "3&&hình"], "predicate": ["26&&tiết", "27&&kiệm", "28&&năng", "29&&lượng", "30&&hơn"], "label": "COM+"}
 
 alt: Samsung trang bị màn hình Super AMOLED cho màu sắc tươi mắt	alt : Samsung trang bị màn hình Super AMOLED cho màu sắc tươi mắt
 
@@ -69,6 +77,10 @@ des: Camera của iPhone luôn được nhớ đến với độ chân thực v�
 - Điện thoại Samsung có khẩu độ lớn, được tích hợp nhiều tính năng chỉnh tay chuyên nghiệp nhằm cho ra đời nhiều bức ảnh có màu sắc và chi tiết tốt hơn.	- Điện thoại Samsung có khẩu độ lớn , được tích hợp nhiều tính năng chỉnh tay chuyên nghiệp nhằm cho ra đời nhiều bức ảnh có màu sắc và chi tiết tốt hơn .
 
 Ngoài ra, ảnh chụp đêm từ những chiếc điện thoại của Samsung cũng cho độ sáng cao hơn, màu sắc ảnh hài hòa hơn.	Ngoài ra , ảnh chụp đêm từ những chiếc điện thoại của Samsung cũng cho độ sáng cao hơn , màu sắc ảnh hài hòa hơn .
+{"subject": ["8&&những", "9&&chiếc", "10&&điện", "11&&thoại", "12&&của", "13&&Samsung"], "object": [], "aspect": ["4&&ảnh", "5&&chụp", "6&&đêm"], "predicate": ["16&&độ", "17&&sáng", "18&&cao", "19&&hơn"], "label": "COM+"}
+{"subject": ["8&&những", "9&&chiếc", "10&&điện", "11&&thoại", "12&&của", "13&&Samsung"], "object": [], "aspect": ["4&&ảnh", "5&&chụp", "6&&đêm"], "predicate": ["21&&màu", "22&&sắc", "23&&ảnh", "24&&hài", "25&&hòa", "26&&hơn"], "label": "COM+"}
+{"subject": ["4&&ảnh", "5&&chụp", "6&&đêm", "7&&từ", "8&&những", "9&&chiếc", "10&&điện", "11&&thoại", "12&&của", "13&&Samsung"], "object": [], "aspect": ["16&&độ", "17&&sáng"], "predicate": ["18&&cao", "19&&hơn"], "label": "COM+"}
+{"subject": ["4&&ảnh", "5&&chụp", "6&&đêm", "7&&từ", "8&&những", "9&&chiếc", "10&&điện", "11&&thoại", "12&&của", "13&&Samsung"], "object": [], "aspect": ["21&&màu", "22&&sắc", "23&&ảnh"], "predicate": ["24&&hài", "25&&hòa", "26&&hơn"], "label": "COM+"}
 
 alt: Camera Samsung được tích hợp nhiều tính năng chỉnh sửa chuyên nghiệp	alt : Camera Samsung được tích hợp nhiều tính năng chỉnh sửa chuyên nghiệp
 
@@ -89,6 +101,8 @@ alt: Hiệu năng của iPhone luôn được đánh giá cao trên thị trư�
 des: Hiệu năng của iPhone luôn được đánh giá cao trên thị trường điện thoại	des : Hiệu năng của iPhone luôn được đánh giá cao trên thị trường điện thoại
 
 Tuy vậy, Samsung cũng không hề kém cạnh vì điện thoại của hãng vẫn đứng đầu so với các dòng  điện thoại Android  khác, hiệu năng của Samsung đủ để đáp ứng nhu cầu sử dụng từ cơ bản đến nâng cao.	Tuy vậy , Samsung cũng không hề kém cạnh vì điện thoại của hãng vẫn đứng đầu so với các dòng điện thoại Android khác , hiệu năng của Samsung đủ để đáp ứng nhu cầu sử dụng từ cơ bản đến nâng cao .
+{"subject": ["4&&Samsung"], "object": [], "aspect": ["27&&hiệu", "28&&năng"], "predicate": ["6&&không", "7&&hề", "8&&kém", "9&&cạnh"], "label": "EQL"}
+{"subject": ["11&&điện", "12&&thoại", "13&&của", "14&&hãng"], "object": [], "aspect": [], "predicate": ["16&&đứng", "17&&đầu", "18&&so", "19&&với", "20&&các", "21&&dòng", "22&&điện", "23&&thoại", "24&&Android", "25&&khác"], "label": "SUP+"}
 
 Ngoài ra, bạn có thể  mở rộng bộ nhớ  qua khe cắm  thẻ nhớ  vô cùng tiện lợi và hữu ích.	Ngoài ra , bạn có thể mở rộng bộ nhớ qua khe cắm thẻ nhớ vô cùng tiện lợi và hữu ích .
 
@@ -101,14 +115,17 @@ des: Hiệu năng của Samsung vẫn đứng top so với các dòng điện th
 Dung lượng pin và sạc	Dung lượng pin và sạc
 
 Thời lượng sử dụng pin đều không phải là ưu điểm của cả iPhone và điện thoại Samsung trong những năm trở lại đây trên thị trường.	Thời lượng sử dụng pin đều không phải là ưu điểm của cả iPhone và điện thoại Samsung trong những năm trở lại đây trên thị trường .
+{"subject": ["14&&iPhone"], "object": ["16&&điện", "17&&thoại", "18&&Samsung"], "aspect": ["1&&Thời", "2&&lượng", "3&&sử", "4&&dụng", "5&&pin"], "predicate": ["6&&đều", "7&&không", "8&&phải", "9&&là", "10&&ưu", "11&&điểm"], "label": "EQL"}
 
 Vì vậy, khi so sánh yếu tố này, bạn sẽ thấy có sự đồng đều giữa iPhone và điện thoại Samsung.	Vì vậy , khi so sánh yếu tố này , bạn sẽ thấy có sự đồng đều giữa iPhone và điện thoại Samsung .
+{"subject": ["19&&iPhone"], "object": ["21&&điện", "22&&thoại", "23&&Samsung"], "aspect": [], "predicate": ["16&&đồng", "17&&đều"], "label": "EQL"}
 
 alt: Dung lượng pin và sạc không phải là điểm mạnh của iPhone và Samsung	alt : Dung lượng pin và sạc không phải là điểm mạnh của iPhone và Samsung
 
 des: Dung lượng pin và sạc không phải là điểm mạnh của iPhone và Samsung	des : Dung lượng pin và sạc không phải là điểm mạnh của iPhone và Samsung
 
 Tuy pin của cả 2 hãng đều không quá ấn tượng nhưng các sản phẩm của cả 2 thương hiệu hoàn toàn đủ khả năng đáp ứng nhu cầu sử dụng của bạn  trong một ngày .	Tuy pin của cả 2 hãng đều không quá ấn tượng nhưng các sản phẩm của cả 2 thương hiệu hoàn toàn đủ khả năng đáp ứng nhu cầu sử dụng của bạn trong một ngày .
+{"subject": ["4&&cả", "5&&2", "6&&hãng"], "object": ["4&&cả", "5&&2", "6&&hãng"], "aspect": ["2&&pin"], "predicate": ["7&&đều", "8&&không", "9&&quá", "10&&ấn", "11&&tượng"], "label": "EQL"}
 
 Vì vậy, pin không phải là yếu tố hàng đầu khi đặt lên bàn so sánh 2 hãng điện thoại lớn này.	Vì vậy , pin không phải là yếu tố hàng đầu khi đặt lên bàn so sánh 2 hãng điện thoại lớn này .
 
@@ -119,6 +136,7 @@ Các đặc điểm, tính năng nổi bật nhất	Các đặc điểm , tính 
 Với iPhone	Với iPhone
 
 - iPhone là chiếc điện thoại luôn đi đầu về hiệu năng trên toàn thế giới.	- iPhone là chiếc điện thoại luôn đi đầu về hiệu năng trên toàn thế giới .
+{"subject": ["2&&iPhone"], "object": [], "aspect": ["11&&hiệu", "12&&năng"], "predicate": ["8&&đi", "9&&đầu"], "label": "SUP+"}
 
 Ngoài ra, hệ điều hành iOS độc quyền của Apple luôn được tối ưu hóa, cho mọi trải nghiệm luôn được ổn định và mượt mà.	Ngoài ra , hệ điều hành iOS độc quyền của Apple luôn được tối ưu hóa , cho mọi trải nghiệm luôn được ổn định và mượt mà .
 
@@ -139,6 +157,7 @@ Với Samsung	Với Samsung
 - Bộ nhớ khủng nhờ vào khe cắm lớn và bộ nhớ bổ sung là 1 điểm cộng cực lớn của Samsung.	- Bộ nhớ khủng nhờ vào khe cắm lớn và bộ nhớ bổ sung là 1 điểm cộng cực lớn của Samsung .
 
 - Kích cỡ màn hình của điện thoại Samsung cũng có phần lớn hơn do không có phần tai thỏ, diện tích hiển thị được tối ưu rất nhiều.	- Kích cỡ màn hình của điện thoại Samsung cũng có phần lớn hơn do không có phần tai thỏ , diện tích hiển thị được tối ưu rất nhiều .
+{"subject": ["7&&điện", "8&&thoại", "9&&Samsung"], "object": [], "aspect": ["2&&Kích", "3&&cỡ", "4&&màn", "5&&hình"], "predicate": ["11&&có", "12&&phần", "13&&lớn", "14&&hơn"], "label": "COM+"}
 
 - Một vài dòng cao cấp như  Galaxy Z Fold 3  mới có thể tích hợp với bút S Pen, hỗ trợ hoàn thành công việc nhanh chóng và dễ dàng hơn.	- Một vài dòng cao cấp như Galaxy Z Fold 3 mới có thể tích hợp với bút S Pen , hỗ trợ hoàn thành công việc nhanh chóng và dễ dàng hơn .
 
@@ -173,6 +192,7 @@ Tuy vậy, nếu bạn nhắm đến sản phẩm có các tính năng khủng, 
 Giá iPhone và điện thoại Samsung dao động bao nhiêu?	Giá iPhone và điện thoại Samsung dao động bao nhiêu ?
 
 Nếu đem ra so sánh trên thị trường, những chiếc iPhone luôn có mức giá cao hơn những chiếc điện thoại Samsung cùng phân khúc khá nhiều.	Nếu đem ra so sánh trên thị trường , những chiếc iPhone luôn có mức giá cao hơn những chiếc điện thoại Samsung cùng phân khúc khá nhiều .
+{"subject": ["10&&những", "11&&chiếc", "12&&iPhone"], "object": ["19&&những", "20&&chiếc", "21&&điện", "22&&thoại", "23&&Samsung", "24&&cùng", "25&&phân", "26&&khúc"], "aspect": ["15&&mức", "16&&giá"], "predicate": ["17&&cao", "18&&hơn", "19&&những", "20&&chiếc", "21&&điện", "22&&thoại", "23&&Samsung", "24&&cùng", "25&&phân", "26&&khúc", "27&&khá", "28&&nhiều"], "label": "COM-"}
 
 10.	10 .
 

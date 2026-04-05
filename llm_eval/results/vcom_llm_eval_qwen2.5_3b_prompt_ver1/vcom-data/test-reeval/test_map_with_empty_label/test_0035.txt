@@ -1,0 +1,203 @@
+title: iPhone 14 Pro Max vs Galaxy Z Fold 4: Cuộc đụng độ của những gã nhà giàu	title : iPhone 14 Pro Max vs Galaxy Z Fold 4 : Cuộc đụng độ của những gã nhà giàu
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4	So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4
+{"subject": ["5&&iPhone", "6&&14", "7&&Pro", "8&&Max"], "object": ["10&&Galaxy", "11&&Z", "12&&Fold", "13&&4"], "aspect": [], "predicate": [], "label": ""}
+
+Nếu chỉ tính trên phương diện smartphone thương mại, iPhone 14 Pro Max và Galaxy Z Fold 4 đang là hai cái tên đắt đỏ nhất thị trường hiện nay.	Nếu chỉ tính trên phương diện smartphone thương mại , iPhone 14 Pro Max và Galaxy Z Fold 4 đang là hai cái tên đắt đỏ nhất thị trường hiện nay .
+{"subject": ["11&&iPhone", "12&&14", "13&&Pro", "14&&Max"], "object": ["16&&Galaxy", "17&&Z", "18&&Fold", "19&&4"], "aspect": [], "predicate": ["25&&đắt", "26&&đỏ", "27&&nhất"], "label": "COM+"}
+
+Vậy giữa hai mẫu điện thoại đứng đầu về giá trị của Android và iOS, đâu là chiếc smartphone tốt hơn?	Vậy giữa hai mẫu điện thoại đứng đầu về giá trị của Android và iOS , đâu là chiếc smartphone tốt hơn ?
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Cùng mình khám phá trong bài viết này nhé!	Cùng mình khám phá trong bài viết này nhé !
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4	alt : So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+iPhone 14 Pro Max tại Apple Store	iPhone 14 Pro Max tại Apple Store
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Giá bán	Giá bán
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Giá bán chính thức của Galaxy Z Fold 4 phiên bản 12GB/256GB chính hãng tại hệ thống cửa hàn XTMobile hiện rơi vào khoảng 33.690.000 đồng (cập nhật ngày 14.09.2022).	Giá bán chính thức của Galaxy Z Fold 4 phiên bản 12GB / 256GB chính hãng tại hệ thống cửa hàn XTMobile hiện rơi vào khoảng 33.690.000 đồng ( cập nhật ngày 14.09.2022 ) .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Trong khi đó, iPhone 14 Pro Max phiên bản 256GB VN/A có mức giá dự kiến là 36.990.000 đồng.	Trong khi đó , iPhone 14 Pro Max phiên bản 256GB VN / A có mức giá dự kiến là 36.990.000 đồng .
+{"subject": [], "object": [], "aspect": ["16&&mức", "17&&giá"], "predicate": ["15&&có", "16&&mức", "17&&giá", "18&&dự", "19&&kiến", "20&&là"], "label": "COM+"}
+
+Như vậy có thể thấy là khoảng cách về giá của hai mẫu smartphone là không quá đáng kể.	Như vậy có thể thấy là khoảng cách về giá của hai mẫu smartphone là không quá đáng kể .
+{"subject": ["7&&khoảng", "8&&cách"], "object": ["10&&giá"], "aspect": [], "predicate": ["16&&không", "17&&quá", "18&&đáng", "19&&kể"], "label": "EQL"}
+
+alt: Đánh giá chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4	alt : Đánh giá chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Galaxy Z Fold 4 có mức giá không quá chênh lệch với iPhone 14 Pro Max	Galaxy Z Fold 4 có mức giá không quá chênh lệch với iPhone 14 Pro Max
+{"subject": ["1&&Galaxy", "2&&Z", "3&&Fold", "4&&4"], "object": ["13&&iPhone", "14&&14", "15&&Pro", "16&&Max"], "aspect": ["6&&mức", "7&&giá"], "predicate": ["8&&không", "9&&quá", "10&&chênh", "11&&lệch"], "label": "COM+"}
+
+Thiết kế	Thiết kế
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Xét về phương diện tổng quan, iPhone 14 Pro Max hoàn toàn không có sự thay đổi nào về thiết kế mặt lưng khi những gì người dùng nhận được vẫn là một khung thép không rỉ, mặt lưng kính nhám và cụm camera hình vuông xếp gọn ở góc trên bên trái.	Xét về phương diện tổng quan , iPhone 14 Pro Max hoàn toàn không có sự thay đổi nào về thiết kế mặt lưng khi những gì người dùng nhận được vẫn là một khung thép không rỉ , mặt lưng kính nhám và cụm camera hình vuông xếp gọn ở góc trên bên trái .
+{"subject": ["8&&iPhone", "9&&14", "10&&Pro", "11&&Max"], "object": [], "aspect": ["21&&thiết", "22&&kế", "23&&mặt", "24&&lưng"], "predicate": ["12&&hoàn", "13&&toàn", "14&&không", "15&&có", "16&&sự", "17&&thay", "18&&đổi"], "label": "DIF"}
+
+Nếu có một điểm khác biệt duy nhất trên iPhone 14 Pro Max so với phiên bản tiền nhiệm thì đó là việc máy sẽ không có khe cắm SIM, tuy nhiên điều này chỉ xảy ra tại thị trường Mỹ mà thôi.	Nếu có một điểm khác biệt duy nhất trên iPhone 14 Pro Max so với phiên bản tiền nhiệm thì đó là việc máy sẽ không có khe cắm SIM , tuy nhiên điều này chỉ xảy ra tại thị trường Mỹ mà thôi .
+{"subject": ["10&&iPhone", "11&&14", "12&&Pro", "13&&Max"], "object": ["16&&phiên", "17&&bản", "18&&tiền", "19&&nhiệm"], "aspect": ["27&&có", "28&&khe", "29&&cắm", "30&&SIM"], "predicate": ["26&&không", "27&&có"], "label": "COM-"}
+{"subject": ["10&&iPhone", "11&&14", "12&&Pro", "13&&Max"], "object": ["40&&thị", "41&&trường", "42&&Mỹ"], "aspect": ["27&&có", "28&&khe", "29&&cắm", "30&&SIM"], "predicate": ["26&&không", "27&&có"], "label": "COM-"}
+
+alt: So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4: Thiết kế	alt : So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4 : Thiết kế
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+iPhone 14 Pro Max không thay đổi thiết kế mặt lưng	iPhone 14 Pro Max không thay đổi thiết kế mặt lưng
+{"subject": ["1&&iPhone", "2&&14", "3&&Pro", "4&&Max"], "object": [], "aspect": ["8&&thiết", "9&&kế", "10&&mặt", "11&&lưng"], "predicate": ["5&&không", "6&&thay", "7&&đổi"], "label": "EQL"}
+
+Ngược lại với sản phẩm của Apple, Galaxy Z Fold 4 lại có nhiều thay đổi về thiết kế bên ngoài.	Ngược lại với sản phẩm của Apple , Galaxy Z Fold 4 lại có nhiều thay đổi về thiết kế bên ngoài .
+{"subject": ["9&&Galaxy", "10&&Z", "11&&Fold", "12&&4"], "object": ["4&&sản", "5&&phẩm", "6&&của", "7&&Apple"], "aspect": ["19&&thiết", "20&&kế", "21&&bên", "22&&ngoài"], "predicate": ["14&&có", "15&&nhiều", "16&&thay", "17&&đổi"], "label": "COM+"}
+
+Cụ thể máy được giảm chiều dài và tăng độ rộng, giúp trải nghiệm cầm nắm của người dùng trở nên gọn gàng và thuận tiện hơn.	Cụ thể máy được giảm chiều dài và tăng độ rộng , giúp trải nghiệm cầm nắm của người dùng trở nên gọn gàng và thuận tiện hơn .
+{"subject": ["3&&máy"], "object": [], "aspect": ["6&&chiều", "7&&dài"], "predicate": ["5&&giảm"], "label": "COM-"}
+{"subject": ["3&&máy"], "object": [], "aspect": ["10&&độ", "11&&rộng"], "predicate": ["9&&tăng"], "label": "COM+"}
+
+Đồng thời, sự thay đổi kích thước này cũng giúp cho Z Fold 4 sở hữu màn hình ngoài rộng và dễ tương tác hơn.	Đồng thời , sự thay đổi kích thước này cũng giúp cho Z Fold 4 sở hữu màn hình ngoài rộng và dễ tương tác hơn .
+{"subject": ["13&&Z", "14&&Fold", "15&&4"], "object": [], "aspect": ["18&&màn", "19&&hình", "20&&ngoài"], "predicate": ["21&&rộng", "26&&hơn"], "label": "COM+"}
+
+Bên cạnh đó, phần khung viền được vạt phẳng và bo cong các cạnh cũng sẽ mang lại cảm giác sử dụng thoải mái, không hề bị cấn tay,	Bên cạnh đó , phần khung viền được vạt phẳng và bo cong các cạnh cũng sẽ mang lại cảm giác sử dụng thoải mái , không hề bị cấn tay ,
+{"subject": [], "object": [], "aspect": [], "predicate": ["18&&mang", "19&&lại", "20&&cảm", "21&&giác", "22&&sử", "23&&dụng", "24&&thoải", "25&&mái"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": [], "predicate": ["27&&không", "28&&hề", "29&&bị", "30&&cấn", "31&&tay"], "label": "COM+"}
+
+Màn hình	Màn hình
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Dường như việc quá chăm chút vào thiết kế bên ngoài khiến Samsung không còn đủ thời gian để cải tiến phần màn hình trong của máy.	Dường như việc quá chăm chút vào thiết kế bên ngoài khiến Samsung không còn đủ thời gian để cải tiến phần màn hình trong của máy .
+{"subject": ["13&&Samsung"], "object": [], "aspect": ["22&&phần", "23&&màn", "24&&hình", "25&&trong"], "predicate": ["14&&không", "15&&còn", "16&&đủ", "17&&thời", "18&&gian", "19&&để", "20&&cải", "21&&tiến"], "label": "COM-"}
+
+Ngoại trừ một chút thay đổi về mặt tỷ lệ, sẽ không sai khi nói rằng Z Fold 4 sở hữu chính xác màn hình của Z Fold 3.	Ngoại trừ một chút thay đổi về mặt tỷ lệ , sẽ không sai khi nói rằng Z Fold 4 sở hữu chính xác màn hình của Z Fold 3 .
+{"subject": ["18&&Z", "19&&Fold", "20&&4"], "object": ["28&&Z", "29&&Fold", "30&&3"], "aspect": ["25&&màn", "26&&hình"], "predicate": ["21&&sở", "22&&hữu", "23&&chính", "24&&xác"], "label": "EQL"}
+
+Điều này đồng nghĩa với việc chiếc smartphone này cũng sở hữu tấm nền Foldable Dynamic AMOLED 2X, tần số quét 120Hz, mật độ điểm ảnh 373 ppi nhưng đồng thời cũng giữ nguyên hai khuyết điểm lớn là phần nếp gấp màn hình và camera ẩn chưa hoạt động thực sự đủ tốt.	Điều này đồng nghĩa với việc chiếc smartphone này cũng sở hữu tấm nền Foldable Dynamic AMOLED 2X , tần số quét 120Hz , mật độ điểm ảnh 373 ppi nhưng đồng thời cũng giữ nguyên hai khuyết điểm lớn là phần nếp gấp màn hình và camera ẩn chưa hoạt động thực sự đủ tốt .
+{"subject": ["7&&chiếc", "8&&smartphone", "9&&này"], "object": [], "aspect": ["13&&tấm", "14&&nền", "15&&Foldable", "16&&Dynamic", "17&&AMOLED", "18&&2X"], "predicate": ["11&&sở", "12&&hữu"], "label": "SUP+"}
+{"subject": ["7&&chiếc", "8&&smartphone", "9&&này"], "object": [], "aspect": ["20&&tần", "21&&số", "22&&quét", "23&&120Hz"], "predicate": [], "label": "SUP+"}
+{"subject": ["7&&chiếc", "8&&smartphone", "9&&này"], "object": [], "aspect": ["25&&mật", "26&&độ", "27&&điểm", "28&&ảnh", "29&&373", "30&&ppi"], "predicate": [], "label": "SUP+"}
+{"subject": ["7&&chiếc", "8&&smartphone", "9&&này"], "object": [], "aspect": ["42&&phần", "43&&nếp", "44&&gấp", "45&&màn", "46&&hình"], "predicate": [], "label": "COM-"}
+{"subject": ["7&&chiếc", "8&&smartphone", "9&&này"], "object": [], "aspect": ["48&&camera", "49&&ẩn"], "predicate": [], "label": "COM-"}
+
+alt: So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4: Màn hình	alt : So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4 : Màn hình
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Galaxy Z Fold 4 chưa thể thay đổi nếp gấp màn hình	Galaxy Z Fold 4 chưa thể thay đổi nếp gấp màn hình
+{"subject": ["1&&Galaxy", "2&&Z", "3&&Fold", "4&&4"], "object": [], "aspect": ["9&&nếp", "10&&gấp", "11&&màn", "12&&hình"], "predicate": ["5&&chưa", "6&&thể", "7&&thay", "8&&đổi"], "label": "DIF"}
+
+Trái với Z Fold 4, những thay đổi lớn nhất của iPhone 14 Pro Max lại nằm ở chính phần màn hình.	Trái với Z Fold 4 , những thay đổi lớn nhất của iPhone 14 Pro Max lại nằm ở chính phần màn hình .
+{"subject": ["13&&iPhone", "14&&14", "15&&Pro", "16&&Max"], "object": ["3&&Z", "4&&Fold", "5&&4"], "aspect": ["8&&thay", "9&&đổi"], "predicate": ["17&&lại", "18&&nằm", "19&&ở", "20&&chính", "21&&phần", "22&&màn", "23&&hình"], "label": "COM+"}
+
+Sau 5 năm trung thành với thiết kế tai thỏ, Apple cuối cùng đã quyết định loại bỏ phần notch đầy khó chịu để thay thế bằng một phần đục lỗ hình viên thuốc nhỏ gọn hơn.	Sau 5 năm trung thành với thiết kế tai thỏ , Apple cuối cùng đã quyết định loại bỏ phần notch đầy khó chịu để thay thế bằng một phần đục lỗ hình viên thuốc nhỏ gọn hơn .
+{"subject": ["12&&Apple"], "object": ["7&&thiết", "8&&kế", "9&&tai", "10&&thỏ"], "aspect": ["20&&phần", "21&&notch"], "predicate": ["22&&đầy", "23&&khó", "24&&chịu"], "label": "COM-"}
+{"subject": ["12&&Apple"], "object": ["30&&phần", "31&&đục", "32&&lỗ", "33&&hình", "34&&viên", "35&&thuốc"], "aspect": [], "predicate": ["36&&nhỏ", "37&&gọn", "38&&hơn"], "label": "COM+"}
+
+Không dừng lại ở đó, Táo Khuyết còn đem lại sự thích thú cho giới công nghệ thông qua công nghệ Dynamic Island, cho phép tùy biến phần notch trở thành các hình dạng thanh thông báo khác nhau.	Không dừng lại ở đó , Táo Khuyết còn đem lại sự thích thú cho giới công nghệ thông qua công nghệ Dynamic Island , cho phép tùy biến phần notch trở thành các hình dạng thanh thông báo khác nhau .
+{"subject": ["7&&Táo", "8&&Khuyết"], "object": [], "aspect": ["12&&sự", "13&&thích", "14&&thú"], "predicate": ["10&&đem", "11&&lại"], "label": "SUP+"}
+
+alt: So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4: tấm nền	alt : So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4 : tấm nền
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+iPhone 14 Pro Max ra mắt Dynamic Island	iPhone 14 Pro Max ra mắt Dynamic Island
+{"subject": ["1&&iPhone", "2&&14", "3&&Pro", "4&&Max"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Công nghệ Always-on Display cũng đã được xuất hiện trên iPhone 14 Pro Max.	Công nghệ Always-on Display cũng đã được xuất hiện trên iPhone 14 Pro Max .
+{"subject": ["1&&Công", "2&&nghệ", "3&&Always-on", "4&&Display"], "object": [], "aspect": [], "predicate": ["6&&đã", "7&&được", "8&&xuất", "9&&hiện"], "label": "EQL"}
+
+Tuy nhiên, khác với Always-on Display trên Z Fold 4 vốn luôn tắt hết màn hình và chỉ để lại các thông số, tính năng này trên iPhone chỉ thay đổi màn hình sang một giao diện tối hơn và vẫn giữ nguyên mọi thông số hiển thị ở màn hình chính.	Tuy nhiên , khác với Always-on Display trên Z Fold 4 vốn luôn tắt hết màn hình và chỉ để lại các thông số , tính năng này trên iPhone chỉ thay đổi màn hình sang một giao diện tối hơn và vẫn giữ nguyên mọi thông số hiển thị ở màn hình chính .
+{"subject": ["9&&Z", "10&&Fold", "11&&4"], "object": ["30&&iPhone"], "aspect": ["16&&màn", "17&&hình"], "predicate": ["32&&thay", "33&&đổi", "34&&màn", "35&&hình", "36&&sang", "37&&một", "38&&giao", "39&&diện", "40&&tối", "41&&hơn"], "label": "COM+"}
+{"subject": ["9&&Z", "10&&Fold", "11&&4"], "object": ["30&&iPhone"], "aspect": ["23&&thông", "24&&số"], "predicate": ["43&&vẫn", "44&&giữ", "45&&nguyên", "46&&mọi", "47&&thông", "48&&số", "49&&hiển", "50&&thị", "51&&ở", "52&&màn", "53&&hình", "54&&chính"], "label": "COM+"}
+
+Và có vẻ như nhiều khách hàng yêu thích cách làm này của Apple hơn so với Samsung.	Và có vẻ như nhiều khách hàng yêu thích cách làm này của Apple hơn so với Samsung .
+{"subject": ["5&&nhiều", "6&&khách", "7&&hàng"], "object": ["18&&Samsung"], "aspect": [], "predicate": ["8&&yêu", "9&&thích", "10&&cách", "11&&làm", "12&&này", "13&&của", "14&&Apple", "15&&hơn"], "label": "COM+"}
+
+Camera	Camera
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Về phần ống kính, Galaxy Z Fold 4 sở hữu cụm camera sau với thông số 50MP/10MP/12MP, camera selfie 10MP và một camera ẩn dưới màn hình 4MP.	Về phần ống kính , Galaxy Z Fold 4 sở hữu cụm camera sau với thông số 50MP / 10MP / 12MP , camera selfie 10MP và một camera ẩn dưới màn hình 4MP .
+{"subject": ["6&&Galaxy", "7&&Z", "8&&Fold", "9&&4"], "object": [], "aspect": ["12&&cụm", "13&&camera", "14&&sau"], "predicate": ["10&&sở", "11&&hữu"], "label": "SUP"}
+
+Trong khi đó, iPhone 14 Pro Max đánh dấu sự thay đổi lớn của Apple sau thời gian dài với camera chính được nâng cấp lên thành 48MP, ống kính góc siêu rộng 12MP và camera tele 12MP.	Trong khi đó , iPhone 14 Pro Max đánh dấu sự thay đổi lớn của Apple sau thời gian dài với camera chính được nâng cấp lên thành 48MP , ống kính góc siêu rộng 12MP và camera tele 12MP .
+{"subject": ["5&&iPhone", "6&&14", "7&&Pro", "8&&Max"], "object": [], "aspect": [], "predicate": ["9&&đánh", "10&&dấu", "11&&sự", "12&&thay", "13&&đổi", "14&&lớn"], "label": "SUP+"}
+{"subject": ["22&&camera", "23&&chính"], "object": [], "aspect": [], "predicate": ["24&&được", "25&&nâng", "26&&cấp", "27&&lên", "28&&thành", "29&&48MP"], "label": "COM+"}
+{"subject": ["31&&ống", "32&&kính", "33&&góc", "34&&siêu", "35&&rộng"], "object": [], "aspect": [], "predicate": ["36&&12MP"], "label": "COM+"}
+{"subject": ["38&&camera", "39&&tele"], "object": [], "aspect": [], "predicate": ["36&&12MP"], "label": "COM+"}
+
+Đồng thời, chiếc smartphone cao cấp nhất của Apple cũng sở hữu camera trước 12MP.	Đồng thời , chiếc smartphone cao cấp nhất của Apple cũng sở hữu camera trước 12MP .
+{"subject": ["4&&chiếc", "5&&smartphone", "6&&cao", "7&&cấp", "8&&nhất", "9&&của", "10&&Apple"], "object": [], "aspect": ["14&&camera", "15&&trước"], "predicate": ["12&&sở", "13&&hữu"], "label": "COM+"}
+
+alt: So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4: Camera	alt : So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4 : Camera
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Galaxy Z Fold 4 không có nhiều tính năng hỗ trợ quay chụp như iPhone 14 Pro Max	Galaxy Z Fold 4 không có nhiều tính năng hỗ trợ quay chụp như iPhone 14 Pro Max
+{"subject": ["1&&Galaxy", "2&&Z", "3&&Fold", "4&&4"], "object": ["15&&iPhone", "16&&14", "17&&Pro", "18&&Max"], "aspect": ["8&&tính", "9&&năng", "10&&hỗ", "11&&trợ", "12&&quay", "13&&chụp"], "predicate": ["5&&không", "6&&có", "7&&nhiều"], "label": "COM-"}
+
+Nếu chỉ dựa vào thông số camera, sẽ rất khó để chúng ta có thể khẳng định rằng chiếc smartphone nào có khả năng quay chụp tốt hơn.	Nếu chỉ dựa vào thông số camera , sẽ rất khó để chúng ta có thể khẳng định rằng chiếc smartphone nào có khả năng quay chụp tốt hơn .
+{"subject": ["5&&thông", "6&&số", "7&&camera"], "object": [], "aspect": ["24&&khả", "25&&năng"], "predicate": ["10&&rất", "11&&khó", "12&&để", "17&&khẳng", "18&&định"], "label": "DIF"}
+
+Tuy nhiên, nếu dựa vào những sự cải tiến về máy ảnh cũng như các chế độ quay chụp được trang bị, có lẽ iPhone 14 Pro Max sẽ là chiếc điện thoại có phần lấn lướt hơn.	Tuy nhiên , nếu dựa vào những sự cải tiến về máy ảnh cũng như các chế độ quay chụp được trang bị , có lẽ iPhone 14 Pro Max sẽ là chiếc điện thoại có phần lấn lướt hơn .
+{"subject": ["27&&iPhone", "28&&14", "29&&Pro", "30&&Max"], "object": [], "aspect": [], "predicate": ["31&&sẽ", "32&&là", "33&&chiếc", "34&&điện", "35&&thoại", "36&&có", "37&&phần", "38&&lấn", "39&&lướt", "40&&hơn"], "label": "COM+"}
+
+Hiệu năng	Hiệu năng
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Cả iPhone 14 Pro Max lẫn Galaxy Z Fold 4 đều sở hữu những con chip mạnh mẽ nhất ở thời điểm hiện tại là A16 Bionic và Snapdragon 8+ Gen 1 nên chắc chắn bạn sẽ không cần phải quá bận tâm vào việc chiếc máy nào hiệu năng tốt hơn.	Cả iPhone 14 Pro Max lẫn Galaxy Z Fold 4 đều sở hữu những con chip mạnh mẽ nhất ở thời điểm hiện tại là A16 Bionic và Snapdragon 8 + Gen 1 nên chắc chắn bạn sẽ không cần phải quá bận tâm vào việc chiếc máy nào hiệu năng tốt hơn .
+{"subject": ["2&&iPhone", "3&&14", "4&&Pro", "5&&Max"], "object": ["7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "aspect": ["15&&con", "16&&chip", "17&&mạnh", "18&&mẽ", "19&&nhất"], "predicate": ["12&&sở", "13&&hữu"], "label": "COM+"}
+{"subject": ["7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "object": ["2&&iPhone", "3&&14", "4&&Pro", "5&&Max"], "aspect": ["15&&con", "16&&chip", "17&&mạnh", "18&&mẽ", "19&&nhất"], "predicate": ["12&&sở", "13&&hữu"], "label": "COM+"}
+
+Bởi mặt bằng chung hiện nay, không có bất kì ứng dụng nào có thể làm khó 2 con chip này.	Bởi mặt bằng chung hiện nay , không có bất kì ứng dụng nào có thể làm khó 2 con chip này .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4: Cấu hình	alt : So sánh chi tiết iPhone 14 Pro Max và Galaxy Z Fold 4 : Cấu hình
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Galaxy Z Fold 4 có khả năng đa nhiệm rất tốt	Galaxy Z Fold 4 có khả năng đa nhiệm rất tốt
+{"subject": ["1&&Galaxy", "2&&Z", "3&&Fold", "4&&4"], "object": [], "aspect": ["6&&khả", "7&&năng", "8&&đa", "9&&nhiệm"], "predicate": ["10&&rất", "11&&tốt"], "label": "SUP+"}
+
+Tuy nhiên, nếu bạn là người muốn sử dụng smartphone nhiều hơn cho công việc, sự lựa chọn nên là Galaxy Z Fold 4 bởi nó có khả năng đa nhiệm cực tốt và có thể hiển thị, tương tác với cùng 1 lúc 3 phần mềm.	Tuy nhiên , nếu bạn là người muốn sử dụng smartphone nhiều hơn cho công việc , sự lựa chọn nên là Galaxy Z Fold 4 bởi nó có khả năng đa nhiệm cực tốt và có thể hiển thị , tương tác với cùng 1 lúc 3 phần mềm .
+{"subject": ["23&&Galaxy", "24&&Z", "25&&Fold", "26&&4"], "object": [], "aspect": ["30&&khả", "31&&năng", "32&&đa", "33&&nhiệm"], "predicate": ["34&&cực", "35&&tốt"], "label": "SUP+"}
+{"subject": ["23&&Galaxy", "24&&Z", "25&&Fold", "26&&4"], "object": [], "aspect": [], "predicate": ["45&&cùng", "46&&1", "47&&lúc", "48&&3", "49&&phần", "50&&mềm"], "label": "COM+"}
+
+Ngược lại, nếu bạn muốn trải nghiệm một cảm giác mượt mà ở mức tối đa thì iPhone 14 Pro Max sẽ là hợp lý hơn bởi có nhiều ứng dụng cho đến nay vẫn chưa được tối ưu cho mẫu điện thoại màn hình gập của Samsung.	Ngược lại , nếu bạn muốn trải nghiệm một cảm giác mượt mà ở mức tối đa thì iPhone 14 Pro Max sẽ là hợp lý hơn bởi có nhiều ứng dụng cho đến nay vẫn chưa được tối ưu cho mẫu điện thoại màn hình gập của Samsung .
+{"subject": ["19&&iPhone", "20&&14", "21&&Pro", "22&&Max"], "object": [], "aspect": ["10&&cảm", "11&&giác", "12&&mượt", "13&&mà"], "predicate": ["23&&sẽ", "24&&là", "25&&hợp", "26&&lý", "27&&hơn"], "label": "SUP+"}
+{"subject": [], "object": [], "aspect": ["31&&ứng", "32&&dụng"], "predicate": ["36&&vẫn", "37&&chưa", "38&&được", "39&&tối", "40&&ưu"], "label": "COM-"}
+
+Thông số kỹ thuật của iPhone 14 Pro Max và Galaxy Z Fold 4	Thông số kỹ thuật của iPhone 14 Pro Max và Galaxy Z Fold 4
+{"subject": ["6&&iPhone", "7&&14", "8&&Pro", "9&&Max"], "object": ["11&&Galaxy", "12&&Z", "13&&Fold", "14&&4"], "aspect": [], "predicate": [], "label": "DIF"}
+
+Kết luận	Kết luận
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Có thể thấy cả hai mẫu smartphone cao cấp đều có những ưu nhược điểm của riêng mình.	Có thể thấy cả hai mẫu smartphone cao cấp đều có những ưu nhược điểm của riêng mình .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Song đánh giá một cách tổng quát, mình nghĩ rằng iPhone 14 Pro Max sẽ nhỉnh hơn đôi chút so với Z Fold 4.	Song đánh giá một cách tổng quát , mình nghĩ rằng iPhone 14 Pro Max sẽ nhỉnh hơn đôi chút so với Z Fold 4 .
+{"subject": ["12&&iPhone", "13&&14", "14&&Pro", "15&&Max"], "object": ["23&&Z", "24&&Fold", "25&&4"], "aspect": [], "predicate": ["17&&nhỉnh", "18&&hơn", "19&&đôi", "20&&chút"], "label": "COM+"}
+
+Bạn có đồng ý với quan điểm trên?	Bạn có đồng ý với quan điểm trên ?
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}

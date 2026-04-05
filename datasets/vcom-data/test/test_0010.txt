@@ -37,10 +37,12 @@ Tuy nhiên, vì số lượng sản phẩm khá hạn chế nên một vài nhà
 Kích thước	Kích thước
 
 Một trong những ưu điểm của Xiaomi MIX Fold 2 chính là về độ mỏng, không sai khi Xiaomi nói rằng sản phẩm của là chiếc điện thoại gập mỏng nhất hiện nay.	Một trong những ưu điểm của Xiaomi MIX Fold 2 chính là về độ mỏng , không sai khi Xiaomi nói rằng sản phẩm của là chiếc điện thoại gập mỏng nhất hiện nay .
+{"subject": ["7&&Xiaomi", "8&&MIX", "9&&Fold", "10&&2"], "object": [], "aspect": ["14&&độ", "15&&mỏng"], "predicate": ["31&&mỏng", "32&&nhất", "33&&hiện", "34&&nay"], "label": "SUP+"}
 
 Cụ thể chiếc điện thoại này khi mở có độ dày chỉ là 5.4mm và khi gập là 11.2 mm.	Cụ thể chiếc điện thoại này khi mở có độ dày chỉ là 5.4mm và khi gập là 11.2 mm .
 
 Con số này là thấp hơn khá nhiều so với Z Fold 4 (6.3mm và 15.8mm).	Con số này là thấp hơn khá nhiều so với Z Fold 4 ( 6.3mm và 15.8mm ) .
+{"subject": [], "object": ["11&&Z", "12&&Fold", "13&&4"], "aspect": [], "predicate": ["5&&thấp", "6&&hơn", "7&&khá", "8&&nhiều"], "label": "COM+"}
 
 alt: So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 4	alt : So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 4
 
@@ -51,12 +53,15 @@ Galaxy Z Fold 4 có kích thước phù hợp với người dùng	Galaxy Z Fold
 Vì được làm với một độ mỏng quá ấn tượng, Xiaomi MIX Fold 2 đã buộc phải gia tăng kích thước ở chiều dài và rộng để tạo đủ không gian cho các linh kiện.	Vì được làm với một độ mỏng quá ấn tượng , Xiaomi MIX Fold 2 đã buộc phải gia tăng kích thước ở chiều dài và rộng để tạo đủ không gian cho các linh kiện .
 
 Chính vì điều này mà flagship đến từ Trung Quốc lớn hơn hẳn so với điện thoại của Samsung.	Chính vì điều này mà flagship đến từ Trung Quốc lớn hơn hẳn so với điện thoại của Samsung .
+{"subject": ["6&&flagship", "7&&đến", "8&&từ", "9&&Trung", "10&&Quốc"], "object": ["16&&điện", "17&&thoại", "18&&của", "19&&Samsung"], "aspect": [], "predicate": ["11&&lớn", "12&&hơn", "13&&hẳn"], "label": "COM+"}
 
 Cụ thể thì Galaxy Z Fold 4 chỉ dài 155.1 mm và rộng 67.1 mm.	Cụ thể thì Galaxy Z Fold 4 chỉ dài 155.1 mm và rộng 67.1 mm .
 
 Tuy nhiên con số này trên smartphone nhà Xiaomi lên tới 161.1mm và 73.9 mm.	Tuy nhiên con số này trên smartphone nhà Xiaomi lên tới 161.1mm và 73.9 mm .
 
 Là một chiếc điện thoại vừa lớn hơn lại vừa mỏng hơn so với đối thủ, Xiaomi MIX Fold 2 có lí do để người dùng lo ngại về độ bền cùng khả năng bị cong vênh khi vô tình bị đè lên hoặc bỏ vào trong túi quần.	Là một chiếc điện thoại vừa lớn hơn lại vừa mỏng hơn so với đối thủ , Xiaomi MIX Fold 2 có lí do để người dùng lo ngại về độ bền cùng khả năng bị cong vênh khi vô tình bị đè lên hoặc bỏ vào trong túi quần .
+{"subject": ["18&&Xiaomi", "19&&MIX", "20&&Fold", "21&&2"], "object": ["15&&đối", "16&&thủ"], "aspect": [], "predicate": ["7&&lớn", "8&&hơn"], "label": "COM+"}
+{"subject": ["18&&Xiaomi", "19&&MIX", "20&&Fold", "21&&2"], "object": ["15&&đối", "16&&thủ"], "aspect": [], "predicate": ["11&&mỏng", "12&&hơn"], "label": "COM+"}
 
 Đó là còn chưa bàn đến trải nghiệm người dùng, một chiếc smartphone quá to cũng sẽ không thể đem lại sự thuận tiện cho người dùng, đặc biệt là khi họ sử dụng bằng một tay.	Đó là còn chưa bàn đến trải nghiệm người dùng , một chiếc smartphone quá to cũng sẽ không thể đem lại sự thuận tiện cho người dùng , đặc biệt là khi họ sử dụng bằng một tay .
 
@@ -65,6 +70,7 @@ alt: So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 5	alt : So sánh ch
 des:	des :
 
 Xiaomi MIX Fold 2 là chiếc điện thoại màn hình gập mỏng nhất hiện nay	Xiaomi MIX Fold 2 là chiếc điện thoại màn hình gập mỏng nhất hiện nay
+{"subject": ["1&&Xiaomi", "2&&MIX", "3&&Fold", "4&&2"], "object": [], "aspect": [], "predicate": ["12&&mỏng", "13&&nhất", "14&&hiện", "15&&nay"], "label": "SUP+"}
 
 Trải nghiệm người dùng cũng là lí do mà Samsung đã có động thái rút ngắn và mở rộng chiếc điện thoại gập thế hệ thứ 4 so với Galaxy Z Fold 3 và điều này được rất nhiều chuyên gia đánh giá cao	Trải nghiệm người dùng cũng là lí do mà Samsung đã có động thái rút ngắn và mở rộng chiếc điện thoại gập thế hệ thứ 4 so với Galaxy Z Fold 3 và điều này được rất nhiều chuyên gia đánh giá cao
 
@@ -89,6 +95,7 @@ Bởi mình cho rằng module của trên điện thoại gập nhà Xiaomi là 
 Màn hình	Màn hình
 
 Về vấn để màn hình, Xiaomi MIX Fold 2 tỏ ra vượt trội hơn so với đối thủ của mình nhờ vào kích thước tổng thể.	Về vấn để màn hình , Xiaomi MIX Fold 2 tỏ ra vượt trội hơn so với đối thủ của mình nhờ vào kích thước tổng thể .
+{"subject": ["7&&Xiaomi", "8&&MIX", "9&&Fold", "10&&2"], "object": ["18&&đối", "19&&thủ"], "aspect": ["4&&màn", "5&&hình"], "predicate": ["13&&vượt", "14&&trội", "15&&hơn"], "label": "COM+"}
 
 Galaxy Z Fold 4 sở hữu màn hình trong kích thước 7.6 inch, sử dụng tấm nền Dynamic AMOLED 2X, tần số quét 120Hz và mật độ điểm ảnh 373 ppi.	Galaxy Z Fold 4 sở hữu màn hình trong kích thước 7.6 inch , sử dụng tấm nền Dynamic AMOLED 2X , tần số quét 120Hz và mật độ điểm ảnh 373 ppi .
 
@@ -103,8 +110,10 @@ Trong khi đó, đối thủ của chiếc điện thoại này lại sở hữu
 Tất nhiên tần số quét của màn hình cũng sẽ là 120Hz.	Tất nhiên tần số quét của màn hình cũng sẽ là 120Hz .
 
 Nếu màn hình trong không phải quá chênh lệch thì màn hình ngoài của hai mẫu điện thoại này lại không như thế.	Nếu màn hình trong không phải quá chênh lệch thì màn hình ngoài của hai mẫu điện thoại này lại không như thế .
+{"subject": ["15&&hai", "16&&mẫu", "17&&điện", "18&&thoại", "19&&này"], "object": ["15&&hai", "16&&mẫu", "17&&điện", "18&&thoại", "19&&này"], "aspect": ["2&&màn", "3&&hình", "4&&trong"], "predicate": ["5&&không", "6&&phải", "7&&quá", "8&&chênh", "9&&lệch"], "label": "DIF"}
 
 Cụ thể thì MIX Fold 2 sở hữu màn hình cover kích thước lên tới 6.56 inch, gần tương đương với những chiếc smartphone kích thước lớn hiện nay, tần số quét 120Hz và độ phân giải Full HD+.	Cụ thể thì MIX Fold 2 sở hữu màn hình cover kích thước lên tới 6.56 inch , gần tương đương với những chiếc smartphone kích thước lớn hiện nay , tần số quét 120Hz và độ phân giải Full HD + .
+{"subject": ["4&&MIX", "5&&Fold", "6&&2"], "object": ["23&&những", "24&&chiếc", "25&&smartphone", "26&&kích", "27&&thước", "28&&lớn", "29&&hiện", "30&&nay"], "aspect": ["9&&màn", "10&&hình", "11&&cover"], "predicate": ["19&&gần", "20&&tương", "21&&đương", "22&&với"], "label": "EQL"}
 
 alt: So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 2 mới nhất	alt : So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 2 mới nhất
 
@@ -117,10 +126,12 @@ Trong khi đó sản phẩm của sản phẩm dù cũng có tần số quét 12
 Camera	Camera
 
 Một cách ngắn gọn, mình sẽ đánh giá camera của Xiaomi MIX Fold 2 vượt trội hơn so với Z Fold 4, ít nhất là về mặt phần cứng.	Một cách ngắn gọn , mình sẽ đánh giá camera của Xiaomi MIX Fold 2 vượt trội hơn so với Z Fold 4 , ít nhất là về mặt phần cứng .
+{"subject": ["12&&Xiaomi", "13&&MIX", "14&&Fold", "15&&2"], "object": ["21&&Z", "22&&Fold", "23&&4"], "aspect": ["10&&camera"], "predicate": ["16&&vượt", "17&&trội", "18&&hơn"], "label": "COM+"}
 
 Tại sự kiện ra mắt, Xiaomi đã nhấn mạnh rất nhiều vào việc sản phẩm của hãng được trang bị ống kính của Leica, một trong những tên tuổi hàng đầu về nhiếp ảnh.	Tại sự kiện ra mắt , Xiaomi đã nhấn mạnh rất nhiều vào việc sản phẩm của hãng được trang bị ống kính của Leica , một trong những tên tuổi hàng đầu về nhiếp ảnh .
 
 Chính vì thế mà về phần cứng, flagship của Trung Quốc sẽ có chút lợi thế hơn so với điện thoại của Samsung.	Chính vì thế mà về phần cứng , flagship của Trung Quốc sẽ có chút lợi thế hơn so với điện thoại của Samsung .
+{"subject": ["9&&flagship", "10&&của", "11&&Trung", "12&&Quốc"], "object": ["21&&điện", "22&&thoại", "23&&của", "24&&Samsung"], "aspect": ["6&&phần", "7&&cứng"], "predicate": ["15&&chút", "16&&lợi", "17&&thế", "18&&hơn"], "label": "COM+"}
 
 alt: So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 2 toàn diện	alt : So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 2 toàn diện
 
@@ -133,6 +144,7 @@ Về phía Z Fold 4, giới công nghệ đã khá mong chờ vào camera ẩn d
 Tuy nhiên theo báo cáo cho thấy ống kính này chỉ được cải tiến về độ hiển thị (Samsung tăng mật độ điểm ảnh xung quanh ống kính) thay vì chất lượng chụp ảnh.	Tuy nhiên theo báo cáo cho thấy ống kính này chỉ được cải tiến về độ hiển thị ( Samsung tăng mật độ điểm ảnh xung quanh ống kính ) thay vì chất lượng chụp ảnh .
 
 Vậy nên theo đánh giá của mình, ống kính ẩn này mang tính thương mại hơn là ưu điểm về công nghệ.	Vậy nên theo đánh giá của mình , ống kính ẩn này mang tính thương mại hơn là ưu điểm về công nghệ .
+{"subject": ["9&&ống", "10&&kính", "11&&ẩn", "12&&này"], "object": [], "aspect": [], "predicate": ["13&&mang", "14&&tính", "15&&thương", "16&&mại", "17&&hơn"], "label": "COM+"}
 
 alt: So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 2 mới ra mắt	alt : So sánh chi tiết Galaxy Z Fold 4 và Xiaomi MIX Fold 2 mới ra mắt
 
@@ -145,12 +157,15 @@ Xét mặt thông số, Galaxy Z Fold 4 sẽ có cụm camera sau độ phân gi
 Trong khi đó, Xiaomi MIX Fold 2 lại được trang bị cụm ống kính 50MP/8MP/13MP cùng camera trước ở màn hình ngoài độ phân giải 20MP.	Trong khi đó , Xiaomi MIX Fold 2 lại được trang bị cụm ống kính 50MP / 8MP / 13MP cùng camera trước ở màn hình ngoài độ phân giải 20MP .
 
 Như vậy, dù không có camera ẩn dưới màn hình nhưng MIX Fold 2 không hề bị đánh giá thấp hơn Z Fold 4 về khả năng quay chụp.	Như vậy , dù không có camera ẩn dưới màn hình nhưng MIX Fold 2 không hề bị đánh giá thấp hơn Z Fold 4 về khả năng quay chụp .
+{"subject": ["13&&MIX", "14&&Fold", "15&&2"], "object": ["23&&Z", "24&&Fold", "25&&4"], "aspect": ["27&&khả", "28&&năng", "29&&quay", "30&&chụp"], "predicate": ["16&&không", "17&&hề", "18&&bị", "19&&đánh", "20&&giá", "21&&thấp", "22&&hơn"], "label": "EQL"}
 
 Cấu hình	Cấu hình
 
 Đây có lẽ là phần mà hai chiếc máy tỏ ra ngang bằng với nhau nhất.	Đây có lẽ là phần mà hai chiếc máy tỏ ra ngang bằng với nhau nhất .
+{"subject": ["7&&hai", "8&&chiếc", "9&&máy"], "object": ["7&&hai", "8&&chiếc", "9&&máy"], "aspect": [], "predicate": ["12&&ngang", "13&&bằng", "14&&với", "15&&nhau", "16&&nhất"], "label": "EQL"}
 
 Cả hai mẫu điện thoại gập đều sở hữu con chip cao cấp nhất của Qualcomm ở thời điểm hiện tại: Snapdragon 8+ Gen 1.	Cả hai mẫu điện thoại gập đều sở hữu con chip cao cấp nhất của Qualcomm ở thời điểm hiện tại : Snapdragon 8 + Gen 1 .
+{"subject": ["1&&Cả", "2&&hai", "3&&mẫu", "4&&điện", "5&&thoại"], "object": ["1&&Cả", "2&&hai", "3&&mẫu", "4&&điện", "5&&thoại"], "aspect": ["10&&con", "11&&chip", "12&&cao", "13&&cấp", "14&&nhất", "15&&của", "16&&Qualcomm", "17&&ở", "18&&thời", "19&&điểm", "20&&hiện", "21&&tại"], "predicate": ["7&&đều", "8&&sở", "9&&hữu"], "label": "EQL"}
 
 Ngoài dùng chung một bộ vi xử lý, hai chiếc flagship còn cùng sở hữu RAM 12GB và cũng có 3 lựa chọn bộ nhớ ROM như nhau gồm 256GB, 512GB, 1TB.	Ngoài dùng chung một bộ vi xử lý , hai chiếc flagship còn cùng sở hữu RAM 12GB và cũng có 3 lựa chọn bộ nhớ ROM như nhau gồm 256GB , 512GB , 1TB .
 
@@ -163,10 +178,12 @@ Xiaomi MIX Fold 2 sở hữu chip Snapdragon 8+ Gen 1	Xiaomi MIX Fold 2 sở h�
 Về pin, Galaxy Z Fold 4 có dung lượng pin 4400mAh, hỗ trợ sạc nhanh 25W và sạc không dây 15W.	Về pin , Galaxy Z Fold 4 có dung lượng pin 4400mAh , hỗ trợ sạc nhanh 25W và sạc không dây 15W .
 
 MIX Fold 2 tuy không hỗ trợ sạc không dây nhưng lại có viên pin dung lượng lớn hơn với 4500 mAh và còn hỗ trợ sạc nhanh lên đến 67W.	MIX Fold 2 tuy không hỗ trợ sạc không dây nhưng lại có viên pin dung lượng lớn hơn với 4500 mAh và còn hỗ trợ sạc nhanh lên đến 67W .
+{"subject": ["1&&MIX", "2&&Fold", "3&&2"], "object": [], "aspect": ["14&&viên", "15&&pin"], "predicate": ["16&&dung", "17&&lượng", "18&&lớn", "19&&hơn"], "label": "COM+"}
 
 Khác	Khác
 
 Ở các yếu tố phụ, Galaxy Z Fold 4 tỏ ra vượt trội hơn so với đối thủ khi máy có thể phát âm thanh 32-bit, trang bị cổng sạc Type C 3.2 và có chuẩn kháng nước IPX8.	Ở các yếu tố phụ , Galaxy Z Fold 4 tỏ ra vượt trội hơn so với đối thủ khi máy có thể phát âm thanh 32 - bit , trang bị cổng sạc Type C 3.2 và có chuẩn kháng nước IPX8 .
+{"subject": ["7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "object": ["18&&đối", "19&&thủ"], "aspect": ["2&&các", "3&&yếu", "4&&tố", "5&&phụ"], "predicate": ["13&&vượt", "14&&trội", "15&&hơn"], "label": "COM+"}
 
 Trong khi đó, đối thủ của sản phẩm nhà Samsung chỉ có thể phát âm thanh 24-bit, trang bị cổng sạc Type C thường và không hề có kháng nước.	Trong khi đó , đối thủ của sản phẩm nhà Samsung chỉ có thể phát âm thanh 24 - bit , trang bị cổng sạc Type C thường và không hề có kháng nước .
 
@@ -181,6 +198,7 @@ Galaxy Z Fold 4 có kháng nước IPX8	Galaxy Z Fold 4 có kháng nước IPX8
 Kết luận	Kết luận
 
 Nếu xét trên nhiều khía cạnh, Z Fold 4 vẫn sẽ là một sự lựa chọn phù hợp hơn với bản thân mình.	Nếu xét trên nhiều khía cạnh , Z Fold 4 vẫn sẽ là một sự lựa chọn phù hợp hơn với bản thân mình .
+{"subject": ["8&&Z", "9&&Fold", "10&&4"], "object": [], "aspect": ["15&&sự", "16&&lựa", "17&&chọn"], "predicate": ["18&&phù", "19&&hợp", "20&&hơn"], "label": "COM+"}
 
 Còn bạn, sản phẩm nào sẽ là sự lựa chọn của bạn?	Còn bạn , sản phẩm nào sẽ là sự lựa chọn của bạn ?
 

@@ -1,0 +1,75 @@
+1	title: So sánh camera giữa Galaxy S10 Plus và Huawei P30 Pro	title : So sánh camera giữa Galaxy S10 Plus và Huawei P30 Pro
+2	Năm nay, 2 hãng Samsung và Huawei đều có chung tầm nhìn khi tập trung vào phát triển camera trên các thế hệ flagship của họ.	Năm nay , 2 hãng Samsung và Huawei đều có chung tầm nhìn khi tập trung vào phát triển camera trên các thế hệ flagship của họ .
+3	Đầu năm nay, Samsung mở màn với sự ra mắt của chiếc Galaxy S10 Plus với cụm 3 camera đặt ngang thì lập tức Huawei đáp trả bằng cụm 4 camera đặt dọc của Huawei P30 Pro.	Đầu năm nay , Samsung mở màn với sự ra mắt của chiếc Galaxy S10 Plus với cụm 3 camera đặt ngang thì lập tức Huawei đáp trả bằng cụm 4 camera đặt dọc của Huawei P30 Pro .
+4	Theo như những gì Huawei công bố thì cụm camera của P30 Pro sẽ “định nghĩa lại qui luật nhiếp ảnh”.	Theo như những gì Huawei công bố thì cụm camera của P30 Pro sẽ “ định nghĩa lại qui luật nhiếp ảnh ” .
+5	Vậy thì trên thực tế thì P30 Pro có cho chất lượng ảnh tương tự, hay tốt hơn Galaxy S10 Plus của Samsung được hay không ?	Vậy thì trên thực tế thì P30 Pro có cho chất lượng ảnh tương tự , hay tốt hơn Galaxy S10 Plus của Samsung được hay không ?
+6	Trang technobuffalo đã có 1 bài so sánh camera của 2 mẫu flagship này dựa theo những ảnh chụp thực tế.	Trang technobuffalo đã có 1 bài so sánh camera của 2 mẫu flagship này dựa theo những ảnh chụp thực tế .
+7	Cả 2 máy đều sử dụng camera mặc định với phiên bản phần mềm ngay từ lúc khui hộp, nhằm tránh đi sự sai lệch về khả năng thực tế do 2 mẫu smartphone này có thời điểm ra mắt khác nhau.	Cả 2 máy đều sử dụng camera mặc định với phiên bản phần mềm ngay từ lúc khui hộp , nhằm tránh đi sự sai lệch về khả năng thực tế do 2 mẫu smartphone này có thời điểm ra mắt khác nhau .
+8	alt: Galaxy S10 Plus cho góc chụp rộng hơn	alt : Galaxy S10 Plus cho góc chụp rộng hơn
+9	des:	des :
+10	Với ảnh chụp từ camera góc rộng và camera góc siêu rộng như trong ảnh trên, bên trái sẽ là ảnh từ P30 Pro, còn bên phải là của Galaxy S10 Plus, tương tự với các ảnh ở dưới.	Với ảnh chụp từ camera góc rộng và camera góc siêu rộng như trong ảnh trên , bên trái sẽ là ảnh từ P30 Pro , còn bên phải là của Galaxy S10 Plus , tương tự với các ảnh ở dưới .
+11	Samsung có góc chụp rộng hơn ở camera góc siêu rộng, chất lượng hình của cả 2 máy đều rất tương xứng, tuy có 1 chút sự khác biệt ở màu sắc nhưng điều này là không đáng kể do nó còn phụ thuộc vào sự tinh chỉnh của hãng và người dùng.	Samsung có góc chụp rộng hơn ở camera góc siêu rộng , chất lượng hình của cả 2 máy đều rất tương xứng , tuy có 1 chút sự khác biệt ở màu sắc nhưng điều này là không đáng kể do nó còn phụ thuộc vào sự tinh chỉnh của hãng và người dùng .
+12	alt: Khả năng zoom vượt trội của Huawei P30 Pro	alt : Khả năng zoom vượt trội của Huawei P30 Pro
+13	des:	des :
+14	Điểm khác biệt lớn nhất mà chúng ta nhận thấy sẽ là ở camera zoom.	Điểm khác biệt lớn nhất mà chúng ta nhận thấy sẽ là ở camera zoom .
+15	P30 Pro cho khả năng zoom quang học 5X, 10X zoom lai và lên đến 50X zoom kỹ thuật số.	P30 Pro cho khả năng zoom quang học 5X , 10X zoom lai và lên đến 50X zoom kỹ thuật số .
+16	Đối với Galaxy S10 Plus thì chỉ là 2X zoom quang học và zoom kỹ thuật số tối đa chỉ có 10X.	Đối với Galaxy S10 Plus thì chỉ là 2X zoom quang học và zoom kỹ thuật số tối đa chỉ có 10X .
+17	Không nghi ngờ gì nữa, khả năng zoom của P30 Pro vượt trội hơn hẳn so với Galaxy S10 Plus.	Không nghi ngờ gì nữa , khả năng zoom của P30 Pro vượt trội hơn hẳn so với Galaxy S10 Plus .
+18	alt: Khả năng zoom vượt trội của Huawei P30 Pro	alt : Khả năng zoom vượt trội của Huawei P30 Pro
+19	des:	des :
+20	alt: Khả năng zoom vượt trội của Huawei P30 Pro	alt : Khả năng zoom vượt trội của Huawei P30 Pro
+21	des:	des :
+22	Galaxy S10 Plus cho chất lượng hình ảnh rất tốt, nhưng khả năng zoom của P30 Pro lại càng tuyệt vời hơn.	Galaxy S10 Plus cho chất lượng hình ảnh rất tốt , nhưng khả năng zoom của P30 Pro lại càng tuyệt vời hơn .
+23	Đối với smartphone, khả năng zoom ở khoảng cách cực xa như vậy mà vẫn giữ được độ rõ nét, và chi tiết đủ dùng như vậy là quá vượt trội.	Đối với smartphone , khả năng zoom ở khoảng cách cực xa như vậy mà vẫn giữ được độ rõ nét , và chi tiết đủ dùng như vậy là quá vượt trội .
+24	alt: Huawei chỉ có thể chụp chân dung chủ thể người	alt : Huawei chỉ có thể chụp chân dung chủ thể người
+25	des:	des :
+26	Khi đi sâu vào khả năng chụp ảnh xóa phông thì chế độ chụp chân dung của Huawei sẽ không hoạt động nếu chủ thể không có mặt người.	Khi đi sâu vào khả năng chụp ảnh xóa phông thì chế độ chụp chân dung của Huawei sẽ không hoạt động nếu chủ thể không có mặt người .
+27	Hình ảnh bên trái của Huawei P30 Pro được chụp bằng chế độ khẩu độ, còn bên phải của Samsung Galaxy S10 Plus được chụp qua chế độ lấy nét động ( chế độ này của Samsung không đòi hỏi yêu cầu mặt người trên chủ thể).	Hình ảnh bên trái của Huawei P30 Pro được chụp bằng chế độ khẩu độ , còn bên phải của Samsung Galaxy S10 Plus được chụp qua chế độ lấy nét động ( chế độ này của Samsung không đòi hỏi yêu cầu mặt người trên chủ thể ) .
+28	alt: Huawei P30 Pro chụp đêm tốt hơn Galaxy S10 Plus	alt : Huawei P30 Pro chụp đêm tốt hơn Galaxy S10 Plus
+29	des:	des :
+30	Huawei P30 Pro cho khả năng chụp ảnh thiếu sáng tốt hơn so với Samsung Galaxy S10 Plus ngay cả khi ở chế độ thường và chế độ chụp đêm.	Huawei P30 Pro cho khả năng chụp ảnh thiếu sáng tốt hơn so với Samsung Galaxy S10 Plus ngay cả khi ở chế độ thường và chế độ chụp đêm .
+31	Khẩu độ kép trên Galaxy Note 10 Plus cho nhiều ánh sáng vào hơn, nhưng kể cả khi dùng thêm tính năng tối ưu hóa cảnh vật thì P30 Pro vẫn cho hình ảnh giàu chi tiết và ánh sáng hơn.	Khẩu độ kép trên Galaxy Note 10 Plus cho nhiều ánh sáng vào hơn , nhưng kể cả khi dùng thêm tính năng tối ưu hóa cảnh vật thì P30 Pro vẫn cho hình ảnh giàu chi tiết và ánh sáng hơn .
+32	Hình trên bên trái là P30 Pro dùng chế độ chụp thường, ở giữa là chế độ tối của P30 Pro, bên phải là của Galaxy S10 Plus.	Hình trên bên trái là P30 Pro dùng chế độ chụp thường , ở giữa là chế độ tối của P30 Pro , bên phải là của Galaxy S10 Plus .
+33	alt: Galaxy S10 Plus xử lý chủ thể chân dung tốt hơn	alt : Galaxy S10 Plus xử lý chủ thể chân dung tốt hơn
+34	des:	des :
+35	Cảm biến ToF mang lại những gì ?	Cảm biến ToF mang lại những gì ?
+36	Theo như Huawei thì cảm biến này cung cấp dữ kiện cho AI để phân biệt được những chi tiết nhỏ nhất như sợi tóc trên chủ thể trong chế độ chân dung.	Theo như Huawei thì cảm biến này cung cấp dữ kiện cho AI để phân biệt được những chi tiết nhỏ nhất như sợi tóc trên chủ thể trong chế độ chân dung .
+37	Vậy nên cả 2 đều cho chất lượng ảnh chân dung khá tương đồng.	Vậy nên cả 2 đều cho chất lượng ảnh chân dung khá tương đồng .
+38	Ngoại trừ việc dù không có ToF nhưng Galaxy S10 Plus vẫn nhận diện tóc trên đầu của chủ thể tốt hơn P30 Pro.	Ngoại trừ việc dù không có ToF nhưng Galaxy S10 Plus vẫn nhận diện tóc trên đầu của chủ thể tốt hơn P30 Pro .
+39	alt: Cả 2 máy cho chất lượng hình khá tương đồng	alt : Cả 2 máy cho chất lượng hình khá tương đồng
+40	des:	des :
+41	Cả 2 mẫu flagship này đều bắt được chi tiết rất tốt ngay cả khi chịu ảnh hưởng của ánh sáng mạnh phát ra từ chiếc đèn sưởi.	Cả 2 mẫu flagship này đều bắt được chi tiết rất tốt ngay cả khi chịu ảnh hưởng của ánh sáng mạnh phát ra từ chiếc đèn sưởi .
+42	Huawei cho độ chính xác màu tốt hơn ở khu vực đèn sáng mạnh.	Huawei cho độ chính xác màu tốt hơn ở khu vực đèn sáng mạnh .
+43	Còn trong khi đó Galaxy S10 Plus có dải tương phản động tốt hơn, có thể dễ dàng nhận ra khi nhìn vào ổ cửa sổ đằng sau.	Còn trong khi đó Galaxy S10 Plus có dải tương phản động tốt hơn , có thể dễ dàng nhận ra khi nhìn vào ổ cửa sổ đằng sau .
+44	alt: Ảnh chụp chân dung của Galaxy S10 Plus hơi bị ám sương trắng	alt : Ảnh chụp chân dung của Galaxy S10 Plus hơi bị ám sương trắng
+45	des:	des :
+46	Galaxy S10 Plus hơi tỏ ra thua thiệt khi chụp selfie, phần lớn hình ảnh bị phủ bởi 1 lớp sương trắng.	Galaxy S10 Plus hơi tỏ ra thua thiệt khi chụp selfie , phần lớn hình ảnh bị phủ bởi 1 lớp sương trắng .
+47	Khi so sánh thì Huawei P30 Pro cho chi tiết hình tốt hơn với độ chính xác màu cao hơn ở cả chủ thể và hậu cảnh.	Khi so sánh thì Huawei P30 Pro cho chi tiết hình tốt hơn với độ chính xác màu cao hơn ở cả chủ thể và hậu cảnh .
+48	alt: Huawei P30 Pro cho chi tiết hoa tốt kèm theo xử lý nền	alt : Huawei P30 Pro cho chi tiết hoa tốt kèm theo xử lý nền
+49	des:	des :
+50	Hình ảnh trên là một bài thử AI khá thú vị ở trên 2 mẫu điện thoại.	Hình ảnh trên là một bài thử AI khá thú vị ở trên 2 mẫu điện thoại .
+51	P30 Pro làm mờ hậu cảnh khá tốt trong khi đó vẫn giữ được chi tiết của bông hoa.	P30 Pro làm mờ hậu cảnh khá tốt trong khi đó vẫn giữ được chi tiết của bông hoa .
+52	Đối với Galaxy S10 Plus thì bông hoa cũng tương tự nhưng hậu cảnh lại không được xử lý như Huawei.	Đối với Galaxy S10 Plus thì bông hoa cũng tương tự nhưng hậu cảnh lại không được xử lý như Huawei .
+53	Samsung Galaxy S10 Plus và Huawei P30 Pro đều có cụm camera ấn tượng, nhưng 2 máy hướng đến 2 trường phái khác nhau khi chụp.	Samsung Galaxy S10 Plus và Huawei P30 Pro đều có cụm camera ấn tượng , nhưng 2 máy hướng đến 2 trường phái khác nhau khi chụp .
+54	Vậy thì quyết định chiếc smartphone nào sở hữu camera tốt hơn còn phụ thuộc vào sở thích cũng như con mắt nghệ thuật của người dùng.	Vậy thì quyết định chiếc smartphone nào sở hữu camera tốt hơn còn phụ thuộc vào sở thích cũng như con mắt nghệ thuật của người dùng .
+55	Huawei P30 Pro cho hình ấm áp hơn, còn Samsung Galaxy S10 Plus đi theo hướng tươi sáng nhiều hơn.	Huawei P30 Pro cho hình ấm áp hơn , còn Samsung Galaxy S10 Plus đi theo hướng tươi sáng nhiều hơn .
+{"subject": ["7-1&&Cả", "7-2&&2", "7-3&&máy"], "object": ["7-1&&Cả", "7-2&&2", "7-3&&máy"], "aspect": ["7-7&&camera", "7-8&&mặc", "7-9&&định"], "predicate": ["7-4&&đều", "7-5&&sử", "7-6&&dụng"], "label": "EQL"}
+{"subject": ["11-1&&Samsung"], "object": [], "aspect": ["11-3&&góc", "11-4&&chụp"], "predicate": ["11-5&&rộng", "11-6&&hơn"], "label": "COM+"}
+{"subject": ["11-17&&cả", "11-18&&2", "11-19&&máy"], "object": ["11-17&&cả", "11-18&&2", "11-19&&máy"], "aspect": ["11-13&&chất", "11-14&&lượng", "11-15&&hình"], "predicate": ["11-20&&đều", "11-21&&rất", "11-22&&tương", "11-23&&xứng"], "label": "EQL"}
+{"subject": [], "object": [], "aspect": ["14-14&&camera", "14-15&&zoom"], "predicate": ["14-1&&Điểm", "14-2&&khác", "14-3&&biệt", "14-4&&lớn", "14-5&&nhất"], "label": "DIF"}
+{"subject": ["17-11&&P30", "17-12&&Pro"], "object": ["17-19&&Galaxy", "17-20&&S10", "17-21&&Plus"], "aspect": ["17-7&&khả", "17-8&&năng", "17-9&&zoom"], "predicate": ["17-13&&vượt", "17-14&&trội", "17-15&&hơn", "17-16&&hẳn"], "label": "COM+"}
+{"subject": ["22-17&&P30", "22-18&&Pro"], "object": ["22-1&&Galaxy", "22-2&&S10", "22-3&&Plus"], "aspect": ["22-13&&khả", "22-14&&năng", "22-15&&zoom"], "predicate": ["22-21&&tuyệt", "22-22&&vời", "22-23&&hơn"], "label": "COM+"}
+{"subject": ["30-1&&Huawei", "30-2&&P30", "30-3&&Pro"], "object": ["30-15&&Samsung", "30-16&&Galaxy", "30-17&&S10", "30-18&&Plus"], "aspect": ["30-5&&khả", "30-6&&năng", "30-7&&chụp", "30-8&&ảnh", "30-9&&thiếu", "30-10&&sáng"], "predicate": ["30-11&&tốt", "30-12&&hơn"], "label": "COM+"}
+{"subject": ["31-5&&Galaxy", "31-6&&Note", "31-7&&10", "31-8&&Plus"], "object": ["31-30&&P30", "31-31&&Pro"], "aspect": ["31-1&&Khẩu", "31-2&&độ", "31-3&&kép"], "predicate": ["31-9&&cho", "31-10&&nhiều", "31-11&&ánh", "31-12&&sáng", "31-13&&vào", "31-14&&hơn"], "label": "COM+"}
+{"subject": ["31-30&&P30", "31-31&&Pro"], "object": ["31-5&&Galaxy", "31-6&&Note", "31-7&&10", "31-8&&Plus"], "aspect": ["31-34&&hình", "31-35&&ảnh"], "predicate": ["31-36&&giàu", "31-37&&chi", "31-38&&tiết", "31-39&&và", "31-40&&ánh", "31-41&&sáng", "31-42&&hơn"], "label": "COM+"}
+{"subject": ["37-3&&cả", "37-4&&2"], "object": ["37-3&&cả", "37-4&&2"], "aspect": ["37-7&&chất", "37-8&&lượng", "37-9&&ảnh", "37-10&&chân", "37-11&&dung"], "predicate": ["37-12&&khá", "37-13&&tương", "37-14&&đồng"], "label": "EQL"}
+{"subject": ["38-9&&Galaxy", "38-10&&S10", "38-11&&Plus"], "object": ["38-23&&P30", "38-24&&Pro"], "aspect": ["38-13&&nhận", "38-14&&diện", "38-15&&tóc", "38-16&&trên", "38-17&&đầu", "38-18&&của", "38-19&&chủ", "38-20&&thể"], "predicate": ["38-21&&tốt", "38-22&&hơn"], "label": "COM+"}
+{"subject": ["41-1&&Cả", "41-2&&2", "41-3&&mẫu", "41-4&&flagship", "41-5&&này"], "object": [], "aspect": ["41-9&&chi", "41-10&&tiết"], "predicate": ["41-6&&đều", "41-7&&bắt", "41-8&&được", "41-9&&chi", "41-10&&tiết", "41-11&&rất", "41-12&&tốt"], "label": "EQL"}
+{"subject": ["42-1&&Huawei"], "object": ["43-5&&Galaxy", "43-6&&S10", "43-7&&Plus"], "aspect": ["42-3&&độ", "42-4&&chính", "42-5&&xác", "42-6&&màu"], "predicate": ["42-7&&tốt", "42-8&&hơn", "42-9&&ở", "42-10&&khu", "42-11&&vực", "42-12&&đèn", "42-13&&sáng", "42-14&&mạnh"], "label": "COM+"}
+{"subject": ["43-5&&Galaxy", "43-6&&S10", "43-7&&Plus"], "object": ["42-1&&Huawei"], "aspect": ["43-9&&dải", "43-10&&tương", "43-11&&phản", "43-12&&động"], "predicate": ["43-13&&tốt", "43-14&&hơn"], "label": "COM+"}
+{"subject": ["46-1&&Galaxy", "46-2&&S10", "46-3&&Plus"], "object": ["47-5&&Huawei", "47-6&&P30", "47-7&&Pro"], "aspect": ["46-10&&chụp", "46-11&&selfie"], "predicate": ["46-5&&tỏ", "46-6&&ra", "46-7&&thua", "46-8&&thiệt"], "label": "COM-"}
+{"subject": ["47-5&&Huawei", "47-6&&P30", "47-7&&Pro"], "object": ["46-1&&Galaxy", "46-2&&S10", "46-3&&Plus"], "aspect": ["47-9&&chi", "47-10&&tiết", "47-11&&hình"], "predicate": ["47-12&&tốt", "47-13&&hơn"], "label": "COM+"}
+{"subject": ["47-5&&Huawei", "47-6&&P30", "47-7&&Pro"], "object": ["46-1&&Galaxy", "46-2&&S10", "46-3&&Plus"], "aspect": ["47-15&&độ", "47-16&&chính", "47-17&&xác", "47-18&&màu"], "predicate": ["47-19&&cao", "47-20&&hơn"], "label": "COM+"}
+{"subject": ["52-3&&Galaxy", "52-4&&S10", "52-5&&Plus"], "object": ["52-21&&Huawei"], "aspect": ["52-7&&bông", "52-8&&hoa"], "predicate": ["52-10&&tương", "52-11&&tự"], "label": "EQL"}
+{"subject": ["52-3&&Galaxy", "52-4&&S10", "52-5&&Plus"], "object": ["52-21&&Huawei"], "aspect": ["52-13&&hậu", "52-14&&cảnh"], "predicate": ["52-16&&không", "52-17&&được", "52-18&&xử", "52-19&&lý", "52-20&&như"], "label": "DIF"}
+{"subject": ["53-1&&Samsung", "53-2&&Galaxy", "53-3&&S10", "53-4&&Plus"], "object": ["53-6&&Huawei", "53-7&&P30", "53-8&&Pro"], "aspect": ["53-11&&cụm", "53-12&&camera", "53-13&&ấn", "53-14&&tượng"], "predicate": ["53-9&&đều", "53-10&&có"], "label": "EQL"}

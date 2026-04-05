@@ -1,0 +1,204 @@
+Title: So sánh iPhone 13 Pro Max và Huawei P50 Pro: Lựa chọn nào tốt hơn?	Title : So sánh iPhone 13 Pro Max và Huawei P50 Pro : Lựa chọn nào tốt hơn ?
+
+Nếu như bạn đang cân nhắc không biết iPhone 13 Pro Max hay Huawei P50 Pro sẽ là lựa chọn tốt hơn thì những thông tin dưới đây có thể giúp ích cho bạn.	Nếu như bạn đang cân nhắc không biết iPhone 13 Pro Max hay Huawei P50 Pro sẽ là lựa chọn tốt hơn thì những thông tin dưới đây có thể giúp ích cho bạn .
+{"subject": ["9&&iPhone", "10&&13", "11&&Pro", "12&&Max"], "object": ["14&&Huawei", "15&&P50", "16&&Pro"], "aspect": [], "predicate": [], "label": "DIF"}
+
+Đều là hai flagship hàng đầu trên thị trường năm 2021, iPhone 13 Pro Max và Huawei P50 Pro đều khiến người sử dụng phải phân vân khi lựa chọn vì không biết rằng đâu mới là lựa chọn tốt hơn để sử dụng.	Đều là hai flagship hàng đầu trên thị trường năm 2021 , iPhone 13 Pro Max và Huawei P50 Pro đều khiến người sử dụng phải phân vân khi lựa chọn vì không biết rằng đâu mới là lựa chọn tốt hơn để sử dụng .
+{"subject": ["13&&iPhone", "14&&13", "15&&Pro", "16&&Max"], "object": ["18&&Huawei", "19&&P50", "20&&Pro"], "aspect": [], "predicate": ["22&&khiến", "23&&người", "24&&sử", "25&&dụng", "26&&phải", "27&&phân", "28&&vân"], "label": "COM-"}
+{"subject": ["18&&Huawei", "19&&P50", "20&&Pro"], "object": ["13&&iPhone", "14&&13", "15&&Pro", "16&&Max"], "aspect": [], "predicate": ["22&&khiến", "23&&người", "24&&sử", "25&&dụng", "26&&phải", "27&&phân", "28&&vân"], "label": "COM-"}
+
+alt: So sánh điện thoại huawei p50 pro và iphone 13 pro max	alt : So sánh điện thoại huawei p50 pro và iphone 13 pro max
+
+des:	des :
+
+Hãy cùng chúng tôi tìm hiểu và so sánh hai mẫu smartphone này.	Hãy cùng chúng tôi tìm hiểu và so sánh hai mẫu smartphone này .
+
+1.	1 .
+
+So sánh màn hình hiển thị của điện thoại iPhone 13 Pro Max và Huawei P50 PRO	So sánh màn hình hiển thị của điện thoại iPhone 13 Pro Max và Huawei P50 PRO
+{"subject": ["3&&màn", "4&&hình", "5&&hiển", "6&&thị"], "object": ["8&&điện", "9&&thoại", "10&&iPhone", "11&&13", "12&&Pro", "13&&Max"], "aspect": [], "predicate": ["1&&so", "2&&sánh"], "label": "COM"}
+{"subject": ["3&&màn", "4&&hình", "5&&hiển", "6&&thị"], "object": ["15&&Huawei", "16&&P50", "17&&PRO"], "aspect": [], "predicate": ["1&&so", "2&&sánh"], "label": "COM"}
+
+Cả hai chiếc điện thoại đầu bảng này đều được trang bị màn hình OLED cao cấp với đường kính lần lượt là 6.6 inch và 6.7 inch đối với Huawei P50 Pro và iPhone 13 Pro Max.	Cả hai chiếc điện thoại đầu bảng này đều được trang bị màn hình OLED cao cấp với đường kính lần lượt là 6.6 inch và 6.7 inch đối với Huawei P50 Pro và iPhone 13 Pro Max .
+{"subject": ["35&&Huawei", "36&&P50", "37&&Pro"], "object": ["39&&iPhone", "40&&13", "41&&Pro", "42&&Max"], "aspect": ["13&&màn", "14&&hình", "15&&OLED"], "predicate": ["10&&được", "11&&trang", "12&&bị"], "label": "COM+"}
+{"subject": ["35&&Huawei", "36&&P50", "37&&Pro"], "object": ["39&&iPhone", "40&&13", "41&&Pro", "42&&Max"], "aspect": ["19&&đường", "20&&kính", "13&&màn", "14&&hình"], "predicate": ["23&&là"], "label": "COM+"}
+
+Với việc đều sử dụng tỷ lệ làm mới là 120Hz, cả điện thoại iPhone 13 Pro Max và Huawei P50 Pro đều mang tới chuyển động mượt mà cho người sử dụng.	Với việc đều sử dụng tỷ lệ làm mới là 120Hz , cả điện thoại iPhone 13 Pro Max và Huawei P50 Pro đều mang tới chuyển động mượt mà cho người sử dụng .
+{"subject": ["14&&điện", "15&&thoại", "16&&iPhone", "17&&13", "18&&Pro", "19&&Max"], "object": ["21&&Huawei", "22&&P50", "23&&Pro"], "aspect": ["27&&chuyển", "28&&động"], "predicate": ["24&&đều", "25&&mang", "26&&tới"], "label": "COM+"}
+{"subject": ["14&&điện", "15&&thoại", "16&&iPhone", "17&&13", "18&&Pro", "19&&Max"], "object": ["21&&Huawei", "22&&P50", "23&&Pro"], "aspect": ["29&&mượt", "30&&mà"], "predicate": ["24&&đều", "25&&mang", "26&&tới"], "label": "COM+"}
+
+alt: So sánh điện thoại huawei p50 pro và iphone 13 pro max	alt : So sánh điện thoại huawei p50 pro và iphone 13 pro max
+
+des:	des :
+
+Bên cạnh đó, iPhone 13 Pro Max cũng sở hữu mật độ điểm ảnh cao hơn một chút với 458ppi, trong khi của đối thủ là 450ppi.	Bên cạnh đó , iPhone 13 Pro Max cũng sở hữu mật độ điểm ảnh cao hơn một chút với 458ppi , trong khi của đối thủ là 450ppi .
+{"subject": ["5&&iPhone", "6&&13", "7&&Pro", "8&&Max"], "object": ["26&&đối", "27&&thủ"], "aspect": ["12&&mật", "13&&độ", "14&&điểm", "15&&ảnh"], "predicate": ["16&&cao", "17&&hơn", "18&&một", "19&&chút"], "label": "COM+"}
+{"subject": ["5&&iPhone", "6&&13", "7&&Pro", "8&&Max"], "object": ["26&&đối", "27&&thủ"], "aspect": ["12&&mật", "13&&độ", "14&&điểm", "15&&ảnh"], "predicate": ["21&&458ppi"], "label": "COM-"}
+
+Tuy nhiên sự chênh lệch không nhiều này chắc chắn sẽ không ảnh hưởng nhiều tới khả năng hiển thị của máy trong quá trình sử dụng.	Tuy nhiên sự chênh lệch không nhiều này chắc chắn sẽ không ảnh hưởng nhiều tới khả năng hiển thị của máy trong quá trình sử dụng .
+
+Dẫu vậy, thiết kế màn hình hai điện thoại khác nhau với iPhone 13 Pro Max sử dụng thiết kế tai thỏ trong khi Huawei P50 Pro lại được trang bị camera trước nằm trong màn hình nên mang tới không gian sử dụng thoải mái hơn nhiều cho người sử dụng.	Dẫu vậy , thiết kế màn hình hai điện thoại khác nhau với iPhone 13 Pro Max sử dụng thiết kế tai thỏ trong khi Huawei P50 Pro lại được trang bị camera trước nằm trong màn hình nên mang tới không gian sử dụng thoải mái hơn nhiều cho người sử dụng .
+{"subject": ["14&&iPhone", "15&&13", "16&&Pro", "17&&Max"], "object": ["26&&Huawei", "27&&P50", "28&&Pro"], "aspect": ["4&&thiết", "5&&kế", "6&&màn", "7&&hình"], "predicate": ["18&&sử", "19&&dụng", "20&&thiết", "21&&kế", "22&&tai", "23&&thỏ"], "label": "COM+"}
+{"subject": ["14&&iPhone", "15&&13", "16&&Pro", "17&&Max"], "object": ["26&&Huawei", "27&&P50", "28&&Pro"], "aspect": ["42&&không", "43&&gian", "44&&sử", "45&&dụng"], "predicate": ["40&&mang", "41&&tới", "42&&không", "43&&gian", "44&&sử", "45&&dụng", "46&&thoải", "47&&mái", "48&&hơn", "49&&nhiều"], "label": "COM+"}
+
+Như vậy, với những gì được trang bị thì bộ đôi smartphone này có màn hình hiển thị với chất lượng tương đương nhau nhưng rõ ràng thì Huawei P50 Pro mang tới trải nghiệm sử dụng tốt hơn nhiều.	Như vậy , với những gì được trang bị thì bộ đôi smartphone này có màn hình hiển thị với chất lượng tương đương nhau nhưng rõ ràng thì Huawei P50 Pro mang tới trải nghiệm sử dụng tốt hơn nhiều .
+{"subject": ["11&&bộ", "12&&đôi", "13&&smartphone", "14&&này"], "object": [], "aspect": ["16&&màn", "17&&hình", "18&&hiển", "19&&thị"], "predicate": ["15&&có", "21&&chất", "22&&lượng", "23&&tương", "24&&đương"], "label": "EQL"}
+{"subject": ["11&&bộ", "12&&đôi", "13&&smartphone", "14&&này"], "object": [], "aspect": ["35&&trải", "36&&nghiệm", "37&&sử", "38&&dụng"], "predicate": ["33&&mang", "34&&tới", "35&&trải", "36&&nghiệm", "37&&sử", "38&&dụng", "39&&tốt", "40&&hơn", "41&&nhiều"], "label": "COM+"}
+
+2.	2 .
+
+So sánh hệ điều hành trên Huawei P50 Pro và iPhone 13 Pro Max	So sánh hệ điều hành trên Huawei P50 Pro và iPhone 13 Pro Max
+{"subject": ["7&&Huawei", "8&&P50", "9&&Pro"], "object": ["11&&iPhone", "12&&13", "13&&Pro", "14&&Max"], "aspect": ["3&&hệ", "4&&điều", "5&&hành"], "predicate": ["1&&So", "2&&sánh"], "label": "DIF"}
+
+Apple trang bị cho flagship của mình hệ điều hành iOS 15 do mình tự phát triển, hệ điều hành này vốn được biết tới với tính thân thiện với phần cứng chip trên iPhone, đồng thời được đánh giá cao về độ bảo mật.	Apple trang bị cho flagship của mình hệ điều hành iOS 15 do mình tự phát triển , hệ điều hành này vốn được biết tới với tính thân thiện với phần cứng chip trên iPhone , đồng thời được đánh giá cao về độ bảo mật .
+{"subject": ["1&&Apple"], "object": [], "aspect": ["28&&tính", "29&&thân", "30&&thiện", "31&&với", "32&&phần", "33&&cứng"], "predicate": ["24&&được", "25&&biết", "26&&tới"], "label": "COM+"}
+{"subject": ["1&&Apple"], "object": [], "aspect": ["45&&độ", "46&&bảo", "47&&mật"], "predicate": ["40&&được", "41&&đánh", "42&&giá", "43&&cao"], "label": "SUP+"}
+
+Ngoài ra, với những gì đã làm trên các dòng máy cũ thì trong tương lai, khi mà Apple phát hành hệ điều hành mới, thì iPhone 13 Pro Max cũng là một trong những đối tượng đầu tiên được cập nhật lên hệ điều hành mới (đơn cử hiện tại thì iPhone 6 vẫn được phép cập nhật lên iOS 15).	Ngoài ra , với những gì đã làm trên các dòng máy cũ thì trong tương lai , khi mà Apple phát hành hệ điều hành mới , thì iPhone 13 Pro Max cũng là một trong những đối tượng đầu tiên được cập nhật lên hệ điều hành mới ( đơn cử hiện tại thì iPhone 6 vẫn được phép cập nhật lên iOS 15 ) .
+{"subject": ["30&&iPhone", "31&&13", "32&&Pro", "33&&Max"], "object": ["57&&iPhone", "58&&6"], "aspect": ["24&&hệ", "25&&điều", "26&&hành"], "predicate": ["43&&được", "44&&cập", "45&&nhật", "46&&lên", "47&&hệ", "48&&điều", "49&&hành", "50&&mới"], "label": "COM+"}
+{"subject": ["30&&iPhone", "31&&13", "32&&Pro", "33&&Max"], "object": [], "aspect": [], "predicate": ["35&&là", "36&&một", "37&&trong", "38&&những", "39&&đối", "40&&tượng", "41&&đầu", "42&&tiên", "43&&được", "44&&cập", "45&&nhật", "46&&lên", "47&&hệ", "48&&điều", "49&&hành", "50&&mới"], "label": "COM+"}
+
+alt: So sánh điện thoại huawei p50 pro và iphone 13 pro max	alt : So sánh điện thoại huawei p50 pro và iphone 13 pro max
+
+des:	des :
+
+Trong khi đó, Huawei P50 Pro được trang bị hệ hiều hành Hongmeng OS – cũng do Huawei tự phát triển, và trên thực tế nó cũng khá thân thiện với người sử dụng bởi trước đó khi còn sử dụng hệ điều hành Android thì các điện thoại Huawei cũng sử dụng tùy biến giao diện riêng này.	Trong khi đó , Huawei P50 Pro được trang bị hệ hiều hành Hongmeng OS – cũng do Huawei tự phát triển , và trên thực tế nó cũng khá thân thiện với người sử dụng bởi trước đó khi còn sử dụng hệ điều hành Android thì các điện thoại Huawei cũng sử dụng tùy biến giao diện riêng này .
+{"subject": ["5&&Huawei", "6&&P50", "7&&Pro"], "object": ["49&&các", "50&&điện", "51&&thoại", "52&&Huawei"], "aspect": ["44&&hệ", "45&&điều", "46&&hành"], "predicate": ["29&&cũng", "30&&khá", "31&&thân", "32&&thiện", "33&&với", "34&&người", "35&&sử", "36&&dụng"], "label": "COM+"}
+{"subject": ["5&&Huawei", "6&&P50", "7&&Pro"], "object": ["49&&các", "50&&điện", "51&&thoại", "52&&Huawei"], "aspect": ["56&&tùy", "57&&biến", "58&&giao", "59&&diện"], "predicate": ["54&&sử", "55&&dụng", "56&&tùy", "57&&biến", "58&&giao", "59&&diện", "60&&riêng", "61&&này"], "label": "COM-"}
+
+Tuy nhiên, do hệ điều hành này còn mới nên chắc chắn sẽ không được đánh giá cao bằng hệ điều hành iOS do Apple phát triển từ lâu.	Tuy nhiên , do hệ điều hành này còn mới nên chắc chắn sẽ không được đánh giá cao bằng hệ điều hành iOS do Apple phát triển từ lâu .
+{"subject": ["5&&hệ", "6&&điều", "7&&hành", "8&&này"], "object": ["21&&hệ", "22&&điều", "23&&hành", "24&&iOS"], "aspect": [], "predicate": ["12&&chắc", "13&&chắn", "14&&sẽ", "15&&không", "16&&được", "17&&đánh", "18&&giá", "19&&cao"], "label": "COM-"}
+
+3.	3 .
+
+So sánh hiệu năng xử lý của iPhone 13 Pro Max và Huawei P50 Pro	So sánh hiệu năng xử lý của iPhone 13 Pro Max và Huawei P50 Pro
+{"subject": ["8&&iPhone", "9&&13", "10&&Pro", "11&&Max"], "object": ["13&&Huawei", "14&&P50", "15&&Pro"], "aspect": ["3&&hiệu", "4&&năng", "5&&xử", "6&&lý"], "predicate": ["1&&So", "2&&sánh"], "label": "DIF"}
+
+Apple trang bị cho iPhone 13 Pro Max con chip Apple A15 Bionic được sản xuất trên tiến trình 5nm, đây là con chip thế hệ mới với sự bổ sung số bóng bán dẫn tăng 18% so với người tiền nhiệm, số nhân GPU cũng tăng thêm so với thế hệ trước, chính vì thế, mang tới cho iPhone 13 Pro Max khả năng xử lý ấn tượng tuyệt vời.	Apple trang bị cho iPhone 13 Pro Max con chip Apple A15 Bionic được sản xuất trên tiến trình 5nm , đây là con chip thế hệ mới với sự bổ sung số bóng bán dẫn tăng 18% so với người tiền nhiệm , số nhân GPU cũng tăng thêm so với thế hệ trước , chính vì thế , mang tới cho iPhone 13 Pro Max khả năng xử lý ấn tượng tuyệt vời .
+{"subject": ["1&&Apple"], "object": ["5&&iPhone", "6&&13", "7&&Pro", "8&&Max"], "aspect": ["9&&con", "10&&chip", "11&&Apple", "12&&A15", "13&&Bionic"], "predicate": ["14&&được", "15&&sản", "16&&xuất", "17&&trên", "18&&tiến", "19&&trình", "20&&5nm"], "label": "SUP+"}
+{"subject": ["11&&Apple", "12&&A15", "13&&Bionic"], "object": ["42&&người", "43&&tiền", "44&&nhiệm"], "aspect": ["9&&con", "10&&chip"], "predicate": ["14&&được", "15&&sản", "16&&xuất", "17&&trên", "18&&tiến", "19&&trình", "20&&5nm"], "label": "COM+"}
+{"subject": ["11&&Apple", "12&&A15", "13&&Bionic"], "object": ["54&&thế", "55&&hệ", "56&&trước"], "aspect": ["46&&số", "47&&nhân", "48&&GPU"], "predicate": ["50&&tăng", "51&&thêm"], "label": "COM+"}
+{"subject": ["11&&Apple", "12&&A15", "13&&Bionic"], "object": ["5&&iPhone", "6&&13", "7&&Pro", "8&&Max"], "aspect": ["69&&khả", "70&&năng", "71&&xử", "72&&lý"], "predicate": ["62&&mang", "63&&tới", "64&&cho", "65&&iPhone", "66&&13", "67&&Pro", "68&&Max", "69&&khả", "70&&năng", "71&&xử", "72&&lý", "73&&ấn", "74&&tượng", "75&&tuyệt", "76&&vời"], "label": "COM+"}
+
+alt: So sánh điện thoại huawei p50 pro và iphone 13 pro max	alt : So sánh điện thoại huawei p50 pro và iphone 13 pro max
+
+des:	des :
+
+Trong khi đó, Huawei trang bị cho P50 Pro con chip Kirin 9000 cũng được sản xuất trên tiến trình 5nm, do hãng tự sản xuất.	Trong khi đó , Huawei trang bị cho P50 Pro con chip Kirin 9000 cũng được sản xuất trên tiến trình 5nm , do hãng tự sản xuất .
+{"subject": ["5&&Huawei"], "object": [], "aspect": ["11&&con", "12&&chip"], "predicate": ["6&&trang", "7&&bị", "15&&cũng", "16&&được", "17&&sản", "18&&xuất", "19&&trên", "20&&tiến", "21&&trình", "22&&5nm"], "label": "COM+"}
+{"subject": ["5&&Huawei"], "object": ["9&&P50", "10&&Pro"], "aspect": ["11&&con", "12&&chip"], "predicate": ["15&&cũng", "16&&được", "17&&sản", "18&&xuất", "19&&trên", "20&&tiến", "21&&trình", "22&&5nm"], "label": "COM+"}
+
+Con chip này cũng được đánh giá rất cao về sức mạnh xử lý trong quá trình sử dụng.	Con chip này cũng được đánh giá rất cao về sức mạnh xử lý trong quá trình sử dụng .
+{"subject": ["1&&con", "2&&chip", "3&&này"], "object": [], "aspect": ["11&&sức", "12&&mạnh", "13&&xử", "14&&lý"], "predicate": ["5&&được", "6&&đánh", "7&&giá", "8&&rất", "9&&cao"], "label": "COM+"}
+
+Tuy nhiên, so với chip A15 thÌ chip Kirin 9000 không được tích hợp khả năng kết nối 5G, đây chính là một bất lợi của P50 Pro so với iPhone 13 Pro Max.	Tuy nhiên , so với chip A15 thÌ chip Kirin 9000 không được tích hợp khả năng kết nối 5G , đây chính là một bất lợi của P50 Pro so với iPhone 13 Pro Max .
+{"subject": ["9&&chip", "10&&Kirin", "11&&9000"], "object": ["6&&chip", "7&&A15"], "aspect": ["16&&khả", "17&&năng", "18&&kết", "19&&nối", "20&&5G"], "predicate": ["12&&không", "13&&được", "14&&tích", "15&&hợp"], "label": "COM-"}
+
+4.	4 .
+
+So sánh chất lượng camera trên điện thoại Huawei P50 Pro và iPhone 13 Pro Max	So sánh chất lượng camera trên điện thoại Huawei P50 Pro và iPhone 13 Pro Max
+{"subject": ["3&&chất", "4&&lượng", "5&&camera"], "object": ["7&&điện", "8&&thoại", "9&&Huawei", "10&&P50", "11&&Pro"], "aspect": [], "predicate": [], "label": "COM"}
+{"subject": ["3&&chất", "4&&lượng", "5&&camera"], "object": ["13&&iPhone", "14&&13", "15&&Pro", "16&&Max"], "aspect": [], "predicate": [], "label": "COM"}
+
+iPhone13ProMax được trang bị cụm 3 camera 12 Megapixel và một cảm biến TOF 3D LiDAR, trong đó camera tele 77mm và hỗ trợ zoom quang học 3x.	iPhone13ProMax được trang bị cụm 3 camera 12 Megapixel và một cảm biến TOF 3D LiDAR , trong đó camera tele 77mm và hỗ trợ zoom quang học 3x .
+{"subject": ["1&&iPhone13ProMax"], "object": [], "aspect": ["5&&cụm", "6&&3", "7&&camera", "8&&12", "9&&Megapixel"], "predicate": ["2&&được", "3&&trang", "4&&bị"], "label": "COM+"}
+{"subject": ["20&&camera", "21&&tele", "22&&77mm"], "object": [], "aspect": ["24&&hỗ", "25&&trợ", "26&&zoom", "27&&quang", "28&&học", "29&&3x"], "predicate": ["2&&được", "24&&hỗ", "25&&trợ"], "label": "COM+"}
+
+Khả năng thu nhận ánh sáng của máy ảnh góc siêu rộng đã tăng lên 92% và ống kính góc rộng đã tăng 2,2 lần để chụp ảnh trong môi trường ánh sáng yếu.	Khả năng thu nhận ánh sáng của máy ảnh góc siêu rộng đã tăng lên 92% và ống kính góc rộng đã tăng 2,2 lần để chụp ảnh trong môi trường ánh sáng yếu .
+{"subject": ["8&&máy", "9&&ảnh", "10&&góc", "11&&siêu", "12&&rộng"], "object": [], "aspect": ["1&&khả", "2&&năng", "3&&thu", "4&&nhận", "5&&ánh", "6&&sáng"], "predicate": ["14&&tăng", "15&&lên", "16&&92", "17&&%"], "label": "COM+"}
+{"subject": ["19&&ống", "20&&kính", "21&&góc", "22&&rộng"], "object": [], "aspect": [], "predicate": ["24&&tăng", "25&&2", "26&&,", "27&&2", "28&&lần"], "label": "COM+"}
+
+Chức năng chụp ảnh macro mới đã được thêm vào và nó cũng có chế độ quay phim để quay video.	Chức năng chụp ảnh macro mới đã được thêm vào và nó cũng có chế độ quay phim để quay video .
+{"subject": ["1&&chức", "2&&năng", "3&&chụp", "4&&ảnh", "5&&macro"], "object": [], "aspect": [], "predicate": ["7&&đã", "8&&được", "9&&thêm", "10&&vào"], "label": "COM+"}
+{"subject": ["15&&chế", "16&&độ", "17&&quay", "18&&phim"], "object": [], "aspect": [], "predicate": ["14&&có"], "label": "COM+"}
+
+alt: iPhone13ProMax được trang bị camera tele 77mm và hỗ trợ zoom quang học 3x.	alt : iPhone13ProMax được trang bị camera tele 77mm và hỗ trợ zoom quang học 3x .
+
+des:	des :
+
+Khả năng thu nhận ánh sáng của máy ảnh góc siêu rộng đã tăng lên 92% và ống kính góc rộng đã tăng 2,2 lần để chụp ảnh trong môi trường ánh sáng yếu.	Khả năng thu nhận ánh sáng của máy ảnh góc siêu rộng đã tăng lên 92% và ống kính góc rộng đã tăng 2,2 lần để chụp ảnh trong môi trường ánh sáng yếu .
+{"subject": ["8&&máy", "9&&ảnh", "10&&góc", "11&&siêu", "12&&rộng"], "object": [], "aspect": ["1&&khả", "2&&năng", "3&&thu", "4&&nhận", "5&&ánh", "6&&sáng"], "predicate": ["14&&tăng", "15&&lên", "16&&92", "17&&%"], "label": "COM+"}
+{"subject": ["19&&ống", "20&&kính", "21&&góc", "22&&rộng"], "object": [], "aspect": [], "predicate": ["24&&tăng", "25&&2", "26&&,", "27&&2", "28&&lần"], "label": "COM+"}
+
+Chức năng chụp ảnh macro mới đã được thêm vào và nó cũng có chế độ quay phim để quay video.	Chức năng chụp ảnh macro mới đã được thêm vào và nó cũng có chế độ quay phim để quay video .
+{"subject": ["1&&chức", "2&&năng", "3&&chụp", "4&&ảnh", "5&&macro"], "object": [], "aspect": [], "predicate": ["7&&đã", "8&&được", "9&&thêm", "10&&vào"], "label": "COM+"}
+{"subject": ["15&&chế", "16&&độ", "17&&quay", "18&&phim"], "object": [], "aspect": [], "predicate": ["14&&có"], "label": "COM+"}
+
+Huawei P50 Pro được trang bị sự kết hợp của ống kính màu (màu) chính 50 Megapixel + ống kính màu chính (đen trắng) 40 Megapixel + ống kính góc siêu rộng 13 Megapixel + ống kính tele 64 Megapixel.	Huawei P50 Pro được trang bị sự kết hợp của ống kính màu ( màu ) chính 50 Megapixel + ống kính màu chính ( đen trắng ) 40 Megapixel + ống kính góc siêu rộng 13 Megapixel + ống kính tele 64 Megapixel .
+{"subject": ["1&&Huawei", "2&&P50", "3&&Pro"], "object": [], "aspect": [], "predicate": [], "label": "[UNK]"}
+
+des:	des :
+
+Còn Huawei P50 Pro được trang bị  tới 5 ống kính với sự kết hợp của ống kính màu (màu) chính 50 Megapixel + ống kính màu chính (đen trắng) 40 Megapixel + ống kính góc siêu rộng 13 Megapixel + ống kính tele 64 Megapixel.	Còn Huawei P50 Pro được trang bị tới 5 ống kính với sự kết hợp của ống kính màu ( màu ) chính 50 Megapixel + ống kính màu chính ( đen trắng ) 40 Megapixel + ống kính góc siêu rộng 13 Megapixel + ống kính tele 64 Megapixel .
+{"subject": ["2&&Huawei", "3&&P50", "4&&Pro"], "object": [], "aspect": [], "predicate": ["5&&được", "6&&trang", "7&&bị", "8&&tới"], "label": "SUP+"}
+{"subject": ["2&&Huawei", "3&&P50", "4&&Pro"], "object": [], "aspect": [], "predicate": [], "label": "COM+"}
+
+Bên cạnh đó máy cũng được tích hợp loạt các cảm biến hỗ trợ khác.	Bên cạnh đó máy cũng được tích hợp loạt các cảm biến hỗ trợ khác .
+{"subject": ["4&&máy"], "object": [], "aspect": [], "predicate": ["6&&được", "7&&tích", "8&&hợp", "9&&loạt", "10&&các", "11&&cảm", "12&&biến", "13&&hỗ", "14&&trợ", "15&&khác"], "label": "EQL"}
+
+alt: iPhone13ProMax được trang bị camera tele 77mm và hỗ trợ zoom quang học 3x.	alt : iPhone13ProMax được trang bị camera tele 77mm và hỗ trợ zoom quang học 3x .
+
+des:	des :
+
+Khả năng thu nhận ánh sáng của máy ảnh góc siêu rộng đã tăng lên 92% và ống kính góc rộng đã tăng 2,2 lần để chụp ảnh trong môi trường ánh sáng yếu.	Khả năng thu nhận ánh sáng của máy ảnh góc siêu rộng đã tăng lên 92% và ống kính góc rộng đã tăng 2,2 lần để chụp ảnh trong môi trường ánh sáng yếu .
+{"subject": ["8&&máy", "9&&ảnh", "10&&góc", "11&&siêu", "12&&rộng"], "object": [], "aspect": ["1&&khả", "2&&năng", "3&&thu", "4&&nhận", "5&&ánh", "6&&sáng"], "predicate": ["14&&tăng", "15&&lên", "16&&92", "17&&%"], "label": "COM+"}
+{"subject": ["19&&ống", "20&&kính", "21&&góc", "22&&rộng"], "object": [], "aspect": [], "predicate": ["24&&tăng", "25&&2", "26&&,", "27&&2", "28&&lần"], "label": "COM+"}
+
+Chức năng chụp ảnh macro mới đã được thêm vào và nó cũng có chế độ quay phim để quay video.	Chức năng chụp ảnh macro mới đã được thêm vào và nó cũng có chế độ quay phim để quay video .
+{"subject": ["1&&chức", "2&&năng", "3&&chụp", "4&&ảnh", "5&&macro"], "object": [], "aspect": [], "predicate": ["7&&đã", "8&&được", "9&&thêm", "10&&vào"], "label": "COM+"}
+{"subject": ["15&&chế", "16&&độ", "17&&quay", "18&&phim"], "object": [], "aspect": [], "predicate": ["14&&có"], "label": "COM+"}
+
+Huawei P50 Pro được trang bị sự kết hợp của ống kính màu (màu) chính 50 Megapixel + ống kính màu chính (đen trắng) 40 Megapixel + ống kính góc siêu rộng 13 Megapixel + ống kính tele 64 Megapixel.	Huawei P50 Pro được trang bị sự kết hợp của ống kính màu ( màu ) chính 50 Megapixel + ống kính màu chính ( đen trắng ) 40 Megapixel + ống kính góc siêu rộng 13 Megapixel + ống kính tele 64 Megapixel .
+{"subject": ["1&&Huawei", "2&&P50", "3&&Pro"], "object": [], "aspect": [], "predicate": [], "label": "[UNK]"}
+
+des:	des :
+
+Trên thực tế sử dụng, Huawei P50 Pro được DXOMark (chuyên trang đánh giá camera uy tín) đánh giá cao hơn iPhone 13 về chất lượng chụp ảnh.	Trên thực tế sử dụng , Huawei P50 Pro được DXOMark ( chuyên trang đánh giá camera uy tín ) đánh giá cao hơn iPhone 13 về chất lượng chụp ảnh .
+{"subject": ["7&&Huawei", "8&&P50", "9&&Pro"], "object": ["25&&iPhone", "26&&13"], "aspect": ["28&&chất", "29&&lượng", "30&&chụp", "31&&ảnh"], "predicate": ["10&&được", "15&&đánh", "16&&giá", "23&&cao", "24&&hơn"], "label": "COM+"}
+
+Bởi không chỉ có được sự sắc nét tốt hơn mà các tính năng chụp zoom, hay xóa phông, chỉnh ảnh, quay video…đều cho được chất lượng ấn tượng hơn.	Bởi không chỉ có được sự sắc nét tốt hơn mà các tính năng chụp zoom , hay xóa phông , chỉnh ảnh , quay video … đều cho được chất lượng ấn tượng hơn .
+{"subject": ["12&&các", "13&&tính", "14&&năng", "15&&chụp", "16&&zoom"], "object": [], "aspect": ["31&&chất", "32&&lượng"], "predicate": ["29&&cho", "30&&được", "31&&chất", "32&&lượng", "33&&ấn", "34&&tượng", "35&&hơn"], "label": "COM+"}
+{"subject": ["19&&xóa", "20&&phông"], "object": [], "aspect": ["31&&chất", "32&&lượng"], "predicate": ["29&&cho", "30&&được", "31&&chất", "32&&lượng", "33&&ấn", "34&&tượng", "35&&hơn"], "label": "COM+"}
+{"subject": ["22&&chỉnh", "23&&ảnh"], "object": [], "aspect": ["31&&chất", "32&&lượng"], "predicate": ["29&&cho", "30&&được", "31&&chất", "32&&lượng", "33&&ấn", "34&&tượng", "35&&hơn"], "label": "COM+"}
+{"subject": ["25&&quay", "26&&video"], "object": [], "aspect": ["31&&chất", "32&&lượng"], "predicate": ["29&&cho", "30&&được", "31&&chất", "32&&lượng", "33&&ấn", "34&&tượng", "35&&hơn"], "label": "COM+"}
+
+Dẫu vậy, không phải iPhone 13 Pro Max có chất lượng ảnh kém bởi chính bản thân nó vẫn là chiếc smartphone có chất lượng ảnh chụp tốt hàng đầu trên thị trường hiện nay.	Dẫu vậy , không phải iPhone 13 Pro Max có chất lượng ảnh kém bởi chính bản thân nó vẫn là chiếc smartphone có chất lượng ảnh chụp tốt hàng đầu trên thị trường hiện nay .
+{"subject": ["6&&iPhone", "7&&13", "8&&Pro", "9&&Max"], "object": ["6&&iPhone", "7&&13", "8&&Pro", "9&&Max"], "aspect": ["11&&chất", "12&&lượng", "13&&ảnh"], "predicate": ["14&&kém"], "label": "COM-"}
+
+5.	5 .
+
+So sánh thời lượng pin trên điện thoại iPhone 13 Pro Max và Huawei P50 Pro	So sánh thời lượng pin trên điện thoại iPhone 13 Pro Max và Huawei P50 Pro
+{"subject": ["9&&iPhone", "10&&13", "11&&Pro", "12&&Max"], "object": ["14&&Huawei", "15&&P50", "16&&Pro"], "aspect": ["3&&thời", "4&&lượng", "5&&pin"], "predicate": [], "label": "DIF"}
+
+Pin của iPhone13ProMax được nâng cấp lên 4352 mAh, và dung lượng pin của Huawei P50Pro là 4360 mAh. Tuy nhiên, khả năng sạc nhanh của iPhone13ProMax vẫn là loại có dây 20W và không dây 15W.	Pin của iPhone13ProMax được nâng cấp lên 4352 mAh , và dung lượng pin của Huawei P50Pro là 4360 mAh . Tuy nhiên , khả năng sạc nhanh của iPhone13ProMax vẫn là loại có dây 20W và không dây 15W .
+{"subject": ["1&&Pin", "2&&của", "3&&iPhone13ProMax"], "object": ["16&&Huawei", "17&&P50Pro"], "aspect": ["12&&dung", "13&&lượng", "14&&pin"], "predicate": ["18&&là"], "label": "COM-"}
+{"subject": ["25&&khả", "26&&năng", "27&&sạc", "28&&nhanh", "29&&của", "30&&iPhone13ProMax"], "object": [], "aspect": ["33&&loại"], "predicate": ["18&&là"], "label": "COM-"}
+
+Sạc nhanh có dây của Huawei P50Pro là 66W và sạc nhanh không dây là 50W.	Sạc nhanh có dây của Huawei P50Pro là 66W và sạc nhanh không dây là 50W .
+{"subject": ["1&&Sạc", "2&&nhanh", "3&&có", "4&&dây", "5&&của", "6&&Huawei", "7&&P50Pro"], "object": ["6&&Huawei", "7&&P50Pro"], "aspect": [], "predicate": ["8&&là", "9&&66W"], "label": "COM+"}
+{"subject": ["1&&Sạc", "2&&nhanh", "13&&không", "14&&dây", "5&&của", "6&&Huawei", "7&&P50Pro"], "object": ["6&&Huawei", "7&&P50Pro"], "aspect": [], "predicate": ["15&&là", "16&&50W"], "label": "COM-"}
+
+alt: So sánh iphone 13 pro max và huawei p50 pro	alt : So sánh iphone 13 pro max và huawei p50 pro
+
+des:	des :
+
+Do đó, mặc dù có thời lượng sử dụng tương đương nhau nhưng Huawei P50 Pro lại có được khả năng sạc nhanh ấn tượng hơn hẳn.	Do đó , mặc dù có thời lượng sử dụng tương đương nhau nhưng Huawei P50 Pro lại có được khả năng sạc nhanh ấn tượng hơn hẳn .
+{"subject": ["15&&Huawei", "16&&P50", "17&&Pro"], "object": [], "aspect": ["21&&khả", "22&&năng", "23&&sạc", "24&&nhanh"], "predicate": ["18&&lại", "19&&có", "20&&được"], "label": "COM+"}
+{"subject": ["15&&Huawei", "16&&P50", "17&&Pro"], "object": [], "aspect": ["7&&thời", "8&&lượng", "9&&sử", "10&&dụng"], "predicate": ["11&&tương", "12&&đương"], "label": "EQL"}
+
+Tạm kết: iPhone 13 Pro Max mang tới cho người sử dụng một chiếc điện thoại với hiệu năng xử lý ấn tượng tuyệt vời cùng với sự ổn định, bảo mật trong quá trình sư dụng, đặc biệt là khả năng giữ giá ấn tượng.	Tạm kết : iPhone 13 Pro Max mang tới cho người sử dụng một chiếc điện thoại với hiệu năng xử lý ấn tượng tuyệt vời cùng với sự ổn định , bảo mật trong quá trình sư dụng , đặc biệt là khả năng giữ giá ấn tượng .
+{"subject": ["4&&iPhone", "5&&13", "6&&Pro", "7&&Max"], "object": [], "aspect": ["19&&hiệu", "20&&năng", "21&&xử", "22&&lý"], "predicate": ["23&&ấn", "24&&tượng", "25&&tuyệt", "26&&vời"], "label": "SUP+"}
+{"subject": ["4&&iPhone", "5&&13", "6&&Pro", "7&&Max"], "object": [], "aspect": ["29&&sự", "30&&ổn", "31&&định"], "predicate": ["23&&ấn", "24&&tượng"], "label": "SUP+"}
+{"subject": ["4&&iPhone", "5&&13", "6&&Pro", "7&&Max"], "object": [], "aspect": ["33&&bảo", "34&&mật"], "predicate": ["23&&ấn", "24&&tượng"], "label": "SUP+"}
+{"subject": ["4&&iPhone", "5&&13", "6&&Pro", "7&&Max"], "object": [], "aspect": ["44&&khả", "45&&năng", "46&&giữ", "47&&giá"], "predicate": ["23&&ấn", "24&&tượng"], "label": "SUP+"}
+
+Tuy nhiên, Huawei P50 Pro Max lại có thiết kế đẹp mắt, cùng với chất lượng máy ảnh vượt trội hơn.	Tuy nhiên , Huawei P50 Pro Max lại có thiết kế đẹp mắt , cùng với chất lượng máy ảnh vượt trội hơn .
+{"subject": ["4&&Huawei", "5&&P50", "6&&Pro", "7&&Max"], "object": [], "aspect": ["10&&thiết", "11&&kế"], "predicate": ["12&&đẹp", "13&&mắt"], "label": "COM+"}
+{"subject": ["4&&Huawei", "5&&P50", "6&&Pro", "7&&Max"], "object": [], "aspect": ["17&&chất", "18&&lượng", "19&&máy", "20&&ảnh"], "predicate": ["21&&vượt", "22&&trội", "23&&hơn"], "label": "COM+"}
+
+Do đó, tùy nhu cầu mà người sử dụng có thể cân nhắc để lựa chọn cho mình một chiếc điện thoại phù hợp nhất.	Do đó , tùy nhu cầu mà người sử dụng có thể cân nhắc để lựa chọn cho mình một chiếc điện thoại phù hợp nhất .
+
+Dẫu vậy, ở Việt Nam hiện tại chỉ có iPhone 13 Pro Max được phân phối chính hãng còn Huawei P50 Pro thì phải mua thông qua các đơn vị nhập khẩu tư nhân.	Dẫu vậy , ở Việt Nam hiện tại chỉ có iPhone 13 Pro Max được phân phối chính hãng còn Huawei P50 Pro thì phải mua thông qua các đơn vị nhập khẩu tư nhân .
+{"subject": ["11&&iPhone", "12&&13", "13&&Pro", "14&&Max"], "object": ["21&&Huawei", "22&&P50", "23&&Pro"], "aspect": ["16&&phân", "17&&phối"], "predicate": ["9&&chỉ", "15&&được", "16&&phân", "17&&phối", "18&&chính", "19&&hãng"], "label": "COM-"}
+{"subject": ["11&&iPhone", "12&&13", "13&&Pro", "14&&Max"], "object": ["21&&Huawei", "22&&P50", "23&&Pro"], "aspect": [], "predicate": ["25&&phải", "26&&mua", "27&&thông", "28&&qua", "29&&các", "30&&đơn", "31&&vị", "32&&nhập", "33&&khẩu", "34&&tư", "35&&nhân"], "label": "COM+"}
+

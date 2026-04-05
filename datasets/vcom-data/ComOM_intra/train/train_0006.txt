@@ -1,0 +1,46 @@
+1	title: Google Pixel 6 Pro vs iPhone 13 Pro: camera của smartphone nào đỉnh hơn ?	title : Google Pixel 6 Pro vs iPhone 13 Pro : camera của smartphone nào đỉnh hơn ?
+2	So sánh camera giữa iPhone 13 Pro và Google Pixel 6 Pro: Máy nào tốt hơn.	So sánh camera giữa iPhone 13 Pro và Google Pixel 6 Pro : Máy nào tốt hơn .
+3	iPhone 13 Pro và Google Pixel 6 Pro đều là những chiếc smartphone trang bị camera tốt nhất hiện nay.	iPhone 13 Pro và Google Pixel 6 Pro đều là những chiếc smartphone trang bị camera tốt nhất hiện nay .
+4	Vì có thông số máy ảnh ngang bằng với 13 Pro Max nên màn so sánh camera giữa iPhone 13 Pro và Pixel 6 Pro có thể được xem như màn đọ sức giữ Pixel 6 Pro và phiên bản điện thoại cao cấp nhất của Apple.	Vì có thông số máy ảnh ngang bằng với 13 Pro Max nên màn so sánh camera giữa iPhone 13 Pro và Pixel 6 Pro có thể được xem như màn đọ sức giữ Pixel 6 Pro và phiên bản điện thoại cao cấp nhất của Apple .
+5	Vậy liệu khả năng chụp hình của Google Pixel 6 có thua kém camera của iPhone 13 hay không?	Vậy liệu khả năng chụp hình của Google Pixel 6 có thua kém camera của iPhone 13 hay không ?
+6	Cùng tìm hiểu thông qua bài test của The Verge nhé.	Cùng tìm hiểu thông qua bài test của The Verge nhé .
+7	Thông số camera	Thông số camera
+8	Google Pixel 6 Pro sở hữu 3 camera sau với ống kính chính 50 MP, khẩu độ f/1.9, ống kính tele 48MP khẩu độ f/3.5 và ống kính siêu rộng 12 MP khẩu độ f/2.2. Ngoài ra chiếc máy sở hữu camera selfie độ phân giải là 11.1 MP khẩu độ f/2.2.	Google Pixel 6 Pro sở hữu 3 camera sau với ống kính chính 50 MP , khẩu độ f / 1.9 , ống kính tele 48MP khẩu độ f / 3.5 và ống kính siêu rộng 12 MP khẩu độ f / 2.2 . Ngoài ra chiếc máy sở hữu camera selfie độ phân giải là 11.1 MP khẩu độ f / 2.2 .
+9	Như đã nói, iPhone 13 Pro được trang bị cụm camera ngang ngửa với phiên bản Pro Max gồm 3 ống kính chính, tele và siêu rộng đều có độ phân giải 12 Mp. Ngay cả camera trước cũng sẽ cùng thông số là 12 MP.	Như đã nói , iPhone 13 Pro được trang bị cụm camera ngang ngửa với phiên bản Pro Max gồm 3 ống kính chính , tele và siêu rộng đều có độ phân giải 12 Mp . Ngay cả camera trước cũng sẽ cùng thông số là 12 MP .
+10	Và để có thể so sánh một cách công bằng nhất, The Verge đã chụp hơn 1000 bức ảnh bằng cả hai mẫu điện thoại và cùng xem liệu có sự chênh lệch về khả năng hay không nhé.	Và để có thể so sánh một cách công bằng nhất , The Verge đã chụp hơn 1000 bức ảnh bằng cả hai mẫu điện thoại và cùng xem liệu có sự chênh lệch về khả năng hay không nhé .
+11	alt: Google Pixel 6 chụp ban ngày đẹp hơn iPhone 13 Pro	alt : Google Pixel 6 chụp ban ngày đẹp hơn iPhone 13 Pro
+12	des:	des :
+13	Trong điều kiện ánh sáng tốt, màu sắc được chụp lại tương đối tốt ở cả hai máy, tuy nhiên nếu nhìn kĩ hơn một chút thì Google Pixel 6 Pro giữ màu tốt ở những gam màu nóng trong khi iPhone 13 Pro lại giữ màu tốt hơn ở gam màu lạnh.	Trong điều kiện ánh sáng tốt , màu sắc được chụp lại tương đối tốt ở cả hai máy , tuy nhiên nếu nhìn kĩ hơn một chút thì Google Pixel 6 Pro giữ màu tốt ở những gam màu nóng trong khi iPhone 13 Pro lại giữ màu tốt hơn ở gam màu lạnh .
+14	alt: Google Pixel 6 chụp ban ngày đẹp hơn iPhone 13 Pro về màu sắc	alt : Google Pixel 6 chụp ban ngày đẹp hơn iPhone 13 Pro về màu sắc
+15	des:	des :
+16	Điểm khác biệt về màu sắc thông qua hai bức hình vốn đã là điểm đặc trưng của hai dòng máy Android và iOS khi mà smartphone của Apple đề cao tính trung thực của màu sắc còn đối thủ thì lại ưu thích việc chỉnh màu để nịnh mắt người dùng	Điểm khác biệt về màu sắc thông qua hai bức hình vốn đã là điểm đặc trưng của hai dòng máy Android và iOS khi mà smartphone của Apple đề cao tính trung thực của màu sắc còn đối thủ thì lại ưu thích việc chỉnh màu để nịnh mắt người dùng
+17	alt: Google Pixel 6 chụp ngược sáng đẹp hơn iPhone 13 Pro	alt : Google Pixel 6 chụp ngược sáng đẹp hơn iPhone 13 Pro
+18	des:	des :
+19	alt: Google Pixel 6 chụp ngược sáng đẹp hơn iPhone 13 Pro	alt : Google Pixel 6 chụp ngược sáng đẹp hơn iPhone 13 Pro
+20	des:	des :
+21	Khi chụp ngược sáng hay trong môi trường phức tạp, iPhone 13 Pro có xu hướng giữ nguyên các mảng tối trong khung hình còn Google Pixel 6 Pro lại cố gắng làm sáng những khu vực này.	Khi chụp ngược sáng hay trong môi trường phức tạp , iPhone 13 Pro có xu hướng giữ nguyên các mảng tối trong khung hình còn Google Pixel 6 Pro lại cố gắng làm sáng những khu vực này .
+22	alt: Google Pixel 6 chụp chân dung tệ hơn iPhone 13 Pro	alt : Google Pixel 6 chụp chân dung tệ hơn iPhone 13 Pro
+23	des:	des :
+24	Về khả năng chụp chân dung, có lẽ mỗi chiếc điện thoại sẽ có một ưu điểm riêng biệt.	Về khả năng chụp chân dung , có lẽ mỗi chiếc điện thoại sẽ có một ưu điểm riêng biệt .
+25	Tuy nhiên mình sẽ đánh giá cao iPhone 13 hơn một chút vì nó có thể giữ được độ trung thực tốt hơn so với đối thủ	Tuy nhiên mình sẽ đánh giá cao iPhone 13 hơn một chút vì nó có thể giữ được độ trung thực tốt hơn so với đối thủ
+26	alt: Google Pixel 6 chụp đêm đẹp hơn iPhone 13 Pro	alt : Google Pixel 6 chụp đêm đẹp hơn iPhone 13 Pro
+27	des:	des :
+28	iPhone 13 Pro cũng cho thấy khả năng chụp đêm của mình là tốt hơn so với Google Pixel 6 Pro bởi những mảng tối được giữ nguyên, thể hiện cảnh vật trong bóng đêm tốt hơn	iPhone 13 Pro cũng cho thấy khả năng chụp đêm của mình là tốt hơn so với Google Pixel 6 Pro bởi những mảng tối được giữ nguyên , thể hiện cảnh vật trong bóng đêm tốt hơn
+29	alt: Google Pixel 6 quay phim kém hơn iPhone 13 Pro	alt : Google Pixel 6 quay phim kém hơn iPhone 13 Pro
+30	des:	des :
+31	Về khả năng quay phim thì hai chiếc máy đều sấp sỉ nhau.	Về khả năng quay phim thì hai chiếc máy đều sấp sỉ nhau .
+32	Tuy nhiên thời gian quay tối đa của iPhone 13 pro sẽ nhỉnh hơn một chút so với Pixel 6 Pro nhưng khoảng cách là không quá xa.	Tuy nhiên thời gian quay tối đa của iPhone 13 pro sẽ nhỉnh hơn một chút so với Pixel 6 Pro nhưng khoảng cách là không quá xa .
+33	Với những bức ảnh trên của The Verge.	Với những bức ảnh trên của The Verge .
+34	Bạn thấy chiếc smartphone nào chụp ảnh tốt hơn?	Bạn thấy chiếc smartphone nào chụp ảnh tốt hơn ?
+35	Google Pixel 6 Pro hay iPhone 13 Pro?	Google Pixel 6 Pro hay iPhone 13 Pro ?
+36	Bình luận chia sẻ ở phần commnet các bạn nhé!	Bình luận chia sẻ ở phần commnet các bạn nhé !
+{"subject": ["3-1&&iPhone", "3-2&&13", "3-3&&Pro"], "object": ["3-5&&Google", "3-6&&Pixel", "3-7&&6", "3-8&&Pro"], "aspect": ["3-16&&camera"], "predicate": ["3-9&&đều", "3-10&&là", "3-11&&những", "3-12&&chiếc", "3-13&&smartphone", "3-14&&trang", "3-15&&bị", "3-16&&camera", "3-17&&tốt", "3-18&&nhất", "3-19&&hiện", "3-20&&nay"], "label": "EQL"}
+{"subject": ["9-5&&iPhone", "9-6&&13", "9-7&&Pro"], "object": ["9-16&&phiên", "9-17&&bản", "9-18&&Pro", "9-19&&Max"], "aspect": ["9-11&&cụm", "9-12&&camera"], "predicate": ["9-13&&ngang", "9-14&&ngửa"], "label": "EQL"}
+{"subject": ["13-17&&cả", "13-18&&hai", "13-19&&máy"], "object": ["13-17&&cả", "13-18&&hai", "13-19&&máy"], "aspect": ["13-8&&màu", "13-9&&sắc", "13-10&&được", "13-11&&chụp", "13-12&&lại"], "predicate": ["13-13&&tương", "13-14&&đối", "13-15&&tốt", "13-16&&ở", "13-17&&cả", "13-18&&hai", "13-19&&máy"], "label": "EQL"}
+{"subject": ["13-44&&iPhone", "13-45&&13", "13-46&&Pro"], "object": ["13-30&&Google", "13-31&&Pixel", "13-32&&6", "13-33&&Pro"], "aspect": ["13-53&&gam", "13-54&&màu", "13-55&&lạnh"], "predicate": ["13-48&&giữ", "13-49&&màu", "13-50&&tốt", "13-51&&hơn"], "label": "COM+"}
+{"subject": ["25-8&&iPhone", "25-9&&13"], "object": ["25-26&&đối", "25-27&&thủ"], "aspect": [], "predicate": ["25-10&&hơn", "25-11&&một", "25-12&&chút"], "label": "COM+"}
+{"subject": ["25-14&&nó"], "object": ["25-26&&đối", "25-27&&thủ"], "aspect": ["25-19&&độ", "25-20&&trung", "25-21&&thực"], "predicate": ["25-22&&tốt", "25-23&&hơn"], "label": "COM+"}
+{"subject": ["28-1&&iPhone", "28-2&&13", "28-3&&Pro"], "object": ["28-18&&Google", "28-19&&Pixel", "28-20&&6", "28-21&&Pro"], "aspect": ["28-7&&khả", "28-8&&năng", "28-9&&chụp", "28-10&&đêm"], "predicate": ["28-14&&tốt", "28-15&&hơn"], "label": "COM+"}
+{"subject": ["28-1&&iPhone", "28-2&&13", "28-3&&Pro"], "object": ["28-18&&Google", "28-19&&Pixel", "28-20&&6", "28-21&&Pro"], "aspect": ["28-30&&thể", "28-31&&hiện", "28-32&&cảnh", "28-33&&vật", "28-34&&trong", "28-35&&bóng", "28-36&&đêm"], "predicate": ["28-37&&tốt", "28-38&&hơn"], "label": "COM+"}
+{"subject": ["31-7&&hai", "31-8&&chiếc", "31-9&&máy"], "object": ["31-7&&hai", "31-8&&chiếc", "31-9&&máy"], "aspect": ["31-2&&khả", "31-3&&năng", "31-4&&quay", "31-5&&phim"], "predicate": ["31-11&&sấp", "31-12&&sỉ", "31-13&&nhau"], "label": "EQL"}
+{"subject": ["32-9&&iPhone", "32-10&&13", "32-11&&pro"], "object": ["32-19&&Pixel", "32-20&&6", "32-21&&Pro"], "aspect": ["32-3&&thời", "32-4&&gian", "32-5&&quay", "32-6&&tối", "32-7&&đa"], "predicate": ["32-13&&nhỉnh", "32-14&&hơn", "32-15&&một", "32-16&&chút"], "label": "COM+"}

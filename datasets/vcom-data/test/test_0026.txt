@@ -5,6 +5,7 @@ Năm 2020, Samsung đã gặt hái rất nhiều thành công từ những dòng
 Trong đó nổi bật nhất chính là Samsung Galaxy A51.	Trong đó nổi bật nhất chính là Samsung Galaxy A51 .
 
 Và tiếp nối thành công đó, Samsung đã ra mắt sản phẩm mới tuyệt vời hơn cho năm 2021.	Và tiếp nối thành công đó , Samsung đã ra mắt sản phẩm mới tuyệt vời hơn cho năm 2021 .
+{"subject": ["12&&sản", "13&&phẩm", "14&&mới"], "object": [], "aspect": [], "predicate": ["15&&tuyệt", "16&&vời", "17&&hơn"], "label": "COM+"}
 
 Đó chính là chiếc Samsung Galaxy A52 với nhiều điểm nổi bật so với các phiên bản tiền nhiệm đã nói ở trên.	Đó chính là chiếc Samsung Galaxy A52 với nhiều điểm nổi bật so với các phiên bản tiền nhiệm đã nói ở trên .
 
@@ -131,6 +132,7 @@ des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
 Màn hình Samsung Galaxy A52	Màn hình Samsung Galaxy A52
 
 Không chỉ như thế, độ sáng màn hình cũng được nâng cấp đáng kể.	Không chỉ như thế , độ sáng màn hình cũng được nâng cấp đáng kể .
+{"subject": [], "object": [], "aspect": ["6&&độ", "7&&sáng", "8&&màn", "9&&hình"], "predicate": ["11&&được", "12&&nâng", "13&&cấp", "14&&đáng", "15&&kể"], "label": "COM+"}
 
 Độ sáng màn hình ở ngoài trời có thể đạt tới 800 nits ở chế độ tự động đấy.	Độ sáng màn hình ở ngoài trời có thể đạt tới 800 nits ở chế độ tự động đấy .
 
@@ -139,6 +141,7 @@ Như vậy bạn có thể thoải mái sử dụng điện thoại ngay cả d�
 Cảm biến vân tay quang học cũng được tích hợp vào trong màn hình này.	Cảm biến vân tay quang học cũng được tích hợp vào trong màn hình này .
 
 Nó không nhanh như các Flagship nhưng tốc độ tạm ổn và phù hợp trong mức giá này.	Nó không nhanh như các Flagship nhưng tốc độ tạm ổn và phù hợp trong mức giá này .
+{"subject": ["1&&Nó"], "object": ["5&&các", "6&&Flagship"], "aspect": [], "predicate": ["2&&không", "3&&nhanh", "4&&như"], "label": "COM-"}
 
 Đương nhiên mức độ bảo mật cao và đáng để bạn sử dụng.	Đương nhiên mức độ bảo mật cao và đáng để bạn sử dụng .
 
@@ -159,6 +162,8 @@ alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
 des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
 
 Giao diện người dùng mới One UI 3.1 không có quá nhiều thay đổi so với bản 3.0 hay thậm chí là 2.5 nhưng nó được tối ưu hóa tuyệt vời.	Giao diện người dùng mới One UI 3.1 không có quá nhiều thay đổi so với bản 3.0 hay thậm chí là 2.5 nhưng nó được tối ưu hóa tuyệt vời .
+{"subject": [], "object": ["17&&bản", "18&&3.0"], "aspect": ["1&&Giao", "2&&diện", "3&&người", "4&&dùng", "5&&mới", "6&&One", "7&&UI", "8&&3.1"], "predicate": ["9&&không", "10&&có", "11&&quá", "12&&nhiều", "13&&thay", "14&&đổi"], "label": "DIF"}
+{"subject": [], "object": ["23&&2.5"], "aspect": ["1&&Giao", "2&&diện", "3&&người", "4&&dùng", "5&&mới", "6&&One", "7&&UI", "8&&3.1"], "predicate": ["9&&không", "10&&có", "11&&quá", "12&&nhiều", "13&&thay", "14&&đổi"], "label": "DIF"}
 
 Hiệu năng	Hiệu năng
 
@@ -167,6 +172,8 @@ Samsung đang bắt đầu đi theo con đường “Hợp lý” cho những s�
 Liệu sự lựa chọn Snapdragon 720G có phải là đúng đắn?	Liệu sự lựa chọn Snapdragon 720G có phải là đúng đắn ?
 
 Tất nhiên chúng ta thấy được việc sử dụng chipset Qualcomm vẫn là ổn hơn một chút so với Exynos hay Media Tek của các phiên bản trước.	Tất nhiên chúng ta thấy được việc sử dụng chipset Qualcomm vẫn là ổn hơn một chút so với Exynos hay Media Tek của các phiên bản trước .
+{"subject": ["10&&chipset", "11&&Qualcomm"], "object": ["20&&Exynos"], "aspect": [], "predicate": ["14&&ổn", "15&&hơn", "16&&một", "17&&chút"], "label": "COM+"}
+{"subject": ["10&&chipset", "11&&Qualcomm"], "object": ["22&&Media", "23&&Tek"], "aspect": [], "predicate": ["14&&ổn", "15&&hơn", "16&&một", "17&&chút"], "label": "COM+"}
 
 Điện thoại đi kèm với những lựa chọn RAM 4/6/8 GB và bộ nhớ trong 128/256 GB cho bạn thoải mái sử dụng.	Điện thoại đi kèm với những lựa chọn RAM 4 / 6 / 8 GB và bộ nhớ trong 128 / 256 GB cho bạn thoải mái sử dụng .
 
@@ -181,6 +188,7 @@ Hiệu năng CPU của Samsung Galaxy A52 chỉ ở tầm vừa phải trong ph�
 Điều này cũng dễ hiểu khi Samsung chỉ dùng Snapdragon 720G thay vì các đối thủ sử dụng dòng cao hơn ở tầm trung này.	Điều này cũng dễ hiểu khi Samsung chỉ dùng Snapdragon 720G thay vì các đối thủ sử dụng dòng cao hơn ở tầm trung này .
 
 Cũng dùng Snapdragon 720G nhưng Realme 7 Pro vẫn có điểm số cao hơn.	Cũng dùng Snapdragon 720G nhưng Realme 7 Pro vẫn có điểm số cao hơn .
+{"subject": ["6&&Realme", "7&&7", "8&&Pro"], "object": [], "aspect": ["11&&điểm", "12&&số"], "predicate": ["13&&cao", "14&&hơn"], "label": "COM+"}
 
 Chưa kể đến các đối thủ và cả ngay những dòng khác của Samsung lại sử dụng tới Snapdragon 750/765…	Chưa kể đến các đối thủ và cả ngay những dòng khác của Samsung lại sử dụng tới Snapdragon 750 / 765 …
 
@@ -201,6 +209,7 @@ Hiệu năng GPU	Hiệu năng GPU
 GPU không quá ấn tượng khi chỉ dùng bản Adreno 618.	GPU không quá ấn tượng khi chỉ dùng bản Adreno 618 .
 
 Khi so với các phiên bản tiền nhiệm thì đương nhiên nó vẫn mạnh mẽ hơn khá nhiều.	Khi so với các phiên bản tiền nhiệm thì đương nhiên nó vẫn mạnh mẽ hơn khá nhiều .
+{"subject": ["12&&nó"], "object": ["4&&các", "5&&phiên", "6&&bản", "7&&tiền", "8&&nhiệm"], "aspect": [], "predicate": ["14&&mạnh", "15&&mẽ", "16&&hơn", "17&&khá", "18&&nhiều"], "label": "COM+"}
 
 Nhưng so với các đối thủ năm nay thì Adreno 618 không có nhiều điều đáng để kể.	Nhưng so với các đối thủ năm nay thì Adreno 618 không có nhiều điều đáng để kể .
 
@@ -243,6 +252,8 @@ Như nhiều bài đánh giá mình đã nói qua, chipset Snapdragon 8xx là qu
 Hơn nữa Snapdragon 720G đã được tối ưu hóa cho chơi game nên bạn hoàn toàn có thể yên tâm nha.	Hơn nữa Snapdragon 720G đã được tối ưu hóa cho chơi game nên bạn hoàn toàn có thể yên tâm nha .
 
 Nhưng nói đi thì phải nói lại, có nhiều sản phẩm giá rẻ hơn nhưng vẫn trang bị chipset này với hiệu năng tương đương mà bạn có thể lựa chọn.	Nhưng nói đi thì phải nói lại , có nhiều sản phẩm giá rẻ hơn nhưng vẫn trang bị chipset này với hiệu năng tương đương mà bạn có thể lựa chọn .
+{"subject": ["10&&nhiều", "11&&sản", "12&&phẩm"], "object": [], "aspect": ["13&&giá"], "predicate": ["14&&rẻ", "15&&hơn"], "label": "COM+"}
+{"subject": ["10&&nhiều", "11&&sản", "12&&phẩm"], "object": [], "aspect": ["23&&hiệu", "24&&năng"], "predicate": ["25&&tương", "26&&đương"], "label": "EQL"}
 
 Một trong số đó là Xiaomi Redmi K30 nha.	Một trong số đó là Xiaomi Redmi K30 nha .
 
@@ -259,6 +270,7 @@ alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
 des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
 
 Đi kèm với camera chính 64MP, nó còn được tăng thêm ổn định quang học OIS giúp bạn chụp hình nét hơn, không lo bị mờ do run tay nữa.	Đi kèm với camera chính 64MP , nó còn được tăng thêm ổn định quang học OIS giúp bạn chụp hình nét hơn , không lo bị mờ do run tay nữa .
+{"subject": ["8&&nó"], "object": [], "aspect": ["20&&chụp", "21&&hình"], "predicate": ["22&&nét", "23&&hơn"], "label": "COM+"}
 
 Mình thấy có một tính năng rất là hay trong menu chụp ảnh chính là FUN MODE hay là chế độ vui vẻ.	Mình thấy có một tính năng rất là hay trong menu chụp ảnh chính là FUN MODE hay là chế độ vui vẻ .
 
@@ -269,6 +281,8 @@ Camera chính	Camera chính
 Nhờ độ phân giải cao mà camera chính có thể làm rất tốt công việc của mình trong điều kiện ánh sáng ban ngày.	Nhờ độ phân giải cao mà camera chính có thể làm rất tốt công việc của mình trong điều kiện ánh sáng ban ngày .
 
 Dải động rộng hơn những máy ảnh tầm trung khác nhưng nó vẫn hơi thua kém so với điện thoại cao cấp hơn.	Dải động rộng hơn những máy ảnh tầm trung khác nhưng nó vẫn hơi thua kém so với điện thoại cao cấp hơn .
+{"subject": ["12&&nó"], "object": ["5&&những", "6&&máy", "7&&ảnh", "8&&tầm", "9&&trung", "10&&khác"], "aspect": ["1&&Dải", "2&&động"], "predicate": ["3&&rộng", "4&&hơn"], "label": "COM+"}
+{"subject": ["12&&nó"], "object": ["19&&điện", "20&&thoại", "21&&cao", "22&&cấp", "23&&hơn"], "aspect": ["1&&Dải", "2&&động"], "predicate": ["14&&hơi", "15&&thua", "16&&kém"], "label": "COM-"}
 
 Điều này là rõ ràng và có thể chấp nhận	Điều này là rõ ràng và có thể chấp nhận
 
@@ -327,10 +341,12 @@ Camera Ultrawide làm rất tốt công việc của mình.	Camera Ultrawide là
 Đặc biệt là góc chụp rộng tới 123 độ.	Đặc biệt là góc chụp rộng tới 123 độ .
 
 Nó giúp bạn có những khung hình rộng hơn rất nhiều.	Nó giúp bạn có những khung hình rộng hơn rất nhiều .
+{"subject": ["1&&Nó"], "object": [], "aspect": ["5&&những", "6&&khung", "7&&hình"], "predicate": ["8&&rộng", "9&&hơn", "10&&rất", "11&&nhiều"], "label": "COM+"}
 
 Tất nhiên nó vẫn có những vị trí mềm mại ở các góc cạnh của khung hình.	Tất nhiên nó vẫn có những vị trí mềm mại ở các góc cạnh của khung hình .
 
 Màu sắc tổng thể có vẻ nghiêng lạnh hơn một chút so với camera chính.	Màu sắc tổng thể có vẻ nghiêng lạnh hơn một chút so với camera chính .
+{"subject": [], "object": ["14&&camera", "15&&chính"], "aspect": ["1&&Màu", "2&&sắc", "3&&tổng", "4&&thể"], "predicate": ["8&&lạnh", "9&&hơn", "10&&một", "11&&chút"], "label": "COM"}
 
 alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
 
@@ -339,6 +355,7 @@ des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
 Ảnh chụp góc siêu rộng	Ảnh chụp góc siêu rộng
 
 Chụp thiếu sáng từ camera góc siêu rộng vẫn có gì đó không thể bằng camera chính, đây là điều dễ hiểu.	Chụp thiếu sáng từ camera góc siêu rộng vẫn có gì đó không thể bằng camera chính , đây là điều dễ hiểu .
+{"subject": ["5&&camera", "6&&góc", "7&&siêu", "8&&rộng"], "object": ["16&&camera", "17&&chính"], "aspect": ["1&&Chụp", "2&&thiếu", "3&&sáng"], "predicate": ["13&&không", "14&&thể", "15&&bằng"], "label": "COM-"}
 
 Thế nhưng có sự tham gia của chế độ ban đêm lại hoàn toàn khác nha.	Thế nhưng có sự tham gia của chế độ ban đêm lại hoàn toàn khác nha .
 
@@ -363,6 +380,7 @@ des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
 Ảnh chụp từ camera macro	Ảnh chụp từ camera macro
 
 Bạn sẽ không cần phải tới quá gần vật thể để chụp, hơn nữa vùng lấy nét của nó cũng rộng hơn nhiều so với camera 2MP từ các đối thủ.	Bạn sẽ không cần phải tới quá gần vật thể để chụp , hơn nữa vùng lấy nét của nó cũng rộng hơn nhiều so với camera 2MP từ các đối thủ .
+{"subject": ["20&&nó"], "object": ["27&&camera", "28&&2MP", "29&&từ", "30&&các", "31&&đối", "32&&thủ"], "aspect": ["16&&vùng", "17&&lấy", "18&&nét"], "predicate": ["22&&rộng", "23&&hơn", "24&&nhiều"], "label": "COM+"}
 
 Chất lượng hình ảnh vẫn là tuyệt vời, mức độ chi tiết cao và màu sắc đẹp.	Chất lượng hình ảnh vẫn là tuyệt vời , mức độ chi tiết cao và màu sắc đẹp .
 
@@ -413,6 +431,8 @@ Tuổi thọ pin	Tuổi thọ pin
 Samsung Galaxy A52 chỉ trang bị viên pin 4.500 mAh mà thôi.	Samsung Galaxy A52 chỉ trang bị viên pin 4.500 mAh mà thôi .
 
 Nó nhỏ hơn so với pin 5000mAh của Galaxy A32 nhưng lại lớn hơn pin 4000 của tiền nhiệm Galaxy A51.	Nó nhỏ hơn so với pin 5000mAh của Galaxy A32 nhưng lại lớn hơn pin 4000 của tiền nhiệm Galaxy A51 .
+{"subject": ["1&&Nó"], "object": ["6&&pin", "7&&5000mAh", "8&&của", "9&&Galaxy", "10&&A32"], "aspect": [], "predicate": ["2&&nhỏ", "3&&hơn"], "label": "COM-"}
+{"subject": ["1&&Nó"], "object": ["15&&pin", "16&&4000", "17&&của", "18&&tiền", "19&&nhiệm", "20&&Galaxy", "21&&A51"], "aspect": [], "predicate": ["13&&lớn", "14&&hơn"], "label": "COM+"}
 
 Galaxy A52 có được thời lượng pin khá lớn đấy nha, nhưng nó vẫn phụ thuộc vào chế độ sử dụng của bạn nữa.	Galaxy A52 có được thời lượng pin khá lớn đấy nha , nhưng nó vẫn phụ thuộc vào chế độ sử dụng của bạn nữa .
 
@@ -435,8 +455,10 @@ Màn hình tốc độ cao 90Hz, có chứng nhận IP67, Màn hình OLED, loa �
 Tuy nhiên vẫn có những đối thủ để chúng ta so sánh lựa chọn.	Tuy nhiên vẫn có những đối thủ để chúng ta so sánh lựa chọn .
 
 Đầu tiên chúng ta có  Xiaomi POCO F3  nổi bật với mức giá tương đương.	Đầu tiên chúng ta có Xiaomi POCO F3 nổi bật với mức giá tương đương .
+{"subject": ["6&&Xiaomi", "7&&POCO", "8&&F3"], "object": [], "aspect": ["12&&mức", "13&&giá"], "predicate": ["14&&tương", "15&&đương"], "label": "EQL"}
 
 F3 có ngay bộ xử lý Snapdragon 870 mạnh mẽ hơn rất nhiều so với Snapdragon 720G nha.	F3 có ngay bộ xử lý Snapdragon 870 mạnh mẽ hơn rất nhiều so với Snapdragon 720G nha .
+{"subject": ["4&&bộ", "5&&xử", "6&&lý", "7&&Snapdragon", "8&&870"], "object": ["16&&Snapdragon", "17&&720G"], "aspect": [], "predicate": ["9&&mạnh", "10&&mẽ", "11&&hơn", "12&&rất", "13&&nhiều"], "label": "COM+"}
 
 Màn hình AMOLED 120Hz nhanh hơn và có thêm HDR10+ nữa.	Màn hình AMOLED 120Hz nhanh hơn và có thêm HDR10 + nữa .
 
@@ -447,20 +469,25 @@ Nhưng ngược lại camera của F3 không tốt như vậy và không có m�
 Nhà Xiaomi còn có  Redmi K40 Pro  cũng cho bạn nhiều thứ nổi bật.	Nhà Xiaomi còn có Redmi K40 Pro cũng cho bạn nhiều thứ nổi bật .
 
 Bộ xử lý Snapdragon 888 mạnh mẽ nhất hiện nay, màn hình AMOLED 120Hz nhanh hơn và cũng có loa âm thanh nổi.	Bộ xử lý Snapdragon 888 mạnh mẽ nhất hiện nay , màn hình AMOLED 120Hz nhanh hơn và cũng có loa âm thanh nổi .
+{"subject": [], "object": [], "aspect": ["1&&Bộ", "2&&xử", "3&&lý", "4&&Snapdragon", "5&&888"], "predicate": ["6&&mạnh", "7&&mẽ", "8&&nhất", "9&&hiện", "10&&nay"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": ["12&&màn", "13&&hình", "14&&AMOLED", "15&&120Hz"], "predicate": ["16&&nhanh", "17&&hơn"], "label": "COM+"}
 
 Nó cũng có tiêu chuẩn chống nước nhưng thấp hơn một chút với IP53.	Nó cũng có tiêu chuẩn chống nước nhưng thấp hơn một chút với IP53 .
+{"subject": ["1&&Nó"], "object": [], "aspect": ["4&&tiêu", "5&&chuẩn", "6&&chống", "7&&nước"], "predicate": ["9&&thấp", "10&&hơn", "11&&một", "12&&chút"], "label": "COM-"}
 
 Một lựa chọn khác ở mức tương đương đó là  OnePlus Nord .	Một lựa chọn khác ở mức tương đương đó là OnePlus Nord .
 
 Cũng là tấm nền AMOLED 90Hz và HDR10 +.	Cũng là tấm nền AMOLED 90Hz và HDR10 + .
 
 Nó có hẳn Snapdragon 765G mạnh mẽ hơn và có hỗ trợ 5G.	Nó có hẳn Snapdragon 765G mạnh mẽ hơn và có hỗ trợ 5G .
+{"subject": ["1&&Nó"], "object": [], "aspect": ["4&&Snapdragon", "5&&765G"], "predicate": ["6&&mạnh", "7&&mẽ", "8&&hơn"], "label": "COM+"}
 
 Nhưng ngược lại bạn sẽ không nhận được chứng nhận chống nước, không có loa âm thanh nổi và camera yếu đuối một chút	Nhưng ngược lại bạn sẽ không nhận được chứng nhận chống nước , không có loa âm thanh nổi và camera yếu đuối một chút
 
 Cuối cùng chúng ta có một  Galaxy A72  là bản nâng cấp so với Galaxy A52.	Cuối cùng chúng ta có một Galaxy A72 là bản nâng cấp so với Galaxy A52 .
 
 Tất nhiên nó sẽ đắt hơn một chút nhưng nó có thêm ống kính tele 8MP và viên pin 5000 mAh.	Tất nhiên nó sẽ đắt hơn một chút nhưng nó có thêm ống kính tele 8MP và viên pin 5000 mAh .
+{"subject": ["3&&nó"], "object": [], "aspect": [], "predicate": ["5&&đắt", "6&&hơn", "7&&một", "8&&chút"], "label": "COM-"}
 
 Giá và địa chỉ bán	Giá và địa chỉ bán
 

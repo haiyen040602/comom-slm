@@ -1,0 +1,108 @@
+1	title: So sánh Galaxy Z Fold 2 và Z Flip: Mỗi “người” một vẻ mười phân vẹn mười	title : So sánh Galaxy Z Fold 2 và Z Flip : Mỗi “ người ” một vẻ mười phân vẹn mười
+2	Chiếc Galaxy Z Fold 2 được mong chờ bấy lâu cuối cùng cũng lộ diện.	Chiếc Galaxy Z Fold 2 được mong chờ bấy lâu cuối cùng cũng lộ diện .
+3	Chỉ ra đời sau chiếc điện thoại gập Z Flip 6 tháng, chiếc điện thoại nào sẽ đem lại trải nghiệm tốt nhất cho người dùng?	Chỉ ra đời sau chiếc điện thoại gập Z Flip 6 tháng , chiếc điện thoại nào sẽ đem lại trải nghiệm tốt nhất cho người dùng ?
+4	Hãy theo dõi bài so sánh chi tiết sau nhé!	Hãy theo dõi bài so sánh chi tiết sau nhé !
+5	Galaxy Z Flip và Z Fold 2 đều là những sản phẩm khác hẳn với phần còn lại của thế giới smartphone.	Galaxy Z Flip và Z Fold 2 đều là những sản phẩm khác hẳn với phần còn lại của thế giới smartphone .
+6	Không còn giữ kiểu dáng thanh, Samsung đã biến sản phẩm của mình thành những siêu phẩm có thể gập gọn, đem lại sự gọn gàng và tính tiện dụng cao.	Không còn giữ kiểu dáng thanh , Samsung đã biến sản phẩm của mình thành những siêu phẩm có thể gập gọn , đem lại sự gọn gàng và tính tiện dụng cao .
+7	Vậy đâu mới là chiếc smartphone gập dành cho bạn?	Vậy đâu mới là chiếc smartphone gập dành cho bạn ?
+8	Thiết kế	Thiết kế
+9	alt: Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip: a battle of Samsung foldables	alt : Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip : a battle of Samsung foldables
+10	des:	des :
+11	Thật khó để so sánh chiếc điện thoại nào có thiết kế đẹp hơn.	Thật khó để so sánh chiếc điện thoại nào có thiết kế đẹp hơn .
+12	Điều này phụ thuộc nhiều vào ý kiến chủ quan của mỗi người.	Điều này phụ thuộc nhiều vào ý kiến chủ quan của mỗi người .
+13	Cả hai chiếc máy đều được làm từ kính sang trọng, khung viền kim loại sáng bóng đem lại sự cao cấp đáng có.	Cả hai chiếc máy đều được làm từ kính sang trọng , khung viền kim loại sáng bóng đem lại sự cao cấp đáng có .
+14	Những siêu phẩm gập của Samsung đều là những ý tưởng đầy sáng tạo, cùng thu hút ánh nhìn của mọi người bằng kiểu dáng thời trang.	Những siêu phẩm gập của Samsung đều là những ý tưởng đầy sáng tạo , cùng thu hút ánh nhìn của mọi người bằng kiểu dáng thời trang .
+15	Z Flip sở hữu mặt lưng kính màu tím sáng bóng với hiệu ứng quang học cuốn hút.	Z Flip sở hữu mặt lưng kính màu tím sáng bóng với hiệu ứng quang học cuốn hút .
+16	Kiểu dáng gập vỏ sò cũng giúp nó biến thành một món phụ kiện thời trang khi được cầm trên tay.	Kiểu dáng gập vỏ sò cũng giúp nó biến thành một món phụ kiện thời trang khi được cầm trên tay .
+17	Cụm camera đôi của Z Flip có vẻ gọn gàng hơn, chứ không “bành chướng” như chiếc Z Fold 2.	Cụm camera đôi của Z Flip có vẻ gọn gàng hơn , chứ không “ bành chướng ” như chiếc Z Fold 2 .
+18	Z Fold 2 mang phong cách của người đồng hành Note 20 Ultra với màu vàng đồng Mystic Bronze lịch lãm.	Z Fold 2 mang phong cách của người đồng hành Note 20 Ultra với màu vàng đồng Mystic Bronze lịch lãm .
+19	Cụm camera vuông vức cũng được bê nguyên từ Note 20, đôi khi tạo ra sự choáng ngợp khi chúng ta nhìn vào lần đầu tiên.	Cụm camera vuông vức cũng được bê nguyên từ Note 20 , đôi khi tạo ra sự choáng ngợp khi chúng ta nhìn vào lần đầu tiên .
+20	Cách gập theo chiều ngang cũng giúp Z Fold 2 trở thành một cuốn sổ tay nhỏ mỗi khi bạn mở ra sử dụng.	Cách gập theo chiều ngang cũng giúp Z Fold 2 trở thành một cuốn sổ tay nhỏ mỗi khi bạn mở ra sử dụng .
+21	Màn hình	Màn hình
+22	alt: Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip: a battle of Samsung foldables	alt : Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip : a battle of Samsung foldables
+23	des:	des :
+24	Nhìn vào thông số, có vẻ chiếc điện thoại đi sau đang giữ ưu thế về mặt hiển thị.	Nhìn vào thông số , có vẻ chiếc điện thoại đi sau đang giữ ưu thế về mặt hiển thị .
+25	Trước hết, Z Fold 2 có màn hình AMOLED 7,6 inch, độ phân giải 2208 x 1768.	Trước hết , Z Fold 2 có màn hình AMOLED 7,6 inch , độ phân giải 2208 x 1768 .
+26	Đặc biệt, đây là màn hình 120Hz cực mượt.	Đặc biệt , đây là màn hình 120Hz cực mượt .
+27	Tần số quét cũng được tối ưu hoá nên người dùng không cần quá lo lắng về thời lượng pin.	Tần số quét cũng được tối ưu hoá nên người dùng không cần quá lo lắng về thời lượng pin .
+28	Z Fold 2 còn có một màn hình ở phía ngoài với độ lớn 6,2 inch.	Z Fold 2 còn có một màn hình ở phía ngoài với độ lớn 6,2 inch .
+29	Bạn có thể sử dụng màn hình này với mọi tác vụ hoàn toàn bình thường.	Bạn có thể sử dụng màn hình này với mọi tác vụ hoàn toàn bình thường .
+30	Trong khi đó, Z Flip sở hữu màn hình 6,7 inch, cùng công nghệ AMOLED với độ phân giải Full HD+ 2626 x 1080.	Trong khi đó , Z Flip sở hữu màn hình 6,7 inch , cùng công nghệ AMOLED với độ phân giải Full HD + 2626 x 1080 .
+31	Về lý thuyết Z Flip có mật độ điểm ảnh cao hơn, 425ppi so với 372ppi trên Z Fold 2. tuy nhiên đây không phải điều sẽ đem lại sự khác biệt quá lớn.	Về lý thuyết Z Flip có mật độ điểm ảnh cao hơn , 425ppi so với 372ppi trên Z Fold 2 . tuy nhiên đây không phải điều sẽ đem lại sự khác biệt quá lớn .
+32	Màn hình phụ của Z Flip chỉ là một ô nhỏ bên cạnh camera, chỉ có tác dụng đọc một vài thông báo và dùng camera sau để selfie, chứ không đem lại tính tiện dụng như màn hình lớn của Z Fold 2.	Màn hình phụ của Z Flip chỉ là một ô nhỏ bên cạnh camera , chỉ có tác dụng đọc một vài thông báo và dùng camera sau để selfie , chứ không đem lại tính tiện dụng như màn hình lớn của Z Fold 2 .
+33	Cơ chế gập	Cơ chế gập
+34	alt: Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip: a battle of Samsung foldables	alt : Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip : a battle of Samsung foldables
+35	des:	des :
+36	Hai chiếc điện thoại này khác hẳn nhau về cách gập.	Hai chiếc điện thoại này khác hẳn nhau về cách gập .
+37	Chiếc Galaxy Z Flip sở hữu cơ chế gập vỏ sò, trong khi Z Fold 2 thừa kế cách mở cánh bướm từ người tiền nhiệm năm ngoái, khiến nó trông giống như một cuốn sách.	Chiếc Galaxy Z Flip sở hữu cơ chế gập vỏ sò , trong khi Z Fold 2 thừa kế cách mở cánh bướm từ người tiền nhiệm năm ngoái , khiến nó trông giống như một cuốn sách .
+38	Khi được gập lại, chiếc Galaxy Z Flip trở thành một khối vuông nằm gọn trong lòng bàn tay.	Khi được gập lại , chiếc Galaxy Z Flip trở thành một khối vuông nằm gọn trong lòng bàn tay .
+39	Tuy nhiên, với cách gập của Z Fold 2, chiếc điện thoại này không thể làm được điều tương tự.	Tuy nhiên , với cách gập của Z Fold 2 , chiếc điện thoại này không thể làm được điều tương tự .
+40	Có một điều không tránh khỏi là vết hằn trên màn hình.	Có một điều không tránh khỏi là vết hằn trên màn hình .
+41	Mặc dù được làm từ vật liệu Ultra Thin Glass, bạn vẫn sẽ thấy vết gập ở giữa màn hình.	Mặc dù được làm từ vật liệu Ultra Thin Glass , bạn vẫn sẽ thấy vết gập ở giữa màn hình .
+42	Nhưng thú thực là bạn sẽ sớm quen với nó thôi.	Nhưng thú thực là bạn sẽ sớm quen với nó thôi .
+43	Camera	Camera
+44	alt: Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip: a battle of Samsung foldables	alt : Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip : a battle of Samsung foldables
+45	des:	des :
+46	Về thông số, hai chiếc điện thoại này chia sẻ camera chính và camera góc siêu rộng độ phân giải 12MP.	Về thông số , hai chiếc điện thoại này chia sẻ camera chính và camera góc siêu rộng độ phân giải 12MP .
+47	Camera chính đều có chống rung quang học OIS và lấy nét theo pha PDAF.	Camera chính đều có chống rung quang học OIS và lấy nét theo pha PDAF .
+48	Cả hai máy đều có thể quay video 4K.	Cả hai máy đều có thể quay video 4K .
+49	Camera trước cũng có độ phân giải tương đương là 10MP, được đặt trong một lỗ nhỏ trên màn hình	Camera trước cũng có độ phân giải tương đương là 10MP , được đặt trong một lỗ nhỏ trên màn hình
+50	Tuy nhiên, chiếc Z Fold 2 còn được trang bị thêm một camera tele 12MP nữa.	Tuy nhiên , chiếc Z Fold 2 còn được trang bị thêm một camera tele 12MP nữa .
+51	Một lợi thế lớn nghiêng về phía Z Fold 2 là chế độ Dual Preview giúp người dùng khi chụp ảnh chân dung, người được chụp có thể quan sát bức ảnh đó thông qua màn hình phía sau.	Một lợi thế lớn nghiêng về phía Z Fold 2 là chế độ Dual Preview giúp người dùng khi chụp ảnh chân dung , người được chụp có thể quan sát bức ảnh đó thông qua màn hình phía sau .
+52	Có lẽ chất lượng camera của Samsung không còn là điều đáng nghi ngờ khi đây đều là những chiếc điện thoại đầu bảng với phần cứng tốt nhất của hãng.	Có lẽ chất lượng camera của Samsung không còn là điều đáng nghi ngờ khi đây đều là những chiếc điện thoại đầu bảng với phần cứng tốt nhất của hãng .
+53	Có thể những chiếc điện thoại gập không có được độ phân giải siêu khủng 108MP, nhưng điều đó không cản trở bạn chụp những bức ảnh đẹp từ chiếc máy này.	Có thể những chiếc điện thoại gập không có được độ phân giải siêu khủng 108MP , nhưng điều đó không cản trở bạn chụp những bức ảnh đẹp từ chiếc máy này .
+54	Hiệu năng	Hiệu năng
+55	Chiến thắng trong cuộc đua cấu hình chắc chắn sẽ nghiêng về phía Galaxy Z Fold 2 với sức mạnh của chip Snapdragon 865+.	Chiến thắng trong cuộc đua cấu hình chắc chắn sẽ nghiêng về phía Galaxy Z Fold 2 với sức mạnh của chip Snapdragon 865 + .
+56	“Sức khoẻ” vượt trội hơn sẽ giúp chiếc máy này “cân” được tấm nền lớn và tần số làm tươi lớn.	“ Sức khoẻ ” vượt trội hơn sẽ giúp chiếc máy này “ cân ” được tấm nền lớn và tần số làm tươi lớn .
+57	Trong khi Z Flip mang trên mình SoC Snapdragon 855+ ra mắt năm ngoái.	Trong khi Z Flip mang trên mình SoC Snapdragon 855 + ra mắt năm ngoái .
+58	Tuy nhiên, điều này không cản trở Z Flip thực hiện mọi tác vụ hoàn toàn mượt mà.	Tuy nhiên , điều này không cản trở Z Flip thực hiện mọi tác vụ hoàn toàn mượt mà .
+59	Chiếc Z Fold 2 cũng đã được nâng cấp lên 12GB RAM (so với 8GB của Z Flip) cho người dùng trải nghiệm đa nhiệm đáng tin cậy hơn.	Chiếc Z Fold 2 cũng đã được nâng cấp lên 12GB RAM ( so với 8GB của Z Flip ) cho người dùng trải nghiệm đa nhiệm đáng tin cậy hơn .
+60	Đừng quên rằng Galaxy Z Fold 2 còn hỗ trợ băng tần 5G.	Đừng quên rằng Galaxy Z Fold 2 còn hỗ trợ băng tần 5G .
+61	Mặc dù chưa thể sử dụng ở Việt Nam, nhưng đây chắc chắn là bước đà tuyệt vời để chuẩn bị cho tương lai sắp tới.	Mặc dù chưa thể sử dụng ở Việt Nam , nhưng đây chắc chắn là bước đà tuyệt vời để chuẩn bị cho tương lai sắp tới .
+62	Phần mềm	Phần mềm
+63	Cả hai thiết bị này đang chạy trên Android 10 với giao diện One UI đặc trưng của Samsung.	Cả hai thiết bị này đang chạy trên Android 10 với giao diện One UI đặc trưng của Samsung .
+64	Z Fold 2 sẽ có ngay One UI 2.5 mới nhất khi vừa bóc hộp, tuy nhiên bản cập nhật với giao diện mới sẽ sớm đực đưa đến Z Flip trong thời gian tới.	Z Fold 2 sẽ có ngay One UI 2.5 mới nhất khi vừa bóc hộp , tuy nhiên bản cập nhật với giao diện mới sẽ sớm đực đưa đến Z Flip trong thời gian tới .
+65	Lợi thế của cả hai chiếc smartphone gập này là tính năng Flex Mode.	Lợi thế của cả hai chiếc smartphone gập này là tính năng Flex Mode .
+66	Khi được gập nửa chừng, giao diện một số ứng dụng như camera sẽ được chia thành hai nửa, với màn hình xem hoặc preview ở một nửa và các phím chức năng ở nửa còn lại.	Khi được gập nửa chừng , giao diện một số ứng dụng như camera sẽ được chia thành hai nửa , với màn hình xem hoặc preview ở một nửa và các phím chức năng ở nửa còn lại .
+67	Pin	Pin
+68	Chiếc Galaxy Z Fold 2 có viên pin lớn hơn hẳn với dung lượng 4500mAh.	Chiếc Galaxy Z Fold 2 có viên pin lớn hơn hẳn với dung lượng 4500mAh .
+69	Tuy nhiên viên pin này phải “gánh” màn hình lớn hơn với tần số quét 120Hz.	Tuy nhiên viên pin này phải “ gánh ” màn hình lớn hơn với tần số quét 120Hz .
+70	Z Flip có viên pin chỉ 3300mAh.	Z Flip có viên pin chỉ 3300mAh .
+71	Thật không may, trong các bài test, Z Fold 2 có vẻ mang tới thời lượng pin kém hơn Z Flip một chút.	Thật không may , trong các bài test , Z Fold 2 có vẻ mang tới thời lượng pin kém hơn Z Flip một chút .
+72	Người dùng sẽ có thêm 2 tiếng sử dụng thông thường với chiếc Z Flip nhờ lợi thế của một màn hình nhỏ hơn.	Người dùng sẽ có thêm 2 tiếng sử dụng thông thường với chiếc Z Flip nhờ lợi thế của một màn hình nhỏ hơn .
+73	Mức giá	Mức giá
+74	alt: Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip: a battle of Samsung foldables	alt : Samsung Galaxy Z Fold 2 vs Samsung Galaxy Z Flip : a battle of Samsung foldables
+75	des:	des :
+76	Mặc dù được nâng cấp đáng kể từ Galaxy Fold, nhưng Z Fold 2 vẫn có mức giá 50 triệu đồng như người tiền nhiệm.	Mặc dù được nâng cấp đáng kể từ Galaxy Fold , nhưng Z Fold 2 vẫn có mức giá 50 triệu đồng như người tiền nhiệm .
+77	Chiếc Z Flip có mức giá mềm hơn, và cũng đã ra mắt được một thời gian, hiện chỉ có giá khoảng 22-23 triệu trong thời điểm hiện tại.	Chiếc Z Flip có mức giá mềm hơn , và cũng đã ra mắt được một thời gian , hiện chỉ có giá khoảng 22 - 23 triệu trong thời điểm hiện tại .
+78	Rõ ràng bạn phải bỏ ra số tiền không nhỏ để mang về nhà chiếc Z Fold 2 mới nhất.	Rõ ràng bạn phải bỏ ra số tiền không nhỏ để mang về nhà chiếc Z Fold 2 mới nhất .
+79	Do tới cùng một thương hiệu và ra mắt chỉ cách nhau vài tháng, thật khó để so sánh hai chiếc máy gập của Samsung.	Do tới cùng một thương hiệu và ra mắt chỉ cách nhau vài tháng , thật khó để so sánh hai chiếc máy gập của Samsung .
+80	Cả hai đều là những chiếc điện thoại đẹp, độc đáo, với thông số thuộc hàng flagship trong thời điểm hiện tại.	Cả hai đều là những chiếc điện thoại đẹp , độc đáo , với thông số thuộc hàng flagship trong thời điểm hiện tại .
+81	Vấn đề lựa chọn phụ thuộc khá nhiều vào nhu cầu người dùng.	Vấn đề lựa chọn phụ thuộc khá nhiều vào nhu cầu người dùng .
+82	Nếu bạn đang cần một chiếc điện thoại nhỏ gọn, chiếc Z Flip chắn chán là sự lựa chọn không nên bỏ qua.	Nếu bạn đang cần một chiếc điện thoại nhỏ gọn , chiếc Z Flip chắn chán là sự lựa chọn không nên bỏ qua .
+83	Tuy nhiên, một chiếc Z Fold 2 với kích thước tablet, cấu hình và camera mạnh mẽ hơn, thiết kế cũng lịch lãm hơn chắc chắn sẽ dành cho những người đòi hỏi hiệu năng và tính linh động cao ở một chiếc điện thoại.	Tuy nhiên , một chiếc Z Fold 2 với kích thước tablet , cấu hình và camera mạnh mẽ hơn , thiết kế cũng lịch lãm hơn chắc chắn sẽ dành cho những người đòi hỏi hiệu năng và tính linh động cao ở một chiếc điện thoại .
+{"subject": ["5-1&&Galaxy", "5-2&&Z", "5-3&&Flip"], "object": ["5-16&&phần", "5-17&&còn", "5-18&&lại", "5-19&&của", "5-20&&thế", "5-21&&giới", "5-22&&smartphone"], "aspect": [], "predicate": ["5-13&&khác", "5-14&&hẳn"], "label": "DIF"}
+{"subject": ["5-5&&Z", "5-6&&Fold", "5-7&&2"], "object": ["5-16&&phần", "5-17&&còn", "5-18&&lại", "5-19&&của", "5-20&&thế", "5-21&&giới", "5-22&&smartphone"], "aspect": [], "predicate": ["5-13&&khác", "5-14&&hẳn"], "label": "DIF"}
+{"subject": ["13-1&&Cả", "13-2&&hai", "13-3&&chiếc", "13-4&&máy"], "object": [], "aspect": ["13-9&&kính", "13-10&&sang", "13-11&&trọng"], "predicate": ["13-5&&đều", "13-6&&được", "13-7&&làm", "13-8&&từ"], "label": "EQL"}
+{"subject": ["17-5&&Z", "17-6&&Flip"], "object": ["17-21&&Z", "17-22&&Fold", "17-23&&2"], "aspect": ["17-1&&Cụm", "17-2&&camera", "17-3&&đôi"], "predicate": ["17-9&&gọn", "17-10&&gàng", "17-11&&hơn"], "label": "COM+"}
+{"subject": ["17-5&&Z", "17-6&&Flip"], "object": ["17-21&&Z", "17-22&&Fold", "17-23&&2"], "aspect": ["17-1&&Cụm", "17-2&&camera", "17-3&&đôi"], "predicate": ["17-14&&không", "17-15&&“", "17-16&&bành", "17-17&&chướng", "17-18&&”", "17-19&&như"], "label": "COM+"}
+{"subject": [], "object": ["19-10&&Note", "19-11&&20"], "aspect": ["19-1&&Cụm", "19-2&&camera", "19-3&&vuông", "19-4&&vức"], "predicate": ["19-7&&bê", "19-8&&nguyên"], "label": "EQL"}
+{"subject": ["24-8&&chiếc", "24-9&&điện", "24-10&&thoại", "24-11&&đi", "24-12&&sau"], "object": [], "aspect": ["24-19&&hiển", "24-20&&thị"], "predicate": ["24-14&&giữ", "24-15&&ưu", "24-16&&thế"], "label": "COM+"}
+{"subject": ["31-4&&Z", "31-5&&Flip"], "object": ["31-19&&Z", "31-20&&Fold", "31-21&&2"], "aspect": ["31-7&&mật", "31-8&&độ", "31-9&&điểm", "31-10&&ảnh"], "predicate": ["31-11&&cao", "31-12&&hơn"], "label": "COM+"}
+{"subject": ["32-1&&Màn", "32-2&&hình", "32-3&&phụ", "32-4&&của", "32-5&&Z", "32-6&&Flip"], "object": ["32-40&&màn", "32-41&&hình", "32-42&&lớn", "32-43&&của", "32-44&&Z", "32-45&&Fold", "32-46&&2"], "aspect": [], "predicate": ["32-33&&không", "32-34&&đem", "32-35&&lại", "32-36&&tính", "32-37&&tiện", "32-38&&dụng", "32-39&&như"], "label": "COM-"}
+{"subject": ["36-1&&Hai", "36-2&&chiếc", "36-3&&điện", "36-4&&thoại"], "object": ["36-1&&Hai", "36-2&&chiếc", "36-3&&điện", "36-4&&thoại"], "aspect": ["36-10&&cách", "36-11&&gập"], "predicate": ["36-6&&khác", "36-7&&hẳn", "36-8&&nhau"], "label": "DIF"}
+{"subject": ["39-12&&chiếc", "39-13&&điện", "39-14&&thoại", "39-15&&này"], "object": [], "aspect": ["39-5&&cách", "39-6&&gập"], "predicate": ["39-16&&không", "39-17&&thể", "39-18&&làm", "39-19&&được", "39-20&&điều", "39-21&&tương", "39-22&&tự"], "label": "DIF"}
+{"subject": ["47-1&&Camera", "47-2&&chính"], "object": ["47-1&&Camera", "47-2&&chính"], "aspect": ["47-5&&chống", "47-6&&rung", "47-7&&quang", "47-8&&học", "47-9&&OIS", "47-10&&và", "47-11&&lấy", "47-12&&nét", "47-13&&theo", "47-14&&pha", "47-15&&PDAF"], "predicate": ["47-3&&đều", "47-4&&có"], "label": "EQL"}
+{"subject": ["48-1&&Cả", "48-2&&hai", "48-3&&máy"], "object": ["48-1&&Cả", "48-2&&hai", "48-3&&máy"], "aspect": ["48-7&&quay", "48-8&&video", "48-9&&4K"], "predicate": ["48-4&&đều", "48-5&&có", "48-6&&thể"], "label": "EQL"}
+{"subject": ["52-16&&đây"], "object": [], "aspect": ["52-26&&phần", "52-27&&cứng"], "predicate": ["52-28&&tốt", "52-29&&nhất", "52-30&&của", "52-31&&hãng"], "label": "SUP+"}
+{"subject": ["55-14&&Galaxy", "55-15&&Z", "55-16&&Fold", "55-17&&2"], "object": [], "aspect": ["55-6&&cấu", "55-7&&hình"], "predicate": ["55-1&&Chiến", "55-2&&thắng"], "label": "COM+"}
+{"subject": ["56-10&&chiếc", "56-11&&máy", "56-12&&này"], "object": [], "aspect": ["56-2&&Sức", "56-3&&khoẻ"], "predicate": ["56-5&&vượt", "56-6&&trội", "56-7&&hơn"], "label": "COM+"}
+{"subject": ["68-1&&Chiếc", "68-2&&Galaxy", "68-3&&Z", "68-4&&Fold", "68-5&&2"], "object": [], "aspect": ["68-7&&viên", "68-8&&pin"], "predicate": ["68-9&&lớn", "68-10&&hơn", "68-11&&hẳn"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": ["69-10&&màn", "69-11&&hình"], "predicate": ["69-12&&lớn", "69-13&&hơn"], "label": "COM+"}
+{"subject": ["71-10&&Z", "71-11&&Fold", "71-12&&2"], "object": ["71-22&&Z", "71-23&&Flip"], "aspect": ["71-17&&thời", "71-18&&lượng", "71-19&&pin"], "predicate": ["71-20&&kém", "71-21&&hơn"], "label": "COM-"}
+{"subject": ["72-14&&Z", "72-15&&Flip"], "object": [], "aspect": ["72-21&&màn", "72-22&&hình"], "predicate": ["72-23&&nhỏ", "72-24&&hơn"], "label": "COM"}
+{"subject": ["76-13&&Z", "76-14&&Fold", "76-15&&2"], "object": ["76-24&&người", "76-25&&tiền", "76-26&&nhiệm"], "aspect": ["76-18&&mức", "76-19&&giá"], "predicate": ["76-23&&như"], "label": "EQL"}
+{"subject": ["77-1&&Chiếc", "77-2&&Z", "77-3&&Flip"], "object": [], "aspect": ["77-5&&mức", "77-6&&giá"], "predicate": ["77-7&&mềm", "77-8&&hơn"], "label": "COM+"}
+{"subject": ["83-6&&Z", "83-7&&Fold", "83-8&&2"], "object": [], "aspect": ["83-14&&cấu", "83-15&&hình"], "predicate": ["83-18&&mạnh", "83-19&&mẽ", "83-20&&hơn"], "label": "COM+"}
+{"subject": ["83-6&&Z", "83-7&&Fold", "83-8&&2"], "object": [], "aspect": ["83-17&&camera"], "predicate": ["83-18&&mạnh", "83-19&&mẽ", "83-20&&hơn"], "label": "COM+"}
+{"subject": ["83-6&&Z", "83-7&&Fold", "83-8&&2"], "object": [], "aspect": ["83-22&&thiết", "83-23&&kế"], "predicate": ["83-25&&lịch", "83-26&&lãm", "83-27&&hơn"], "label": "COM+"}

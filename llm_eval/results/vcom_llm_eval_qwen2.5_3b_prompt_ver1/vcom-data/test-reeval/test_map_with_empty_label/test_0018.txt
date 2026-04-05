@@ -1,0 +1,198 @@
+title: Google Pixel Fold và Galaxy Z Fold 4: Mẫu điện thoại gập nào đỉnh hơn?	title : Google Pixel Fold và Galaxy Z Fold 4 : Mẫu điện thoại gập nào đỉnh hơn ?
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chọn mua Google Pixel Fold hay Galaxy Z Fold 4: Mẫu điện thoại gập nào dành cho bạn?	Chọn mua Google Pixel Fold hay Galaxy Z Fold 4 : Mẫu điện thoại gập nào dành cho bạn ?
+{"subject": ["3&&Google", "4&&Pixel", "5&&Fold"], "object": ["7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "aspect": [], "predicate": [], "label": "COM+"}
+{"subject": ["3&&Google", "4&&Pixel", "5&&Fold"], "object": ["7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "aspect": [], "predicate": [], "label": "COM-"}
+
+Google mới đây đã cho ra mắt Google Pixel Fold - mẫu điện thoại gập đầu tiên của hãng.	Google mới đây đã cho ra mắt Google Pixel Fold - mẫu điện thoại gập đầu tiên của hãng .
+{"subject": ["8&&Google", "9&&Pixel", "10&&Fold"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ngay lập tức thiết bị này đã được các chuyên gia đem lên “bàn cân” so sánh với Galaxy Z Fold 4 của Samsung.	Ngay lập tức thiết bị này đã được các chuyên gia đem lên “ bàn cân ” so sánh với Galaxy Z Fold 4 của Samsung .
+{"subject": ["4&&thiết", "5&&bị", "6&&này"], "object": ["21&&Galaxy", "22&&Z", "23&&Fold", "24&&4", "25&&của", "26&&Samsung"], "aspect": [], "predicate": [], "label": "COM+"}
+
+Điều này hoàn toàn dễ hiểu khi cả hai đều là những chiếc smartphone gập dáng “quyển vở” cao cấp nhất trên thị trường hiện nay.	Điều này hoàn toàn dễ hiểu khi cả hai đều là những chiếc smartphone gập dáng “ quyển vở ” cao cấp nhất trên thị trường hiện nay .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Vậy Google Pixel Fold và Galaxy Z Fold 4 có gì khác biệt?	Vậy Google Pixel Fold và Galaxy Z Fold 4 có gì khác biệt ?
+{"subject": ["2&&Google", "3&&Pixel", "4&&Fold"], "object": ["6&&Galaxy", "7&&Z", "8&&Fold", "9&&4"], "aspect": [], "predicate": [], "label": "DIF"}
+
+Hãy cùng XTmobile điểm qua những điểm nổi bật của cả hai model trên trong bài viết dưới đây!	Hãy cùng XTmobile điểm qua những điểm nổi bật của cả hai model trên trong bài viết dưới đây !
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+So sánh về thiết kế và khả năng hiển thị	So sánh về thiết kế và khả năng hiển thị
+{"subject": ["4&&thiết", "5&&kế"], "object": ["7&&khả", "8&&năng", "9&&hiển", "10&&thị"], "aspect": [], "predicate": [], "label": "COM"}
+
+Về mặt thiết kế, Google Pixel Fold và Galaxy Z Fold 4 đều có phần màn hình rất lớn và có thể gấp lại làm đôi, do đó cả hai sẽ dày hơn những chiếc smartphone thông thường.	Về mặt thiết kế , Google Pixel Fold và Galaxy Z Fold 4 đều có phần màn hình rất lớn và có thể gấp lại làm đôi , do đó cả hai sẽ dày hơn những chiếc smartphone thông thường .
+{"subject": ["6&&Google", "7&&Pixel", "8&&Fold"], "object": ["10&&Galaxy", "11&&Z", "12&&Fold", "13&&4"], "aspect": ["16&&phần", "17&&màn", "18&&hình"], "predicate": ["19&&rất", "20&&lớn"], "label": "COM+"}
+{"subject": ["6&&Google", "7&&Pixel", "8&&Fold"], "object": ["10&&Galaxy", "11&&Z", "12&&Fold", "13&&4"], "aspect": [], "predicate": ["34&&dày", "35&&hơn"], "label": "COM+"}
+
+Đặc biệt khi bỏ vào túi quần, cả hai model sẽ khá cộm và gây bất tiện cho người dùng.	Đặc biệt khi bỏ vào túi quần , cả hai model sẽ khá cộm và gây bất tiện cho người dùng .
+{"subject": ["9&&cả", "10&&hai", "11&&model"], "object": [], "aspect": [], "predicate": ["13&&khá", "14&&cộm"], "label": "COM-"}
+
+alt: Google Pixel Fold và Galaxy Z Fold 4 đều có màn hình chính 7.6 inch 120Hz	alt : Google Pixel Fold và Galaxy Z Fold 4 đều có màn hình chính 7.6 inch 120Hz
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Cụ thể, mẫu Galaxy Z Fold 4 nặng khoảng 263g, trong khi đó Google Pixel Fold có trọng lượng còn nhỉnh hơn với con số 283g.	Cụ thể , mẫu Galaxy Z Fold 4 nặng khoảng 263g , trong khi đó Google Pixel Fold có trọng lượng còn nhỉnh hơn với con số 283g .
+{"subject": ["4&&mẫu", "5&&Galaxy", "6&&Z", "7&&Fold", "8&&4"], "object": ["16&&Google", "17&&Pixel", "18&&Fold"], "aspect": ["20&&trọng", "21&&lượng"], "predicate": ["23&&nhỉnh", "24&&hơn"], "label": "COM+"}
+
+Tuy vậy, mẫu điện thoại gập đầu tiên của Google lại có phần mỏng hơn so với đối thủ.	Tuy vậy , mẫu điện thoại gập đầu tiên của Google lại có phần mỏng hơn so với đối thủ .
+{"subject": ["4&&mẫu", "5&&điện", "6&&thoại", "7&&gập"], "object": ["19&&đối", "20&&thủ"], "aspect": ["14&&phần", "15&&mỏng"], "predicate": ["16&&hơn"], "label": "COM+"}
+
+Cả hai thiết bị đều được hoàn thiện rất tỉ mỉ, từ phần mặt kính cho đến khung viền kim loại.	Cả hai thiết bị đều được hoàn thiện rất tỉ mỉ , từ phần mặt kính cho đến khung viền kim loại .
+{"subject": ["1&&Cả", "2&&hai", "3&&thiết", "4&&bị"], "object": [], "aspect": [], "predicate": ["5&&đều", "6&&được", "7&&hoàn", "8&&thiện", "9&&rất", "10&&tỉ", "11&&mỉ"], "label": "EQL"}
+
+Ngoài ra, hai ông lớn ngành công nghệ cũng trang bị cho các flagship trên khả năng chống nước chuẩn IPX8.	Ngoài ra , hai ông lớn ngành công nghệ cũng trang bị cho các flagship trên khả năng chống nước chuẩn IPX8 .
+{"subject": ["4&&hai", "5&&ông", "6&&lớn", "7&&ngành", "8&&công", "9&&nghệ"], "object": ["14&&các", "15&&flagship"], "aspect": ["17&&khả", "18&&năng", "19&&chống", "20&&nước"], "predicate": ["11&&trang", "12&&bị", "13&&cho"], "label": "COM+"}
+
+alt: Google Pixel Fold và Galaxy Z Fold 4 đều có màn hình chính 7.6 inch 120Hz	alt : Google Pixel Fold và Galaxy Z Fold 4 đều có màn hình chính 7.6 inch 120Hz
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Về kích thước màn hình ngoài thì Google Pixel Fold và Galaxy Z Fold 4 lại có khá nhiều điểm khác biệt.	Về kích thước màn hình ngoài thì Google Pixel Fold và Galaxy Z Fold 4 lại có khá nhiều điểm khác biệt .
+{"subject": ["8&&Google", "9&&Pixel", "10&&Fold"], "object": ["12&&Galaxy", "13&&Z", "14&&Fold", "15&&4"], "aspect": ["2&&kích", "3&&thước", "4&&màn", "5&&hình", "6&&ngoài"], "predicate": ["17&&có", "18&&khá", "19&&nhiều", "20&&điểm", "21&&khác", "22&&biệt"], "label": "COM+"}
+
+Trong khi màn hình phụ của Galaxy Z Fold 4 có phần hơi hẹp và cao thì tấm màn của Google Pixel Fold lại khá rộng, giúp người dùng thao tác dễ dàng hơn hẳn.	Trong khi màn hình phụ của Galaxy Z Fold 4 có phần hơi hẹp và cao thì tấm màn của Google Pixel Fold lại khá rộng , giúp người dùng thao tác dễ dàng hơn hẳn .
+{"subject": ["3&&màn", "4&&hình", "5&&phụ", "6&&của", "7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "object": ["18&&tấm", "19&&màn", "20&&của", "21&&Google", "22&&Pixel", "23&&Fold"], "aspect": ["12&&phần"], "predicate": ["13&&hơi", "14&&hẹp", "15&&và", "16&&cao"], "label": "COM-"}
+{"subject": ["3&&màn", "4&&hình", "5&&phụ", "6&&của", "7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "object": ["18&&tấm", "19&&màn", "20&&của", "21&&Google", "22&&Pixel", "23&&Fold"], "aspect": ["28&&giúp", "29&&người", "30&&dùng", "31&&thao", "32&&tác"], "predicate": ["33&&dễ", "34&&dàng", "35&&hơn", "36&&hẳn"], "label": "COM+"}
+
+Đối với màn hình chính, cả hai thiết bị đều sở hữu tấm màn OLED 7.6 inch với tần số quét cao 120Hz.	Đối với màn hình chính , cả hai thiết bị đều sở hữu tấm màn OLED 7.6 inch với tần số quét cao 120Hz .
+{"subject": ["7&&cả", "8&&hai", "9&&thiết", "10&&bị"], "object": [], "aspect": ["14&&tấm", "15&&màn", "16&&OLED"], "predicate": ["12&&sở", "13&&hữu"], "label": "EQL"}
+
+Mặt khác, Galaxy Z Fold 4 lại có phần nổi trội hơn khi có hỗ trợ thêm bút  S-Pen “thần thánh”.	Mặt khác , Galaxy Z Fold 4 lại có phần nổi trội hơn khi có hỗ trợ thêm bút S-Pen “ thần thánh ” .
+{"subject": ["4&&Galaxy", "5&&Z", "6&&Fold", "7&&4"], "object": [], "aspect": ["10&&phần", "11&&nổi", "12&&trội"], "predicate": ["9&&có"], "label": "SUP+"}
+
+Tuy không được tặng kèm theo nhưng người dùng có thể mua riêng và giữ nó trong một hộp đựng chuyên biệt.	Tuy không được tặng kèm theo nhưng người dùng có thể mua riêng và giữ nó trong một hộp đựng chuyên biệt .
+{"subject": ["8&&người", "9&&dùng"], "object": [], "aspect": [], "predicate": ["10&&có", "11&&thể", "12&&mua", "13&&riêng"], "label": "COM+"}
+
+So sánh hệ thống camera	So sánh hệ thống camera
+{"subject": ["3&&hệ", "4&&thống"], "object": ["5&&camera"], "aspect": [], "predicate": [], "label": ""}
+
+Từ trước đến nay, Samsung và Google luôn được đánh giá cao về khả năng chụp ảnh trên những chiếc smartphone của hãng.	Từ trước đến nay , Samsung và Google luôn được đánh giá cao về khả năng chụp ảnh trên những chiếc smartphone của hãng .
+{"subject": ["6&&Samsung"], "object": ["8&&Google"], "aspect": ["15&&khả", "16&&năng", "17&&chụp", "18&&ảnh"], "predicate": ["9&&luôn", "10&&được", "11&&đánh", "12&&giá", "13&&cao"], "label": "COM+"}
+
+Do đó hứa hẹn, cả Google Pixel Fold và Galaxy Z Fold 4 đều sẽ giúp người dùng cho ra những tác phẩm nghệ thuật thật sống động và bắt mắt.	Do đó hứa hẹn , cả Google Pixel Fold và Galaxy Z Fold 4 đều sẽ giúp người dùng cho ra những tác phẩm nghệ thuật thật sống động và bắt mắt .
+{"subject": ["11&&Galaxy", "12&&Z", "13&&Fold", "14&&4"], "object": ["7&&Google", "8&&Pixel", "9&&Fold"], "aspect": [], "predicate": ["16&&sẽ", "17&&giúp", "18&&người", "19&&dùng", "20&&cho", "21&&ra", "22&&những", "23&&tác", "24&&phẩm", "25&&nghệ", "26&&thuật", "27&&thật", "28&&sống", "29&&động", "30&&và", "31&&bắt", "32&&mắt"], "label": "COM+"}
+
+alt: Galaxy Z Fold 4 có camera chính 50MP	alt : Galaxy Z Fold 4 có camera chính 50MP
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ở phần mặt lưng, cả hai mẫu điện thoại gập đều có cụm ba camera với cách bố trí các cảm biến hoàn toàn khác biệt.	Ở phần mặt lưng , cả hai mẫu điện thoại gập đều có cụm ba camera với cách bố trí các cảm biến hoàn toàn khác biệt .
+{"subject": ["6&&cả", "7&&hai", "8&&mẫu", "9&&điện", "10&&thoại", "11&&gập"], "object": [], "aspect": ["14&&cụm", "15&&ba", "16&&camera"], "predicate": ["18&&cách", "19&&bố", "20&&trí", "21&&các", "22&&cảm", "23&&biến", "24&&hoàn", "25&&toàn", "26&&khác", "27&&biệt"], "label": "DIF"}
+
+Trong đó, Galaxy Z Fold 4 có 3 cảm biến được xếp dọc thân máy với thứ tự lần lượt là ống kính chính 50MP, ống kính góc siêu rộng 12MP f/2.2 và ống kính tele zoom 3X 10MP.	Trong đó , Galaxy Z Fold 4 có 3 cảm biến được xếp dọc thân máy với thứ tự lần lượt là ống kính chính 50MP , ống kính góc siêu rộng 12MP f / 2.2 và ống kính tele zoom 3X 10MP .
+{"subject": ["4&&Galaxy", "5&&Z", "6&&Fold", "7&&4"], "object": [], "aspect": ["10&&cảm", "11&&biến"], "predicate": ["12&&được", "13&&xếp", "14&&dọc", "15&&thân", "16&&máy"], "label": "COM+"}
+{"subject": ["23&&ống", "24&&kính", "25&&chính", "26&&50MP"], "object": [], "aspect": [], "predicate": ["22&&là", "26&&50MP"], "label": "EQL"}
+{"subject": [], "object": [], "aspect": [], "predicate": ["22&&là", "33&&12MP"], "label": "EQL"}
+{"subject": ["38&&ống", "39&&kính", "40&&tele", "41&&zoom", "42&&3X", "43&&10MP"], "object": [], "aspect": [], "predicate": ["22&&là", "43&&10MP"], "label": "EQL"}
+
+alt: Google Pixel Fold có cụm 3 camera đặt trên thanh ngang mặt lưng	alt : Google Pixel Fold có cụm 3 camera đặt trên thanh ngang mặt lưng
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Mẫu Google Pixel Fold vừa ra mắt cũng sở hữu những thông số camera không quá chênh lệch so với đối thủ.	Mẫu Google Pixel Fold vừa ra mắt cũng sở hữu những thông số camera không quá chênh lệch so với đối thủ .
+{"subject": ["1&&Mẫu", "2&&Google", "3&&Pixel", "4&&Fold"], "object": ["21&&đối", "22&&thủ"], "aspect": ["12&&thông", "13&&số", "14&&camera"], "predicate": ["15&&không", "16&&quá", "17&&chênh", "18&&lệch"], "label": "COM+"}
+
+Cụ thể thì máy được trang bị một ống kính chính 48MP, camera góc siêu rộng và camera tele zoom quang 5X với cùng độ phân giải là 10.8MP.	Cụ thể thì máy được trang bị một ống kính chính 48MP , camera góc siêu rộng và camera tele zoom quang 5X với cùng độ phân giải là 10.8MP .
+{"subject": ["4&&máy"], "object": [], "aspect": ["26&&độ", "27&&phân", "28&&giải"], "predicate": ["25&&cùng", "26&&độ", "27&&phân", "28&&giải", "29&&là"], "label": "EQL"}
+
+Cả hai thiết bị đều có camera selfie cho cả màn hình phụ và màn hình chính bên trong.	Cả hai thiết bị đều có camera selfie cho cả màn hình phụ và màn hình chính bên trong .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+So sánh hiệu năng giữa Google Pixel Fold và Galaxy Z Fold 4	So sánh hiệu năng giữa Google Pixel Fold và Galaxy Z Fold 4
+{"subject": ["6&&Google", "7&&Pixel", "8&&Fold"], "object": ["10&&Galaxy", "11&&Z", "12&&Fold", "13&&4"], "aspect": ["3&&hiệu", "4&&năng"], "predicate": ["1&&So", "2&&sánh"], "label": "DIF"}
+
+Con chip Tensor G2 - bộ vi xử lý “cây nhà lá vườn” trên Google Pixel Fold không được các chuyên gia đánh giá cao như những mẫu chip cao cấp đến từ Qualcomm.	Con chip Tensor G2 - bộ vi xử lý “ cây nhà lá vườn ” trên Google Pixel Fold không được các chuyên gia đánh giá cao như những mẫu chip cao cấp đến từ Qualcomm .
+{"subject": [], "object": ["29&&những", "30&&mẫu", "31&&chip", "32&&cao", "33&&cấp", "34&&đến", "35&&từ", "36&&Qualcomm"], "aspect": ["21&&được", "25&&đánh", "26&&giá"], "predicate": ["20&&không", "21&&được", "22&&các", "23&&chuyên", "24&&gia", "25&&đánh", "26&&giá", "27&&cao"], "label": "COM-"}
+
+Có thể nói, chipset này có phần yếu hơn hẳn Snapdragon 8+ Gen 1 được trang bị trên Galaxy Z Fold 4.	Có thể nói , chipset này có phần yếu hơn hẳn Snapdragon 8 + Gen 1 được trang bị trên Galaxy Z Fold 4 .
+{"subject": ["5&&chipset", "6&&này"], "object": [], "aspect": ["8&&phần", "9&&yếu"], "predicate": ["7&&có", "8&&phần", "9&&yếu", "10&&hơn", "11&&hẳn"], "label": "COM-"}
+
+Ngoài ra còn có tin đồn cho rằng, mẫu điện thoại gập tiếp theo của Samsung là Galaxy Z Fold 5 sẽ có chipset Snapdragon 8 Gen 2 cực kỳ mạnh mẽ.	Ngoài ra còn có tin đồn cho rằng , mẫu điện thoại gập tiếp theo của Samsung là Galaxy Z Fold 5 sẽ có chipset Snapdragon 8 Gen 2 cực kỳ mạnh mẽ .
+{"subject": ["19&&Galaxy", "20&&Z", "21&&Fold", "22&&5"], "object": [], "aspect": ["25&&chipset"], "predicate": ["30&&cực", "31&&kỳ", "32&&mạnh", "33&&mẽ"], "label": "SUP+"}
+
+alt: Bảng so sánh thông số kỹ thuật giữa Google Pixel Fold và Galaxy Z Fold 4	alt : Bảng so sánh thông số kỹ thuật giữa Google Pixel Fold và Galaxy Z Fold 4
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Về mặt cấu hình trang bị, cả hai flagship đều không đem đến bất ngờ nào mới khi đều sở hữu 12GB RAM và bộ nhớ trong 256GB và 512GB.	Về mặt cấu hình trang bị , cả hai flagship đều không đem đến bất ngờ nào mới khi đều sở hữu 12GB RAM và bộ nhớ trong 256GB và 512GB .
+{"subject": ["8&&cả", "9&&hai", "10&&flagship"], "object": [], "aspect": [], "predicate": ["12&&không", "13&&đem", "14&&đến", "15&&bất", "16&&ngờ", "17&&nào", "18&&mới"], "label": "COM-"}
+
+Tuy không quá ấn tượng nhưng Google Pixel Fold và Galaxy Z Fold 4  vẫn đáp ứng được nhu cầu sử dụng hàng ngày của hầu hết người dùng.	Tuy không quá ấn tượng nhưng Google Pixel Fold và Galaxy Z Fold 4 vẫn đáp ứng được nhu cầu sử dụng hàng ngày của hầu hết người dùng .
+{"subject": ["7&&Google", "8&&Pixel", "9&&Fold"], "object": ["11&&Galaxy", "12&&Z", "13&&Fold", "14&&4"], "aspect": ["2&&không", "3&&quá", "4&&ấn", "5&&tượng"], "predicate": [], "label": "COM-"}
+
+Đối với phần mềm hỗ trợ, Samsung đang có vị thế tốt hơn với 3 năm kinh nghiệm phát triển các mẫu điện thoại gập.	Đối với phần mềm hỗ trợ , Samsung đang có vị thế tốt hơn với 3 năm kinh nghiệm phát triển các mẫu điện thoại gập .
+{"subject": ["8&&Samsung"], "object": [], "aspect": ["11&&vị", "12&&thế"], "predicate": ["10&&có", "11&&vị", "12&&thế", "13&&tốt", "14&&hơn"], "label": "COM+"}
+
+Chưa dừng lại ở đó, ông lớn Hàn Quốc vẫn đang giữ vững “ngôi vương” trên thị trường smartphone ngày càng sôi động này.	Chưa dừng lại ở đó , ông lớn Hàn Quốc vẫn đang giữ vững “ ngôi vương ” trên thị trường smartphone ngày càng sôi động này .
+{"subject": ["7&&ông", "8&&lớn", "9&&Hàn", "10&&Quốc"], "object": [], "aspect": [], "predicate": ["11&&vẫn", "12&&đang", "13&&giữ", "14&&vững"], "label": "COM+"}
+
+Tính năng dock và khả năng chia ba màn hình cảm ứng trên Galaxy Z Fold 4 “được lòng” rất nhiều người dùng khi giúp thao tác đa nhiệm trở nên dễ dàng hơn bao giờ hết.	Tính năng dock và khả năng chia ba màn hình cảm ứng trên Galaxy Z Fold 4 “ được lòng ” rất nhiều người dùng khi giúp thao tác đa nhiệm trở nên dễ dàng hơn bao giờ hết .
+{"subject": [], "object": [], "aspect": ["5&&khả", "6&&năng"], "predicate": ["19&&được", "20&&lòng"], "label": "COM+"}
+{"subject": [], "object": ["14&&Galaxy", "15&&Z", "16&&Fold", "17&&4"], "aspect": ["5&&khả", "6&&năng"], "predicate": [], "label": "COM+"}
+{"subject": ["14&&Galaxy", "15&&Z", "16&&Fold", "17&&4"], "object": [], "aspect": ["28&&thao", "29&&tác"], "predicate": ["34&&dễ", "35&&dàng", "36&&hơn", "37&&bao", "38&&giờ", "39&&hết"], "label": "COM+"}
+
+Về dung lượng pin và công nghệ sạc	Về dung lượng pin và công nghệ sạc
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Dung lượng pin không phải là điểm mạnh trên các mẫu điện thoại gập vì hai nửa của thiết bị thường khá mỏng.	Dung lượng pin không phải là điểm mạnh trên các mẫu điện thoại gập vì hai nửa của thiết bị thường khá mỏng .
+{"subject": ["1&&Dung", "2&&lượng", "3&&pin"], "object": ["10&&các", "11&&mẫu", "12&&điện", "13&&thoại", "14&&gập"], "aspect": [], "predicate": ["4&&không", "5&&phải", "6&&là", "7&&điểm", "8&&mạnh"], "label": "COM-"}
+
+Do đó không gian lưu trữ pin trên Google Pixel Fold hay Galaxy Z Fold 4 đều khá hạn chế, thời lượng pin cũng sẽ ít hơn các chiếc điện thoại thông thường.	Do đó không gian lưu trữ pin trên Google Pixel Fold hay Galaxy Z Fold 4 đều khá hạn chế , thời lượng pin cũng sẽ ít hơn các chiếc điện thoại thông thường .
+{"subject": ["9&&Google", "10&&Pixel", "11&&Fold"], "object": ["13&&Galaxy", "14&&Z", "15&&Fold", "16&&4"], "aspect": ["3&&không", "4&&gian", "5&&lưu", "6&&trữ", "7&&pin"], "predicate": ["17&&đều", "18&&khá", "19&&hạn", "20&&chế"], "label": "COM-"}
+{"subject": ["9&&Google", "10&&Pixel", "11&&Fold"], "object": ["13&&Galaxy", "14&&Z", "15&&Fold", "16&&4"], "aspect": ["22&&thời", "23&&lượng", "24&&pin"], "predicate": ["26&&sẽ", "27&&ít", "28&&hơn"], "label": "COM-"}
+
+alt: Cả Google Pixel Fold và Galaxy Z Fold 4 đều hỗ trợ sạc không dây	alt : Cả Google Pixel Fold và Galaxy Z Fold 4 đều hỗ trợ sạc không dây
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Điển hình, Galaxy Z Fold 4 được trang bị viên pin 4.400mAh, nhỏ hơn con số 5.000mAh của Galaxy S23 Ultra.	Điển hình , Galaxy Z Fold 4 được trang bị viên pin 4.400mAh , nhỏ hơn con số 5.000mAh của Galaxy S23 Ultra .
+{"subject": ["4&&Galaxy", "5&&Z", "6&&Fold", "7&&4"], "object": ["21&&Galaxy", "22&&S23", "23&&Ultra"], "aspect": ["11&&viên", "12&&pin"], "predicate": ["15&&nhỏ", "16&&hơn"], "label": "COM-"}
+
+Tuy nhiên một tin vui là Google Pixel Fold lại sở hữu viên pin 4.821mAh, cho phép người dùng sử dụng cả ngày dài với các tác vụ cơ bản.	Tuy nhiên một tin vui là Google Pixel Fold lại sở hữu viên pin 4.821mAh , cho phép người dùng sử dụng cả ngày dài với các tác vụ cơ bản .
+{"subject": ["7&&Google", "8&&Pixel", "9&&Fold"], "object": [], "aspect": ["13&&viên", "14&&pin"], "predicate": ["11&&sở", "12&&hữu"], "label": "SUP+"}
+{"subject": ["7&&Google", "8&&Pixel", "9&&Fold"], "object": [], "aspect": [], "predicate": ["17&&cho", "18&&phép", "19&&người", "20&&dùng", "21&&sử", "22&&dụng", "23&&cả", "24&&ngày", "25&&dài"], "label": "COM+"}
+
+Cả hai mẫu điện thoại gập đều hỗ trợ sạc không dây.	Cả hai mẫu điện thoại gập đều hỗ trợ sạc không dây .
+{"subject": ["1&&Cả", "2&&hai", "3&&mẫu", "4&&điện", "5&&thoại", "6&&gập"], "object": [], "aspect": [], "predicate": ["8&&hỗ", "9&&trợ", "10&&sạc", "11&&không", "12&&dây"], "label": "EQL"}
+
+Nên mua Google Pixel Fold hay Galaxy Z Fold 4	Nên mua Google Pixel Fold hay Galaxy Z Fold 4
+{"subject": ["3&&Google", "4&&Pixel", "5&&Fold"], "object": ["7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "aspect": [], "predicate": [], "label": "COM-"}
+{"subject": ["3&&Google", "4&&Pixel", "5&&Fold"], "object": ["7&&Galaxy", "8&&Z", "9&&Fold", "10&&4"], "aspect": [], "predicate": [], "label": "COM-"}
+
+Tóm lại, cả Google Pixel Fold và Galaxy Z Fold 4 đều có những ưu và nhược điểm riêng biệt.	Tóm lại , cả Google Pixel Fold và Galaxy Z Fold 4 đều có những ưu và nhược điểm riêng biệt .
+{"subject": ["5&&Google", "6&&Pixel", "7&&Fold"], "object": ["9&&Galaxy", "10&&Z", "11&&Fold", "12&&4"], "aspect": [], "predicate": ["14&&có", "15&&những", "16&&ưu", "17&&và", "18&&nhược", "19&&điểm", "20&&riêng", "21&&biệt"], "label": "COM+"}
+
+Nếu bạn thích một chiếc điện thoại gập nhỏ gọn, có bản lề chắc chắn và viên pin to hơn thì có thể chọn Google Pixel Fold.	Nếu bạn thích một chiếc điện thoại gập nhỏ gọn , có bản lề chắc chắn và viên pin to hơn thì có thể chọn Google Pixel Fold .
+{"subject": ["2&&bạn"], "object": ["26&&Google", "27&&Pixel", "28&&Fold"], "aspect": ["13&&bản", "14&&lề"], "predicate": ["15&&chắc", "16&&chắn"], "label": "COM+"}
+{"subject": ["2&&bạn"], "object": ["26&&Google", "27&&Pixel", "28&&Fold"], "aspect": ["18&&viên", "19&&pin"], "predicate": ["20&&to", "21&&hơn"], "label": "COM+"}
+
+Mặt khác, Galaxy Z Fold 4 lại nổi trội với sự ổn định, được hỗ trợ phần mềm đến 5 năm và còn có thể dùng kèm bút S-Pen.	Mặt khác , Galaxy Z Fold 4 lại nổi trội với sự ổn định , được hỗ trợ phần mềm đến 5 năm và còn có thể dùng kèm bút S-Pen .
+{"subject": ["4&&Galaxy", "5&&Z", "6&&Fold", "7&&4"], "object": [], "aspect": ["12&&sự", "13&&ổn", "14&&định"], "predicate": ["9&&nổi", "10&&trội"], "label": "SUP+"}
+{"subject": ["4&&Galaxy", "5&&Z", "6&&Fold", "7&&4"], "object": [], "aspect": ["19&&phần", "20&&mềm"], "predicate": ["16&&được", "17&&hỗ", "18&&trợ", "21&&đến", "22&&5", "23&&năm"], "label": "COM+"}
+
+Do đó, việc chọn mua một trong hai mẫu điện thoại gập trên phụ thuộc hoàn toàn vào sở thích của bạn!	Do đó , việc chọn mua một trong hai mẫu điện thoại gập trên phụ thuộc hoàn toàn vào sở thích của bạn !
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Hy vọng với các thông tin trong bài viết trên, bạn đọc có thể lựa được cho mình mẫu điện thoại ưng ý.	Hy vọng với các thông tin trong bài viết trên , bạn đọc có thể lựa được cho mình mẫu điện thoại ưng ý .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Hiện tại XTmobile đang cung cấp những chiếc Galaxy Z Fold 4 chất lượng với giá bán cực kỳ hợp lý.	Hiện tại XTmobile đang cung cấp những chiếc Galaxy Z Fold 4 chất lượng với giá bán cực kỳ hợp lý .
+{"subject": ["3&&XTmobile"], "object": [], "aspect": ["13&&chất", "14&&lượng"], "predicate": ["15&&với", "16&&giá", "17&&bán", "18&&cực", "19&&kỳ", "20&&hợp", "21&&lý"], "label": "COM+"}
+
+Nếu bạn ưng ý, hãy liên hệ ngay đến hotline 1800.6229 để được tư vấn mua hàng với hàng loạt các ưu đãi hấp dẫn như trả góp 0% lãi suất, thu cũ lên đời với giá cao,...	Nếu bạn ưng ý , hãy liên hệ ngay đến hotline 1800.6229 để được tư vấn mua hàng với hàng loạt các ưu đãi hấp dẫn như trả góp 0% lãi suất , thu cũ lên đời với giá cao , . . .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}

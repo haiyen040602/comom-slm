@@ -1,0 +1,64 @@
+1	So sánh nhanh bộ đôi smartphone siêu khủng Galaxy S21 Ultra và iPhone 12 Pro Max	So sánh nhanh bộ đôi smartphone siêu khủng Galaxy S21 Ultra và iPhone 12 Pro Max
+2	"Samsung Galaxy S21 Ultra và iPhone 12 Pro Max hiện đang là hai sản phẩm đang hot nhất hiện nay nằm trong phân khúc smartphone cao cấp.	" Samsung Galaxy S21 Ultra và iPhone 12 Pro Max hiện đang là hai sản phẩm đang hot nhất hiện nay nằm trong phân khúc smartphone cao cấp .
+3	Phần so sánh nhanh dưới đây sẽ chỉ ra xem S21 Ultra có là đối thủ xứng tầm với iPhone 12 Pro Max ra mắt vào năm ngoái.	Phần so sánh nhanh dưới đây sẽ chỉ ra xem S21 Ultra có là đối thủ xứng tầm với iPhone 12 Pro Max ra mắt vào năm ngoái .
+4	Thiết kế	Thiết kế
+5	Samsung Galaxy S21 Ultra có tổng thể vuông vắn hơn với các cạnh hơi tròn, một lỗ đục nhỏ ở giữa chứa camera nên tỷ lệ màn hình trên thân máy lên đến gần 90%.	Samsung Galaxy S21 Ultra có tổng thể vuông vắn hơn với các cạnh hơi tròn , một lỗ đục nhỏ ở giữa chứa camera nên tỷ lệ màn hình trên thân máy lên đến gần 90% .
+6	Mặt khác, iPhone 12 Pro Max sử dụng notch khiến tỷ lệ màn hình chỉ hơn 87%.	Mặt khác , iPhone 12 Pro Max sử dụng notch khiến tỷ lệ màn hình chỉ hơn 87% .
+7	Mặc dù cả hai smartphone đều có trọng lượng khoảng 229g nhưng iPhone 12 Pro Max mỏng hơn đáng kể.	Mặc dù cả hai smartphone đều có trọng lượng khoảng 229g nhưng iPhone 12 Pro Max mỏng hơn đáng kể .
+8	Chúng mỏng hơn 1,5mm so với Samsung Galaxy S21 Ultra.	Chúng mỏng hơn 1,5mm so với Samsung Galaxy S21 Ultra .
+9	Cả hai dòng smartphone cao cấp đều sử dụng kính Gorilla ở cả hai mặt với khung nhôm (S21 Ultra) và thép không gỉ (12 Pro Max).	Cả hai dòng smartphone cao cấp đều sử dụng kính Gorilla ở cả hai mặt với khung nhôm ( S21 Ultra ) và thép không gỉ ( 12 Pro Max ) .
+10	Thông số kỹ thuật	Thông số kỹ thuật
+11	Galaxy S21 Ultra sử dụng Snapdragon 888 / Exynos 2100 thì iPhone 12 Pro Max đi kèm với chipset Apple A14 Bionic đều được xây dựng trên quy trình sản xuất 5nm.	Galaxy S21 Ultra sử dụng Snapdragon 888 / Exynos 2100 thì iPhone 12 Pro Max đi kèm với chipset Apple A14 Bionic đều được xây dựng trên quy trình sản xuất 5nm .
+12	Trên AnTuTu V8, chip A14 Bionic đạt 638.584 điểm trong khi Snapdragon 888 SoC vượt qua số điểm này với hơn 700.000 điểm.	Trên AnTuTu V8 , chip A14 Bionic đạt 638.584 điểm trong khi Snapdragon 888 SoC vượt qua số điểm này với hơn 700.000 điểm .
+13	Cả hai smartphone đều cung cấp cùng một bộ nhớ và không có tùy chọn mở rộng.	Cả hai smartphone đều cung cấp cùng một bộ nhớ và không có tùy chọn mở rộng .
+14	Tuy nhiên, Galaxy S21 Ultra cung cấp nhiều RAM hơn, chúng được trang bị RAM 12GB hoặc 16GB trong khi iPhone 12 Pro Max chỉ sử dụng RAM 6GB.	Tuy nhiên , Galaxy S21 Ultra cung cấp nhiều RAM hơn , chúng được trang bị RAM 12GB hoặc 16GB trong khi iPhone 12 Pro Max chỉ sử dụng RAM 6GB .
+15	alt: so-sanh-bo-doi-smartphone-galaxy-s21-ultra-va-iphone-12-pro-max-3	alt : so-sanh-bo-doi-smartphone-galaxy-s21 - ultra-va-iphone - 12 - pro-max - 3
+16	des:	des :
+17	Màn hình	Màn hình
+18	Samsung Galaxy S21 Ultra có độ phân giải, độ sáng, HDR, mật độ điểm ảnh và tỷ lệ màn hình cao hơn.	Samsung Galaxy S21 Ultra có độ phân giải , độ sáng , HDR , mật độ điểm ảnh và tỷ lệ màn hình cao hơn .
+19	iPhone 12 Pro Max cũng có điểm mạnh với công nghệ hình ảnh Dolby Vision, gam màu rộng và tông màu chân thực, đây là những tối ưu hóa mà Galaxy S21 Ultra không có.	iPhone 12 Pro Max cũng có điểm mạnh với công nghệ hình ảnh Dolby Vision , gam màu rộng và tông màu chân thực , đây là những tối ưu hóa mà Galaxy S21 Ultra không có .
+20	Pin	Pin
+21	Ở khía cạnh pin, Samsung Galaxy S21 Ultra giành phần thắng vì pin không chỉ lớn hơn mà còn hỗ trợ sạc nhanh hơn.	Ở khía cạnh pin , Samsung Galaxy S21 Ultra giành phần thắng vì pin không chỉ lớn hơn mà còn hỗ trợ sạc nhanh hơn .
+22	Galaxy S21 Ultra trang bị pin 5.000mAh và hỗ trợ sạc nhanh 25W.	Galaxy S21 Ultra trang bị pin 5.000mAh và hỗ trợ sạc nhanh 25W .
+23	Đối với iPhone 12 Pro Max, máy chỉ đi kèm với viên pin 3687mAh hỗ trợ sạc nhanh 20W.	Đối với iPhone 12 Pro Max , máy chỉ đi kèm với viên pin 3687mAh hỗ trợ sạc nhanh 20W .
+24	Tuy nhiên, với sạc không dây, iPhone 12 Pro Max có công suất 20W cao hơn trong khi Galaxy S21 Ultra chỉ hỗ trợ 10W.	Tuy nhiên , với sạc không dây , iPhone 12 Pro Max có công suất 20W cao hơn trong khi Galaxy S21 Ultra chỉ hỗ trợ 10W .
+25	Nhưng Galaxy S21 Ultra lại hỗ trợ sạc không dây ngược mà iPhone 12 Pro Max không có.	Nhưng Galaxy S21 Ultra lại hỗ trợ sạc không dây ngược mà iPhone 12 Pro Max không có .
+26	Camera	Camera
+27	Về khả năng nhiếp ảnh, cả hai smartphone đều sử dụng cảm biến rộng và tele.	Về khả năng nhiếp ảnh , cả hai smartphone đều sử dụng cảm biến rộng và tele .
+28	Trong khi iPhone 12 Pro Max ghi điểm với TOF 3D LiDAR thì Galaxy S21 Ultra lại có ưu thế về ống kính tele mang lại khả năng zoom tốt hơn.	Trong khi iPhone 12 Pro Max ghi điểm với TOF 3D LiDAR thì Galaxy S21 Ultra lại có ưu thế về ống kính tele mang lại khả năng zoom tốt hơn .
+29	Trong khi khả năng thu phóng tối đa của iPhone 12 Pro Max là 2,5 lần thì Galaxy S21 Ultra lên đến 10 lần.	Trong khi khả năng thu phóng tối đa của iPhone 12 Pro Max là 2,5 lần thì Galaxy S21 Ultra lên đến 10 lần .
+30	Cả hai đều hỗ trợ ổn định hình ảnh quang học (OIS).	Cả hai đều hỗ trợ ổn định hình ảnh quang học ( OIS ) .
+31	Tuy nhiên, camera selfie trước của Apple đi kèm với gyro-EIS mà Samsung không có.	Tuy nhiên , camera selfie trước của Apple đi kèm với gyro-EIS mà Samsung không có .
+32	alt: Galaxy-S21-Ultra-vs-iPhone-12-Pro-Max	alt : Galaxy-S21 - Ultra-vs-iPhone - 12 - Pro-Max
+33	des:	des :
+34	Tạm kết	Tạm kết
+35	Cả hai thiết bị đều có cùng mức giá smartphone cao cấp dù Galaxy S21 đắt hơn khoảng $100.	Cả hai thiết bị đều có cùng mức giá smartphone cao cấp dù Galaxy S21 đắt hơn khoảng $100 .
+36	Trong khi iPhone 12 Pro Max bắt đầu từ mức giá $1,099 thì Galaxy S21 bắt đầu với giá $1,199."	Trong khi iPhone 12 Pro Max bắt đầu từ mức giá $1,099 thì Galaxy S21 bắt đầu với giá $1,199 . "
+{"subject": ["2-2&&Samsung", "2-3&&Galaxy", "2-4&&S21", "2-5&&Ultra"], "object": [], "aspect": [], "predicate": ["2-18&&hot", "2-19&&nhất"], "label": "SUP+"}
+{"subject": ["2-7&&iPhone", "2-8&&12", "2-9&&Pro", "2-10&&Max"], "object": [], "aspect": [], "predicate": ["2-18&&hot", "2-19&&nhất"], "label": "SUP+"}
+{"subject": ["5-1&&Samsung", "5-2&&Galaxy", "5-3&&S21", "5-4&&Ultra"], "object": [], "aspect": ["5-6&&tổng", "5-7&&thể"], "predicate": ["5-8&&vuông", "5-9&&vắn", "5-10&&hơn"], "label": "COM"}
+{"subject": ["7-3&&cả", "7-4&&hai", "7-5&&smartphone"], "object": ["7-3&&cả", "7-4&&hai", "7-5&&smartphone"], "aspect": ["7-8&&trọng", "7-9&&lượng", "7-10&&khoảng", "7-11&&229g"], "predicate": ["7-6&&đều", "7-7&&có"], "label": "EQL"}
+{"subject": ["7-13&&iPhone", "7-14&&12", "7-15&&Pro", "7-16&&Max"], "object": [], "aspect": [], "predicate": ["7-17&&mỏng", "7-18&&hơn", "7-19&&đáng", "7-20&&kể"], "label": "COM+"}
+{"subject": ["8-1&&Chúng"], "object": ["8-7&&Samsung", "8-8&&Galaxy", "8-9&&S21", "8-10&&Ultra"], "aspect": [], "predicate": ["8-2&&mỏng", "8-3&&hơn"], "label": "COM+"}
+{"subject": ["9-1&&Cả", "9-2&&hai", "9-3&&dòng", "9-4&&smartphone", "9-5&&cao", "9-6&&cấp"], "object": ["9-1&&Cả", "9-2&&hai", "9-3&&dòng", "9-4&&smartphone", "9-5&&cao", "9-6&&cấp"], "aspect": ["9-10&&kính", "9-11&&Gorilla", "9-12&&ở", "9-13&&cả", "9-14&&hai", "9-15&&mặt"], "predicate": ["9-7&&đều", "9-8&&sử", "9-9&&dụng"], "label": "EQL"}
+{"subject": ["11-6&&Snapdragon", "11-7&&888", "11-8&&/", "11-9&&Exynos", "11-10&&2100"], "object": ["11-19&&chipset", "11-20&&Apple", "11-21&&A14", "11-22&&Bionic"], "aspect": [], "predicate": ["11-23&&đều", "11-24&&được", "11-25&&xây", "11-26&&dựng", "11-27&&trên", "11-28&&quy", "11-29&&trình", "11-30&&sản", "11-31&&xuất", "11-32&&5nm"], "label": "EQL"}
+{"subject": ["12-13&&Snapdragon", "12-14&&888", "12-15&&SoC"], "object": ["12-6&&A14", "12-7&&Bionic"], "aspect": ["12-2&&AnTuTu", "12-3&&V8"], "predicate": ["12-16&&vượt", "12-17&&qua"], "label": "COM+"}
+{"subject": ["13-1&&Cả", "13-2&&hai", "13-3&&smartphone"], "object": ["13-1&&Cả", "13-2&&hai", "13-3&&smartphone"], "aspect": ["13-9&&bộ", "13-10&&nhớ"], "predicate": ["13-4&&đều", "13-5&&cung", "13-6&&cấp", "13-7&&cùng"], "label": "EQL"}
+{"subject": ["14-4&&Galaxy", "14-5&&S21", "14-6&&Ultra"], "object": [], "aspect": ["14-10&&RAM"], "predicate": ["14-9&&nhiều", "14-10&&RAM", "14-11&&hơn"], "label": "COM+"}
+{"subject": ["18-1&&Samsung", "18-2&&Galaxy", "18-3&&S21", "18-4&&Ultra"], "object": [], "aspect": ["18-6&&độ", "18-7&&phân", "18-8&&giải"], "predicate": ["18-24&&cao", "18-25&&hơn"], "label": "COM+"}
+{"subject": ["18-1&&Samsung", "18-2&&Galaxy", "18-3&&S21", "18-4&&Ultra"], "object": [], "aspect": ["18-10&&độ", "18-11&&sáng"], "predicate": ["18-24&&cao", "18-25&&hơn"], "label": "COM+"}
+{"subject": ["18-1&&Samsung", "18-2&&Galaxy", "18-3&&S21", "18-4&&Ultra"], "object": [], "aspect": ["18-13&&HDR"], "predicate": ["18-24&&cao", "18-25&&hơn"], "label": "COM+"}
+{"subject": ["18-1&&Samsung", "18-2&&Galaxy", "18-3&&S21", "18-4&&Ultra"], "object": [], "aspect": ["18-15&&mật", "18-16&&độ", "18-17&&điểm", "18-18&&ảnh"], "predicate": ["18-24&&cao", "18-25&&hơn"], "label": "COM+"}
+{"subject": ["18-1&&Samsung", "18-2&&Galaxy", "18-3&&S21", "18-4&&Ultra"], "object": [], "aspect": ["18-20&&tỷ", "18-21&&lệ", "18-22&&màn", "18-23&&hình"], "predicate": ["18-24&&cao", "18-25&&hơn"], "label": "COM+"}
+{"subject": ["19-33&&Galaxy", "19-34&&S21", "19-35&&Ultra"], "object": ["19-1&&iPhone", "19-2&&12", "19-3&&Pro", "19-4&&Max"], "aspect": ["19-28&&những", "19-29&&tối", "19-30&&ưu", "19-31&&hóa"], "predicate": ["19-36&&không", "19-37&&có"], "label": "DIF"}
+{"subject": ["21-6&&Samsung", "21-7&&Galaxy", "21-8&&S21", "21-9&&Ultra"], "object": [], "aspect": ["21-4&&pin"], "predicate": ["21-10&&giành", "21-11&&phần", "21-12&&thắng"], "label": "COM+"}
+{"subject": ["21-6&&Samsung", "21-7&&Galaxy", "21-8&&S21", "21-9&&Ultra"], "object": [], "aspect": ["21-14&&pin"], "predicate": ["21-17&&lớn", "21-18&&hơn"], "label": "COM+"}
+{"subject": ["21-6&&Samsung", "21-7&&Galaxy", "21-8&&S21", "21-9&&Ultra"], "object": [], "aspect": ["21-21&&hỗ", "21-22&&trợ", "21-23&&sạc"], "predicate": ["21-24&&nhanh", "21-25&&hơn"], "label": "COM+"}
+{"subject": ["24-9&&iPhone", "24-10&&12", "24-11&&Pro", "24-12&&Max"], "object": ["24-21&&Galaxy", "24-22&&S21", "24-23&&Ultra"], "aspect": ["24-5&&sạc", "24-6&&không", "24-7&&dây"], "predicate": ["24-14&&công", "24-15&&suất", "24-16&&20W", "24-17&&cao", "24-18&&hơn"], "label": "COM+"}
+{"subject": ["25-2&&Galaxy", "25-3&&S21", "25-4&&Ultra"], "object": ["25-13&&iPhone", "25-14&&12", "25-15&&Pro", "25-16&&Max"], "aspect": ["25-8&&sạc", "25-9&&không", "25-10&&dây", "25-11&&ngược"], "predicate": ["25-17&&không", "25-18&&có"], "label": "DIF"}
+{"subject": ["27-7&&cả", "27-8&&hai", "27-9&&smartphone"], "object": ["27-7&&cả", "27-8&&hai", "27-9&&smartphone"], "aspect": ["27-2&&khả", "27-3&&năng", "27-4&&nhiếp", "27-5&&ảnh"], "predicate": ["27-10&&đều", "27-11&&sử", "27-12&&dụng", "27-13&&cảm", "27-14&&biến", "27-15&&rộng", "27-16&&và", "27-17&&tele"], "label": "EQL"}
+{"subject": ["28-14&&Galaxy", "28-15&&S21", "28-16&&Ultra"], "object": ["28-3&&iPhone", "28-4&&12", "28-5&&Pro", "28-6&&Max"], "aspect": ["28-27&&khả", "28-28&&năng", "28-29&&zoom"], "predicate": ["28-30&&tốt", "28-31&&hơn"], "label": "COM+"}
+{"subject": ["30-1&&Cả", "30-2&&hai"], "object": ["30-1&&Cả", "30-2&&hai"], "aspect": ["30-6&&ổn", "30-7&&định", "30-8&&hình", "30-9&&ảnh", "30-10&&quang", "30-11&&học"], "predicate": ["30-3&&đều", "30-4&&hỗ", "30-5&&trợ"], "label": "EQL"}
+{"subject": ["31-4&&camera", "31-5&&selfie", "31-6&&trước", "31-7&&của", "31-8&&Apple"], "object": ["31-14&&Samsung"], "aspect": ["31-12&&gyro-EIS"], "predicate": ["31-15&&không", "31-16&&có"], "label": "DIF"}
+{"subject": ["35-1&&Cả", "35-2&&hai", "35-3&&thiết", "35-4&&bị"], "object": ["35-1&&Cả", "35-2&&hai", "35-3&&thiết", "35-4&&bị"], "aspect": ["35-8&&mức", "35-9&&giá"], "predicate": ["35-5&&đều", "35-6&&có", "35-7&&cùng"], "label": "EQL"}
+{"subject": ["35-14&&Galaxy", "35-15&&S21"], "object": [], "aspect": ["35-8&&mức", "35-9&&giá"], "predicate": ["35-16&&đắt", "35-17&&hơn", "35-18&&khoảng", "35-19&&$100"], "label": "COM+"}

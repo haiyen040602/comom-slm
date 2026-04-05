@@ -1,0 +1,74 @@
+1	title: So sánh Redmi Note 11 với Galaxy M32 5G và Realme 8 5G	title : So sánh Redmi Note 11 với Galaxy M32 5G và Realme 8 5G
+2	Thiết kế	Thiết kế
+3	alt: Redmi Note 11 và Redmi Note 11 Pro Plus	alt : Redmi Note 11 và Redmi Note 11 Pro Plus
+4	des: Redmi Note 11 và Redmi Note 11 Pro Plus	des : Redmi Note 11 và Redmi Note 11 Pro Plus
+5	Cá nhân mình nhận thấy,  Redmi Note 11  sở hữu thiết kế đẹp và ấn tượng nhất trong bộ ba  điện thoại  này.	Cá nhân mình nhận thấy , Redmi Note 11 sở hữu thiết kế đẹp và ấn tượng nhất trong bộ ba điện thoại này .
+6	Di động  Xiaomi  được trang bị màn hình đục lỗ hiện đại, bắt mắt ở mặt trước để chứa camera selfie nằm ở vị trí chính giữa viền trên.	Di động Xiaomi được trang bị màn hình đục lỗ hiện đại , bắt mắt ở mặt trước để chứa camera selfie nằm ở vị trí chính giữa viền trên .
+7	Trong khi đó,  Realme 8 5G  cũng sở hữu màn hình đục lỗ nhưng camera trước của nó nằm ở góc trên cùng bên trái nên không đẹp và đối xứng như Redmi Note 11.	Trong khi đó , Realme 8 5G cũng sở hữu màn hình đục lỗ nhưng camera trước của nó nằm ở góc trên cùng bên trái nên không đẹp và đối xứng như Redmi Note 11 .
+8	Còn Galaxy M32 5G sở hữu màn hình giọt nước kém hiện đại hơn.	Còn Galaxy M32 5G sở hữu màn hình giọt nước kém hiện đại hơn .
+9	alt: Galaxy M32 5G	alt : Galaxy M32 5G
+10	des: Galaxy M32 5G	des : Galaxy M32 5G
+11	Di chuyển sang mặt sau, cả ba điện thoại này đều sở hữu thân máy được hoàn thiện từ chất liệu nhựa, cụm camera sau khá lớn và mỗi thiết bị đều có điểm nhấn của riêng mình.	Di chuyển sang mặt sau , cả ba điện thoại này đều sở hữu thân máy được hoàn thiện từ chất liệu nhựa , cụm camera sau khá lớn và mỗi thiết bị đều có điểm nhấn của riêng mình .
+12	Trong đó, Redmi Note 11 đi kèm các hiệu ứng chuyển màu gradient bắt mắt, còn Realme 8 5G có hiệu ứng ánh sáng thú vị phát ra từ cụm camera sau.	Trong đó , Redmi Note 11 đi kèm các hiệu ứng chuyển màu gradient bắt mắt , còn Realme 8 5G có hiệu ứng ánh sáng thú vị phát ra từ cụm camera sau .
+13	Cuối cùng, Galaxy M32 5G có thiết kế phía sau rất đẹp với các cảm biến được đặt trực tiếp trong vỏ và không có mô-đun máy ảnh.	Cuối cùng , Galaxy M32 5G có thiết kế phía sau rất đẹp với các cảm biến được đặt trực tiếp trong vỏ và không có mô-đun máy ảnh .
+14	Màn hình	Màn hình
+15	alt: Màn hình IPS với tốc độ làm mới 90Hz trên realme 8 5G	alt : Màn hình IPS với tốc độ làm mới 90Hz trên realme 8 5G
+16	des: Màn hình IPS với tốc độ làm mới 90Hz trên realme 8 5G	des : Màn hình IPS với tốc độ làm mới 90Hz trên realme 8 5G
+17	Galaxy M32 5G có chất lượng màn hình kém hơn 2 mẫu máy còn lại.	Galaxy M32 5G có chất lượng màn hình kém hơn 2 mẫu máy còn lại .
+18	Điều này là do di động  Samsung  sử dụng màn hình TFT, trong khi Redmi Note 11 và Realme 8 5G đi kèm với tấm nền IPS tốt hơn.	Điều này là do di động Samsung sử dụng màn hình TFT , trong khi Redmi Note 11 và Realme 8 5G đi kèm với tấm nền IPS tốt hơn .
+19	Hơn nữa, màn hình di động Samsung có độ phân giải HD+ thấp hơn và tốc độ làm mới t60Hz tiêu chuẩn.	Hơn nữa , màn hình di động Samsung có độ phân giải HD + thấp hơn và tốc độ làm mới t60Hz tiêu chuẩn .
+20	Với Redmi Note 11 và Realme 8 5G, bạn sẽ có được độ phân giải Full-HD+ và tốc độ làm mới 90Hz cao hơn.	Với Redmi Note 11 và Realme 8 5G , bạn sẽ có được độ phân giải Full-HD + và tốc độ làm mới 90Hz cao hơn .
+21	Điện thoại Xiaomi có màn hình rộng hơn một chút với kích thước 6.6 inch, trong khi Realme 8 5G dừng ở con số 6.5 inch.	Điện thoại Xiaomi có màn hình rộng hơn một chút với kích thước 6.6 inch , trong khi Realme 8 5G dừng ở con số 6.5 inch .
+22	Phần cứng và phần mềm	Phần cứng và phần mềm
+23	alt: Bảng thông số kỹ thuật	alt : Bảng thông số kỹ thuật
+24	des: Bảng thông số kỹ thuật	des : Bảng thông số kỹ thuật
+25	Redmi Note 11 có bộ phận phần cứng tiên tiến nhất vì nó đi kèm với bộ vi xử lý mạnh hơn: Mediatek Dimensity 810 5G mới được xây dựng trên tiến trình 6nm với xung nhịp tối đa là 2.4 GHz. Con chip này được kết hợp với RAM lên đến 8GB và bộ nhớ trong tối đa 256GB.	Redmi Note 11 có bộ phận phần cứng tiên tiến nhất vì nó đi kèm với bộ vi xử lý mạnh hơn : Mediatek Dimensity 810 5G mới được xây dựng trên tiến trình 6nm với xung nhịp tối đa là 2.4 GHz . Con chip này được kết hợp với RAM lên đến 8GB và bộ nhớ trong tối đa 256GB .
+26	Mặt khác, hai điện thoại còn lại đều sử dụng chipset Mediatek Dimensity 700, nhưng hiệu năng của Realme 8 5G hứa hẹn nhỉnh hơn một chút so với Galaxy M32 5G vì nó sử dụng bộ nhớ trong chuẩn UFS 2.1 nhanh hơn.	Mặt khác , hai điện thoại còn lại đều sử dụng chipset Mediatek Dimensity 700 , nhưng hiệu năng của Realme 8 5G hứa hẹn nhỉnh hơn một chút so với Galaxy M32 5G vì nó sử dụng bộ nhớ trong chuẩn UFS 2.1 nhanh hơn .
+27	Về phần mềm, tất cả các điện thoại này đều chạy trên hệ điều hành Android 11 với giao diện tùy chỉnh riêng của mỗi hãng.	Về phần mềm , tất cả các điện thoại này đều chạy trên hệ điều hành Android 11 với giao diện tùy chỉnh riêng của mỗi hãng .
+28	Máy ảnh	Máy ảnh
+29	alt: Redmi Note 11 có 2 camera ở phía sau với camera chính 50MP	alt : Redmi Note 11 có 2 camera ở phía sau với camera chính 50MP
+30	des: Redmi Note 11 có 2 camera ở phía sau với camera chính 50MP	des : Redmi Note 11 có 2 camera ở phía sau với camera chính 50MP
+31	Trong ba smartphone này, Galaxy M32 5G có hệ thống máy ảnh linh hoạt nhất.	Trong ba smartphone này , Galaxy M32 5G có hệ thống máy ảnh linh hoạt nhất .
+32	Di động Samsung sở hữu hệ thống 4 camera sau, bao gồm cảm biến chính 48MP, ống kính góc siêu rộng 8MP,  camera macro  5MP và cảm biến độ sâu 2MP.	Di động Samsung sở hữu hệ thống 4 camera sau , bao gồm cảm biến chính 48MP , ống kính góc siêu rộng 8MP , camera macro 5MP và cảm biến độ sâu 2MP .
+33	Redmi Note 11 chỉ có hai camera ở phía sau, nhưng camera chính vượt trội hơn vì nó sử dụng cảm biến 50MP mới hơn mang lại chất lượng ảnh tốt hơn.	Redmi Note 11 chỉ có hai camera ở phía sau , nhưng camera chính vượt trội hơn vì nó sử dụng cảm biến 50MP mới hơn mang lại chất lượng ảnh tốt hơn .
+34	Realme 8 5G thua cuộc vì thiếu camera siêu rộng.	Realme 8 5G thua cuộc vì thiếu camera siêu rộng .
+35	Thời lượng pin	Thời lượng pin
+36	alt: Thiết kế siêu mỏng nhẹ, tinh tế trên realme 8 5G	alt : Thiết kế siêu mỏng nhẹ , tinh tế trên realme 8 5G
+37	des: Thiết kế siêu mỏng nhẹ, tinh tế trên realme 8 5G	des : Thiết kế siêu mỏng nhẹ , tinh tế trên realme 8 5G
+38	Cả ba smartphone này đều sở hữu viên pin có dung lượng khá tốt là 5,000 mAh. Nhưng Samsung Galaxy M32 5G sẽ cung cấp thời lượng pin lâu hơn vì nó đi kèm màn hình hỗ trợ độ phân giải và tốc độ làm mới thấp hơn.	Cả ba smartphone này đều sở hữu viên pin có dung lượng khá tốt là 5,000 mAh . Nhưng Samsung Galaxy M32 5G sẽ cung cấp thời lượng pin lâu hơn vì nó đi kèm màn hình hỗ trợ độ phân giải và tốc độ làm mới thấp hơn .
+39	Redmi Note 11 có sạc nhanh hơn (33W).	Redmi Note 11 có sạc nhanh hơn ( 33W ) .
+40	Tạm kết	Tạm kết
+41	Qua bài so sánh trên, có thể thấy Redmi Note 11 nổi bật và đáng mua hơn hai mẫu máy còn lại.	Qua bài so sánh trên , có thể thấy Redmi Note 11 nổi bật và đáng mua hơn hai mẫu máy còn lại .
+42	Điện thoại này sở hữu màn hình đục lỗ bắt mắt, trông hiện đại hơn, màn hình chất lượng, phần cứng mạnh mẽ, camera chính chất lượng và sạc nhanh hơn hai điện thoại còn lại.	Điện thoại này sở hữu màn hình đục lỗ bắt mắt , trông hiện đại hơn , màn hình chất lượng , phần cứng mạnh mẽ , camera chính chất lượng và sạc nhanh hơn hai điện thoại còn lại .
+43	Bạn có nghĩ vậy không?	Bạn có nghĩ vậy không ?
+44	Mẫu điện thoại kế nhiệm mới được ra mắt từ nhà Realme có tên là  Realme 10  đang được mở bán tại FPTShop, tham khảo để có thêm nhiều đánh giá, lựa chọn hơn cho bạn nhé!	Mẫu điện thoại kế nhiệm mới được ra mắt từ nhà Realme có tên là Realme 10 đang được mở bán tại FPTShop , tham khảo để có thêm nhiều đánh giá , lựa chọn hơn cho bạn nhé !
+{"subject": ["5-7&&Redmi", "5-8&&Note", "5-9&&11"], "object": [], "aspect": ["5-12&&thiết", "5-13&&kế"], "predicate": ["5-14&&đẹp", "5-15&&và", "5-16&&ấn", "5-17&&tượng", "5-18&&nhất", "5-19&&trong", "5-20&&bộ", "5-21&&ba", "5-22&&điện", "5-23&&thoại", "5-24&&này"], "label": "SUP+"}
+{"subject": ["7-5&&Realme", "7-6&&8", "7-7&&5G"], "object": ["7-34&&Redmi", "7-35&&Note", "7-36&&11"], "aspect": ["7-11&&màn", "7-12&&hình", "7-13&&đục", "7-14&&lỗ"], "predicate": ["7-8&&cũng", "7-9&&sở", "7-10&&hữu"], "label": "EQL"}
+{"subject": ["7-5&&Realme", "7-6&&8", "7-7&&5G"], "object": ["7-34&&Redmi", "7-35&&Note", "7-36&&11"], "aspect": ["7-16&&camera", "7-17&&trước"], "predicate": ["7-28&&không", "7-29&&đẹp", "7-30&&và", "7-31&&đối", "7-32&&xứng", "7-33&&như"], "label": "EQL"}
+{"subject": ["8-2&&Galaxy", "8-3&&M32", "8-4&&5G"], "object": [], "aspect": ["8-7&&màn", "8-8&&hình"], "predicate": ["8-11&&kém", "8-12&&hiện", "8-13&&đại", "8-14&&hơn"], "label": "COM-"}
+{"subject": ["17-1&&Galaxy", "17-2&&M32", "17-3&&5G"], "object": ["17-11&&2", "17-12&&mẫu", "17-13&&máy", "17-14&&còn", "17-15&&lại"], "aspect": ["17-5&&chất", "17-6&&lượng", "17-7&&màn", "17-8&&hình"], "predicate": ["17-9&&kém", "17-10&&hơn"], "label": "COM-"}
+{"subject": ["18-16&&Redmi", "18-17&&Note", "18-18&&11"], "object": ["18-7&&Samsung"], "aspect": ["18-26&&tấm", "18-27&&nền"], "predicate": ["18-29&&tốt", "18-30&&hơn"], "label": "COM+"}
+{"subject": ["18-20&&Realme", "18-21&&8", "18-22&&5G"], "object": ["18-7&&Samsung"], "aspect": ["18-26&&tấm", "18-27&&nền"], "predicate": ["18-29&&tốt", "18-30&&hơn"], "label": "COM+"}
+{"subject": ["19-4&&màn", "19-5&&hình", "19-6&&di", "19-7&&động", "19-8&&Samsung"], "object": ["20-2&&Redmi", "20-3&&Note", "20-4&&11"], "aspect": ["19-10&&độ", "19-11&&phân", "19-12&&giải"], "predicate": ["19-15&&thấp", "19-16&&hơn"], "label": "COM-"}
+{"subject": ["19-4&&màn", "19-5&&hình", "19-6&&di", "19-7&&động", "19-8&&Samsung"], "object": ["20-6&&Realme", "20-7&&8", "20-8&&5G"], "aspect": ["19-10&&độ", "19-11&&phân", "19-12&&giải"], "predicate": ["19-15&&thấp", "19-16&&hơn"], "label": "COM-"}
+{"subject": ["20-2&&Redmi", "20-3&&Note", "20-4&&11"], "object": ["19-4&&màn", "19-5&&hình", "19-6&&di", "19-7&&động", "19-8&&Samsung"], "aspect": ["20-20&&tốc", "20-21&&độ", "20-22&&làm", "20-23&&mới"], "predicate": ["20-25&&cao", "20-26&&hơn"], "label": "COM+"}
+{"subject": ["20-6&&Realme", "20-7&&8", "20-8&&5G"], "object": ["19-4&&màn", "19-5&&hình", "19-6&&di", "19-7&&động", "19-8&&Samsung"], "aspect": ["20-20&&tốc", "20-21&&độ", "20-22&&làm", "20-23&&mới"], "predicate": ["20-25&&cao", "20-26&&hơn"], "label": "COM+"}
+{"subject": ["21-1&&Điện", "21-2&&thoại", "21-3&&Xiaomi"], "object": ["21-19&&Realme", "21-20&&8"], "aspect": ["21-5&&màn", "21-6&&hình"], "predicate": ["21-7&&rộng", "21-8&&hơn", "21-9&&một", "21-10&&chút"], "label": "COM+"}
+{"subject": ["25-1&&Redmi", "25-2&&Note", "25-3&&11"], "object": [], "aspect": ["25-5&&bộ", "25-6&&phận", "25-7&&phần", "25-8&&cứng"], "predicate": ["25-9&&tiên", "25-10&&tiến", "25-11&&nhất"], "label": "SUP+"}
+{"subject": ["25-13&&nó"], "object": [], "aspect": ["25-17&&bộ", "25-18&&vi", "25-19&&xử", "25-20&&lý"], "predicate": ["25-21&&mạnh", "25-22&&hơn"], "label": "COM+"}
+{"subject": ["26-4&&hai", "26-5&&điện", "26-6&&thoại", "26-7&&còn", "26-8&&lại"], "object": ["26-4&&hai", "26-5&&điện", "26-6&&thoại", "26-7&&còn", "26-8&&lại"], "aspect": ["26-12&&chipset", "26-13&&Mediatek", "26-14&&Dimensity", "26-15&&700"], "predicate": ["26-9&&đều", "26-10&&sử", "26-11&&dụng"], "label": "EQL"}
+{"subject": ["26-21&&Realme", "26-22&&8", "26-23&&5G"], "object": ["26-32&&Galaxy", "26-33&&M32", "26-34&&5G"], "aspect": ["26-18&&hiệu", "26-19&&năng"], "predicate": ["26-26&&nhỉnh", "26-27&&hơn", "26-28&&một", "26-29&&chút"], "label": "COM+"}
+{"subject": ["26-21&&Realme", "26-22&&8", "26-23&&5G"], "object": ["26-32&&Galaxy", "26-33&&M32", "26-34&&5G"], "aspect": ["26-39&&bộ", "26-40&&nhớ", "26-41&&trong"], "predicate": ["26-45&&nhanh", "26-46&&hơn"], "label": "COM+"}
+{"subject": ["27-5&&tất", "27-6&&cả", "27-7&&các", "27-8&&điện", "27-9&&thoại", "27-10&&này"], "object": [], "aspect": ["27-2&&phần", "27-3&&mềm"], "predicate": ["27-11&&đều", "27-12&&chạy", "27-13&&trên", "27-14&&hệ", "27-15&&điều", "27-16&&hành", "27-17&&Android", "27-18&&11"], "label": "EQL"}
+{"subject": ["31-6&&Galaxy", "31-7&&M32", "31-8&&5G"], "object": [], "aspect": ["31-10&&hệ", "31-11&&thống", "31-12&&máy", "31-13&&ảnh"], "predicate": ["31-14&&linh", "31-15&&hoạt", "31-16&&nhất"], "label": "SUP+"}
+{"subject": ["33-13&&camera", "33-14&&chính"], "object": [], "aspect": [], "predicate": ["33-15&&vượt", "33-16&&trội", "33-17&&hơn"], "label": "COM+"}
+{"subject": ["33-13&&camera", "33-14&&chính"], "object": [], "aspect": ["33-29&&chất", "33-30&&lượng", "33-31&&ảnh"], "predicate": ["33-32&&tốt", "33-33&&hơn"], "label": "COM+"}
+{"subject": ["33-19&&nó"], "object": [], "aspect": ["33-22&&cảm", "33-23&&biến"], "predicate": ["33-25&&mới", "33-26&&hơn"], "label": "COM+"}
+{"subject": ["38-20&&Samsung", "38-21&&Galaxy", "38-22&&M32", "38-23&&5G"], "object": [], "aspect": ["38-27&&thời", "38-28&&lượng", "38-29&&pin"], "predicate": ["38-30&&lâu", "38-31&&hơn"], "label": "COM+"}
+{"subject": ["38-33&&nó"], "object": [], "aspect": ["38-40&&độ", "38-41&&phân", "38-42&&giải"], "predicate": ["38-48&&thấp", "38-49&&hơn"], "label": "COM-"}
+{"subject": ["38-33&&nó"], "object": [], "aspect": ["38-44&&tốc", "38-45&&độ", "38-46&&làm", "38-47&&mới"], "predicate": ["38-48&&thấp", "38-49&&hơn"], "label": "COM-"}
+{"subject": ["39-1&&Redmi", "39-2&&Note", "39-3&&11"], "object": [], "aspect": ["39-5&&sạc"], "predicate": ["39-6&&nhanh", "39-7&&hơn"], "label": "COM+"}
+{"subject": ["41-10&&Redmi", "41-11&&Note", "41-12&&11"], "object": ["41-19&&hai", "41-20&&mẫu", "41-21&&máy", "41-22&&còn", "41-23&&lại"], "aspect": [], "predicate": ["41-13&&nổi", "41-14&&bật"], "label": "COM+"}
+{"subject": ["41-10&&Redmi", "41-11&&Note", "41-12&&11"], "object": ["41-19&&hai", "41-20&&mẫu", "41-21&&máy", "41-22&&còn", "41-23&&lại"], "aspect": [], "predicate": ["41-16&&đáng", "41-17&&mua", "41-18&&hơn"], "label": "COM+"}
+{"subject": ["42-1&&Điện", "42-2&&thoại", "42-3&&này"], "object": ["42-36&&hai", "42-37&&điện", "42-38&&thoại", "42-39&&còn", "42-40&&lại"], "aspect": ["42-6&&màn", "42-7&&hình"], "predicate": ["42-14&&hiện", "42-15&&đại", "42-16&&hơn"], "label": "COM+"}
+{"subject": ["42-1&&Điện", "42-2&&thoại", "42-3&&này"], "object": ["42-36&&hai", "42-37&&điện", "42-38&&thoại", "42-39&&còn", "42-40&&lại"], "aspect": ["42-33&&sạc"], "predicate": ["42-34&&nhanh", "42-35&&hơn"], "label": "COM+"}

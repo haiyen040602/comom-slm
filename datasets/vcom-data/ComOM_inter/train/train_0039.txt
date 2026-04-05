@@ -1,0 +1,82 @@
+1	title: Camera nào sẽ chiến thắng: Vivo X90 Pro hay Galaxy S23 Ultra?	title : Camera nào sẽ chiến thắng : Vivo X90 Pro hay Galaxy S23 Ultra ?
+2	Có thể nói hai xu hướng trong việc chụp hình trên điện thoại vào năm 2023 là độ cảm biến và độ phân giải, ví dụ như các nhà sản xuất như Vivo đang đưa các cảm biến loại 1 inch vào điện thoại.	Có thể nói hai xu hướng trong việc chụp hình trên điện thoại vào năm 2023 là độ cảm biến và độ phân giải , ví dụ như các nhà sản xuất như Vivo đang đưa các cảm biến loại 1 inch vào điện thoại .
+3	Ở một góc độ khác, Samsung đang ép càng nhiều pixel càng tốt vào một cảm biến nhỏ hơn, đặt cược tính năng tạo pixel và xử lý đa khung hình để bù đắp cho sự thiếu hụt về hiệu suất.	Ở một góc độ khác , Samsung đang ép càng nhiều pixel càng tốt vào một cảm biến nhỏ hơn , đặt cược tính năng tạo pixel và xử lý đa khung hình để bù đắp cho sự thiếu hụt về hiệu suất .
+4	Vậy đâu là cách tiếp cận đúng?	Vậy đâu là cách tiếp cận đúng ?
+5	Cảm biến chỉ là một phần của câu chuyện	Cảm biến chỉ là một phần của câu chuyện
+6	Chúng ta sẽ tập trung vào camera chính của mỗi điện thoại.	Chúng ta sẽ tập trung vào camera chính của mỗi điện thoại .
+7	Đó là cảm biến loại 1/1,3 inch 200 megapixel cùng ống kính f/1.7 trên S23 Ultra và cảm biến loại 1 inch 50,3 megapixel và ống kính f/1.8 trên Vivo X90 Pro.	Đó là cảm biến loại 1 / 1,3 inch 200 megapixel cùng ống kính f / 1.7 trên S23 Ultra và cảm biến loại 1 inch 50,3 megapixel và ống kính f / 1.8 trên Vivo X90 Pro .
+8	Cả hai đều có tính năng ổn định hình ảnh quang học, nhưng chỉ có Vico mang thương hiệu Zeiss trên ống kính.	Cả hai đều có tính năng ổn định hình ảnh quang học , nhưng chỉ có Vico mang thương hiệu Zeiss trên ống kính .
+9	Các pixel trên cảm biến Sony IMX989 của X90 Pro lớn hơn về mặt vật lý và các pixel lớn hơn sẽ thu được nhiều ánh sáng hơn.	Các pixel trên cảm biến Sony IMX989 của X90 Pro lớn hơn về mặt vật lý và các pixel lớn hơn sẽ thu được nhiều ánh sáng hơn .
+10	Trong điều kiện thiếu sáng, cảm biến của S23 Ultra ghép 16 pixel 0,6μm để tạo ra các pixel 2,4μm lớn hơn.	Trong điều kiện thiếu sáng , cảm biến của S23 Ultra ghép 16 pixel 0,6μm để tạo ra các pixel 2,4μm lớn hơn .
+11	Còn Vivo X90 chứa 4 pixel 1,6μm để tạo ra các pixel 3,2μm.	Còn Vivo X90 chứa 4 pixel 1,6μm để tạo ra các pixel 3,2μm .
+12	Cả hai đều tạo ra hình ảnh 12 megapixel nhưng trường hợp của Vivo có phần nhỉnh hơn xíu với 12,5 megapixel.	Cả hai đều tạo ra hình ảnh 12 megapixel nhưng trường hợp của Vivo có phần nhỉnh hơn xíu với 12,5 megapixel .
+13	Vì vậy, Vivo X90 sẽ tạo ra các tệp hình ảnh RAW rõ hơn S23 Ultra trong điều kiện thiếu sáng.	Vì vậy , Vivo X90 sẽ tạo ra các tệp hình ảnh RAW rõ hơn S23 Ultra trong điều kiện thiếu sáng .
+14	Dưới đây là hình ảnh so sánh từ hai camera:	Dưới đây là hình ảnh so sánh từ hai camera :
+15	alt: Ảnh chụp từ Samsung S23 Ultra	alt : Ảnh chụp từ Samsung S23 Ultra
+16	des:	des :
+17	alt: Ảnh chụp từ Vivo X90 Pro	alt : Ảnh chụp từ Vivo X90 Pro
+18	des:	des :
+19	Đặt hai máy ảnh ở Chế độ ban đêm sẽ tạo ra nhiều sự khác biệt hơn thế.	Đặt hai máy ảnh ở Chế độ ban đêm sẽ tạo ra nhiều sự khác biệt hơn thế .
+20	Nếu bạn nhìn kỹ, vẫn còn một số nhiễu màu bám vào các vùng có chi tiết trong hình ảnh của S23 Ultra mà X90 Pro không thể nhìn thấy.	Nếu bạn nhìn kỹ , vẫn còn một số nhiễu màu bám vào các vùng có chi tiết trong hình ảnh của S23 Ultra mà X90 Pro không thể nhìn thấy .
+21	Mặc dù vậy, chế độ ban đêm của S23 Ultra vẫn hoàn toàn ổn định và tốt.	Mặc dù vậy , chế độ ban đêm của S23 Ultra vẫn hoàn toàn ổn định và tốt .
+22	Nhưng nếu đối tượng chụp di chuyển thì định dạng có cảm biến lớn hơn sẽ tạo ra sự khác biệt.	Nhưng nếu đối tượng chụp di chuyển thì định dạng có cảm biến lớn hơn sẽ tạo ra sự khác biệt .
+23	alt: Chế độ ban đêm của X90 Pro	alt : Chế độ ban đêm của X90 Pro
+24	des:	des :
+25	alt: Chế độ ban đêm của S23 Ultra	alt : Chế độ ban đêm của S23 Ultra
+26	des:	des :
+27	Tốc độ màn trập nhanh hơn sẽ dễ dàng giúp bạn có được bức ảnh sắc nét khi chụp một đối tượng đang chuyển động.	Tốc độ màn trập nhanh hơn sẽ dễ dàng giúp bạn có được bức ảnh sắc nét khi chụp một đối tượng đang chuyển động .
+28	Nhưng điều đó yêu cầu ISO cao hơn để tổng thể hình ảnh đủ sáng.	Nhưng điều đó yêu cầu ISO cao hơn để tổng thể hình ảnh đủ sáng .
+29	Đáng buồn thay, cả Vivo X90 Pro và S23 Ultra đều rất muốn duy trì ở tốc độ màn trập 1/120 giây, nhưng không đủ nhanh để theo kịp đối tượng chụp đang di chuyển.	Đáng buồn thay , cả Vivo X90 Pro và S23 Ultra đều rất muốn duy trì ở tốc độ màn trập 1 / 120 giây , nhưng không đủ nhanh để theo kịp đối tượng chụp đang di chuyển .
+30	Cùng chụp ở tốc độ màn trập 1/120 giây, hình ảnh từ S23 Ultra trông chi tiết và đẹp hơn hình ảnh của X90 Pro, ngay cả khi ISO X90 cao hơn.	Cùng chụp ở tốc độ màn trập 1 / 120 giây , hình ảnh từ S23 Ultra trông chi tiết và đẹp hơn hình ảnh của X90 Pro , ngay cả khi ISO X90 cao hơn .
+31	alt: Ảnh chụp từ Vivo	alt : Ảnh chụp từ Vivo
+32	des:	des :
+33	alt: Ảnh chụp từ Samsung	alt : Ảnh chụp từ Samsung
+34	des:	des :
+35	Nhưng chờ đã, chúng ta còn có ống kính!	Nhưng chờ đã , chúng ta còn có ống kính !
+36	Bên cạnh một cảm biến lớn, chúng ta cũng cần quan tâm đến ống kính đi kèm.	Bên cạnh một cảm biến lớn , chúng ta cũng cần quan tâm đến ống kính đi kèm .
+37	Đây cũng là một phần hỗ trợ trong điều kiện chụp thiếu sáng vì ống kính lớn hơn thường sẽ có khẩu độ lớn hơn.	Đây cũng là một phần hỗ trợ trong điều kiện chụp thiếu sáng vì ống kính lớn hơn thường sẽ có khẩu độ lớn hơn .
+38	Trên lý thuyết, S23 Ultra dường như có khẩu độ rộng hơn ở f/1.7.	Trên lý thuyết , S23 Ultra dường như có khẩu độ rộng hơn ở f / 1.7 .
+39	Đối với camera điện thoại, khẩu độ lớn hơn thường cho nhiều ảnh sáng hơn và kiểm soát độ sâu trường ảnh nhiều hơn.	Đối với camera điện thoại , khẩu độ lớn hơn thường cho nhiều ảnh sáng hơn và kiểm soát độ sâu trường ảnh nhiều hơn .
+40	Nhưng khẩu độ f/1.8 trên X90 thực sự lớn hơn đáng kể so với S23 Ultra vì tổng thể ống kính lớn hơn.	Nhưng khẩu độ f / 1.8 trên X90 thực sự lớn hơn đáng kể so với S23 Ultra vì tổng thể ống kính lớn hơn .
+41	alt: Ảnh từ ống kính X90 Pro	alt : Ảnh từ ống kính X90 Pro
+42	des:	des :
+43	alt: Ảnh từ ống kính của S23 Ultra	alt : Ảnh từ ống kính của S23 Ultra
+44	des:	des :
+45	Nếu bạn tính đến định dạng cảm biến và so sánh, thì khẩu độ f/1.7 của S23 Ultra hoạt động giống như ống kính full-frame f/6.5.	Nếu bạn tính đến định dạng cảm biến và so sánh , thì khẩu độ f / 1.7 của S23 Ultra hoạt động giống như ống kính full-frame f / 6.5 .
+46	Còn ống kính f/1.8 của X90 Pro tương đương với f/4.9 trên full-frame.	Còn ống kính f / 1.8 của X90 Pro tương đương với f / 4.9 trên full-frame .
+47	Khẩu độ lớn hơn là tin tốt cho X90 Pro, đông thời cũng là tin xấu mặc dù có huy hiệu Zeiss trên ống kính.	Khẩu độ lớn hơn là tin tốt cho X90 Pro , đông thời cũng là tin xấu mặc dù có huy hiệu Zeiss trên ống kính .
+48	Điều này khiến phần trung tâm sắc nét, nhưng chất lượng ngay bên ngoài trung tâm lại giảm rõ rệt.	Điều này khiến phần trung tâm sắc nét , nhưng chất lượng ngay bên ngoài trung tâm lại giảm rõ rệt .
+49	Các quầng sáng xung quanh các điểm sáng và vết nhoè xung quanh các vùng mất nét trông giống như ai đó đã thoa ít kem mờ lên ống kính.	Các quầng sáng xung quanh các điểm sáng và vết nhoè xung quanh các vùng mất nét trông giống như ai đó đã thoa ít kem mờ lên ống kính .
+50	alt: Ảnh từ ống kính X90 Pro	alt : Ảnh từ ống kính X90 Pro
+51	des:	des :
+52	alt: Ảnh từ ống kính S23 Ultra	alt : Ảnh từ ống kính S23 Ultra
+53	des:	des :
+54	Tạm kết	Tạm kết
+55	Định dạng cảm biến 1 inch xuất hiện ở nhiều dòng điện thoại thông minh là một tin vui cho người dùng.	Định dạng cảm biến 1 inch xuất hiện ở nhiều dòng điện thoại thông minh là một tin vui cho người dùng .
+56	Sẽ thật tuyệt khi có thể làm xoá nét một chút ở hậu cảnh mà không cần chuyển sang chế độ dọc.	Sẽ thật tuyệt khi có thể làm xoá nét một chút ở hậu cảnh mà không cần chuyển sang chế độ dọc .
+57	Và những tệp RAW đã nói lên sự thật: cảm biến lớn vẫn tốt hơn cho hiệu suất nhiễu trong điều kiện ánh sáng yếu.	Và những tệp RAW đã nói lên sự thật : cảm biến lớn vẫn tốt hơn cho hiệu suất nhiễu trong điều kiện ánh sáng yếu .
+58	Nhưng ở cuối mỗi quá trình chụp ảnh, người dùng chỉ quan trọng một điều là hình ảnh.	Nhưng ở cuối mỗi quá trình chụp ảnh , người dùng chỉ quan trọng một điều là hình ảnh .
+59	Về mặt kỹ thuật, X90 Pro có thể nhỉnh hơn, nhưng xét về tổng thể S23 Ultra lại làm tốt hơn.	Về mặt kỹ thuật , X90 Pro có thể nhỉnh hơn , nhưng xét về tổng thể S23 Ultra lại làm tốt hơn .
+60	Điều chỉnh sắc màu và HDR của Samsung hoạt động tốt hơn X90 Pro.	Điều chỉnh sắc màu và HDR của Samsung hoạt động tốt hơn X90 Pro .
+61	Các pixel bổ sung hoặc các kỹ thuật tính toán hiệu quả đều nghiêng về lợi thế của Samsung.	Các pixel bổ sung hoặc các kỹ thuật tính toán hiệu quả đều nghiêng về lợi thế của Samsung .
+62	Samsung và Vivo đều nhận thức rõ rằng máy ảnh không chỉ là cảm biến.	Samsung và Vivo đều nhận thức rõ rằng máy ảnh không chỉ là cảm biến .
+63	Và S23 Ultra dường như có tất cả các bộ phận tạo nên hệ thống hình ảnh đồng bộ hoá tốt hơn X90 Pro.	Và S23 Ultra dường như có tất cả các bộ phận tạo nên hệ thống hình ảnh đồng bộ hoá tốt hơn X90 Pro .
+{"subject": ["8-1&&Cả", "8-2&&hai"], "object": [], "aspect": ["8-5&&tính", "8-6&&năng", "8-7&&ổn", "8-8&&định", "8-9&&hình", "8-10&&ảnh", "8-11&&quang", "8-12&&học"], "predicate": ["8-3&&đều", "8-4&&có"], "label": "EQL"}
+{"subject": ["9-9&&X90", "9-10&&Pro"], "object": [], "aspect": ["9-1&&Các", "9-2&&pixel", "9-3&&trên", "9-4&&cảm", "9-5&&biến", "9-6&&Sony", "9-7&&IMX989"], "predicate": ["9-11&&lớn", "9-12&&hơn", "9-13&&về", "9-14&&mặt", "9-15&&vật", "9-16&&lý"], "label": "COM+"}
+{"subject": ["12-1&&Cả", "12-2&&hai"], "object": ["12-1&&Cả", "12-2&&hai"], "aspect": ["12-6&&hình", "12-7&&ảnh", "12-8&&12", "12-9&&megapixel"], "predicate": ["12-3&&đều", "12-4&&tạo", "12-5&&ra"], "label": "EQL"}
+{"subject": ["12-14&&Vivo"], "object": [], "aspect": [], "predicate": ["12-15&&có", "12-16&&phần", "12-17&&nhỉnh", "12-18&&hơn", "12-19&&xíu"], "label": "COM+"}
+{"subject": ["13-4&&Vivo", "13-5&&X90"], "object": ["13-16&&S23", "13-17&&Ultra"], "aspect": ["13-9&&các", "13-10&&tệp", "13-11&&hình", "13-12&&ảnh", "13-13&&RAW"], "predicate": ["13-14&&rõ", "13-15&&hơn"], "label": "COM+"}
+{"subject": ["19-2&&hai", "19-3&&máy", "19-4&&ảnh"], "object": ["19-2&&hai", "19-3&&máy", "19-4&&ảnh"], "aspect": ["19-6&&Chế", "19-7&&độ", "19-8&&ban", "19-9&&đêm"], "predicate": ["19-13&&nhiều", "19-14&&sự", "19-15&&khác", "19-16&&biệt", "19-17&&hơn", "19-18&&thế"], "label": "DIF"}
+{"subject": ["30-16&&S23", "30-17&&Ultra"], "object": ["30-27&&X90", "30-28&&Pro"], "aspect": ["30-13&&hình", "30-14&&ảnh"], "predicate": ["30-19&&chi", "30-20&&tiết", "30-21&&và", "30-22&&đẹp", "30-23&&hơn"], "label": "COM+"}
+{"subject": ["30-34&&X90"], "object": ["30-16&&S23", "30-17&&Ultra"], "aspect": ["30-33&&ISO"], "predicate": ["30-35&&cao", "30-36&&hơn"], "label": "COM+"}
+{"subject": ["38-5&&S23", "38-6&&Ultra"], "object": [], "aspect": ["38-10&&khẩu", "38-11&&độ"], "predicate": ["38-12&&rộng", "38-13&&hơn"], "label": "COM+"}
+{"subject": ["40-8&&X90"], "object": ["40-17&&S23", "40-18&&Ultra"], "aspect": ["40-2&&khẩu", "40-3&&độ"], "predicate": ["40-11&&lớn", "40-12&&hơn", "40-13&&đáng", "40-14&&kể"], "label": "COM+"}
+{"subject": ["40-8&&X90"], "object": ["40-17&&S23", "40-18&&Ultra"], "aspect": ["40-20&&tổng", "40-21&&thể", "40-22&&ống", "40-23&&kính"], "predicate": ["40-24&&lớn", "40-25&&hơn"], "label": "COM+"}
+{"subject": ["45-14&&khẩu", "45-15&&độ", "45-16&&f", "45-17&&/", "45-18&&1.7", "45-19&&của", "45-20&&S23", "45-21&&Ultra"], "object": ["45-26&&ống", "45-27&&kính", "45-28&&full-frame", "45-29&&f", "45-30&&/", "45-31&&6.5"], "aspect": [], "predicate": ["45-22&&hoạt", "45-23&&động", "45-24&&giống", "45-25&&như"], "label": "EQL"}
+{"subject": ["46-2&&ống", "46-3&&kính", "46-4&&f", "46-5&&/", "46-6&&1.8", "46-7&&của", "46-8&&X90", "46-9&&Pro"], "object": ["46-13&&f", "46-14&&/", "46-15&&4.9", "46-16&&trên", "46-17&&full-frame"], "aspect": [], "predicate": ["46-10&&tương", "46-11&&đương"], "label": "EQL"}
+{"subject": ["59-6&&X90", "59-7&&Pro"], "object": ["59-18&&S23", "59-19&&Ultra"], "aspect": ["59-1&&Về", "59-2&&mặt", "59-3&&kỹ", "59-4&&thuật"], "predicate": ["59-10&&nhỉnh", "59-11&&hơn"], "label": "COM+"}
+{"subject": ["59-18&&S23", "59-19&&Ultra"], "object": ["59-6&&X90", "59-7&&Pro"], "aspect": ["59-16&&tổng", "59-17&&thể"], "predicate": ["59-21&&làm", "59-22&&tốt", "59-23&&hơn"], "label": "COM+"}
+{"subject": ["60-8&&Samsung"], "object": ["60-13&&X90", "60-14&&Pro"], "aspect": ["60-1&&Điều", "60-2&&chỉnh", "60-3&&sắc", "60-4&&màu"], "predicate": ["60-9&&hoạt", "60-10&&động", "60-11&&tốt", "60-12&&hơn"], "label": "COM+"}
+{"subject": ["60-8&&Samsung"], "object": ["60-13&&X90", "60-14&&Pro"], "aspect": ["60-6&&HDR"], "predicate": ["60-9&&hoạt", "60-10&&động", "60-11&&tốt", "60-12&&hơn"], "label": "COM+"}
+{"subject": ["61-19&&Samsung"], "object": [], "aspect": ["61-1&&Các", "61-2&&pixel", "61-3&&bổ", "61-4&&sung"], "predicate": ["61-14&&nghiêng", "61-15&&về", "61-16&&lợi", "61-17&&thế"], "label": "COM+"}
+{"subject": ["61-19&&Samsung"], "object": [], "aspect": ["61-6&&các", "61-7&&kỹ", "61-8&&thuật", "61-9&&tính", "61-10&&toán", "61-11&&hiệu", "61-12&&quả"], "predicate": ["61-14&&nghiêng", "61-15&&về", "61-16&&lợi", "61-17&&thế"], "label": "COM+"}

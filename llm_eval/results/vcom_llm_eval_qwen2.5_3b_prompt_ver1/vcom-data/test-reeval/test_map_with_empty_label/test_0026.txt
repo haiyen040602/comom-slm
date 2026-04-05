@@ -1,0 +1,739 @@
+title: Đánh giá Samsung Galaxy A52: Smartphone tầm trung tốt nhất 2021	title : Đánh giá Samsung Galaxy A52 : Smartphone tầm trung tốt nhất 2021
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Năm 2020, Samsung đã gặt hái rất nhiều thành công từ những dòng điện thoại như Galaxy A50, A50s.	Năm 2020 , Samsung đã gặt hái rất nhiều thành công từ những dòng điện thoại như Galaxy A50 , A50s .
+{"subject": ["4&&Samsung"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Trong đó nổi bật nhất chính là Samsung Galaxy A51.	Trong đó nổi bật nhất chính là Samsung Galaxy A51 .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Và tiếp nối thành công đó, Samsung đã ra mắt sản phẩm mới tuyệt vời hơn cho năm 2021.	Và tiếp nối thành công đó , Samsung đã ra mắt sản phẩm mới tuyệt vời hơn cho năm 2021 .
+{"subject": ["8&&Samsung"], "object": ["12&&sản", "13&&phẩm", "14&&mới"], "aspect": [], "predicate": ["15&&tuyệt", "16&&vời", "17&&hơn"], "label": "COM+"}
+
+Đó chính là chiếc Samsung Galaxy A52 với nhiều điểm nổi bật so với các phiên bản tiền nhiệm đã nói ở trên.	Đó chính là chiếc Samsung Galaxy A52 với nhiều điểm nổi bật so với các phiên bản tiền nhiệm đã nói ở trên .
+{"subject": ["5&&Samsung", "6&&Galaxy", "7&&A52"], "object": ["15&&các", "16&&phiên", "17&&bản", "18&&tiền", "19&&nhiệm"], "aspect": ["10&&điểm", "11&&nổi", "12&&bật"], "predicate": ["8&&với", "9&&nhiều", "10&&điểm", "11&&nổi", "12&&bật"], "label": "COM+"}
+
+Và để biết nó tốt ở đâu mà khen nhiều như thế thì cùng mình đánh giá chi tiết về Galaxy A52 nhé.	Và để biết nó tốt ở đâu mà khen nhiều như thế thì cùng mình đánh giá chi tiết về Galaxy A52 nhé .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Come on!	Come on !
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Thông số kỹ thuật	Thông số kỹ thuật
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Đánh giá chi tiết điện thoại Samsung Galaxy A52	Đánh giá chi tiết điện thoại Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Thiết kế	Thiết kế
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Phong cách thiết kế của chiếc Galaxy A52 này thực sự độc đáo.	Phong cách thiết kế của chiếc Galaxy A52 này thực sự độc đáo .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Và điểm nổi bật của nó nằm ở mặt sau điện thoại.	Và điểm nổi bật của nó nằm ở mặt sau điện thoại .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Một khối camera liền mạch, cho thấy sự mới lạ của nó.	Một khối camera liền mạch , cho thấy sự mới lạ của nó .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Tiếp theo là hoàn thiện bằng nhựa ở mặt sau nhưng cảm giác như bạn đang cầm vào chất liệu da vinyl vậy.	Tiếp theo là hoàn thiện bằng nhựa ở mặt sau nhưng cảm giác như bạn đang cầm vào chất liệu da vinyl vậy .
+{"subject": ["7&&nhựa"], "object": ["22&&vinyl"], "aspect": ["12&&cảm", "13&&giác"], "predicate": ["14&&như", "23&&vậy"], "label": "COM+"}
+
+Mặt trước	Mặt trước
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Mặt trước là một màn hình Super AMOLED lớn, chiếm hầu hết mặt này.	Mặt trước là một màn hình Super AMOLED lớn , chiếm hầu hết mặt này .
+{"subject": ["14&&mặt", "2&&trước"], "object": ["14&&mặt", "15&&này"], "aspect": ["5&&màn", "6&&hình"], "predicate": ["11&&chiếm", "12&&hầu", "13&&hết"], "label": "COM+"}
+
+Các cạnh viền màn hình khá mỏng và ở giữa có một camera selfie đục lỗ cực nhỏ.	Các cạnh viền màn hình khá mỏng và ở giữa có một camera selfie đục lỗ cực nhỏ .
+{"subject": [], "object": [], "aspect": [], "predicate": ["17&&cực", "18&&nhỏ"], "label": "DIF"}
+
+Màn hình 6.5 inch rất phổ thông và phía trên có một dải loa khá mảnh.	Màn hình 6.5 inch rất phổ thông và phía trên có một dải loa khá mảnh .
+{"subject": [], "object": [], "aspect": [], "predicate": ["5&&rất", "6&&phổ", "7&&thông"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": [], "predicate": ["5&&rất", "6&&phổ", "7&&thông"], "label": "COM+"}
+
+Loa này vừa là loa thoại nhưng cũng là một phần của bộ loa âm thanh nổi nhé các bạn.	Loa này vừa là loa thoại nhưng cũng là một phần của bộ loa âm thanh nổi nhé các bạn .
+{"subject": ["5&&loa", "2&&này"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chất lượng âm thanh rất tốt.	Chất lượng âm thanh rất tốt .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Mặt trước Samsung Galaxy A52	Mặt trước Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Màn hình được bảo vệ bởi tấm kính cường lực Gorilla Glass 5 nha.	Màn hình được bảo vệ bởi tấm kính cường lực Gorilla Glass 5 nha .
+{"subject": [], "object": [], "aspect": [], "predicate": ["3&&được", "4&&bảo", "5&&vệ"], "label": "COM+"}
+
+Nói chung bảo vệ như này là khá tốt cho một điện thoại tầm trung.	Nói chung bảo vệ như này là khá tốt cho một điện thoại tầm trung .
+{"subject": ["3&&bảo", "4&&vệ"], "object": ["12&&điện", "13&&thoại", "14&&tầm", "15&&trung"], "aspect": [], "predicate": ["8&&khá", "9&&tốt"], "label": "COM+"}
+
+Hơn nữa điện thoại cũng có tiêu chuẩn chống nước IP67 nữa, nghĩa là điện thoại của bạn có thể ngâm ở độ sâu 1m nước trong 30 phút mà không vấn đề gì nha.	Hơn nữa điện thoại cũng có tiêu chuẩn chống nước IP67 nữa , nghĩa là điện thoại của bạn có thể ngâm ở độ sâu 1m nước trong 30 phút mà không vấn đề gì nha .
+{"subject": ["3&&điện", "4&&thoại"], "object": ["3&&điện", "4&&thoại"], "aspect": ["7&&tiêu", "8&&chuẩn", "9&&chống", "10&&nước"], "predicate": ["20&&có", "21&&thể", "22&&ngâm", "23&&ở", "24&&độ", "25&&sâu", "26&&1m", "27&&nước", "28&&trong", "29&&30", "30&&phút", "31&&mà", "32&&không", "33&&vấn", "34&&đề", "35&&gì"], "label": "COM+"}
+
+Mặt sau	Mặt sau
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Mặt sau nổi bật nhất với cụm camera của nó.	Mặt sau nổi bật nhất với cụm camera của nó .
+{"subject": [], "object": [], "aspect": ["7&&cụm", "8&&camera"], "predicate": ["3&&nổi", "4&&bật", "5&&nhất"], "label": "SUP+"}
+
+Không biết các bạn nghĩ như thế nào khi nhìn thấy cụm camera này.	Không biết các bạn nghĩ như thế nào khi nhìn thấy cụm camera này .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nhưng mình nhận thấy nó có nét gì đó từ tiền nhiệm  Galaxy A51 .	Nhưng mình nhận thấy nó có nét gì đó từ tiền nhiệm Galaxy A51 .
+{"subject": ["2&&mình"], "object": ["11&&tiền", "12&&nhiệm", "13&&Galaxy", "14&&A51"], "aspect": [], "predicate": ["6&&có", "7&&nét", "8&&gì", "9&&đó"], "label": "COM+"}
+
+Thêm một ít nhấn nhá lấy từ  Galaxy Note 20 .	Thêm một ít nhấn nhá lấy từ Galaxy Note 20 .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nhưng phải nói là nó đẹp!	Nhưng phải nói là nó đẹp !
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Samsung Galaxy A52	alt : Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Samsung Galaxy A52	des : Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Mặt sau Samsung Galaxy A52	Mặt sau Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Như mình nói nó hoàn thiện bằng nhựa, nhưng cảm giác cầm nắm ma sát rất tốt.	Như mình nói nó hoàn thiện bằng nhựa , nhưng cảm giác cầm nắm ma sát rất tốt .
+{"subject": ["4&&nó"], "object": [], "aspect": ["11&&cảm", "12&&giác", "13&&cầm", "14&&nắm"], "predicate": ["15&&ma", "16&&sát", "17&&rất", "18&&tốt"], "label": "SUP+"}
+
+Có 4 lựa chọn màu sắc cho bạn, đó là: trắng, đen, violet và màu xanh như hình trên đấy.	Có 4 lựa chọn màu sắc cho bạn , đó là : trắng , đen , violet và màu xanh như hình trên đấy .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Các cạnh còn lại	Các cạnh còn lại
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Khung máy cũng như mặt sau, được làm bằng nhựa và bạn dễ dàng nhận ra điều đó khi sờ vào cạnh bên trái.	Khung máy cũng như mặt sau , được làm bằng nhựa và bạn dễ dàng nhận ra điều đó khi sờ vào cạnh bên trái .
+{"subject": ["1&&Khung", "2&&máy"], "object": [], "aspect": [], "predicate": ["8&&được", "9&&làm", "10&&bằng", "11&&nhựa"], "label": "COM-"}
+{"subject": ["1&&Khung", "2&&máy"], "object": [], "aspect": [], "predicate": ["13&&bạn", "14&&dễ", "15&&dàng", "16&&nhận", "17&&ra", "18&&điều", "19&&đó", "20&&khi", "21&&sờ", "22&&vào", "23&&cạnh", "24&&bên", "25&&trái"], "label": "COM+"}
+
+Bởi vì ở đây không có nút bấm gì và nó liền mạch, cảm giác cầm nắm rất tốt.	Bởi vì ở đây không có nút bấm gì và nó liền mạch , cảm giác cầm nắm rất tốt .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Hai cạnh bên của Samsung Galaxy A52	Hai cạnh bên của Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Cạnh bên phải như thường lệ là nút nguồn cùng với phím âm lượng.	Cạnh bên phải như thường lệ là nút nguồn cùng với phím âm lượng .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nói chung các phím bấm này hoạt động rất tốt, độ nảy cao và nhạy bén.	Nói chung các phím bấm này hoạt động rất tốt , độ nảy cao và nhạy bén .
+{"subject": ["3&&các", "4&&phím", "5&&bấm", "6&&này"], "object": [], "aspect": [], "predicate": ["7&&hoạt", "8&&động", "9&&rất", "10&&tốt"], "label": "COM+"}
+
+Tất nhiên nó cũng làm bằng nhựa.	Tất nhiên nó cũng làm bằng nhựa .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Cạnh trên Samsung Galaxy A52	Cạnh trên Samsung Galaxy A52
+{"subject": ["1&&Cạnh", "2&&trên"], "object": ["3&&Samsung", "4&&Galaxy", "5&&A52"], "aspect": [], "predicate": [], "label": ""}
+
+Cạnh trên bạn có thể thấy một mic phụ ở đây cùng với đó là khay sim.	Cạnh trên bạn có thể thấy một mic phụ ở đây cùng với đó là khay sim .
+{"subject": ["8&&mic", "9&&phụ"], "object": ["16&&khay", "17&&sim"], "aspect": [], "predicate": [], "label": "DIF"}
+
+Khay sim này có vị trí cho 2 thẻ sim và nó cũng hỗ trợ thẻ nhớ.	Khay sim này có vị trí cho 2 thẻ sim và nó cũng hỗ trợ thẻ nhớ .
+{"subject": ["1&&Khay", "2&&sim", "3&&này"], "object": [], "aspect": ["5&&vị", "6&&trí"], "predicate": ["7&&cho", "8&&2", "9&&thẻ", "10&&sim"], "label": "EQL"}
+{"subject": ["1&&Khay", "2&&sim", "3&&này"], "object": [], "aspect": ["14&&hỗ", "15&&trợ"], "predicate": ["16&&thẻ", "17&&nhớ"], "label": "EQL"}
+
+Thế nhưng thẻ nhớ sẽ chia sẻ vị trí của sim 2, nghĩa là bạn sẽ phải lựa chọn giữa sử dụng 2 sim hoặc mở rộng bộ nhớ đấy.	Thế nhưng thẻ nhớ sẽ chia sẻ vị trí của sim 2 , nghĩa là bạn sẽ phải lựa chọn giữa sử dụng 2 sim hoặc mở rộng bộ nhớ đấy .
+{"subject": ["3&&thẻ", "4&&nhớ"], "object": ["11&&sim", "12&&2"], "aspect": ["8&&vị", "9&&trí"], "predicate": ["5&&sẽ", "6&&chia", "7&&sẻ"], "label": "COM-"}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Cạnh dưới Samsung Galaxy A52	Cạnh dưới Samsung Galaxy A52
+{"subject": ["1&&Cạnh", "2&&dưới"], "object": ["3&&Samsung", "4&&Galaxy", "5&&A52"], "aspect": [], "predicate": [], "label": ""}
+
+Cạnh dưới cũng có khá nhiều thứ ở đây.	Cạnh dưới cũng có khá nhiều thứ ở đây .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Trung tâm vẫn là khe cắm sạc và nó là sạc USB type C nha.	Trung tâm vẫn là khe cắm sạc và nó là sạc USB type C nha .
+{"subject": ["1&&Trung", "2&&tâm"], "object": [], "aspect": ["5&&khe", "6&&cắm", "7&&sạc"], "predicate": [], "label": "COM+"}
+
+Cạnh bên là micro chính và jack cắm tai nghe 3.5mm.	Cạnh bên là micro chính và jack cắm tai nghe 3.5mm .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Bên phía đối diện chính là loa ngoài nha, chất lượng âm thanh từ loa này khỏi chê =)	Bên phía đối diện chính là loa ngoài nha , chất lượng âm thanh từ loa này khỏi chê = )
+{"subject": [], "object": ["7&&loa", "8&&ngoài"], "aspect": ["11&&chất", "12&&lượng", "13&&âm", "14&&thanh"], "predicate": ["18&&khỏi", "19&&chê"], "label": "SUP+"}
+
+Màn hình	Màn hình
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Samsung Galaxy A52 năm nay có một sự nâng cấp đáng kể về màn hình và nổi bật nhất chính là tốc độ làm mới màn hình lên tới 90Hz. Đây là một trải nghiệm hoàn toàn khác biệt, mượt mà và không có hiện tượng đứng hình khi bạn chơi game nha.	Samsung Galaxy A52 năm nay có một sự nâng cấp đáng kể về màn hình và nổi bật nhất chính là tốc độ làm mới màn hình lên tới 90Hz . Đây là một trải nghiệm hoàn toàn khác biệt , mượt mà và không có hiện tượng đứng hình khi bạn chơi game nha .
+{"subject": ["1&&Samsung", "2&&Galaxy", "3&&A52"], "object": [], "aspect": ["14&&màn", "15&&hình"], "predicate": ["6&&có", "7&&một", "8&&sự", "9&&nâng", "10&&cấp", "11&&đáng", "12&&kể"], "label": "SUP+"}
+{"subject": ["1&&Samsung", "2&&Galaxy", "3&&A52"], "object": [], "aspect": ["22&&tốc", "23&&độ", "24&&làm", "25&&mới", "26&&màn", "27&&hình"], "predicate": ["28&&lên", "29&&tới", "30&&90Hz"], "label": "SUP+"}
+{"subject": ["1&&Samsung", "2&&Galaxy", "3&&A52"], "object": [], "aspect": ["47&&hiện", "48&&tượng", "49&&đứng", "50&&hình"], "predicate": ["45&&không", "46&&có"], "label": "COM-"}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Màn hình Samsung Galaxy A52	Màn hình Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Không chỉ như thế, độ sáng màn hình cũng được nâng cấp đáng kể.	Không chỉ như thế , độ sáng màn hình cũng được nâng cấp đáng kể .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Độ sáng màn hình ở ngoài trời có thể đạt tới 800 nits ở chế độ tự động đấy.	Độ sáng màn hình ở ngoài trời có thể đạt tới 800 nits ở chế độ tự động đấy .
+{"subject": ["16&&độ", "2&&sáng", "3&&màn", "4&&hình"], "object": [], "aspect": ["15&&chế", "16&&độ", "17&&tự", "18&&động"], "predicate": ["10&&đạt", "11&&tới", "12&&800", "13&&nits"], "label": "SUP+"}
+
+Như vậy bạn có thể thoải mái sử dụng điện thoại ngay cả dưới ánh nắng trực tiếp.	Như vậy bạn có thể thoải mái sử dụng điện thoại ngay cả dưới ánh nắng trực tiếp .
+{"subject": ["3&&bạn"], "object": [], "aspect": ["6&&thoải", "7&&mái"], "predicate": ["4&&có", "5&&thể"], "label": "COM+"}
+
+Cảm biến vân tay quang học cũng được tích hợp vào trong màn hình này.	Cảm biến vân tay quang học cũng được tích hợp vào trong màn hình này .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nó không nhanh như các Flagship nhưng tốc độ tạm ổn và phù hợp trong mức giá này.	Nó không nhanh như các Flagship nhưng tốc độ tạm ổn và phù hợp trong mức giá này .
+{"subject": [], "object": ["5&&các", "6&&Flagship"], "aspect": ["8&&tốc", "9&&độ"], "predicate": ["2&&không", "3&&nhanh", "4&&như"], "label": "COM-"}
+{"subject": [], "object": [], "aspect": ["8&&tốc", "9&&độ"], "predicate": ["10&&tạm", "11&&ổn"], "label": "COM+"}
+
+Đương nhiên mức độ bảo mật cao và đáng để bạn sử dụng.	Đương nhiên mức độ bảo mật cao và đáng để bạn sử dụng .
+{"subject": ["3&&mức", "4&&độ", "5&&bảo", "6&&mật"], "object": [], "aspect": ["3&&mức", "4&&độ"], "predicate": [], "label": "COM+"}
+
+Phần mềm	Phần mềm
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Để cạnh tranh tốt trên thị trường thì đến người không lồ Hàn Quốc cũng phải thay đổi và cải tiến.	Để cạnh tranh tốt trên thị trường thì đến người không lồ Hàn Quốc cũng phải thay đổi và cải tiến .
+{"subject": [], "object": ["10&&người", "11&&không", "12&&lồ", "13&&Hàn", "14&&Quốc"], "aspect": [], "predicate": ["16&&phải", "17&&thay", "18&&đổi", "19&&và", "20&&cải", "21&&tiến"], "label": "COM-"}
+
+Bởi thế năm 2021 này là một bước thay đổi lớn đối với điện thoại dòng A.	Bởi thế năm 2021 này là một bước thay đổi lớn đối với điện thoại dòng A .
+{"subject": ["3&&năm", "4&&2021"], "object": [], "aspect": [], "predicate": ["6&&là", "7&&một", "8&&bước", "9&&thay", "10&&đổi", "11&&lớn"], "label": "COM+"}
+
+Galaxy A52 cùng với người anh em của nó Galaxy A72 sẽ ra mắt với ONE UI 3.1 và chạy hệ điều hành mới nhất Android 11.	Galaxy A52 cùng với người anh em của nó Galaxy A72 sẽ ra mắt với ONE UI 3.1 và chạy hệ điều hành mới nhất Android 11 .
+{"subject": ["1&&Galaxy", "2&&A52"], "object": ["10&&Galaxy", "11&&A72"], "aspect": [], "predicate": ["12&&sẽ", "13&&ra", "14&&mắt"], "label": "COM+"}
+{"subject": ["1&&Galaxy", "2&&A52"], "object": ["10&&Galaxy", "11&&A72"], "aspect": ["21&&hệ", "22&&điều", "23&&hành"], "predicate": ["20&&chạy", "21&&hệ", "22&&điều", "23&&hành", "24&&mới", "25&&nhất", "26&&Android", "27&&11"], "label": "COM+"}
+
+Điều đáng nói là Samsung hứa hẹn bản cập nhật lớn miễn phí trong 3 năm và nhiều bản vá khác trong thời gian này.	Điều đáng nói là Samsung hứa hẹn bản cập nhật lớn miễn phí trong 3 năm và nhiều bản vá khác trong thời gian này .
+{"subject": ["5&&Samsung"], "object": [], "aspect": ["8&&bản", "9&&cập", "10&&nhật"], "predicate": ["6&&hứa", "7&&hẹn", "8&&bản", "9&&cập", "10&&nhật", "11&&lớn", "12&&miễn", "13&&phí"], "label": "SUP+"}
+{"subject": ["5&&Samsung"], "object": [], "aspect": ["19&&bản", "20&&vá"], "predicate": ["6&&hứa", "7&&hẹn", "18&&nhiều", "19&&bản", "20&&vá"], "label": "SUP+"}
+
+Điều đó có nghĩa là bạn sẽ có Android 14 vào năm 2023 mà không mất khoản phí nào nha.	Điều đó có nghĩa là bạn sẽ có Android 14 vào năm 2023 mà không mất khoản phí nào nha .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Giao diện người dùng mới One UI 3.1 không có quá nhiều thay đổi so với bản 3.0 hay thậm chí là 2.5 nhưng nó được tối ưu hóa tuyệt vời.	Giao diện người dùng mới One UI 3.1 không có quá nhiều thay đổi so với bản 3.0 hay thậm chí là 2.5 nhưng nó được tối ưu hóa tuyệt vời .
+{"subject": ["1&&Giao", "2&&diện", "3&&người", "4&&dùng", "5&&mới", "6&&One", "7&&UI", "8&&3.1"], "object": ["17&&bản", "18&&3.0"], "aspect": [], "predicate": ["9&&không", "10&&có", "11&&quá", "12&&nhiều", "13&&thay", "14&&đổi"], "label": "COM+"}
+{"subject": ["1&&Giao", "2&&diện", "3&&người", "4&&dùng", "5&&mới", "6&&One", "7&&UI", "8&&3.1"], "object": ["17&&bản", "23&&2.5"], "aspect": [], "predicate": ["9&&không", "10&&có", "11&&quá", "12&&nhiều", "13&&thay", "14&&đổi"], "label": "COM+"}
+{"subject": ["1&&Giao", "2&&diện", "3&&người", "4&&dùng", "5&&mới", "6&&One", "7&&UI", "8&&3.1"], "object": ["17&&bản", "18&&3.0"], "aspect": [], "predicate": ["26&&được", "27&&tối", "28&&ưu", "29&&hóa", "30&&tuyệt", "31&&vời"], "label": "SUP+"}
+
+Hiệu năng	Hiệu năng
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Samsung đang bắt đầu đi theo con đường “Hợp lý” cho những sản phẩm của mình.	Samsung đang bắt đầu đi theo con đường “ Hợp lý ” cho những sản phẩm của mình .
+{"subject": ["1&&Samsung"], "object": [], "aspect": [], "predicate": [], "label": "COM+"}
+
+Liệu sự lựa chọn Snapdragon 720G có phải là đúng đắn?	Liệu sự lựa chọn Snapdragon 720G có phải là đúng đắn ?
+{"subject": ["5&&Snapdragon", "6&&720G"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Tất nhiên chúng ta thấy được việc sử dụng chipset Qualcomm vẫn là ổn hơn một chút so với Exynos hay Media Tek của các phiên bản trước.	Tất nhiên chúng ta thấy được việc sử dụng chipset Qualcomm vẫn là ổn hơn một chút so với Exynos hay Media Tek của các phiên bản trước .
+{"subject": ["3&&chúng", "4&&ta"], "object": ["10&&chipset", "11&&Qualcomm"], "aspect": ["14&&ổn"], "predicate": ["12&&vẫn", "13&&là", "14&&ổn", "15&&hơn", "16&&một", "17&&chút"], "label": "COM+"}
+
+Điện thoại đi kèm với những lựa chọn RAM 4/6/8 GB và bộ nhớ trong 128/256 GB cho bạn thoải mái sử dụng.	Điện thoại đi kèm với những lựa chọn RAM 4 / 6 / 8 GB và bộ nhớ trong 128 / 256 GB cho bạn thoải mái sử dụng .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nó có cung cấp thêm vị trí thẻ nhớ để bạn mở rộng bộ nhớ nha.	Nó có cung cấp thêm vị trí thẻ nhớ để bạn mở rộng bộ nhớ nha .
+{"subject": [], "object": [], "aspect": ["6&&vị", "7&&trí", "8&&thẻ", "9&&nhớ"], "predicate": ["2&&có", "3&&cung", "4&&cấp", "5&&thêm"], "label": "COM+"}
+
+Tất nhiên nó phải chia sẻ vị trí của sim 2 và tối đa mở rộng lên đến 512 GB thôi.	Tất nhiên nó phải chia sẻ vị trí của sim 2 và tối đa mở rộng lên đến 512 GB thôi .
+{"subject": ["3&&nó"], "object": ["10&&sim", "11&&2"], "aspect": ["7&&vị", "8&&trí"], "predicate": ["5&&chia", "6&&sẻ"], "label": "COM-"}
+{"subject": ["3&&nó"], "object": ["19&&512", "20&&GB"], "aspect": [], "predicate": ["13&&tối", "14&&đa", "15&&mở", "16&&rộng", "17&&lên", "18&&đến"], "label": "SUP+"}
+
+Hiệu năng CPU	Hiệu năng CPU
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Hiệu năng CPU của Samsung Galaxy A52 chỉ ở tầm vừa phải trong phân khúc giá này thôi.	Hiệu năng CPU của Samsung Galaxy A52 chỉ ở tầm vừa phải trong phân khúc giá này thôi .
+{"subject": [], "object": ["5&&Samsung", "6&&Galaxy", "7&&A52"], "aspect": [], "predicate": ["8&&chỉ", "9&&ở", "10&&tầm", "11&&vừa", "12&&phải"], "label": "COM-"}
+
+Điều này cũng dễ hiểu khi Samsung chỉ dùng Snapdragon 720G thay vì các đối thủ sử dụng dòng cao hơn ở tầm trung này.	Điều này cũng dễ hiểu khi Samsung chỉ dùng Snapdragon 720G thay vì các đối thủ sử dụng dòng cao hơn ở tầm trung này .
+{"subject": ["7&&Samsung"], "object": ["14&&các", "15&&đối", "16&&thủ"], "aspect": ["19&&dòng"], "predicate": ["17&&sử", "18&&dụng", "19&&dòng", "20&&cao", "21&&hơn"], "label": "COM+"}
+
+Cũng dùng Snapdragon 720G nhưng Realme 7 Pro vẫn có điểm số cao hơn.	Cũng dùng Snapdragon 720G nhưng Realme 7 Pro vẫn có điểm số cao hơn .
+{"subject": ["6&&Realme", "7&&7", "8&&Pro"], "object": [], "aspect": ["11&&điểm", "12&&số"], "predicate": ["10&&có", "11&&điểm", "12&&số", "13&&cao", "14&&hơn"], "label": "COM+"}
+
+Chưa kể đến các đối thủ và cả ngay những dòng khác của Samsung lại sử dụng tới Snapdragon 750/765…	Chưa kể đến các đối thủ và cả ngay những dòng khác của Samsung lại sử dụng tới Snapdragon 750 / 765 …
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+GeekBench 5 (đa lõi)	GeekBench 5 ( đa lõi )
+{"subject": ["1&&GeekBench", "2&&5"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá Samsung Galaxy A52 10	alt : Đánh giá Samsung Galaxy A52 10
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52 10	des : Đánh giá Samsung Galaxy A52 10
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+GeekBench 5 (lõi đơn)	GeekBench 5 ( lõi đơn )
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá hiệu năng Samsung Galaxy A52	alt : Đánh giá hiệu năng Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá hiệu năng Samsung Galaxy A52	des : Đánh giá hiệu năng Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Hiệu năng GPU	Hiệu năng GPU
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+GPU không quá ấn tượng khi chỉ dùng bản Adreno 618.	GPU không quá ấn tượng khi chỉ dùng bản Adreno 618 .
+{"subject": ["1&&GPU"], "object": ["9&&bản", "10&&Adreno", "11&&618"], "aspect": [], "predicate": ["2&&không", "3&&quá", "4&&ấn", "5&&tượng"], "label": "COM-"}
+
+Khi so với các phiên bản tiền nhiệm thì đương nhiên nó vẫn mạnh mẽ hơn khá nhiều.	Khi so với các phiên bản tiền nhiệm thì đương nhiên nó vẫn mạnh mẽ hơn khá nhiều .
+{"subject": ["12&&nó"], "object": ["4&&các", "5&&phiên", "6&&bản", "7&&tiền", "8&&nhiệm"], "aspect": ["14&&mạnh", "15&&mẽ"], "predicate": ["13&&vẫn", "14&&mạnh", "15&&mẽ", "16&&hơn", "17&&khá", "18&&nhiều"], "label": "COM+"}
+
+Nhưng so với các đối thủ năm nay thì Adreno 618 không có nhiều điều đáng để kể.	Nhưng so với các đối thủ năm nay thì Adreno 618 không có nhiều điều đáng để kể .
+{"subject": ["10&&Adreno", "11&&618"], "object": ["4&&các", "5&&đối", "6&&thủ", "7&&năm", "8&&nay"], "aspect": [], "predicate": ["12&&không", "13&&có", "14&&nhiều", "15&&điều", "16&&đáng", "17&&để", "18&&kể"], "label": "COM-"}
+
+Vẫn là giữa bảng mà thôi!	Vẫn là giữa bảng mà thôi !
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+3DMark SSE ES 3.1 (offscreen 1440p)	3DMark SSE ES 3.1 ( offscreen 1440p )
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt:	alt :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+3DMark SSE Vulkan 1.0 (offscreen 1440p)	3DMark SSE Vulkan 1.0 ( offscreen 1440p )
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt:	alt :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Hiệu năng tổng thể	Hiệu năng tổng thể
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Những điểm đánh giá phía trên đang nói đến sự so sánh với các đối thủ cùng phân khúc mà thôi.	Những điểm đánh giá phía trên đang nói đến sự so sánh với các đối thủ cùng phân khúc mà thôi .
+{"subject": [], "object": ["14&&các", "15&&đối", "16&&thủ", "17&&cùng", "18&&phân", "19&&khúc"], "aspect": [], "predicate": ["7&&đang", "8&&nói", "9&&đến", "10&&sự", "11&&so", "12&&sánh", "13&&với"], "label": "COM+"}
+
+Khi nói tới khả năng của chiếc Galaxy A52 này thì nó vẫn rất OK nha.	Khi nói tới khả năng của chiếc Galaxy A52 này thì nó vẫn rất OK nha .
+{"subject": ["8&&Galaxy", "9&&A52"], "object": [], "aspect": ["4&&khả", "5&&năng"], "predicate": ["13&&vẫn", "14&&rất", "15&&OK"], "label": "EQL"}
+
+Nghĩa là Snapdragon 720G vẫn xử lý tốt mọi tác vụ hàng ngày của bạn.	Nghĩa là Snapdragon 720G vẫn xử lý tốt mọi tác vụ hàng ngày của bạn .
+{"subject": ["3&&Snapdragon", "4&&720G"], "object": [], "aspect": ["6&&xử", "7&&lý"], "predicate": ["8&&tốt"], "label": "COM+"}
+
+Kể cả chơi game vẫn vô tư đấy!	Kể cả chơi game vẫn vô tư đấy !
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+AnTuTu 8	AnTuTu 8
+{"subject": ["1&&AnTuTu"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Điểm chuẩn Samsung Galaxy A52	alt : Điểm chuẩn Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Điểm chuẩn Samsung Galaxy A52	des : Điểm chuẩn Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Khả năng chơi game	Khả năng chơi game
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nói về chơi game thì chiếc Galaxy A52 này hoàn toàn đáp ứng các bạn.	Nói về chơi game thì chiếc Galaxy A52 này hoàn toàn đáp ứng các bạn .
+{"subject": ["6&&chiếc", "7&&Galaxy", "8&&A52", "9&&này"], "object": ["14&&các", "15&&bạn"], "aspect": ["3&&chơi", "4&&game"], "predicate": ["10&&hoàn", "11&&toàn", "12&&đáp", "13&&ứng"], "label": "COM+"}
+
+Như nhiều bài đánh giá mình đã nói qua, chipset Snapdragon 8xx là quá thừa cho khả năng chơi game.	Như nhiều bài đánh giá mình đã nói qua , chipset Snapdragon 8xx là quá thừa cho khả năng chơi game .
+{"subject": ["11&&chipset", "12&&Snapdragon", "13&&8xx"], "object": ["18&&khả", "19&&năng", "20&&chơi", "21&&game"], "aspect": [], "predicate": ["14&&là", "15&&quá", "16&&thừa"], "label": "COM+"}
+
+Hơn nữa Snapdragon 720G đã được tối ưu hóa cho chơi game nên bạn hoàn toàn có thể yên tâm nha.	Hơn nữa Snapdragon 720G đã được tối ưu hóa cho chơi game nên bạn hoàn toàn có thể yên tâm nha .
+{"subject": ["3&&Snapdragon", "4&&720G"], "object": [], "aspect": [], "predicate": ["5&&đã", "6&&được", "7&&tối", "8&&ưu", "9&&hóa"], "label": "COM+"}
+
+Nhưng nói đi thì phải nói lại, có nhiều sản phẩm giá rẻ hơn nhưng vẫn trang bị chipset này với hiệu năng tương đương mà bạn có thể lựa chọn.	Nhưng nói đi thì phải nói lại , có nhiều sản phẩm giá rẻ hơn nhưng vẫn trang bị chipset này với hiệu năng tương đương mà bạn có thể lựa chọn .
+{"subject": ["10&&nhiều", "11&&sản", "12&&phẩm"], "object": ["11&&sản", "12&&phẩm"], "aspect": ["13&&giá"], "predicate": ["15&&hơn"], "label": "COM-"}
+{"subject": ["10&&nhiều", "11&&sản", "12&&phẩm"], "object": ["11&&sản", "12&&phẩm"], "aspect": ["23&&hiệu", "24&&năng"], "predicate": ["25&&tương", "26&&đương"], "label": "EQL"}
+
+Một trong số đó là Xiaomi Redmi K30 nha.	Một trong số đó là Xiaomi Redmi K30 nha .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Camera	Camera
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Thiết kế bộ tứ camera sau vẫn là điều gì đó quá quen thuộc với điện thoại phân khúc tầm trung này.	Thiết kế bộ tứ camera sau vẫn là điều gì đó quá quen thuộc với điện thoại phân khúc tầm trung này .
+{"subject": [], "object": ["3&&bộ", "4&&tứ", "5&&camera", "6&&sau"], "aspect": ["9&&điều", "10&&gì", "11&&đó"], "predicate": ["7&&vẫn", "8&&là", "9&&điều", "10&&gì", "11&&đó"], "label": "EQL"}
+
+Và Galaxy A52 cũng không nằm ngoài điều đó với bộ tứ camera của mình.	Và Galaxy A52 cũng không nằm ngoài điều đó với bộ tứ camera của mình .
+{"subject": ["2&&Galaxy", "3&&A52"], "object": [], "aspect": ["11&&bộ", "12&&tứ", "13&&camera"], "predicate": ["5&&không", "6&&nằm", "7&&ngoài", "8&&điều", "9&&đó"], "label": "COM+"}
+
+Nhưng điều đặc biệt chính là nó đã được đầu tư camera chính lên tới 64MP nổi bật hẳn.	Nhưng điều đặc biệt chính là nó đã được đầu tư camera chính lên tới 64MP nổi bật hẳn .
+{"subject": ["7&&nó"], "object": ["12&&camera", "13&&chính"], "aspect": [], "predicate": ["17&&nổi", "18&&bật", "19&&hẳn"], "label": "COM+"}
+
+alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Đi kèm với camera chính 64MP, nó còn được tăng thêm ổn định quang học OIS giúp bạn chụp hình nét hơn, không lo bị mờ do run tay nữa.	Đi kèm với camera chính 64MP , nó còn được tăng thêm ổn định quang học OIS giúp bạn chụp hình nét hơn , không lo bị mờ do run tay nữa .
+{"subject": ["8&&nó"], "object": ["4&&camera", "5&&chính"], "aspect": ["13&&ổn", "14&&định", "15&&quang", "16&&học", "17&&OIS"], "predicate": ["11&&tăng", "12&&thêm"], "label": "COM+"}
+{"subject": ["8&&nó"], "object": ["4&&camera", "5&&chính"], "aspect": ["20&&chụp", "21&&hình", "22&&nét"], "predicate": ["18&&giúp", "19&&bạn", "20&&chụp", "21&&hình", "22&&nét", "23&&hơn"], "label": "COM+"}
+
+Mình thấy có một tính năng rất là hay trong menu chụp ảnh chính là FUN MODE hay là chế độ vui vẻ.	Mình thấy có một tính năng rất là hay trong menu chụp ảnh chính là FUN MODE hay là chế độ vui vẻ .
+{"subject": [], "object": [], "aspect": ["5&&tính", "6&&năng"], "predicate": ["3&&có", "4&&một", "5&&tính", "6&&năng", "7&&rất", "8&&là", "9&&hay"], "label": "COM+"}
+
+Bạn sẽ có được những tấm ảnh hài hước, vui nhộn với những hiệu ứng hấp dẫn.	Bạn sẽ có được những tấm ảnh hài hước , vui nhộn với những hiệu ứng hấp dẫn .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Camera chính	Camera chính
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nhờ độ phân giải cao mà camera chính có thể làm rất tốt công việc của mình trong điều kiện ánh sáng ban ngày.	Nhờ độ phân giải cao mà camera chính có thể làm rất tốt công việc của mình trong điều kiện ánh sáng ban ngày .
+{"subject": ["7&&camera", "8&&chính"], "object": [], "aspect": ["14&&công", "15&&việc"], "predicate": ["9&&có", "10&&thể", "11&&làm", "12&&rất", "13&&tốt"], "label": "SUP+"}
+
+Dải động rộng hơn những máy ảnh tầm trung khác nhưng nó vẫn hơi thua kém so với điện thoại cao cấp hơn.	Dải động rộng hơn những máy ảnh tầm trung khác nhưng nó vẫn hơi thua kém so với điện thoại cao cấp hơn .
+{"subject": ["1&&Dải", "2&&động"], "object": ["5&&những", "6&&máy", "7&&ảnh", "8&&tầm", "9&&trung", "10&&khác"], "aspect": [], "predicate": ["3&&rộng", "4&&hơn"], "label": "COM+"}
+{"subject": ["1&&Dải", "2&&động"], "object": ["19&&điện", "20&&thoại", "21&&cao", "22&&cấp", "23&&hơn"], "aspect": [], "predicate": ["14&&hơi", "15&&thua", "16&&kém"], "label": "COM-"}
+
+Điều này là rõ ràng và có thể chấp nhận	Điều này là rõ ràng và có thể chấp nhận
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chi tiết đầy đủ, màu sắc sống động nhưng không bị quá mức, tuy nhiên độ nhiễu lại hơi cao một chút.	Chi tiết đầy đủ , màu sắc sống động nhưng không bị quá mức , tuy nhiên độ nhiễu lại hơi cao một chút .
+{"subject": ["6&&màu", "7&&sắc"], "object": ["6&&màu", "7&&sắc"], "aspect": ["8&&sống", "9&&động"], "predicate": ["11&&không", "12&&bị", "13&&quá", "14&&mức"], "label": "COM+"}
+
+Nói chung ảnh từ camera chính cho chất lượng cao và hoàn toàn sử dụng tốt.	Nói chung ảnh từ camera chính cho chất lượng cao và hoàn toàn sử dụng tốt .
+{"subject": ["3&&ảnh", "4&&từ", "5&&camera", "6&&chính"], "object": ["12&&hoàn", "13&&toàn"], "aspect": ["8&&chất", "9&&lượng"], "predicate": ["7&&cho", "8&&chất", "9&&lượng", "10&&cao"], "label": "COM+"}
+
+alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp đủ sáng từ camera chính	Ảnh chụp đủ sáng từ camera chính
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Tất nhiên bạn cũng có thể lựa chọn chế độ chụp 64MP thay vì QuartBayer.	Tất nhiên bạn cũng có thể lựa chọn chế độ chụp 64MP thay vì QuartBayer .
+{"subject": ["3&&bạn"], "object": [], "aspect": [], "predicate": ["7&&lựa", "8&&chọn", "9&&chế", "10&&độ", "11&&chụp", "12&&64MP", "13&&thay", "14&&vì"], "label": "DIF"}
+
+Bạn sẽ có nhiều chi tiết hơn nhưng đổi lại bạn sẽ có nhiều nhiễu hơn và tốn nhiều không gian lưu trữ hơn đấy.	Bạn sẽ có nhiều chi tiết hơn nhưng đổi lại bạn sẽ có nhiều nhiễu hơn và tốn nhiều không gian lưu trữ hơn đấy .
+{"subject": ["11&&bạn"], "object": ["11&&bạn"], "aspect": [], "predicate": ["2&&sẽ", "3&&có", "4&&nhiều", "7&&hơn"], "label": "COM+"}
+{"subject": ["11&&bạn"], "object": ["11&&bạn"], "aspect": [], "predicate": ["2&&sẽ", "3&&có", "4&&nhiều", "7&&hơn"], "label": "COM+"}
+{"subject": ["11&&bạn"], "object": ["11&&bạn"], "aspect": ["20&&không", "21&&gian", "22&&lưu", "23&&trữ"], "predicate": ["2&&sẽ", "3&&có", "4&&nhiều", "7&&hơn"], "label": "COM+"}
+
+Galaxy A52 không được trang bị camera tele, nhưng nó vẫn có được những tấm hình tele từ camera chính 64MP.	Galaxy A52 không được trang bị camera tele , nhưng nó vẫn có được những tấm hình tele từ camera chính 64MP .
+{"subject": ["1&&Galaxy", "2&&A52"], "object": ["7&&camera", "8&&tele"], "aspect": [], "predicate": ["3&&không", "4&&được", "5&&trang", "6&&bị"], "label": "COM-"}
+{"subject": ["1&&Galaxy", "2&&A52"], "object": ["20&&camera", "21&&chính", "22&&64MP"], "aspect": [], "predicate": ["12&&vẫn", "13&&có", "14&&được", "15&&những", "16&&tấm", "17&&hình", "18&&tele"], "label": "COM+"}
+
+Nó làm tốt việc cắt xén từ kết quả của camera chính và nâng cấp nó lên thành hình ảnh tele.	Nó làm tốt việc cắt xén từ kết quả của camera chính và nâng cấp nó lên thành hình ảnh tele .
+{"subject": ["16&&nó"], "object": ["11&&camera", "12&&chính"], "aspect": [], "predicate": ["2&&làm", "3&&tốt", "4&&việc"], "label": "COM+"}
+
+alt: Review camera Samsung Galaxy A52	alt : Review camera Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review camera Samsung Galaxy A52	des : Review camera Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp tele 4x từ camera chính	Ảnh chụp tele 4x từ camera chính
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Khả năng chụp thiếu sáng của Galaxy A52 là trên mức trung bình khi so sánh với những đối thủ trên thị trường.	Khả năng chụp thiếu sáng của Galaxy A52 là trên mức trung bình khi so sánh với những đối thủ trên thị trường .
+{"subject": ["1&&Khả", "2&&năng", "3&&chụp", "4&&thiếu", "5&&sáng"], "object": ["18&&những", "19&&đối", "20&&thủ", "21&&trên", "22&&thị", "23&&trường"], "aspect": [], "predicate": ["9&&là", "10&&trên", "11&&mức", "12&&trung", "13&&bình"], "label": "COM+"}
+
+Nó không so sánh được với những sản phẩm cao cấp nhưng với điện thoại tầm trung thì rất tốt.	Nó không so sánh được với những sản phẩm cao cấp nhưng với điện thoại tầm trung thì rất tốt .
+{"subject": [], "object": ["7&&những", "8&&sản", "9&&phẩm", "10&&cao", "11&&cấp"], "aspect": [], "predicate": ["2&&không", "3&&so", "4&&sánh", "5&&được"], "label": "COM-"}
+{"subject": [], "object": ["14&&điện", "15&&thoại", "16&&tầm", "17&&trung"], "aspect": [], "predicate": ["19&&rất", "20&&tốt"], "label": "COM+"}
+
+Ảnh chụp ban đêm từ camera chính vẫn duy trì chi tiết rất tốt.	Ảnh chụp ban đêm từ camera chính vẫn duy trì chi tiết rất tốt .
+{"subject": [], "object": ["6&&camera", "7&&chính"], "aspect": ["11&&chi", "12&&tiết"], "predicate": ["8&&vẫn", "9&&duy", "10&&trì"], "label": "EQL"}
+
+Tất nhiên độ nhiễu cũng vẫn khá nhiều giống như điều kiện ban ngày mình đã nói ở trên.	Tất nhiên độ nhiễu cũng vẫn khá nhiều giống như điều kiện ban ngày mình đã nói ở trên .
+{"subject": ["3&&độ", "4&&nhiễu"], "object": ["11&&điều", "12&&kiện", "13&&ban", "14&&ngày"], "aspect": ["3&&độ", "4&&nhiễu"], "predicate": ["6&&vẫn", "7&&khá", "8&&nhiều"], "label": "COM+"}
+
+Tuy nhiên màu sắc tương đối tốt và dải động rộng.	Tuy nhiên màu sắc tương đối tốt và dải động rộng .
+{"subject": [], "object": [], "aspect": ["3&&màu", "4&&sắc"], "predicate": ["5&&tương", "6&&đối", "7&&tốt"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": ["9&&dải", "10&&động"], "predicate": ["11&&rộng"], "label": "COM+"}
+
+alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp thiếu sáng chế độ ban đêm	Ảnh chụp thiếu sáng chế độ ban đêm
+{"subject": [], "object": ["5&&chế", "6&&độ", "7&&ban", "8&&đêm"], "aspect": ["3&&thiếu", "4&&sáng"], "predicate": ["3&&thiếu", "4&&sáng", "5&&chế", "6&&độ", "7&&ban", "8&&đêm"], "label": "COM-"}
+
+Chế độ ban đêm ở camera chính sẽ cho bạn hình ảnh 12MP thay vì 16MP như hình ảnh ban ngày.	Chế độ ban đêm ở camera chính sẽ cho bạn hình ảnh 12MP thay vì 16MP như hình ảnh ban ngày .
+{"subject": [], "object": ["18&&hình", "19&&ảnh", "20&&ban", "21&&ngày"], "aspect": [], "predicate": ["9&&cho", "10&&bạn", "11&&hình", "12&&ảnh", "13&&12MP", "14&&thay", "15&&vì", "16&&16MP"], "label": "COM-"}
+
+Nói chung nó làm tốt nhiệm vụ của mình, khôi phục nhiều chi tiết bị mất nhưng vùng tối không được cải thiện nhiều.	Nói chung nó làm tốt nhiệm vụ của mình , khôi phục nhiều chi tiết bị mất nhưng vùng tối không được cải thiện nhiều .
+{"subject": ["3&&nó"], "object": ["19&&vùng", "20&&tối"], "aspect": ["23&&cải", "24&&thiện"], "predicate": ["21&&không", "22&&được", "23&&cải", "24&&thiện", "25&&nhiều"], "label": "COM-"}
+
+Bạn cũng có thể chụp ảnh tele từ camera chính ở chế độ ban đêm.	Bạn cũng có thể chụp ảnh tele từ camera chính ở chế độ ban đêm .
+{"subject": [], "object": [], "aspect": [], "predicate": ["3&&có", "4&&thể"], "label": "EQL"}
+
+Nhưng chất lượng hình ảnh không thể như ban ngày và chỉ có zoom 2x là có thể sử dụng được hình ảnh.	Nhưng chất lượng hình ảnh không thể như ban ngày và chỉ có zoom 2x là có thể sử dụng được hình ảnh .
+{"subject": ["2&&chất", "3&&lượng", "4&&hình", "5&&ảnh"], "object": ["9&&ban", "10&&ngày"], "aspect": ["2&&chất", "3&&lượng", "4&&hình", "5&&ảnh"], "predicate": ["6&&không", "7&&thể", "8&&như"], "label": "COM-"}
+
+Camera góc rộng	Camera góc rộng
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Camera Ultrawide làm rất tốt công việc của mình.	Camera Ultrawide làm rất tốt công việc của mình .
+{"subject": ["1&&Camera", "2&&Ultrawide"], "object": [], "aspect": ["6&&công", "7&&việc"], "predicate": ["3&&làm", "4&&rất", "5&&tốt"], "label": "SUP+"}
+
+Đặc biệt là góc chụp rộng tới 123 độ.	Đặc biệt là góc chụp rộng tới 123 độ .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nó giúp bạn có những khung hình rộng hơn rất nhiều.	Nó giúp bạn có những khung hình rộng hơn rất nhiều .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Tất nhiên nó vẫn có những vị trí mềm mại ở các góc cạnh của khung hình.	Tất nhiên nó vẫn có những vị trí mềm mại ở các góc cạnh của khung hình .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Màu sắc tổng thể có vẻ nghiêng lạnh hơn một chút so với camera chính.	Màu sắc tổng thể có vẻ nghiêng lạnh hơn một chút so với camera chính .
+{"subject": [], "object": ["14&&camera", "15&&chính"], "aspect": [], "predicate": ["5&&có", "6&&vẻ", "7&&nghiêng", "8&&lạnh", "9&&hơn"], "label": "COM+"}
+
+alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp góc siêu rộng	Ảnh chụp góc siêu rộng
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chụp thiếu sáng từ camera góc siêu rộng vẫn có gì đó không thể bằng camera chính, đây là điều dễ hiểu.	Chụp thiếu sáng từ camera góc siêu rộng vẫn có gì đó không thể bằng camera chính , đây là điều dễ hiểu .
+{"subject": [], "object": ["16&&camera", "17&&chính"], "aspect": [], "predicate": ["13&&không", "14&&thể", "15&&bằng"], "label": "COM-"}
+
+Thế nhưng có sự tham gia của chế độ ban đêm lại hoàn toàn khác nha.	Thế nhưng có sự tham gia của chế độ ban đêm lại hoàn toàn khác nha .
+{"subject": [], "object": ["4&&sự", "5&&tham", "6&&gia", "7&&của", "8&&chế", "9&&độ", "10&&ban", "11&&đêm"], "aspect": [], "predicate": ["13&&hoàn", "14&&toàn", "15&&khác"], "label": "COM-"}
+
+Nếu bạn chọn được khung cảnh có ánh sáng đồng đều thì Samsung Galaxy A52 sẽ tạo ra được những tấm ảnh có chi tiết tốt, màu sắc bão hòa và dải động rộng.	Nếu bạn chọn được khung cảnh có ánh sáng đồng đều thì Samsung Galaxy A52 sẽ tạo ra được những tấm ảnh có chi tiết tốt , màu sắc bão hòa và dải động rộng .
+{"subject": ["13&&Samsung", "14&&Galaxy", "15&&A52"], "object": [], "aspect": ["24&&chi", "25&&tiết"], "predicate": [], "label": "COM+"}
+{"subject": ["13&&Samsung", "14&&Galaxy", "15&&A52"], "object": [], "aspect": ["28&&màu", "29&&sắc"], "predicate": [], "label": "COM+"}
+{"subject": ["13&&Samsung", "14&&Galaxy", "15&&A52"], "object": [], "aspect": ["33&&dải", "34&&động"], "predicate": [], "label": "COM+"}
+
+alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp góc siêu rộng với chế độ ban đêm	Ảnh chụp góc siêu rộng với chế độ ban đêm
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Camera macro	Camera macro
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Bạn nhận được camera macro 5MP và nó hoạt động rất ấn tượng ở tầm giá này.	Bạn nhận được camera macro 5MP và nó hoạt động rất ấn tượng ở tầm giá này .
+{"subject": [], "object": [], "aspect": ["4&&camera", "5&&macro", "6&&5MP"], "predicate": ["9&&hoạt", "10&&động", "11&&rất", "12&&ấn", "13&&tượng"], "label": "SUP+"}
+
+Trong khi các đối thủ đang loay hay với camera 2MP thì chất lượng của 5MP vẫn là một sự khác biệt.	Trong khi các đối thủ đang loay hay với camera 2MP thì chất lượng của 5MP vẫn là một sự khác biệt .
+{"subject": ["3&&các", "4&&đối", "5&&thủ"], "object": ["16&&5MP"], "aspect": ["13&&chất", "14&&lượng"], "predicate": ["18&&là", "19&&một", "20&&sự", "21&&khác", "22&&biệt"], "label": "COM+"}
+
+alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp từ camera macro	Ảnh chụp từ camera macro
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Bạn sẽ không cần phải tới quá gần vật thể để chụp, hơn nữa vùng lấy nét của nó cũng rộng hơn nhiều so với camera 2MP từ các đối thủ.	Bạn sẽ không cần phải tới quá gần vật thể để chụp , hơn nữa vùng lấy nét của nó cũng rộng hơn nhiều so với camera 2MP từ các đối thủ .
+{"subject": [], "object": [], "aspect": ["5&&phải", "6&&tới"], "predicate": ["3&&không", "4&&cần", "5&&phải", "6&&tới"], "label": "COM+"}
+{"subject": ["16&&vùng", "17&&lấy", "18&&nét"], "object": [], "aspect": ["22&&rộng"], "predicate": ["23&&hơn", "24&&nhiều"], "label": "COM+"}
+
+Chất lượng hình ảnh vẫn là tuyệt vời, mức độ chi tiết cao và màu sắc đẹp.	Chất lượng hình ảnh vẫn là tuyệt vời , mức độ chi tiết cao và màu sắc đẹp .
+{"subject": [], "object": [], "aspect": ["10&&mức", "11&&độ", "12&&chi", "13&&tiết"], "predicate": [], "label": "COM+"}
+{"subject": [], "object": [], "aspect": ["16&&màu", "17&&sắc"], "predicate": [], "label": "COM+"}
+
+Chân dung	Chân dung
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Với sự hỗ trợ từ cảm biến chiều sâu 5MP thì khả năng phát hiện chủ thể và tách khỏi background là khá tốt.	Với sự hỗ trợ từ cảm biến chiều sâu 5MP thì khả năng phát hiện chủ thể và tách khỏi background là khá tốt .
+{"subject": ["12&&khả", "13&&năng", "14&&phát", "15&&hiện", "16&&chủ", "17&&thể", "18&&và", "19&&tách", "20&&khỏi", "21&&background"], "object": [], "aspect": [], "predicate": ["22&&là", "23&&khá", "24&&tốt"], "label": "COM+"}
+
+Tất nhiên, ở những tấm hình có background phức tạp hoặc tóc rối thì vẫn bị xóa nhầm.	Tất nhiên , ở những tấm hình có background phức tạp hoặc tóc rối thì vẫn bị xóa nhầm .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nói chung chất lượng hình ảnh là tốt nhưng không có gì quá nổi bật.	Nói chung chất lượng hình ảnh là tốt nhưng không có gì quá nổi bật .
+{"subject": ["3&&chất", "4&&lượng", "5&&hình", "6&&ảnh"], "object": [], "aspect": [], "predicate": ["7&&là", "8&&tốt"], "label": "COM+"}
+{"subject": ["3&&chất", "4&&lượng", "5&&hình", "6&&ảnh"], "object": [], "aspect": [], "predicate": ["10&&không", "11&&có", "12&&gì", "13&&quá", "14&&nổi", "15&&bật"], "label": "COM+"}
+
+alt: Review Samsung Galaxy A52	alt : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Review Samsung Galaxy A52	des : Review Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp chân dung từ Galaxy A52	Ảnh chụp chân dung từ Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Camera trước	Camera trước
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chất lượng hình ảnh Selfie nói chung là ổn, nó có nhiều chi tiết hơn và khử nhiễu tốt.	Chất lượng hình ảnh Selfie nói chung là ổn , nó có nhiều chi tiết hơn và khử nhiễu tốt .
+{"subject": [], "object": [], "aspect": [], "predicate": ["9&&ổn"], "label": "COM+"}
+
+Với camera 32MP thì bạn có thể chụp ảnh với mặc định 8Mp hoặc 12MP.	Với camera 32MP thì bạn có thể chụp ảnh với mặc định 8Mp hoặc 12MP .
+{"subject": ["2&&camera", "3&&32MP"], "object": [], "aspect": [], "predicate": [], "label": "DIF"}
+
+Với các chế độ này, bạn sẽ có sự hỗ trợ HDR tự động và trình tối ưu hóa cảnh.	Với các chế độ này , bạn sẽ có sự hỗ trợ HDR tự động và trình tối ưu hóa cảnh .
+{"subject": ["7&&bạn"], "object": [], "aspect": ["10&&sự", "11&&hỗ", "12&&trợ", "13&&HDR", "14&&tự", "15&&động"], "predicate": ["9&&có"], "label": "EQL"}
+{"subject": ["7&&bạn"], "object": [], "aspect": ["17&&trình", "18&&tối", "19&&ưu", "20&&hóa", "21&&cảnh"], "predicate": ["9&&có"], "label": "EQL"}
+
+Nhưng nếu muốn thì bạn cũng có thể chụp ở chế độ 32MP, bạn sẽ có thêm nhiều chi tiết hơn.	Nhưng nếu muốn thì bạn cũng có thể chụp ở chế độ 32MP , bạn sẽ có thêm nhiều chi tiết hơn .
+{"subject": ["5&&bạn"], "object": ["5&&bạn"], "aspect": ["20&&chi", "21&&tiết"], "predicate": ["16&&sẽ", "17&&có", "18&&thêm", "19&&nhiều"], "label": "COM+"}
+
+Nhưng ngược lại bạn sẽ không có sự hỗ trợ của HDR và tối ưu hóa cảnh.	Nhưng ngược lại bạn sẽ không có sự hỗ trợ của HDR và tối ưu hóa cảnh .
+{"subject": ["4&&bạn"], "object": ["12&&HDR", "13&&và", "14&&tối", "15&&ưu", "16&&hóa", "17&&cảnh"], "aspect": ["8&&sự", "9&&hỗ", "10&&trợ"], "predicate": ["6&&không", "7&&có"], "label": "COM-"}
+
+Thêm vào đó là bạn phải tự điều chỉnh để cân bằng ánh sáng	Thêm vào đó là bạn phải tự điều chỉnh để cân bằng ánh sáng
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Samsung Galaxy A52	alt : Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Samsung Galaxy A52	des : Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ảnh chụp selfie từ Samsung Galaxy A52	Ảnh chụp selfie từ Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Bạn sẽ có tự động làm đẹp khi chụp ảnh selfie.	Bạn sẽ có tự động làm đẹp khi chụp ảnh selfie .
+{"subject": [], "object": [], "aspect": ["4&&tự", "5&&động", "6&&làm", "7&&đẹp"], "predicate": ["3&&có"], "label": "COM+"}
+
+Cũng có thể chụp ảnh chân dung nhờ sự hỗ trợ xóa phông AI.	Cũng có thể chụp ảnh chân dung nhờ sự hỗ trợ xóa phông AI .
+{"subject": [], "object": ["4&&chụp", "5&&ảnh", "6&&chân", "7&&dung"], "aspect": ["9&&sự", "10&&hỗ", "11&&trợ"], "predicate": ["8&&nhờ", "12&&xóa", "13&&phông", "14&&AI"], "label": "COM+"}
+
+Hơn nữa bạn còn có thêm những bộ lọc Fun Mode để có những bức ảnh đáng yêu và sáng tạo	Hơn nữa bạn còn có thêm những bộ lọc Fun Mode để có những bức ảnh đáng yêu và sáng tạo
+{"subject": ["3&&bạn"], "object": [], "aspect": ["8&&bộ", "9&&lọc"], "predicate": ["5&&có", "6&&thêm"], "label": "COM+"}
+
+Quay video	Quay video
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Tuổi thọ pin	Tuổi thọ pin
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Samsung Galaxy A52 chỉ trang bị viên pin 4.500 mAh mà thôi.	Samsung Galaxy A52 chỉ trang bị viên pin 4.500 mAh mà thôi .
+{"subject": ["1&&Samsung", "2&&Galaxy", "3&&A52"], "object": [], "aspect": ["7&&viên", "8&&pin"], "predicate": ["4&&chỉ", "5&&trang", "6&&bị"], "label": "COM-"}
+
+Nó nhỏ hơn so với pin 5000mAh của Galaxy A32 nhưng lại lớn hơn pin 4000 của tiền nhiệm Galaxy A51.	Nó nhỏ hơn so với pin 5000mAh của Galaxy A32 nhưng lại lớn hơn pin 4000 của tiền nhiệm Galaxy A51 .
+{"subject": [], "object": ["6&&pin", "7&&5000mAh", "8&&của", "9&&Galaxy", "10&&A32"], "aspect": [], "predicate": ["2&&nhỏ", "3&&hơn"], "label": "COM-"}
+{"subject": [], "object": ["6&&pin", "16&&4000", "17&&của", "20&&Galaxy", "21&&A51"], "aspect": [], "predicate": ["13&&lớn", "14&&hơn"], "label": "COM+"}
+
+Galaxy A52 có được thời lượng pin khá lớn đấy nha, nhưng nó vẫn phụ thuộc vào chế độ sử dụng của bạn nữa.	Galaxy A52 có được thời lượng pin khá lớn đấy nha , nhưng nó vẫn phụ thuộc vào chế độ sử dụng của bạn nữa .
+{"subject": ["1&&Galaxy", "2&&A52"], "object": [], "aspect": ["5&&thời", "6&&lượng", "7&&pin"], "predicate": ["8&&khá", "9&&lớn"], "label": "COM+"}
+{"subject": ["1&&Galaxy", "2&&A52"], "object": [], "aspect": ["5&&thời", "6&&lượng", "7&&pin"], "predicate": ["16&&phụ", "17&&thuộc", "18&&vào", "19&&chế", "20&&độ", "21&&sử", "22&&dụng", "23&&của", "24&&bạn"], "label": "COM-"}
+
+Khi bạn dùng tốc độ làm mới màn hình 90Hz và mặc định sẽ có sự khác biệt đáng kể.	Khi bạn dùng tốc độ làm mới màn hình 90Hz và mặc định sẽ có sự khác biệt đáng kể .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+alt: Đánh giá Samsung Galaxy A52	alt : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des: Đánh giá Samsung Galaxy A52	des : Đánh giá Samsung Galaxy A52
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Dù ở chế độ nào thì bạn gọi thoại cũng không bị ảnh hưởng nhiều nhé.	Dù ở chế độ nào thì bạn gọi thoại cũng không bị ảnh hưởng nhiều nhé .
+{"subject": ["7&&bạn", "8&&gọi", "9&&thoại"], "object": ["7&&bạn", "8&&gọi", "9&&thoại"], "aspect": ["11&&không", "12&&bị", "13&&ảnh", "14&&hưởng"], "predicate": ["11&&không", "12&&bị", "13&&ảnh", "14&&hưởng", "15&&nhiều"], "label": "COM"}
+
+Cả hai chế độ đều ổn định ở 36:40 giờ nha.	Cả hai chế độ đều ổn định ở 36 : 40 giờ nha .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+So sánh với đối thủ	So sánh với đối thủ
+{"subject": ["4&&đối", "5&&thủ"], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ở mức giá hiện tại thì Galaxy A52 có rất nhiều ưu điểm mà bạn đang tìm kiếm đấy.	Ở mức giá hiện tại thì Galaxy A52 có rất nhiều ưu điểm mà bạn đang tìm kiếm đấy .
+{"subject": ["7&&Galaxy", "8&&A52"], "object": ["15&&bạn"], "aspect": ["12&&ưu", "13&&điểm"], "predicate": ["9&&có", "10&&rất", "11&&nhiều"], "label": "COM+"}
+
+Màn hình tốc độ cao 90Hz, có chứng nhận IP67, Màn hình OLED, loa âm thanh nổi, jack cắm tai nghe 3.5 hay là OIS trên camera chính.	Màn hình tốc độ cao 90Hz , có chứng nhận IP67 , Màn hình OLED , loa âm thanh nổi , jack cắm tai nghe 3.5 hay là OIS trên camera chính .
+{"subject": [], "object": [], "aspect": [], "predicate": ["8&&có", "9&&chứng", "10&&nhận", "11&&IP67"], "label": "COM-"}
+{"subject": [], "object": ["29&&OIS", "30&&trên", "31&&camera", "32&&chính"], "aspect": [], "predicate": [], "label": "DIF"}
+
+Tuy nhiên vẫn có những đối thủ để chúng ta so sánh lựa chọn.	Tuy nhiên vẫn có những đối thủ để chúng ta so sánh lựa chọn .
+{"subject": ["9&&chúng", "10&&ta"], "object": ["6&&đối", "7&&thủ"], "aspect": [], "predicate": ["3&&vẫn", "4&&có", "5&&những", "6&&đối", "7&&thủ", "8&&để", "11&&so", "12&&sánh"], "label": "COM"}
+
+Đầu tiên chúng ta có  Xiaomi POCO F3  nổi bật với mức giá tương đương.	Đầu tiên chúng ta có Xiaomi POCO F3 nổi bật với mức giá tương đương .
+{"subject": ["6&&Xiaomi", "7&&POCO", "8&&F3"], "object": [], "aspect": ["12&&mức", "13&&giá"], "predicate": ["14&&tương", "15&&đương"], "label": "EQL"}
+
+F3 có ngay bộ xử lý Snapdragon 870 mạnh mẽ hơn rất nhiều so với Snapdragon 720G nha.	F3 có ngay bộ xử lý Snapdragon 870 mạnh mẽ hơn rất nhiều so với Snapdragon 720G nha .
+{"subject": ["1&&F3"], "object": ["16&&Snapdragon", "17&&720G"], "aspect": ["4&&bộ", "5&&xử", "6&&lý"], "predicate": ["9&&mạnh", "10&&mẽ", "11&&hơn", "12&&rất", "13&&nhiều"], "label": "COM+"}
+
+Màn hình AMOLED 120Hz nhanh hơn và có thêm HDR10+ nữa.	Màn hình AMOLED 120Hz nhanh hơn và có thêm HDR10 + nữa .
+{"subject": [], "object": [], "aspect": [], "predicate": ["5&&nhanh", "6&&hơn"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": "COM+"}
+
+Nó cũng có loa âm thanh nổi nữa.	Nó cũng có loa âm thanh nổi nữa .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nhưng ngược lại camera của F3 không tốt như vậy và không có một chứng nhận chống nước nào.	Nhưng ngược lại camera của F3 không tốt như vậy và không có một chứng nhận chống nước nào .
+{"subject": ["4&&camera"], "object": ["6&&F3"], "aspect": [], "predicate": ["7&&không", "8&&tốt", "9&&như", "10&&vậy"], "label": "COM-"}
+{"subject": ["4&&camera", "6&&F3"], "object": [], "aspect": [], "predicate": ["12&&không", "13&&có", "14&&một", "15&&chứng", "16&&nhận", "17&&chống", "18&&nước", "19&&nào"], "label": "COM-"}
+
+Nhà Xiaomi còn có  Redmi K40 Pro  cũng cho bạn nhiều thứ nổi bật.	Nhà Xiaomi còn có Redmi K40 Pro cũng cho bạn nhiều thứ nổi bật .
+{"subject": ["1&&Nhà", "2&&Xiaomi"], "object": ["5&&Redmi", "6&&K40", "7&&Pro"], "aspect": [], "predicate": ["8&&cũng", "9&&cho", "10&&bạn", "11&&nhiều", "12&&thứ", "13&&nổi", "14&&bật"], "label": "COM+"}
+
+Bộ xử lý Snapdragon 888 mạnh mẽ nhất hiện nay, màn hình AMOLED 120Hz nhanh hơn và cũng có loa âm thanh nổi.	Bộ xử lý Snapdragon 888 mạnh mẽ nhất hiện nay , màn hình AMOLED 120Hz nhanh hơn và cũng có loa âm thanh nổi .
+{"subject": ["1&&Bộ", "2&&xử", "3&&lý", "4&&Snapdragon", "5&&888"], "object": [], "aspect": ["6&&mạnh", "7&&mẽ"], "predicate": ["6&&mạnh", "7&&mẽ", "8&&nhất", "9&&hiện", "10&&nay"], "label": "SUP+"}
+{"subject": ["12&&màn", "13&&hình", "14&&AMOLED", "15&&120Hz"], "object": [], "aspect": ["16&&nhanh"], "predicate": ["16&&nhanh", "17&&hơn"], "label": "COM+"}
+
+Nó cũng có tiêu chuẩn chống nước nhưng thấp hơn một chút với IP53.	Nó cũng có tiêu chuẩn chống nước nhưng thấp hơn một chút với IP53 .
+{"subject": [], "object": ["4&&tiêu", "5&&chuẩn", "6&&chống", "7&&nước"], "aspect": ["4&&tiêu", "5&&chuẩn"], "predicate": ["9&&thấp", "10&&hơn", "11&&một", "12&&chút"], "label": "COM-"}
+
+Một lựa chọn khác ở mức tương đương đó là  OnePlus Nord .	Một lựa chọn khác ở mức tương đương đó là OnePlus Nord .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Cũng là tấm nền AMOLED 90Hz và HDR10 +.	Cũng là tấm nền AMOLED 90Hz và HDR10 + .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nó có hẳn Snapdragon 765G mạnh mẽ hơn và có hỗ trợ 5G.	Nó có hẳn Snapdragon 765G mạnh mẽ hơn và có hỗ trợ 5G .
+{"subject": [], "object": ["4&&Snapdragon", "5&&765G"], "aspect": ["6&&mạnh", "7&&mẽ"], "predicate": ["2&&có", "3&&hẳn", "6&&mạnh", "7&&mẽ", "8&&hơn"], "label": "COM+"}
+
+Nhưng ngược lại bạn sẽ không nhận được chứng nhận chống nước, không có loa âm thanh nổi và camera yếu đuối một chút	Nhưng ngược lại bạn sẽ không nhận được chứng nhận chống nước , không có loa âm thanh nổi và camera yếu đuối một chút
+{"subject": ["4&&bạn"], "object": [], "aspect": ["9&&chứng", "10&&nhận", "11&&chống", "12&&nước"], "predicate": ["6&&không", "7&&nhận", "8&&được"], "label": "COM-"}
+{"subject": ["4&&bạn"], "object": [], "aspect": ["16&&loa", "17&&âm", "18&&thanh", "19&&nổi"], "predicate": ["14&&không", "15&&có"], "label": "COM-"}
+{"subject": ["4&&bạn"], "object": [], "aspect": ["21&&camera"], "predicate": ["22&&yếu", "23&&đuối", "24&&một", "25&&chút"], "label": "COM+"}
+
+Cuối cùng chúng ta có một  Galaxy A72  là bản nâng cấp so với Galaxy A52.	Cuối cùng chúng ta có một Galaxy A72 là bản nâng cấp so với Galaxy A52 .
+{"subject": ["7&&Galaxy", "8&&A72"], "object": ["15&&Galaxy", "16&&A52"], "aspect": ["10&&bản", "11&&nâng", "12&&cấp"], "predicate": ["9&&là"], "label": "COM+"}
+
+Tất nhiên nó sẽ đắt hơn một chút nhưng nó có thêm ống kính tele 8MP và viên pin 5000 mAh.	Tất nhiên nó sẽ đắt hơn một chút nhưng nó có thêm ống kính tele 8MP và viên pin 5000 mAh .
+{"subject": ["3&&nó"], "object": [], "aspect": [], "predicate": ["5&&đắt", "6&&hơn", "7&&một", "8&&chút"], "label": "COM+"}
+{"subject": ["3&&nó"], "object": [], "aspect": [], "predicate": ["12&&thêm", "13&&ống", "14&&kính", "15&&tele", "16&&8MP"], "label": "COM+"}
+{"subject": ["3&&nó"], "object": [], "aspect": [], "predicate": ["20&&5000", "21&&mAh"], "label": "COM+"}
+
+Giá và địa chỉ bán	Giá và địa chỉ bán
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Kết luận	Kết luận
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+ƯU ĐIỂM:	ƯU ĐIỂM :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}

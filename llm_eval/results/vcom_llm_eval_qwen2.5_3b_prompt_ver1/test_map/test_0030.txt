@@ -1,0 +1,74 @@
+Title: Camera của iPhone 12 Pro Max có “thần thánh” như lời đồn?	Title : Camera của iPhone 12 Pro Max có “ thần thánh ” như lời đồn ?
+
+iPhone 12 Pro Max – chiếc điện thoại hot nhất hiện nay liệu có khả năng chụp ảnh “thần thánh” như lời đồn?	iPhone 12 Pro Max – chiếc điện thoại hot nhất hiện nay liệu có khả năng chụp ảnh “ thần thánh ” như lời đồn ?
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": [], "aspect": ["15&&khả", "16&&năng", "17&&chụp", "18&&ảnh"], "predicate": ["13&&liệu", "14&&có"], "label": "DIF"}
+
+Hãy cùng Hoàng Hà Mobile tìm hiểu kĩ hơn về camera của iPhone 12 Pro Max nhé!	Hãy cùng Hoàng Hà Mobile tìm hiểu kĩ hơn về camera của iPhone 12 Pro Max nhé !
+
+Những thông số kĩ thuật	Những thông số kĩ thuật
+
+iPhone 12 Pro Max là chiếc iPhone cao cấp nhất và đắt nhất của Apple trong năm nay, mang công nghệ camera độc nhất, không có trong bất kỳ chiếc iPhone nào khác trong dòng sản phẩm 2020.	iPhone 12 Pro Max là chiếc iPhone cao cấp nhất và đắt nhất của Apple trong năm nay , mang công nghệ camera độc nhất , không có trong bất kỳ chiếc iPhone nào khác trong dòng sản phẩm 2020 .
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": [], "aspect": [], "predicate": ["5&&là", "6&&chiếc", "7&&iPhone", "8&&cao", "9&&cấp", "10&&nhất", "11&&và", "12&&đắt", "13&&nhất"], "label": "SUP+"}
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": [], "aspect": ["21&&công", "22&&nghệ", "23&&camera"], "predicate": ["20&&mang", "21&&công", "22&&nghệ", "23&&camera", "24&&độc", "25&&nhất"], "label": "COM+"}
+
+iPhone 12 Pro Max có cảm biến lớn hơn cho máy ảnh góc rộng, tính năng ổn định giống như DSLR và ống kính tele dài hơn bất kì dòng iPhone nào.	iPhone 12 Pro Max có cảm biến lớn hơn cho máy ảnh góc rộng , tính năng ổn định giống như DSLR và ống kính tele dài hơn bất kì dòng iPhone nào .
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": ["24&&ống", "25&&kính", "13&&góc", "14&&rộng"], "aspect": ["6&&cảm", "7&&biến"], "predicate": ["8&&lớn", "9&&hơn"], "label": "COM+"}
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": ["24&&ống", "25&&kính", "26&&tele"], "aspect": [], "predicate": ["27&&dài", "28&&hơn"], "label": "COM+"}
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": ["22&&DSLR"], "aspect": ["16&&tính", "17&&năng", "18&&ổn", "19&&định"], "predicate": ["20&&giống", "21&&như"], "label": "COM+"}
+
+alt:	alt :
+
+des: So sánh độ lớn của Sensor trên hai thiết bị iPhone mới và cũ	des : So sánh độ lớn của Sensor trên hai thiết bị iPhone mới và cũ
+
+Đặc biệt, khả năng chụp ảnh ban đêm của iPhone 12 Pro Max được coi là “đỉnh” nhất trong số những chiếc điện thoại hiện nay, với chế độ phơi sáng Night Mode “có một không hai”.	Đặc biệt , khả năng chụp ảnh ban đêm của iPhone 12 Pro Max được coi là “ đỉnh ” nhất trong số những chiếc điện thoại hiện nay , với chế độ phơi sáng Night Mode “ có một không hai ” .
+{"subject": ["4&&khả", "5&&năng", "6&&chụp", "7&&ảnh", "8&&ban", "9&&đêm", "10&&của", "11&&iPhone", "12&&12", "13&&Pro", "14&&Max"], "object": ["24&&những", "25&&chiếc", "26&&điện", "27&&thoại", "28&&hiện", "29&&nay"], "aspect": ["32&&chế", "33&&độ", "34&&phơi", "35&&sáng", "36&&Night", "37&&Mode"], "predicate": ["15&&được", "16&&coi", "17&&là", "18&&“", "19&&đỉnh", "20&&”", "21&&nhất"], "label": "SUP+"}
+
+Phân tích cụ thể ở hình ảnh	Phân tích cụ thể ở hình ảnh
+
+Đầu tiên, giống như các bài kiểm tra máy ảnh khác, các bức ảnh so sánh camera iPhone 11 Pro và iPhone 12 Pro Max vào ban ngày không cho thấy sự khác biệt lớn.	Đầu tiên , giống như các bài kiểm tra máy ảnh khác , các bức ảnh so sánh camera iPhone 11 Pro và iPhone 12 Pro Max vào ban ngày không cho thấy sự khác biệt lớn .
+{"subject": ["14&&các", "15&&bức", "16&&ảnh", "17&&so", "18&&sánh", "19&&camera", "20&&iPhone", "21&&11", "22&&Pro"], "object": ["19&&camera", "20&&iPhone", "25&&12", "26&&Pro", "27&&Max"], "aspect": ["34&&sự", "35&&khác", "36&&biệt"], "predicate": ["31&&không", "32&&cho", "33&&thấy", "34&&sự", "35&&khác", "36&&biệt", "37&&lớn"], "label": "EQL"}
+
+Theo các nhà phát triển của Halide, cảm biến lớn của iPhone 12 Pro Max sẽ cho thấy sự khác biệt rõ nhất trong điều kiện thiếu sáng.	Theo các nhà phát triển của Halide , cảm biến lớn của iPhone 12 Pro Max sẽ cho thấy sự khác biệt rõ nhất trong điều kiện thiếu sáng .
+{"subject": ["9&&cảm", "10&&biến", "11&&lớn", "12&&của", "13&&iPhone", "14&&12", "15&&Pro", "16&&Max"], "object": [], "aspect": [], "predicate": ["18&&cho", "19&&thấy", "20&&sự", "21&&khác", "22&&biệt", "23&&rõ", "24&&nhất"], "label": "COM+"}
+
+Trong điều kiện ánh sáng yếu hơn, chẳng hạn như khi mặt trời lặn, iPhone 12 Pro Max có thể thu được nhiều chi tiết hơn, nhưng các thuật toán máy ảnh của riêng Apple có đủ khả năng giảm nhiễu đến mức khó có thể thấy sự khác biệt.	Trong điều kiện ánh sáng yếu hơn , chẳng hạn như khi mặt trời lặn , iPhone 12 Pro Max có thể thu được nhiều chi tiết hơn , nhưng các thuật toán máy ảnh của riêng Apple có đủ khả năng giảm nhiễu đến mức khó có thể thấy sự khác biệt .
+{"subject": ["17&&iPhone", "18&&12", "19&&Pro", "20&&Max"], "object": [], "aspect": ["26&&chi", "27&&tiết"], "predicate": ["23&&thu", "24&&được", "25&&nhiều", "28&&hơn"], "label": "COM+"}
+{"subject": ["17&&iPhone", "18&&12", "19&&Pro", "20&&Max"], "object": [], "aspect": ["41&&khả", "42&&năng", "43&&giảm", "44&&nhiễu"], "predicate": ["47&&khó", "48&&có", "49&&thể", "50&&thấy", "51&&sự", "52&&khác", "53&&biệt"], "label": "DIF"}
+
+Tuy nhiên, khi so sánh ảnh RAW cho thấy sự khác biệt rõ rệt hơn giữa iPhone 12 Pro Max và iPhone 12 vì khả năng giảm nhiễu của Apple không phải là một yếu tố.	Tuy nhiên , khi so sánh ảnh RAW cho thấy sự khác biệt rõ rệt hơn giữa iPhone 12 Pro Max và iPhone 12 vì khả năng giảm nhiễu của Apple không phải là một yếu tố .
+{"subject": ["18&&iPhone", "19&&12", "20&&Pro", "21&&Max"], "object": ["18&&iPhone", "19&&12"], "aspect": ["26&&khả", "27&&năng", "28&&giảm", "29&&nhiễu"], "predicate": ["32&&không", "33&&phải", "34&&là", "35&&một", "36&&yếu", "37&&tố"], "label": "COM-"}
+{"subject": ["18&&iPhone", "19&&12", "20&&Pro", "21&&Max"], "object": ["18&&iPhone", "19&&12"], "aspect": ["11&&sự", "12&&khác", "13&&biệt"], "predicate": ["11&&sự", "12&&khác", "13&&biệt", "14&&rõ", "15&&rệt", "16&&hơn"], "label": "COM+"}
+
+alt:	alt :
+
+des:	des :
+
+alt:	alt :
+
+des: Hai hình ảnh cho thấy khả năng chụp ảnh chi tiết đến từng điểm ảnh của iPhone 12 Pro Max	des : Hai hình ảnh cho thấy khả năng chụp ảnh chi tiết đến từng điểm ảnh của iPhone 12 Pro Max
+
+Tính năng áp dụng trực tiếp ổn định dịch chuyển vào cảm biến, cũng giúp iPhone 12 Pro Max cho ra hình ảnh tốt hơn đáng kể trong điều kiện ánh sáng yếu hơn vì nó hoạt động nhanh hơn.	Tính năng áp dụng trực tiếp ổn định dịch chuyển vào cảm biến , cũng giúp iPhone 12 Pro Max cho ra hình ảnh tốt hơn đáng kể trong điều kiện ánh sáng yếu hơn vì nó hoạt động nhanh hơn .
+{"subject": ["1&&tính", "2&&năng", "3&&áp", "4&&dụng", "5&&trực", "6&&tiếp", "7&&ổn", "8&&định", "9&&dịch", "10&&chuyển"], "object": ["12&&cảm", "13&&biến"], "aspect": ["38&&hoạt", "39&&động"], "predicate": ["38&&hoạt", "39&&động", "40&&nhanh", "41&&hơn"], "label": "COM+"}
+{"subject": ["1&&tính", "2&&năng", "3&&áp", "4&&dụng", "5&&trực", "6&&tiếp", "7&&ổn", "8&&định", "9&&dịch", "10&&chuyển"], "object": ["17&&iPhone", "18&&12", "19&&Pro", "20&&Max"], "aspect": ["22&&ra", "23&&hình", "24&&ảnh"], "predicate": ["21&&cho", "22&&ra", "23&&hình", "24&&ảnh", "25&&tốt", "26&&hơn", "27&&đáng", "28&&kể"], "label": "SUP+"}
+
+iPhone 12 Pro Max có thể quản lý thời gian chụp lâu hơn ở chế độ cầm tay so với khả năng của máy ảnh DSLR, điều này được With mô tả là “thứ rất tuyệt”.	iPhone 12 Pro Max có thể quản lý thời gian chụp lâu hơn ở chế độ cầm tay so với khả năng của máy ảnh DSLR , điều này được With mô tả là “ thứ rất tuyệt ” .
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": ["24&&máy", "25&&ảnh", "26&&DSLR"], "aspect": ["21&&khả", "22&&năng", "7&&quản", "8&&lý", "9&&thời", "10&&gian", "11&&chụp"], "predicate": ["5&&có", "6&&thể", "7&&quản", "8&&lý", "9&&thời", "10&&gian", "11&&chụp", "12&&lâu", "13&&hơn"], "label": "SUP+"}
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro", "4&&Max"], "object": ["24&&máy", "25&&ảnh", "26&&DSLR"], "aspect": ["21&&khả", "22&&năng", "11&&chụp", "14&&ở", "15&&chế", "16&&độ", "17&&cầm", "18&&tay"], "predicate": ["30&&được", "31&&With", "32&&mô", "33&&tả", "34&&là", "35&&“", "36&&thứ", "37&&rất", "38&&tuyệt", "39&&”"], "label": "COM+"}
+
+alt:	alt :
+
+des: Ảnh của nhà phát triển Halide Sebastiaan de With.	des : Ảnh của nhà phát triển Halide Sebastiaan de With .
+
+Chụp chế độ Night Mode trên iPhone 12 Pro và iPhone 12 Pro Max (ảnh RAW)	Chụp chế độ Night Mode trên iPhone 12 Pro và iPhone 12 Pro Max ( ảnh RAW )
+{"subject": ["1&&Chụp", "2&&chế", "3&&độ", "4&&Night", "5&&Mode"], "object": [], "aspect": [], "predicate": [], "label": "[UNK]"}
+
+Tạm kết	Tạm kết
+
+Bạn nghĩ sao về những hình ảnh chụp trên iPhone 12 Pro Max?	Bạn nghĩ sao về những hình ảnh chụp trên iPhone 12 Pro Max ?
+
+Hãy cùng chia sẻ với Hoàng Hà nhé!	Hãy cùng chia sẻ với Hoàng Hà nhé !
+
+Cũng đừng quên rằng Hoàng Hà Mobile hiện đang là nhà bán lẻ Apple được ủy quyền chính thức tại Việt Nam.	Cũng đừng quên rằng Hoàng Hà Mobile hiện đang là nhà bán lẻ Apple được ủy quyền chính thức tại Việt Nam .
+
+Click tại đây để đăng kí trước dòng sản phẩm iPhone 12 chính hãng VN/A với giá ưu đãi chỉ từ 17,99 triệu (giá áp dụng khi tham gia chương trình thu cũ đổi mới).	Click tại đây để đăng kí trước dòng sản phẩm iPhone 12 chính hãng VN / A với giá ưu đãi chỉ từ 17,99 triệu ( giá áp dụng khi tham gia chương trình thu cũ đổi mới ) .
+

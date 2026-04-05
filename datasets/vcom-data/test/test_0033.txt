@@ -11,12 +11,15 @@ alt: So sánh về thiết kế	alt : So sánh về thiết kế
 des:	des :
 
 Ở mặt trước cả 2 máy đều cho sự tương đồng so với thể hệ trước, với iPhone 11 Pro Max thì đó là thiết kế tai thỏ kèm viền mỏng.	Ở mặt trước cả 2 máy đều cho sự tương đồng so với thể hệ trước , với iPhone 11 Pro Max thì đó là thiết kế tai thỏ kèm viền mỏng .
+{"subject": ["4&&cả", "5&&2", "6&&máy"], "object": ["4&&cả", "5&&2", "6&&máy"], "aspect": ["2&&mặt", "3&&trước"], "predicate": ["7&&đều", "8&&cho", "9&&sự", "10&&tương", "11&&đồng", "12&&so", "13&&với", "14&&thể", "15&&hệ", "16&&trước"], "label": "EQL"}
 
 Trong khi đó Galaxy Note 20 Ultra thì là màn hình đục lỗ ở chính giữa tương tự Galaxy Note 10.	Trong khi đó Galaxy Note 20 Ultra thì là màn hình đục lỗ ở chính giữa tương tự Galaxy Note 10 .
 
 Nhưng chúng ta có thể thấy được, viền màn hình Galaxy Note 20 Ultra mỏng hơn đáng kể so với iPhone 11 Pro Max nhờ vào ngôn ngữ thiết kế màn hình vô cực tràn viền.	Nhưng chúng ta có thể thấy được , viền màn hình Galaxy Note 20 Ultra mỏng hơn đáng kể so với iPhone 11 Pro Max nhờ vào ngôn ngữ thiết kế màn hình vô cực tràn viền .
+{"subject": ["12&&Galaxy", "13&&Note", "14&&20", "15&&Ultra"], "object": ["22&&iPhone", "23&&11", "24&&Pro", "25&&Max"], "aspect": ["9&&viền", "10&&màn", "11&&hình"], "predicate": ["16&&mỏng", "17&&hơn", "18&&đáng", "19&&kể"], "label": "COM+"}
 
 Ở mặt lưng, cả 2 đều sở hữu cụm camera lồi ra đáng kể so với mặt lưng máy.	Ở mặt lưng , cả 2 đều sở hữu cụm camera lồi ra đáng kể so với mặt lưng máy .
+{"subject": ["5&&cả", "6&&2"], "object": ["5&&cả", "6&&2"], "aspect": ["10&&cụm", "11&&camera", "12&&lồi", "13&&ra", "14&&đáng", "15&&kể", "16&&so", "17&&với", "18&&mặt", "19&&lưng", "20&&máy"], "predicate": ["7&&đều", "8&&sở", "9&&hữu"], "label": "EQL"}
 
 Thiết kế này có người thích và có người chê nhưng nó đều tạo ra cho cả 2 một nét đặc trưng riêng mà hiếm dòng máy nào khác có thể làm tương tự.	Thiết kế này có người thích và có người chê nhưng nó đều tạo ra cho cả 2 một nét đặc trưng riêng mà hiếm dòng máy nào khác có thể làm tương tự .
 
@@ -37,8 +40,10 @@ Và những tác dụng tích cực của mặt lưng này đã khiến Samsung 
 So sánh về hiệu năng	So sánh về hiệu năng
 
 Apple khẳng định chip A13 Bionic của hãng mạnh nhất thế giới smartphone hiện tại.	Apple khẳng định chip A13 Bionic của hãng mạnh nhất thế giới smartphone hiện tại .
+{"subject": ["1&&Apple"], "object": [], "aspect": ["4&&chip", "5&&A13", "6&&Bionic"], "predicate": ["9&&mạnh", "10&&nhất", "11&&thế", "12&&giới", "13&&smartphone", "14&&hiện", "15&&tại"], "label": "SUP+"}
 
 Và những người sành công nghệ cũng cho rằng A13 của Apple mạnh hơn Snapdragon 865 mới nhất.	Và những người sành công nghệ cũng cho rằng A13 của Apple mạnh hơn Snapdragon 865 mới nhất .
+{"subject": ["10&&A13", "11&&của", "12&&Apple"], "object": ["15&&Snapdragon", "16&&865", "17&&mới", "18&&nhất"], "aspect": [], "predicate": ["13&&mạnh", "14&&hơn"], "label": "COM+"}
 
 Nhưng trong khi đó Galaxy Note 20 Ultra sử dụng con chip Exynos 990 mới nhất hiện tại chưa có đánh giá chính thức nên tạm thời chưa thể khẳng định chip nào có hiệu năng tốt hơn.	Nhưng trong khi đó Galaxy Note 20 Ultra sử dụng con chip Exynos 990 mới nhất hiện tại chưa có đánh giá chính thức nên tạm thời chưa thể khẳng định chip nào có hiệu năng tốt hơn .
 
@@ -47,8 +52,10 @@ alt: So sánh về hiệu năng	alt : So sánh về hiệu năng
 des:	des :
 
 Nhưng nếu xét về tính năng thì chắc chắn Galaxy Note 20 Ultra nổi trội hơn hẳn với chiếc Spen của mình.	Nhưng nếu xét về tính năng thì chắc chắn Galaxy Note 20 Ultra nổi trội hơn hẳn với chiếc Spen của mình .
+{"subject": ["10&&Galaxy", "11&&Note", "12&&20", "13&&Ultra"], "object": [], "aspect": ["5&&tính", "6&&năng"], "predicate": ["14&&nổi", "15&&trội", "16&&hơn", "17&&hẳn"], "label": "COM+"}
 
 Và Spen cũng chính là lợi thế lớn nhất của của Note 20 Ultra trước iPhone 11 Pro Max.	Và Spen cũng chính là lợi thế lớn nhất của của Note 20 Ultra trước iPhone 11 Pro Max .
+{"subject": ["12&&Note", "13&&20", "14&&Ultra"], "object": ["16&&iPhone", "17&&11", "18&&Pro", "19&&Max"], "aspect": ["2&&Spen"], "predicate": ["6&&lợi", "7&&thế", "8&&lớn", "9&&nhất"], "label": "COM+"}
 
 Chiếc bút "thần thánh" này hỗ trợ Bluetooth và có thời gian chờ pin lên tới 24 giờ, nhận diện 4.096 lực nhấn.	Chiếc bút " thần thánh " này hỗ trợ Bluetooth và có thời gian chờ pin lên tới 24 giờ , nhận diện 4.096 lực nhấn .
 
@@ -61,16 +68,23 @@ des:	des :
 Galaxy Note 20 Ultra có viên pin đến 4500mAh và công suất sạc nhanh tối đa 25W kèm theo sạc không dây 15W và sạc ngược không dây 4.5W.	Galaxy Note 20 Ultra có viên pin đến 4500mAh và công suất sạc nhanh tối đa 25W kèm theo sạc không dây 15W và sạc ngược không dây 4.5W .
 
 Những thông số này vượt trội hơ hẳn so với iPhone 11 Pro Max pin 3969mAh, sạc nhanh 18W và hỗ trợ sạc không dây nhưng chỉ có công suất 5W.	Những thông số này vượt trội hơ hẳn so với iPhone 11 Pro Max pin 3969mAh , sạc nhanh 18W và hỗ trợ sạc không dây nhưng chỉ có công suất 5W .
+{"subject": [], "object": ["11&&iPhone", "12&&11", "13&&Pro", "14&&Max"], "aspect": ["15&&pin"], "predicate": ["5&&vượt", "6&&trội", "7&&hơ", "8&&hẳn"], "label": "COM+"}
+{"subject": [], "object": ["11&&iPhone", "12&&11", "13&&Pro", "14&&Max"], "aspect": ["18&&sạc", "19&&nhanh"], "predicate": ["5&&vượt", "6&&trội", "7&&hơ", "8&&hẳn"], "label": "COM+"}
+{"subject": [], "object": ["11&&iPhone", "12&&11", "13&&Pro", "14&&Max"], "aspect": ["24&&sạc", "25&&không", "26&&dây"], "predicate": ["5&&vượt", "6&&trội", "7&&hơ", "8&&hẳn"], "label": "COM+"}
 
 Nhưng nếu xét về khả năng sử dụng thì cả 2 máy đều là mẫu những smartphone mạnh mẽ nhất thị trường hiện tại.	Nhưng nếu xét về khả năng sử dụng thì cả 2 máy đều là mẫu những smartphone mạnh mẽ nhất thị trường hiện tại .
+{"subject": ["10&&cả", "11&&2", "12&&máy"], "object": [], "aspect": ["5&&khả", "6&&năng", "7&&sử", "8&&dụng"], "predicate": ["18&&mạnh", "19&&mẽ", "20&&nhất", "21&&thị", "22&&trường", "23&&hiện", "24&&tại"], "label": "SUP+"}
 
 Vì thế cả 2 đều sẽ giữ vững ngôi vị ở phân khúc flagship trong ít nhất vài năm nữa nên hiệu năng không phải là thứ bạn cần phải lo lắng với những dòng smartphone này.	Vì thế cả 2 đều sẽ giữ vững ngôi vị ở phân khúc flagship trong ít nhất vài năm nữa nên hiệu năng không phải là thứ bạn cần phải lo lắng với những dòng smartphone này .
 
 So sánh màn hình của 2 máy	So sánh màn hình của 2 máy
 
 Về màn hình, trang Display Mate từng đánh giá iPhone 11 Pro Max là một trong những mẫu smartphone có màn hình hiển thị tốt nhất.	Về màn hình , trang Display Mate từng đánh giá iPhone 11 Pro Max là một trong những mẫu smartphone có màn hình hiển thị tốt nhất .
+{"subject": ["11&&iPhone", "12&&11", "13&&Pro", "14&&Max"], "object": [], "aspect": ["22&&màn", "23&&hình", "24&&hiển", "25&&thị"], "predicate": ["26&&tốt", "27&&nhất"], "label": "SUP+"}
 
 Nhưng Galaxy Note 20 Ultra ra mắt với màn hình có độ phân giải tối đa lên đến QHD+ và tần số quét 120Hz. Nên nếu so về màn hình thì Galaxy Note 20 Ultra có lẽ chiếm ưu thế với những công nghệ mới hơn và màn hình vô cực tràn viền.	Nhưng Galaxy Note 20 Ultra ra mắt với màn hình có độ phân giải tối đa lên đến QHD + và tần số quét 120Hz . Nên nếu so về màn hình thì Galaxy Note 20 Ultra có lẽ chiếm ưu thế với những công nghệ mới hơn và màn hình vô cực tràn viền .
+{"subject": ["34&&Galaxy", "35&&Note", "36&&20", "37&&Ultra"], "object": [], "aspect": ["31&&màn", "32&&hình"], "predicate": ["40&&chiếm", "41&&ưu", "42&&thế"], "label": "COM+"}
+{"subject": ["34&&Galaxy", "35&&Note", "36&&20", "37&&Ultra"], "object": [], "aspect": ["45&&công", "46&&nghệ"], "predicate": ["47&&mới", "48&&hơn"], "label": "COM+"}
 
 alt: So sánh màn hình của 2 máy	alt : So sánh màn hình của 2 máy
 
@@ -79,12 +93,15 @@ des:	des :
 Màn hình OLED của Samsung luôn được đánh giá là dòng màn hình có độ rực màu khá cao.	Màn hình OLED của Samsung luôn được đánh giá là dòng màn hình có độ rực màu khá cao .
 
 Trong khi màn hình iPhone lại được coi là dòng màn hình OLED có độ chân thực màu tốt nhất.	Trong khi màn hình iPhone lại được coi là dòng màn hình OLED có độ chân thực màu tốt nhất .
+{"subject": ["3&&màn", "4&&hình", "5&&iPhone"], "object": [], "aspect": ["15&&độ", "16&&chân", "17&&thực", "18&&màu"], "predicate": ["19&&tốt", "20&&nhất"], "label": "SUP+"}
 
 Vì thế người dùng sẽ phải so sánh và lựa chọn xem đâu mới là tông màu hiển thị phù hợp nhất.	Vì thế người dùng sẽ phải so sánh và lựa chọn xem đâu mới là tông màu hiển thị phù hợp nhất .
 
 Cụm camera nào tốt hơn	Cụm camera nào tốt hơn
 
 Cả 2 cụm camera tuy khác nhau thiết kế nhưng đều có 3 camera.	Cả 2 cụm camera tuy khác nhau thiết kế nhưng đều có 3 camera .
+{"subject": ["1&&Cả", "2&&2", "3&&cụm", "4&&camera"], "object": ["1&&Cả", "2&&2", "3&&cụm", "4&&camera"], "aspect": ["8&&thiết", "9&&kế"], "predicate": ["6&&khác", "7&&nhau"], "label": "DIF"}
+{"subject": ["1&&Cả", "2&&2", "3&&cụm", "4&&camera"], "object": ["1&&Cả", "2&&2", "3&&cụm", "4&&camera"], "aspect": ["13&&3", "14&&camera"], "predicate": ["11&&đều", "12&&có"], "label": "EQL"}
 
 iPhone 11 Pro Max sử dụng 3 camera là góc rộng, góc siêu rộng và tele với cảm biến chung 12MP.	iPhone 11 Pro Max sử dụng 3 camera là góc rộng , góc siêu rộng và tele với cảm biến chung 12MP .
 

@@ -9,12 +9,17 @@ Trong bài viết ngày hôm nay, chúng ta hãy cùng thử đi xem cuộc đua
 Đo tốc độ load ứng dụng giữa iPhone 12 Pro và Galaxy Note20 Ultra	Đo tốc độ load ứng dụng giữa iPhone 12 Pro và Galaxy Note20 Ultra
 
 Theo đó, chiếc iPhone 12 Pro của Apple đã vượt qua Samsung Galaxy Note 20 Ultra trong bài kiểm tra tốc độ tải ứng dụng thực tế do PhoneBuff thực hiện.	Theo đó , chiếc iPhone 12 Pro của Apple đã vượt qua Samsung Galaxy Note 20 Ultra trong bài kiểm tra tốc độ tải ứng dụng thực tế do PhoneBuff thực hiện .
+{"subject": ["5&&iPhone", "6&&12", "7&&Pro"], "object": ["13&&Samsung", "14&&Galaxy", "15&&Note", "16&&20", "17&&Ultra"], "aspect": ["19&&bài", "20&&kiểm", "21&&tra", "22&&tốc", "23&&độ", "24&&tải", "25&&ứng", "26&&dụng", "27&&thực", "28&&tế"], "predicate": ["11&&vượt", "12&&qua"], "label": "COM+"}
 
 Với con chip A14 đi cùng với thanh RAM 6 GB, iPhone 12 Pro đã có một màn chiến thằng ngoạn mục với chip Snapdragon 865 và RAM 12 GB trên Galaxy Note 20 Ultra.	Với con chip A14 đi cùng với thanh RAM 6 GB , iPhone 12 Pro đã có một màn chiến thằng ngoạn mục với chip Snapdragon 865 và RAM 12 GB trên Galaxy Note 20 Ultra .
+{"subject": ["13&&iPhone", "14&&12", "15&&Pro"], "object": ["33&&Galaxy", "34&&Note", "35&&20", "36&&Ultra"], "aspect": ["25&&chip"], "predicate": ["20&&chiến", "21&&thằng", "22&&ngoạn", "23&&mục"], "label": "COM+"}
+{"subject": ["13&&iPhone", "14&&12", "15&&Pro"], "object": ["33&&Galaxy", "34&&Note", "35&&20", "36&&Ultra"], "aspect": ["29&&RAM"], "predicate": ["20&&chiến", "21&&thằng", "22&&ngoạn", "23&&mục"], "label": "COM+"}
 
 Trong bài thử nghiệm, mỗi điện thoại đều mở cùng một loạt ứng dụng, bao gồm Facebook, máy ảnh, ứng dụng của Microsoft, Adobe Rush, trò chơi,… và đo thời gian mà smartphone cần để mở hết các ứng dụng đó.	Trong bài thử nghiệm , mỗi điện thoại đều mở cùng một loạt ứng dụng , bao gồm Facebook , máy ảnh , ứng dụng của Microsoft , Adobe Rush , trò chơi , … và đo thời gian mà smartphone cần để mở hết các ứng dụng đó .
 
 iPhone 12 Pro đã vượt lên dẫn trước trong vòng đầu tiên của thử nghiệm bao gồm thực hiện kết xuất (render) video trong Adobe Rush và tiếp tục dẫn đầu thông qua việc khởi chạy một số trò chơi.	iPhone 12 Pro đã vượt lên dẫn trước trong vòng đầu tiên của thử nghiệm bao gồm thực hiện kết xuất ( render ) video trong Adobe Rush và tiếp tục dẫn đầu thông qua việc khởi chạy một số trò chơi .
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro"], "object": [], "aspect": ["18&&thực", "19&&hiện", "20&&kết", "21&&xuất", "22&&(", "23&&render", "24&&)", "25&&video", "26&&trong", "27&&Adobe", "28&&Rush"], "predicate": ["5&&vượt", "6&&lên", "7&&dẫn", "8&&trước"], "label": "COM+"}
+{"subject": ["1&&iPhone", "2&&12", "3&&Pro"], "object": [], "aspect": ["37&&khởi", "38&&chạy", "39&&một", "40&&số", "41&&trò", "42&&chơi"], "predicate": ["32&&dẫn", "33&&đầu"], "label": "COM+"}
 
 iPhone 12 Pro của Apple đã hoàn thành vòng mở ứng dụng đầu tiên trong 1 phút 41 giây, trong khi Note 20 Ultra phải mất 1 phút 55 giây để hoàn thành các tác vụ tương tự.	iPhone 12 Pro của Apple đã hoàn thành vòng mở ứng dụng đầu tiên trong 1 phút 41 giây , trong khi Note 20 Ultra phải mất 1 phút 55 giây để hoàn thành các tác vụ tương tự .
 
@@ -23,6 +28,7 @@ Trong vòng thử nghiệm thứ hai, vòng này sẽ đo lường mức độ c
 Tuy nhiên thì cũng phải lưu ý một chút với bạn đọc đây chỉ là một video speedtest mang tính chất tham khảo là chính.	Tuy nhiên thì cũng phải lưu ý một chút với bạn đọc đây chỉ là một video speedtest mang tính chất tham khảo là chính .
 
 Sự chênh lệch về thời gian và tốc độ mở ứng dụng giữa hai mẫu điện thoại là rất sát nhau và khó để mà phát hiện ra nếu như chúng ta chỉ dùng 1 chiếc điện thoại.	Sự chênh lệch về thời gian và tốc độ mở ứng dụng giữa hai mẫu điện thoại là rất sát nhau và khó để mà phát hiện ra nếu như chúng ta chỉ dùng 1 chiếc điện thoại .
+{"subject": ["14&&hai", "15&&mẫu", "16&&điện", "17&&thoại"], "object": ["14&&hai", "15&&mẫu", "16&&điện", "17&&thoại"], "aspect": ["5&&thời", "6&&gian", "7&&và", "8&&tốc", "9&&độ", "10&&mở", "11&&ứng", "12&&dụng"], "predicate": ["19&&rất", "20&&sát", "21&&nhau"], "label": "EQL"}
 
 Vậy nên ai là người chiến thắng thì là tùy thuộc vào sự đánh giá của cá nhân mỗi chúng ta nhé.	Vậy nên ai là người chiến thắng thì là tùy thuộc vào sự đánh giá của cá nhân mỗi chúng ta nhé .
 

@@ -17,12 +17,15 @@ Bảng so sánh cấu hình Samsung Galaxy S22 Ultra với iPhone 13 Pro Max	B�
 Thiết kế	Thiết kế
 
 Về thiết kế, Samsung Galaxy S22 Ultra và iPhone 13 Pro Max đều ghi rõ dấu ấn với ngoại hình vô cùng thời thượng, hấp dẫn người dùng.	Về thiết kế , Samsung Galaxy S22 Ultra và iPhone 13 Pro Max đều ghi rõ dấu ấn với ngoại hình vô cùng thời thượng , hấp dẫn người dùng .
+{"subject": ["5&&Samsung", "6&&Galaxy", "7&&S22", "8&&Ultra"], "object": ["10&&iPhone", "11&&13", "12&&Pro", "13&&Max"], "aspect": ["2&&thiết", "3&&kế"], "predicate": ["14&&đều", "15&&ghi", "16&&rõ", "17&&dấu", "18&&ấn", "19&&với", "20&&ngoại", "21&&hình", "22&&vô", "23&&cùng", "24&&thời", "25&&thượng", "26&&,", "27&&hấp", "28&&dẫn", "29&&người", "30&&dùng"], "label": "EQL"}
 
 Đối với sản phẩm Samsung, ngoại hình vuông vức, gọn gàng và tối giản được khắc họa rõ nét, bên cạnh đó vẫn mang tới cảm giác bóng bẩy và phá cách.	Đối với sản phẩm Samsung , ngoại hình vuông vức , gọn gàng và tối giản được khắc họa rõ nét , bên cạnh đó vẫn mang tới cảm giác bóng bẩy và phá cách .
 
 Song, vị trí đặt thanh tăng/giảm âm lượng khá cao so với tầm tay và khay sim cùng cổng loa đặt gần nhau dễ gây một số bất tiện hay nhầm lẫn cho người dùng.	Song , vị trí đặt thanh tăng / giảm âm lượng khá cao so với tầm tay và khay sim cùng cổng loa đặt gần nhau dễ gây một số bất tiện hay nhầm lẫn cho người dùng .
 
 Điểm cộng đặc biệt ở chiếc S22 Ultra này chính là camera trước chiếm diện tích ít hơn, tạo cảm giác màn hình được mở rộng, mang lại trải nghiệm hình ảnh sống động nhất cho bạn.	Điểm cộng đặc biệt ở chiếc S22 Ultra này chính là camera trước chiếm diện tích ít hơn , tạo cảm giác màn hình được mở rộng , mang lại trải nghiệm hình ảnh sống động nhất cho bạn .
+{"subject": ["12&&camera", "13&&trước"], "object": [], "aspect": ["14&&chiếm", "15&&diện", "16&&tích"], "predicate": ["17&&ít", "18&&hơn"], "label": "COM+"}
+{"subject": ["6&&chiếc", "7&&S22", "8&&Ultra"], "object": [], "aspect": ["12&&camera", "13&&trước"], "predicate": ["14&&chiếm", "15&&diện", "16&&tích", "17&&ít", "18&&hơn"], "label": "COM+"}
 
 alt: Ngoại hình vô cùng thời thượng của hai sản phẩm	alt : Ngoại hình vô cùng thời thượng của hai sản phẩm
 
@@ -41,12 +44,15 @@ des: Thiết kế tinh tế, sang trọng của cả 2 điện thoại	des : Thi
 Màn hình	Màn hình
 
 Mặc dù iPhone 13 Pro Max đã được Apple nâng cấp độ sáng màn hình tối đa lên 1200 nits, tuy nhiên tấm nền công nghệ hiện đại Dynamic AMOLED có mặt trên Galaxy S22 Ultra đã vượt xa về mật độ điểm ảnh, lên tới con số 1800 nits.	Mặc dù iPhone 13 Pro Max đã được Apple nâng cấp độ sáng màn hình tối đa lên 1200 nits , tuy nhiên tấm nền công nghệ hiện đại Dynamic AMOLED có mặt trên Galaxy S22 Ultra đã vượt xa về mật độ điểm ảnh , lên tới con số 1800 nits .
+{"subject": ["35&&Galaxy", "36&&S22", "37&&Ultra"], "object": ["3&&iPhone", "4&&13", "5&&Pro", "6&&Max"], "aspect": ["42&&mật", "43&&độ", "44&&điểm", "45&&ảnh"], "predicate": ["39&&vượt", "40&&xa"], "label": "COM+"}
 
 Sự cải tiến này mang lại khả năng hiển thị ngoài trời nắng chói mà vẫn rõ như trong nhà.	Sự cải tiến này mang lại khả năng hiển thị ngoài trời nắng chói mà vẫn rõ như trong nhà .
 
 Về mặt này, Samsung đã chiếm được vị trí spotlight là smartphone có chất lượng hiển thị tốt nhất trong phân khúc.	Về mặt này , Samsung đã chiếm được vị trí spotlight là smartphone có chất lượng hiển thị tốt nhất trong phân khúc .
+{"subject": ["5&&Samsung"], "object": [], "aspect": ["15&&chất", "16&&lượng", "17&&hiển", "18&&thị"], "predicate": ["19&&tốt", "20&&nhất", "21&&trong", "22&&phân", "23&&khúc"], "label": "SUP+"}
 
 Song, điểm đáng chú ý ở iPhone 13 Pro Max lại chính là màn hình OLED khi cho ra màu sắc chân thật hơn, tạo thiện cảm với trải nghiệm người dùng.	Song , điểm đáng chú ý ở iPhone 13 Pro Max lại chính là màn hình OLED khi cho ra màu sắc chân thật hơn , tạo thiện cảm với trải nghiệm người dùng .
+{"subject": ["15&&màn", "16&&hình", "17&&OLED"], "object": [], "aspect": ["21&&màu", "22&&sắc"], "predicate": ["23&&chân", "24&&thật", "25&&hơn"], "label": "COM+"}
 
 alt: Màn hình 120Hz với độ phản hồi cao	alt : Màn hình 120Hz với độ phản hồi cao
 
@@ -55,22 +61,29 @@ des: Màn hình 120Hz với độ phản hồi cao	des : Màn hình 120Hz với 
 Camera	Camera
 
 Khi đặt lên bàn cân so sánh camera của hai thiết bị, các thông số của S22 Ultra thu hút được khá nhiều sự chú ý, là sự kế thừa sản phẩm tiền nhiệm Galaxy S21 Ultra ra mắt trước đó.	Khi đặt lên bàn cân so sánh camera của hai thiết bị , các thông số của S22 Ultra thu hút được khá nhiều sự chú ý , là sự kế thừa sản phẩm tiền nhiệm Galaxy S21 Ultra ra mắt trước đó .
+{"subject": ["18&&S22", "19&&Ultra"], "object": ["33&&sản", "34&&phẩm", "35&&tiền", "36&&nhiệm", "37&&Galaxy", "38&&S21", "39&&Ultra", "40&&ra", "41&&mắt", "42&&trước", "43&&đó"], "aspect": ["14&&các", "15&&thông", "16&&số"], "predicate": ["31&&kế", "32&&thừa"], "label": "EQL"}
 
 Cụ thể, thiết bị sở hữu camera chính có  độ phân giải  108 MP,  camera siêu rộng  12 MP cùng với ống kính zoom 10 MP 3x hoặc zoom kính tiềm vọng 10x.	Cụ thể , thiết bị sở hữu camera chính có độ phân giải 108 MP , camera siêu rộng 12 MP cùng với ống kính zoom 10 MP 3x hoặc zoom kính tiềm vọng 10x .
 
 Với camera chính được nâng cấp khẩu độ rộng hơn, người dùng có thể thoải mái chụp ảnh trong điều kiện thiếu sáng, mà vẫn thu về được các hình ảnh chi tiết và rõ ràng.	Với camera chính được nâng cấp khẩu độ rộng hơn , người dùng có thể thoải mái chụp ảnh trong điều kiện thiếu sáng , mà vẫn thu về được các hình ảnh chi tiết và rõ ràng .
+{"subject": ["2&&camera", "3&&chính"], "object": [], "aspect": ["7&&khẩu", "8&&độ"], "predicate": ["9&&rộng", "10&&hơn"], "label": "COM+"}
 
 alt: Camera ổn định hình ảnh chính xác	alt : Camera ổn định hình ảnh chính xác
 
 des: Camera ổn định hình ảnh chính xác	des : Camera ổn định hình ảnh chính xác
 
 Trong khi đó, chiếc iPhone 13 Pro Max không hề kém cạnh khi được tích hợp cảm biến to nhất từng có trên những dòng iPhone trong lịch sử và chúng cũng được xem là một trong các ống kính to nhất trên điện thoại hiện nay, hỗ trợ bạn có được những bức ảnh đẹp mắt lưu giữ kỉ niệm.	Trong khi đó , chiếc iPhone 13 Pro Max không hề kém cạnh khi được tích hợp cảm biến to nhất từng có trên những dòng iPhone trong lịch sử và chúng cũng được xem là một trong các ống kính to nhất trên điện thoại hiện nay , hỗ trợ bạn có được những bức ảnh đẹp mắt lưu giữ kỉ niệm .
+{"subject": ["5&&chiếc", "6&&iPhone", "7&&13", "8&&Pro", "9&&Max"], "object": [], "aspect": ["18&&cảm", "19&&biến"], "predicate": ["20&&to", "21&&nhất", "22&&từng", "23&&có", "24&&trên", "25&&những", "26&&dòng", "27&&iPhone", "28&&trong", "29&&lịch", "30&&sử"], "label": "SUP+"}
+{"subject": ["32&&chúng"], "object": [], "aspect": [], "predicate": ["42&&to", "43&&nhất", "44&&trên", "45&&điện", "46&&thoại", "47&&hiện", "48&&nay"], "label": "SUP+"}
 
 Thế hệ mới của dòng cảm biến  ISOCELL 108MP  trong Galaxy S22 Ultra cũng cho phép bạn chụp được nhiều chi tiết hơn.	Thế hệ mới của dòng cảm biến ISOCELL 108MP trong Galaxy S22 Ultra cũng cho phép bạn chụp được nhiều chi tiết hơn .
 
 Samsung  cũng đang giới thiệu tính năng ổn định hình ảnh chính xác hơn nhiều, giúp giảm  48% độ rung .	Samsung cũng đang giới thiệu tính năng ổn định hình ảnh chính xác hơn nhiều , giúp giảm 48% độ rung .
+{"subject": ["1&&Samsung"], "object": [], "aspect": ["8&&ổn", "9&&định", "10&&hình", "11&&ảnh"], "predicate": ["12&&chính", "13&&xác", "14&&hơn", "15&&nhiều"], "label": "COM+"}
 
 Cụm camera này hứa hẹn mang tới những bức ảnh sắc nét hơn và video mượt mà hơn so với công nghệ ổn định hình ảnh  Sensor Shift  của iPhone 13 Pro Max.	Cụm camera này hứa hẹn mang tới những bức ảnh sắc nét hơn và video mượt mà hơn so với công nghệ ổn định hình ảnh Sensor Shift của iPhone 13 Pro Max .
+{"subject": ["1&&Cụm", "2&&camera", "3&&này"], "object": ["21&&công", "22&&nghệ", "23&&ổn", "24&&định", "25&&hình", "26&&ảnh", "27&&Sensor", "28&&Shift", "29&&của", "30&&iPhone", "31&&13", "32&&Pro", "33&&Max"], "aspect": ["8&&những", "9&&bức", "10&&ảnh"], "predicate": ["11&&sắc", "12&&nét", "13&&hơn"], "label": "COM+"}
+{"subject": ["1&&Cụm", "2&&camera", "3&&này"], "object": ["21&&công", "22&&nghệ", "23&&ổn", "24&&định", "25&&hình", "26&&ảnh", "27&&Sensor", "28&&Shift", "29&&của", "30&&iPhone", "31&&13", "32&&Pro", "33&&Max"], "aspect": ["15&&video"], "predicate": ["16&&mượt", "17&&mà", "18&&hơn"], "label": "COM+"}
 
 alt: Galaxy S22 Ultra được tích hợp thế hệ cảm biến mới	alt : Galaxy S22 Ultra được tích hợp thế hệ cảm biến mới
 
@@ -81,36 +94,48 @@ Thông số kỹ thuật và hiệu năng	Thông số kỹ thuật và hiệu n�
 Vi xử lý Snapdragon 8 Gen 1 chính là thế hệ mới của  chip Snapdragon 888  đã từng xuất hiện trên Galaxy S21 Ultra, nay được lặp lại trên dòng S22 Ultra.	Vi xử lý Snapdragon 8 Gen 1 chính là thế hệ mới của chip Snapdragon 888 đã từng xuất hiện trên Galaxy S21 Ultra , nay được lặp lại trên dòng S22 Ultra .
 
 Song, điểm nhấn quan trọng lần này trên chiếc Samsung Galaxy S22 Ultra lại là phiên bản chip  Exynos 2200  với  đồ họa AMD , cho ra khả năng chạy các tác vụ nhanh hơn, đồ họa khủng giúp bạn có trải nghiệm tuyệt vời khi chơi các tựa game với mức hình ảnh sắc nét cao nhất.	Song , điểm nhấn quan trọng lần này trên chiếc Samsung Galaxy S22 Ultra lại là phiên bản chip Exynos 2200 với đồ họa AMD , cho ra khả năng chạy các tác vụ nhanh hơn , đồ họa khủng giúp bạn có trải nghiệm tuyệt vời khi chơi các tựa game với mức hình ảnh sắc nét cao nhất .
+{"subject": ["11&&Samsung", "12&&Galaxy", "13&&S22", "14&&Ultra"], "object": [], "aspect": ["29&&khả", "30&&năng", "31&&chạy", "32&&các", "33&&tác", "34&&vụ"], "predicate": ["35&&nhanh", "36&&hơn"], "label": "COM+"}
 
 Song, ở vị trí đối diện, con chip A15 Bionic có trên iPhone 13 Pro Max sẵn sàng đánh bại cả Exynos 2200 và Snapdragon 8 Gen 1 một cách đơn giản trong những bài kiểm tra điểm chuẩn.	Song , ở vị trí đối diện , con chip A15 Bionic có trên iPhone 13 Pro Max sẵn sàng đánh bại cả Exynos 2200 và Snapdragon 8 Gen 1 một cách đơn giản trong những bài kiểm tra điểm chuẩn .
+{"subject": ["9&&con", "10&&chip", "11&&A15", "12&&Bionic"], "object": ["24&&Exynos", "25&&2200"], "aspect": ["36&&những", "37&&bài", "38&&kiểm", "39&&tra", "40&&điểm", "41&&chuẩn"], "predicate": ["21&&đánh", "22&&bại"], "label": "COM+"}
+{"subject": ["9&&con", "10&&chip", "11&&A15", "12&&Bionic"], "object": ["27&&Snapdragon", "28&&8", "29&&Gen", "30&&1"], "aspect": ["36&&những", "37&&bài", "38&&kiểm", "39&&tra", "40&&điểm", "41&&chuẩn"], "predicate": ["21&&đánh", "22&&bại"], "label": "COM+"}
 
 Vi xử lý trên flagship  Apple  nhỉnh hơn khi chơi các thể loại game nặng, kèm theo bộ nhớ có khả năng lưu trữ tốt hơn.	Vi xử lý trên flagship Apple nhỉnh hơn khi chơi các thể loại game nặng , kèm theo bộ nhớ có khả năng lưu trữ tốt hơn .
+{"subject": ["1&&Vi", "2&&xử", "3&&lý", "4&&trên", "5&&flagship", "6&&Apple"], "object": [], "aspect": ["10&&chơi", "11&&các", "12&&thể", "13&&loại", "14&&game", "15&&nặng"], "predicate": ["7&&nhỉnh", "8&&hơn"], "label": "COM+"}
+{"subject": ["1&&Vi", "2&&xử", "3&&lý", "4&&trên", "5&&flagship", "6&&Apple"], "object": [], "aspect": ["19&&bộ", "20&&nhớ"], "predicate": ["24&&lưu", "25&&trữ", "26&&tốt", "27&&hơn"], "label": "COM+"}
+{"subject": ["19&&bộ", "20&&nhớ"], "object": [], "aspect": ["22&&khả", "23&&năng", "24&&lưu", "25&&trữ"], "predicate": ["26&&tốt", "27&&hơn"], "label": "COM+"}
 
 alt: Hiệu suất xử lý của 2 điện thoại đều cao do sở hữu chip mạnh nhất	alt : Hiệu suất xử lý của 2 điện thoại đều cao do sở hữu chip mạnh nhất
 
 des: Hiệu suất xử lý của 2 điện thoại đều cao do sở hữu chip mạnh nhất	des : Hiệu suất xử lý của 2 điện thoại đều cao do sở hữu chip mạnh nhất
+{"subject": ["8&&2", "9&&điện", "10&&thoại"], "object": ["8&&2", "9&&điện", "10&&thoại"], "aspect": ["3&&Hiệu", "4&&suất", "5&&xử", "6&&lý"], "predicate": ["11&&đều", "12&&cao"], "label": "EQL"}
 
 Thời lượng pin và tốc độ sạc	Thời lượng pin và tốc độ sạc
 
 Cả hai điện thoại đều có pin lớn: Galaxy S22 Ultra có pin  5000 mAh  còn iPhone 13 Pro Max có pin  4352mAh .	Cả hai điện thoại đều có pin lớn : Galaxy S22 Ultra có pin 5000 mAh còn iPhone 13 Pro Max có pin 4352mAh .
 
 Vào năm ngoái, iPhone 13 Pro Max đứng top đầu trong bảng xếp hạng thời lượng pin và trực tiếp cạnh tranh về thời lượng pin với Galaxy S22 Ultra.	Vào năm ngoái , iPhone 13 Pro Max đứng top đầu trong bảng xếp hạng thời lượng pin và trực tiếp cạnh tranh về thời lượng pin với Galaxy S22 Ultra .
+{"subject": ["5&&iPhone", "6&&13", "7&&Pro", "8&&Max"], "object": [], "aspect": ["16&&thời", "17&&lượng", "18&&pin"], "predicate": ["9&&đứng", "10&&top", "11&&đầu", "12&&trong", "13&&bảng", "14&&xếp", "15&&hạng"], "label": "SUP+"}
 
 alt: Galaxy S22 Ultra và iPhone 13 Pro Max đều có pin lớn	alt : Galaxy S22 Ultra và iPhone 13 Pro Max đều có pin lớn
 
 des: Galaxy S22 Ultra và iPhone 13 Pro Max đều có pin lớn	des : Galaxy S22 Ultra và iPhone 13 Pro Max đều có pin lớn
+{"subject": ["3&&Galaxy", "4&&S22", "5&&Ultra"], "object": ["7&&iPhone", "8&&13", "9&&Pro", "10&&Max"], "aspect": ["13&&pin", "14&&lớn"], "predicate": ["11&&đều", "12&&có"], "label": "EQL"}
 
 Giá bán	Giá bán
 
 Samsung Galaxy S22 Ultra có mức giá tại  Thế Giới Di Động  là 30,99 triệu đồng - bản 128GB.	Samsung Galaxy S22 Ultra có mức giá tại Thế Giới Di Động là 30,99 triệu đồng - bản 128GB .
 
 Mức giá này thấp hơn một chút so với iPhone 13 Pro Max với cùng tuỳ chọn bộ nhớ là 33,99 triệu đồng.	Mức giá này thấp hơn một chút so với iPhone 13 Pro Max với cùng tuỳ chọn bộ nhớ là 33,99 triệu đồng .
+{"subject": [], "object": ["10&&iPhone", "11&&13", "12&&Pro", "13&&Max", "14&&với", "15&&cùng", "16&&tuỳ", "17&&chọn", "18&&bộ", "19&&nhớ"], "aspect": ["1&&Mức", "2&&giá", "3&&này"], "predicate": ["4&&thấp", "5&&hơn"], "label": "COM+"}
 
 Thực tế, ở chiếc điện thoại Samsung Galaxy S22 Ultra mới, người dùng nhận được nhiều hơn về thông số kỹ thuật, đặc biệt là ống kính tiềm vọng zoom 10x hoặc bút S Pen, chưa kể tốc độ sạc nhanh hơn nhiều.	Thực tế , ở chiếc điện thoại Samsung Galaxy S22 Ultra mới , người dùng nhận được nhiều hơn về thông số kỹ thuật , đặc biệt là ống kính tiềm vọng zoom 10x hoặc bút S Pen , chưa kể tốc độ sạc nhanh hơn nhiều .
+{"subject": ["5&&chiếc", "6&&điện", "7&&thoại", "8&&Samsung", "9&&Galaxy", "10&&S22", "11&&Ultra", "12&&mới"], "object": [], "aspect": ["42&&tốc", "43&&độ", "44&&sạc"], "predicate": ["45&&nhanh", "46&&hơn", "47&&nhiều"], "label": "COM+"}
 
 alt: Giá Samsung Galaxy S22 Ultra thấp hơn một chút so với iPhone 13 Pro Max	alt : Giá Samsung Galaxy S22 Ultra thấp hơn một chút so với iPhone 13 Pro Max
 
 des: Giá Samsung Galaxy S22 Ultra thấp hơn một chút so với iPhone 13 Pro Max	des : Giá Samsung Galaxy S22 Ultra thấp hơn một chút so với iPhone 13 Pro Max
+{"subject": ["4&&Samsung", "5&&Galaxy", "6&&S22", "7&&Ultra"], "object": ["14&&iPhone", "15&&13", "16&&Pro", "17&&Max"], "aspect": ["3&&Giá"], "predicate": ["8&&thấp", "9&&hơn", "10&&một", "11&&chút"], "label": "COM+"}
 
 3.	3 .
 

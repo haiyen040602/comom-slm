@@ -92,167 +92,405 @@ def compute_coqe_metrics(
     predictions: List[str],
     gold_labels: List[str],
     label_order: Optional[Tuple[str, ...]] = None,
+    match_mode: str = "index-match",
 ) -> Dict[str, Dict[str, float]]:
-    """Compute all metrics following the naming convention:
+    """Compute metrics with counting rules aligned to evaluate_v1.py.
 
-    {Matching Strategy}-{Level of Evaluation}-{Indication}
+    Output keys are preserved as:
+      {E|P|B}-CEE-{S|O|A|P|MICRO|MACRO}
+      {E|B}-T4
+      {E|B}-T5-{label|MICRO|MACRO}
+            SENT-CMP
 
-    where each dict value contains P/R/F1/support.
-
-    Args:
-        label_order: Fixed label sequence for T5 macro averaging.  Pass
-            VCOM_LABEL_ORDER or CAMERA_COQE_LABEL_ORDER explicitly, or
-            leave as None to auto-detect from the gold data.
+        Notes:
+            - match_mode='index-match': compare index spans when available (evaluate_v1-style).
+            - match_mode='non-index-match': compare phrase tokens only.
+            - TP/FP/FN accumulation rules follow evaluate_v1.
     """
-    # CEE: E/P/B x (S,O,A,P)
-    cee: Dict[str, Dict[str, _Acc]] = {
-        s: {e: _Acc() for e in CEE_ELEMS} for s in ("E", "P", "B")
-    }
 
-    # T4: E/B
-    t4: Dict[str, _Acc] = {s: _Acc() for s in ("E", "B")}
+    if match_mode not in {"index-match", "non-index-match"}:
+        raise ValueError("match_mode must be one of: 'index-match', 'non-index-match'")
+    if len(predictions) != len(gold_labels):
+        raise ValueError(
+            f"Sample count mismatch: predictions={len(predictions)} vs gold_labels={len(gold_labels)}"
+        )
 
-    # T5: E/B x label
-    t5: Dict[str, Dict[str, _Acc]] = {s: defaultdict(_Acc) for s in ("E", "B")}
+    def _prf_from_counts(tp: float, fp: float, fn: float) -> Dict[str, float]:
+        p = tp / (tp + fp) if (tp + fp) > 0 else 0.0
+        r = tp / (tp + fn) if (tp + fn) > 0 else 0.0
+        f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
+        return {"P": p, "R": r, "F1": f1, "support": tp + fn}
 
-    # Collect gold labels in first-seen order for auto-detection.
-    _seen_labels: List[str] = []
-    _seen_labels_set: Set[str] = set()
+    def _slot_set(text: str) -> Set[str]:
+        t = (text or "").strip()
+        if t == "" or t == "[UNK]":
+            return set()
+
+        def _slot_word_tokens(value: str) -> List[str]:
+            words: List[str] = []
+            for piece in value.split():
+                if "&&" in piece:
+                    _, right = piece.split("&&", 1)
+                    right = right.strip()
+                    if right:
+                        words.append(_normalise(right))
+                else:
+                    norm = _normalise(piece)
+                    if norm:
+                        words.append(norm)
+            return [w for w in words if w]
+
+        if match_mode == "non-index-match":
+            return set(_slot_word_tokens(t))
+
+        idxs: Set[str] = set()
+        for piece in t.split():
+            left = piece.split("&&", 1)[0].strip()
+            if left.isdigit():
+                idxs.add(left)
+        if idxs:
+            return idxs
+        return set(_slot_word_tokens(t))
+
+    def _tuple_obj(t: Tuple[str, str, str, str, str]) -> Dict[str, object]:
+        return {
+            "S": _slot_set(t[_S]),
+            "O": _slot_set(t[_O]),
+            "A": _slot_set(t[_A]),
+            "P": _slot_set(t[_P]),
+            "L": (t[_L] or "").strip(),
+            "raw": t,
+        }
+
+    def _tuple_dedup(items: List[Tuple[str, str, str, str, str]]) -> List[Tuple[str, str, str, str, str]]:
+        seen: Set[Tuple[str, str, str, str, str]] = set()
+        out: List[Tuple[str, str, str, str, str]] = []
+        for t in items:
+            k = tuple(_normalise(x) for x in t)
+            if k not in seen:
+                seen.add(k)
+                out.append(t)
+        return out
+
+    def _entity_exact(e1: Set[str], e2: Set[str]) -> int:
+        return int(e1 == e2)
+
+    def _entity_binary(e1: Set[str], e2: Set[str]) -> int:
+        return int(len(e1.intersection(e2)) != 0)
+
+    def _entity_prop(e1: Set[str], e2: Set[str]) -> float:
+        if not e1:
+            return 0.0
+        return len(e1.intersection(e2)) / len(e1)
+
+    def _sentence_cee_counts(gold_entities: List[Set[str]], pred_entities: List[Set[str]]) -> Dict[str, float]:
+        ret = {
+            "E-TP": 0.0,
+            "E-FP": 0.0,
+            "E-FN": 0.0,
+            "P-TP": 0.0,
+            "P-FP": 0.0,
+            "P-FN": 0.0,
+            "B-TP": 0.0,
+            "B-FP": 0.0,
+            "B-FN": 0.0,
+        }
+
+        for pred in pred_entities:
+            if any(_entity_exact(pred, g) == 1 for g in gold_entities):
+                ret["E-TP"] += 1
+            else:
+                ret["E-FP"] += 1
+
+            max_match = max((_entity_prop(pred, g) for g in gold_entities), default=0.0)
+            ret["P-TP"] += max_match
+            ret["P-FP"] += (1 - max_match)
+
+            if any(_entity_binary(pred, g) == 1 for g in gold_entities):
+                ret["B-TP"] += 1
+            else:
+                ret["B-FP"] += 1
+
+        for gold in gold_entities:
+            if not any(_entity_exact(gold, p) == 1 for p in pred_entities):
+                ret["E-FN"] += 1
+
+            max_match = max((_entity_prop(gold, p) for p in pred_entities), default=0.0)
+            ret["P-FN"] += (1 - max_match)
+
+            if not any(_entity_binary(gold, p) == 1 for p in pred_entities):
+                ret["B-FN"] += 1
+
+        return ret
+
+    def _tuple_exact(t1: Dict[str, object], t2: Dict[str, object], omit_label: bool) -> int:
+        elems_equal = all(t1[k] == t2[k] for k in CEE_ELEMS)
+        label_equal = True if omit_label else (t1["L"] == t2["L"])
+        return int(elems_equal and label_equal)
+
+    def _tuple_binary(t1: Dict[str, object], t2: Dict[str, object], omit_label: bool) -> int:
+        elems_ok = all(
+            (len(t1[k]) == 0 and len(t2[k]) == 0) or len(t1[k].intersection(t2[k])) != 0  # type: ignore[arg-type]
+            for k in CEE_ELEMS
+        )
+        label_ok = True if omit_label else (t1["L"] == t2["L"])
+        return int(elems_ok and label_ok)
+
+    def _sentence_tuple_counts(
+        gold_tuples: List[Dict[str, object]],
+        pred_tuples: List[Dict[str, object]],
+        omit_label: bool,
+    ) -> Dict[str, float]:
+        ret = {
+            "E-TP": 0.0,
+            "E-FP": 0.0,
+            "E-FN": 0.0,
+            "B-TP": 0.0,
+            "B-FP": 0.0,
+            "B-FN": 0.0,
+        }
+
+        for pred in pred_tuples:
+            if any(_tuple_exact(pred, g, omit_label) == 1 for g in gold_tuples):
+                ret["E-TP"] += 1
+            else:
+                ret["E-FP"] += 1
+
+            if any(_tuple_binary(pred, g, omit_label) == 1 for g in gold_tuples):
+                ret["B-TP"] += 1
+            else:
+                ret["B-FP"] += 1
+
+        for gold in gold_tuples:
+            if not any(_tuple_exact(gold, p, omit_label) == 1 for p in pred_tuples):
+                ret["E-FN"] += 1
+
+            if not any(_tuple_binary(gold, p, omit_label) == 1 for p in pred_tuples):
+                ret["B-FN"] += 1
+
+        return ret
+
+    # Parse all sentence tuples first.
+    sent_gold_raw: List[List[Tuple[str, str, str, str, str]]] = []
+    sent_pred_raw: List[List[Tuple[str, str, str, str, str]]] = []
+
+    seen_labels: List[str] = []
+    seen_label_set: Set[str] = set()
 
     for pred_str, gold_str in zip(predictions, gold_labels):
-        pred_tuples = [t for t in _parse_tuples(pred_str) if not _is_all_unk(t)]
-        gold_tuples = [t for t in _parse_tuples(gold_str) if not _is_all_unk(t)]
+        pred_t = [t for t in _parse_tuples(pred_str) if not _is_all_unk(t)]
+        gold_t = [t for t in _parse_tuples(gold_str) if not _is_all_unk(t)]
 
-        # CEE
-        for idx, elem in enumerate(CEE_ELEMS):
-            g_vals = [gt[idx] for gt in gold_tuples]
-            p_vals = [pt[idx] for pt in pred_tuples]
+        for gt in gold_t:
+            lbl = (gt[_L] or "").strip()
+            if lbl and lbl not in seen_label_set:
+                seen_label_set.add(lbl)
+                seen_labels.append(lbl)
 
-            for strat in ("E", "P", "B"):
-                acc = cee[strat][elem]
-                acc.gold += len(g_vals)
-                acc.pred += len(p_vals)
+        sent_pred_raw.append(pred_t)
+        sent_gold_raw.append(gold_t)
 
-                used: Set[int] = set()
-                for pv in p_vals:
-                    if strat == "E":
-                        for gi, gv in enumerate(g_vals):
-                            if gi not in used and _exact_match(pv, gv):
-                                acc.tp += 1
-                                acc.tp_prop += 1
-                                used.add(gi)
-                                break
-                    elif strat == "B":
-                        for gi, gv in enumerate(g_vals):
-                            if gi not in used and _binary_match(pv, gv):
-                                acc.tp += 1
-                                used.add(gi)
-                                break
-                    else:  # proportional
-                        best_gi = -1
-                        best_sc = 0.0
-                        for gi, gv in enumerate(g_vals):
-                            if gi not in used:
-                                sc = _proportional_score(pv, gv)
-                                if sc > best_sc:
-                                    best_sc = sc
-                                    best_gi = gi
-                        if best_gi >= 0:
-                            acc.tp_prop += best_sc
-                            used.add(best_gi)
-
-        # T4 and T5
-        for strat in ("E", "B"):
-            match_fn = _exact_match if strat == "E" else _binary_match
-
-            # T4
-            acc4 = t4[strat]
-            acc4.gold += len(gold_tuples)
-            acc4.pred += len(pred_tuples)
-            used4: Set[int] = set()
-            for pt in pred_tuples:
-                for gi, gt in enumerate(gold_tuples):
-                    if gi not in used4 and all(match_fn(pt[i], gt[i]) for i in range(4)):
-                        acc4.tp += 1
-                        used4.add(gi)
-                        break
-
-            # T5 by label (from gold label space only)
-            gold_labels_present = {gt[_L] for gt in gold_tuples}
-            for lbl in gold_labels_present:
-                if lbl and lbl not in _seen_labels_set:
-                    _seen_labels.append(lbl)
-                    _seen_labels_set.add(lbl)
-                acc5 = t5[strat][lbl]
-                g5 = [gt for gt in gold_tuples if gt[_L] == lbl]
-                p5 = [pt for pt in pred_tuples if pt[_L] == lbl]
-                acc5.gold += len(g5)
-                acc5.pred += len(p5)
-
-                used5: Set[int] = set()
-                for pt in p5:
-                    for gi, gt in enumerate(g5):
-                        if gi not in used5 and all(match_fn(pt[i], gt[i]) for i in range(5)):
-                            acc5.tp += 1
-                            used5.add(gi)
-                            break
-
-    # Resolve label order for T5 output.
-    _resolved_labels: Tuple[str, ...] = (
-        label_order if label_order is not None
-        else (tuple(_seen_labels) if _seen_labels else T5_LABEL_ORDER)
+    resolved_labels: Tuple[str, ...] = (
+        label_order if label_order is not None else (tuple(seen_labels) if seen_labels else T5_LABEL_ORDER)
     )
 
     out: Dict[str, Dict[str, float]] = {}
 
-    # CEE output
+    # ---- Sentence-level comparison detection ----
+    # Positive class: sentence contains at least one non-[UNK] comparative tuple.
+    sent_tp = 0.0
+    sent_fp = 0.0
+    sent_fn = 0.0
+    for gold_tuples, pred_tuples in zip(sent_gold_raw, sent_pred_raw):
+        gold_has_cmp = len(gold_tuples) > 0
+        pred_has_cmp = len(pred_tuples) > 0
+        if pred_has_cmp and gold_has_cmp:
+            sent_tp += 1
+        elif pred_has_cmp and (not gold_has_cmp):
+            sent_fp += 1
+        elif (not pred_has_cmp) and gold_has_cmp:
+            sent_fn += 1
+
+    out["SENT-CMP"] = _prf_from_counts(sent_tp, sent_fp, sent_fn)
+
+    # ---- CEE (E/P/B, per element + micro + macro) ----
+    cee_element_scores: Dict[str, Dict[str, Dict[str, float]]] = {s: {} for s in ("E", "P", "B")}
+
+    for elem_i, elem_k in enumerate(CEE_ELEMS):
+        agg = {
+            "E-TP": 0.0,
+            "E-FP": 0.0,
+            "E-FN": 0.0,
+            "P-TP": 0.0,
+            "P-FP": 0.0,
+            "P-FN": 0.0,
+            "B-TP": 0.0,
+            "B-FP": 0.0,
+            "B-FN": 0.0,
+        }
+
+        for gold_tuples, pred_tuples in zip(sent_gold_raw, sent_pred_raw):
+            gold_entities = []
+            pred_entities = []
+
+            # evaluate_v1-style dedup at element level per sentence
+            seen_g: Set[frozenset] = set()
+            for t in gold_tuples:
+                e = _slot_set(t[elem_i])
+                if len(e) == 0:
+                    continue
+                fe = frozenset(e)
+                if fe not in seen_g:
+                    seen_g.add(fe)
+                    gold_entities.append(e)
+
+            seen_p: Set[frozenset] = set()
+            for t in pred_tuples:
+                e = _slot_set(t[elem_i])
+                if len(e) == 0:
+                    continue
+                fe = frozenset(e)
+                if fe not in seen_p:
+                    seen_p.add(fe)
+                    pred_entities.append(e)
+
+            sent_counts = _sentence_cee_counts(gold_entities, pred_entities)
+            for k, v in sent_counts.items():
+                agg[k] += v
+
+        e_score = _prf_from_counts(agg["E-TP"], agg["E-FP"], agg["E-FN"])
+        p_score = _prf_from_counts(agg["P-TP"], agg["P-FP"], agg["P-FN"])
+        b_score = _prf_from_counts(agg["B-TP"], agg["B-FP"], agg["B-FN"])
+
+        out[f"E-CEE-{elem_k}"] = e_score
+        out[f"P-CEE-{elem_k}"] = p_score
+        out[f"B-CEE-{elem_k}"] = b_score
+
+        cee_element_scores["E"][elem_k] = e_score
+        cee_element_scores["P"][elem_k] = p_score
+        cee_element_scores["B"][elem_k] = b_score
+
     for strat in ("E", "P", "B"):
-        mode = "prop" if strat == "P" else "exact"
+        # micro over aggregated TP/FP/FN from per-element scores
+        tp = fp = fn = 0.0
+        for elem_k in CEE_ELEMS:
+            s = cee_element_scores[strat][elem_k]
+            # reconstruct counts using support and P/R when possible
+            # better: recompute from metric identity with support = tp+fn
+            # store micro by summing per-element supports and re-aggregating from P/R is lossy,
+            # so compute directly from sentence-level aggregation already done above is preferable.
+            # To keep exact evaluate_v1 behavior, rebuild from sentence totals:
+            # we approximate through P/R/support here only for output cohesion.
+            # Replace with exact counters by re-running sentence loops per strategy.
+            pass
 
-        for elem in CEE_ELEMS:
-            out[f"{strat}-CEE-{elem}"] = cee[strat][elem].prf(mode)
+    # exact micro counters for CEE (evaluate_v1 style)
+    for strat in ("E", "P", "B"):
+        key_tp = f"{strat}-TP"
+        key_fp = f"{strat}-FP"
+        key_fn = f"{strat}-FN"
+        micro = {key_tp: 0.0, key_fp: 0.0, key_fn: 0.0}
 
-        micro = _Acc()
-        for elem in CEE_ELEMS:
-            a = cee[strat][elem]
-            micro.tp += a.tp
-            micro.tp_prop += a.tp_prop
-            micro.pred += a.pred
-            micro.gold += a.gold
-        out[f"{strat}-CEE-MICRO"] = micro.prf(mode)
+        for elem_i, _ in enumerate(CEE_ELEMS):
+            for gold_tuples, pred_tuples in zip(sent_gold_raw, sent_pred_raw):
+                gold_entities = []
+                pred_entities = []
 
-        out[f"{strat}-CEE-MACRO"] = _macro_avg([cee[strat][e].prf(mode) for e in CEE_ELEMS])
+                seen_g: Set[frozenset] = set()
+                for t in gold_tuples:
+                    e = _slot_set(t[elem_i])
+                    if len(e) == 0:
+                        continue
+                    fe = frozenset(e)
+                    if fe not in seen_g:
+                        seen_g.add(fe)
+                        gold_entities.append(e)
 
-    # T4 output
+                seen_p: Set[frozenset] = set()
+                for t in pred_tuples:
+                    e = _slot_set(t[elem_i])
+                    if len(e) == 0:
+                        continue
+                    fe = frozenset(e)
+                    if fe not in seen_p:
+                        seen_p.add(fe)
+                        pred_entities.append(e)
+
+                c = _sentence_cee_counts(gold_entities, pred_entities)
+                micro[key_tp] += c[key_tp]
+                micro[key_fp] += c[key_fp]
+                micro[key_fn] += c[key_fn]
+
+        out[f"{strat}-CEE-MICRO"] = _prf_from_counts(micro[key_tp], micro[key_fp], micro[key_fn])
+
+        macro_list = [out[f"{strat}-CEE-{e}"] for e in CEE_ELEMS]
+        out[f"{strat}-CEE-MACRO"] = _macro_avg(macro_list)
+
+    # ---- T4 (E/B) ----
     for strat in ("E", "B"):
-        out[f"{strat}-T4"] = t4[strat].prf("exact")
+        agg = {"E-TP": 0.0, "E-FP": 0.0, "E-FN": 0.0, "B-TP": 0.0, "B-FP": 0.0, "B-FN": 0.0}
+        for gold_tuples, pred_tuples in zip(sent_gold_raw, sent_pred_raw):
+            g_objs = [_tuple_obj(t) for t in gold_tuples]
+            p_objs = [_tuple_obj(t) for t in pred_tuples]
+            c = _sentence_tuple_counts(g_objs, p_objs, omit_label=True)
+            for k in agg:
+                agg[k] += c[k]
 
-    # T5 output using the resolved label order.
-    for strat in ("E", "B"):
-        per_label_scores: List[Dict[str, float]] = []
+        out[f"{strat}-T4"] = _prf_from_counts(agg[f"{strat}-TP"], agg[f"{strat}-FP"], agg[f"{strat}-FN"])
 
-        for lbl in _resolved_labels:
-            a = t5[strat].get(lbl, _Acc())
-            s = a.prf("exact")
+    # ---- T5 per label (E/B), with evaluate_v1-style dedup per sentence+label ----
+    label_scores_by_strat: Dict[str, List[Dict[str, float]]] = {"E": [], "B": []}
+
+    for lbl in resolved_labels:
+        per_sent_gold: List[List[Tuple[str, str, str, str, str]]] = []
+        per_sent_pred: List[List[Tuple[str, str, str, str, str]]] = []
+
+        for gold_tuples, pred_tuples in zip(sent_gold_raw, sent_pred_raw):
+            g_lbl = _tuple_dedup([t for t in gold_tuples if (t[_L] or "").strip() == lbl])
+            p_lbl = _tuple_dedup([t for t in pred_tuples if (t[_L] or "").strip() == lbl])
+            per_sent_gold.append(g_lbl)
+            per_sent_pred.append(p_lbl)
+
+        for strat in ("E", "B"):
+            agg = {"E-TP": 0.0, "E-FP": 0.0, "E-FN": 0.0, "B-TP": 0.0, "B-FP": 0.0, "B-FN": 0.0}
+            for g_lbl, p_lbl in zip(per_sent_gold, per_sent_pred):
+                g_objs = [_tuple_obj(t) for t in g_lbl]
+                p_objs = [_tuple_obj(t) for t in p_lbl]
+                c = _sentence_tuple_counts(g_objs, p_objs, omit_label=False)
+                for k in agg:
+                    agg[k] += c[k]
+
+            s = _prf_from_counts(agg[f"{strat}-TP"], agg[f"{strat}-FP"], agg[f"{strat}-FN"])
             out[f"{strat}-T5-{lbl}"] = s
-            per_label_scores.append(s)
+            label_scores_by_strat[strat].append(s)
 
-        # Micro over resolved labels
-        micro5 = _Acc()
-        for lbl in _resolved_labels:
-            a = t5[strat].get(lbl, _Acc())
-            micro5.tp += a.tp
-            micro5.pred += a.pred
-            micro5.gold += a.gold
-        out[f"{strat}-T5-MICRO"] = micro5.prf("exact")
+    for strat in ("E", "B"):
+        # micro over all labels
+        agg = {"E-TP": 0.0, "E-FP": 0.0, "E-FN": 0.0, "B-TP": 0.0, "B-FP": 0.0, "B-FN": 0.0}
+        for lbl in resolved_labels:
+            per_sent_gold = []
+            per_sent_pred = []
+            for gold_tuples, pred_tuples in zip(sent_gold_raw, sent_pred_raw):
+                g_lbl = _tuple_dedup([t for t in gold_tuples if (t[_L] or "").strip() == lbl])
+                p_lbl = _tuple_dedup([t for t in pred_tuples if (t[_L] or "").strip() == lbl])
+                per_sent_gold.append(g_lbl)
+                per_sent_pred.append(p_lbl)
 
-        # Macro over resolved labels
-        out[f"{strat}-T5-MACRO"] = _macro_avg(per_label_scores)
+            for g_lbl, p_lbl in zip(per_sent_gold, per_sent_pred):
+                g_objs = [_tuple_obj(t) for t in g_lbl]
+                p_objs = [_tuple_obj(t) for t in p_lbl]
+                c = _sentence_tuple_counts(g_objs, p_objs, omit_label=False)
+                for k in agg:
+                    agg[k] += c[k]
+
+        out[f"{strat}-T5-MICRO"] = _prf_from_counts(agg[f"{strat}-TP"], agg[f"{strat}-FP"], agg[f"{strat}-FN"])
+        out[f"{strat}-T5-MACRO"] = _macro_avg(label_scores_by_strat[strat])
 
     return out
 
 
 LEADERBOARD_KEYS = [
+    "SENT-CMP",
     "E-CEE-S",
     "E-CEE-O",
     "E-CEE-A",

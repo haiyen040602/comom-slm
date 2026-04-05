@@ -7,6 +7,7 @@ Trong phân khúc tầm trung và cao cấp đang diễn ra một cuộc đua m�
 Nhưng một khu vực khác cũng không kém sôi động, đó chính là phân khúc giá rẻ.	Nhưng một khu vực khác cũng không kém sôi động , đó chính là phân khúc giá rẻ .
 
 Mặc dù là giá rẻ nhưng thị phần nó lại là lớn nhất nên các ông lớn cũng không thể bỏ qua, kể cả đó là Samsung.	Mặc dù là giá rẻ nhưng thị phần nó lại là lớn nhất nên các ông lớn cũng không thể bỏ qua , kể cả đó là Samsung .
+{"subject": ["9&&nó"], "object": [], "aspect": ["7&&thị", "8&&phần"], "predicate": ["12&&lớn", "13&&nhất"], "label": "SUP+"}
 
 Khi mà hãng liên tục tung ra các phiên bản khác trong phân khúc, thậm chí nhiều khi còn khiến người dùng hoa mắt khi lựa chọn.	Khi mà hãng liên tục tung ra các phiên bản khác trong phân khúc , thậm chí nhiều khi còn khiến người dùng hoa mắt khi lựa chọn .
 
@@ -25,6 +26,7 @@ des: Đánh giá Samsung Galaxy A01	des : Đánh giá Samsung Galaxy A01
 Thiết kế	Thiết kế
 
 Nhìn chung phong cách thiết kế của chiếc Samsung Galaxy A01 này không có gì khác biệt so với các tiền bối của nó.	Nhìn chung phong cách thiết kế của chiếc Samsung Galaxy A01 này không có gì khác biệt so với các tiền bối của nó .
+{"subject": ["9&&Samsung", "10&&Galaxy", "11&&A01"], "object": ["21&&tiền", "22&&bối", "23&&của", "24&&nó"], "aspect": ["3&&phong", "4&&cách", "5&&thiết", "6&&kế"], "predicate": ["13&&không", "14&&có", "15&&gì", "16&&khác", "17&&biệt"], "label": "EQL"}
 
 Vẫn là màn hình giọt nước, không cảm biến vân tay và sở hữu camera kép.	Vẫn là màn hình giọt nước , không cảm biến vân tay và sở hữu camera kép .
 
@@ -35,6 +37,7 @@ Mặt trước	Mặt trước
 Mặt trước là một màn hình IPS kích thước khá nhỏ nhưng chiếm gần hết ở đây.	Mặt trước là một màn hình IPS kích thước khá nhỏ nhưng chiếm gần hết ở đây .
 
 Kích thước màn hình 5.7 inch không lớn như các dòng điện thoại tầm trung trở lên nhưng vẫn đủ dùng.	Kích thước màn hình 5.7 inch không lớn như các dòng điện thoại tầm trung trở lên nhưng vẫn đủ dùng .
+{"subject": [], "object": ["10&&các", "11&&dòng", "12&&điện", "13&&thoại", "14&&tầm", "15&&trung", "16&&trở", "17&&lên"], "aspect": ["1&&Kích", "2&&thước", "3&&màn", "4&&hình"], "predicate": ["7&&không", "8&&lớn", "9&&như"], "label": "COM-"}
 
 Các cạnh bên khá là mỏng và phần viền trên cũng tương tự.	Các cạnh bên khá là mỏng và phần viền trên cũng tương tự .
 
@@ -63,6 +66,7 @@ Cùng với 1 đèn LED được đặt dọc ở góc này.	Cùng với 1 đèn
 Chúng ta sẽ không có cảm biến vân tay cho công việc bảo mật ở điện thoại này.	Chúng ta sẽ không có cảm biến vân tay cho công việc bảo mật ở điện thoại này .
 
 Đó là một điều đáng tiếc khi các đối thủ vẫn có với mức giá tương đương.	Đó là một điều đáng tiếc khi các đối thủ vẫn có với mức giá tương đương .
+{"subject": ["8&&các", "9&&đối", "10&&thủ"], "object": [], "aspect": ["14&&mức", "15&&giá"], "predicate": ["16&&tương", "17&&đương"], "label": "EQL"}
 
 alt: Đánh giá Samsung Galaxy A01	alt : Đánh giá Samsung Galaxy A01
 
@@ -73,14 +77,17 @@ des: Đánh giá Samsung Galaxy A01	des : Đánh giá Samsung Galaxy A01
 Bạn có thể nhìn thấy ở hình trên, nó nằm ở góc dưới bên trái đấy.	Bạn có thể nhìn thấy ở hình trên , nó nằm ở góc dưới bên trái đấy .
 
 Đặc điểm này có vẻ giống với một số mẫu máy của NOKIA mà chúng ta đã biết tới gần đây.	Đặc điểm này có vẻ giống với một số mẫu máy của NOKIA mà chúng ta đã biết tới gần đây .
+{"subject": [], "object": ["8&&một", "9&&số", "10&&mẫu", "11&&máy", "12&&của", "13&&NOKIA"], "aspect": ["1&&Đặc", "2&&điểm", "3&&này"], "predicate": ["6&&giống", "7&&với"], "label": "EQL"}
 
 Các cạnh còn lại	Các cạnh còn lại
 
 Khung máy cũng làm bằng nhựa như mặt lưng và được sơn màu đồng bộ.	Khung máy cũng làm bằng nhựa như mặt lưng và được sơn màu đồng bộ .
 
 Nó không mỏng như các dòng cao cấp nhưng làm tốt công việc của mình.	Nó không mỏng như các dòng cao cấp nhưng làm tốt công việc của mình .
+{"subject": ["1&&Nó"], "object": ["5&&các", "6&&dòng", "7&&cao", "8&&cấp"], "aspect": [], "predicate": ["2&&không", "3&&mỏng", "4&&như"], "label": "COM-"}
 
 Cạnh bên phải có nút nguồn cùng với khay sim, nó được đặt hơi trái ngược so với các mẫu điện thoại khác của Samsung đúng không nào.	Cạnh bên phải có nút nguồn cùng với khay sim , nó được đặt hơi trái ngược so với các mẫu điện thoại khác của Samsung đúng không nào .
+{"subject": ["12&&nó"], "object": ["20&&các", "21&&mẫu", "22&&điện", "23&&thoại", "24&&khác", "25&&của", "26&&Samsung"], "aspect": [], "predicate": ["15&&hơi", "16&&trái", "17&&ngược"], "label": "DIF"}
 
 alt: Đánh giá Samsung Galaxy A01	alt : Đánh giá Samsung Galaxy A01
 
@@ -117,16 +124,24 @@ Cạnh dưới Samsung Galaxy A01	Cạnh dưới Samsung Galaxy A01
 Cạnh dưới chỉ có một khe cắm sạc cùng với micro chính thôi nhé.	Cạnh dưới chỉ có một khe cắm sạc cùng với micro chính thôi nhé .
 
 Mình rất vui khi khe cắm sạc là USB type C cho phép tốc độ sạc và truyền tải dữ liệu nhanh hơn.	Mình rất vui khi khe cắm sạc là USB type C cho phép tốc độ sạc và truyền tải dữ liệu nhanh hơn .
+{"subject": ["9&&USB", "10&&type", "11&&C"], "object": [], "aspect": ["14&&tốc", "15&&độ", "16&&sạc", "17&&và", "18&&truyền", "19&&tải", "20&&dữ", "21&&liệu"], "predicate": ["22&&nhanh", "23&&hơn"], "label": "COM+"}
 
 Điều này lại không có ở một số đối thủ khác ở cùng mức giá này.	Điều này lại không có ở một số đối thủ khác ở cùng mức giá này .
+{"subject": [], "object": ["7&&một", "8&&số", "9&&đối", "10&&thủ", "11&&khác", "12&&ở", "13&&cùng", "14&&mức", "15&&giá", "16&&này"], "aspect": [], "predicate": ["4&&không", "5&&có"], "label": "DIF"}
 
 Màn hình	Màn hình
 
 Để giảm bớt giá thành của chiếc điện thoại này thì Samsung đã sử dụng công nghệ màn hình PLS là phiên bản cải tiến từ IPS.	Để giảm bớt giá thành của chiếc điện thoại này thì Samsung đã sử dụng công nghệ màn hình PLS là phiên bản cải tiến từ IPS .
 
 Nó có nhiều ưu điểm như giá rẻ hơn, màn hình sáng hơn, hiển thị đẹp hơn, góc nhìn tốt hơn một chút.	Nó có nhiều ưu điểm như giá rẻ hơn , màn hình sáng hơn , hiển thị đẹp hơn , góc nhìn tốt hơn một chút .
+{"subject": ["1&&Nó"], "object": [], "aspect": ["7&&giá"], "predicate": ["8&&rẻ", "9&&hơn"], "label": "COM+"}
+{"subject": ["1&&Nó"], "object": [], "aspect": ["11&&màn", "12&&hình"], "predicate": ["13&&sáng", "14&&hơn"], "label": "COM+"}
+{"subject": ["1&&Nó"], "object": [], "aspect": ["16&&hiển", "17&&thị"], "predicate": ["18&&đẹp", "19&&hơn"], "label": "COM+"}
+{"subject": ["1&&Nó"], "object": [], "aspect": ["21&&góc", "22&&nhìn"], "predicate": ["23&&tốt", "24&&hơn", "25&&một", "26&&chút"], "label": "COM+"}
 
 Nhưng ngược lại nó mỏng hơn và dễ vỡ hơn nếu có va chạm nhé.	Nhưng ngược lại nó mỏng hơn và dễ vỡ hơn nếu có va chạm nhé .
+{"subject": ["4&&nó"], "object": [], "aspect": [], "predicate": ["5&&mỏng", "6&&hơn"], "label": "COM-"}
+{"subject": ["4&&nó"], "object": [], "aspect": [], "predicate": ["8&&dễ", "9&&vỡ", "10&&hơn"], "label": "COM-"}
 
 alt: Đánh giá Samsung Galaxy A01	alt : Đánh giá Samsung Galaxy A01
 
@@ -141,6 +156,7 @@ Nó vẫn tạo ra hình ảnh chất lượng tốt với mật độ điểm �
 Phần mềm	Phần mềm
 
 Cũng giống như những sản phẩm khác của Samsung năm nay, chiếc Samsung Galaxy A01 cũng chạy hệ điều hành Android 10.0 với giao diện OneUI 2.0.	Cũng giống như những sản phẩm khác của Samsung năm nay , chiếc Samsung Galaxy A01 cũng chạy hệ điều hành Android 10.0 với giao diện OneUI 2.0 .
+{"subject": ["13&&chiếc", "14&&Samsung", "15&&Galaxy", "16&&A01"], "object": ["4&&những", "5&&sản", "6&&phẩm", "7&&khác", "8&&của", "9&&Samsung", "10&&năm", "11&&nay"], "aspect": ["19&&hệ", "20&&điều", "21&&hành", "22&&Android", "23&&10.0"], "predicate": ["2&&giống"], "label": "EQL"}
 
 Nếu bạn đã trải nghiệm hệ điều hành và tùy biến OneUI 2.0 thì bạn sẽ cảm thấy nó sẽ hoạt động mượt mà ở chiếc A01 này.	Nếu bạn đã trải nghiệm hệ điều hành và tùy biến OneUI 2.0 thì bạn sẽ cảm thấy nó sẽ hoạt động mượt mà ở chiếc A01 này .
 
@@ -161,8 +177,10 @@ Hiệu năng tổng thể	Hiệu năng tổng thể
 Nhìn vào các điểm số đánh giá như hình dưới thì chúng ta có thể thấy điểm hiệu năng của Snapdragon 439 cũng không quá cao.	Nhìn vào các điểm số đánh giá như hình dưới thì chúng ta có thể thấy điểm hiệu năng của Snapdragon 439 cũng không quá cao .
 
 Mặc dù nó vẫn mạnh hơn tầm 20% so với tiền nhiệm nhưng nó vẫn chỉ là chipset giá rẻ.	Mặc dù nó vẫn mạnh hơn tầm 20% so với tiền nhiệm nhưng nó vẫn chỉ là chipset giá rẻ .
+{"subject": ["3&&nó"], "object": ["11&&tiền", "12&&nhiệm"], "aspect": [], "predicate": ["5&&mạnh", "6&&hơn", "7&&tầm", "8&&20%"], "label": "COM+"}
 
 Nó không thể so sánh được với những dòng cao hơn nhưng cung cấp đủ nhu cầu cho một chiếc điện thoại tầm 2 triệu.	Nó không thể so sánh được với những dòng cao hơn nhưng cung cấp đủ nhu cầu cho một chiếc điện thoại tầm 2 triệu .
+{"subject": ["1&&Nó"], "object": ["8&&những", "9&&dòng", "10&&cao", "11&&hơn"], "aspect": [], "predicate": ["2&&không", "3&&thể", "4&&so", "5&&sánh", "6&&được"], "label": "COM-"}
 
 alt: Đánh giá Samsung Galaxy A01	alt : Đánh giá Samsung Galaxy A01
 
@@ -211,6 +229,7 @@ Với sự hỗ trợ từ cảm biến chiều sâu và tự động lấy nét
 Nhận diện chủ thể rất tốt, dù là người hay vật.	Nhận diện chủ thể rất tốt , dù là người hay vật .
 
 Tất nhiên phần viền nó sẽ không quá đồng đều như các điện thoại cao cấp nhưng theo mình với mức giá này là quá tuyệt vời.	Tất nhiên phần viền nó sẽ không quá đồng đều như các điện thoại cao cấp nhưng theo mình với mức giá này là quá tuyệt vời .
+{"subject": ["5&&nó"], "object": ["12&&các", "13&&điện", "14&&thoại", "15&&cao", "16&&cấp"], "aspect": ["3&&phần", "4&&viền"], "predicate": ["7&&không", "8&&quá", "9&&đồng", "10&&đều", "11&&như"], "label": "COM-"}
 
 alt: Đánh giá Samsung Galaxy A01	alt : Đánh giá Samsung Galaxy A01
 
@@ -237,6 +256,7 @@ Hình ảnh sẽ bị giật và khó có thể tìm được một cảnh quay 
 Tuổi thọ pin	Tuổi thọ pin
 
 Chiếc Samsung Galaxy A01 trang bị viên pin chỉ là 3.000mAh, đây là mức dung lượng thực sự thấp so với các đối thủ.	Chiếc Samsung Galaxy A01 trang bị viên pin chỉ là 3.000mAh , đây là mức dung lượng thực sự thấp so với các đối thủ .
+{"subject": ["1&&Chiếc", "2&&Samsung", "3&&Galaxy", "4&&A01"], "object": ["23&&các", "24&&đối", "25&&thủ"], "aspect": ["7&&viên", "8&&pin"], "predicate": ["18&&thực", "19&&sự", "20&&thấp", "21&&so", "22&&với"], "label": "COM-"}
 
 Thế nhưng nghĩ lại mình thấy như vậy là đủ rồi, bởi vì bạn không thể chơi game nên nhiều pin cũng chẳng làm gì nhiều.	Thế nhưng nghĩ lại mình thấy như vậy là đủ rồi , bởi vì bạn không thể chơi game nên nhiều pin cũng chẳng làm gì nhiều .
 
@@ -253,22 +273,35 @@ Trong tầm giá của chiếc Samsung Galaxy A01 cũng có những lựa chọn
 Có thể nó không mạnh mẽ về chụp ảnh nhưng mạnh về mặt khác.	Có thể nó không mạnh mẽ về chụp ảnh nhưng mạnh về mặt khác .
 
 Đầu tiên là chiếc  Vsmart Star 4  với bộ xử lý tương đương, giá cao hơn chút đỉnh nhưng vượt trội về nhiều mặt.	Đầu tiên là chiếc Vsmart Star 4 với bộ xử lý tương đương , giá cao hơn chút đỉnh nhưng vượt trội về nhiều mặt .
+{"subject": ["4&&chiếc", "5&&Vsmart", "6&&Star", "7&&4"], "object": [], "aspect": ["9&&bộ", "10&&xử", "11&&lý"], "predicate": ["12&&tương", "13&&đương"], "label": "EQL"}
+{"subject": ["4&&chiếc", "5&&Vsmart", "6&&Star", "7&&4"], "object": [], "aspect": ["15&&giá"], "predicate": ["16&&cao", "17&&hơn", "18&&chút", "19&&đỉnh"], "label": "COM-"}
+{"subject": ["4&&chiếc", "5&&Vsmart", "6&&Star", "7&&4"], "object": [], "aspect": ["24&&nhiều", "25&&mặt"], "predicate": ["21&&vượt", "22&&trội"], "label": "COM+"}
 
 Đầu tiên là một màn hình lớn hơn cùng công nghệ IPS LCD bền hơn.	Đầu tiên là một màn hình lớn hơn cùng công nghệ IPS LCD bền hơn .
+{"subject": [], "object": [], "aspect": ["5&&màn", "6&&hình"], "predicate": ["7&&lớn", "8&&hơn"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": ["10&&công", "11&&nghệ", "12&&IPS", "13&&LCD"], "predicate": ["14&&bền", "15&&hơn"], "label": "COM+"}
 
 Tiếp tục là camera lại trang bị ống kính góc siêu rộng thay vì cảm biến chiều sâu, thế nhưng nó vẫn chụp chân dung tốt.	Tiếp tục là camera lại trang bị ống kính góc siêu rộng thay vì cảm biến chiều sâu , thế nhưng nó vẫn chụp chân dung tốt .
 
 Nó có cảm biến vân tay và dung lượng pn cũng cao hơn	Nó có cảm biến vân tay và dung lượng pn cũng cao hơn
+{"subject": ["1&&Nó"], "object": [], "aspect": ["8&&dung", "9&&lượng", "10&&pn"], "predicate": ["12&&cao", "13&&hơn"], "label": "COM+"}
 
 Vivo Y1s  là một lựa chọn khác của bạn.	Vivo Y1s là một lựa chọn khác của bạn .
 
 Nó có bộ xử lý tương đương, cũng không có cảm biến vân tay và chỉ trang bị 1 camera sau.	Nó có bộ xử lý tương đương , cũng không có cảm biến vân tay và chỉ trang bị 1 camera sau .
+{"subject": ["1&&Nó"], "object": [], "aspect": ["3&&bộ", "4&&xử", "5&&lý"], "predicate": ["6&&tương", "7&&đương"], "label": "EQL"}
 
 Thế nhưng nó lại có một màn hình lớn hơn với công nghệ IPS LCD và dung lượng pin lên tới hơn 4000mAh	Thế nhưng nó lại có một màn hình lớn hơn với công nghệ IPS LCD và dung lượng pin lên tới hơn 4000mAh
+{"subject": ["3&&nó"], "object": [], "aspect": ["7&&màn", "8&&hình"], "predicate": ["9&&lớn", "10&&hơn"], "label": "COM+"}
 
 Xiaomi Redmi 9C  là một lựa chọn ổn hơn với mức giá cao hơn đôi chút và bộ xử lý tương đương.	Xiaomi Redmi 9C là một lựa chọn ổn hơn với mức giá cao hơn đôi chút và bộ xử lý tương đương .
+{"subject": ["1&&Xiaomi", "2&&Redmi", "3&&9C"], "object": [], "aspect": [], "predicate": ["8&&ổn", "9&&hơn"], "label": "COM+"}
+{"subject": ["1&&Xiaomi", "2&&Redmi", "3&&9C"], "object": [], "aspect": ["11&&mức", "12&&giá"], "predicate": ["13&&cao", "14&&hơn", "15&&đôi", "16&&chút"], "label": "COM-"}
+{"subject": ["1&&Xiaomi", "2&&Redmi", "3&&9C"], "object": [], "aspect": ["18&&bộ", "19&&xử", "20&&lý"], "predicate": ["21&&tương", "22&&đương"], "label": "EQL"}
 
 Tuy nhiên nó vượt trội đủ thứ, với một màn hình lớn hơn khá nhiều và hiển thị tốt.	Tuy nhiên nó vượt trội đủ thứ , với một màn hình lớn hơn khá nhiều và hiển thị tốt .
+{"subject": ["3&&nó"], "object": [], "aspect": ["6&&đủ", "7&&thứ"], "predicate": ["4&&vượt", "5&&trội"], "label": "COM+"}
+{"subject": ["3&&nó"], "object": [], "aspect": ["11&&màn", "12&&hình"], "predicate": ["13&&lớn", "14&&hơn", "15&&khá", "16&&nhiều"], "label": "COM+"}
 
 Camera trang bị hẳn bộ 3 vì thêm 1 ống kính macro.	Camera trang bị hẳn bộ 3 vì thêm 1 ống kính macro .
 

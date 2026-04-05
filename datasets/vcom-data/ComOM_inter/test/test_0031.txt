@@ -1,0 +1,61 @@
+1	title: Realme X7 đọ sức với Xiaomi Mi 10i và Samsung Galaxy M51	title : Realme X7 đọ sức với Xiaomi Mi 10i và Samsung Galaxy M51
+2	Thiết kế	Thiết kế
+3	alt: So sánh thiết kế	alt : So sánh thiết kế
+4	des: So sánh thiết kế	des : So sánh thiết kế
+5	Về thiết kế, cả ba  điện thoại  này sở hữu ngôn ngữ thiết kế khá khác biệt nhau.	Về thiết kế , cả ba điện thoại này sở hữu ngôn ngữ thiết kế khá khác biệt nhau .
+6	Trong đó,  Realme X7  cho sở hữu ngoại hình ấn tượng nhất.	Trong đó , Realme X7 cho sở hữu ngoại hình ấn tượng nhất .
+7	Smartphone này đi kèm với một lớp hoàn thiện bằng nhựa bóng ở mặt sau cùng với thiết lập ba camera và dòng khẩu hiệu lớn “Dare to Leap”.	Smartphone này đi kèm với một lớp hoàn thiện bằng nhựa bóng ở mặt sau cùng với thiết lập ba camera và dòng khẩu hiệu lớn “ Dare to Leap ” .
+8	Di động  Realme  còn có sẵn trong các tùy chọn màu Space Silver và Nebula đẹp mắt.	Di động Realme còn có sẵn trong các tùy chọn màu Space Silver và Nebula đẹp mắt .
+9	Còn  Xiaomi Mi 10i  có thiết kế màn hình “đục lỗ” bắt mắt nhưng nhiều người có thể sẽ không thích mô-đun camera hình ở phía sau của điện thoại này.	Còn Xiaomi Mi 10i có thiết kế màn hình “ đục lỗ ” bắt mắt nhưng nhiều người có thể sẽ không thích mô-đun camera hình ở phía sau của điện thoại này .
+10	Chưa hết, chiếc smartphone của  Xiaomi  hơi cồng kềnh vì nó nặng 214.5 gram và không phải là tùy chọn kiểu dáng đẹp nhất hiện có với độ dày 9mm.	Chưa hết , chiếc smartphone của Xiaomi hơi cồng kềnh vì nó nặng 214.5 gram và không phải là tùy chọn kiểu dáng đẹp nhất hiện có với độ dày 9mm .
+11	Galaxy M51  có ngôn ngữ thiết kế tương tự như các điện thoại thông minh  Samsung  khác trong tầm giá này.	Galaxy M51 có ngôn ngữ thiết kế tương tự như các điện thoại thông minh Samsung khác trong tầm giá này .
+12	Điện thoại sử dụng lớp hoàn thiện bằng glasstic như flagship Galaxy S21.	Điện thoại sử dụng lớp hoàn thiện bằng glasstic như flagship Galaxy S21 .
+13	Điều gây ngạc nhiên là chiếc điện thoại này có trọng lượng khá nhẹ là 213 gram mặc dù có pin dung lượng lớn 7,000mAh.	Điều gây ngạc nhiên là chiếc điện thoại này có trọng lượng khá nhẹ là 213 gram mặc dù có pin dung lượng lớn 7,000mAh .
+14	Màn hình	Màn hình
+15	alt: So sánh màn hình	alt : So sánh màn hình
+16	des: So sánh màn hình	des : So sánh màn hình
+17	Đến với màn hình, Realme X7 cung cấp tấm nền AMOLED 6.44 inch với độ phân giải Full-HD+ (2,400 x 1,080 pixel), có độ sáng 600 nits, tỷ lệ màn hình trên thân máy là 90.8%, tỷ lệ tương phản 1.000.000:1 và tốc độ lấy mẫu cảm ứng 180Hz. Đáng tiếc là điện thoại này chỉ hỗ  tần số quét 60Hz  tiêu chuẩn.	Đến với màn hình , Realme X7 cung cấp tấm nền AMOLED 6.44 inch với độ phân giải Full-HD + ( 2,400 x 1,080 pixel ) , có độ sáng 600 nits , tỷ lệ màn hình trên thân máy là 90.8% , tỷ lệ tương phản 1.000.000 : 1 và tốc độ lấy mẫu cảm ứng 180Hz . Đáng tiếc là điện thoại này chỉ hỗ tần số quét 60Hz tiêu chuẩn .
+18	Trong khi đó, Xiaomi Mi 10i 5G có màn hình 6.67 inch với độ phân giải Full-HD+ (2,400 x 1,080 pixel).	Trong khi đó , Xiaomi Mi 10i 5G có màn hình 6.67 inch với độ phân giải Full-HD + ( 2,400 x 1,080 pixel ) .
+19	Chiếc điện thoại này đi kèm với hỗ trợ HDR10+, 84% gam màu NTSC và được bảo vệ bởi  kính cường lực Corning Gorilla Glass 5 .	Chiếc điện thoại này đi kèm với hỗ trợ HDR10 + , 84% gam màu NTSC và được bảo vệ bởi kính cường lực Corning Gorilla Glass 5 .
+20	Màn hình này còn gây ấn tượng với tần số quét 120Hz siêu mượt.	Màn hình này còn gây ấn tượng với tần số quét 120Hz siêu mượt .
+21	Samsung Galaxy M51 có  màn hình Super AMOLED  Plus Infinity O 6.67 inch với độ phân giải 1,080 x 2,340 pixel, tỷ lệ khung hình 20:9, tốc độ làm mới 60Hz, mật độ điểm ảnh 386 ppi và độ sáng tối đa 420 nits.	Samsung Galaxy M51 có màn hình Super AMOLED Plus Infinity O 6.67 inch với độ phân giải 1,080 x 2,340 pixel , tỷ lệ khung hình 20 : 9 , tốc độ làm mới 60Hz , mật độ điểm ảnh 386 ppi và độ sáng tối đa 420 nits .
+22	Nhìn chung, nếu bạn tìm kiếm một chiếc điện thoại có màn hình AMOLED chất lượng, hiển thị màu sắc rực rỡ thì Galaxy M51 và Realme X7 có thể khiến bạn thích thú.	Nhìn chung , nếu bạn tìm kiếm một chiếc điện thoại có màn hình AMOLED chất lượng , hiển thị màu sắc rực rỡ thì Galaxy M51 và Realme X7 có thể khiến bạn thích thú .
+23	Tuy nhiên, nếu bạn muốn tốc độ làm tươi màn hình cao hơn thì Mi 10i là lựa chọn hoàn hảo cho bạn.	Tuy nhiên , nếu bạn muốn tốc độ làm tươi màn hình cao hơn thì Mi 10i là lựa chọn hoàn hảo cho bạn .
+24	Hiệu suất	Hiệu suất
+25	alt: So sánh hiệu năng	alt : So sánh hiệu năng
+26	des: So sánh hiệu năng	des : So sánh hiệu năng
+27	Realme X7 được trang bị chipset MediaTek Dimensity 800U đi kèm dung lượng RAM 8GB và bộ nhớ trong 128GB.	Realme X7 được trang bị chipset MediaTek Dimensity 800U đi kèm dung lượng RAM 8GB và bộ nhớ trong 128GB .
+28	Xiaomi Mi 10i 5G sử dụng SoC Qualcomm  Snapdragon 750G 5G  cùng với GPU Adreno 619, có RAM lên đến 8GB và bộ nhớ trong 128GB.	Xiaomi Mi 10i 5G sử dụng SoC Qualcomm Snapdragon 750G 5G cùng với GPU Adreno 619 , có RAM lên đến 8GB và bộ nhớ trong 128GB .
+29	Đến với Galaxy M51, chiếc điện thoại này được trang bị bộ vi xử lý Qualcomm Snapdragon 730G.	Đến với Galaxy M51 , chiếc điện thoại này được trang bị bộ vi xử lý Qualcomm Snapdragon 730G .
+30	Nó cũng cung cấp lên đến 8GB RAM và 128GB bộ nhớ trong.	Nó cũng cung cấp lên đến 8GB RAM và 128GB bộ nhớ trong .
+31	Do đó, cuộc chiến thực sự về hiệu năng là giữa chipset  MediaTek Dimensity 800U  và Snapdragon 750G 5G.	Do đó , cuộc chiến thực sự về hiệu năng là giữa chipset MediaTek Dimensity 800U và Snapdragon 750G 5G .
+32	Cả hai SoC đều cung cấp hiệu suất tốt hơn nhiều so với các chipset khác có sẵn trong phân khúc giá và hứa hẹn đáp ứng tốt hầu hết các nhu cầu sử dụng hàng ngày của người dùng.	Cả hai SoC đều cung cấp hiệu suất tốt hơn nhiều so với các chipset khác có sẵn trong phân khúc giá và hứa hẹn đáp ứng tốt hầu hết các nhu cầu sử dụng hàng ngày của người dùng .
+33	Máy ảnh	Máy ảnh
+34	alt: So sánh camera	alt : So sánh camera
+35	des: So sánh camera	des : So sánh camera
+36	Về khả năng nhiếp ảnh, Realme X7 sử dụng thiết lập ba camera với ống kính chính 64MP với khẩu độ f/1.8, ống kính góc siêu rộng 8MP với FoV 119 độ và camera chụp macro 2MP.	Về khả năng nhiếp ảnh , Realme X7 sử dụng thiết lập ba camera với ống kính chính 64MP với khẩu độ f / 1.8 , ống kính góc siêu rộng 8MP với FoV 119 độ và camera chụp macro 2MP .
+37	Ở mặt trước, điện thoại này có một camera 16MP để chụp ảnh “tự sướng” và gọi video call.	Ở mặt trước , điện thoại này có một camera 16MP để chụp ảnh “ tự sướng ” và gọi video call .
+38	Xiaomi Mi 10i 5G là điện thoại thông minh đầu tiên trong phân khúc này có camera sau 108MP.	Xiaomi Mi 10i 5G là điện thoại thông minh đầu tiên trong phân khúc này có camera sau 108MP .
+39	Điều này đi kèm với một ống kính góc siêu rộng 8MP, một ống kính macro 2MP và cảm biến độ sâu 2MP.	Điều này đi kèm với một ống kính góc siêu rộng 8MP , một ống kính macro 2MP và cảm biến độ sâu 2MP .
+40	Điện thoại có camera trước 16MP với khẩu độ f/2.45 để chụp ảnh “tự sướng” và gọi video call.	Điện thoại có camera trước 16MP với khẩu độ f / 2.45 để chụp ảnh “ tự sướng ” và gọi video call .
+41	Samsung Galaxy M51 đi kèm với thiết lập bốn camera với sự kết hợp của ống kính chính 64MP, ống kính góc rộng 12MP, cảm biến độ sâu 5MP và camera chụp macro 5MP.	Samsung Galaxy M51 đi kèm với thiết lập bốn camera với sự kết hợp của ống kính chính 64MP , ống kính góc rộng 12MP , cảm biến độ sâu 5MP và camera chụp macro 5MP .
+42	Ở mặt trước, bạn có camera selfie 32MP để chụp ảnh “tự sướng” và gọi video call.	Ở mặt trước , bạn có camera selfie 32MP để chụp ảnh “ tự sướng ” và gọi video call .
+43	Pin	Pin
+44	alt: Realme X7 (ảnh 1)	alt : Realme X7 ( ảnh 1 )
+45	des: Realme X7 (ảnh 1)	des : Realme X7 ( ảnh 1 )
+46	Về pin, Realme X7 cung cấp viên pin 4,310mAh với hỗ trợ sạc nhanh 50W.	Về pin , Realme X7 cung cấp viên pin 4,310mAh với hỗ trợ sạc nhanh 50W .
+47	Xiaomi Mi 10i 5G có pin 4,820mAh với hỗ trợ sạc nhanh 33W.	Xiaomi Mi 10i 5G có pin 4,820mAh với hỗ trợ sạc nhanh 33W .
+48	Samsung Galaxy M51 cung cấp pin dung lượng lớn 7,000mAh với giải pháp sạc nhanh 25W.	Samsung Galaxy M51 cung cấp pin dung lượng lớn 7,000mAh với giải pháp sạc nhanh 25W .
+49	Kết luận	Kết luận
+50	alt: Xiaomi Mi 10i	alt : Xiaomi Mi 10i
+51	des: Xiaomi Mi 10i	des : Xiaomi Mi 10i
+52	Nhìn chung, Realme X7 cạnh tranh gay gắt với Xiaomi Mi 10i 5G, trong khi nó vượt qua Galaxy M51 ở hầu hết mọi hạng mục.	Nhìn chung , Realme X7 cạnh tranh gay gắt với Xiaomi Mi 10i 5G , trong khi nó vượt qua Galaxy M51 ở hầu hết mọi hạng mục .
+53	Chiếc điện thoại mới nhất của Realme đi kèm với một bộ xử lý tốt cùng với hỗ trợ sạc nhanh 50W và hơn thế nữa.	Chiếc điện thoại mới nhất của Realme đi kèm với một bộ xử lý tốt cùng với hỗ trợ sạc nhanh 50W và hơn thế nữa .
+54	Xiaomi Mi 10i 5G cũng là một lựa chọn thay thế tốt khi bạn nhận được chipset 5G cùng với màn hình 120Hz, ba camera sau 108MP,...	Xiaomi Mi 10i 5G cũng là một lựa chọn thay thế tốt khi bạn nhận được chipset 5G cùng với màn hình 120Hz , ba camera sau 108MP , . . .
+{"subject": ["5-5&&cả", "5-6&&ba", "5-7&&điện", "5-8&&thoại", "5-9&&này"], "object": ["5-5&&cả", "5-6&&ba", "5-7&&điện", "5-8&&thoại", "5-9&&này"], "aspect": ["5-12&&ngôn", "5-13&&ngữ", "5-14&&thiết", "5-15&&kế"], "predicate": ["5-16&&khá", "5-17&&khác", "5-18&&biệt", "5-19&&nhau"], "label": "DIF"}
+{"subject": ["6-4&&Realme", "6-5&&X7"], "object": [], "aspect": ["6-9&&ngoại", "6-10&&hình"], "predicate": ["6-11&&ấn", "6-12&&tượng", "6-13&&nhất"], "label": "SUP+"}
+{"subject": ["11-1&&Galaxy", "11-2&&M51"], "object": ["11-11&&các", "11-12&&điện", "11-13&&thoại", "11-14&&thông", "11-15&&minh", "11-16&&Samsung", "11-17&&khác", "11-18&&trong", "11-19&&tầm", "11-20&&giá", "11-21&&này"], "aspect": ["11-4&&ngôn", "11-5&&ngữ", "11-6&&thiết", "11-7&&kế"], "predicate": ["11-8&&tương", "11-9&&tự"], "label": "EQL"}
+{"subject": ["32-1&&Cả", "32-2&&hai", "32-3&&SoC"], "object": ["32-14&&các", "32-15&&chipset", "32-16&&khác", "32-17&&có", "32-18&&sẵn", "32-19&&trong", "32-20&&phân", "32-21&&khúc", "32-22&&giá"], "aspect": ["32-7&&hiệu", "32-8&&suất"], "predicate": ["32-9&&tốt", "32-10&&hơn", "32-11&&nhiều"], "label": "COM+"}
+{"subject": ["32-1&&Cả", "32-2&&hai", "32-3&&SoC"], "object": ["32-1&&Cả", "32-2&&hai", "32-3&&SoC"], "aspect": ["32-7&&hiệu", "32-8&&suất", "32-9&&tốt", "32-10&&hơn", "32-11&&nhiều", "32-12&&so", "32-13&&với", "32-14&&các", "32-15&&chipset", "32-16&&khác", "32-17&&có", "32-18&&sẵn", "32-19&&trong", "32-20&&phân", "32-21&&khúc", "32-22&&giá"], "predicate": ["32-4&&đều", "32-5&&cung", "32-6&&cấp"], "label": "EQL"}
+{"subject": ["52-4&&Realme", "52-5&&X7"], "object": ["52-11&&Xiaomi", "52-12&&Mi", "52-13&&10i", "52-14&&5G"], "aspect": [], "predicate": ["52-6&&cạnh", "52-7&&tranh", "52-8&&gay", "52-9&&gắt"], "label": "EQL"}
+{"subject": ["52-18&&nó"], "object": ["52-21&&Galaxy", "52-22&&M51"], "aspect": ["52-24&&hầu", "52-25&&hết", "52-26&&mọi", "52-27&&hạng", "52-28&&mục"], "predicate": ["52-19&&vượt", "52-20&&qua"], "label": "COM+"}

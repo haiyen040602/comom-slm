@@ -1,0 +1,82 @@
+1	title: So sánh Samsung Galaxy M11, Redmi Note 8 và Realme Narzo 10	title : So sánh Samsung Galaxy M11 , Redmi Note 8 và Realme Narzo 10
+2	alt: Redmi Note 8 vs Realme Narzo 10 và Samsung Galaxy M11	alt : Redmi Note 8 vs Realme Narzo 10 và Samsung Galaxy M11
+3	des: Redmi Note 8 vs Realme Narzo 10 và Samsung Galaxy M11	des : Redmi Note 8 vs Realme Narzo 10 và Samsung Galaxy M11
+4	Samsung Galaxy M11 là một  điện thoại  thông minh mới của công ty Hàn Quốc trên thị trường.	Samsung Galaxy M11 là một điện thoại thông minh mới của công ty Hàn Quốc trên thị trường .
+5	Smartphone này sẽ được sắp xếp ở trong phân khúc tương tự như Xiaomi Redmi Note 8 và Realme Narzo 10.	Smartphone này sẽ được sắp xếp ở trong phân khúc tương tự như Xiaomi Redmi Note 8 và Realme Narzo 10 .
+6	Với màn hình Infinity-O, chip Qualcomm Snapdragon, 3 camera phía sau và dung lượng pin lớn, Galaxy M11 có thể cạnh tranh với hai đổi thủ kể trên hay không?	Với màn hình Infinity-O , chip Qualcomm Snapdragon , 3 camera phía sau và dung lượng pin lớn , Galaxy M11 có thể cạnh tranh với hai đổi thủ kể trên hay không ?
+7	Hãy cùng FPT Shop tìm hiểu trong bài viết so sánh thông số kỹ thuật dưới đây nhé.	Hãy cùng FPT Shop tìm hiểu trong bài viết so sánh thông số kỹ thuật dưới đây nhé .
+8	Thiết kế và hiển thị	Thiết kế và hiển thị
+9	alt: Samsung Galaxy M11	alt : Samsung Galaxy M11
+10	des: Samsung Galaxy M11	des : Samsung Galaxy M11
+11	Samsung Galaxy M11 có thân máy bằng polycarbonate và một  màn hình LCD  kích thước 6,4 inch, độ phân giải HD +, camera đục lỗ.	Samsung Galaxy M11 có thân máy bằng polycarbonate và một màn hình LCD kích thước 6,4 inch , độ phân giải HD + , camera đục lỗ .
+12	Ở phía sau, điện thoại có ba camera và máy quét vân tay điện dung.	Ở phía sau , điện thoại có ba camera và máy quét vân tay điện dung .
+13	Máy cũng có giắc cắm tai nghe 3,5 mm ở cạnh trên, nút nguồn và nút tăng giảm âm lượng ở cạnh bên phải, loa ngoài và cổng sạc micro-USB ở cạnh dưới.	Máy cũng có giắc cắm tai nghe 3,5 mm ở cạnh trên , nút nguồn và nút tăng giảm âm lượng ở cạnh bên phải , loa ngoài và cổng sạc micro-USB ở cạnh dưới .
+14	alt: Redmi Note 8	alt : Redmi Note 8
+15	des: Redmi Note 8	des : Redmi Note 8
+16	Còn đối với Redmi Note 8, nó có thiết kế bánh cao cấp hơn hẳn với mặt lưng kính và màn hình LCD kích thước 6,3 inch với độ phân giải Full HD +.	Còn đối với Redmi Note 8 , nó có thiết kế bánh cao cấp hơn hẳn với mặt lưng kính và màn hình LCD kích thước 6,3 inch với độ phân giải Full HD + .
+17	Máy có 4 camera ở phía sau, cảm biến hồng ngoại và mic ở cạnh trên, giắc cắm tai nghe 3.5mm cùng với loa ngoài và cổng sạc USB-C ở cạnh dưới.	Máy có 4 camera ở phía sau , cảm biến hồng ngoại và mic ở cạnh trên , giắc cắm tai nghe 3.5mm cùng với loa ngoài và cổng sạc USB-C ở cạnh dưới .
+18	Nút chỉnh âm lượng và nút nguồn được đặt ở bên cạnh phải, giống như Samsung Galaxy M31.	Nút chỉnh âm lượng và nút nguồn được đặt ở bên cạnh phải , giống như Samsung Galaxy M31 .
+19	alt: Realme Narzo 10	alt : Realme Narzo 10
+20	des: Realme Narzo 10	des : Realme Narzo 10
+21	Realme Narzo 10 được trang bị một màn hình LCD kích thước 6,5 inch, độ phân giải HD + và một notch giọt nước.	Realme Narzo 10 được trang bị một màn hình LCD kích thước 6,5 inch , độ phân giải HD + và một notch giọt nước .
+22	Thiết kế của chiếc máy này được lấy cảm hứng từ Realme X Master Edition ra mắt vào năm ngoái.	Thiết kế của chiếc máy này được lấy cảm hứng từ Realme X Master Edition ra mắt vào năm ngoái .
+23	Mặt lưng của điện thoại khá độc đáo với hai tông màu pha trộn lẫn nhau và thiết lập 4 camera sau được sắp xếp theo chiều dọc ở góc bên trái.	Mặt lưng của điện thoại khá độc đáo với hai tông màu pha trộn lẫn nhau và thiết lập 4 camera sau được sắp xếp theo chiều dọc ở góc bên trái .
+24	Realme Narzo 10 có nút chỉnh âm lượng ở cạnh bên trái và nút nguồn ở bên cạnh phải.	Realme Narzo 10 có nút chỉnh âm lượng ở cạnh bên trái và nút nguồn ở bên cạnh phải .
+25	Cạnh dưới có cổng USB Type-C, loa ngoài và giắc cắm tai nghe 3,5 mm.	Cạnh dưới có cổng USB Type-C , loa ngoài và giắc cắm tai nghe 3,5 mm .
+26	Bộ xử lý và phần mềm	Bộ xử lý và phần mềm
+27	alt: Samsung Galaxy M11	alt : Samsung Galaxy M11
+28	des: Samsung Galaxy M11	des : Samsung Galaxy M11
+29	Samsung Galaxy M11 được trang bị chip xử lý Qualcomm Snapdragon 450 kết hợp với 4GB RAM và 64GB lưu trữ ở  bên trong.	Samsung Galaxy M11 được trang bị chip xử lý Qualcomm Snapdragon 450 kết hợp với 4GB RAM và 64GB lưu trữ ở   bên trong .
+30	Bộ nhớ của máy có thể được mở rộng thêm lên tới 512GB bằng thẻ nhớ microSD.	Bộ nhớ của máy có thể được mở rộng thêm lên tới 512GB bằng thẻ nhớ microSD .
+31	Về phần mềm, điện thoại chạy giao diện người dùng One UI 2 dựa trên Android 10.	Về phần mềm , điện thoại chạy giao diện người dùng One UI 2 dựa trên Android 10 .
+32	alt: Redmi Note 8	alt : Redmi Note 8
+33	des: Redmi Note 8	des : Redmi Note 8
+34	Redmi Note 8 được trang bị chip xử lý Qualcomm Snapdragon 665 mạnh hơn hẳn so với Galaxy M11.	Redmi Note 8 được trang bị chip xử lý Qualcomm Snapdragon 665 mạnh hơn hẳn so với Galaxy M11 .
+35	Chip này được hỗ trợ bởi tối đa 6GB RAM và 128GB dung lượng lưu trữ có thể mở rộng thêm lên tới 512GB.	Chip này được hỗ trợ bởi tối đa 6GB RAM và 128GB dung lượng lưu trữ có thể mở rộng thêm lên tới 512GB .
+36	Máy được cài sẵn MIUI 11 dựa trên Android 10.	Máy được cài sẵn MIUI 11 dựa trên Android 10 .
+37	alt: Realme Narzo 10	alt : Realme Narzo 10
+38	des: Realme Narzo 10	des : Realme Narzo 10
+39	Mặt khác, Realme Narzo 10 được trang bị chip xử lý MediaTek tập trung vào trải nghiệm chơi game là Helio G80.	Mặt khác , Realme Narzo 10 được trang bị chip xử lý MediaTek tập trung vào trải nghiệm chơi game là Helio G80 .
+40	Chip được kết hợp với 4GB RAM và 128GB lưu trữ.	Chip được kết hợp với 4GB RAM và 128GB lưu trữ .
+41	Điện thoại chạy giao diện người dùng Realme UI với Android 10.	Điện thoại chạy giao diện người dùng Realme UI với Android 10 .
+42	Camera	Camera
+43	alt: Samsung Galaxy M11	alt : Samsung Galaxy M11
+44	des: Samsung Galaxy M11	des : Samsung Galaxy M11
+45	Nói tới nhiếp ảnh, Samsung Galaxy M11 có ba camera ở phía sau với cảm biến chính 13MP (f / 1.8), ống kính góc siêu rộng 5MP (f / 2.2) và cảm biến độ sâu 2MP (f / 2.4) để chụp ảnh chân dung.	Nói tới nhiếp ảnh , Samsung Galaxy M11 có ba camera ở phía sau với cảm biến chính 13MP ( f / 1.8 ) , ống kính góc siêu rộng 5MP ( f / 2.2 ) và cảm biến độ sâu 2MP ( f / 2.4 ) để chụp ảnh chân dung .
+46	Ở phía trước, chiếc máy này có một camera 8MP để chụp ảnh selfie và trò chuyện video.	Ở phía trước , chiếc máy này có một camera 8MP để chụp ảnh selfie và trò chuyện video .
+47	alt: Redmi Note 8	alt : Redmi Note 8
+48	des: Redmi Note 8	des : Redmi Note 8
+49	Mặt khác, Redmi Note 8 và Realme Narzo 10 có thiết lập 4 camera ở phía sau.	Mặt khác , Redmi Note 8 và Realme Narzo 10 có thiết lập 4 camera ở phía sau .
+50	Thiết lập đó cùng có cảm biến chính 48MP với khẩu độ f / 1.8, cảm biến góc cực rộng 8MP, cảm biến độ sâu 2MP để chụp chân dung và ống kính macro 2MP.	Thiết lập đó cùng có cảm biến chính 48MP với khẩu độ f / 1.8 , cảm biến góc cực rộng 8MP , cảm biến độ sâu 2MP để chụp chân dung và ống kính macro 2MP .
+51	Ở phía trước, điện thoại của Realme có camera 16MP f / 2.0, trong khi smartphone của Xiaomi có camera 13MP f / 2.0 để chụp ảnh selfie.	Ở phía trước , điện thoại của Realme có camera 16MP f / 2.0 , trong khi smartphone của Xiaomi có camera 13MP f / 2.0 để chụp ảnh selfie .
+52	Pin và các tính năng khác	Pin và các tính năng khác
+53	alt: Realme Narzo 10	alt : Realme Narzo 10
+54	des: Realme Narzo 10	des : Realme Narzo 10
+55	Samsung Galaxy M11 sở hữu pin 5.000mAh với hỗ trợ sạc nhanh 15W qua cổng micro USB, trong khi Redmi Note 8 có pin 4.000mAh và hỗ trợ sạc nhanh 18W qua cổng Type-C.	Samsung Galaxy M11 sở hữu pin 5.000mAh với hỗ trợ sạc nhanh 15W qua cổng micro USB , trong khi Redmi Note 8 có pin 4.000mAh và hỗ trợ sạc nhanh 18W qua cổng Type-C .
+56	Narzo 10 có pin 5.000mAh và công nghệ sạc nhanh 18W qua cổng Type-C.	Narzo 10 có pin 5.000mAh và công nghệ sạc nhanh 18W qua cổng Type-C .
+57	alt: Redmi Note 8	alt : Redmi Note 8
+58	des: Redmi Note 8	des : Redmi Note 8
+59	Cả ba điện thoại đều có máy quét vân tay ở mặt lưng phía sau để bảo vệ dữ liệu người dùng và kết nối như 4G LTE, khe cắm SIM kép, Wi-Fi, Bluetooth 5.0, GPS / GLONASS cùng giắc cắm tai nghe 3,5mm chuyên dụng cho âm thanh.	Cả ba điện thoại đều có máy quét vân tay ở mặt lưng phía sau để bảo vệ dữ liệu người dùng và kết nối như 4G LTE , khe cắm SIM kép , Wi-Fi , Bluetooth 5.0 , GPS / GLONASS cùng giắc cắm tai nghe 3,5mm chuyên dụng cho âm thanh .
+60	Nói chung, chúng có rất ít khác biệt về mảng này.	Nói chung , chúng có rất ít khác biệt về mảng này .
+61	Kết luận	Kết luận
+62	alt: Realme Narzo 10	alt : Realme Narzo 10
+63	des: Realme Narzo 10	des : Realme Narzo 10
+64	Xem qua phần so sánh thông số kỹ thuật ở trên,  Samsung Galaxy M11  dường như bị áp đảo so với  Realme Narzo 10  và  Redmi Note 8 .	Xem qua phần so sánh thông số kỹ thuật ở trên , Samsung Galaxy M11 dường như bị áp đảo so với Realme Narzo 10 và Redmi Note 8 .
+65	Cả hai điện thoại từ thương hiệu Xiaomi và Realme đều có phần cứng mạnh hơn và thiết lập camera tốt hơn.	Cả hai điện thoại từ thương hiệu Xiaomi và Realme đều có phần cứng mạnh hơn và thiết lập camera tốt hơn .
+66	Tuy nhiên, smartphone của Samsung có thể chiến thắng nhờ thiết kế màn hình đục lỗ đẹp mắt hơn, bởi vì bạn khó có thể kiếm được thiết bị có giá thấp như vậy được trang bị màn hình đục lỗ.	Tuy nhiên , smartphone của Samsung có thể chiến thắng nhờ thiết kế màn hình đục lỗ đẹp mắt hơn , bởi vì bạn khó có thể kiếm được thiết bị có giá thấp như vậy được trang bị màn hình đục lỗ .
+67	Bạn nghĩ sao về nhận xét này?	Bạn nghĩ sao về nhận xét này ?
+68	Hãy chia sẻ suy nghĩ với FPT Shop ở phần bình luận cuối bài viết nhé.	Hãy chia sẻ suy nghĩ với FPT Shop ở phần bình luận cuối bài viết nhé .
+69	Theo  91mobiles	Theo 91mobiles
+{"subject": ["5-1&&Smartphone", "5-2&&này"], "object": ["5-14&&Xiaomi", "5-15&&Redmi", "5-16&&Note", "5-17&&8"], "aspect": ["5-9&&phân", "5-10&&khúc"], "predicate": ["5-11&&tương", "5-12&&tự"], "label": "EQL"}
+{"subject": ["5-1&&Smartphone", "5-2&&này"], "object": ["5-19&&Realme", "5-20&&Narzo", "5-21&&10"], "aspect": ["5-9&&phân", "5-10&&khúc"], "predicate": ["5-11&&tương", "5-12&&tự"], "label": "EQL"}
+{"subject": ["16-8&&nó"], "object": [], "aspect": ["16-10&&thiết", "16-11&&kế"], "predicate": ["16-13&&cao", "16-14&&cấp", "16-15&&hơn", "16-16&&hẳn"], "label": "COM+"}
+{"subject": ["34-1&&Redmi", "34-2&&Note", "34-3&&8"], "object": ["34-18&&Galaxy", "34-19&&M11"], "aspect": ["34-7&&chip", "34-8&&xử", "34-9&&lý"], "predicate": ["34-13&&mạnh", "34-14&&hơn", "34-15&&hẳn"], "label": "COM+"}
+{"subject": ["59-1&&Cả", "59-2&&ba", "59-3&&điện", "59-4&&thoại"], "object": ["59-1&&Cả", "59-2&&ba", "59-3&&điện", "59-4&&thoại"], "aspect": ["59-7&&máy", "59-8&&quét", "59-9&&vân", "59-10&&tay", "59-11&&ở", "59-12&&mặt", "59-13&&lưng", "59-14&&phía", "59-15&&sau"], "predicate": ["59-5&&đều", "59-6&&có"], "label": "EQL"}
+{"subject": ["59-1&&Cả", "59-2&&ba", "59-3&&điện", "59-4&&thoại"], "object": ["59-1&&Cả", "59-2&&ba", "59-3&&điện", "59-4&&thoại"], "aspect": ["59-24&&kết", "59-25&&nối", "59-26&&như", "59-27&&4G", "59-28&&LTE", "59-29&&,", "59-30&&khe", "59-31&&cắm", "59-32&&SIM", "59-33&&kép", "59-34&&,", "59-35&&Wi-Fi", "59-36&&,", "59-37&&Bluetooth", "59-38&&5.0", "59-39&&,", "59-40&&GPS", "59-41&&/", "59-42&&GLONASS"], "predicate": ["59-5&&đều", "59-6&&có"], "label": "EQL"}
+{"subject": ["59-1&&Cả", "59-2&&ba", "59-3&&điện", "59-4&&thoại"], "object": ["59-1&&Cả", "59-2&&ba", "59-3&&điện", "59-4&&thoại"], "aspect": ["59-44&&giắc", "59-45&&cắm", "59-46&&tai", "59-47&&nghe", "59-48&&3,5mm", "59-49&&chuyên", "59-50&&dụng", "59-51&&cho", "59-52&&âm", "59-53&&thanh"], "predicate": ["59-5&&đều", "59-6&&có"], "label": "EQL"}
+{"subject": ["60-4&&chúng"], "object": ["60-4&&chúng"], "aspect": ["60-11&&mảng", "60-12&&này"], "predicate": ["60-6&&rất", "60-7&&ít", "60-8&&khác", "60-9&&biệt"], "label": "EQL"}
+{"subject": ["64-13&&Samsung", "64-14&&Galaxy", "64-15&&M11"], "object": ["64-23&&Realme", "64-24&&Narzo", "64-25&&10"], "aspect": ["64-6&&thông", "64-7&&số", "64-8&&kỹ", "64-9&&thuật"], "predicate": ["64-16&&dường", "64-17&&như", "64-18&&bị", "64-19&&áp", "64-20&&đảo"], "label": "COM-"}
+{"subject": ["64-13&&Samsung", "64-14&&Galaxy", "64-15&&M11"], "object": ["64-27&&Redmi", "64-28&&Note"], "aspect": ["64-6&&thông", "64-7&&số", "64-8&&kỹ", "64-9&&thuật"], "predicate": ["64-16&&dường", "64-17&&như", "64-18&&bị", "64-19&&áp", "64-20&&đảo"], "label": "COM-"}
+{"subject": ["65-1&&Cả", "65-2&&hai", "65-3&&điện", "65-4&&thoại", "65-5&&từ", "65-6&&thương", "65-7&&hiệu", "65-8&&Xiaomi", "65-9&&và", "65-10&&Realme"], "object": [], "aspect": ["65-13&&phần", "65-14&&cứng"], "predicate": ["65-15&&mạnh", "65-16&&hơn"], "label": "COM+"}
+{"subject": ["65-1&&Cả", "65-2&&hai", "65-3&&điện", "65-4&&thoại", "65-5&&từ", "65-6&&thương", "65-7&&hiệu", "65-8&&Xiaomi", "65-9&&và", "65-10&&Realme"], "object": [], "aspect": ["65-18&&thiết", "65-19&&lập", "65-20&&camera"], "predicate": ["65-21&&tốt", "65-22&&hơn"], "label": "COM+"}
+{"subject": ["66-4&&smartphone", "66-5&&của", "66-6&&Samsung"], "object": [], "aspect": ["66-12&&thiết", "66-13&&kế", "66-14&&màn", "66-15&&hình"], "predicate": ["66-18&&đẹp", "66-19&&mắt", "66-20&&hơn"], "label": "COM+"}

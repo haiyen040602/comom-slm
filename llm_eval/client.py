@@ -9,6 +9,10 @@ class BaseLLMClient:
     def generate(self, messages: List[Dict[str, str]]) -> str:
         raise NotImplementedError
 
+    def generate_batch(self, messages_batch: List[List[Dict[str, str]]]) -> List[str]:
+        # Fallback implementation for providers that do not support true batch requests.
+        return [self.generate(messages) for messages in messages_batch]
+
 
 class OpenAICompatibleClient(BaseLLMClient):
     def __init__(
@@ -88,6 +92,10 @@ class HuggingFaceLocalClient(BaseLLMClient):
 
         self.tokenizer = AutoTokenizer.from_pretrained(model)
         self.model = AutoModelForCausalLM.from_pretrained(model, **model_kwargs)
+        self.model.eval()
+
+        if hasattr(self.tokenizer, "padding_side"):
+            self.tokenizer.padding_side = "left"
 
         if self.tokenizer.pad_token_id is None and self.tokenizer.eos_token_id is not None:
             self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
@@ -125,9 +133,52 @@ class HuggingFaceLocalClient(BaseLLMClient):
         if do_sample:
             gen_kwargs["temperature"] = self.temperature
 
-        with torch.no_grad():
+        with torch.inference_mode():
             output_ids = self.model.generate(**inputs, **gen_kwargs)
 
         prompt_len = inputs["input_ids"].shape[1]
         gen_ids = output_ids[0][prompt_len:]
         return self.tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+
+    def generate_batch(self, messages_batch: List[List[Dict[str, str]]]) -> List[str]:
+        import torch
+
+        if not messages_batch:
+            return []
+
+        prompts = [self._messages_to_prompt(messages) for messages in messages_batch]
+        encoded = self.tokenizer(
+            prompts,
+            return_tensors="pt",
+            padding=True,
+            truncation=True,
+        )
+        encoded = {k: v.to(self.model.device) for k, v in encoded.items()}
+
+        do_sample = self.temperature > 0
+        gen_kwargs = {
+            "max_new_tokens": self.max_output_tokens,
+            "do_sample": do_sample,
+            "pad_token_id": self.tokenizer.pad_token_id,
+            "eos_token_id": self.tokenizer.eos_token_id,
+        }
+        if do_sample:
+            gen_kwargs["temperature"] = self.temperature
+
+        with torch.inference_mode():
+            output_ids = self.model.generate(**encoded, **gen_kwargs)
+
+        results: List[str] = []
+        input_ids = encoded["input_ids"]
+        attention_mask = encoded.get("attention_mask")
+
+        for i in range(output_ids.shape[0]):
+            if attention_mask is not None:
+                prompt_len = int(attention_mask[i].sum().item())
+            else:
+                prompt_len = input_ids.shape[1]
+            gen_ids = output_ids[i][prompt_len:]
+            text = self.tokenizer.decode(gen_ids, skip_special_tokens=True).strip()
+            results.append(text)
+
+        return results

@@ -1,0 +1,63 @@
+1	title: Camera Xiaomi Mi 10 Pro và Galaxy S20 Ultra: Ngôi vương là ai?	title : Camera Xiaomi Mi 10 Pro và Galaxy S20 Ultra : Ngôi vương là ai ?
+2	Galaxy S20 Ultra ra mắt được không lâu thì lại phải đối mặt với đối thủ mới.	Galaxy S20 Ultra ra mắt được không lâu thì lại phải đối mặt với đối thủ mới .
+3	Lần này, đối thủ Xiaomi Mi 10 Pro cũng có khả năng camera tuyệt vời.	Lần này , đối thủ Xiaomi Mi 10 Pro cũng có khả năng camera tuyệt vời .
+4	Tuy nhiên, liệu Galaxy S20 Ultra có bị thất thế sớm thế?	Tuy nhiên , liệu Galaxy S20 Ultra có bị thất thế sớm thế ?
+5	Hãy cùng XTmobile đi tìm lời giải đáp.	Hãy cùng XTmobile đi tìm lời giải đáp .
+6	Xiaomi Mi 10 Pro vs Galaxy S20 Ultra: Camera	Xiaomi Mi 10 Pro vs Galaxy S20 Ultra : Camera
+7	Cả Xiaomi Mi 10 Pro và Galaxy S20 Ultra đều có thiết lập camera bốn phía sau.	Cả Xiaomi Mi 10 Pro và Galaxy S20 Ultra đều có thiết lập camera bốn phía sau .
+8	Trong đó cảm biến camera chính kích thước 108MP với OIS.	Trong đó cảm biến camera chính kích thước 108MP với OIS .
+9	Các cảm biến camera còn lại trên Mi 10 bao gồm ống kính tele 12MP với zoom quang 2x để chụp ảnh chân dung.	Các cảm biến camera còn lại trên Mi 10 bao gồm ống kính tele 12MP với zoom quang 2x để chụp ảnh chân dung .
+10	Một ống kính tele 8MP khác với zoom quang 5x va cuối cùng là ống kính góc siêu nét 20MP.	Một ống kính tele 8MP khác với zoom quang 5x va cuối cùng là ống kính góc siêu nét 20MP .
+11	So với bản tiêu chuẩn Xiaomi Mi 10, chiếc điện thoại Mi 10 Pro có khả năng quay video 8K và zoom lên tới 50 lần.	So với bản tiêu chuẩn Xiaomi Mi 10 , chiếc điện thoại Mi 10 Pro có khả năng quay video 8K và zoom lên tới 50 lần .
+12	Trong khi đó các cảm biến camera còn lại trên Galaxy S20 Ultra bao gồm ống kính kiểu kính tiềm vọng 48MP với zoom lai 10x, ống kính góc siêu rộng 12MP và cảm biến độ sâu ToF 3D.	Trong khi đó các cảm biến camera còn lại trên Galaxy S20 Ultra bao gồm ống kính kiểu kính tiềm vọng 48MP với zoom lai 10x , ống kính góc siêu rộng 12MP và cảm biến độ sâu ToF 3D .
+13	Galaxy S20 Ultra hỗ trợ tính năng Zoom không gian mới của Samsung, cho phép thu phóng siêu phân giải lên tới 100 lần.	Galaxy S20 Ultra hỗ trợ tính năng Zoom không gian mới của Samsung , cho phép thu phóng siêu phân giải lên tới 100 lần .
+14	alt: Thiết lập camera cực khủng trên S20 Ultra	alt : Thiết lập camera cực khủng trên S20 Ultra
+15	des:	des :
+16	Thiết lập camera cực khủng trên S20 Ultra	Thiết lập camera cực khủng trên S20 Ultra
+17	Camera trước trên Mi 10 Pro là một game cảm biến 20MP được đặt trong một nốt ruồi bên trái màn hình.	Camera trước trên Mi 10 Pro là một game cảm biến 20MP được đặt trong một nốt ruồi bên trái màn hình .
+18	Galaxy S20 Ultra có cảm biến camera trước 40MP được đặt trong một camera chính giữa màn hình.	Galaxy S20 Ultra có cảm biến camera trước 40MP được đặt trong một camera chính giữa màn hình .
+19	Thiết lập camera mới này cũng có thể quay video ở mức 8K.	Thiết lập camera mới này cũng có thể quay video ở mức 8K .
+20	So sánh Mi 10 Pro vs Galaxy S20 Ultra: Ảnh chụp thực tế	So sánh Mi 10 Pro vs Galaxy S20 Ultra : Ảnh chụp thực tế
+21	So sánh Mi 10 Pro vs Galaxy S20 Ultra: Ảnh chụp thực tế	So sánh Mi 10 Pro vs Galaxy S20 Ultra : Ảnh chụp thực tế
+22	Thật khó để đánh giá camera của 2 smartphone này.	Thật khó để đánh giá camera của 2 smartphone này .
+23	Tuy nhiên, hãy chiêm ngưỡng các bức hình chụp sau đây và cho biết cảm nhận của bạn nhé!	Tuy nhiên , hãy chiêm ngưỡng các bức hình chụp sau đây và cho biết cảm nhận của bạn nhé !
+24	alt: Ảnh chụp bằng S20 Ultra và Mi 10 Pro trong điều kiện đủ sáng	alt : Ảnh chụp bằng S20 Ultra và Mi 10 Pro trong điều kiện đủ sáng
+25	des:	des :
+26	Ảnh chụp bằng S20 Ultra và Mi 10 Pro trong điều kiện đủ sáng	Ảnh chụp bằng S20 Ultra và Mi 10 Pro trong điều kiện đủ sáng
+27	alt: Màu sắc ảnh chụp S20 Ultra chân thực hơn	alt : Màu sắc ảnh chụp S20 Ultra chân thực hơn
+28	des:	des :
+29	Màu sắc ảnh chụp S20 Ultra chân thực hơn	Màu sắc ảnh chụp S20 Ultra chân thực hơn
+30	alt: Bức ảnh chụp với S20 Ultra với các chi tiết trong bóng dâm sắc nét hơn	alt : Bức ảnh chụp với S20 Ultra với các chi tiết trong bóng dâm sắc nét hơn
+31	des:	des :
+32	Bức ảnh chụp với S20 Ultra với các chi tiết trong bóng dâm sắc nét hơn	Bức ảnh chụp với S20 Ultra với các chi tiết trong bóng dâm sắc nét hơn
+33	alt: Ngay khi thiếu sáng, S20 Ultra cũng tái tạo màu và cho nước ảnh sáng hơn	alt : Ngay khi thiếu sáng , S20 Ultra cũng tái tạo màu và cho nước ảnh sáng hơn
+34	des:	des :
+35	Ngay khi thiếu sáng, S20 Ultra cũng tái tạo màu và cho nước ảnh sáng hơn	Ngay khi thiếu sáng , S20 Ultra cũng tái tạo màu và cho nước ảnh sáng hơn
+36	alt: Các bức ảnh chụp với S20 có độ tương phản cao hơn	alt : Các bức ảnh chụp với S20 có độ tương phản cao hơn
+37	des:	des :
+38	Các bức ảnh chụp với S20 có độ tương phản cao hơn	Các bức ảnh chụp với S20 có độ tương phản cao hơn
+39	alt: Điện thoại Samsung chụp được các chi tiết cây cối tốt hơn	alt : Điện thoại Samsung chụp được các chi tiết cây cối tốt hơn
+40	des:	des :
+41	Điện thoại Samsung chụp được các chi tiết cây cối tốt hơn	Điện thoại Samsung chụp được các chi tiết cây cối tốt hơn
+42	alt: Chất lượng ảnh chụp đêm của 2 smartphone ngang ngửa	alt : Chất lượng ảnh chụp đêm của 2 smartphone ngang ngửa
+43	des:	des :
+44	Chất lượng ảnh chụp đêm của 2 smartphone ngang ngửa	Chất lượng ảnh chụp đêm của 2 smartphone ngang ngửa
+45	alt: Mi 10 Pro cho ra những bức hình khá nịnh mắt	alt : Mi 10 Pro cho ra những bức hình khá nịnh mắt
+46	des:	des :
+47	Mi 10 Pro cho ra những bức hình khá nịnh mắt	Mi 10 Pro cho ra những bức hình khá nịnh mắt
+48	Thông số camera của Mi 10 Pro và Samsung Galaxy S20 Ultra thực sự ấn tượng.	Thông số camera của Mi 10 Pro và Samsung Galaxy S20 Ultra thực sự ấn tượng .
+49	Đây chắc chắn là 2 smartphone camera tốt nhất trên thị trường hiện nay.	Đây chắc chắn là 2 smartphone camera tốt nhất trên thị trường hiện nay .
+50	Bạn yêu thích hình ảnh chụp bởi điện thoại nào hơn?	Bạn yêu thích hình ảnh chụp bởi điện thoại nào hơn ?
+{"subject": ["7-2&&Xiaomi", "7-3&&Mi", "7-4&&10", "7-5&&Pro"], "object": ["7-7&&Galaxy", "7-8&&S20", "7-9&&Ultra"], "aspect": ["7-14&&camera", "7-15&&bốn", "7-16&&phía", "7-17&&sau"], "predicate": ["7-10&&đều", "7-11&&có", "7-12&&thiết", "7-13&&lập"], "label": "EQL"}
+{"subject": ["29-5&&S20", "29-6&&Ultra"], "object": [], "aspect": ["29-1&&Màu", "29-2&&sắc", "29-3&&ảnh", "29-4&&chụp"], "predicate": ["29-7&&chân", "29-8&&thực", "29-9&&hơn"], "label": "COM+"}
+{"subject": ["29-3&&ảnh", "29-4&&chụp", "29-5&&S20", "29-6&&Ultra"], "object": [], "aspect": ["29-1&&Màu", "29-2&&sắc"], "predicate": ["29-7&&chân", "29-8&&thực", "29-9&&hơn"], "label": "COM+"}
+{"subject": ["32-1&&Bức", "32-2&&ảnh", "32-3&&chụp", "32-4&&với", "32-5&&S20", "32-6&&Ultra"], "object": [], "aspect": ["32-8&&các", "32-9&&chi", "32-10&&tiết", "32-11&&trong", "32-12&&bóng", "32-13&&dâm"], "predicate": ["32-14&&sắc", "32-15&&nét", "32-16&&hơn"], "label": "COM+"}
+{"subject": ["35-6&&S20", "35-7&&Ultra"], "object": [], "aspect": ["35-9&&tái", "35-10&&tạo", "35-11&&màu"], "predicate": ["35-16&&sáng", "35-17&&hơn"], "label": "COM+"}
+{"subject": ["35-6&&S20", "35-7&&Ultra"], "object": [], "aspect": ["35-13&&cho", "35-14&&nước", "35-15&&ảnh"], "predicate": ["35-16&&sáng", "35-17&&hơn"], "label": "COM+"}
+{"subject": ["36-8&&S20"], "object": [], "aspect": ["36-3&&Các", "36-4&&bức", "36-5&&ảnh", "36-6&&chụp"], "predicate": ["36-10&&độ", "36-11&&tương", "36-12&&phản", "36-13&&cao", "36-14&&hơn"], "label": "COM+"}
+{"subject": ["36-3&&Các", "36-4&&bức", "36-5&&ảnh", "36-6&&chụp", "36-7&&với", "36-8&&S20"], "object": [], "aspect": ["36-10&&độ", "36-11&&tương", "36-12&&phản"], "predicate": ["36-13&&cao", "36-14&&hơn"], "label": "COM+"}
+{"subject": ["38-6&&S20"], "object": [], "aspect": ["38-1&&Các", "38-2&&bức", "38-3&&ảnh", "38-4&&chụp"], "predicate": ["38-8&&độ", "38-9&&tương", "38-10&&phản", "38-11&&cao", "38-12&&hơn"], "label": "COM+"}
+{"subject": ["38-1&&Các", "38-2&&bức", "38-3&&ảnh", "38-4&&chụp", "38-5&&với", "38-6&&S20"], "object": [], "aspect": ["38-8&&độ", "38-9&&tương", "38-10&&phản"], "predicate": ["38-11&&cao", "38-12&&hơn"], "label": "COM+"}
+{"subject": ["41-1&&Điện", "41-2&&thoại", "41-3&&Samsung"], "object": [], "aspect": ["41-4&&chụp", "41-5&&được", "41-6&&các", "41-7&&chi", "41-8&&tiết", "41-9&&cây", "41-10&&cối"], "predicate": ["41-11&&tốt", "41-12&&hơn"], "label": "COM+"}
+{"subject": ["44-7&&2", "44-8&&smartphone"], "object": ["44-7&&2", "44-8&&smartphone"], "aspect": ["44-1&&Chất", "44-2&&lượng", "44-3&&ảnh", "44-4&&chụp", "44-5&&đêm"], "predicate": ["44-9&&ngang", "44-10&&ngửa"], "label": "EQL"}
+{"subject": ["44-3&&ảnh", "44-4&&chụp", "44-5&&đêm", "44-6&&của", "44-7&&2", "44-8&&smartphone"], "object": ["44-3&&ảnh", "44-4&&chụp", "44-5&&đêm", "44-6&&của", "44-7&&2", "44-8&&smartphone"], "aspect": ["44-1&&Chất", "44-2&&lượng"], "predicate": ["44-9&&ngang", "44-10&&ngửa"], "label": "EQL"}

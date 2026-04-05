@@ -19,6 +19,10 @@ Thông tin về iPhone 14 Series	Thông tin về iPhone 14 Series
 Thiết kế	Thiết kế
 
 Thiết kế của iPhone 14 phiên bản tiêu chuẩn và iPhone 14 Plus không có gì khác biệt với iPhone 13, đó là sở hữu khung viền vuông vức bằng nhôm, mặt lưng được làm bằng kính, màn hình được trang bị kính cường lực bền chắc, cụm camera tinh xảo được đặt chéo tương tự người anh em tiền nhiệm.	Thiết kế của iPhone 14 phiên bản tiêu chuẩn và iPhone 14 Plus không có gì khác biệt với iPhone 13 , đó là sở hữu khung viền vuông vức bằng nhôm , mặt lưng được làm bằng kính , màn hình được trang bị kính cường lực bền chắc , cụm camera tinh xảo được đặt chéo tương tự người anh em tiền nhiệm .
+{"subject": ["4&&iPhone", "5&&14", "6&&phiên", "7&&bản", "8&&tiêu", "9&&chuẩn"], "object": ["20&&iPhone", "21&&13"], "aspect": ["1&&Thiết", "2&&kế"], "predicate": ["14&&không", "15&&có", "16&&gì", "17&&khác", "18&&biệt"], "label": "EQL"}
+{"subject": ["11&&iPhone", "12&&14", "13&&Plus"], "object": ["20&&iPhone", "21&&13"], "aspect": ["1&&Thiết", "2&&kế"], "predicate": ["14&&không", "15&&có", "16&&gì", "17&&khác", "18&&biệt"], "label": "EQL"}
+{"subject": ["4&&iPhone", "5&&14", "6&&phiên", "7&&bản", "8&&tiêu", "9&&chuẩn"], "object": ["61&&người", "62&&anh", "63&&em", "64&&tiền", "65&&nhiệm"], "aspect": ["52&&cụm", "53&&camera"], "predicate": ["59&&tương", "60&&tự"], "label": "EQL"}
+{"subject": ["11&&iPhone", "12&&14", "13&&Plus"], "object": ["61&&người", "62&&anh", "63&&em", "64&&tiền", "65&&nhiệm"], "aspect": ["52&&cụm", "53&&camera"], "predicate": ["59&&tương", "60&&tự"], "label": "EQL"}
 
 Tất cả tạo nên diện mạo cao cấp, sang trọng và bền bỉ.	Tất cả tạo nên diện mạo cao cấp , sang trọng và bền bỉ .
 
@@ -35,10 +39,20 @@ des: Thiết kế màn hình "viên thuốc" đẹp mắt trên iPhone Pro và P
 Màn hình	Màn hình
 
 Màn hình iPhone 14 được mở rộng gần như là tràn viền, dễ thấy nhất là ở phiên bản Pro và Pro Max nhờ vào việc thay đổi sang thiết kế “viên thuốc”, tăng không gian hiển thị.	Màn hình iPhone 14 được mở rộng gần như là tràn viền , dễ thấy nhất là ở phiên bản Pro và Pro Max nhờ vào việc thay đổi sang thiết kế “ viên thuốc ” , tăng không gian hiển thị .
+{"subject": ["19&&phiên", "20&&bản", "21&&Pro"], "object": [], "aspect": ["39&&không", "40&&gian", "41&&hiển", "42&&thị"], "predicate": ["38&&tăng"], "label": "COM+"}
+{"subject": ["23&&Pro", "24&&Max"], "object": [], "aspect": ["39&&không", "40&&gian", "41&&hiển", "42&&thị"], "predicate": ["38&&tăng"], "label": "COM+"}
+{"subject": ["19&&phiên", "20&&bản", "21&&Pro"], "object": [], "aspect": ["31&&thiết", "32&&kế"], "predicate": ["28&&thay", "29&&đổi"], "label": "DIF"}
+{"subject": ["23&&Pro", "24&&Max"], "object": [], "aspect": ["31&&thiết", "32&&kế"], "predicate": ["28&&thay", "29&&đổi"], "label": "DIF"}
 
 Cụ thể, iPhone 14 và iPhone 14 Pro sở hữu màn hình kích thước 6.1 inch, phiên bản iPhone 14 Plus và iPhone 14 Pro Max sở hữu màn hình kích thước lớn hơn là 6.7 inch.	Cụ thể , iPhone 14 và iPhone 14 Pro sở hữu màn hình kích thước 6.1 inch , phiên bản iPhone 14 Plus và iPhone 14 Pro Max sở hữu màn hình kích thước lớn hơn là 6.7 inch .
+{"subject": ["21&&iPhone", "22&&14", "23&&Plus"], "object": ["4&&iPhone", "5&&14"], "aspect": ["31&&màn", "32&&hình"], "predicate": ["33&&kích", "34&&thước", "35&&lớn", "36&&hơn"], "label": "COM+"}
+{"subject": ["21&&iPhone", "22&&14", "23&&Plus"], "object": ["7&&iPhone", "8&&14", "9&&Pro"], "aspect": ["31&&màn", "32&&hình"], "predicate": ["33&&kích", "34&&thước", "35&&lớn", "36&&hơn"], "label": "COM+"}
+{"subject": ["25&&iPhone", "26&&14", "27&&Pro"], "object": ["4&&iPhone", "5&&14"], "aspect": ["31&&màn", "32&&hình"], "predicate": ["33&&kích", "34&&thước", "35&&lớn", "36&&hơn"], "label": "COM+"}
+{"subject": ["25&&iPhone", "26&&14", "27&&Pro"], "object": ["7&&iPhone", "8&&14", "9&&Pro"], "aspect": ["31&&màn", "32&&hình"], "predicate": ["33&&kích", "34&&thước", "35&&lớn", "36&&hơn"], "label": "COM+"}
 
 Hơn nữa, tất cả sản phẩm trong Series điều được trang bị công nghệ màn hình OLED Super Retina XDR tiên tiến, mang đến trải nghiệm hiển thị chân thật và thoải mái hơn trong khi lướt web hay xem hình ảnh, video.	Hơn nữa , tất cả sản phẩm trong Series điều được trang bị công nghệ màn hình OLED Super Retina XDR tiên tiến , mang đến trải nghiệm hiển thị chân thật và thoải mái hơn trong khi lướt web hay xem hình ảnh , video .
+{"subject": ["4&&tất", "5&&cả", "6&&sản", "7&&phẩm", "8&&trong", "9&&Series"], "object": ["4&&tất", "5&&cả", "6&&sản", "7&&phẩm", "8&&trong", "9&&Series"], "aspect": [], "predicate": ["10&&điều", "11&&được", "12&&trang", "13&&bị", "14&&công", "15&&nghệ", "16&&màn", "17&&hình", "18&&OLED", "19&&Super", "20&&Retina", "21&&XDR", "22&&tiên", "23&&tiến"], "label": "EQL"}
+{"subject": ["4&&tất", "5&&cả", "6&&sản", "7&&phẩm", "8&&trong", "9&&Series"], "object": [], "aspect": ["27&&trải", "28&&nghiệm", "29&&hiển", "30&&thị"], "predicate": ["31&&chân", "32&&thật", "33&&và", "34&&thoải", "35&&mái", "36&&hơn"], "label": "COM+"}
 
 Nên mua iPhone 14 hay Samsung Galaxy S22 thì tốt hơn?	Nên mua iPhone 14 hay Samsung Galaxy S22 thì tốt hơn ?
 
@@ -61,22 +75,39 @@ des: iPhone 14 Series sở hữu nhiều màu sắc để bạn tha hồ lựa c
 Hiệu năng	Hiệu năng
 
 Phiên bản iPhone 14 tiêu chuẩn và iPhone 14 Plus vẫn được trang bị chipset Apple A15 như iPhone 13.	Phiên bản iPhone 14 tiêu chuẩn và iPhone 14 Plus vẫn được trang bị chipset Apple A15 như iPhone 13 .
+{"subject": ["1&&Phiên", "2&&bản", "3&&iPhone", "4&&14", "5&&tiêu", "6&&chuẩn"], "object": ["19&&iPhone", "20&&13"], "aspect": [], "predicate": ["11&&vẫn", "12&&được", "13&&trang", "14&&bị", "15&&chipset", "16&&Apple", "17&&A15", "18&&như"], "label": "EQL"}
+{"subject": ["8&&iPhone", "9&&14", "10&&Plus"], "object": ["19&&iPhone", "20&&13"], "aspect": [], "predicate": ["11&&vẫn", "12&&được", "13&&trang", "14&&bị", "15&&chipset", "16&&Apple", "17&&A15", "18&&như"], "label": "EQL"}
 
 Tuy nhiên, iPhone 14 Pro và Pro Max lại được nâng cấp hiệu năng khi sở hữu Apple A16 Bionic hoàn toàn mới, giúp nâng cấp cấu hình, làm cho quá trình hoạt động của máy được vận hành êm ái và mượt mà hơn.	Tuy nhiên , iPhone 14 Pro và Pro Max lại được nâng cấp hiệu năng khi sở hữu Apple A16 Bionic hoàn toàn mới , giúp nâng cấp cấu hình , làm cho quá trình hoạt động của máy được vận hành êm ái và mượt mà hơn .
+{"subject": ["4&&iPhone", "5&&14", "6&&Pro"], "object": [], "aspect": ["34&&quá", "35&&trình", "36&&hoạt", "37&&động"], "predicate": ["41&&vận", "42&&hành", "43&&êm", "44&&ái", "45&&và", "46&&mượt", "47&&mà", "48&&hơn"], "label": "COM+"}
+{"subject": ["8&&Pro", "9&&Max"], "object": [], "aspect": ["34&&quá", "35&&trình", "36&&hoạt", "37&&động"], "predicate": ["41&&vận", "42&&hành", "43&&êm", "44&&ái", "45&&và", "46&&mượt", "47&&mà", "48&&hơn"], "label": "COM+"}
+{"subject": ["4&&iPhone", "5&&14", "6&&Pro"], "object": [], "aspect": ["14&&hiệu", "15&&năng"], "predicate": ["11&&được", "12&&nâng", "13&&cấp"], "label": "COM+"}
+{"subject": ["8&&Pro", "9&&Max"], "object": [], "aspect": ["14&&hiệu", "15&&năng"], "predicate": ["11&&được", "12&&nâng", "13&&cấp"], "label": "COM+"}
 
 Chip A16 Bionic chứa 16 tỷ bóng bán dẫn, sản xuất trên quy trình 4nm và được tập trung cải tiến ba nhân tố chính đó là năng lượng, màn hình và camera.	Chip A16 Bionic chứa 16 tỷ bóng bán dẫn , sản xuất trên quy trình 4nm và được tập trung cải tiến ba nhân tố chính đó là năng lượng , màn hình và camera .
+{"subject": ["1&&Chip", "2&&A16", "3&&Bionic"], "object": [], "aspect": ["29&&năng", "30&&lượng"], "predicate": ["18&&được", "19&&tập", "20&&trung", "21&&cải", "22&&tiến"], "label": "COM+"}
+{"subject": ["1&&Chip", "2&&A16", "3&&Bionic"], "object": [], "aspect": ["32&&màn", "33&&hình"], "predicate": ["18&&được", "19&&tập", "20&&trung", "21&&cải", "22&&tiến"], "label": "COM+"}
+{"subject": ["1&&Chip", "2&&A16", "3&&Bionic"], "object": [], "aspect": ["35&&camera"], "predicate": ["18&&được", "19&&tập", "20&&trung", "21&&cải", "22&&tiến"], "label": "COM+"}
 
 Apple cho biết, con chip này mang đến hiệu suất nhanh hơn 40% so với các đối thủ, nâng cấp bộ nhớ tăng thêm 50%, nâng cao cải thiện cảm biến máy ảnh quad ‑ pixel nhưng vẫn đảm bảo tiết kiệm năng lượng vượt trội và cho thời lượng pin bền bỉ.	Apple cho biết , con chip này mang đến hiệu suất nhanh hơn 40% so với các đối thủ , nâng cấp bộ nhớ tăng thêm 50% , nâng cao cải thiện cảm biến máy ảnh quad ‑ pixel nhưng vẫn đảm bảo tiết kiệm năng lượng vượt trội và cho thời lượng pin bền bỉ .
+{"subject": ["5&&con", "6&&chip", "7&&này"], "object": ["17&&các", "18&&đối", "19&&thủ"], "aspect": ["10&&hiệu", "11&&suất"], "predicate": ["12&&nhanh", "13&&hơn", "14&&40%"], "label": "COM+"}
+{"subject": ["5&&con", "6&&chip", "7&&này"], "object": ["17&&các", "18&&đối", "19&&thủ"], "aspect": ["21&&nâng", "22&&cấp", "23&&bộ", "24&&nhớ"], "predicate": ["25&&tăng", "26&&thêm", "27&&50%"], "label": "COM+"}
+{"subject": ["5&&con", "6&&chip", "7&&này"], "object": ["17&&các", "18&&đối", "19&&thủ"], "aspect": ["33&&cảm", "34&&biến", "35&&máy", "36&&ảnh"], "predicate": ["29&&nâng", "30&&cao", "31&&cải", "32&&thiện"], "label": "COM+"}
 
 alt: Nên mua iPhone 14 hay Samsung Galaxy S22 thì tốt hơn?	alt : Nên mua iPhone 14 hay Samsung Galaxy S22 thì tốt hơn ?
 
 des: Chip Apple A16 Bionic trên iPhone 14 Pro và Pro mạnh mẽ vượt trội.	des : Chip Apple A16 Bionic trên iPhone 14 Pro và Pro mạnh mẽ vượt trội .
+{"subject": ["8&&iPhone", "9&&14", "10&&Pro"], "object": [], "aspect": ["3&&Chip", "4&&Apple", "5&&A16", "6&&Bionic"], "predicate": ["13&&mạnh", "14&&mẽ", "15&&vượt", "16&&trội"], "label": "SUP+"}
+{"subject": ["12&&Pro"], "object": [], "aspect": ["3&&Chip", "4&&Apple", "5&&A16", "6&&Bionic"], "predicate": ["13&&mạnh", "14&&mẽ", "15&&vượt", "16&&trội"], "label": "SUP+"}
 
 Hệ thống camera	Hệ thống camera
 
 iPhone 14 và iPhone 14 Plus cùng sở hữu camera selfie 12MP, bộ đôi camera sau cũng có độ phân giải 12MP.	iPhone 14 và iPhone 14 Plus cùng sở hữu camera selfie 12MP , bộ đôi camera sau cũng có độ phân giải 12MP .
+{"subject": ["1&&iPhone", "2&&14"], "object": ["4&&iPhone", "5&&14", "6&&Plus"], "aspect": ["10&&camera", "11&&selfie", "12&&12MP"], "predicate": ["7&&cùng", "8&&sở", "9&&hữu"], "label": "EQL"}
+{"subject": ["14&&bộ", "15&&đôi", "16&&camera", "17&&sau"], "object": ["14&&bộ", "15&&đôi", "16&&camera", "17&&sau"], "aspect": ["20&&độ", "21&&phân", "22&&giải", "23&&12MP"], "predicate": ["18&&cũng", "19&&có"], "label": "EQL"}
 
 Riêng với hai phiên bản cao cấp iPhone 14 Pro và Pro Max, bộ đôi này sở hữu hệ thống camera được nâng cấp hơn, camera trước có độ phân giải 12MP, bộ ba camera sau có độ phân giải cao lần lượt là 48MP, 12MP và 12MP.	Riêng với hai phiên bản cao cấp iPhone 14 Pro và Pro Max , bộ đôi này sở hữu hệ thống camera được nâng cấp hơn , camera trước có độ phân giải 12MP , bộ ba camera sau có độ phân giải cao lần lượt là 48MP , 12MP và 12MP .
+{"subject": ["15&&bộ", "16&&đôi", "17&&này"], "object": [], "aspect": ["20&&hệ", "21&&thống", "22&&camera"], "predicate": ["24&&nâng", "25&&cấp", "26&&hơn"], "label": "COM+"}
 
 Với thông số camera này, các sản phẩm nằm trong iPhone 14 Series hứa hẹn sẽ mang đến cho bạn những bức ảnh đẹp sắc nét, màu sắc chân thực, dù đó là ảnh chụp chân dung, toàn cảnh hay cận cảnh.	Với thông số camera này , các sản phẩm nằm trong iPhone 14 Series hứa hẹn sẽ mang đến cho bạn những bức ảnh đẹp sắc nét , màu sắc chân thực , dù đó là ảnh chụp chân dung , toàn cảnh hay cận cảnh .
 
@@ -93,6 +124,7 @@ Thiết kế	Thiết kế
 Điện thoại Samsung Galaxy S22 Series có ba phiên bản đó là Galaxy S22, Galaxy S22+ và Galaxy S22 Ultra.	Điện thoại Samsung Galaxy S22 Series có ba phiên bản đó là Galaxy S22 , Galaxy S22 + và Galaxy S22 Ultra .
 
 Cả ba phiên bản điều sở hữu thiết kế mỏng nhỏ gọn, tinh tế, mang đến cảm giác nhẹ bỗng và vô cùng thích thú khi cầm nắm.	Cả ba phiên bản điều sở hữu thiết kế mỏng nhỏ gọn , tinh tế , mang đến cảm giác nhẹ bỗng và vô cùng thích thú khi cầm nắm .
+{"subject": ["1&&Cả", "2&&ba", "3&&phiên", "4&&bản"], "object": ["1&&Cả", "2&&ba", "3&&phiên", "4&&bản"], "aspect": ["8&&thiết", "9&&kế", "10&&mỏng", "11&&nhỏ", "12&&gọn", "13&&,", "14&&tinh", "15&&tế"], "predicate": ["5&&điều", "6&&sở", "7&&hữu"], "label": "EQL"}
 
 Mặt lưng thiết bị sử dụng chất liệu kính cường lực, kết hợp cùng khung viền kim loại bền chắc và sang trọng.	Mặt lưng thiết bị sử dụng chất liệu kính cường lực , kết hợp cùng khung viền kim loại bền chắc và sang trọng .
 
@@ -103,6 +135,7 @@ des: Samsung Galaxy S22 thiết kế trẻ trung, năng động.	des : Samsung G
 Màn hình	Màn hình
 
 Tất cả sản phẩm nằm trong Samsung Galaxy S22 Series điều sở hữu tấm nền Dynamic Amoled 2X, độ phân giải Full HD+, mang đến hiển thị rõ nét ngay cả dưới ánh mặt trời chói chang.	Tất cả sản phẩm nằm trong Samsung Galaxy S22 Series điều sở hữu tấm nền Dynamic Amoled 2X , độ phân giải Full HD + , mang đến hiển thị rõ nét ngay cả dưới ánh mặt trời chói chang .
+{"subject": ["1&&Tất", "2&&cả", "3&&sản", "4&&phẩm", "5&&nằm", "6&&trong", "7&&Samsung", "8&&Galaxy", "9&&S22", "10&&Series"], "object": ["1&&Tất", "2&&cả", "3&&sản", "4&&phẩm", "5&&nằm", "6&&trong", "7&&Samsung", "8&&Galaxy", "9&&S22", "10&&Series"], "aspect": [], "predicate": ["11&&điều", "12&&sở", "13&&hữu", "14&&tấm", "15&&nền", "16&&Dynamic", "17&&Amoled", "18&&2X", "19&&,", "20&&độ", "21&&phân", "22&&giải", "23&&Full", "24&&HD", "25&&+"], "label": "EQL"}
 
 Màn hình của 3 phiên bản Samsung Galaxy S22, Galaxy S22+ và Galaxy S22 Ultra lần lượt là 6.1 inch, 6.6 inch và 6.8 inch, đa dạng để người dùng tùy chọn.	Màn hình của 3 phiên bản Samsung Galaxy S22 , Galaxy S22 + và Galaxy S22 Ultra lần lượt là 6.1 inch , 6.6 inch và 6.8 inch , đa dạng để người dùng tùy chọn .
 
@@ -119,6 +152,8 @@ Samsung Galaxy S22+ có 4 tùy chọn màu sắc là Đen, Trắng, Hồng và T
 Samsung Galaxy S22 Ultra có 4 tùy chọn màu là Đen Phantom, Trắng Phantom, Xanh Zeta và Đỏ Burgundy.	Samsung Galaxy S22 Ultra có 4 tùy chọn màu là Đen Phantom , Trắng Phantom , Xanh Zeta và Đỏ Burgundy .
 
 Dễ dàng thấy, về màu sắc, Samsung Galaxy S22 Series cũng sở hữu tùy chọn màu đa dạng tương tự như iPhone 14 để bạn tha hồ lựa chọn.	Dễ dàng thấy , về màu sắc , Samsung Galaxy S22 Series cũng sở hữu tùy chọn màu đa dạng tương tự như iPhone 14 để bạn tha hồ lựa chọn .
+{"subject": ["9&&Samsung", "10&&Galaxy", "11&&S22", "12&&Series"], "object": ["24&&iPhone", "25&&14"], "aspect": ["6&&màu", "7&&sắc"], "predicate": ["13&&cũng", "14&&sở", "15&&hữu", "16&&tùy", "17&&chọn", "18&&màu", "19&&đa", "20&&dạng", "21&&tương", "22&&tự", "23&&như"], "label": "EQL"}
+{"subject": ["9&&Samsung", "10&&Galaxy", "11&&S22", "12&&Series"], "object": ["24&&iPhone", "25&&14"], "aspect": ["16&&tùy", "17&&chọn", "18&&màu"], "predicate": ["21&&tương", "22&&tự", "23&&như"], "label": "EQL"}
 
 alt: Nên mua iPhone 14 hay Samsung Galaxy S22 thì tốt hơn?	alt : Nên mua iPhone 14 hay Samsung Galaxy S22 thì tốt hơn ?
 
@@ -127,14 +162,20 @@ des: Tha hồ lựa chọn màu sắc yêu thích với Samsung Galaxy S22 Serie
 Hiệu năng	Hiệu năng
 
 Là sản phẩm Flagship của Samsung trong năm 2022 nên Galaxy S22 Series cũng được thương hiệu trang bị cho bộ vi xử lý vô cùng hiện đại đó là chip Snapdragon 8 Gen 1 - con chip mới nhất của nhà sản xuất vi xử lý hàng đầu thế giới Qualcomm.	Là sản phẩm Flagship của Samsung trong năm 2022 nên Galaxy S22 Series cũng được thương hiệu trang bị cho bộ vi xử lý vô cùng hiện đại đó là chip Snapdragon 8 Gen 1 - con chip mới nhất của nhà sản xuất vi xử lý hàng đầu thế giới Qualcomm .
+{"subject": ["37&&con", "38&&chip"], "object": [], "aspect": [], "predicate": ["39&&mới", "40&&nhất"], "label": "SUP+"}
+{"subject": ["52&&Qualcomm"], "object": [], "aspect": ["42&&nhà", "43&&sản", "44&&xuất", "45&&vi", "46&&xử", "47&&lý"], "predicate": ["48&&hàng", "49&&đầu", "50&&thế", "51&&giới"], "label": "SUP+"}
 
 Chip Qualcomm Snapdragon 8 Gen 1 chứng minh được sức mạnh vượt trội của mình khi cho tốc độ xử lý nhanh hơn 30% nhưng mức tiêu thụ năng lượng lại ít hơn 25% so với Chip Qualcomm Snapdragon 888.	Chip Qualcomm Snapdragon 8 Gen 1 chứng minh được sức mạnh vượt trội của mình khi cho tốc độ xử lý nhanh hơn 30% nhưng mức tiêu thụ năng lượng lại ít hơn 25% so với Chip Qualcomm Snapdragon 888 .
+{"subject": ["1&&Chip", "2&&Qualcomm", "3&&Snapdragon", "4&&8", "5&&Gen", "6&&1"], "object": [], "aspect": [], "predicate": ["10&&sức", "11&&mạnh", "12&&vượt", "13&&trội"], "label": "SUP+"}
+{"subject": ["1&&Chip", "2&&Qualcomm", "3&&Snapdragon", "4&&8", "5&&Gen", "6&&1"], "object": ["37&&Chip", "38&&Qualcomm", "39&&Snapdragon", "40&&888"], "aspect": ["18&&tốc", "19&&độ", "20&&xử", "21&&lý"], "predicate": ["22&&nhanh", "23&&hơn", "24&&30%"], "label": "COM+"}
+{"subject": ["1&&Chip", "2&&Qualcomm", "3&&Snapdragon", "4&&8", "5&&Gen", "6&&1"], "object": ["37&&Chip", "38&&Qualcomm", "39&&Snapdragon", "40&&888"], "aspect": ["26&&mức", "27&&tiêu", "28&&thụ", "29&&năng", "30&&lượng"], "predicate": ["32&&ít", "33&&hơn", "34&&25%"], "label": "COM+"}
 
 Bên cạnh đó, con chip này hỗ trợ Galaxy S22 Series các tính năng từ cơ bản đến nâng cao như: Cảm biến máy ảnh, trí tuệ nhân tạo (AI), hỗ trợ kết nối 5G chất lượng cao, tối ưu âm thanh, nâng cao bảo mật thông tin và đặc biệt là có khả năng chuyển đổi hiệu suất đồ họa tốt, gia tăng trải nghiệm với các ứng dụng có đồ họa nặng, các tựa game đòi hỏi cấu hình cao.	Bên cạnh đó , con chip này hỗ trợ Galaxy S22 Series các tính năng từ cơ bản đến nâng cao như : Cảm biến máy ảnh , trí tuệ nhân tạo ( AI ) , hỗ trợ kết nối 5G chất lượng cao , tối ưu âm thanh , nâng cao bảo mật thông tin và đặc biệt là có khả năng chuyển đổi hiệu suất đồ họa tốt , gia tăng trải nghiệm với các ứng dụng có đồ họa nặng , các tựa game đòi hỏi cấu hình cao .
 
 Hệ thống camera	Hệ thống camera
 
 Đến với thông số camera, Samsung Galaxy S22 Series lại chứng minh mình vượt trội hẳn so với iPhone 14 Series.	Đến với thông số camera , Samsung Galaxy S22 Series lại chứng minh mình vượt trội hẳn so với iPhone 14 Series .
+{"subject": ["7&&Samsung", "8&&Galaxy", "9&&S22", "10&&Series"], "object": ["20&&iPhone", "21&&14", "22&&Series"], "aspect": ["3&&thông", "4&&số", "5&&camera"], "predicate": ["15&&vượt", "16&&trội", "17&&hẳn"], "label": "COM+"}
 
 Dòng Galaxy S22 và Galaxy S22+ trang bị bộ ba camera với camera chính sử dụng cảm biến có độ phân giải lên đến 50MP, kết hợp camera phụ 10MP hỗ trợ zoom 3x và camera góc siêu rộng độ phân giải 12MP.	Dòng Galaxy S22 và Galaxy S22 + trang bị bộ ba camera với camera chính sử dụng cảm biến có độ phân giải lên đến 50MP , kết hợp camera phụ 10MP hỗ trợ zoom 3x và camera góc siêu rộng độ phân giải 12MP .
 
@@ -153,18 +194,23 @@ des: Hệ thống camera chất lượng cao của Galaxy S22 Ultra thiết kế
 Giá bán	Giá bán
 
 Các sản phẩm nằm trong Samsung Galaxy S22 Series có giá khác nhau theo từng dung lượng bộ nhớ mà người dùng lựa chọn, dao động từ 23.000.000 - 33.000.000đ, mức giá tương đương với các sản phẩm iPhone 14 mới ra mắt.	Các sản phẩm nằm trong Samsung Galaxy S22 Series có giá khác nhau theo từng dung lượng bộ nhớ mà người dùng lựa chọn , dao động từ 23.000.000 - 33.000.000đ , mức giá tương đương với các sản phẩm iPhone 14 mới ra mắt .
+{"subject": ["1&&Các", "2&&sản", "3&&phẩm", "4&&nằm", "5&&trong", "6&&Samsung", "7&&Galaxy", "8&&S22", "9&&Series"], "object": ["1&&Các", "2&&sản", "3&&phẩm", "4&&nằm", "5&&trong", "6&&Samsung", "7&&Galaxy", "8&&S22", "9&&Series"], "aspect": ["11&&giá"], "predicate": ["12&&khác", "13&&nhau"], "label": "DIF"}
+{"subject": ["1&&Các", "2&&sản", "3&&phẩm", "4&&nằm", "5&&trong", "6&&Samsung", "7&&Galaxy", "8&&S22", "9&&Series"], "object": ["38&&các", "39&&sản", "40&&phẩm", "41&&iPhone", "42&&14", "43&&mới", "44&&ra", "45&&mắt"], "aspect": ["33&&mức", "34&&giá"], "predicate": ["35&&tương", "36&&đương"], "label": "EQL"}
 
 Nên mua iPhone 14 hay Samsung Galaxy S22?	Nên mua iPhone 14 hay Samsung Galaxy S22 ?
 
 Sau khi đi sâu vào chi tiết, có thể thấy với sự đầu tư kỹ lưỡng cho hai dòng sản phẩm Flagship 2022 về thiết kế, hiệu năng, giá bán của hai thương hiệu Apple và Samsung, thì thật sự rất khó để phân định đâu là sản phẩm tốt hơn vì mỗi sản phẩm điều mang trong mình ưu điểm riêng, một chín một mười.	Sau khi đi sâu vào chi tiết , có thể thấy với sự đầu tư kỹ lưỡng cho hai dòng sản phẩm Flagship 2022 về thiết kế , hiệu năng , giá bán của hai thương hiệu Apple và Samsung , thì thật sự rất khó để phân định đâu là sản phẩm tốt hơn vì mỗi sản phẩm điều mang trong mình ưu điểm riêng , một chín một mười .
 
 alt: iPhone 14 và Samsung Galaxy S22 đều được đầu tư hoàn thiện ở mức cao.	alt : iPhone 14 và Samsung Galaxy S22 đều được đầu tư hoàn thiện ở mức cao .
+{"subject": ["3&&iPhone", "4&&14"], "object": ["6&&Samsung", "7&&Galaxy", "8&&S22"], "aspect": ["13&&hoàn", "14&&thiện", "15&&ở", "16&&mức", "17&&cao"], "predicate": ["9&&đều", "10&&được"], "label": "EQL"}
 
 des: iPhone 14 và Samsung Galaxy S22 đều được đầu tư hoàn thiện ở mức cao.	des : iPhone 14 và Samsung Galaxy S22 đều được đầu tư hoàn thiện ở mức cao .
+{"subject": ["3&&iPhone", "4&&14"], "object": ["6&&Samsung", "7&&Galaxy", "8&&S22"], "aspect": ["13&&hoàn", "14&&thiện", "15&&ở", "16&&mức", "17&&cao"], "predicate": ["9&&đều", "10&&được"], "label": "EQL"}
 
 Nên mua iPhone 14 khi	Nên mua iPhone 14 khi
 
 Bạn nên mua iPhone 14 khi muốn sở hữu một chiếc điện thoại sang trọng, có phần lịch thiệp và đẳng cấp hơn.	Bạn nên mua iPhone 14 khi muốn sở hữu một chiếc điện thoại sang trọng , có phần lịch thiệp và đẳng cấp hơn .
+{"subject": ["4&&iPhone", "5&&14"], "object": [], "aspect": [], "predicate": ["17&&có", "18&&phần", "19&&lịch", "20&&thiệp", "21&&và", "22&&đẳng", "23&&cấp", "24&&hơn"], "label": "COM+"}
 
 iPhone 14 cũng mang đến hiệu năng mạnh mẽ, cho khả năng cân tất mọi loại tác vụ từ cơ bản đến chiến các tựa game cấu hình cao.	iPhone 14 cũng mang đến hiệu năng mạnh mẽ , cho khả năng cân tất mọi loại tác vụ từ cơ bản đến chiến các tựa game cấu hình cao .
 
@@ -177,4 +223,5 @@ Nên mua Samsung Galaxy S22 khi	Nên mua Samsung Galaxy S22 khi
 Còn nếu bạn là một người theo chủ nghĩa duy mỹ, thích một chiếc điện thoại có thiết kế hiện đại, màu sắc vô cùng “trend” và thời thượng thì hãy chọn mua Samsung Galaxy S22 Series.	Còn nếu bạn là một người theo chủ nghĩa duy mỹ , thích một chiếc điện thoại có thiết kế hiện đại , màu sắc vô cùng “ trend ” và thời thượng thì hãy chọn mua Samsung Galaxy S22 Series .
 
 Ngoài ra, dòng sản phẩm này còn tỏ ra vượt trội về khả năng chụp ảnh, quay phim với thông số camera cực kỳ ấn tượng, nên nếu bạn là người làm sáng tạo, thường chụp ảnh và quay video thì cũng nên cân nhắc chọn lựa Galaxy S22, đặc biệt là phiên bản Ultra.	Ngoài ra , dòng sản phẩm này còn tỏ ra vượt trội về khả năng chụp ảnh , quay phim với thông số camera cực kỳ ấn tượng , nên nếu bạn là người làm sáng tạo , thường chụp ảnh và quay video thì cũng nên cân nhắc chọn lựa Galaxy S22 , đặc biệt là phiên bản Ultra .
+{"subject": ["4&&dòng", "5&&sản", "6&&phẩm", "7&&này"], "object": [], "aspect": ["14&&khả", "15&&năng", "16&&chụp", "17&&ảnh", "18&&,", "19&&quay", "20&&phim"], "predicate": ["11&&vượt", "12&&trội"], "label": "SUP+"}
 

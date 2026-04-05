@@ -79,22 +79,17 @@ _CAMERA_COQE_PAIR_RE = re.compile(r"\[(.*?)\]")
 
 
 def _parse_camera_coqe_slot(slot_text: str) -> str:
-    """Parse one slot like '10&&RAW 11&&format' into plain text.
+    """Parse one camera-coqe slot and preserve index tokens when present.
 
+    Example: '10&&RAW 11&&format' -> '10&&RAW 11&&format'
     Empty slot (e.g., '') is converted to [UNK].
     """
     slot_text = slot_text.strip()
     if not slot_text:
         return "[UNK]"
 
-    words = []
-    for part in slot_text.split():
-        if "&&" in part:
-            words.append(part.split("&&", 1)[1])
-        else:
-            words.append(part)
-    cleaned = " ".join(w for w in words if w).strip()
-    return cleaned if cleaned else "[UNK]"
+    parts = [part.strip().strip("[]") for part in slot_text.split() if part.strip()]
+    return " ".join(parts) if parts else "[UNK]"
 
 
 def _parse_camera_coqe_annotation(line: str) -> str:
@@ -210,15 +205,16 @@ def _vcom_annotation_to_tuple(ann: Dict) -> str:
 
     Labels are kept verbatim (COM+/COM-/COM/SUP+/SUP-/SUP/EQL/DIF).
     """
-    subject   = _tokens_to_text(ann.get("subject",   []))
-    obj       = _tokens_to_text(ann.get("object",    []))
-    aspect    = _tokens_to_text(ann.get("aspect",    []))
-    predicate = _tokens_to_text(ann.get("predicate", []))
+    # Keep index-span tokens for evaluate_v1-compatible scoring in llm_eval.metrics.
+    subject   = " ".join(ann.get("subject",   [])) or "[UNK]"
+    obj       = " ".join(ann.get("object",    [])) or "[UNK]"
+    aspect    = " ".join(ann.get("aspect",    [])) or "[UNK]"
+    predicate = " ".join(ann.get("predicate", [])) or "[UNK]"
     label     = ann.get("label", "[UNK]").strip() or "[UNK]"
     return f"([S] {subject} [O] {obj} [A] {aspect} [P] {predicate} [L] {label})"
 
 
-def _flush_vcom(sentence: str, anns: List[Dict], out: List[Dict]) -> None:
+def _flush_vcom(sentence: str, anns: List[Dict], out: List[Dict], tokenized_input: str = "") -> None:
     if not sentence or _is_metadata(sentence):
         return
     if anns:
@@ -230,6 +226,7 @@ def _flush_vcom(sentence: str, anns: List[Dict], out: List[Dict]) -> None:
         "output":   output,
         "language": "vi",
         "dataset":  "vcom-data",
+        "tokenized_input": tokenized_input or sentence,  # Use original if not provided
     })
 
 
@@ -242,6 +239,7 @@ def _load_vcom(datasets_root: str, split: str) -> List[Dict]:
     for file_name in sorted(fn for fn in os.listdir(split_dir) if fn.endswith(".txt")):
         file_path = os.path.join(split_dir, file_name)
         cur_sentence = ""
+        cur_tokenized = ""
         cur_anns: List[Dict] = []
 
         with open(file_path, "r", encoding="utf-8") as fp:
@@ -252,9 +250,11 @@ def _load_vcom(datasets_root: str, split: str) -> List[Dict]:
 
                 # Sentence line: contains a tab, does NOT start with '{'
                 if "\t" in line and not line.lstrip().startswith("{"):
-                    _flush_vcom(cur_sentence, cur_anns, samples)
+                    _flush_vcom(cur_sentence, cur_anns, samples, cur_tokenized)
                     cur_anns = []
-                    cur_sentence = line.split("\t", 1)[0].strip()
+                    parts = line.split("\t", 1)
+                    cur_sentence = parts[0].strip()
+                    cur_tokenized = parts[1].strip() if len(parts) > 1 else cur_sentence
                     continue
 
                 # Annotation JSON
@@ -266,6 +266,6 @@ def _load_vcom(datasets_root: str, split: str) -> List[Dict]:
                     except json.JSONDecodeError:
                         pass
 
-        _flush_vcom(cur_sentence, cur_anns, samples)
+        _flush_vcom(cur_sentence, cur_anns, samples, cur_tokenized)
 
     return samples

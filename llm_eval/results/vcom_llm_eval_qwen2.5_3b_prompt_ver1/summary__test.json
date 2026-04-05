@@ -1,0 +1,27 @@
+[
+  {
+    "dataset": "vcom-data",
+    "split": "test",
+    "model": "Qwen/Qwen2.5-3B-Instruct",
+    "E-T5-MACRO-F1": 0.0,
+    "E-T4-F1": 0.0,
+    "E-CEE-MICRO-F1": 0.0,
+    "leaderboard": {
+      "E-CEE-S-F1": 0.0,
+      "E-CEE-O-F1": 0.0,
+      "E-CEE-A-F1": 0.0,
+      "E-CEE-P-F1": 0.0,
+      "E-CEE-MICRO-F1": 0.0,
+      "E-CEE-MACRO-F1": 0.0,
+      "P-CEE-MICRO-F1": 0.0,
+      "P-CEE-MACRO-F1": 0.0,
+      "B-CEE-MICRO-F1": 0.0,
+      "B-CEE-MACRO-F1": 0.0,
+      "E-T4-F1": 0.0,
+      "B-T4-F1": 0.0,
+      "E-T5-MICRO-F1": 0.0,
+      "E-T5-MACRO-F1": 0.0,
+      "B-T5-MACRO-F1": 0.0
+    }
+  }
+]

@@ -1,0 +1,49 @@
+1	title: So sánh Samsung Galaxy M32 và Xiaomi Redmi Note 10S	title : So sánh Samsung Galaxy M32 và Xiaomi Redmi Note 10S
+2	Thiết kế	Thiết kế
+3	alt: So sánh Samsung Galaxy M32 và Xiaomi Redmi 10S	alt : So sánh Samsung Galaxy M32 và Xiaomi Redmi 10S
+4	des: So sánh Samsung Galaxy M32 và Xiaomi Redmi 10S	des : So sánh Samsung Galaxy M32 và Xiaomi Redmi 10S
+5	Ngôn ngữ thiết kế của 2 chiếc smartphone này hoàn toàn khác biệt nhau.	Ngôn ngữ thiết kế của 2 chiếc smartphone này hoàn toàn khác biệt nhau .
+6	Trong đó,  Galaxy M32  được thiết kế trẻ trung, sành điệu với mặt lưng được làm từ nhựa của máy được gia công tinh xảo với họa tiết kẻ sọc trải dài từ đầu tới cuối thân máy, giúp máy hạn chế bám dính vân tay và mồ hôi.	Trong đó , Galaxy M32 được thiết kế trẻ trung , sành điệu với mặt lưng được làm từ nhựa của máy được gia công tinh xảo với họa tiết kẻ sọc trải dài từ đầu tới cuối thân máy , giúp máy hạn chế bám dính vân tay và mồ hôi .
+7	Tuy nhiên, mẫu di động tầm trung mới ra mắt gần đây của  Samsung  chỉ sử dụng màn hình notch hình giọt nước ở mặt trước nên trông kém hiện đại hơn so với màn hình đục lỗ trên  Redmi Note 10S .	Tuy nhiên , mẫu di động tầm trung mới ra mắt gần đây của Samsung chỉ sử dụng màn hình notch hình giọt nước ở mặt trước nên trông kém hiện đại hơn so với màn hình đục lỗ trên Redmi Note 10S .
+8	Ở mặt sau, mẫu di động của Xiaomi sẽ có thân nhựa kết hợp với khung kim loại và đi kèm các hiệu ứng chuyển màu bắt mắt.	Ở mặt sau , mẫu di động của Xiaomi sẽ có thân nhựa kết hợp với khung kim loại và đi kèm các hiệu ứng chuyển màu bắt mắt .
+9	Màn hình	Màn hình
+10	alt: Samsung Galaxy M32	alt : Samsung Galaxy M32
+11	des: Samsung Galaxy M32	des : Samsung Galaxy M32
+12	Về chất lượng hiển thị, Galaxy M32 được trang bị màn hình Super AMOLED 6.4 inch, hỗ trợ độ phân giải Full-HD+, tốc độ làm tươi 90Hz và tỷ lệ khung hình 20:9 giúp mang tới trải nghiệm thị giác chất lượng, màu sắc trung thực, sắc nét.	Về chất lượng hiển thị , Galaxy M32 được trang bị màn hình Super AMOLED 6.4 inch , hỗ trợ độ phân giải Full-HD + , tốc độ làm tươi 90Hz và tỷ lệ khung hình 20 : 9 giúp mang tới trải nghiệm thị giác chất lượng , màu sắc trung thực , sắc nét .
+13	Trong khi đó, Redmi Note 10S được hãng  điện thoại  Xiaomi trang bị màn hình đục lỗ chính giữa chứa camera selfie, có kích thước màn hình lớn 6.43 inch, sử dụng tấm nền AMOLED có độ phân giải Full-HD+ tốc độ làm tươi 60Hz tiêu chuẩn và được bảo vệ bởi kính cường lực Corning Gorilla Glass 3.	Trong khi đó , Redmi Note 10S được hãng điện thoại Xiaomi trang bị màn hình đục lỗ chính giữa chứa camera selfie , có kích thước màn hình lớn 6.43 inch , sử dụng tấm nền AMOLED có độ phân giải Full-HD + tốc độ làm tươi 60Hz tiêu chuẩn và được bảo vệ bởi kính cường lực Corning Gorilla Glass 3 .
+14	Do đó, chất lượng hiển thị của Galaxy M32 sẽ nhỉnh hơn một chút so với đối thủ đến từ Xiaomi.	Do đó , chất lượng hiển thị của Galaxy M32 sẽ nhỉnh hơn một chút so với đối thủ đến từ Xiaomi .
+15	Camera	Camera
+16	alt: Redmi Note 10S	alt : Redmi Note 10S
+17	des: Redmi Note 10S	des : Redmi Note 10S
+18	Về khả năng nhiếp ảnh, Galaxy M32 được trang bị hệ thống 4 camera sau, bao gồm cảm biến chính có độ phân giải 64MP (f/1.8), ống kính góc siêu rộng 8MP (f/2.2), camera macro 2MP và cảm biến độ sâu 2MP.	Về khả năng nhiếp ảnh , Galaxy M32 được trang bị hệ thống 4 camera sau , bao gồm cảm biến chính có độ phân giải 64MP ( f / 1.8 ) , ống kính góc siêu rộng 8MP ( f / 2.2 ) , camera macro 2MP và cảm biến độ sâu 2MP .
+19	Khu vực "giọt nước" của màn hình là nơi đặt camera selfie 20MP có khẩu độ f/2.2. Hệ thống camera này giúp bạn bắt trọn mọi khoảnh khắc cuộc sống một cách chi tiết, bắt mắt nhất.	Khu vực " giọt nước " của màn hình là nơi đặt camera selfie 20MP có khẩu độ f / 2.2 . Hệ thống camera này giúp bạn bắt trọn mọi khoảnh khắc cuộc sống một cách chi tiết , bắt mắt nhất .
+20	Điện thoại Redmi Note 10S cũng không kém cạnh khi sở hữu 4 camera sau với độ phân giải và chức năng giống hệt đối thủ đến từ Samsung.	Điện thoại Redmi Note 10S cũng không kém cạnh khi sở hữu 4 camera sau với độ phân giải và chức năng giống hệt đối thủ đến từ Samsung .
+21	Tuy nhiên, điện thoại Xiaomi chỉ có camera 13MP nên cho chất lượng ảnh selfie kém hơn một chút so với Galaxy M32.	Tuy nhiên , điện thoại Xiaomi chỉ có camera 13MP nên cho chất lượng ảnh selfie kém hơn một chút so với Galaxy M32 .
+22	Thông số kỹ thuật	Thông số kỹ thuật
+23	alt: Redmi Note 10S (ảnh 1)	alt : Redmi Note 10S ( ảnh 1 )
+24	des: Redmi Note 10S (ảnh 1)	des : Redmi Note 10S ( ảnh 1 )
+25	Về mặt hiệu năng, Galaxy M32 được trang bị con chip MediaTek Helio G80, có RAM 4GB/6GB và có bộ nhớ lưu trữ 64GB/128GB.	Về mặt hiệu năng , Galaxy M32 được trang bị con chip MediaTek Helio G80 , có RAM 4GB / 6GB và có bộ nhớ lưu trữ 64GB / 128GB .
+26	Trong khi Redmi Note 10S được cung cấp sức mạnh bởi chipset MediaTek Helio G95, các tùy chọn RAM 6GB/8GB và bộ nhớ trong 64GB/128GB.	Trong khi Redmi Note 10S được cung cấp sức mạnh bởi chipset MediaTek Helio G95 , các tùy chọn RAM 6GB / 8GB và bộ nhớ trong 64GB / 128GB .
+27	Chính vì vậy mà hiệu năng của Redmi Note 10S sẽ tốt hơn một chút so với Galaxy M32, đặc biệt là khi người dùng chơi game.	Chính vì vậy mà hiệu năng của Redmi Note 10S sẽ tốt hơn một chút so với Galaxy M32 , đặc biệt là khi người dùng chơi game .
+28	Thời lượng pin	Thời lượng pin
+29	alt: Samsung Galaxy M32 (ảnh 1)	alt : Samsung Galaxy M32 ( ảnh 1 )
+30	des: Samsung Galaxy M32 (ảnh 1)	des : Samsung Galaxy M32 ( ảnh 1 )
+31	Điểm ấn tượng lớn nhất của Galaxy M32 là dung lượng pin lớn lên đến 6,000 mAh. Đây mà mức pin siêu “khủng” với smartphone phân khúc tầm trung, giá rẻ.	Điểm ấn tượng lớn nhất của Galaxy M32 là dung lượng pin lớn lên đến 6,000 mAh . Đây mà mức pin siêu “ khủng ” với smartphone phân khúc tầm trung , giá rẻ .
+32	Chua hết, mẫu di động của Samsung còn hỗ trợ sạc nhanh 25W, hứa hẹn mang đến thời lượng sử dụng thời gian lâu dài, với các tác vụ cơ bản, máy có thể dùng đến 2 ngày.	Chua hết , mẫu di động của Samsung còn hỗ trợ sạc nhanh 25W , hứa hẹn mang đến thời lượng sử dụng thời gian lâu dài , với các tác vụ cơ bản , máy có thể dùng đến 2 ngày .
+33	Trong khi đó, Redmi Note 10S cũng có dung lượng pin khá lớn là 5,000 mAh cho phép bạn sử dụng thoải mái trong 1.5 ngày chỉ sau duy nhất một lần sạc.	Trong khi đó , Redmi Note 10S cũng có dung lượng pin khá lớn là 5,000 mAh cho phép bạn sử dụng thoải mái trong 1.5 ngày chỉ sau duy nhất một lần sạc .
+34	Chưa dừng lại ở đó, mẫu di động Xiaomi còn có khả năng sạc nhanh 33W, giúp bạn tiết kiệm thời gian sạc thiết bị của mình.	Chưa dừng lại ở đó , mẫu di động Xiaomi còn có khả năng sạc nhanh 33W , giúp bạn tiết kiệm thời gian sạc thiết bị của mình .
+35	Tạm kết	Tạm kết
+36	alt: Redmi Note 10S (ảnh 2)	alt : Redmi Note 10S ( ảnh 2 )
+37	des: Redmi Note 10S (ảnh 2)	des : Redmi Note 10S ( ảnh 2 )
+38	Nhìn chung, hai chiếc điện thoại Galaxy M32 và Redmi Note 10S đều có thế mạnh riêng.	Nhìn chung , hai chiếc điện thoại Galaxy M32 và Redmi Note 10S đều có thế mạnh riêng .
+39	Trong đó, mẫu di động Xiaomi có hiệu năng tốt hơn và công nghệ sạc siêu nhanh, còn Galaxy M32 mới gây ấn tượng với pin khủng hơn và màn hình có tốc độ làm tươi cao hơn.	Trong đó , mẫu di động Xiaomi có hiệu năng tốt hơn và công nghệ sạc siêu nhanh , còn Galaxy M32 mới gây ấn tượng với pin khủng hơn và màn hình có tốc độ làm tươi cao hơn .
+40	Bạn sẽ chọn smartphone nào?	Bạn sẽ chọn smartphone nào ?
+{"subject": ["5-6&&2", "5-7&&chiếc", "5-8&&smartphone", "5-9&&này"], "object": ["5-6&&2", "5-7&&chiếc", "5-8&&smartphone", "5-9&&này"], "aspect": ["5-1&&Ngôn", "5-2&&ngữ", "5-3&&thiết", "5-4&&kế"], "predicate": ["5-10&&hoàn", "5-11&&toàn", "5-12&&khác", "5-13&&biệt", "5-14&&nhau"], "label": "DIF"}
+{"subject": ["7-19&&màn", "7-20&&hình", "7-21&&notch", "7-22&&hình", "7-23&&giọt", "7-24&&nước", "7-25&&ở", "7-26&&mặt", "7-27&&trước"], "object": ["7-36&&màn", "7-37&&hình", "7-38&&đục", "7-39&&lỗ", "7-40&&trên", "7-41&&Redmi", "7-42&&Note", "7-43&&10S"], "aspect": [], "predicate": ["7-30&&kém", "7-31&&hiện", "7-32&&đại", "7-33&&hơn"], "label": "COM-"}
+{"subject": ["7-4&&mẫu", "7-5&&di", "7-6&&động", "7-7&&tầm", "7-8&&trung", "7-9&&mới", "7-10&&ra", "7-11&&mắt", "7-12&&gần", "7-13&&đây", "7-14&&của", "7-15&&Samsung"], "object": ["7-41&&Redmi", "7-42&&Note", "7-43&&10S"], "aspect": ["7-19&&màn", "7-20&&hình"], "predicate": ["7-30&&kém", "7-31&&hiện", "7-32&&đại", "7-33&&hơn"], "label": "COM-"}
+{"subject": ["14-9&&Galaxy", "14-10&&M32"], "object": ["14-18&&đối", "14-19&&thủ", "14-20&&đến", "14-21&&từ", "14-22&&Xiaomi"], "aspect": ["14-4&&chất", "14-5&&lượng", "14-6&&hiển", "14-7&&thị"], "predicate": ["14-12&&nhỉnh", "14-13&&hơn", "14-14&&một", "14-15&&chút"], "label": "COM+"}
+{"subject": ["21-4&&điện", "21-5&&thoại", "21-6&&Xiaomi"], "object": ["21-23&&Galaxy", "21-24&&M32"], "aspect": ["21-13&&chất", "21-14&&lượng", "21-15&&ảnh", "21-16&&selfie"], "predicate": ["21-17&&kém", "21-18&&hơn", "21-19&&một", "21-20&&chút"], "label": "COM-"}
+{"subject": ["27-8&&Redmi", "27-9&&Note", "27-10&&10S"], "object": ["27-18&&Galaxy", "27-19&&M32"], "aspect": ["27-5&&hiệu", "27-6&&năng"], "predicate": ["27-12&&tốt", "27-13&&hơn", "27-14&&một", "27-15&&chút"], "label": "COM+"}
+{"subject": ["39-4&&mẫu", "39-5&&di", "39-6&&động", "39-7&&Xiaomi"], "object": ["39-21&&Galaxy", "39-22&&M32"], "aspect": ["39-9&&hiệu", "39-10&&năng"], "predicate": ["39-11&&tốt", "39-12&&hơn"], "label": "COM+"}
+{"subject": ["39-21&&Galaxy", "39-22&&M32"], "object": ["39-4&&mẫu", "39-5&&di", "39-6&&động", "39-7&&Xiaomi"], "aspect": ["39-28&&pin"], "predicate": ["39-29&&khủng", "39-30&&hơn"], "label": "COM+"}
+{"subject": ["39-21&&Galaxy", "39-22&&M32"], "object": ["39-4&&mẫu", "39-5&&di", "39-6&&động", "39-7&&Xiaomi"], "aspect": ["39-32&&màn", "39-33&&hình"], "predicate": ["39-35&&tốc", "39-36&&độ", "39-37&&làm", "39-38&&tươi", "39-39&&cao", "39-40&&hơn"], "label": "COM+"}

@@ -1,0 +1,8 @@
+{
+  "raw_sentence_count": 3269,
+  "matched_prediction_count": 2367,
+  "missing_filled_with_empty_label": 902,
+  "unused_prediction_rows": 0,
+  "output_file": "/home/haiyan/msc-project/llm_eval/results/vcom_llm_eval_qwen2.5_3b_prompt_ver1/vcom-data/test-reeval/predictions__qwen__qwen2.5-3b-instruct__MATCHED_RAW_WITH_EMPTY_LABEL.txt",
+  "output_per_file_dir": "/home/haiyan/msc-project/llm_eval/results/vcom_llm_eval_qwen2.5_3b_prompt_ver1/vcom-data/test-reeval/test_map_with_empty_label"
+}

@@ -1,0 +1,190 @@
+Title: So sánh chống rung Galaxy S23 Ultra và iPhone 14 Pro Max: S23 Ultra quá đỉnh, 14 Pro Max liệu có đấu lại?	Title : So sánh chống rung Galaxy S23 Ultra và iPhone 14 Pro Max : S23 Ultra quá đỉnh , 14 Pro Max liệu có đấu lại ?
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Samsung Galaxy S23 Ultra và iPhone 14 Pro Max là hai chiếc điện thoại cao cấp nhất hiện nay với hiệu năng mạnh mẽ, camera chất lượng, thời gian sử dụng pin dài	Samsung Galaxy S23 Ultra và iPhone 14 Pro Max là hai chiếc điện thoại cao cấp nhất hiện nay với hiệu năng mạnh mẽ , camera chất lượng , thời gian sử dụng pin dài
+{"subject": ["1&&Samsung", "2&&Galaxy", "3&&S23", "4&&Ultra"], "object": ["6&&iPhone", "7&&14", "8&&Pro", "9&&Max"], "aspect": ["21&&hiệu", "22&&năng"], "predicate": [], "label": "COM+"}
+{"subject": ["1&&Samsung", "2&&Galaxy", "3&&S23", "4&&Ultra"], "object": ["6&&iPhone", "7&&14", "8&&Pro", "9&&Max"], "aspect": ["26&&camera"], "predicate": [], "label": "COM+"}
+{"subject": ["1&&Samsung", "2&&Galaxy", "3&&S23", "4&&Ultra"], "object": ["6&&iPhone", "7&&14", "8&&Pro", "9&&Max"], "aspect": ["30&&thời", "31&&gian", "32&&sử", "33&&dụng", "34&&pin"], "predicate": [], "label": "COM+"}
+
+Mọi thứ trên hai chiếc máy này đều là cao cấp nhất, tốt nhất.	Mọi thứ trên hai chiếc máy này đều là cao cấp nhất , tốt nhất .
+{"subject": [], "object": ["4&&hai", "5&&chiếc", "6&&máy", "7&&này"], "aspect": [], "predicate": ["9&&là", "10&&cao", "11&&cấp", "12&&nhất"], "label": "SUP+"}
+
+Tuy nhiên đó chưa phải là tất cả còn khả năng chống rung khi quay video thì sao, liệu hai chiếc máy này có thể thay thế những chiếc camera hành động như GoPro?	Tuy nhiên đó chưa phải là tất cả còn khả năng chống rung khi quay video thì sao , liệu hai chiếc máy này có thể thay thế những chiếc camera hành động như GoPro ?
+{"subject": ["10&&khả", "11&&năng", "12&&chống", "13&&rung", "14&&khi", "15&&quay", "16&&video"], "object": [], "aspect": [], "predicate": ["20&&liệu", "25&&có", "26&&thể", "27&&thay", "28&&thế"], "label": "DIF"}
+
+Hay đơn giản là chiếc điện thoại nào có khả năng chống rung tốt hơn?	Hay đơn giản là chiếc điện thoại nào có khả năng chống rung tốt hơn ?
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Hãy cùng Sforum trải nghiệm và so sánh xem đâu mới là ông vua chống rung nhé! Vì là so sánh khả năng chống rung nên về chất lượng hình ảnh, màu sắc, độ chi tiết mình không bàn luận đến nhé!	Hãy cùng Sforum trải nghiệm và so sánh xem đâu mới là ông vua chống rung nhé ! Vì là so sánh khả năng chống rung nên về chất lượng hình ảnh , màu sắc , độ chi tiết mình không bàn luận đến nhé !
+{"subject": ["3&&Sforum"], "object": [], "aspect": [], "predicate": ["41&&không", "42&&bàn", "43&&luận", "44&&đến"], "label": "DIF"}
+
+alt: Khi mở chống rung 14 Pro Max hỗ trợ độ phân giải tối đa là 2.8K 60fps còn Samsung Galaxy S23 Ultra là 4K 60fps.	alt : Khi mở chống rung 14 Pro Max hỗ trợ độ phân giải tối đa là 2.8K 60fps còn Samsung Galaxy S23 Ultra là 4K 60fps .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Điểm qua về mặt thông số	Điểm qua về mặt thông số
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Về mặt thông số camera, iPhone 14 Pro Max sở hữu camera chính 48MP, khẩu độ f/1.8, hỗ trợ chống rung quang học đi kèm với đó là hai camera phụ 12MP hỗ trợ chụp tele và góc siêu rộng.	Về mặt thông số camera , iPhone 14 Pro Max sở hữu camera chính 48MP , khẩu độ f / 1.8 , hỗ trợ chống rung quang học đi kèm với đó là hai camera phụ 12MP hỗ trợ chụp tele và góc siêu rộng .
+{"subject": ["7&&iPhone", "8&&14", "9&&Pro", "10&&Max"], "object": [], "aspect": ["13&&camera", "14&&chính"], "predicate": ["11&&sở", "12&&hữu"], "label": "SUP+"}
+{"subject": ["7&&iPhone", "8&&14", "9&&Pro", "10&&Max"], "object": [], "aspect": ["34&&hai", "35&&camera", "36&&phụ"], "predicate": ["38&&hỗ", "39&&trợ", "40&&chụp", "41&&tele", "42&&và", "43&&góc", "44&&siêu", "45&&rộng"], "label": "COM+"}
+
+Ngoài ra máy cũng được trang bị TOF 3D LiDAR như trên iPhone 13 Pro Max.	Ngoài ra máy cũng được trang bị TOF 3D LiDAR như trên iPhone 13 Pro Max .
+{"subject": ["3&&máy"], "object": ["13&&iPhone", "14&&13", "15&&Pro", "16&&Max"], "aspect": ["8&&TOF", "9&&3D", "10&&LiDAR"], "predicate": ["5&&được", "6&&trang", "7&&bị"], "label": "COM+"}
+
+Galaxy S23 Ultra có phần nhỉnh hơn khi được trang bị camera chính 200MP, khẩu độ f/1.7 và tất nhiên vẫn có chống rung quang học OIS.	Galaxy S23 Ultra có phần nhỉnh hơn khi được trang bị camera chính 200MP , khẩu độ f / 1.7 và tất nhiên vẫn có chống rung quang học OIS .
+{"subject": ["1&&Galaxy", "2&&S23", "3&&Ultra"], "object": [], "aspect": ["5&&phần"], "predicate": ["4&&có", "5&&phần", "6&&nhỉnh", "7&&hơn"], "label": "COM+"}
+{"subject": ["1&&Galaxy", "2&&S23", "3&&Ultra"], "object": [], "aspect": ["12&&camera", "13&&chính", "14&&200MP"], "predicate": ["9&&được", "10&&trang", "11&&bị"], "label": "EQL"}
+{"subject": ["1&&Galaxy", "2&&S23", "3&&Ultra"], "object": [], "aspect": [], "predicate": ["9&&được", "10&&trang", "11&&bị"], "label": "EQL"}
+{"subject": ["1&&Galaxy", "2&&S23", "3&&Ultra"], "object": [], "aspect": ["26&&chống", "27&&rung", "28&&quang", "29&&học", "30&&OIS"], "predicate": ["9&&được", "10&&trang", "11&&bị"], "label": "EQL"}
+
+Ngoài camera chính, S23 Ultra vẫn sở hữu bộ ba camera phụ 12MP, 10MP, 10MP tương tự như trên S22 Ultra.	Ngoài camera chính , S23 Ultra vẫn sở hữu bộ ba camera phụ 12MP , 10MP , 10MP tương tự như trên S22 Ultra .
+{"subject": ["5&&S23", "6&&Ultra"], "object": ["23&&S22", "24&&Ultra"], "aspect": ["10&&bộ", "11&&ba", "12&&camera", "13&&phụ"], "predicate": ["19&&tương", "20&&tự", "21&&như"], "label": "COM+"}
+
+alt: Galaxy S23 Ultra có phần nhỉnh hơn khi được trang bị camera chính 200MP	alt : Galaxy S23 Ultra có phần nhỉnh hơn khi được trang bị camera chính 200MP
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chống rung trên iPhone 14 Pro Max và Galaxy S23 Ultra	Chống rung trên iPhone 14 Pro Max và Galaxy S23 Ultra
+{"subject": ["4&&iPhone", "5&&14", "6&&Pro", "7&&Max"], "object": ["9&&Galaxy", "10&&S23", "11&&Ultra"], "aspect": [], "predicate": [], "label": "EQL"}
+
+Trước khi đi vào so sánh mình sẽ nói sơ qua về điều kiện test.Mình đặt trên 1 thanh trục để góc máy của 2 máy là same same nhau, vì đặt trên trục nên phần nào cũng hỗ trợ 2 máy chống rung tốt hơn.	Trước khi đi vào so sánh mình sẽ nói sơ qua về điều kiện test.Mình đặt trên 1 thanh trục để góc máy của 2 máy là same same nhau , vì đặt trên trục nên phần nào cũng hỗ trợ 2 máy chống rung tốt hơn .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Nếu thực tế hơn thì cần cầm trực tiếp 2 máy trên tay mới chính xác.	Nếu thực tế hơn thì cần cầm trực tiếp 2 máy trên tay mới chính xác .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Ngoài ra để sử dụng chống rung thì bạn cần mở “Action Mode” trên iPhone 14 Pro Max và “Siêu chống rung” trên S23 Ultra.	Ngoài ra để sử dụng chống rung thì bạn cần mở “ Action Mode ” trên iPhone 14 Pro Max và “ Siêu chống rung ” trên S23 Ultra .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Khi mở chống rung 14 Pro Max hỗ trợ độ phân giải tối đa là 2.8K 60fps còn Samsung là 4K 60fps.	Khi mở chống rung 14 Pro Max hỗ trợ độ phân giải tối đa là 2.8K 60fps còn Samsung là 4K 60fps .
+{"subject": ["3&&chống", "4&&rung", "5&&14", "6&&Pro", "7&&Max"], "object": ["19&&Samsung"], "aspect": ["10&&độ", "11&&phân", "12&&giải"], "predicate": ["8&&hỗ", "9&&trợ", "10&&độ", "11&&phân", "12&&giải", "13&&tối", "14&&đa", "15&&là", "16&&2.8K", "17&&60fps", "18&&còn"], "label": "COM-"}
+
+alt:	alt :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Năm nay, Samsung Galaxy S23 Ultra được trang bị hệ thống chống rung quang học với biên độ khử giao động tốt hơn gấp hai lần.	Năm nay , Samsung Galaxy S23 Ultra được trang bị hệ thống chống rung quang học với biên độ khử giao động tốt hơn gấp hai lần .
+{"subject": ["4&&Samsung", "5&&Galaxy", "6&&S23", "7&&Ultra"], "object": [], "aspect": ["11&&hệ", "12&&thống", "13&&chống", "14&&rung", "15&&quang", "16&&học"], "predicate": ["23&&tốt", "24&&hơn", "25&&gấp", "26&&hai", "27&&lần"], "label": "COM+"}
+
+Đồng thời bộ phận chống rung trên S23 Ultra có kích thước lớn hơn nên các ống kính lồi hơn.	Đồng thời bộ phận chống rung trên S23 Ultra có kích thước lớn hơn nên các ống kính lồi hơn .
+{"subject": ["3&&bộ", "4&&phận", "5&&chống", "6&&rung", "7&&trên", "8&&S23", "9&&Ultra"], "object": ["16&&các", "17&&ống", "18&&kính", "19&&lồi"], "aspect": ["11&&kích", "12&&thước"], "predicate": ["13&&lớn", "14&&hơn"], "label": "COM+"}
+
+Ngoài ra Samsung cũng đã áp dụng thuật toán chống rung mới giúp ổn định khung hình khi quay video tốt hơn khi so với các thế hệ trước.	Ngoài ra Samsung cũng đã áp dụng thuật toán chống rung mới giúp ổn định khung hình khi quay video tốt hơn khi so với các thế hệ trước .
+{"subject": ["3&&Samsung"], "object": ["26&&các", "27&&thế", "28&&hệ", "29&&trước"], "aspect": ["14&&ổn", "15&&định", "16&&khung", "17&&hình"], "predicate": ["21&&tốt", "22&&hơn"], "label": "COM+"}
+
+alt: ộ phận chống rung trên S23 Ultra có kích thước lớn hơn nên các ống kính lồi hơn	alt : ộ phận chống rung trên S23 Ultra có kích thước lớn hơn nên các ống kính lồi hơn
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+des:	des :
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Về chống rung trên iPhone 14 Pro Max, Action Mode sử dụng toàn bộ cảm biến máy ảnh để mang đến những cảnh quay vô cùng mượt mà.	Về chống rung trên iPhone 14 Pro Max , Action Mode sử dụng toàn bộ cảm biến máy ảnh để mang đến những cảnh quay vô cùng mượt mà .
+{"subject": ["5&&iPhone", "6&&14", "7&&Pro", "8&&Max"], "object": [], "aspect": ["2&&chống", "3&&rung"], "predicate": ["21&&mang", "22&&đến"], "label": "COM+"}
+
+Nhờ khả năng điều chỉnh theo độ rung và chuyển động, bạn vẫn có thể có những thước phim trông cực kỳ ổn định, ngay cả khi bạn đang quay phim trong lúc di chuyển.	Nhờ khả năng điều chỉnh theo độ rung và chuyển động , bạn vẫn có thể có những thước phim trông cực kỳ ổn định , ngay cả khi bạn đang quay phim trong lúc di chuyển .
+{"subject": ["13&&bạn"], "object": [], "aspect": ["19&&thước", "20&&phim"], "predicate": ["21&&trông", "22&&cực", "23&&kỳ", "24&&ổn", "25&&định"], "label": "COM+"}
+{"subject": ["13&&bạn"], "object": [], "aspect": ["32&&quay", "33&&phim"], "predicate": ["34&&trong", "35&&lúc", "36&&di", "37&&chuyển"], "label": "COM-"}
+
+Vì đây là bài so sáng chống rung nên mình sẽ tập trung vào khả năng ổn định hình ảnh của hai máy, còn về chất lượng hình ảnh mình sẽ không bàn luận nhiều.	Vì đây là bài so sáng chống rung nên mình sẽ tập trung vào khả năng ổn định hình ảnh của hai máy , còn về chất lượng hình ảnh mình sẽ không bàn luận nhiều .
+{"subject": ["15&&khả", "16&&năng", "17&&ổn", "18&&định", "19&&hình", "20&&ảnh"], "object": [], "aspect": [], "predicate": ["11&&sẽ", "12&&tập", "13&&trung", "14&&vào"], "label": "SUP+"}
+{"subject": ["27&&chất", "28&&lượng", "29&&hình", "30&&ảnh"], "object": [], "aspect": [], "predicate": ["32&&sẽ", "33&&không", "34&&bàn", "35&&luận", "36&&nhiều"], "label": "DIF"}
+
+Các bạn có thể xem và cho đánh giá thêm về chất lượng hình ảnh.	Các bạn có thể xem và cho đánh giá thêm về chất lượng hình ảnh .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chống rung khi đi bộ	Chống rung khi đi bộ
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Được rồi đi thôi! Trước tiên mình sẽ thử chống rung hai máy ở level thấp nhất là đi bộ.	Được rồi đi thôi ! Trước tiên mình sẽ thử chống rung hai máy ở level thấp nhất là đi bộ .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Với hai chiếc điện thoại thuộc top đầu thị trường hiện nay thì bài test này có thể nói là quá dễ.	Với hai chiếc điện thoại thuộc top đầu thị trường hiện nay thì bài test này có thể nói là quá dễ .
+{"subject": ["2&&hai", "3&&chiếc", "4&&điện", "5&&thoại"], "object": [], "aspect": [], "predicate": ["21&&quá", "22&&dễ"], "label": "SUP+"}
+
+Cả hai máy đều cho khả năng chống rung rất tốt không có gì để chê được cả.	Cả hai máy đều cho khả năng chống rung rất tốt không có gì để chê được cả .
+{"subject": ["1&&Cả", "2&&hai", "3&&máy"], "object": [], "aspect": ["6&&khả", "7&&năng", "8&&chống", "9&&rung"], "predicate": ["12&&không", "13&&có", "14&&gì", "15&&để", "16&&chê", "17&&được", "18&&cả"], "label": "EQL"}
+
+Chống rung khi chạy, nhảy	Chống rung khi chạy , nhảy
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Thực ra mà nói chống rung khi đi bộ thì ngay cả những con máy tầm trung cũng có thể làm được.	Thực ra mà nói chống rung khi đi bộ thì ngay cả những con máy tầm trung cũng có thể làm được .
+{"subject": ["13&&những", "14&&con", "15&&máy", "16&&tầm", "17&&trung"], "object": ["13&&những", "14&&con", "15&&máy", "16&&tầm", "17&&trung"], "aspect": ["5&&chống", "6&&rung", "7&&khi", "8&&đi", "9&&bộ"], "predicate": ["19&&có", "20&&thể", "21&&làm", "22&&được"], "label": "EQL"}
+
+Cái mình muốn thấy là sự thất bại trong việc chống rung của hai chiếc máy cao cấp này.	Cái mình muốn thấy là sự thất bại trong việc chống rung của hai chiếc máy cao cấp này .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Vì vậy lần này mình thử với những cảnh quay chạy, nhảy để xem khả năng chống rung của hai máy tới đâu.	Vì vậy lần này mình thử với những cảnh quay chạy , nhảy để xem khả năng chống rung của hai máy tới đâu .
+{"subject": [], "object": [], "aspect": ["16&&khả", "17&&năng", "18&&chống", "19&&rung"], "predicate": ["23&&tới", "24&&đâu"], "label": "DIF"}
+
+Quả nhiên là thất bại, nhưng không phải là hai chiếc máy này mà là mình.	Quả nhiên là thất bại , nhưng không phải là hai chiếc máy này mà là mình .
+{"subject": ["17&&mình"], "object": ["11&&hai", "12&&chiếc", "13&&máy", "14&&này"], "aspect": ["4&&thất", "5&&bại"], "predicate": ["3&&là"], "label": "COM-"}
+
+Cả S23 Ultra và iPhone 14 Pro Max đều xuất sắc vượt qua bài kiểm tra, mặc dù trong lúc chạy mình đã cố tình lắc tay để tăng thêm độ khó.	Cả S23 Ultra và iPhone 14 Pro Max đều xuất sắc vượt qua bài kiểm tra , mặc dù trong lúc chạy mình đã cố tình lắc tay để tăng thêm độ khó .
+{"subject": ["2&&S23", "3&&Ultra"], "object": ["5&&iPhone", "6&&14", "7&&Pro", "8&&Max"], "aspect": ["32&&độ", "33&&khó"], "predicate": ["30&&tăng", "31&&thêm"], "label": "DIF"}
+{"subject": ["2&&S23", "3&&Ultra"], "object": ["5&&iPhone", "6&&14", "7&&Pro", "8&&Max"], "aspect": ["12&&vượt", "13&&qua"], "predicate": ["12&&vượt", "13&&qua"], "label": "COM+"}
+
+Về chất lượng video thì cả hai gần như một 9 một 10 với nhau.	Về chất lượng video thì cả hai gần như một 9 một 10 với nhau .
+{"subject": ["6&&cả", "7&&hai"], "object": ["6&&cả", "7&&hai"], "aspect": ["2&&chất", "3&&lượng", "4&&video"], "predicate": ["8&&gần", "9&&như", "10&&một", "11&&9", "12&&một", "13&&10"], "label": "EQL"}
+
+Tuy nhiên màu sắc trên iPhone 14 Pro Max có phần nịnh mắt hơn.	Tuy nhiên màu sắc trên iPhone 14 Pro Max có phần nịnh mắt hơn .
+{"subject": ["3&&màu", "4&&sắc"], "object": ["6&&iPhone", "7&&14", "8&&Pro", "9&&Max"], "aspect": ["3&&màu", "4&&sắc"], "predicate": ["10&&có", "11&&phần", "12&&nịnh", "13&&mắt", "14&&hơn"], "label": "COM+"}
+
+Chống rung khi leo dốc, leo bậc thang	Chống rung khi leo dốc , leo bậc thang
+{"subject": [], "object": [], "aspect": ["3&&khi"], "predicate": ["3&&khi"], "label": "COM"}
+
+Tiếp tục thử với những cảnh quay Vlog vừa đi bộ, leo dốc, leo cầu thang để tìm thấy điểm yếu chống rung trên hai chiếc máy cao cấp này.	Tiếp tục thử với những cảnh quay Vlog vừa đi bộ , leo dốc , leo cầu thang để tìm thấy điểm yếu chống rung trên hai chiếc máy cao cấp này .
+{"subject": ["5&&những", "6&&cảnh", "7&&quay", "8&&Vlog"], "object": [], "aspect": ["22&&điểm", "23&&yếu", "24&&chống", "25&&rung"], "predicate": ["20&&tìm", "21&&thấy"], "label": "EQL"}
+
+Nhưng phải thú thực với các bạn chống rung trên hai chiếc flagship này gần như hoàn hảo, không hề thua kém một chiếc camera hành động nào.	Nhưng phải thú thực với các bạn chống rung trên hai chiếc flagship này gần như hoàn hảo , không hề thua kém một chiếc camera hành động nào .
+{"subject": ["8&&chống", "9&&rung"], "object": ["11&&hai", "12&&chiếc", "13&&flagship", "14&&này"], "aspect": ["17&&hoàn", "18&&hảo"], "predicate": ["15&&gần", "16&&như", "17&&hoàn", "18&&hảo"], "label": "COM+"}
+
+Video vẫn cứ chất lượng, trong suốt quá trình quay vẫn không hề xuất hiện rung lắc hay mất nét.	Video vẫn cứ chất lượng , trong suốt quá trình quay vẫn không hề xuất hiện rung lắc hay mất nét .
+{"subject": ["1&&Video"], "object": [], "aspect": ["4&&chất", "5&&lượng"], "predicate": ["2&&vẫn", "3&&cứ"], "label": "COM+"}
+
+Các bạn hoàn toàn có thể dùng một trong hai chiếc máy này để làm Vlog hay đơn giản là quay những thước phim khi đi du lịch để đăng lên mạng xã hội.	Các bạn hoàn toàn có thể dùng một trong hai chiếc máy này để làm Vlog hay đơn giản là quay những thước phim khi đi du lịch để đăng lên mạng xã hội .
+{"subject": [], "object": [], "aspect": [], "predicate": ["3&&hoàn", "4&&toàn", "5&&có", "6&&thể"], "label": "COM+"}
+
+Chống rung khi chạy xe	Chống rung khi chạy xe
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Mặc dù những bài test ở trên đã khẳng định chất lượng chống rung trên hai siêu phẩm này nhưng mình vẫn muốn kiểm tra thêm.	Mặc dù những bài test ở trên đã khẳng định chất lượng chống rung trên hai siêu phẩm này nhưng mình vẫn muốn kiểm tra thêm .
+{"subject": ["21&&mình"], "object": [], "aspect": [], "predicate": ["23&&muốn", "24&&kiểm", "25&&tra", "26&&thêm"], "label": "COM-"}
+
+Lần này mình sẽ biến hai chiếc máy này thành camera hành trình.	Lần này mình sẽ biến hai chiếc máy này thành camera hành trình .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Chạy trên đường phố qua những gờ giảm tốc hay đường gồ ghề chắc chắn sẽ thấy được sự rung lắc.	Chạy trên đường phố qua những gờ giảm tốc hay đường gồ ghề chắc chắn sẽ thấy được sự rung lắc .
+{"subject": ["3&&đường", "4&&phố"], "object": ["11&&đường", "12&&gồ", "13&&ghề"], "aspect": ["19&&sự", "20&&rung", "21&&lắc"], "predicate": ["14&&chắc", "15&&chắn", "16&&sẽ", "17&&thấy", "18&&được"], "label": "COM+"}
+
+Nhưng mọi thứ vẫn như vậy, hình ảnh vẫn chất lượng, vẫn giữ nguyên sự ổn định đó.	Nhưng mọi thứ vẫn như vậy , hình ảnh vẫn chất lượng , vẫn giữ nguyên sự ổn định đó .
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Tuy nhiên mình vẫn đánh gia cao khả năng ổn định hình ảnh của iPhone 14 Pro Max vẫn nhỉnh hơn 1 chút (chỉ một chút thôi nhé) so với Galaxy S23 Ultra.	Tuy nhiên mình vẫn đánh gia cao khả năng ổn định hình ảnh của iPhone 14 Pro Max vẫn nhỉnh hơn 1 chút ( chỉ một chút thôi nhé ) so với Galaxy S23 Ultra .
+{"subject": ["15&&iPhone", "16&&14", "17&&Pro", "18&&Max"], "object": ["33&&Galaxy", "34&&S23", "35&&Ultra"], "aspect": ["8&&khả", "9&&năng", "10&&ổn", "11&&định", "12&&hình", "13&&ảnh"], "predicate": ["20&&nhỉnh", "21&&hơn"], "label": "COM+"}
+{"subject": ["15&&iPhone", "16&&14", "17&&Pro", "18&&Max"], "object": ["33&&Galaxy", "34&&S23", "35&&Ultra"], "aspect": [], "predicate": ["25&&chỉ", "26&&một", "27&&chút", "28&&thôi"], "label": "COM+"}
+
+Nếu so sánh với các loại camera hành động khác như: GoPro Hero 11, DJI Osmo Pocket 2 mình từng dùng thì thấy rằng chất lượng chống rung trên iPhone 14 Pro Max và Galaxy S23 Ultra cũng không hề kém cạnh là bao.	Nếu so sánh với các loại camera hành động khác như : GoPro Hero 11 , DJI Osmo Pocket 2 mình từng dùng thì thấy rằng chất lượng chống rung trên iPhone 14 Pro Max và Galaxy S23 Ultra cũng không hề kém cạnh là bao .
+{"subject": ["32&&iPhone", "33&&14", "34&&Pro", "35&&Max"], "object": ["13&&GoPro", "14&&Hero", "15&&11"], "aspect": ["27&&chất", "28&&lượng", "29&&chống", "30&&rung"], "predicate": ["40&&cũng", "41&&không", "42&&hề", "43&&kém", "44&&cạnh", "45&&là", "46&&bao"], "label": "COM+"}
+{"subject": ["37&&Galaxy", "38&&S23", "39&&Ultra"], "object": ["13&&GoPro", "14&&Hero", "15&&11"], "aspect": ["27&&chất", "28&&lượng", "29&&chống", "30&&rung"], "predicate": ["40&&cũng", "41&&không", "42&&hề", "43&&kém", "44&&cạnh", "45&&là", "46&&bao"], "label": "COM+"}
+
+Tổng kết	Tổng kết
+{"subject": [], "object": [], "aspect": [], "predicate": [], "label": ""}
+
+Tóm lại, chất lượng chống rung trên iPhone 14 Pro Max và Samsung Galaxy S23 Ultra là không thể bàn cãi.	Tóm lại , chất lượng chống rung trên iPhone 14 Pro Max và Samsung Galaxy S23 Ultra là không thể bàn cãi .
+{"subject": ["9&&iPhone", "10&&14", "11&&Pro", "12&&Max"], "object": ["14&&Samsung", "15&&Galaxy", "16&&S23", "17&&Ultra"], "aspect": ["4&&chất", "5&&lượng", "6&&chống", "7&&rung"], "predicate": ["19&&không", "20&&thể", "21&&bàn", "22&&cãi"], "label": "COM+"}
+
+Tuy nhiên cá nhân mình nhận thấy khả năng ổn định video trên iPhone 14 Pro Max vẫn nhỉnh hơn một chút so với Galaxy S23 Ultra.	Tuy nhiên cá nhân mình nhận thấy khả năng ổn định video trên iPhone 14 Pro Max vẫn nhỉnh hơn một chút so với Galaxy S23 Ultra .
+{"subject": ["3&&cá", "4&&nhân", "5&&mình"], "object": [], "aspect": ["8&&khả", "9&&năng", "10&&ổn", "11&&định", "12&&video"], "predicate": ["19&&nhỉnh", "20&&hơn", "21&&một", "22&&chút"], "label": "COM+"}
+
+Nói như vậy không có nghĩa là khả năng ổn định hình ảnh trên Galaxy S23 Ultra không tốt.	Nói như vậy không có nghĩa là khả năng ổn định hình ảnh trên Galaxy S23 Ultra không tốt .
+{"subject": ["8&&khả", "9&&năng", "10&&ổn", "11&&định", "12&&hình", "13&&ảnh"], "object": ["15&&Galaxy", "16&&S23", "17&&Ultra"], "aspect": [], "predicate": ["18&&không", "19&&tốt"], "label": "COM-"}
+
+Thực tế hai chiếc flagship này hoàn toàn có thể cho bạn những thước phim hoàn hảo nhất, đẹp nhất để phục công việc hay chỉ đơn giản là đăng Facebook, TikTok khoe bạn bè, người thân.	Thực tế hai chiếc flagship này hoàn toàn có thể cho bạn những thước phim hoàn hảo nhất , đẹp nhất để phục công việc hay chỉ đơn giản là đăng Facebook , TikTok khoe bạn bè , người thân .
+{"subject": ["3&&hai", "4&&chiếc", "5&&flagship", "6&&này"], "object": [], "aspect": [], "predicate": ["7&&hoàn", "8&&toàn", "9&&có", "10&&thể"], "label": "COM+"}

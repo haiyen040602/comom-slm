@@ -17,10 +17,13 @@ alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt :
 des:	des :
 
 Nếu phải đánh giá về thiết kế của hai siêu phẩm này thì có thể nói là “mỗi người một vẻ”.	Nếu phải đánh giá về thiết kế của hai siêu phẩm này thì có thể nói là “ mỗi người một vẻ ” .
+{"subject": ["9&&hai", "10&&siêu", "11&&phẩm", "12&&này"], "object": ["9&&hai", "10&&siêu", "11&&phẩm", "12&&này"], "aspect": ["6&&thiết", "7&&kế"], "predicate": ["19&&mỗi", "20&&người", "21&&một", "22&&vẻ"], "label": "DIF"}
 
 Đến từ hai thương hiệu khác nhau cho nên hai chiếc điện thoại này có vẻ diện mạo hoàn toàn khác biệt nhau.	Đến từ hai thương hiệu khác nhau cho nên hai chiếc điện thoại này có vẻ diện mạo hoàn toàn khác biệt nhau .
+{"subject": ["10&&hai", "11&&chiếc", "12&&điện", "13&&thoại"], "object": ["10&&hai", "11&&chiếc", "12&&điện", "13&&thoại"], "aspect": ["17&&diện", "18&&mạo"], "predicate": ["19&&hoàn", "20&&toàn", "21&&khác", "22&&biệt", "23&&nhau"], "label": "DIF"}
 
 Tuy nhiên, so sánh về thiết kế thì ưu thế sẽ nghiêng về phía iPhone 13 hơn.	Tuy nhiên , so sánh về thiết kế thì ưu thế sẽ nghiêng về phía iPhone 13 hơn .
+{"subject": ["16&&iPhone", "17&&13"], "object": [], "aspect": ["7&&thiết", "8&&kế"], "predicate": ["10&&ưu", "11&&thế", "12&&sẽ", "13&&nghiêng", "14&&về"], "label": "COM+"}
 
 Samsung Galaxy S22 sở hữu thiết kế cao cấp, mới lạ, được hoàn thiện bằng kim loại cao cấp, mặt lưng được ốp kính vô cùng tinh tế.	Samsung Galaxy S22 sở hữu thiết kế cao cấp , mới lạ , được hoàn thiện bằng kim loại cao cấp , mặt lưng được ốp kính vô cùng tinh tế .
 
@@ -39,6 +42,7 @@ Máy được thiết kế với phần khung kim loại cao cấp, ôm sát và
 Thân máy mỏng, lưng phẳng được ốp kính để tăng thêm phần sang trọng.	Thân máy mỏng , lưng phẳng được ốp kính để tăng thêm phần sang trọng .
 
 Cụm camera kép bố trí xéo theo thân máy để tạo điểm nhấn, logo Táo khuyết màu trắng ánh kim khiến tổng thể iPhone 13 trở nên hoàn hảo và sang trọng hơn.	Cụm camera kép bố trí xéo theo thân máy để tạo điểm nhấn , logo Táo khuyết màu trắng ánh kim khiến tổng thể iPhone 13 trở nên hoàn hảo và sang trọng hơn .
+{"subject": ["25&&iPhone", "26&&13"], "object": [], "aspect": ["23&&tổng", "24&&thể"], "predicate": ["29&&hoàn", "30&&hảo", "31&&và", "32&&sang", "33&&trọng", "34&&hơn"], "label": "COM+"}
 
 Về màu sắc, iPhone 13 có 5 tùy chọn màu gồm Đen, Trắng, Hồng, Xanh và Đỏ.	Về màu sắc , iPhone 13 có 5 tùy chọn màu gồm Đen , Trắng , Hồng , Xanh và Đỏ .
 
@@ -51,16 +55,19 @@ alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt :
 des:	des :
 
 iPhone 13 và Samsung S22 đều ngang nhau về các thông số màn hình.	iPhone 13 và Samsung S22 đều ngang nhau về các thông số màn hình .
+{"subject": ["1&&iPhone", "2&&13"], "object": ["4&&Samsung", "5&&S22"], "aspect": ["11&&thông", "12&&số", "13&&màn", "14&&hình"], "predicate": ["6&&đều", "7&&ngang", "8&&nhau"], "label": "EQL"}
 
 Cụ thể, hai siêu phẩm này sở hữu màn hình với kích thước 6.1 inch, đi kèm độ phân giải Full-HD+ trên tấm nền Dynamic AMOLED 2X.	Cụ thể , hai siêu phẩm này sở hữu màn hình với kích thước 6.1 inch , đi kèm độ phân giải Full-HD + trên tấm nền Dynamic AMOLED 2X .
 
 Nhưng Galaxy lại chiếm ưu thế hơn khi được trang bị tần số quét lên đến 120Hz, còn iPhone 13 lại bị Apple “quên” không trang bị công nghệ này.	Nhưng Galaxy lại chiếm ưu thế hơn khi được trang bị tần số quét lên đến 120Hz , còn iPhone 13 lại bị Apple “ quên ” không trang bị công nghệ này .
+{"subject": ["2&&Galaxy"], "object": ["20&&iPhone", "21&&13"], "aspect": ["12&&tần", "13&&số", "14&&quét"], "predicate": ["4&&chiếm", "5&&ưu", "6&&thế", "7&&hơn"], "label": "COM+"}
 
 alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt : So sánh iPhone 13 và Samsung S22 : Ai mới thật sự mạnh hơn ?
 
 des:	des :
 
 Chính nhờ tần số quét màn hình cao cho nên S22 sẽ cho chất lượng hình ảnh nhỉnh hơn so với đối thủ khi người dùng chơi game hoặc các tác vụ giải trí như xem phim,…	Chính nhờ tần số quét màn hình cao cho nên S22 sẽ cho chất lượng hình ảnh nhỉnh hơn so với đối thủ khi người dùng chơi game hoặc các tác vụ giải trí như xem phim , …
+{"subject": ["11&&S22"], "object": ["22&&đối", "23&&thủ"], "aspect": ["14&&chất", "15&&lượng", "16&&hình", "17&&ảnh"], "predicate": ["18&&nhỉnh", "19&&hơn"], "label": "COM+"}
 
 3.	3 .
 
@@ -71,8 +78,10 @@ alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt :
 des:	des :
 
 Bàn về hiệu năng thì iPhone 13 ăn đứt đối thủ Samsung Galaxy S22.	Bàn về hiệu năng thì iPhone 13 ăn đứt đối thủ Samsung Galaxy S22 .
+{"subject": ["6&&iPhone", "7&&13"], "object": ["12&&Samsung", "13&&Galaxy", "14&&S22"], "aspect": ["3&&hiệu", "4&&năng"], "predicate": ["8&&ăn", "9&&đứt"], "label": "COM+"}
 
 Được Apple trang bị siêu chip A15 Bonic – dòng chip điện thoại mạnh mẽ bật nhất và đang dẫn đầu trong thị trường công nghệ ở thời điểm hiện tại.	Được Apple trang bị siêu chip A15 Bonic – dòng chip điện thoại mạnh mẽ bật nhất và đang dẫn đầu trong thị trường công nghệ ở thời điểm hiện tại .
+{"subject": ["7&&A15", "8&&Bonic"], "object": [], "aspect": [], "predicate": ["14&&mạnh", "15&&mẽ", "16&&bật", "17&&nhất", "18&&và", "19&&đang", "20&&dẫn", "21&&đầu", "22&&trong", "23&&thị", "24&&trường", "25&&công", "26&&nghệ", "27&&ở", "28&&thời", "29&&điểm", "30&&hiện", "31&&tại"], "label": "SUP+"}
 
 Trong khi đó, đối thủ là Samsung Galaxy S22 được trang bị chip Snapdragon 8 Gen 1 cũng là một trong những dòng chip mạnh mẽ của hệ điều hành Android.	Trong khi đó , đối thủ là Samsung Galaxy S22 được trang bị chip Snapdragon 8 Gen 1 cũng là một trong những dòng chip mạnh mẽ của hệ điều hành Android .
 
@@ -81,6 +90,7 @@ Trong bài kiểm tra hiệu năng trên phần mềm Geekbench cho thấy, chip
 Còn chip Snapdragon 8 Gen 1 chỉ đạt 1,232 điểm đơn lõi và 3,433 điểm đa lõi.	Còn chip Snapdragon 8 Gen 1 chỉ đạt 1,232 điểm đơn lõi và 3,433 điểm đa lõi .
 
 Dựa vào kết quả của bài kiểm tra này chúng ta có thể nhận thấy hiệu suất CPU của iPhone 13 nhanh hơn khoảng 35% so với Galaxy S22.	Dựa vào kết quả của bài kiểm tra này chúng ta có thể nhận thấy hiệu suất CPU của iPhone 13 nhanh hơn khoảng 35% so với Galaxy S22 .
+{"subject": ["20&&iPhone", "21&&13"], "object": ["28&&Galaxy", "29&&S22"], "aspect": ["16&&hiệu", "17&&suất", "18&&CPU"], "predicate": ["22&&nhanh", "23&&hơn", "24&&khoảng", "25&&35%"], "label": "COM+"}
 
 alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt : So sánh iPhone 13 và Samsung S22 : Ai mới thật sự mạnh hơn ?
 
@@ -101,6 +111,8 @@ Về hệ điều hành, Samsung Galaxy S22 được cài sẵn hệ điều hà
 Còn iPhone 13 chạy hệ điều hành iOS 15 và được Apple hỗ trợ nâng cấp hệ điều hành lên đến 6 bản cập nhật iOS lớn.	Còn iPhone 13 chạy hệ điều hành iOS 15 và được Apple hỗ trợ nâng cấp hệ điều hành lên đến 6 bản cập nhật iOS lớn .
 
 Như vậy, khi xét về mặt hỗ trợ công nghệ, có thể thấy iPhone 13 sẽ là dòng sản được hỗ trợ nâng cấp phần mềm trong thời gian lâu hơn và vượt trội hơn so với Samsung.	Như vậy , khi xét về mặt hỗ trợ công nghệ , có thể thấy iPhone 13 sẽ là dòng sản được hỗ trợ nâng cấp phần mềm trong thời gian lâu hơn và vượt trội hơn so với Samsung .
+{"subject": ["16&&iPhone", "17&&13"], "object": ["40&&Samsung"], "aspect": ["23&&hỗ", "24&&trợ", "25&&nâng", "26&&cấp", "27&&phần", "28&&mềm"], "predicate": ["32&&lâu", "33&&hơn"], "label": "COM+"}
+{"subject": ["16&&iPhone", "17&&13"], "object": ["40&&Samsung"], "aspect": ["23&&hỗ", "24&&trợ", "25&&nâng", "26&&cấp", "27&&phần", "28&&mềm"], "predicate": ["35&&vượt", "36&&trội", "37&&hơn"], "label": "COM+"}
 
 4.	4 .
 
@@ -113,12 +125,14 @@ des:	des :
 Chất lượng camera là điều được hầu hết mọi người dùng quan tâm, nhất là trên hai siêu phẩm là iPhone 13 và Samsung Galaxy S22.	Chất lượng camera là điều được hầu hết mọi người dùng quan tâm , nhất là trên hai siêu phẩm là iPhone 13 và Samsung Galaxy S22 .
 
 Cụ thể, iPhone 13 được Apple trang bị camera kép với độ phân giải 12MP với cảm biến chính lớn hơn thế hệ tiền nhiệm, cho chất lượng hình ảnh ổn định với độ sáng tuyệt vời nhất.	Cụ thể , iPhone 13 được Apple trang bị camera kép với độ phân giải 12MP với cảm biến chính lớn hơn thế hệ tiền nhiệm , cho chất lượng hình ảnh ổn định với độ sáng tuyệt vời nhất .
+{"subject": ["4&&iPhone", "5&&13"], "object": ["23&&thế", "24&&hệ", "25&&tiền", "26&&nhiệm"], "aspect": ["18&&cảm", "19&&biến", "20&&chính"], "predicate": ["21&&lớn", "22&&hơn"], "label": "COM+"}
 
 alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt : So sánh iPhone 13 và Samsung S22 : Ai mới thật sự mạnh hơn ?
 
 des:	des :
 
 Con S22 lại chiếm ưu thế hơn một chút với nhiều cải tiến về công nghệ camera.	Con S22 lại chiếm ưu thế hơn một chút với nhiều cải tiến về công nghệ camera .
+{"subject": ["2&&S22"], "object": [], "aspect": ["15&&công", "16&&nghệ", "17&&camera"], "predicate": ["4&&chiếm", "5&&ưu", "6&&thế", "7&&hơn", "8&&một", "9&&chút"], "label": "COM+"}
 
 Được trang bị camera chính với độ phân giải lên đến 50MP, ngoài ra còn được tích hợp thêm tính năng Night Ography cho chất lượng ảnh đêm tuyệt vời nhất.	Được trang bị camera chính với độ phân giải lên đến 50MP , ngoài ra còn được tích hợp thêm tính năng Night Ography cho chất lượng ảnh đêm tuyệt vời nhất .
 
@@ -129,6 +143,7 @@ alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt :
 des:	des :
 
 Tuy công nghệ camera trên Galaxy S22 có chiếm ưu thế hơn iPhone 13 thật nhưng chất lượng hình ảnh của hai chiếc điện thoại này cho ra cũng “kẻ tám lạng người nửa cân” khó mà kết luận ai hơn ai được.	Tuy công nghệ camera trên Galaxy S22 có chiếm ưu thế hơn iPhone 13 thật nhưng chất lượng hình ảnh của hai chiếc điện thoại này cho ra cũng “ kẻ tám lạng người nửa cân ” khó mà kết luận ai hơn ai được .
+{"subject": ["22&&hai", "23&&chiếc", "24&&điện", "25&&thoại", "26&&này"], "object": ["22&&hai", "23&&chiếc", "24&&điện", "25&&thoại", "26&&này"], "aspect": ["17&&chất", "18&&lượng", "19&&hình", "20&&ảnh"], "predicate": ["31&&kẻ", "32&&tám", "33&&lạng", "34&&người", "35&&nửa", "36&&cân"], "label": "EQL"}
 
 5.	5 .
 
@@ -147,6 +162,8 @@ alt: So sánh iPhone 13 và Samsung S22: Ai mới thật sự mạnh hơn?	alt :
 des:	des :
 
 Cho dù dung lượng pin của iPhone 13 có nhỏ hơn đối thủ thật, nhưng nhờ sự tối ưu hóa tốt về phần cứng lẫn phần mềm, cho nên thời lượng pin của chiếc máy này sẽ không thua kém so với Galaxy S22.	Cho dù dung lượng pin của iPhone 13 có nhỏ hơn đối thủ thật , nhưng nhờ sự tối ưu hóa tốt về phần cứng lẫn phần mềm , cho nên thời lượng pin của chiếc máy này sẽ không thua kém so với Galaxy S22 .
+{"subject": ["7&&iPhone", "8&&13"], "object": ["12&&đối", "13&&thủ"], "aspect": ["3&&dung", "4&&lượng", "5&&pin"], "predicate": ["10&&nhỏ", "11&&hơn"], "label": "COM-"}
+{"subject": ["36&&chiếc", "37&&máy", "38&&này"], "object": ["45&&Galaxy", "46&&S22"], "aspect": ["32&&thời", "33&&lượng", "34&&pin"], "predicate": ["40&&không", "41&&thua", "42&&kém"], "label": "EQL"}
 
 Cả hai siêu phẩm cũng đảm bảo đáp ứng đủ nhu cầu sử dụng của người dùng, pin “trâu” dùng cả ngày không lo cắm sạc đó.	Cả hai siêu phẩm cũng đảm bảo đáp ứng đủ nhu cầu sử dụng của người dùng , pin “ trâu ” dùng cả ngày không lo cắm sạc đó .
 

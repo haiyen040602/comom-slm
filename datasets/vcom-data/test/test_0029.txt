@@ -31,6 +31,7 @@ Cùng so sánh iPhone 13 Pro Max và OPPO Find X5 Pro trong bài viết này đ�
 Đương nhiên khi so sánh iPhone 13 Pro Max và OPPO Find X5 Pro thì yếu tố đầu tiên mà mọi người quan tâm hàng đầu chính là giá lên kệ.	Đương nhiên khi so sánh iPhone 13 Pro Max và OPPO Find X5 Pro thì yếu tố đầu tiên mà mọi người quan tâm hàng đầu chính là giá lên kệ .
 
 Tại thời điểm ra mắt, chiếc flagship của Apple đã từng đốn tim biết bao iFan bởi được nâng cấp mạnh mẽ về cấu hình bên trong nhưng lại có giá bán không đổi so với tiền nhiệm.	Tại thời điểm ra mắt , chiếc flagship của Apple đã từng đốn tim biết bao iFan bởi được nâng cấp mạnh mẽ về cấu hình bên trong nhưng lại có giá bán không đổi so với tiền nhiệm .
+{"subject": ["7&&chiếc", "8&&flagship", "9&&của", "10&&Apple"], "object": ["38&&tiền", "39&&nhiệm"], "aspect": ["32&&giá", "33&&bán"], "predicate": ["34&&không", "35&&đổi", "36&&so", "37&&với"], "label": "EQL"}
 
 Cùng khám phá ngay iPhone 13 Pro Max giá bao nhiêu 2022 ở ngay sau đây:	Cùng khám phá ngay iPhone 13 Pro Max giá bao nhiêu 2022 ở ngay sau đây :
 
@@ -45,6 +46,7 @@ alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pr
 des:Vẻ đẹp thuần khiết của OPPO Find X5 Pro	des : Vẻ đẹp thuần khiết của OPPO Find X5 Pro
 
 Khi so sánh OPPO Find X5 Pro và iPhone 13 Pro Max về giá bán thì có thể là siêu phẩm mới ra mắt của nhà sản xuất đến từ xứ Trung có phần nhỉnh hơn một chút.	Khi so sánh OPPO Find X5 Pro và iPhone 13 Pro Max về giá bán thì có thể là siêu phẩm mới ra mắt của nhà sản xuất đến từ xứ Trung có phần nhỉnh hơn một chút .
+{"subject": ["20&&siêu", "21&&phẩm", "22&&mới", "23&&ra", "24&&mắt", "25&&của", "26&&nhà", "27&&sản", "28&&xuất", "29&&đến", "30&&từ", "31&&xứ", "32&&Trung"], "object": ["9&&iPhone", "10&&13", "11&&Pro", "12&&Max"], "aspect": ["14&&giá", "15&&bán"], "predicate": ["35&&nhỉnh", "36&&hơn", "37&&một", "38&&chút"], "label": "COM-"}
 
 Đây là một điều khá dễ hiểu bởi điện thoại ra mắt sau so với đối thủ được một khoảng thời gian cũng khá nhiều.	Đây là một điều khá dễ hiểu bởi điện thoại ra mắt sau so với đối thủ được một khoảng thời gian cũng khá nhiều .
 
@@ -55,6 +57,7 @@ Bên cạnh giá bán thì thiết kế của những sản phẩm là mối qua
 Kiểu dáng của iPhone được xem là biểu tượng và xu hướng công nghệ toàn cầu.	Kiểu dáng của iPhone được xem là biểu tượng và xu hướng công nghệ toàn cầu .
 
 Tuy nhiên, có khả năng cao là Find X5 Pro sẽ dễ hấp dẫn người dùng hơn so với đối thủ bên kia chiến tuyến.	Tuy nhiên , có khả năng cao là Find X5 Pro sẽ dễ hấp dẫn người dùng hơn so với đối thủ bên kia chiến tuyến .
+{"subject": ["9&&Find", "10&&X5", "11&&Pro"], "object": ["21&&đối", "22&&thủ", "23&&bên", "24&&kia", "25&&chiến", "26&&tuyến"], "aspect": [], "predicate": ["14&&hấp", "15&&dẫn", "16&&người", "17&&dùng", "18&&hơn"], "label": "COM+"}
 
 alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pro Max và OPPO Find X5 Pro
 
@@ -71,6 +74,7 @@ Chính vì thế, phần sau của điện thoại trông cực kỳ liền mạ
 OPPO Find X5 Pro mang phong cách thiết kế theo cảm hừng từ kiểu dáng của tàu vũ trụ thu hút mọi ánh nhìn.	OPPO Find X5 Pro mang phong cách thiết kế theo cảm hừng từ kiểu dáng của tàu vũ trụ thu hút mọi ánh nhìn .
 
 Tuy nhiên, iPhone 13 Pro Max lại giành phấn chiến thắng khi nói đến chất lượng hoàn thiện.	Tuy nhiên , iPhone 13 Pro Max lại giành phấn chiến thắng khi nói đến chất lượng hoàn thiện .
+{"subject": ["4&&iPhone", "5&&13", "6&&Pro", "7&&Max"], "object": [], "aspect": ["16&&chất", "17&&lượng", "18&&hoàn", "19&&thiện"], "predicate": ["9&&giành", "10&&phấn", "11&&chiến", "12&&thắng"], "label": "COM+"}
 
 Hơn thế nữa, lớp kính của sản phẩm được bảo hộ bởi Ceramic Shield hiện đại, bền bỉ.	Hơn thế nữa , lớp kính của sản phẩm được bảo hộ bởi Ceramic Shield hiện đại , bền bỉ .
 
@@ -83,6 +87,7 @@ des: iPhone 13 Pro Max đẹp không vết xước	des : iPhone 13 Pro Max đẹ
 Bên cạnh đó, siêu phẩm nhà Apple được trang bị công nghệ chống nước theo tiêu chuẩn IP68, giúp đem lại khả năng trụ được ở độ sâu đến 6 m.	Bên cạnh đó , siêu phẩm nhà Apple được trang bị công nghệ chống nước theo tiêu chuẩn IP68 , giúp đem lại khả năng trụ được ở độ sâu đến 6 m .
 
 Trong khi đó, OPPO Find X5 Pro cũng không hề kém cạnh so với đối thủ khi cũng mang trong mình tiêu chuẩn IP68 hiện đại.	Trong khi đó , OPPO Find X5 Pro cũng không hề kém cạnh so với đối thủ khi cũng mang trong mình tiêu chuẩn IP68 hiện đại .
+{"subject": ["5&&OPPO", "6&&Find", "7&&X5", "8&&Pro"], "object": ["16&&đối", "17&&thủ"], "aspect": ["23&&tiêu", "24&&chuẩn", "25&&IP68", "26&&hiện", "27&&đại"], "predicate": ["10&&không", "11&&hề", "12&&kém", "13&&cạnh"], "label": "EQL"}
 
 Tuy nhiên, 1.5 m chính là độ sâu mà sản phẩm có thể chịu được ở dưới mặt nước.	Tuy nhiên , 1.5 m chính là độ sâu mà sản phẩm có thể chịu được ở dưới mặt nước .
 
@@ -91,6 +96,7 @@ Tuy nhiên, 1.5 m chính là độ sâu mà sản phẩm có thể chịu đư�
 Nếu so sánh iPhone 13 Pro Max và OPPO Find X5 Pro mà bỏ qua khía cạnh chất lượng hiển thị của hai quân bài chủ lực đến từ hai nhà sản xuất hàng đầu thế giới.	Nếu so sánh iPhone 13 Pro Max và OPPO Find X5 Pro mà bỏ qua khía cạnh chất lượng hiển thị của hai quân bài chủ lực đến từ hai nhà sản xuất hàng đầu thế giới .
 
 Điện thoại cao cấp của OPPO sở hữu màn hình tốt hơn so với siêu phẩm nhà Táo khuyết nếu chỉ xét về các thông số kỹ thuật.	Điện thoại cao cấp của OPPO sở hữu màn hình tốt hơn so với siêu phẩm nhà Táo khuyết nếu chỉ xét về các thông số kỹ thuật .
+{"subject": ["1&&Điện", "2&&thoại", "3&&cao", "4&&cấp", "5&&của", "6&&OPPO"], "object": ["15&&siêu", "16&&phẩm", "17&&nhà", "18&&Táo", "19&&khuyết"], "aspect": ["9&&màn", "10&&hình"], "predicate": ["11&&tốt", "12&&hơn"], "label": "COM+"}
 
 alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pro Max và OPPO Find X5 Pro
 
@@ -113,6 +119,7 @@ alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pr
 des: Xem video trên iPhone 13 Pro Max	des : Xem video trên iPhone 13 Pro Max
 
 Chính vì thế, nếu như so sánh OPPO Find X5 Pro và iPhone 13 Pro Max về màn hình thì cả hai đều cho chất lượng tốt như nhau.	Chính vì thế , nếu như so sánh OPPO Find X5 Pro và iPhone 13 Pro Max về màn hình thì cả hai đều cho chất lượng tốt như nhau .
+{"subject": ["22&&cả", "23&&hai"], "object": ["22&&cả", "23&&hai"], "aspect": ["19&&màn", "20&&hình"], "predicate": ["26&&chất", "27&&lượng", "28&&tốt", "29&&như", "30&&nhau"], "label": "EQL"}
 
 Do đó, nếu bạn lựa chọn một trong hai thiết bị này thì chúng đều đem lại chúng ta những trải nghiệm xuất sắc.	Do đó , nếu bạn lựa chọn một trong hai thiết bị này thì chúng đều đem lại chúng ta những trải nghiệm xuất sắc .
 
@@ -125,6 +132,7 @@ Trong khi đó, OPPO Find X5 Pro lại sử dụng cảm biến vân tay nằm �
 Máy ảnh cũng là điều mà chúng ta không nên bỏ lỡ khi so sánh iPhone 13 Pro Max và OPPO Find X5 Pro.	Máy ảnh cũng là điều mà chúng ta không nên bỏ lỡ khi so sánh iPhone 13 Pro Max và OPPO Find X5 Pro .
 
 Lần này người giành phần thắng chính là siêu phẩm vừa mới trình làng của ông lớn công nghệ xứ Trung.	Lần này người giành phần thắng chính là siêu phẩm vừa mới trình làng của ông lớn công nghệ xứ Trung .
+{"subject": ["9&&siêu", "10&&phẩm", "11&&vừa", "12&&mới", "13&&trình", "14&&làng", "15&&của", "16&&ông", "17&&lớn", "18&&công", "19&&nghệ", "20&&xứ", "21&&Trung"], "object": [], "aspect": [], "predicate": ["4&&giành", "5&&phần", "6&&thắng"], "label": "COM+"}
 
 Thiết bị được trang bị bộ đôi cảm biến Sony IMX766 có độ phân giải 50 MP.	Thiết bị được trang bị bộ đôi cảm biến Sony IMX766 có độ phân giải 50 MP .
 
@@ -137,6 +145,8 @@ alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pr
 des: Cận cảnh camera OPPO Find X5 Pro	des : Cận cảnh camera OPPO Find X5 Pro
 
 Chưa dừng lại ở đó, OPPO Find X5 Pro sẽ có chất lượng ảnh chụp trong điều kiện thiếu sáng tốt hơn và sở hữu màu sắc sống động hơn so với đối thủ bên kia chiến tuyến.	Chưa dừng lại ở đó , OPPO Find X5 Pro sẽ có chất lượng ảnh chụp trong điều kiện thiếu sáng tốt hơn và sở hữu màu sắc sống động hơn so với đối thủ bên kia chiến tuyến .
+{"subject": ["7&&OPPO", "8&&Find", "9&&X5", "10&&Pro"], "object": ["34&&đối", "35&&thủ", "36&&bên", "37&&kia", "38&&chiến", "39&&tuyến"], "aspect": ["13&&chất", "14&&lượng", "15&&ảnh", "16&&chụp", "17&&trong", "18&&điều", "19&&kiện", "20&&thiếu", "21&&sáng"], "predicate": ["22&&tốt", "23&&hơn"], "label": "COM+"}
+{"subject": ["7&&OPPO", "8&&Find", "9&&X5", "10&&Pro"], "object": ["34&&đối", "35&&thủ", "36&&bên", "37&&kia", "38&&chiến", "39&&tuyến"], "aspect": ["27&&màu", "28&&sắc"], "predicate": ["29&&sống", "30&&động", "31&&hơn"], "label": "COM+"}
 
 Điều này có được là nhờ vào các ống kính xuất sắc cũng như NPU MariSilicon X đi kèm với sự hỗ trợ của Hasselblad.	Điều này có được là nhờ vào các ống kính xuất sắc cũng như NPU MariSilicon X đi kèm với sự hỗ trợ của Hasselblad .
 
@@ -155,6 +165,7 @@ Vì thế, chất lượng ảnh chụp của máy cũng có thể làm hài lò
 Cấu hình bên trong hai thiết bị cũng là điều mà không ít người dùng mong muốn được khám phá khi so sánh iPhone 13 Pro Max và OPPO Find X5 Pro.	Cấu hình bên trong hai thiết bị cũng là điều mà không ít người dùng mong muốn được khám phá khi so sánh iPhone 13 Pro Max và OPPO Find X5 Pro .
 
 Bộ đôi này đều là các sản phẩm thuộc phân khúc cao cấp nên đều mang trong mình những phần cứng hiện đại nhất.	Bộ đôi này đều là các sản phẩm thuộc phân khúc cao cấp nên đều mang trong mình những phần cứng hiện đại nhất .
+{"subject": ["1&&Bộ", "2&&đôi", "3&&này"], "object": ["1&&Bộ", "2&&đôi", "3&&này"], "aspect": [], "predicate": ["4&&đều", "5&&là", "6&&các", "7&&sản", "8&&phẩm", "9&&thuộc", "10&&phân", "11&&khúc", "12&&cao", "13&&cấp"], "label": "EQL"}
 
 alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pro Max và OPPO Find X5 Pro
 
@@ -173,6 +184,8 @@ alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pr
 des: Màn hình siêu hấp dẫn của iPhone 13 Pro Max	des : Màn hình siêu hấp dẫn của iPhone 13 Pro Max
 
 Tuy iPhone 13 Pro Max có phần hơi lép về về thông số của bộ nhớ RAM nhưng máy lại có hiệu năng tốt hơn so với đối thủ nhờ hệ điều hành được Apple tối ưu hóa cực kỳ tốt.	Tuy iPhone 13 Pro Max có phần hơi lép về về thông số của bộ nhớ RAM nhưng máy lại có hiệu năng tốt hơn so với đối thủ nhờ hệ điều hành được Apple tối ưu hóa cực kỳ tốt .
+{"subject": ["2&&iPhone", "3&&13", "4&&Pro", "5&&Max"], "object": ["28&&đối", "29&&thủ"], "aspect": ["12&&thông", "13&&số", "14&&của", "15&&bộ", "16&&nhớ", "17&&RAM"], "predicate": ["7&&phần", "8&&hơi", "9&&lép", "10&&về"], "label": "COM-"}
+{"subject": ["19&&máy"], "object": ["28&&đối", "29&&thủ"], "aspect": ["22&&hiệu", "23&&năng"], "predicate": ["24&&tốt", "25&&hơn"], "label": "COM+"}
 
 Đây là hai thiết bị cao cấp của hai hãng nên dự kiến là sẽ được hỗ trợ phần mềm về lâu dài.	Đây là hai thiết bị cao cấp của hai hãng nên dự kiến là sẽ được hỗ trợ phần mềm về lâu dài .
 
@@ -183,14 +196,18 @@ Tuy nhiên, không nhà sản xuất nào trên thị trường có thể cạnh
 Pin cũng là một yếu tố không kém phần quan trọng khi chúng ta so sánh iPhone 13 Pro Max và OPPO Find X5 Pro.	Pin cũng là một yếu tố không kém phần quan trọng khi chúng ta so sánh iPhone 13 Pro Max và OPPO Find X5 Pro .
 
 Cụ thể, viên pin mà chiếc điện thoại của Apple mang trong mình có phần nhỏ hơn một chút so với đối thủ.	Cụ thể , viên pin mà chiếc điện thoại của Apple mang trong mình có phần nhỏ hơn một chút so với đối thủ .
+{"subject": ["7&&chiếc", "8&&điện", "9&&thoại", "10&&của", "11&&Apple"], "object": ["23&&đối", "24&&thủ"], "aspect": ["4&&viên", "5&&pin"], "predicate": ["17&&nhỏ", "18&&hơn", "19&&một", "20&&chút"], "label": "COM-"}
 
 Tuy nhiên, lại một lần nữa thì iPhone 13 Pro Max giành được phần thắng trước OPPO Find X5 Pro do có phần mềm iOS được tối ưu hóa tốt hơn.	Tuy nhiên , lại một lần nữa thì iPhone 13 Pro Max giành được phần thắng trước OPPO Find X5 Pro do có phần mềm iOS được tối ưu hóa tốt hơn .
+{"subject": ["9&&iPhone", "10&&13", "11&&Pro", "12&&Max"], "object": ["18&&OPPO", "19&&Find", "20&&X5", "21&&Pro"], "aspect": [], "predicate": ["13&&giành", "14&&được", "15&&phần", "16&&thắng"], "label": "COM+"}
+{"subject": ["9&&iPhone", "10&&13", "11&&Pro", "12&&Max"], "object": ["18&&OPPO", "19&&Find", "20&&X5", "21&&Pro"], "aspect": ["28&&tối", "29&&ưu", "30&&hóa"], "predicate": ["31&&tốt", "32&&hơn"], "label": "COM+"}
 
 alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pro Max và OPPO Find X5 Pro
 
 des: Góc nghiên thần thánh của iPhone 13 Pro Max	des : Góc nghiên thần thánh của iPhone 13 Pro Max
 
 Ngược lại, OPPO luôn là bậc thấy khi nói về tốc độ sạc nên Find X5 Pro với tính năng sạc nhanh có dây công suất lên tới 80W dễ dàng đánh bại được đối thủ bên kia chiến tuyến.	Ngược lại , OPPO luôn là bậc thấy khi nói về tốc độ sạc nên Find X5 Pro với tính năng sạc nhanh có dây công suất lên tới 80W dễ dàng đánh bại được đối thủ bên kia chiến tuyến .
+{"subject": ["16&&Find", "17&&X5", "18&&Pro"], "object": ["36&&đối", "37&&thủ", "38&&bên", "39&&kia", "40&&chiến", "41&&tuyến"], "aspect": ["12&&tốc", "13&&độ", "14&&sạc"], "predicate": ["31&&dễ", "32&&dàng", "33&&đánh", "34&&bại"], "label": "COM+"}
 
 Bên cạnh đó, máy còn có khả năng sạc nhanh không dây 50W.	Bên cạnh đó , máy còn có khả năng sạc nhanh không dây 50W .
 
@@ -215,8 +232,10 @@ alt: So sánh iPhone 13 Pro Max và OPPO Find X5 Pro	alt : So sánh iPhone 13 Pr
 des: Phần dưới iPhone 13 Pro Max được gia công tinh xảo	des : Phần dưới iPhone 13 Pro Max được gia công tinh xảo
 
 Trong khi đó, OPPO Find X5 Pro cũng được cung cấp nhiều phụ kiện tương tự với siêu phẩm nhà Apple.	Trong khi đó , OPPO Find X5 Pro cũng được cung cấp nhiều phụ kiện tương tự với siêu phẩm nhà Apple .
+{"subject": ["5&&OPPO", "6&&Find", "7&&X5", "8&&Pro"], "object": ["19&&siêu", "20&&phẩm", "21&&nhà", "22&&Apple"], "aspect": ["13&&nhiều", "14&&phụ", "15&&kiện"], "predicate": ["16&&tương", "17&&tự", "18&&với"], "label": "EQL"}
 
 Tuy nhiên, OPPO đã ưu ái cho khách hàng hơn khi đem tới cho chúng ta củ sạc cùng với ốp lưng nhựa đi kèm.	Tuy nhiên , OPPO đã ưu ái cho khách hàng hơn khi đem tới cho chúng ta củ sạc cùng với ốp lưng nhựa đi kèm .
+{"subject": ["4&&OPPO"], "object": [], "aspect": ["6&&ưu", "7&&ái", "8&&cho", "9&&khách", "10&&hàng"], "predicate": ["6&&ưu", "7&&ái", "8&&cho", "9&&khách", "10&&hàng", "11&&hơn"], "label": "COM+"}
 
 Vì thế, người dùng không cần phải tốn tiền để mua thêm bất cứ thứ gì nữa mà vẫn có thể dùng điện thoại được một cách tốt nhất.	Vì thế , người dùng không cần phải tốn tiền để mua thêm bất cứ thứ gì nữa mà vẫn có thể dùng điện thoại được một cách tốt nhất .
 

@@ -56,6 +56,46 @@ def _tokenize_with_offsets(text: str) -> List[Dict[str, object]]:
     return out
 
 
+def _span_token_positions_from_tokenized(slot_value: str, tokenized_tokens: List[str]) -> List[int]:
+    """Find positions of slot_value in pre-tokenized tokens (1-indexed).
+    
+    tokenized_tokens: list of tokens from tokenized sentence (split by whitespace).
+    Returns: 1-indexed positions of matching tokens.
+    """
+    slot_value = (slot_value or "").strip()
+    if not slot_value or not tokenized_tokens:
+        return []
+    
+    slot_tokens = slot_value.split()
+    m = len(slot_tokens)
+    
+    # 1) Exact contiguous match
+    for i in range(len(tokenized_tokens) - m + 1):
+        if tokenized_tokens[i:i+m] == slot_tokens:
+            return list(range(i + 1, i + m + 1))
+    
+    # 2) Non-contiguous greedy fallback
+    positions = []
+    cursor = 0
+    for token in slot_tokens:
+        found = -1
+        for j in range(cursor, len(tokenized_tokens)):
+            if tokenized_tokens[j] == token:
+                found = j
+                break
+        if found < 0:
+            # Try full scan if not found from cursor
+            for j in range(0, len(tokenized_tokens)):
+                if tokenized_tokens[j] == token:
+                    found = j
+                    break
+        if found < 0:
+            return []
+        positions.append(found + 1)
+        cursor = found + 1
+    return positions
+
+
 def _span_token_positions(sentence: str, span_text: str) -> List[int]:
     span_text = (span_text or "").strip()
     if _is_unk_or_empty(span_text):
@@ -107,9 +147,23 @@ def _span_token_positions(sentence: str, span_text: str) -> List[int]:
     return positions
 
 
-def _to_indexed_slot(slot_value: str, sentence: str) -> str:
+def _to_indexed_slot(slot_value: str, sentence: str, tokenized_tokens: List[str] = None) -> str:
     if _is_unk_or_empty(slot_value):
         return ""
+    
+    # If tokenized_tokens provided, use them for accurate index calculation
+    if tokenized_tokens:
+        positions = _span_token_positions_from_tokenized(slot_value, tokenized_tokens)
+        if not positions:
+            return ""
+        slot_tokens = slot_value.split()
+        if len(slot_tokens) != len(positions):
+            n = min(len(slot_tokens), len(positions))
+            slot_tokens = slot_tokens[:n]
+            positions = positions[:n]
+        return " ".join(f"{pos}&&{tok}" for pos, tok in zip(positions, slot_tokens))
+    
+    # Fallback to original behavior (character-level) if no tokenized_tokens
     positions = _span_token_positions(sentence, slot_value)
     if not positions:
         return ""
@@ -170,29 +224,84 @@ def _save_predictions_raw_vcom(file_path: str, rows: List[Dict]) -> None:
     with open(file_path, "w", encoding="utf-8") as fp:
         for row in rows:
             sent = row["input"]
+            tokenized_sent = row.get("tokenized_input", sent)
             pred = row["prediction"]
             tuples = _parse_pred_tuples(pred)
 
-            fp.write(f"{sent}\t{sent}\n")
+            # Write sentence line with original and tokenized versions
+            fp.write(f"{sent}\t{tokenized_sent}\n")
+            
+            # Split tokenized sentence for index calculation
+            tokenized_tokens = tokenized_sent.split()
 
+            written_any = False
             for t in tuples:
                 if all(_is_unk_or_empty(t[k]) for k in ("S", "O", "A", "P", "L")):
                     continue
-                subj_slot = _to_indexed_slot(t["S"], sent)
-                obj_slot = _to_indexed_slot(t["O"], sent)
-                asp_slot = _to_indexed_slot(t["A"], sent)
-                pre_slot = _to_indexed_slot(t["P"], sent)
+
+                # If model does not predict a valid label, skip this tuple.
+                # This keeps sentence output consistent with raw data: sentence line then empty line.
+                if _is_unk_or_empty(t["L"]):
+                    continue
+
+                # Pass tokenized_tokens for accurate index calculation
+                subj_slot = _to_indexed_slot(t["S"], sent, tokenized_tokens)
+                obj_slot = _to_indexed_slot(t["O"], sent, tokenized_tokens)
+                asp_slot = _to_indexed_slot(t["A"], sent, tokenized_tokens)
+                pre_slot = _to_indexed_slot(t["P"], sent, tokenized_tokens)
 
                 obj = {
                     "subject": subj_slot.split() if subj_slot else [],
                     "object": obj_slot.split() if obj_slot else [],
                     "aspect": asp_slot.split() if asp_slot else [],
                     "predicate": pre_slot.split() if pre_slot else [],
-                    "label": (t["L"] if not _is_unk_or_empty(t["L"]) else "[UNK]"),
+                    "label": t["L"],
                 }
                 fp.write(json.dumps(obj, ensure_ascii=False) + "\n")
+                written_any = True
 
             fp.write("\n")
+
+
+def _prediction_to_indexed_vcom(pred: str, sentence: str, tokenized_sentence: str) -> str:
+    """Convert model prediction tuples to index-span tuples for evaluate_v1-style scoring."""
+    tuples = _parse_pred_tuples(pred)
+    tokenized_tokens = tokenized_sentence.split()
+    out_parts: List[str] = []
+
+    for t in tuples:
+        if all(_is_unk_or_empty(t[k]) for k in ("S", "O", "A", "P", "L")):
+            continue
+        s = _to_indexed_slot(t["S"], sentence, tokenized_tokens) or "[UNK]"
+        o = _to_indexed_slot(t["O"], sentence, tokenized_tokens) or "[UNK]"
+        a = _to_indexed_slot(t["A"], sentence, tokenized_tokens) or "[UNK]"
+        p = _to_indexed_slot(t["P"], sentence, tokenized_tokens) or "[UNK]"
+        l = t["L"] if not _is_unk_or_empty(t["L"]) else "[UNK]"
+        out_parts.append(f"([S] {s} [O] {o} [A] {a} [P] {p} [L] {l})")
+
+    if out_parts:
+        return " ; ".join(out_parts)
+    return "([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK])"
+
+
+def _prediction_to_indexed_camera(pred: str, sentence: str) -> str:
+    """Convert model prediction tuples to index-span tuples for camera-coqe scoring."""
+    tuples = _parse_pred_tuples(pred)
+    out_parts: List[str] = []
+
+    for t in tuples:
+        if all(_is_unk_or_empty(t[k]) for k in ("S", "O", "A", "P", "L")):
+            continue
+        s = _to_indexed_slot(t["S"], sentence) or "[UNK]"
+        o = _to_indexed_slot(t["O"], sentence) or "[UNK]"
+        a = _to_indexed_slot(t["A"], sentence) or "[UNK]"
+        p = _to_indexed_slot(t["P"], sentence) or "[UNK]"
+        l = t["L"] if not _is_unk_or_empty(t["L"]) else "[UNK]"
+        out_parts.append(f"([S] {s} [O] {o} [A] {a} [P] {p} [L] {l})")
+
+    if out_parts:
+        return " ; ".join(out_parts)
+    return "([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK])"
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Evaluate popular LLMs on COQE datasets")
@@ -225,6 +334,12 @@ def parse_args():
     parser.add_argument("--sleep-seconds", type=float, default=0.0)
     parser.add_argument("--limit", type=int, default=0, help="Set >0 for quick smoke tests")
     parser.add_argument("--debug-samples", type=int, default=0, help="Print prompt+output for first N samples per model")
+    parser.add_argument(
+        "--inference-batch-size",
+        type=int,
+        default=8,
+        help="Batch size for local hf inference (provider=hf-local)",
+    )
     parser.add_argument("--datasets-root", type=str, default="")
     parser.add_argument("--output-dir", type=str, default="")
     parser.add_argument("--cache-dir", type=str, default="")
@@ -234,6 +349,13 @@ def parse_args():
         default="zero-shot",
         choices=["zero-shot", "few-shot", "cot"],
         help="Prompting strategy: zero-shot, few-shot, or cot",
+    )
+    parser.add_argument(
+        "--match-mode",
+        type=str,
+        default="index-match",
+        choices=["index-match", "non-index-match"],
+        help="Metric matching mode: index-match (position-aware) or non-index-match (phrase-aware)",
     )
     return parser.parse_args()
 
@@ -361,47 +483,140 @@ def main():
             gold_labels = []
             prediction_rows = []
 
-            for sample_idx, sample in enumerate(tqdm(samples, desc=f"{dataset_name} | {model_slug}")):
-                sentence = sample["input"]
-                gold = sample["output"]
-                language = sample.get("language", "auto")
+            # Fast path for local HF inference: batch uncached requests.
+            use_hf_batch = args.provider == "hf-local" and args.inference_batch_size > 1
 
-                messages = build_messages(
-                    sentence,
-                    language=language,
-                    dataset=dataset_name,
-                    strategy=args.prompt_strategy,
-                )
-                if sentence in cache:
-                    pred = cache[sentence]
-                else:
-                    pred = client.generate(messages)
-                    _append_cache(cache_file, sentence, pred)
+            if use_hf_batch:
+                all_messages: List[List[Dict[str, str]]] = []
+                for sample in samples:
+                    sentence = sample["input"]
+                    language = sample.get("language", "auto")
+                    all_messages.append(
+                        build_messages(
+                            sentence,
+                            language=language,
+                            dataset=dataset_name,
+                            strategy=args.prompt_strategy,
+                        )
+                    )
 
-                if args.debug_samples > 0 and sample_idx < args.debug_samples:
-                    sep = "-" * 60
-                    prompt_text = "\n".join(f"[{m['role'].upper()}] {m['content']}" for m in messages)
-                    print(f"\n{sep}", flush=True)
-                    print(f"[DEBUG sample {sample_idx + 1}/{args.debug_samples}]", flush=True)
-                    print(prompt_text, flush=True)
-                    print(f"[OUTPUT] {pred}", flush=True)
-                    print(sep, flush=True)
+                pred_by_idx: Dict[int, str] = {}
+                uncached_indices: List[int] = []
+                uncached_messages: List[List[Dict[str, str]]] = []
 
-                predictions.append(pred)
-                gold_labels.append(gold)
-                prediction_rows.append(
-                    {
-                        "dataset": dataset_name,
-                        "split": args.split,
-                        "model": model_name,
-                        "input": sentence,
-                        "gold": gold,
-                        "prediction": pred,
-                    }
-                )
+                for idx, sample in enumerate(samples):
+                    sentence = sample["input"]
+                    if sentence in cache:
+                        pred_by_idx[idx] = cache[sentence]
+                    else:
+                        uncached_indices.append(idx)
+                        uncached_messages.append(all_messages[idx])
 
-                if args.sleep_seconds > 0:
-                    time.sleep(args.sleep_seconds)
+                for start in tqdm(
+                    range(0, len(uncached_indices), args.inference_batch_size),
+                    desc=f"{dataset_name} | {model_slug}",
+                ):
+                    chunk_idx = uncached_indices[start : start + args.inference_batch_size]
+                    chunk_msgs = uncached_messages[start : start + args.inference_batch_size]
+                    chunk_preds = client.generate_batch(chunk_msgs)
+                    for local_i, global_i in enumerate(chunk_idx):
+                        pred = chunk_preds[local_i]
+                        pred_by_idx[global_i] = pred
+                        _append_cache(cache_file, samples[global_i]["input"], pred)
+
+                for sample_idx, sample in enumerate(samples):
+                    sentence = sample["input"]
+                    gold = sample["output"]
+                    pred = pred_by_idx[sample_idx]
+                    messages = all_messages[sample_idx]
+
+                    if args.debug_samples > 0 and sample_idx < args.debug_samples:
+                        sep = "-" * 60
+                        prompt_text = "\n".join(f"[{m['role'].upper()}] {m['content']}" for m in messages)
+                        print(f"\n{sep}", flush=True)
+                        print(f"[DEBUG sample {sample_idx + 1}/{args.debug_samples}]", flush=True)
+                        print(prompt_text, flush=True)
+                        print(f"[OUTPUT] {pred}", flush=True)
+                        print(sep, flush=True)
+
+                    metric_pred = pred
+                    if args.match_mode == "index-match":
+                        if dataset_name == "vcom-data":
+                            metric_pred = _prediction_to_indexed_vcom(
+                                pred,
+                                sentence,
+                                sample.get("tokenized_input", sentence),
+                            )
+                        elif dataset_name == "camera-coqe":
+                            metric_pred = _prediction_to_indexed_camera(pred, sentence)
+
+                    predictions.append(metric_pred)
+                    gold_labels.append(gold)
+                    prediction_rows.append(
+                        {
+                            "dataset": dataset_name,
+                            "split": args.split,
+                            "model": model_name,
+                            "input": sentence,
+                            "tokenized_input": sample.get("tokenized_input", sentence),
+                            "gold": gold,
+                            "prediction": pred,
+                        }
+                    )
+            else:
+                for sample_idx, sample in enumerate(tqdm(samples, desc=f"{dataset_name} | {model_slug}")):
+                    sentence = sample["input"]
+                    gold = sample["output"]
+                    language = sample.get("language", "auto")
+
+                    messages = build_messages(
+                        sentence,
+                        language=language,
+                        dataset=dataset_name,
+                        strategy=args.prompt_strategy,
+                    )
+                    if sentence in cache:
+                        pred = cache[sentence]
+                    else:
+                        pred = client.generate(messages)
+                        _append_cache(cache_file, sentence, pred)
+
+                    if args.debug_samples > 0 and sample_idx < args.debug_samples:
+                        sep = "-" * 60
+                        prompt_text = "\n".join(f"[{m['role'].upper()}] {m['content']}" for m in messages)
+                        print(f"\n{sep}", flush=True)
+                        print(f"[DEBUG sample {sample_idx + 1}/{args.debug_samples}]", flush=True)
+                        print(prompt_text, flush=True)
+                        print(f"[OUTPUT] {pred}", flush=True)
+                        print(sep, flush=True)
+
+                    metric_pred = pred
+                    if args.match_mode == "index-match":
+                        if dataset_name == "vcom-data":
+                            metric_pred = _prediction_to_indexed_vcom(
+                                pred,
+                                sentence,
+                                sample.get("tokenized_input", sentence),
+                            )
+                        elif dataset_name == "camera-coqe":
+                            metric_pred = _prediction_to_indexed_camera(pred, sentence)
+
+                    predictions.append(metric_pred)
+                    gold_labels.append(gold)
+                    prediction_rows.append(
+                        {
+                            "dataset": dataset_name,
+                            "split": args.split,
+                            "model": model_name,
+                            "input": sentence,
+                            "tokenized_input": sample.get("tokenized_input", sentence),
+                            "gold": gold,
+                            "prediction": pred,
+                        }
+                    )
+
+                    if args.sleep_seconds > 0:
+                        time.sleep(args.sleep_seconds)
 
             _DATASET_LABEL_ORDER = {
                 "camera-coqe": CAMERA_COQE_LABEL_ORDER,
@@ -409,7 +624,17 @@ def main():
                 "vcom-data": VCOM_LABEL_ORDER,
             }
             label_order = _DATASET_LABEL_ORDER.get(dataset_name)
-            metrics = compute_coqe_metrics(predictions, gold_labels, label_order=label_order)
+            if len(predictions) != len(gold_labels):
+                raise ValueError(
+                    f"Sample count mismatch before evaluation: predictions={len(predictions)} "
+                    f"gold_labels={len(gold_labels)} dataset={dataset_name} model={model_name}"
+                )
+            metrics = compute_coqe_metrics(
+                predictions,
+                gold_labels,
+                label_order=label_order,
+                match_mode=args.match_mode,
+            )
 
             pred_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.jsonl")
             pred_raw_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.txt")
@@ -425,6 +650,7 @@ def main():
             ranking_f1 = metrics.get("E-T5-MACRO", {}).get("F1", 0.0)
             e_t4_f1    = metrics.get("E-T4",       {}).get("F1", 0.0)
             e_cee_micro_f1 = metrics.get("E-CEE-MICRO", {}).get("F1", 0.0)
+            sent_cmp_f1 = metrics.get("SENT-CMP", {}).get("F1", 0.0)
 
             summary_rows.append(
                 {
@@ -434,6 +660,8 @@ def main():
                     "E-T5-MACRO-F1": ranking_f1,
                     "E-T4-F1": e_t4_f1,
                     "E-CEE-MICRO-F1": e_cee_micro_f1,
+                    "SENT-CMP-F1": sent_cmp_f1,
+                    "match_mode": args.match_mode,
                     "leaderboard": lb,
                 }
             )
@@ -441,7 +669,8 @@ def main():
             print(
                 f"    E-T5-MACRO-F1={ranking_f1:.4f}  "
                 f"E-T4-F1={e_t4_f1:.4f}  "
-                f"E-CEE-MICRO-F1={e_cee_micro_f1:.4f}",
+                f"E-CEE-MICRO-F1={e_cee_micro_f1:.4f}  "
+                f"SENT-CMP-F1={sent_cmp_f1:.4f}",
                 flush=True,
             )
 

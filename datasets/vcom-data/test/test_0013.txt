@@ -7,6 +7,7 @@ Tới Galaxy note 10 thì vẫn là như vậy nhưng với phiên bản Samsung
 Đó có phải là một thử nghiệm của Samsung hay chỉ là một phá cách nhằm thu hút người yêu thích?	Đó có phải là một thử nghiệm của Samsung hay chỉ là một phá cách nhằm thu hút người yêu thích ?
 
 Riêng mình thì mình thích màn hình phẳng hơn là cong mặc dù trông màn hình cong luôn đẹp hơn.	Riêng mình thì mình thích màn hình phẳng hơn là cong mặc dù trông màn hình cong luôn đẹp hơn .
+{"subject": ["15&&màn", "16&&hình", "17&&cong"], "object": [], "aspect": [], "predicate": ["19&&đẹp", "20&&hơn"], "label": "COM+"}
 
 Tất nhiên còn nhiều đặc điểm khác ở chiếc Galaxy Note 10 Lite này đang chờ bạn khám phá.	Tất nhiên còn nhiều đặc điểm khác ở chiếc Galaxy Note 10 Lite này đang chờ bạn khám phá .
 
@@ -19,6 +20,7 @@ Thông số kỹ thuật	Thông số kỹ thuật
 Thiết kế	Thiết kế
 
 Như đã nói từ đầu thì phong cách thiết kế của Samsung Galaxy Note 10 Lite có nhiều điểm mới lạ so với các dòng máy tiền nhiệm.	Như đã nói từ đầu thì phong cách thiết kế của Samsung Galaxy Note 10 Lite có nhiều điểm mới lạ so với các dòng máy tiền nhiệm .
+{"subject": ["12&&Samsung", "13&&Galaxy", "14&&Note", "15&&10", "16&&Lite"], "object": ["24&&các", "25&&dòng", "26&&máy", "27&&tiền", "28&&nhiệm"], "aspect": ["7&&phong", "8&&cách", "9&&thiết", "10&&kế"], "predicate": ["18&&nhiều", "19&&điểm", "20&&mới", "21&&lạ", "22&&so", "23&&với"], "label": "DIF"}
 
 Điểm nhấn ở đây có thể là chiếc màn hình phẳng của nó.	Điểm nhấn ở đây có thể là chiếc màn hình phẳng của nó .
 
@@ -29,10 +31,14 @@ alt: Samsung Galaxy Note 10 Lite	alt : Samsung Galaxy Note 10 Lite
 des: Samsung Galaxy Note 10 Lite	des : Samsung Galaxy Note 10 Lite
 
 Như vậy với sự ra đời của Galaxy Note 10 Lite màn hình của nó trông có vẻ giống với một chiếc điện thoại galaxy dòng A hơn là dòng Note đấy.	Như vậy với sự ra đời của Galaxy Note 10 Lite màn hình của nó trông có vẻ giống với một chiếc điện thoại galaxy dòng A hơn là dòng Note đấy .
+{"subject": ["15&&nó"], "object": ["21&&một", "22&&chiếc", "23&&điện", "24&&thoại", "25&&galaxy", "26&&dòng", "27&&A"], "aspect": ["12&&màn", "13&&hình"], "predicate": ["19&&giống", "20&&với"], "label": "EQL"}
 
 Tuy nói rằng Galaxy Note 10 Lite có một màn hình phẳng nhưng các cạnh của nó vẫn được vát cong khá mềm mại để có một cảm giác cầm nắm dễ chịu.	Tuy nói rằng Galaxy Note 10 Lite có một màn hình phẳng nhưng các cạnh của nó vẫn được vát cong khá mềm mại để có một cảm giác cầm nắm dễ chịu .
 
 Tính thẩm mỹ được nâng cao, mặc dù có màn hình rộng hơn nhưng nó chỉ nặng hơn 3g so với người anh em  Note 10+ .	Tính thẩm mỹ được nâng cao , mặc dù có màn hình rộng hơn nhưng nó chỉ nặng hơn 3g so với người anh em Note 10 + .
+{"subject": ["16&&nó"], "object": ["23&&người", "24&&anh", "25&&em", "26&&Note", "27&&10", "28&&+"], "aspect": ["11&&màn", "12&&hình"], "predicate": ["13&&rộng", "14&&hơn"], "label": "COM+"}
+{"subject": ["16&&nó"], "object": ["23&&người", "24&&anh", "25&&em", "26&&Note", "27&&10", "28&&+"], "aspect": [], "predicate": ["18&&nặng", "19&&hơn", "20&&3g"], "label": "COM"}
+{"subject": ["16&&nó"], "object": ["23&&người", "24&&anh", "25&&em", "26&&Note", "27&&10", "28&&+"], "aspect": ["1&&Tính", "2&&thẩm", "3&&mỹ"], "predicate": ["4&&được", "5&&nâng", "6&&cao"], "label": "COM+"}
 
 Không còn khả năng chống bụi chống nước có thể là một điểm cắt gọt để hạ giá thành của chiếc điện thoại này, điều này cũng là dễ hiểu thôi.	Không còn khả năng chống bụi chống nước có thể là một điểm cắt gọt để hạ giá thành của chiếc điện thoại này , điều này cũng là dễ hiểu thôi .
 
@@ -41,6 +47,7 @@ Mặt trước	Mặt trước
 Như đã nói mặt trước của Samsung Galaxy Note 10 Lite là một màn hình phẳng và có kích thước lớn tới 6.7 inch, có thể kích thước này sẽ thích hợp hơn với tính năng note của nó.	Như đã nói mặt trước của Samsung Galaxy Note 10 Lite là một màn hình phẳng và có kích thước lớn tới 6.7 inch , có thể kích thước này sẽ thích hợp hơn với tính năng note của nó .
 
 Các cạnh của Note 10 Lite khá mỏng nhưng không thể vươn tới tràn viền như những chiếc màn hình cong được.	Các cạnh của Note 10 Lite khá mỏng nhưng không thể vươn tới tràn viền như những chiếc màn hình cong được .
+{"subject": ["4&&Note", "5&&10", "6&&Lite"], "object": ["17&&những", "18&&chiếc", "19&&màn", "20&&hình", "21&&cong"], "aspect": ["1&&Các", "2&&cạnh"], "predicate": ["10&&không", "11&&thể", "12&&vươn", "13&&tới", "14&&tràn", "15&&viền", "16&&như"], "label": "COM-"}
 
 Phần cằm máy cũng hài hòa tương đối với các cạnh còn lại.	Phần cằm máy cũng hài hòa tương đối với các cạnh còn lại .
 
@@ -51,6 +58,7 @@ des: đánh giá Samsung Galaxy Note 10 Lite	des : đánh giá Samsung Galaxy No
 Camera selfie được dấu trong một cơ cấu đục lỗ rất nhỏ trên màn hình.	Camera selfie được dấu trong một cơ cấu đục lỗ rất nhỏ trên màn hình .
 
 Điều này giúp cho trải nghiệm của bạn với màn hình là hoàn hảo hơn nhiều so với notch giọt nước.	Điều này giúp cho trải nghiệm của bạn với màn hình là hoàn hảo hơn nhiều so với notch giọt nước .
+{"subject": [], "object": ["19&&notch", "20&&giọt", "21&&nước"], "aspect": ["5&&trải", "6&&nghiệm", "7&&của", "8&&bạn", "9&&với", "10&&màn", "11&&hình"], "predicate": ["13&&hoàn", "14&&hảo", "15&&hơn", "16&&nhiều"], "label": "COM+"}
 
 Nó cũng không gây cản trở khi bạn muốn chơi game hay thao tác với S-Pen.	Nó cũng không gây cản trở khi bạn muốn chơi game hay thao tác với S-Pen .
 
@@ -113,6 +121,7 @@ alt:	alt :
 des:	des :
 
 S-Pen ở Galaxy Note 10 Lite không cao cấp như các anh em  Note 10  của nó mà sử dụng S-Pen của Note 9 trước đó.	S-Pen ở Galaxy Note 10 Lite không cao cấp như các anh em Note 10 của nó mà sử dụng S-Pen của Note 9 trước đó .
+{"subject": ["3&&Galaxy", "4&&Note", "5&&10", "6&&Lite"], "object": ["11&&các", "12&&anh", "13&&em", "14&&Note", "15&&10", "16&&của", "17&&nó"], "aspect": ["1&&S-Pen"], "predicate": ["7&&không", "8&&cao", "9&&cấp", "10&&như"], "label": "COM-"}
 
 Kết nối bluetooth có thể cho phép bạn điều khiển từ xa nhưng chỉ có thể hoạt động với các nút bấm.	Kết nối bluetooth có thể cho phép bạn điều khiển từ xa nhưng chỉ có thể hoạt động với các nút bấm .
 
@@ -123,6 +132,7 @@ Màn hình	Màn hình
 Máy sử dụng một màn hình AMOLED tầm trung cho một chiếc Galaxy Note.	Máy sử dụng một màn hình AMOLED tầm trung cho một chiếc Galaxy Note .
 
 Màn hình của Samsung Galaxy Note10 Lite có kích thước lớn 6.7 inch với độ phân giải Full HD+ (1080×2400 pixel) và sở hữu ỷ lệ khung hình 20:9 – lớn hơn thông thường.	Màn hình của Samsung Galaxy Note10 Lite có kích thước lớn 6.7 inch với độ phân giải Full HD + ( 1080 × 2400 pixel ) và sở hữu ỷ lệ khung hình 20 : 9 – lớn hơn thông thường .
+{"subject": ["1&&Màn", "2&&hình", "3&&của", "4&&Samsung", "5&&Galaxy", "6&&Note10", "7&&Lite"], "object": ["40&&thông", "41&&thường"], "aspect": ["30&&ỷ", "31&&lệ", "32&&khung", "33&&hình"], "predicate": ["38&&lớn", "39&&hơn"], "label": "COM+"}
 
 alt: màn hình Samsung Galaxy Note 10 Lite	alt : màn hình Samsung Galaxy Note 10 Lite
 
@@ -131,6 +141,7 @@ des: màn hình Samsung Galaxy Note 10 Lite	des : màn hình Samsung Galaxy Note
 Về độ sáng thì với màn hình AMOLED này không phải là một vấn đề.	Về độ sáng thì với màn hình AMOLED này không phải là một vấn đề .
 
 Tuy rằng nó không thể đạt độ sáng tới 800 nits như các anh em khác của nó nhưng độ sáng lớn nhất là 622 nits cũng thoải mái để bạn dùng ngay cả dưới ánh nắng mặt trời trực tiếp.	Tuy rằng nó không thể đạt độ sáng tới 800 nits như các anh em khác của nó nhưng độ sáng lớn nhất là 622 nits cũng thoải mái để bạn dùng ngay cả dưới ánh nắng mặt trời trực tiếp .
+{"subject": ["3&&nó"], "object": ["13&&các", "14&&anh", "15&&em", "16&&khác", "17&&của", "18&&nó"], "aspect": ["7&&độ", "8&&sáng"], "predicate": ["4&&không", "5&&thể", "6&&đạt", "7&&độ", "8&&sáng", "9&&tới", "10&&800", "11&&nits", "12&&như"], "label": "COM-"}
 
 Độ sáng tối thiểu đo được là 1.8 nits vừa đủ cho bạn dùng điện thoại trong đêm mà không chói mắt.	Độ sáng tối thiểu đo được là 1.8 nits vừa đủ cho bạn dùng điện thoại trong đêm mà không chói mắt .
 
@@ -147,6 +158,7 @@ Phần mềm	Phần mềm
 Samsung Galaxy Note10 Lite chạy hệ điều hành Android 10 ngay khi xuất xưởng và đó là điều nó phải có khi là một sản phẩm mới của năm 2020.	Samsung Galaxy Note10 Lite chạy hệ điều hành Android 10 ngay khi xuất xưởng và đó là điều nó phải có khi là một sản phẩm mới của năm 2020 .
 
 Nó đi kèm với One UI 2.0 của Samsung, giao diện này thực sự không có cái gì mới mẻ cả, nó giống như cái gì đó truyền thống của Samsung rồi.	Nó đi kèm với One UI 2.0 của Samsung , giao diện này thực sự không có cái gì mới mẻ cả , nó giống như cái gì đó truyền thống của Samsung rồi .
+{"subject": ["1&&Nó"], "object": [], "aspect": ["11&&giao", "12&&diện", "13&&này"], "predicate": ["16&&không", "17&&có", "18&&cái", "19&&gì", "20&&mới", "21&&mẻ", "22&&cả"], "label": "DIF"}
 
 Chế độ tối toàn hệ thống mặc dù có sẵn trong One UI gốc nhưng nó bị giới hạn ở các ứng dụng nội bộ và bạn phải kích hoạt thủ công trong các ứng dụng của bên thứ ba có chủ đề tối.	Chế độ tối toàn hệ thống mặc dù có sẵn trong One UI gốc nhưng nó bị giới hạn ở các ứng dụng nội bộ và bạn phải kích hoạt thủ công trong các ứng dụng của bên thứ ba có chủ đề tối .
 
@@ -161,6 +173,8 @@ Nói về bảo mật trắc sinh học thì bạn sẽ có lựa chọn dùng b
 Mở khóa bằng nhận diện khuôn mặt sử dụng camera selfie vì thế độ bảo mật của nó không cao.	Mở khóa bằng nhận diện khuôn mặt sử dụng camera selfie vì thế độ bảo mật của nó không cao .
 
 Cảm biến vân tay quang học trong màn hình sẽ bảo mật tốt hơn nhưng nó không tới mức như cảm biến vân tay siêu âm trên các bản cao cấp khác.	Cảm biến vân tay quang học trong màn hình sẽ bảo mật tốt hơn nhưng nó không tới mức như cảm biến vân tay siêu âm trên các bản cao cấp khác .
+{"subject": ["1&&Cảm", "2&&biến", "3&&vân", "4&&tay", "5&&quang", "6&&học"], "object": [], "aspect": ["11&&bảo", "12&&mật"], "predicate": ["13&&tốt", "14&&hơn"], "label": "COM+"}
+{"subject": ["16&&nó"], "object": ["21&&cảm", "22&&biến", "23&&vân", "24&&tay", "25&&siêu", "26&&âm"], "aspect": [], "predicate": ["17&&không", "18&&tới", "19&&mức", "20&&như"], "label": "COM-"}
 
 Điều tuyệt vời đi kèm chính là S-Pen, thế nhưng nó mang đầy đủ tính năng S-Pen của Note 9 và thiếu mất một vài tính năng của S-Pen Note 10.	Điều tuyệt vời đi kèm chính là S-Pen , thế nhưng nó mang đầy đủ tính năng S-Pen của Note 9 và thiếu mất một vài tính năng của S-Pen Note 10 .
 
@@ -181,14 +195,18 @@ Hiệu năng	Hiệu năng
 Đó chính là Exynos 9810 đã ra mắt cùng với chiếc  Galaxy Note 9  trước đây.	Đó chính là Exynos 9810 đã ra mắt cùng với chiếc Galaxy Note 9 trước đây .
 
 Có thể đó là chipset hàng đầu của thời điểm đó nhưng sau 2 năm thì nhiều thứ đã thay đổi.	Có thể đó là chipset hàng đầu của thời điểm đó nhưng sau 2 năm thì nhiều thứ đã thay đổi .
+{"subject": ["3&&đó"], "object": [], "aspect": [], "predicate": ["6&&hàng", "7&&đầu", "8&&của", "9&&thời", "10&&điểm", "11&&đó"], "label": "SUP+"}
 
 Hiệu năng CPU	Hiệu năng CPU
 
 Khi nói về hiệu năng CPU thì đánh giá GeekBench 5.1 chúng ta sẽ thấy nhiều điều từ đó.	Khi nói về hiệu năng CPU thì đánh giá GeekBench 5.1 chúng ta sẽ thấy nhiều điều từ đó .
 
 Với con chip cũ như thế này việc Note 10 Lite tụt hậu so với các đối thủ là điều dễ hiểu.	Với con chip cũ như thế này việc Note 10 Lite tụt hậu so với các đối thủ là điều dễ hiểu .
+{"subject": ["9&&Note", "10&&10", "11&&Lite"], "object": ["16&&các", "17&&đối", "18&&thủ"], "aspect": [], "predicate": ["12&&tụt", "13&&hậu", "14&&so", "15&&với"], "label": "COM-"}
 
 So sánh cả về lõi đơn và đa lõi thì nó vẫn cứ đứng cuối bảng xếp hạng của chúng ta.	So sánh cả về lõi đơn và đa lõi thì nó vẫn cứ đứng cuối bảng xếp hạng của chúng ta .
+{"subject": ["11&&nó"], "object": [], "aspect": ["5&&lõi", "6&&đơn"], "predicate": ["14&&đứng", "15&&cuối", "16&&bảng", "17&&xếp", "18&&hạng"], "label": "SUP-"}
+{"subject": ["11&&nó"], "object": [], "aspect": ["8&&đa", "9&&lõi"], "predicate": ["14&&đứng", "15&&cuối", "16&&bảng", "17&&xếp", "18&&hạng"], "label": "SUP-"}
 
 GeekBench 5.1 (đa lõi)	GeekBench 5.1 ( đa lõi )
 
@@ -205,10 +223,13 @@ des:	des :
 Hiệu năng GPU	Hiệu năng GPU
 
 Hiệu năng đồ họa không có một cái gì mới mẻ được cập nhật sau gần 2 năm.	Hiệu năng đồ họa không có một cái gì mới mẻ được cập nhật sau gần 2 năm .
+{"subject": [], "object": [], "aspect": ["1&&Hiệu", "2&&năng", "3&&đồ", "4&&họa"], "predicate": ["5&&không", "6&&có", "7&&một", "8&&cái", "9&&gì", "10&&mới", "11&&mẻ"], "label": "EQL"}
 
 Việc quyết định sử dụng một GPU của 2 năm trước thì việc tụt hậu so với đối thủ là hoàn toàn dễ hiểu.	Việc quyết định sử dụng một GPU của 2 năm trước thì việc tụt hậu so với đối thủ là hoàn toàn dễ hiểu .
+{"subject": ["7&&GPU"], "object": ["18&&đối", "19&&thủ"], "aspect": [], "predicate": ["14&&tụt", "15&&hậu", "16&&so", "17&&với"], "label": "COM-"}
 
 Tuy nhiên nó vẫn xứng tầm với một chiếc điện thoại cao cấp và các sản phẩm tầm trung vẫn không thể so sánh được.	Tuy nhiên nó vẫn xứng tầm với một chiếc điện thoại cao cấp và các sản phẩm tầm trung vẫn không thể so sánh được .
+{"subject": ["15&&các", "16&&sản", "17&&phẩm", "18&&tầm", "19&&trung"], "object": ["3&&nó"], "aspect": [], "predicate": ["21&&không", "22&&thể", "23&&so", "24&&sánh", "25&&được"], "label": "COM-"}
 
 3DMark SSE Vulkan 1440p	3DMark SSE Vulkan 1440p
 
@@ -219,10 +240,14 @@ des:	des :
 Hiệu năng tổng thể	Hiệu năng tổng thể
 
 Xét về hiệu năng tổng thể thì chiếc Note 10 Lite này chẳng khác gì so với Note 9 trước đó.	Xét về hiệu năng tổng thể thì chiếc Note 10 Lite này chẳng khác gì so với Note 9 trước đó .
+{"subject": ["8&&chiếc", "9&&Note", "10&&10", "11&&Lite", "12&&này"], "object": ["18&&Note", "19&&9"], "aspect": ["3&&hiệu", "4&&năng", "5&&tổng", "6&&thể"], "predicate": ["13&&chẳng", "14&&khác", "15&&gì", "16&&so", "17&&với"], "label": "EQL"}
 
 Thực tế chipset được giữ lại y nguyên thì lấy đâu ra hơn thua.	Thực tế chipset được giữ lại y nguyên thì lấy đâu ra hơn thua .
+{"subject": [], "object": [], "aspect": ["3&&chipset"], "predicate": ["4&&được", "5&&giữ", "6&&lại", "7&&y", "8&&nguyên"], "label": "EQL"}
 
 Điểm số của Galaxy Note 10 Lite nhiều hơn chính là vì nó trang bị RAM lớn hơn một chút so với Note 9 mà thôi.	Điểm số của Galaxy Note 10 Lite nhiều hơn chính là vì nó trang bị RAM lớn hơn một chút so với Note 9 mà thôi .
+{"subject": ["4&&Galaxy", "5&&Note", "6&&10", "7&&Lite"], "object": ["23&&Note", "24&&9"], "aspect": ["1&&Điểm", "2&&số"], "predicate": ["8&&nhiều", "9&&hơn"], "label": "COM+"}
+{"subject": ["13&&nó"], "object": ["23&&Note", "24&&9"], "aspect": ["16&&RAM"], "predicate": ["17&&lớn", "18&&hơn", "19&&một", "20&&chút"], "label": "COM+"}
 
 AnTuTu 8	AnTuTu 8
 
@@ -233,8 +258,11 @@ des:	des :
 Khả năng chơi game	Khả năng chơi game
 
 Chipset của Samsung Galxy Note 10 Lite khi đem so sánh với các đối thủ thì có vẻ kém cỏi nhưng nó vẫn xứng tầm với flagship của 2 năm trước đây.	Chipset của Samsung Galxy Note 10 Lite khi đem so sánh với các đối thủ thì có vẻ kém cỏi nhưng nó vẫn xứng tầm với flagship của 2 năm trước đây .
+{"subject": ["3&&Samsung", "4&&Galxy", "5&&Note", "6&&10", "7&&Lite"], "object": ["13&&các", "14&&đối", "15&&thủ"], "aspect": ["1&&Chipset"], "predicate": ["19&&kém", "20&&cỏi"], "label": "COM-"}
+{"subject": ["22&&nó"], "object": ["27&&flagship", "28&&của", "29&&2", "30&&năm", "31&&trước", "32&&đây"], "aspect": [], "predicate": ["24&&xứng", "25&&tầm", "26&&với"], "label": "EQL"}
 
 Nghĩa là một chiếc điện thoại tầm trung vẫn không thể so sánh với nó.	Nghĩa là một chiếc điện thoại tầm trung vẫn không thể so sánh với nó .
+{"subject": ["3&&một", "4&&chiếc", "5&&điện", "6&&thoại", "7&&tầm", "8&&trung"], "object": ["15&&nó"], "aspect": [], "predicate": ["10&&không", "11&&thể", "12&&so", "13&&sánh", "14&&với"], "label": "COM-"}
 
 Đặc biệt khi chơi game!	Đặc biệt khi chơi game !
 
@@ -251,6 +279,7 @@ Ngay cả khi tham gia những pha combat tổng thì máy vẫn “chiến” n
 Cả khi pin yếu thì nó vẫn duy trì được mức 59-60 fps mượt mà.	Cả khi pin yếu thì nó vẫn duy trì được mức 59 - 60 fps mượt mà .
 
 Khi chiến với PUBG cũng như vậy, không hề thua kém ai!	Khi chiến với PUBG cũng như vậy , không hề thua kém ai !
+{"subject": [], "object": [], "aspect": ["2&&chiến", "3&&với", "4&&PUBG"], "predicate": ["9&&không", "10&&hề", "11&&thua", "12&&kém", "13&&ai"], "label": "EQL"}
 
 alt: Samsung Galaxy Note 10 Lite	alt : Samsung Galaxy Note 10 Lite
 
@@ -259,6 +288,7 @@ des: Samsung Galaxy Note 10 Lite	des : Samsung Galaxy Note 10 Lite
 Tóm lại với  Exynos 9810 và RAM 8GB thì Galaxy Note 10 Lite vẫn cân tốt các tựa game thông dụng hiện nay nhé.	Tóm lại với   Exynos 9810 và RAM 8GB thì Galaxy Note 10 Lite vẫn cân tốt các tựa game thông dụng hiện nay nhé .
 
 Mặc dù nó không thể so sánh với Snapdragon 855+ nhưng nó làm tốt những gì mà một chiếc Flagship có thể làm.	Mặc dù nó không thể so sánh với Snapdragon 855 + nhưng nó làm tốt những gì mà một chiếc Flagship có thể làm .
+{"subject": ["3&&nó"], "object": ["9&&Snapdragon", "10&&855", "11&&+"], "aspect": [], "predicate": ["4&&không", "5&&thể", "6&&so", "7&&sánh", "8&&với"], "label": "COM-"}
 
 Camera	Camera
 
@@ -277,6 +307,8 @@ Như vậy là không còn sự có mặt của ống kính macro và cảm bi�
 Liệu nó có làm tốt những gì mà chúng ta cần hay không?	Liệu nó có làm tốt những gì mà chúng ta cần hay không ?
 
 Về giao diện và phần mềm chụp ảnh của Note 10 Lite cũng chẳng có gì mới mẻ cả và hầu như tất cả smartphone Samsung đều như thế cả nên mình cũng không nhắc lại làm gì.	Về giao diện và phần mềm chụp ảnh của Note 10 Lite cũng chẳng có gì mới mẻ cả và hầu như tất cả smartphone Samsung đều như thế cả nên mình cũng không nhắc lại làm gì .
+{"subject": ["10&&Note", "11&&10", "12&&Lite"], "object": [], "aspect": ["2&&giao", "3&&diện"], "predicate": ["14&&chẳng", "15&&có", "16&&gì", "17&&mới", "18&&mẻ", "19&&cả"], "label": "EQL"}
+{"subject": ["10&&Note", "11&&10", "12&&Lite"], "object": [], "aspect": ["5&&phần", "6&&mềm", "7&&chụp", "8&&ảnh"], "predicate": ["14&&chẳng", "15&&có", "16&&gì", "17&&mới", "18&&mẻ", "19&&cả"], "label": "EQL"}
 
 Bây giờ hãy cùng trải nghiệm về chất lượng hình ảnh của nó nhé!	Bây giờ hãy cùng trải nghiệm về chất lượng hình ảnh của nó nhé !
 
@@ -289,6 +321,7 @@ Nhìn chung, chất lượng hình ảnh là tốt với đầy đủ chi tiết
 Hơn nữa mình nhìn thấy rằng chế độ HDR sẽ bật lên mỗi khi bạn cần.	Hơn nữa mình nhìn thấy rằng chế độ HDR sẽ bật lên mỗi khi bạn cần .
 
 Mức độ tái tạo màu sắc vẫn khá tốt, nhưng mức độ bão hòa có thể thấy nó thấp hơn so với các sản phẩm Flagship khác của Samsung.	Mức độ tái tạo màu sắc vẫn khá tốt , nhưng mức độ bão hòa có thể thấy nó thấp hơn so với các sản phẩm Flagship khác của Samsung .
+{"subject": ["19&&nó"], "object": ["24&&các", "25&&sản", "26&&phẩm", "27&&Flagship", "28&&khác", "29&&của", "30&&Samsung"], "aspect": ["12&&mức", "13&&độ", "14&&bão", "15&&hòa"], "predicate": ["20&&thấp", "21&&hơn"], "label": "COM-"}
 
 alt:	alt :
 
@@ -297,6 +330,8 @@ des:	des :
 Ảnh chụp ban ngày từ camera chính	Ảnh chụp ban ngày từ camera chính
 
 Trong điều kiện thiếu sáng thì Note 10 Lite cũng không hề thua kém so với các anh em Note 10 khác của nó, mặc dù có đôi chút khác biệt tinh tế.	Trong điều kiện thiếu sáng thì Note 10 Lite cũng không hề thua kém so với các anh em Note 10 khác của nó , mặc dù có đôi chút khác biệt tinh tế .
+{"subject": ["7&&Note", "8&&10", "9&&Lite"], "object": ["17&&các", "18&&anh", "19&&em", "20&&Note", "21&&10", "22&&khác", "23&&của", "24&&nó"], "aspect": ["1&&Trong", "2&&điều", "3&&kiện", "4&&thiếu", "5&&sáng"], "predicate": ["11&&không", "12&&hề", "13&&thua", "14&&kém"], "label": "EQL"}
+{"subject": ["7&&Note", "8&&10", "9&&Lite"], "object": ["17&&các", "18&&anh", "19&&em", "20&&Note", "21&&10", "22&&khác", "23&&của", "24&&nó"], "aspect": ["1&&Trong", "2&&điều", "3&&kiện", "4&&thiếu", "5&&sáng"], "predicate": ["29&&đôi", "30&&chút", "31&&khác", "32&&biệt", "33&&tinh", "34&&tế"], "label": "DIF"}
 
 Hình ảnh ánh sáng yếu của Note10 Lite cho thấy khả năng giữ màu và dải động tuyệt vời.	Hình ảnh ánh sáng yếu của Note10 Lite cho thấy khả năng giữ màu và dải động tuyệt vời .
 
@@ -321,6 +356,7 @@ des:	des :
 Camera Ultrawide	Camera Ultrawide
 
 Camera góc cực rộng cũng làm rất tốt công việc của nó mặc dù độ phân giải là thấp hơn so với các anh em khác.	Camera góc cực rộng cũng làm rất tốt công việc của nó mặc dù độ phân giải là thấp hơn so với các anh em khác .
+{"subject": ["1&&Camera", "2&&góc", "3&&cực", "4&&rộng"], "object": ["23&&các", "24&&anh", "25&&em", "26&&khác"], "aspect": ["15&&độ", "16&&phân", "17&&giải"], "predicate": ["19&&thấp", "20&&hơn"], "label": "COM-"}
 
 Hình ảnh tạo ra có chi tiết rất tốt và phạm vi động cũng khá là rộng.	Hình ảnh tạo ra có chi tiết rất tốt và phạm vi động cũng khá là rộng .
 
@@ -343,6 +379,7 @@ des:	des :
 Ảnh chụp thường ban đêm từ camera Ultrawide	Ảnh chụp thường ban đêm từ camera Ultrawide
 
 Tuy nhiên nếu bạn sử dụng chế độ ban đêm để chụp với camera góc cực rộng thì sẽ tốt hơn nhiều.	Tuy nhiên nếu bạn sử dụng chế độ ban đêm để chụp với camera góc cực rộng thì sẽ tốt hơn nhiều .
+{"subject": ["14&&camera", "15&&góc", "16&&cực", "17&&rộng"], "object": [], "aspect": ["7&&chế", "8&&độ", "9&&ban", "10&&đêm"], "predicate": ["20&&tốt", "21&&hơn", "22&&nhiều"], "label": "COM+"}
 
 Bóng đèn và các điểm nổi bật được khôi phục lại, chi tiết được tăng cường và màu sắc tốt hơn.	Bóng đèn và các điểm nổi bật được khôi phục lại , chi tiết được tăng cường và màu sắc tốt hơn .
 
@@ -359,6 +396,7 @@ Với camera tele bạn cũng sẽ thu được những bức ảnh đẹp.	Vớ
 Mặc dù chỉ có zoom x2 nhưng như vậy cũng đủ cho trải nghiệm của bạn rồi.	Mặc dù chỉ có zoom x2 nhưng như vậy cũng đủ cho trải nghiệm của bạn rồi .
 
 Mặc dù hình ảnh tạo ra không đẹp như camera chính vì bạn có thể dễ dàng phát hiện nhiễu nếu bạn phóng to nhưng đó là khi bạn cố gắng tìm ra điểm yếu mà thôi.	Mặc dù hình ảnh tạo ra không đẹp như camera chính vì bạn có thể dễ dàng phát hiện nhiễu nếu bạn phóng to nhưng đó là khi bạn cố gắng tìm ra điểm yếu mà thôi .
+{"subject": [], "object": ["10&&camera", "11&&chính"], "aspect": ["3&&hình", "4&&ảnh"], "predicate": ["7&&không", "8&&đẹp", "9&&như"], "label": "COM-"}
 
 alt:	alt :
 
@@ -429,6 +467,8 @@ Loại bỏ rung khi đi bộ được giải quyết tốt khi quay với camer
 Tuổi thọ pin	Tuổi thọ pin
 
 Samsung Galaxy Note10 Lite được trang bị pin lớn 4500 mAh, mặc dù nó không phải là lớn nhất trong thị trường smartphone hiện nay nhưng là lớn nhất trong các anh em Galaxy Note.	Samsung Galaxy Note10 Lite được trang bị pin lớn 4500 mAh , mặc dù nó không phải là lớn nhất trong thị trường smartphone hiện nay nhưng là lớn nhất trong các anh em Galaxy Note .
+{"subject": ["15&&nó"], "object": [], "aspect": ["8&&pin"], "predicate": ["16&&không", "17&&phải", "18&&là", "19&&lớn", "20&&nhất", "21&&trong", "22&&thị", "23&&trường", "24&&smartphone", "25&&hiện", "26&&nay"], "label": "COM-"}
+{"subject": ["15&&nó"], "object": [], "aspect": [], "predicate": ["29&&lớn", "30&&nhất", "31&&trong", "32&&các", "33&&anh", "34&&em", "35&&Galaxy", "36&&Note"], "label": "SUP+"}
 
 Tất nhiên Samsung cũng không có ý định làm một cuộc đột phá với Galaxy Note10 Lite.	Tất nhiên Samsung cũng không có ý định làm một cuộc đột phá với Galaxy Note10 Lite .
 
@@ -445,26 +485,39 @@ So sánh với đối thủ	So sánh với đối thủ
 Những đối thủ của Samsung Galaxy Note 10 Lite đều xoay quanh chủ đều “Note” của nó.	Những đối thủ của Samsung Galaxy Note 10 Lite đều xoay quanh chủ đều “ Note ” của nó .
 
 Với một mức giá tương đương hoặc rẻ hơn thì bạn có thể chọn  Galaxy Note 9  trước đó.	Với một mức giá tương đương hoặc rẻ hơn thì bạn có thể chọn Galaxy Note 9 trước đó .
+{"subject": [], "object": ["15&&Galaxy", "16&&Note", "17&&9"], "aspect": ["3&&mức", "4&&giá"], "predicate": ["5&&tương", "6&&đương", "7&&hoặc", "8&&rẻ", "9&&hơn"], "label": "COM+"}
 
 Thực tế phần cứng tương đương với Galaxy Note 10 Lite nhưng ở Note 9 không có camera góc siêu rộng và hỗ trợ phần mềm mới nhất thì sẽ thiệt thòi hơn một chút.	Thực tế phần cứng tương đương với Galaxy Note 10 Lite nhưng ở Note 9 không có camera góc siêu rộng và hỗ trợ phần mềm mới nhất thì sẽ thiệt thòi hơn một chút .
+{"subject": ["14&&Note", "15&&9"], "object": ["8&&Galaxy", "9&&Note", "10&&10", "11&&Lite"], "aspect": ["3&&phần", "4&&cứng"], "predicate": ["5&&tương", "6&&đương", "7&&với"], "label": "EQL"}
+{"subject": ["14&&Note", "15&&9"], "object": ["8&&Galaxy", "9&&Note", "10&&10", "11&&Lite"], "aspect": ["23&&hỗ", "24&&trợ", "25&&phần", "26&&mềm", "27&&mới", "28&&nhất"], "predicate": ["31&&thiệt", "32&&thòi", "33&&hơn", "34&&một", "35&&chút"], "label": "COM-"}
 
 Nhưng đổi lại thì thiết kế bề ngoài của Note 9 đẹp hơn với những đường cong “hút mắt” và có xếp hạng IP chống nước chống bụi cao.	Nhưng đổi lại thì thiết kế bề ngoài của Note 9 đẹp hơn với những đường cong “ hút mắt ” và có xếp hạng IP chống nước chống bụi cao .
+{"subject": ["10&&Note", "11&&9"], "object": [], "aspect": ["5&&thiết", "6&&kế", "7&&bề", "8&&ngoài"], "predicate": ["12&&đẹp", "13&&hơn"], "label": "COM+"}
 
 Nếu bạn chịu bỏ ra thêm một chút phí nữa thì bạn có thể sở hữu  Galaxy Note 10  bản đầy đủ.	Nếu bạn chịu bỏ ra thêm một chút phí nữa thì bạn có thể sở hữu Galaxy Note 10 bản đầy đủ .
 
 Bạn sẽ có một bộ xử lý mới hơn, mạnh mẽ hơn có chống nước và có thiết kế mỹ mãn hơn.	Bạn sẽ có một bộ xử lý mới hơn , mạnh mẽ hơn có chống nước và có thiết kế mỹ mãn hơn .
+{"subject": [], "object": [], "aspect": ["4&&một", "5&&bộ", "6&&xử", "7&&lý"], "predicate": ["11&&mạnh", "12&&mẽ", "13&&hơn"], "label": "COM+"}
+{"subject": [], "object": [], "aspect": ["19&&thiết", "20&&kế"], "predicate": ["21&&mỹ", "22&&mãn", "23&&hơn"], "label": "COM+"}
 
 Nó còn đi kèm với dung lượng lưu trữ gấp đôi.	Nó còn đi kèm với dung lượng lưu trữ gấp đôi .
+{"subject": ["1&&Nó"], "object": [], "aspect": ["6&&dung", "7&&lượng", "8&&lưu", "9&&trữ"], "predicate": ["10&&gấp", "11&&đôi"], "label": "COM+"}
 
 Nhưng đổi lại Note 10 không hỗ trợ mở rộng không gian lưu trữ và cũng không còn jack cắm tai nghe 3.5 mm nữa.	Nhưng đổi lại Note 10 không hỗ trợ mở rộng không gian lưu trữ và cũng không còn jack cắm tai nghe 3.5 mm nữa .
 
 Một lựa chọn khác cũng trang bị bút stylus đó chính là  Moto G Stylus.	Một lựa chọn khác cũng trang bị bút stylus đó chính là Moto G Stylus .
 
 Tuy nhiên về phần cứng thì nó kém hơn hẳn so với Note 10 Lite.	Tuy nhiên về phần cứng thì nó kém hơn hẳn so với Note 10 Lite .
+{"subject": ["7&&nó"], "object": ["13&&Note", "14&&10", "15&&Lite"], "aspect": ["4&&phần", "5&&cứng"], "predicate": ["8&&kém", "9&&hơn", "10&&hẳn"], "label": "COM-"}
 
 Với một chipset yếu hơn, thiết lập máy ảnh có khả năng kém hơn, dùng màn hình LCD thay vì AMOLED.	Với một chipset yếu hơn , thiết lập máy ảnh có khả năng kém hơn , dùng màn hình LCD thay vì AMOLED .
+{"subject": [], "object": [], "aspect": ["2&&một", "3&&chipset"], "predicate": ["4&&yếu", "5&&hơn"], "label": "COM-"}
+{"subject": [], "object": [], "aspect": ["7&&thiết", "8&&lập", "9&&máy", "10&&ảnh"], "predicate": ["12&&khả", "13&&năng", "14&&kém", "15&&hơn"], "label": "COM-"}
+{"subject": [], "object": [], "aspect": ["18&&màn", "19&&hình"], "predicate": ["20&&LCD", "21&&thay", "22&&vì", "23&&AMOLED"], "label": "DIF"}
 
 So sánh một chút thì Moto G Stylus chỉ nhỉnh hơn một chút là trang bị loa âm thanh nổi và giá của nó chỉ bằng 1 nửa so với Note 10 Lite mà thôi!	So sánh một chút thì Moto G Stylus chỉ nhỉnh hơn một chút là trang bị loa âm thanh nổi và giá của nó chỉ bằng 1 nửa so với Note 10 Lite mà thôi !
+{"subject": ["6&&Moto", "7&&G", "8&&Stylus"], "object": ["31&&Note", "32&&10", "33&&Lite"], "aspect": ["15&&trang", "16&&bị", "17&&loa", "18&&âm", "19&&thanh", "20&&nổi"], "predicate": ["10&&nhỉnh", "11&&hơn", "12&&một", "13&&chút"], "label": "COM+"}
+{"subject": ["24&&nó"], "object": ["31&&Note", "32&&10", "33&&Lite"], "aspect": ["22&&giá"], "predicate": ["26&&bằng", "27&&1", "28&&nửa"], "label": "COM+"}
 
 Giá và địa chỉ bán	Giá và địa chỉ bán
 

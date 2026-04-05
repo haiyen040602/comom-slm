@@ -1,0 +1,32 @@
+1	title: iPhone 14 Pro Max hay Pixel 7 Pro có thời lượng pin tốt hơn?	title : iPhone 14 Pro Max hay Pixel 7 Pro có thời lượng pin tốt hơn ?
+2	So sánh thời lượng pin iPhone 14 Pro Max và Google Pixel 7 Pro, model nào giành chiến thắng?	So sánh thời lượng pin iPhone 14 Pro Max và Google Pixel 7 Pro , model nào giành chiến thắng ?
+3	iPhone 14 Pro Max và model Google Pixel 7 Pro đều là những điện thoại tốt nhất hiện nay.	iPhone 14 Pro Max và model Google Pixel 7 Pro đều là những điện thoại tốt nhất hiện nay .
+4	Mặc dù cả hai thiết bị đều sở hữu viên pin có dung lượng tương đương, nhưng tuổi thọ pin có sự chênh lệch khá lớn.	Mặc dù cả hai thiết bị đều sở hữu viên pin có dung lượng tương đương , nhưng tuổi thọ pin có sự chênh lệch khá lớn .
+5	Youtuber PhoneBuff đã thực hiện kiểm tra thời lượng pin của iPhone 14 Pro Max và Google Pixel 7 Pro.	Youtuber PhoneBuff đã thực hiện kiểm tra thời lượng pin của iPhone 14 Pro Max và Google Pixel 7 Pro .
+6	Theo như đánh giá, một trong hai thiết bị đã có màn thể hiện nổi bật về thời lượng pin, bất chấp sự tối ưu hóa tuyệt vời mà hai công ty đã thực hiện chi model của mình.	Theo như đánh giá , một trong hai thiết bị đã có màn thể hiện nổi bật về thời lượng pin , bất chấp sự tối ưu hóa tuyệt vời mà hai công ty đã thực hiện chi model của mình .
+7	Apple trang bị cho model của mình viên pin 4323mAh, trong khi Pixel 7 Pro sở hữu viên pin 5000mAh.	Apple trang bị cho model của mình viên pin 4323mAh , trong khi Pixel 7 Pro sở hữu viên pin 5000mAh .
+8	alt: So sánh thời lượng pin iPhone 14 Pro Max và Pixel 7 Pro	alt : So sánh thời lượng pin iPhone 14 Pro Max và Pixel 7 Pro
+9	des:	des :
+10	So sánh thời lượng pin iPhone 14 Pro Max và Pixel 7 Pro	So sánh thời lượng pin iPhone 14 Pro Max và Pixel 7 Pro
+11	Việc trang bị dung lượng pin lớn hơn không có nghĩa là sẽ cung cấp thời lượng pin tốt hơn.	Việc trang bị dung lượng pin lớn hơn không có nghĩa là sẽ cung cấp thời lượng pin tốt hơn .
+12	Trong thử nghiệm của PhoneBuff đã thực hiện các tác vụ hàng ngày của người dùng trên hai thiết bị.	Trong thử nghiệm của PhoneBuff đã thực hiện các tác vụ hàng ngày của người dùng trên hai thiết bị .
+13	Cả hai điện thoại đều được mở một số ứng dụng như Spotify, YouTube, cũng như ứng dụng máy ảnh để chụp một số hình ảnh và video.	Cả hai điện thoại đều được mở một số ứng dụng như Spotify , YouTube , cũng như ứng dụng máy ảnh để chụp một số hình ảnh và video .
+14	Sau một giờ sử dụng, iPhone 14 Pro Max và Google Pixel 7 Pro đều mất khoảng 10%, không có model nào nổi bật hơn.	Sau một giờ sử dụng , iPhone 14 Pro Max và Google Pixel 7 Pro đều mất khoảng 10% , không có model nào nổi bật hơn .
+15	Tuy nhiên, sau hai giờ sử dụng thì điện thoại iPhone cho kết quả tốt hơn khi chỉ mất 5% pin.	Tuy nhiên , sau hai giờ sử dụng thì điện thoại iPhone cho kết quả tốt hơn khi chỉ mất 5% pin .
+16	Khoảng cách hiệu suất của hai điện thoại thông minh ngày càng tăng khi thử nghiệm tiếp tục.	Khoảng cách hiệu suất của hai điện thoại thông minh ngày càng tăng khi thử nghiệm tiếp tục .
+17	alt: iPhone 14 Pro Max có thời lượng pin tốt hơn so với đối thủ	alt : iPhone 14 Pro Max có thời lượng pin tốt hơn so với đối thủ
+18	des:	des :
+19	iPhone 14 Pro Max có thời lượng pin tốt hơn so với đối thủ	iPhone 14 Pro Max có thời lượng pin tốt hơn so với đối thủ
+20	Không có bất kỳ ứng dụng cụ thể nào đặc biệt để đổ lỗi cho sự suy giảm thời lượng pin trên hai điện thoại.	Không có bất kỳ ứng dụng cụ thể nào đặc biệt để đổ lỗi cho sự suy giảm thời lượng pin trên hai điện thoại .
+21	Bài kiểm tra kết thúc khi Google Pixel 7 Pro đã hết cạn pin.	Bài kiểm tra kết thúc khi Google Pixel 7 Pro đã hết cạn pin .
+22	Trong khi trên iPhone 14 Pro Max vẫn còn 21%.	Trong khi trên iPhone 14 Pro Max vẫn còn 21% .
+23	Kết quả cho thấy model của Apple có thể kéo dài thời lượng sử dụng tối đa là 11 giờ 44 phút.	Kết quả cho thấy model của Apple có thể kéo dài thời lượng sử dụng tối đa là 11 giờ 44 phút .
+24	Đối thủ của iPhone 14 Pro Max - Pixel 7 Pro chỉ kéo dài 9 giờ 41 phút.	Đối thủ của iPhone 14 Pro Max - Pixel 7 Pro chỉ kéo dài 9 giờ 41 phút .
+25	Tuy nhiên, một lưu ý rằng Google Pixel 7 Pro vẫn mang đến hiệu suất mạnh mẽ tương tự như các đối thủ Android hiện nay.	Tuy nhiên , một lưu ý rằng Google Pixel 7 Pro vẫn mang đến hiệu suất mạnh mẽ tương tự như các đối thủ Android hiện nay .
+26	Có vẻ như, Apple đã tối ưu khá tốt giữa phần cứng và phần mềm giúp thời lượng pin trên flagship của mình trở nên tốt hơn.	Có vẻ như , Apple đã tối ưu khá tốt giữa phần cứng và phần mềm giúp thời lượng pin trên flagship của mình trở nên tốt hơn .
+{"subject": ["3-1&&iPhone", "3-2&&14", "3-3&&Pro", "3-4&&Max"], "object": ["3-7&&Google", "3-8&&Pixel", "3-9&&7", "3-10&&Pro"], "aspect": [], "predicate": ["3-11&&đều", "3-12&&là", "3-13&&những", "3-14&&điện", "3-15&&thoại", "3-16&&tốt", "3-17&&nhất", "3-18&&hiện", "3-19&&nay"], "label": "EQL"}
+{"subject": ["4-4&&hai", "4-5&&thiết", "4-6&&bị"], "object": ["4-4&&hai", "4-5&&thiết", "4-6&&bị"], "aspect": ["4-10&&viên", "4-11&&pin", "4-12&&có", "4-13&&dung", "4-14&&lượng", "4-15&&tương", "4-16&&đương"], "predicate": ["4-7&&đều", "4-8&&sở", "4-9&&hữu"], "label": "EQL"}
+{"subject": ["4-4&&hai", "4-5&&thiết", "4-6&&bị"], "object": ["4-4&&hai", "4-5&&thiết", "4-6&&bị"], "aspect": ["4-19&&tuổi", "4-20&&thọ", "4-21&&pin"], "predicate": ["4-22&&có", "4-23&&sự", "4-24&&chênh", "4-25&&lệch", "4-26&&khá", "4-27&&lớn"], "label": "DIF"}
+{"subject": ["15-12&&iPhone"], "object": [], "aspect": ["15-14&&kết", "15-15&&quả"], "predicate": ["15-16&&tốt", "15-17&&hơn"], "label": "COM+"}
+{"subject": ["19-1&&iPhone", "19-2&&14", "19-3&&Pro", "19-4&&Max"], "object": ["19-13&&đối", "19-14&&thủ"], "aspect": ["19-6&&thời", "19-7&&lượng", "19-8&&pin"], "predicate": ["19-9&&tốt", "19-10&&hơn"], "label": "COM+"}
+{"subject": ["25-8&&Google", "25-9&&Pixel", "25-10&&7", "25-11&&Pro"], "object": ["25-22&&các", "25-23&&đối", "25-24&&thủ", "25-25&&Android", "25-26&&hiện", "25-27&&nay"], "aspect": ["25-15&&hiệu", "25-16&&suất"], "predicate": ["25-17&&mạnh", "25-18&&mẽ", "25-19&&tương", "25-20&&tự"], "label": "EQL"}
