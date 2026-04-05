@@ -1,4 +1,6 @@
+import copy
 import os
+import re
 import time
 from typing import Dict, List
 
@@ -84,7 +86,16 @@ class HuggingFaceLocalClient(BaseLLMClient):
 
         model_kwargs = {
             "device_map": "auto",
+            "low_cpu_mem_usage": True,
         }
+        if torch.cuda.is_available():
+            model_kwargs["attn_implementation"] = "sdpa"
+
+            # Small models are often faster on a single T4 than when sharded across 2 GPUs.
+            match = re.search(r"(\d+(?:\.\d+)?)b", model.lower())
+            if match and float(match.group(1)) <= 4.5 and torch.cuda.device_count() > 1 and not load_in_4bit:
+                model_kwargs["device_map"] = {"": 0}
+
         if load_in_4bit:
             from transformers import BitsAndBytesConfig
             compute_dtype = model_dtype if model_dtype is not None else torch.float16
@@ -104,6 +115,39 @@ class HuggingFaceLocalClient(BaseLLMClient):
 
         if self.tokenizer.pad_token_id is None and self.tokenizer.eos_token_id is not None:
             self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
+
+    def _input_device(self):
+        if hasattr(self.model, "device"):
+            return self.model.device
+        return next(self.model.parameters()).device
+
+    def _generation_kwargs(self) -> Dict[str, object]:
+        do_sample = self.temperature > 0
+        gen_kwargs: Dict[str, object] = {
+            "max_new_tokens": self.max_output_tokens,
+            "do_sample": do_sample,
+            "use_cache": True,
+            "pad_token_id": self.tokenizer.pad_token_id,
+            "eos_token_id": self.tokenizer.eos_token_id,
+        }
+
+        if do_sample:
+            gen_kwargs["temperature"] = self.temperature
+            return gen_kwargs
+
+        generation_config = copy.deepcopy(self.model.generation_config)
+        generation_config.do_sample = False
+        for attr, value in (
+            ("temperature", 1.0),
+            ("top_p", 1.0),
+            ("top_k", 50),
+            ("typical_p", 1.0),
+            ("min_p", None),
+        ):
+            if hasattr(generation_config, attr):
+                setattr(generation_config, attr, value)
+        gen_kwargs["generation_config"] = generation_config
+        return gen_kwargs
 
     def _messages_to_prompt(self, messages: List[Dict[str, str]]) -> str:
         if hasattr(self.tokenizer, "apply_chat_template"):
@@ -126,17 +170,8 @@ class HuggingFaceLocalClient(BaseLLMClient):
 
         prompt = self._messages_to_prompt(messages)
         inputs = self.tokenizer(prompt, return_tensors="pt")
-        inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
-
-        do_sample = self.temperature > 0
-        gen_kwargs = {
-            "max_new_tokens": self.max_output_tokens,
-            "do_sample": do_sample,
-            "pad_token_id": self.tokenizer.pad_token_id,
-            "eos_token_id": self.tokenizer.eos_token_id,
-        }
-        if do_sample:
-            gen_kwargs["temperature"] = self.temperature
+        inputs = {k: v.to(self._input_device()) for k, v in inputs.items()}
+        gen_kwargs = self._generation_kwargs()
 
         with torch.inference_mode():
             output_ids = self.model.generate(**inputs, **gen_kwargs)
@@ -157,18 +192,10 @@ class HuggingFaceLocalClient(BaseLLMClient):
             return_tensors="pt",
             padding=True,
             truncation=True,
+            pad_to_multiple_of=8,
         )
-        encoded = {k: v.to(self.model.device) for k, v in encoded.items()}
-
-        do_sample = self.temperature > 0
-        gen_kwargs = {
-            "max_new_tokens": self.max_output_tokens,
-            "do_sample": do_sample,
-            "pad_token_id": self.tokenizer.pad_token_id,
-            "eos_token_id": self.tokenizer.eos_token_id,
-        }
-        if do_sample:
-            gen_kwargs["temperature"] = self.temperature
+        encoded = {k: v.to(self._input_device()) for k, v in encoded.items()}
+        gen_kwargs = self._generation_kwargs()
 
         with torch.inference_mode():
             output_ids = self.model.generate(**encoded, **gen_kwargs)
