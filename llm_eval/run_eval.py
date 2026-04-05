@@ -4,7 +4,8 @@ import os
 import re
 import sys
 import time
-from typing import Dict, List
+from collections import defaultdict
+from typing import DefaultDict, Dict, List
 
 # Allow running from any working directory (e.g., from a cloud notebook).
 _HERE = os.path.dirname(os.path.abspath(__file__))
@@ -263,6 +264,90 @@ def _save_predictions_raw_vcom(file_path: str, rows: List[Dict]) -> None:
             fp.write("\n")
 
 
+def _norm_key(text: str) -> str:
+    return re.sub(r"\s+", " ", (text or "").strip()).lower()
+
+
+def _save_predictions_raw_vcom_mapped(
+    file_path: str,
+    rows: List[Dict],
+    datasets_root: str,
+    split: str,
+) -> None:
+    """Write VCOM raw-format prediction file mapped to full raw split order.
+
+    - Keeps metadata filtering in dataloader unchanged.
+    - Reconstructs output over all raw sentence lines.
+    - For missing/filtered sentences, writes sentence line then blank line.
+    """
+    split_dir = os.path.join(datasets_root, "vcom-data", split)
+    if not os.path.isdir(split_dir):
+        # Fallback to existing behavior if raw directory is unavailable.
+        _save_predictions_raw_vcom(file_path, rows)
+        return
+
+    pred_by_sentence: DefaultDict[str, List[Dict]] = defaultdict(list)
+    for row in rows:
+        pred_by_sentence[_norm_key(row.get("input", ""))].append(row)
+
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w", encoding="utf-8") as fp:
+        for fn in sorted(x for x in os.listdir(split_dir) if x.endswith(".txt")):
+            path = os.path.join(split_dir, fn)
+            with open(path, "r", encoding="utf-8") as in_fp:
+                for raw_line in in_fp:
+                    line = raw_line.strip()
+                    if not line:
+                        continue
+                    if "\t" not in line or line.startswith("{"):
+                        continue
+
+                    parts = line.split("\t", 1)
+                    sent = parts[0].strip()
+                    tokenized_sent = parts[1].strip() if len(parts) > 1 else sent
+
+                    # Always keep raw sentence line from dataset.
+                    fp.write(f"{sent}\t{tokenized_sent}\n")
+
+                    key = _norm_key(sent)
+                    if not pred_by_sentence[key]:
+                        # Missing due to metadata filtering or other mismatch.
+                        fp.write("\n")
+                        continue
+
+                    row = pred_by_sentence[key].pop(0)
+                    pred = row.get("prediction", "")
+                    tuples = _parse_pred_tuples(pred)
+                    tokenized_tokens = tokenized_sent.split()
+
+                    wrote_any = False
+                    for t in tuples:
+                        if all(_is_unk_or_empty(t[k]) for k in ("S", "O", "A", "P", "L")):
+                            continue
+                        if _is_unk_or_empty(t["L"]):
+                            continue
+
+                        subj_slot = _to_indexed_slot(t["S"], sent, tokenized_tokens)
+                        obj_slot = _to_indexed_slot(t["O"], sent, tokenized_tokens)
+                        asp_slot = _to_indexed_slot(t["A"], sent, tokenized_tokens)
+                        pre_slot = _to_indexed_slot(t["P"], sent, tokenized_tokens)
+
+                        obj = {
+                            "subject": subj_slot.split() if subj_slot else [],
+                            "object": obj_slot.split() if obj_slot else [],
+                            "aspect": asp_slot.split() if asp_slot else [],
+                            "predicate": pre_slot.split() if pre_slot else [],
+                            "label": t["L"],
+                        }
+                        fp.write(json.dumps(obj, ensure_ascii=False) + "\n")
+                        wrote_any = True
+
+                    if not wrote_any:
+                        fp.write("\n")
+                    else:
+                        fp.write("\n")
+
+
 def _prediction_to_indexed_vcom(pred: str, sentence: str, tokenized_sentence: str) -> str:
     """Convert model prediction tuples to index-span tuples for evaluate_v1-style scoring."""
     tuples = _parse_pred_tuples(pred)
@@ -416,11 +501,17 @@ def _save_predictions_raw(file_path: str, rows: List[Dict]) -> None:
             fp.write(f"{row['input']}===>{row['prediction']}\n")
 
 
-def _save_predictions_raw_by_dataset(dataset_name: str, file_path: str, rows: List[Dict]) -> None:
+def _save_predictions_raw_by_dataset(
+    dataset_name: str,
+    file_path: str,
+    rows: List[Dict],
+    datasets_root: str,
+    split: str,
+) -> None:
     if dataset_name == "camera-coqe":
         _save_predictions_raw_camera(file_path, rows)
     elif dataset_name == "vcom-data":
-        _save_predictions_raw_vcom(file_path, rows)
+        _save_predictions_raw_vcom_mapped(file_path, rows, datasets_root=datasets_root, split=split)
     else:
         _save_predictions_raw(file_path, rows)
 
@@ -642,7 +733,13 @@ def main():
             metrics_csv = os.path.join(output_dir, dataset_name, args.split, f"metrics__{model_slug}.csv")
 
             _save_predictions(pred_file, prediction_rows)
-            _save_predictions_raw_by_dataset(dataset_name, pred_raw_file, prediction_rows)
+            _save_predictions_raw_by_dataset(
+                dataset_name,
+                pred_raw_file,
+                prediction_rows,
+                datasets_root=datasets_root,
+                split=args.split,
+            )
             _save_metrics(metrics_json, metrics)
             _save_metrics_csv(metrics_csv, metrics)
 
