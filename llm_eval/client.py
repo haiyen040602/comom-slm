@@ -76,19 +76,24 @@ class HuggingFaceLocalClient(BaseLLMClient):
         self.max_output_tokens = max_output_tokens
         self.model_name = model
 
-        torch_dtype = None
+        model_dtype = None
         if dtype == "float16":
-            torch_dtype = torch.float16
+            model_dtype = torch.float16
         elif dtype == "bfloat16":
-            torch_dtype = torch.bfloat16
+            model_dtype = torch.bfloat16
 
         model_kwargs = {
             "device_map": "auto",
         }
-        if torch_dtype is not None:
-            model_kwargs["torch_dtype"] = torch_dtype
         if load_in_4bit:
-            model_kwargs["load_in_4bit"] = True
+            from transformers import BitsAndBytesConfig
+            compute_dtype = model_dtype if model_dtype is not None else torch.float16
+            model_kwargs["quantization_config"] = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=compute_dtype,
+            )
+        elif model_dtype is not None:
+            model_kwargs["dtype"] = model_dtype
 
         self.tokenizer = AutoTokenizer.from_pretrained(model)
         self.model = AutoModelForCausalLM.from_pretrained(model, **model_kwargs)
