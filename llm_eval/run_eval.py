@@ -82,9 +82,81 @@ def _extract_json_payload(text: str) -> str:
     return raw
 
 
+def _recover_comparisons_from_truncated_json(payload: str) -> List[Dict]:
+    """Recover complete comparison objects from a truncated JSON payload.
+
+    Typical failure mode with small max_output_tokens:
+    {"comparisons": [{...}, {...}, {"label": ...
+    We keep fully closed objects and ignore the trailing incomplete one.
+    """
+    if not payload:
+        return []
+
+    key_idx = payload.find('"comparisons"')
+    if key_idx < 0:
+        return []
+
+    arr_start = payload.find("[", key_idx)
+    if arr_start < 0:
+        return []
+
+    items: List[Dict] = []
+    depth = 0
+    obj_start = -1
+    in_str = False
+    escape = False
+
+    for i in range(arr_start + 1, len(payload)):
+        ch = payload[i]
+
+        if in_str:
+            if escape:
+                escape = False
+                continue
+            if ch == "\\":
+                escape = True
+                continue
+            if ch == '"':
+                in_str = False
+            continue
+
+        if ch == '"':
+            in_str = True
+            continue
+
+        if ch == "{":
+            if depth == 0:
+                obj_start = i
+            depth += 1
+            continue
+
+        if ch == "}":
+            if depth > 0:
+                depth -= 1
+                if depth == 0 and obj_start >= 0:
+                    obj_text = payload[obj_start : i + 1]
+                    try:
+                        obj = json.loads(obj_text)
+                        if isinstance(obj, dict):
+                            items.append(obj)
+                    except Exception:
+                        pass
+                    obj_start = -1
+            continue
+
+    return items
+
+
 def _json_prediction_to_textual(prediction_text: str) -> str:
     payload = _extract_json_payload(prediction_text)
-    data = json.loads(payload)
+    try:
+        data = json.loads(payload)
+    except json.JSONDecodeError:
+        recovered_items = _recover_comparisons_from_truncated_json(payload)
+        if recovered_items:
+            data = {"comparisons": recovered_items}
+        else:
+            raise
 
     if isinstance(data, dict):
         if "comparisons" in data and isinstance(data["comparisons"], list):
