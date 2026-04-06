@@ -566,11 +566,11 @@ def _slugify(text: str) -> str:
     return text.strip("_")
 
 
-def _load_cache(cache_file: str) -> Dict[str, str]:
+def _load_cache(cache_file: str) -> Dict[str, Dict[str, str]]:
     if not os.path.exists(cache_file):
         return {}
 
-    cache = {}
+    cache: Dict[str, Dict[str, str]] = {}
     with open(cache_file, "r", encoding="utf-8") as fp:
         for line in fp:
             line = line.strip()
@@ -580,16 +580,21 @@ def _load_cache(cache_file: str) -> Dict[str, str]:
                 row = json.loads(line)
                 key = row.get("input", "")
                 val = row.get("prediction", "")
+                raw_val = row.get("raw_prediction", val)
                 if key:
-                    cache[key] = val
+                    cache[key] = {"prediction": val, "raw_prediction": raw_val}
             except json.JSONDecodeError:
                 continue
     return cache
 
 
-def _append_cache(cache_file: str, sentence: str, prediction: str) -> None:
+def _append_cache(cache_file: str, sentence: str, prediction: str, raw_prediction: str = "") -> None:
     os.makedirs(os.path.dirname(cache_file), exist_ok=True)
-    row = {"input": sentence, "prediction": prediction}
+    row = {
+        "input": sentence,
+        "prediction": prediction,
+        "raw_prediction": raw_prediction if raw_prediction else prediction,
+    }
     with open(cache_file, "a", encoding="utf-8") as fp:
         fp.write(json.dumps(row, ensure_ascii=False) + "\n")
 
@@ -606,6 +611,14 @@ def _save_predictions_raw(file_path: str, rows: List[Dict]) -> None:
     with open(file_path, "w", encoding="utf-8") as fp:
         for row in rows:
             fp.write(f"{row['input']}===>{row['prediction']}\n")
+
+
+def _save_predictions_raw_model_output(file_path: str, rows: List[Dict]) -> None:
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w", encoding="utf-8") as fp:
+        for row in rows:
+            raw_pred = row.get("raw_prediction", row.get("prediction", ""))
+            fp.write(f"{row['input']}===>{raw_pred}\n")
 
 
 def _save_predictions_raw_by_dataset(
@@ -634,6 +647,25 @@ def _save_metrics_csv(file_path: str, metrics: Dict[str, Dict[str, float]]) -> N
     with open(file_path, "w", encoding="utf-8") as fp:
         for line in metrics_to_lines(metrics):
             fp.write(line + "\n")
+
+
+def _debug_log_sample(sample_idx: int, debug_samples: int, messages: List[Dict[str, str]], output_text: str) -> None:
+    """Write debug logs in a tqdm-friendly way so progress bars do not hide output."""
+    sep = "-" * 60
+    prompt_text = "\n".join(f"[{m['role'].upper()}] {m['content']}" for m in messages)
+    lines = [
+        "",
+        sep,
+        f"[DEBUG sample {sample_idx + 1}/{debug_samples}]",
+        prompt_text,
+        f"[OUTPUT] {output_text}",
+        sep,
+    ]
+    for line in lines:
+        try:
+            tqdm.write(line)
+        except Exception:
+            print(line, flush=True)
 
 
 def main():
@@ -705,13 +737,15 @@ def main():
                     )
 
                 pred_by_idx: Dict[int, str] = {}
+                raw_pred_by_idx: Dict[int, str] = {}
                 uncached_indices: List[int] = []
                 uncached_messages: List[List[Dict[str, str]]] = []
 
                 for idx, sample in enumerate(samples):
                     sentence = sample["input"]
                     if sentence in cache:
-                        pred_by_idx[idx] = cache[sentence]
+                        pred_by_idx[idx] = cache[sentence].get("prediction", "")
+                        raw_pred_by_idx[idx] = cache[sentence].get("raw_prediction", pred_by_idx[idx])
                     else:
                         uncached_indices.append(idx)
                         uncached_messages.append(all_messages[idx])
@@ -727,22 +761,18 @@ def main():
                         raw_pred = chunk_preds_raw[local_i]
                         pred = _normalize_model_output(raw_pred, args.output_format)
                         pred_by_idx[global_i] = pred
-                        _append_cache(cache_file, samples[global_i]["input"], pred)
+                        raw_pred_by_idx[global_i] = raw_pred
+                        _append_cache(cache_file, samples[global_i]["input"], pred, raw_pred)
 
                 for sample_idx, sample in enumerate(samples):
                     sentence = sample["input"]
                     gold = sample["output"]
                     pred = pred_by_idx[sample_idx]
+                    raw_pred = raw_pred_by_idx.get(sample_idx, pred)
                     messages = all_messages[sample_idx]
 
                     if args.debug_samples > 0 and sample_idx < args.debug_samples:
-                        sep = "-" * 60
-                        prompt_text = "\n".join(f"[{m['role'].upper()}] {m['content']}" for m in messages)
-                        print(f"\n{sep}", flush=True)
-                        print(f"[DEBUG sample {sample_idx + 1}/{args.debug_samples}]", flush=True)
-                        print(prompt_text, flush=True)
-                        print(f"[OUTPUT] {pred}", flush=True)
-                        print(sep, flush=True)
+                        _debug_log_sample(sample_idx, args.debug_samples, messages, raw_pred)
 
                     metric_pred = pred
                     if args.match_mode == "index-match":
@@ -766,6 +796,7 @@ def main():
                             "tokenized_input": sample.get("tokenized_input", sentence),
                             "gold": gold,
                             "prediction": pred,
+                            "raw_prediction": raw_pred,
                         }
                     )
             else:
@@ -782,20 +813,15 @@ def main():
                         output_format=args.output_format,
                     )
                     if sentence in cache:
-                        pred = cache[sentence]
+                        pred = cache[sentence].get("prediction", "")
+                        raw_pred = cache[sentence].get("raw_prediction", pred)
                     else:
                         raw_pred = client.generate(messages)
                         pred = _normalize_model_output(raw_pred, args.output_format)
-                        _append_cache(cache_file, sentence, pred)
+                        _append_cache(cache_file, sentence, pred, raw_pred)
 
                     if args.debug_samples > 0 and sample_idx < args.debug_samples:
-                        sep = "-" * 60
-                        prompt_text = "\n".join(f"[{m['role'].upper()}] {m['content']}" for m in messages)
-                        print(f"\n{sep}", flush=True)
-                        print(f"[DEBUG sample {sample_idx + 1}/{args.debug_samples}]", flush=True)
-                        print(prompt_text, flush=True)
-                        print(f"[OUTPUT] {pred}", flush=True)
-                        print(sep, flush=True)
+                        _debug_log_sample(sample_idx, args.debug_samples, messages, raw_pred)
 
                     metric_pred = pred
                     if args.match_mode == "index-match":
@@ -819,6 +845,7 @@ def main():
                             "tokenized_input": sample.get("tokenized_input", sentence),
                             "gold": gold,
                             "prediction": pred,
+                            "raw_prediction": raw_pred,
                         }
                     )
 
@@ -845,13 +872,15 @@ def main():
 
             pred_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.jsonl")
             pred_raw_file = os.path.join(output_dir, dataset_name, args.split, f"predictions__{model_slug}.txt")
+            pred_indexed_file = os.path.join(output_dir, dataset_name, args.split, f"predictions_indexed__{model_slug}.txt")
             metrics_json = os.path.join(output_dir, dataset_name, args.split, f"metrics__{model_slug}.json")
             metrics_csv = os.path.join(output_dir, dataset_name, args.split, f"metrics__{model_slug}.csv")
 
             _save_predictions(pred_file, prediction_rows)
+            _save_predictions_raw_model_output(pred_raw_file, prediction_rows)
             _save_predictions_raw_by_dataset(
                 dataset_name,
-                pred_raw_file,
+                pred_indexed_file,
                 prediction_rows,
                 datasets_root=datasets_root,
                 split=args.split,
