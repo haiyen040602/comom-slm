@@ -26,6 +26,7 @@ _PRED_TUPLE_RE = re.compile(
 )
 
 _WORD_RE = re.compile(r"\w+|[^\w\s]", re.UNICODE)
+_EMPTY_TUPLE_TEXT = "([S] [UNK] [O] [UNK] [A] [UNK] [P] [UNK] [L] [UNK])"
 
 
 def _parse_pred_tuples(text: str) -> List[Dict[str, str]]:
@@ -37,6 +38,105 @@ def _parse_pred_tuples(text: str) -> List[Dict[str, str]]:
         s, o, a, p, l = (x.strip() for x in m.groups())
         tuples.append({"S": s, "O": o, "A": a, "P": p, "L": l})
     return tuples
+
+
+def _to_slot_text(value) -> str:
+    if value is None:
+        return "[UNK]"
+    if isinstance(value, list):
+        value = " ".join(str(x) for x in value)
+    text = str(value).strip()
+    return text if text else "[UNK]"
+
+
+def _tuples_to_textual_prediction(tuples: List[Dict[str, str]]) -> str:
+    out: List[str] = []
+    for t in tuples:
+        s = _to_slot_text(t.get("S"))
+        o = _to_slot_text(t.get("O"))
+        a = _to_slot_text(t.get("A"))
+        p = _to_slot_text(t.get("P"))
+        l = _to_slot_text(t.get("L"))
+        if all(x == "[UNK]" for x in (s, o, a, p, l)):
+            continue
+        out.append(f"([S] {s} [O] {o} [A] {a} [P] {p} [L] {l})")
+    return " ; ".join(out) if out else _EMPTY_TUPLE_TEXT
+
+
+def _extract_json_payload(text: str) -> str:
+    raw = (text or "").strip()
+    if raw.startswith("```"):
+        m = re.search(r"```(?:json)?\s*(.*?)\s*```", raw, flags=re.DOTALL | re.IGNORECASE)
+        if m:
+            raw = m.group(1).strip()
+
+    starts = [i for i in [raw.find("{"), raw.find("[")] if i >= 0]
+    if not starts:
+        return raw
+    start = min(starts)
+    end_obj = raw.rfind("}")
+    end_arr = raw.rfind("]")
+    end = max(end_obj, end_arr)
+    if end > start:
+        return raw[start : end + 1]
+    return raw
+
+
+def _json_prediction_to_textual(prediction_text: str) -> str:
+    payload = _extract_json_payload(prediction_text)
+    data = json.loads(payload)
+
+    if isinstance(data, dict):
+        if "comparisons" in data and isinstance(data["comparisons"], list):
+            items = data["comparisons"]
+        elif "quintuples" in data and isinstance(data["quintuples"], list):
+            items = data["quintuples"]
+        elif any(k in data for k in ("S", "O", "A", "P", "L", "subject", "object", "aspect", "predicate", "label")):
+            items = [data]
+        else:
+            items = []
+    elif isinstance(data, list):
+        items = data
+    else:
+        items = []
+
+    tuples: List[Dict[str, str]] = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        label_val = item.get("L", item.get("label", "[UNK]"))
+        if isinstance(label_val, str) and label_val.strip().upper() == "DIFF":
+            label_val = "DIF"
+
+        entities_val = item.get("entities", [])
+        if isinstance(entities_val, list):
+            ent_s = entities_val[0] if len(entities_val) > 0 else "[UNK]"
+            ent_o = entities_val[1] if len(entities_val) > 1 else "[UNK]"
+        else:
+            ent_s = "[UNK]"
+            ent_o = "[UNK]"
+
+        tuples.append(
+            {
+                "S": item.get("S", item.get("subject", ent_s)),
+                "O": item.get("O", item.get("object", ent_o)),
+                "A": item.get("A", item.get("aspect", "[UNK]")),
+                "P": item.get("P", item.get("predicate", "[UNK]")),
+                "L": label_val,
+            }
+        )
+
+    return _tuples_to_textual_prediction(tuples)
+
+
+def _normalize_model_output(raw_prediction: str, output_format: str) -> str:
+    if output_format == "json":
+        try:
+            return _json_prediction_to_textual(raw_prediction)
+        except Exception:
+            # Fallback to textual parser if model did not follow JSON contract.
+            return raw_prediction
+    return raw_prediction
 
 
 def _is_unk_or_empty(text: str) -> bool:
@@ -442,6 +542,13 @@ def parse_args():
         choices=["index-match", "non-index-match"],
         help="Metric matching mode: index-match (position-aware) or non-index-match (phrase-aware)",
     )
+    parser.add_argument(
+        "--output-format",
+        type=str,
+        default="json",
+        choices=["json", "textual"],
+        help="Model output format expected by prompts. json=structured JSON; textual=legacy tuple string.",
+    )
     return parser.parse_args()
 
 
@@ -550,7 +657,12 @@ def main():
         for model_name in args.models:
             print(f"  Evaluating model: {model_name}", flush=True)
             model_slug = _slugify(model_name)
-            cache_file = os.path.join(cache_dir, dataset_name, args.split, f"{model_slug}.jsonl")
+            cache_file = os.path.join(
+                cache_dir,
+                dataset_name,
+                args.split,
+                f"{model_slug}__{args.prompt_strategy}__{args.output_format}.jsonl",
+            )
             cache = _load_cache(cache_file)
 
             if args.provider == "openrouter":
@@ -588,6 +700,7 @@ def main():
                             language=language,
                             dataset=dataset_name,
                             strategy=args.prompt_strategy,
+                            output_format=args.output_format,
                         )
                     )
 
@@ -609,9 +722,10 @@ def main():
                 ):
                     chunk_idx = uncached_indices[start : start + args.inference_batch_size]
                     chunk_msgs = uncached_messages[start : start + args.inference_batch_size]
-                    chunk_preds = client.generate_batch(chunk_msgs)
+                    chunk_preds_raw = client.generate_batch(chunk_msgs)
                     for local_i, global_i in enumerate(chunk_idx):
-                        pred = chunk_preds[local_i]
+                        raw_pred = chunk_preds_raw[local_i]
+                        pred = _normalize_model_output(raw_pred, args.output_format)
                         pred_by_idx[global_i] = pred
                         _append_cache(cache_file, samples[global_i]["input"], pred)
 
@@ -665,11 +779,13 @@ def main():
                         language=language,
                         dataset=dataset_name,
                         strategy=args.prompt_strategy,
+                        output_format=args.output_format,
                     )
                     if sentence in cache:
                         pred = cache[sentence]
                     else:
-                        pred = client.generate(messages)
+                        raw_pred = client.generate(messages)
+                        pred = _normalize_model_output(raw_pred, args.output_format)
                         _append_cache(cache_file, sentence, pred)
 
                     if args.debug_samples > 0 and sample_idx < args.debug_samples:

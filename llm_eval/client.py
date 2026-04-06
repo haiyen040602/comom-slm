@@ -1,4 +1,5 @@
 import os
+import re
 import time
 from typing import Dict, List
 
@@ -90,6 +91,11 @@ class HuggingFaceLocalClient(BaseLLMClient):
         }
         if torch.cuda.is_available():
             model_kwargs["attn_implementation"] = "sdpa"
+
+            # Small models are often faster on a single T4 than when sharded across 2 GPUs.
+            match = re.search(r"(\d+(?:\.\d+)?)b", model.lower())
+            if match and float(match.group(1)) <= 4.5 and torch.cuda.device_count() > 1 and not load_in_4bit:
+                model_kwargs["device_map"] = {"": 0}
 
         if load_in_4bit:
             from transformers import BitsAndBytesConfig
