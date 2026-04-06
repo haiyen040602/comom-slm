@@ -177,7 +177,7 @@ def _json_label_rules(dataset: str, is_vi: bool) -> str:
             return "\n".join(
                 [
                     "- COM+: so sánh hơn theo hướng tích cực, subject được đánh giá tốt hơn object.",
-                    "- COM-: so sánh theo hướng tiêu cực, subject được đánh giá kém hơn object.",
+                    "- COM-: so sánh hơn theo hướng tiêu cực, subject được đánh giá kém hơn object.",
                     "- COM: có quan hệ so sánh hơn nhưng không rõ hướng tốt/xấu.",
                     "- SUP+: so sánh bậc nhất theo hướng tích cực, subject được đánh giá tốt nhất.",
                     "- SUP-: so sánh bậc nhất theo hướng tiêu cực, subject được đánh giá kém nhất.",
