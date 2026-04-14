@@ -53,7 +53,12 @@ class OpenAICompatibleClient(BaseLLMClient):
             except Exception as exc:
                 last_error = exc
                 if attempt < self.max_retries:
-                    time.sleep(1.5 * attempt)
+                    err_text = str(exc).lower()
+                    # Free-tier routes are frequently throttled; use stronger backoff on 429.
+                    if "429" in err_text or "rate-limit" in err_text or "rate limited" in err_text:
+                        time.sleep(4.0 * attempt)
+                    else:
+                        time.sleep(1.5 * attempt)
 
         err_text = str(last_error)
         if "401" in err_text and "Missing Authentication header" in err_text:

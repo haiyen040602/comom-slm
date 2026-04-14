@@ -872,6 +872,7 @@ def main():
                         }
                     )
             else:
+                failed_samples = 0
                 for sample_idx, sample in enumerate(tqdm(samples, desc=f"{dataset_name} | {model_slug}")):
                     sentence = sample["input"]
                     gold = sample["output"]
@@ -888,9 +889,25 @@ def main():
                         pred = cache[sentence].get("prediction", "")
                         raw_pred = cache[sentence].get("raw_prediction", pred)
                     else:
-                        raw_pred = client.generate(messages)
-                        pred = _normalize_model_output(raw_pred, args.output_format)
-                        _append_cache(cache_file, sentence, pred, raw_pred)
+                        try:
+                            raw_pred = client.generate(messages)
+                            pred = _normalize_model_output(raw_pred, args.output_format)
+                            _append_cache(cache_file, sentence, pred, raw_pred)
+                        except Exception as exc:
+                            failed_samples += 1
+                            raw_pred = f"[ERROR] {type(exc).__name__}: {exc}"
+                            pred = _EMPTY_TUPLE_TEXT
+                            try:
+                                tqdm.write(
+                                    f"[WARN] Request failed at sample {sample_idx + 1}/{len(samples)} "
+                                    f"for {dataset_name} | {model_name}: {exc}"
+                                )
+                            except Exception:
+                                print(
+                                    f"[WARN] Request failed at sample {sample_idx + 1}/{len(samples)} "
+                                    f"for {dataset_name} | {model_name}: {exc}",
+                                    flush=True,
+                                )
 
                     if args.debug_samples > 0 and sample_idx < args.debug_samples:
                         _debug_log_sample(sample_idx, args.debug_samples, messages, raw_pred)
@@ -923,6 +940,12 @@ def main():
 
                     if args.sleep_seconds > 0:
                         time.sleep(args.sleep_seconds)
+
+                if failed_samples > 0:
+                    print(
+                        f"    Warning: {failed_samples}/{len(samples)} samples failed and were filled with [UNK] tuples.",
+                        flush=True,
+                    )
 
             _DATASET_LABEL_ORDER = {
                 "camera-coqe": CAMERA_COQE_LABEL_ORDER,
