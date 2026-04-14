@@ -789,6 +789,9 @@ def main():
             predictions = []
             gold_labels = []
             prediction_rows = []
+            cache_hits = 0
+            api_calls = 0
+            failed_samples = 0
 
             # Fast path for local HF inference: batch uncached requests.
             use_hf_batch = args.provider == "hf-local" and args.inference_batch_size > 1
@@ -816,9 +819,11 @@ def main():
                 for idx, sample in enumerate(samples):
                     sentence = sample["input"]
                     if sentence in cache:
+                        cache_hits += 1
                         pred_by_idx[idx] = cache[sentence].get("prediction", "")
                         raw_pred_by_idx[idx] = cache[sentence].get("raw_prediction", pred_by_idx[idx])
                     else:
+                        api_calls += 1
                         uncached_indices.append(idx)
                         uncached_messages.append(all_messages[idx])
 
@@ -872,11 +877,11 @@ def main():
                         }
                     )
             else:
-                failed_samples = 0
                 for sample_idx, sample in enumerate(tqdm(samples, desc=f"{dataset_name} | {model_slug}")):
                     sentence = sample["input"]
                     gold = sample["output"]
                     language = sample.get("language", "auto")
+                    did_api_call = False
 
                     messages = build_messages(
                         sentence,
@@ -886,9 +891,12 @@ def main():
                         output_format=args.output_format,
                     )
                     if sentence in cache:
+                        cache_hits += 1
                         pred = cache[sentence].get("prediction", "")
                         raw_pred = cache[sentence].get("raw_prediction", pred)
                     else:
+                        did_api_call = True
+                        api_calls += 1
                         try:
                             raw_pred = client.generate(messages)
                             pred = _normalize_model_output(raw_pred, args.output_format)
@@ -938,7 +946,7 @@ def main():
                         }
                     )
 
-                    if args.sleep_seconds > 0:
+                    if did_api_call and args.sleep_seconds > 0:
                         time.sleep(args.sleep_seconds)
 
                 if failed_samples > 0:
@@ -1008,6 +1016,10 @@ def main():
                 f"E-T4-F1={e_t4_f1:.4f}  "
                 f"E-CEE-MICRO-F1={e_cee_micro_f1:.4f}  "
                 f"SENT-CMP-F1={sent_cmp_f1:.4f}",
+                flush=True,
+            )
+            print(
+                f"    cache_hits={cache_hits}  api_calls={api_calls}  failed_samples={failed_samples}",
                 flush=True,
             )
 
