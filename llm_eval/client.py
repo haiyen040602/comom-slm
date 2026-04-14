@@ -26,9 +26,12 @@ class OpenAICompatibleClient(BaseLLMClient):
         timeout: float = 120.0,
         max_retries: int = 3,
     ) -> None:
-        api_key = os.getenv(api_key_env)
-        if not api_key:
-            raise ValueError(f"Environment variable {api_key_env} is not set")
+        api_key = (os.getenv(api_key_env) or "").strip()
+        if not api_key or api_key.lower() in {"none", "null", "undefined"}:
+            raise ValueError(
+                f"Environment variable {api_key_env} is not set or invalid. "
+                f"If you are on Colab/Kaggle, ensure the secret exists and rerun the key-loading cell in the current runtime."
+            )
 
         self.model = model
         self.temperature = temperature
@@ -51,6 +54,15 @@ class OpenAICompatibleClient(BaseLLMClient):
                 last_error = exc
                 if attempt < self.max_retries:
                     time.sleep(1.5 * attempt)
+
+        err_text = str(last_error)
+        if "401" in err_text and "Missing Authentication header" in err_text:
+            raise RuntimeError(
+                "LLM request failed with 401 Missing Authentication header. "
+                "This usually means the API key was not attached in this runtime. "
+                "Please verify the secret value and rerun the key-loading cell before smoke test. "
+                "For OpenRouter, the env var should be OPENROUTER_API_KEY."
+            )
 
         raise RuntimeError(f"LLM request failed after {self.max_retries} retries: {last_error}")
 
