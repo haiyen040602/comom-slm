@@ -588,6 +588,11 @@ def parse_args():
     parser.add_argument("--hf-load-in-4bit", action="store_true")
     parser.add_argument("--temperature", type=float, default=0.0)
     parser.add_argument("--max-output-tokens", type=int, default=256)
+    parser.add_argument(
+        "--disable-thinking",
+        action="store_true",
+        help="Request provider/model to disable reasoning/thinking mode when supported.",
+    )
     parser.add_argument("--sleep-seconds", type=float, default=0.0)
     parser.add_argument("--limit", type=int, default=0, help="Set >0 for quick smoke tests")
     parser.add_argument("--debug-samples", type=int, default=0, help="Print prompt+output for first N samples per model")
@@ -776,6 +781,7 @@ def main():
                     api_key_env=args.api_key_env,
                     temperature=args.temperature,
                     max_output_tokens=args.max_output_tokens,
+                    disable_thinking=args.disable_thinking,
                 )
             else:
                 client = HuggingFaceLocalClient(

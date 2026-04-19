@@ -25,6 +25,7 @@ class OpenAICompatibleClient(BaseLLMClient):
         max_output_tokens: int = 256,
         timeout: float = 120.0,
         max_retries: int = 3,
+        disable_thinking: bool = False,
     ) -> None:
         api_key = (os.getenv(api_key_env) or "").strip()
         if not api_key or api_key.lower() in {"none", "null", "undefined"}:
@@ -37,23 +38,44 @@ class OpenAICompatibleClient(BaseLLMClient):
         self.temperature = temperature
         self.max_output_tokens = max_output_tokens
         self.max_retries = max_retries
+        self.disable_thinking = disable_thinking
+        self._thinking_extra_supported = disable_thinking
         self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=timeout)
 
     def generate(self, messages: List[Dict[str, str]]) -> str:
         last_error = None
         for attempt in range(1, self.max_retries + 1):
             try:
-                response = self.client.chat.completions.create(
-                    model=self.model,
-                    messages=messages,
-                    temperature=self.temperature,
-                    max_tokens=self.max_output_tokens,
-                )
+                request_kwargs = {
+                    "model": self.model,
+                    "messages": messages,
+                    "temperature": self.temperature,
+                    "max_tokens": self.max_output_tokens,
+                }
+                if self._thinking_extra_supported:
+                    # Qwen-family reasoning models support enable_thinking=False
+                    # in OpenAI-compatible APIs (e.g., OpenRouter passthrough).
+                    request_kwargs["extra_body"] = {"enable_thinking": False}
+
+                response = self.client.chat.completions.create(**request_kwargs)
                 return (response.choices[0].message.content or "").strip()
             except Exception as exc:
+                err_text_raw = str(exc)
+                err_text = err_text_raw.lower()
+
+                # If provider/model rejects thinking control params, disable once and retry.
+                if self._thinking_extra_supported and (
+                    "enable_thinking" in err_text
+                    or "extra_body" in err_text
+                    or "unknown parameter" in err_text
+                    or "unsupported" in err_text
+                ):
+                    self._thinking_extra_supported = False
+                    last_error = exc
+                    continue
+
                 last_error = exc
                 if attempt < self.max_retries:
-                    err_text = str(exc).lower()
                     # Free-tier routes are frequently throttled; use stronger backoff on 429.
                     if "429" in err_text or "rate-limit" in err_text or "rate limited" in err_text:
                         time.sleep(4.0 * attempt)
